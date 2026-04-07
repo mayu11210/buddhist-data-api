@@ -3,7 +3,7 @@ import path from 'path';
 
 interface MikkyouEntry {
   section: string;
-  pages: string;
+  pages?: string;
   source: string;
   text: string;
 }
@@ -22,21 +22,15 @@ export function getTemplate(type: 'hyobyaku' | 'fusonmon'): object | null {
   }
 }
 
-/**
- * 信頼できる仏教辞典データから関連テキストを検索する
- * ハルシネーション防止のため、このデータに存在する用語のみ参照する
- */
-export function searchBuddhistData(keywords: string[], maxChars = 2000): string {
-  const dataDir = path.join(process.cwd(), 'data', 'mikkyou');
+function searchDir(dirPath: string, keywords: string[]): string[] {
+  if (!fs.existsSync(dirPath)) return [];
 
-  if (!fs.existsSync(dataDir)) return '';
-
-  const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
+  const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.json'));
   const results: string[] = [];
 
   for (const file of files) {
     try {
-      const raw = fs.readFileSync(path.join(dataDir, file), 'utf-8');
+      const raw = fs.readFileSync(path.join(dirPath, file), 'utf-8');
       const entry: MikkyouEntry = JSON.parse(raw);
       const text = entry.text;
 
@@ -64,6 +58,22 @@ export function searchBuddhistData(keywords: string[], maxChars = 2000): string 
       // ファイル読み込みエラーは無視
     }
   }
+
+  return results;
+}
+
+/**
+ * 信頼できる仏教辞典データから関連テキストを検索する
+ * ハルシネーション防止のため、このデータに存在する用語のみ参照する
+ */
+export function searchBuddhistData(keywords: string[], maxChars = 2000): string {
+  const mikkyouDir = path.join(process.cwd(), 'data', 'mikkyou');
+  const kukaiDir = path.join(process.cwd(), 'data', 'kukai');
+
+  const results = [
+    ...searchDir(mikkyouDir, keywords),
+    ...searchDir(kukaiDir, keywords),
+  ];
 
   if (results.length === 0) return '';
 
