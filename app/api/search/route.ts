@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { searchBuddhistData } from '@/lib/search';
+import { searchBuddhistData, getTemplate } from '@/lib/search';
 
 // 許可するアクセス元（戒名アプリ・法話アプリなど）
 const ALLOWED_ORIGINS = [
@@ -9,19 +9,22 @@ const ALLOWED_ORIGINS = [
   // 将来のアプリを追加する場合はここに追記
 ];
 
-export async function POST(req: NextRequest) {
-  // CORS設定
-  const origin = req.headers.get('origin') || '';
+function getCorsHeaders(origin: string): Record<string, string> {
   const isAllowed = ALLOWED_ORIGINS.some(o => origin.startsWith(o)) || origin === '';
-
-  const corsHeaders: Record<string, string> = {
-    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  const headers: Record<string, string> = {
+    'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type, Authorization',
   };
-
   if (isAllowed) {
-    corsHeaders['Access-Control-Allow-Origin'] = origin || '*';
+    headers['Access-Control-Allow-Origin'] = origin || '*';
   }
+  return headers;
+}
+
+// キーワード検索
+export async function POST(req: NextRequest) {
+  const origin = req.headers.get('origin') || '';
+  const corsHeaders = getCorsHeaders(origin);
 
   try {
     const body = await req.json();
@@ -54,6 +57,31 @@ export async function POST(req: NextRequest) {
   }
 }
 
+// テンプレート取得（GET /api/search?template=hyobyaku または fusonmon）
+export async function GET(req: NextRequest) {
+  const origin = req.headers.get('origin') || '';
+  const corsHeaders = getCorsHeaders(origin);
+
+  const { searchParams } = new URL(req.url);
+  const templateType = searchParams.get('template');
+
+  if (templateType === 'hyobyaku' || templateType === 'fusonmon') {
+    const data = getTemplate(templateType);
+    if (!data) {
+      return NextResponse.json(
+        { error: 'テンプレートが見つかりません' },
+        { status: 404, headers: corsHeaders }
+      );
+    }
+    return NextResponse.json(data, { headers: corsHeaders });
+  }
+
+  return NextResponse.json(
+    { error: 'template パラメータに hyobyaku または fusonmon を指定してください' },
+    { status: 400, headers: corsHeaders }
+  );
+}
+
 // プリフライトリクエスト対応
 export async function OPTIONS(req: NextRequest) {
   const origin = req.headers.get('origin') || '';
@@ -61,7 +89,7 @@ export async function OPTIONS(req: NextRequest) {
     status: 204,
     headers: {
       'Access-Control-Allow-Origin': origin || '*',
-      'Access-Control-Allow-Methods': 'POST, OPTIONS',
+      'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
       'Access-Control-Allow-Headers': 'Content-Type, Authorization',
     },
   });

@@ -9,6 +9,20 @@ interface MikkyouEntry {
 }
 
 /**
+ * テンプレートデータ（表白文・諷誦文）を取得する
+ */
+export function getTemplate(type: 'hyobyaku' | 'fusonmon'): object | null {
+  const filePath = path.join(process.cwd(), 'data', 'templates', `${type}.json`);
+  if (!fs.existsSync(filePath)) return null;
+  try {
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+/**
  * 信頼できる仏教辞典データから関連テキストを検索する
  * ハルシネーション防止のため、このデータに存在する用語のみ参照する
  */
