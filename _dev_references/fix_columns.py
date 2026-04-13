@@ -44,6 +44,11 @@ OUTPUT_FILE = Path(__file__).parent / "shoryoshu_kakikudashi.txt"
 COMMENT_PATTERN = re.compile(r"^#{1,}")
 PAGE_DELIMITER  = re.compile(r"^===")  # === ページ N === 形式
 
+# ルビ（振り仮名）検出パターン
+# ひらがな・カタカナ・長音符・スペースのみからなる短い行をルビとみなす
+RUBY_PATTERN = re.compile(r"^[\u3040-\u309F\u30A0-\u30FC\s]+$")
+MAX_RUBY_LEN = 10  # これ以下の文字数（strip後）をルビとみなす
+
 
 # ───── ユーティリティ ────────────────────────────────────────────
 def is_comment(line: str) -> bool:
@@ -58,8 +63,18 @@ def is_empty(line: str) -> bool:
     return line.strip() == ""
 
 
+def is_ruby(line: str) -> bool:
+    """ひらがな・カタカナのみからなる短い行（ルビ）かどうかを判定する"""
+    stripped = line.strip()
+    if not stripped:
+        return False
+    if len(stripped) > MAX_RUBY_LEN:
+        return False
+    return bool(RUBY_PATTERN.match(stripped))
+
+
 # ───── 列逆順モード（パターン A: 1列 = 1行）────────────────────
-def process_singleline_mode(lines: list[str], debug: bool = False) -> list[str]:
+def process_singleline_mode(lines: list[str], debug: bool = False, strip_ruby: bool = True) -> list[str]:
     """
     空行を列の区切りとし、「===」をページ区切りとして扱う。
     ページ内の列（各空行で区切られたブロック）を逆順にする。
@@ -117,6 +132,12 @@ def process_singleline_mode(lines: list[str], debug: bool = False) -> list[str]:
                 output.append("")
             continue
 
+        # ルビ行（ひらがな・カタカナのみの短い行）をスキップ
+        if strip_ruby and is_ruby(line):
+            if debug:
+                print(f"[DEBUG] ルビ除去: {line!r}", file=sys.stderr)
+            continue
+
         # 通常行 → 現在のブロックに追加
         current_block.append(line)
 
@@ -131,14 +152,14 @@ def process_singleline_mode(lines: list[str], debug: bool = False) -> list[str]:
 
 
 # ───── 多行列モード（パターン B: 1文字 = 1行、空行で列分割）────
-def process_multiline_mode(lines: list[str], debug: bool = False) -> list[str]:
+def process_multiline_mode(lines: list[str], debug: bool = False, strip_ruby: bool = True) -> list[str]:
     """
     空行を列の区切りとして扱い、列内は複数行のまま。
     ページ区切り（===）内で列を逆順にする。
     パターン A と同じロジックだが、ブロック内に複数行が入る。
     """
     # 実装は singleline と同一（ブロック内の処理が同じ）
-    return process_singleline_mode(lines, debug)
+    return process_singleline_mode(lines, debug, strip_ruby)
 
 
 # ───── メイン ────────────────────────────────────────────────────
@@ -157,6 +178,10 @@ def main():
     parser.add_argument(
         "--mode", choices=["singleline", "multiline"], default="singleline",
         help="列分割モード（デフォルト: singleline）"
+    )
+    parser.add_argument(
+        "--keep-ruby", action="store_true",
+        help="ルビ（振り仮名）行を除去せずにそのまま残す"
     )
     parser.add_argument(
         "--input", type=Path, default=INPUT_FILE,
@@ -178,11 +203,15 @@ def main():
 
     print(f"入力: {args.input} ({len(lines)} 行)", file=sys.stderr)
 
+    strip_ruby = not args.keep_ruby
+    if strip_ruby:
+        print("ルビ除去: 有効（無効にするには --keep-ruby）", file=sys.stderr)
+
     # 処理
     if args.mode == "multiline":
-        result = process_multiline_mode(lines, args.debug)
+        result = process_multiline_mode(lines, args.debug, strip_ruby)
     else:
-        result = process_singleline_mode(lines, args.debug)
+        result = process_singleline_mode(lines, args.debug, strip_ruby)
 
     output_text = "\n".join(result) + "\n"
 
