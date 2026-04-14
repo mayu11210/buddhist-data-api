@@ -64,11 +64,9 @@ def is_empty(line: str) -> bool:
 
 
 def is_ruby(line: str) -> bool:
-    """ひらがな・カタカナのみからなる短い行（ルビ）かどうかを判定する"""
+    """ひらがな・カタカナのみからなる行（ルビ）かどうかを判定する（文字数制限なし）"""
     stripped = line.strip()
     if not stripped:
-        return False
-    if len(stripped) > MAX_RUBY_LEN:
         return False
     return bool(RUBY_PATTERN.match(stripped))
 
@@ -132,10 +130,12 @@ def process_singleline_mode(lines: list[str], debug: bool = False, strip_ruby: b
                 output.append("")
             continue
 
-        # ルビ行（ひらがな・カタカナのみの短い行）をスキップ
-        if strip_ruby and is_ruby(line):
+        # ルビ行（ひらがな・カタカナのみの行）→ 《》で括って残す
+        if is_ruby(line):
+            marked = f"《{line.strip()}》"
             if debug:
-                print(f"[DEBUG] ルビ除去: {line!r}", file=sys.stderr)
+                print(f"[DEBUG] ルビ: {marked!r}", file=sys.stderr)
+            current_block.append(marked)
             continue
 
         # 通常行 → 現在のブロックに追加
