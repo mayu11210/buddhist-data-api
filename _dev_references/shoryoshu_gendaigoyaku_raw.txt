@@ -11,14 +11,15 @@
 #   5. fix_columns.py を実行して列順修正＋ルビ《》処理
 #      → shoryoshu_gendaigoyaku.txt に出力
 #
-#      python fix_columns.py \
+#      python fix_columns.py --drop-ruby \
 #         --input _dev_references/shoryoshu_gendaigoyaku_raw.txt \
 #         --output _dev_references/shoryoshu_gendaigoyaku.txt
 #
 # 注意事項：
 #   - PowerToys は縦書きテキストを「左から右」の列順で抽出する
 #   - fix_columns.py が右から左に逆順修正する
-#   - ルビは《》で括って保持される（現代語訳にもルビがある場合）
+#   - 現代語訳はルビ OCR 誤読が多いため --drop-ruby でルビ行を丸ごと削除する
+#     （正しいルビは書き下し側 shoryoshu_kakikudashi.txt に既にある）
 #
 ################################################################################
 

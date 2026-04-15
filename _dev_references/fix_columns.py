@@ -72,7 +72,7 @@ def is_ruby(line: str) -> bool:
 
 
 # ───── 列逆順モード（パターン A: 1列 = 1行）────────────────────
-def process_singleline_mode(lines: list[str], debug: bool = False, strip_ruby: bool = True) -> list[str]:
+def process_singleline_mode(lines: list[str], debug: bool = False, drop_ruby: bool = False) -> list[str]:
     """
     空行を列の区切りとし、「===」をページ区切りとして扱う。
     ページ内の列（各空行で区切られたブロック）を逆順にする。
@@ -130,8 +130,13 @@ def process_singleline_mode(lines: list[str], debug: bool = False, strip_ruby: b
                 output.append("")
             continue
 
-        # ルビ行（ひらがな・カタカナのみの行）→ 《》で括って残す
+        # ルビ行（ひらがな・カタカナのみの行）
         if is_ruby(line):
+            if drop_ruby:
+                if debug:
+                    print(f"[DEBUG] ルビ削除: {line.strip()!r}", file=sys.stderr)
+                continue
+            # デフォルトは《》で括って残す
             marked = f"《{line.strip()}》"
             if debug:
                 print(f"[DEBUG] ルビ: {marked!r}", file=sys.stderr)
@@ -152,14 +157,14 @@ def process_singleline_mode(lines: list[str], debug: bool = False, strip_ruby: b
 
 
 # ───── 多行列モード（パターン B: 1文字 = 1行、空行で列分割）────
-def process_multiline_mode(lines: list[str], debug: bool = False, strip_ruby: bool = True) -> list[str]:
+def process_multiline_mode(lines: list[str], debug: bool = False, drop_ruby: bool = False) -> list[str]:
     """
     空行を列の区切りとして扱い、列内は複数行のまま。
     ページ区切り（===）内で列を逆順にする。
     パターン A と同じロジックだが、ブロック内に複数行が入る。
     """
     # 実装は singleline と同一（ブロック内の処理が同じ）
-    return process_singleline_mode(lines, debug, strip_ruby)
+    return process_singleline_mode(lines, debug, drop_ruby)
 
 
 # ───── メイン ────────────────────────────────────────────────────
@@ -180,8 +185,8 @@ def main():
         help="列分割モード（デフォルト: singleline）"
     )
     parser.add_argument(
-        "--keep-ruby", action="store_true",
-        help="ルビ（振り仮名）行を除去せずにそのまま残す"
+        "--drop-ruby", action="store_true",
+        help="ルビ（振り仮名）行を丸ごと削除する（現代語訳の取り込み等、OCR誤読が多い場合に使用）"
     )
     parser.add_argument(
         "--input", type=Path, default=INPUT_FILE,
@@ -203,15 +208,16 @@ def main():
 
     print(f"入力: {args.input} ({len(lines)} 行)", file=sys.stderr)
 
-    strip_ruby = not args.keep_ruby
-    if strip_ruby:
-        print("ルビ除去: 有効（無効にするには --keep-ruby）", file=sys.stderr)
+    if args.drop_ruby:
+        print("ルビ削除: 有効（ルビ行を丸ごと捨てる）", file=sys.stderr)
+    else:
+        print("ルビ処理: 《》で括って残す（削除するには --drop-ruby）", file=sys.stderr)
 
     # 処理
     if args.mode == "multiline":
-        result = process_multiline_mode(lines, args.debug, strip_ruby)
+        result = process_multiline_mode(lines, args.debug, args.drop_ruby)
     else:
-        result = process_singleline_mode(lines, args.debug, strip_ruby)
+        result = process_singleline_mode(lines, args.debug, args.drop_ruby)
 
     output_text = "\n".join(result) + "\n"
 
