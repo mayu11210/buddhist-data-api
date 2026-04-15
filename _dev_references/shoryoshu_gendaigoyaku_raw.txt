@@ -1,0 +1,24 @@
+################################################################################
+# 全文現代語訳 遍照発揮性霊集（Kindle 宮坂版）
+# PowerToys Text Extractor 抽出テキスト収集ファイル
+#
+# 使い方：
+#   1. Kindle for PC で対象ページ（現代語訳部分）を開く
+#   2. PowerToys のテキスト抽出（Win+Shift+T）でページ全体を選択
+#   3. クリップボードにコピーされたテキストをこのファイルに貼り付ける
+#   4. ページ区切りとして「=== ページ N ===」を手動で挿入する
+#
+#   5. fix_columns.py を実行して列順修正＋ルビ《》処理
+#      → shoryoshu_gendaigoyaku.txt に出力
+#
+#      python fix_columns.py \
+#         --input _dev_references/shoryoshu_gendaigoyaku_raw.txt \
+#         --output _dev_references/shoryoshu_gendaigoyaku.txt
+#
+# 注意事項：
+#   - PowerToys は縦書きテキストを「左から右」の列順で抽出する
+#   - fix_columns.py が右から左に逆順修正する
+#   - ルビは《》で括って保持される（現代語訳にもルビがある場合）
+#
+################################################################################
+
