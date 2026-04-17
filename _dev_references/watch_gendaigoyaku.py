@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-shoryoshu_gendaigoyaku_raw.txt を5分ごとに監視して、
+shoryoshu_gendaigoyaku_input.txt を5分ごとに監視して、
 新しい内容が追加されたら fix_columns.py --drop-ruby を実行し
-shoryoshu_gendaigoyaku.txt を更新するスクリプト
+shoryoshu_gendaigoyaku.txt を更新するスクリプト。
+処理完了後は input.txt を空にする（処理済みの合図）。
 
 使い方:
   python3 _dev_references/watch_gendaigoyaku.py &
@@ -29,7 +30,7 @@ def get_line_count(path):
 
 
 def run_fix_columns():
-    """fix_columns.py --drop-ruby を実行して gendaigoyaku.txt を更新する。"""
+    """fix_columns.py --drop-ruby を実行して gendaigoyaku.txt を上書き更新する。"""
     result = subprocess.run(
         [
             "python3", FIX_SCRIPT,
@@ -42,6 +43,12 @@ def run_fix_columns():
         encoding="utf-8",
     )
     return result.returncode, result.stderr.strip()
+
+
+def clear_input():
+    """input.txt を空にする（処理済みの合図）。"""
+    with open(RAW_FILE, "w", encoding="utf-8") as f:
+        f.write("")
 
 
 def main():
@@ -62,9 +69,12 @@ def main():
                     print(f"[{datetime.now():%H:%M:%S}] 完了: {OUTPUT_FILE} を更新しました")
                     if stderr:
                         print(f"[{datetime.now():%H:%M:%S}] {stderr}")
+                    clear_input()
+                    print(f"[{datetime.now():%H:%M:%S}] {RAW_FILE} を空にしました（処理済み）")
+                    last_count = 0
                 else:
                     print(f"[{datetime.now():%H:%M:%S}] エラー (終了コード {returncode}): {stderr}")
-                last_count = current_count
+                    last_count = current_count
             else:
                 print(f"[{datetime.now():%H:%M:%S}] 変化なし (行数: {current_count})")
 
