@@ -17,7 +17,7 @@ import subprocess
 from datetime import datetime
 
 BASE        = os.path.dirname(os.path.abspath(__file__))
-RAW_FILE    = os.path.join(BASE, "shoryoshu_gendaigoyaku_raw.txt")
+RAW_FILE    = os.path.join(BASE, "shoryoshu_gendaigoyaku_input.txt")
 OUTPUT_FILE = os.path.join(BASE, "shoryoshu_gendaigoyaku.txt")
 FIX_SCRIPT  = os.path.join(BASE, "fix_columns.py")
 INTERVAL    = 300  # 5分 = 300秒
