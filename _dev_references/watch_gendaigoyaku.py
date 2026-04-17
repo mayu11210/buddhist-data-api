@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 shoryoshu_gendaigoyaku_raw.txt を5分ごとに監視して、
-新しい行が追加されたら逆順修正して shoryoshu_gendaigoyaku.txt に追記するスクリプト
+新しい内容が追加されたら fix_columns.py --drop-ruby を実行し
+shoryoshu_gendaigoyaku.txt を更新するスクリプト
 
 使い方:
   python3 _dev_references/watch_gendaigoyaku.py &
@@ -12,49 +13,57 @@ shoryoshu_gendaigoyaku_raw.txt を5分ごとに監視して、
 
 import time
 import os
+import subprocess
 from datetime import datetime
 
-BASE = os.path.dirname(os.path.abspath(__file__))
+BASE        = os.path.dirname(os.path.abspath(__file__))
 RAW_FILE    = os.path.join(BASE, "shoryoshu_gendaigoyaku_raw.txt")
 OUTPUT_FILE = os.path.join(BASE, "shoryoshu_gendaigoyaku.txt")
+FIX_SCRIPT  = os.path.join(BASE, "fix_columns.py")
 INTERVAL    = 300  # 5分 = 300秒
 
 
-def read_lines(path):
+def get_line_count(path):
     with open(path, "r", encoding="utf-8") as f:
-        return f.readlines()
+        return sum(1 for _ in f)
 
 
-def append_reversed(new_lines, output_path):
-    """新規行を逆順にしてoutputに追記する。"""
-    # 末尾の空行を除去してブロクとして扱う
-    block = [l for l in new_lines if l.strip()]
-    if not block:
-        return 0
-    reversed_block = list(reversed(block))
-    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open(output_path, "a", encoding="utf-8") as f:
-        f.write(f"\n===== {ts} ({len(block)}行 → 逆順) =====\n")
-        for line in reversed_block:
-            f.write(line if line.endswith("\n") else line + "\n")
-    return len(block)
+def run_fix_columns():
+    """fix_columns.py --drop-ruby を実行して gendaigoyaku.txt を更新する。"""
+    result = subprocess.run(
+        [
+            "python3", FIX_SCRIPT,
+            "--drop-ruby",
+            "--input",  RAW_FILE,
+            "--output", OUTPUT_FILE,
+        ],
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+    )
+    return result.returncode, result.stderr.strip()
 
 
 def main():
-    last_count = len(read_lines(RAW_FILE))
+    last_count = get_line_count(RAW_FILE)
     print(f"[{datetime.now():%H:%M:%S}] 監視開始: {RAW_FILE}")
     print(f"[{datetime.now():%H:%M:%S}] 初期行数: {last_count}行 / 間隔: {INTERVAL}秒")
 
     while True:
         time.sleep(INTERVAL)
         try:
-            current_lines = read_lines(RAW_FILE)
-            current_count = len(current_lines)
+            current_count = get_line_count(RAW_FILE)
 
             if current_count > last_count:
-                new_lines = current_lines[last_count:]
-                n = append_reversed(new_lines, OUTPUT_FILE)
-                print(f"[{datetime.now():%H:%M:%S}] 新規 {len(new_lines)}行検出 → 逆順{n}行を追記")
+                added = current_count - last_count
+                print(f"[{datetime.now():%H:%M:%S}] 新規 {added}行検出 → fix_columns.py 実行中...")
+                returncode, stderr = run_fix_columns()
+                if returncode == 0:
+                    print(f"[{datetime.now():%H:%M:%S}] 完了: {OUTPUT_FILE} を更新しました")
+                    if stderr:
+                        print(f"[{datetime.now():%H:%M:%S}] {stderr}")
+                else:
+                    print(f"[{datetime.now():%H:%M:%S}] エラー (終了コード {returncode}): {stderr}")
                 last_count = current_count
             else:
                 print(f"[{datetime.now():%H:%M:%S}] 変化なし (行数: {current_count})")
