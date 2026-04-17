@@ -194,14 +194,25 @@ print('trailing nulls:', len(raw) - len(raw.rstrip(b'\x00')))
 側で `del /f /q` を使う（`.bat` 経由）。
 
 ### 5. 定番の `.bat` 群（リポジトリのルートに常備）
-- `commit_helper.bat` : 1 ページ分のコミット（commit_message.txt を使う）
+よく使うものは数字プレフィックスでソート先頭に固定：
+- `1_commit.bat` : 1 ページ分のコミット（commit_message.txt を使う）★毎ページ使う
+- `2_push.bat` : origin/main に push ★20ページごとに使う
 - `commit_message.txt` : 次のコミットメッセージ（毎回書き換える）
 - `verify.bat` : git log + status + origin 差分を表示
-- `push.bat` : origin/main に push
-- `reset_to_0416.bat` / `resume_reset.bat` / `finalize_reset.bat` : 過去のリセット作業用
+- `commit_claudemd.bat` : CLAUDE.md 追記用のコミット（commit_message_claudemd.txt を使う）
+- `commit_message_claudemd.txt` : CLAUDE.md 用コミットメッセージ
 
 これらのファイルは `_dev_references/` ではなくリポジトリ直下に置いてあるが、
-`.gitignore` に入れて untracked のままにしている（作業用ツールのため）。
+untracked のままにしている（作業用ツールのため）。
+
+### 6. `_archive/` フォルダ（古いスクリプト・引き継ぎメモ）
+リポジトリ直下を探しやすくするため、一度きり使ったスクリプトや過去の
+引き継ぎメモは `_archive/` 以下に隔離してある：
+- `_archive/scripts/` : 過去の .bat（`reset_to_0416.bat` 等のリセット作業用）
+- `_archive/memos/` : 過去の引き継ぎメモ（巻第二・巻第三・p.274・p.298 等）
+
+これらは緊急時の参考資料として残しているだけで、日常作業では触らない。
+現在進行中の引き継ぎメモだけをリポジトリ直下に置くルール。
 
 ---
 ## 新しいセッションを始めるときの手順
