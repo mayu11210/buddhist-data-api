@@ -1,25 +1,29 @@
 ################################################################################
-# 全文現代語訳 遍照発揮性霊集（Kindle 宮坂版）
-# PowerToys Text Extractor 抽出テキスト収集ファイル
+# 性霊集 注（および一部の現代語訳）の raw テキスト収集ファイル
 #
-# 使い方：
-#   1. Kindle for PC で対象ページ（現代語訳部分）を開く
+# 【重要】ソースは「弘法大師全集 第六巻」PDF（2026-04-23 ケンシン確認）
+#   - 誤表記訂正：旧「Kindle 宮坂版」と記していたが、実際の出典は
+#     **弘法大師全集 第六巻 PDF**。以後このファイルの内容は弘大全集六の注と
+#     理解する。
+#   - 書き下し本文（_dev_references/shoryoshu_kakikudashi.txt や
+#     遍照発揮性霊集.docx）とはソースが異なる。
+#     書き下し = 高野山 Kindle 本、注 = 弘法大師全集 第六巻 PDF。
+#   - 詳細は CLAUDE.md「ソース対応表」セクション参照。
+#
+# 抽出方法：
+#   1. 弘法大師全集 第六巻 PDF を開く
 #   2. PowerToys のテキスト抽出（Win+Shift+T）でページ全体を選択
 #   3. クリップボードにコピーされたテキストをこのファイルに貼り付ける
-#   4. ページ区切りとして「=== ページ N ===」を手動で挿入する
+#   4. ページ区切りとして「=== ページ N ===」または篇別の見出しを挿入
 #
-#   5. fix_columns.py を実行して列順修正＋ルビ《》処理
-#      → shoryoshu_gendaigoyaku.txt に出力
-#
+#   5. （必要なら）fix_columns.py を実行して列順修正
 #      python fix_columns.py --drop-ruby \
 #         --input _dev_references/shoryoshu_gendaigoyaku_raw.txt \
 #         --output _dev_references/shoryoshu_gendaigoyaku.txt
 #
 # 注意事項：
 #   - PowerToys は縦書きテキストを「左から右」の列順で抽出する
-#   - fix_columns.py が右から左に逆順修正する
-#   - 現代語訳はルビ OCR 誤読が多いため --drop-ruby でルビ行を丸ごと削除する
-#     （正しいルビは書き下し側 shoryoshu_kakikudashi.txt に既にある）
+#   - fix_columns.py が右から左に逆順修正する（ただし現状は未整形のまま raw 運用）
 #
 # 注の保存形式：
 #   === 篇名 注 ===
