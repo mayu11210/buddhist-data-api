@@ -36,7 +36,7 @@ VARIANTS = {
 VARIANTS_BI = dict(VARIANTS)
 VARIANTS_BI.update({v:k for k,v in VARIANTS.items()})
 
-NUM_RE = re.compile(r'^([一二三四五六七八九〇十]+)([\s\u3000]+)(\S+?)([\s\u3000]+)(.*)$')
+NUM_RE = re.compile(r'^([一二三四五六七八九〇十百]+)([\s\u3000]+)(\S+?)([\s\u3000]+)(.*)$')
 HEAD_RE = re.compile(r'^(【[^】]+】)$', re.MULTILINE)
 
 def is_kanji(ch):

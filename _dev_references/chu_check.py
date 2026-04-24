@@ -53,7 +53,7 @@ def extract_entries(text):
     """
     lines = text.split('\n')
     # 漢数字（一〜九・〇・十）で始まり、空白で区切られる行
-    num_pattern = re.compile(r'^([一二三四五六七八九〇十]+)[\s\u3000]+(.+)$')
+    num_pattern = re.compile(r'^([一二三四五六七八九〇十百]+)[\s\u3000]+(.+)$')
 
     entries = []
     current = None
