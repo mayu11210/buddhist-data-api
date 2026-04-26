@@ -19,3 +19,9 @@ node_modules/
 
 # 古いスクリプト・過去の引き継ぎメモ置き場
 /_archive/
+
+# Cowork JSON 反映時の一時翻訳ファイル（git に取り込まない）
+_dev_references/_tmp_*.txt
+
+# Cowork JSON 反映時の一時翻訳ファイル（git に取り込まない）
+_dev_references/_tmp_*.txt
