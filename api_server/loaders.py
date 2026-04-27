@@ -747,6 +747,244 @@ class IndexStore:
             },
         }
 
+    # ------------------------------------------------------------------
+    # /api/houwa/citations （§13.4 中核 2・v1.8 で新規追加）
+    # ------------------------------------------------------------------
+
+    def build_houwa_citations(
+        self,
+        theme: str,
+        expand: bool = True,
+        limit: int = 10,
+        include_persons: bool = True,
+        include_places: bool = False,
+        include_kaimyo_jukugo: bool = True,
+        min_hits: int = 1,
+        excerpt_radius: int = 150,
+    ) -> Dict[str, Any]:
+        """§13.4 GET /api/houwa/citations の本体（v1.8 で実装）。
+
+        Step 1: theme → THEME_EXPANSION で関連語展開（expand=false ならそのまま）
+        Step 2: terms / citations / sanskrit (+persons +places +kaimyo_jukugo) を並行検索
+        Step 3: 篇単位の集約（shoryoshu_idx でグルーピング）
+        Step 4: 篇スコアリング
+                terms*3 + citations*2 + sanskrit*2 + kaimyo_jukugo*1 + persons*1 + places*1
+        Step 5: 出典文抜粋（gendaigoyaku の最初のヒット位置 ±excerpt_radius 字）
+        Step 6: 篇スコア降順 + limit 切詰
+
+        spec §13.4 への拡張点（v1.8 で追加）:
+          - include_kaimyo_jukugo（既定 true）：戒名向け熟語索引（1971 件）を併用。
+            terms 索引が 19 件の curated 教学用語のみで、無常・智慧・慈悲・金剛
+            等の代表的テーマ語が kaimyo_jukugo にしか存在しないため、法話・
+            諷誦文用途で実用性を確保するための拡張。spec 厳密準拠したい場合は
+            false で抑止可能。
+
+        例外:
+            ValueError("MISSING_PARAMETER:theme")  theme が空のとき
+        """
+        if not theme:
+            raise ValueError("MISSING_PARAMETER:theme")
+
+        # ---- Step 1: テーマ展開 ----
+        te = self.api_mappings.get("theme_expansion") or {}
+        is_known_theme = theme in te
+        if expand and is_known_theme:
+            expanded_terms: List[str] = list(te[theme])
+            if theme not in expanded_terms:
+                expanded_terms.insert(0, theme)
+        else:
+            expanded_terms = [theme]
+
+        # ---- Step 2 準備 ----
+        target_indices: List[str] = ["terms", "citations", "sanskrit"]
+        if include_kaimyo_jukugo:
+            target_indices.append("kaimyo_jukugo")
+        if include_persons:
+            target_indices.append("persons")
+        if include_places:
+            target_indices.append("places")
+
+        # ---- Step 2 + Step 3: 並行検索 + 篇単位集約 ----
+        per_idx_hits: Dict[int, Dict[str, List[Dict[str, Any]]]] = defaultdict(
+            lambda: defaultdict(list)
+        )
+        first_positions: Dict[int, int] = {}
+        seen_canonicals: Set[Tuple[str, str]] = set()
+
+        for term_word in expanded_terms:
+            for idx_name in target_indices:
+                amap = self.alias_to_canonical.get(idx_name, {})
+                canon = amap.get(term_word)
+                if canon is None:
+                    continue
+                seen_key = (idx_name, canon)
+                if seen_key in seen_canonicals:
+                    continue
+                seen_canonicals.add(seen_key)
+
+                entry = self.entry_by_key.get(idx_name, {}).get(canon)
+                if entry is None:
+                    continue
+
+                occs_by_idx: Dict[int, int] = defaultdict(int)
+                occs_first_pos: Dict[int, int] = {}
+                for occ in entry.raw.get("occurrences", []) or []:
+                    shidx = occ.get("shoryoshu_idx")
+                    if shidx is None:
+                        continue
+                    occs_by_idx[shidx] += 1
+                    pos = occ.get("context_position")
+                    if isinstance(pos, int):
+                        if shidx not in occs_first_pos or pos < occs_first_pos[shidx]:
+                            occs_first_pos[shidx] = pos
+
+                for shidx, cnt in occs_by_idx.items():
+                    per_idx_hits[shidx][idx_name].append({
+                        "key": canon,
+                        "matched_form": term_word,
+                        "count": cnt,
+                    })
+                    if shidx in occs_first_pos:
+                        cur = first_positions.get(shidx)
+                        if cur is None or occs_first_pos[shidx] < cur:
+                            first_positions[shidx] = occs_first_pos[shidx]
+
+        # ---- Step 4: 篇スコアリング ----
+        weights: Dict[str, int] = {
+            "terms":         3,
+            "citations":     2,
+            "sanskrit":      2,
+            "kaimyo_jukugo": 1,
+            "persons":       1,
+            "places":        1,
+        }
+        candidates: List[Dict[str, Any]] = []
+        for shidx, cat_hits in per_idx_hits.items():
+            total_hits = sum(sum(h["count"] for h in lst) for lst in cat_hits.values())
+            if total_hits < int(min_hits):
+                continue
+            score = 0
+            for cat, lst in cat_hits.items():
+                w = weights.get(cat, 0)
+                for h in lst:
+                    score += w * h["count"]
+            candidates.append({
+                "shoryoshu_idx": shidx,
+                "score":         score,
+                "cat_hits":      dict(cat_hits),
+                "total_hits":    total_hits,
+            })
+
+        total_matched = len(candidates)
+
+        # ---- Step 6: ソート + 切詰 ----
+        candidates.sort(key=lambda c: (-c["score"], c["shoryoshu_idx"]))
+        if limit is not None and limit >= 0:
+            candidates = candidates[: int(limit)]
+
+        # ---- Step 5: 出典文抜粋 + 結果整形 ----
+        persons_by_canonical = self.entry_by_key.get("persons", {})
+        places_by_canonical = self.entry_by_key.get("places", {})
+
+        citations_out: List[Dict[str, Any]] = []
+        for rank, c in enumerate(candidates, start=1):
+            shidx = c["shoryoshu_idx"]
+            miyasaka_entry = self.miyasaka[shidx]
+            ページ = miyasaka_entry.get("ページ", []) or []
+            kk_full = "".join(p.get("kakikudashi", "") or "" for p in ページ)
+            gg_full = "".join(p.get("gendaigoyaku", "") or "" for p in ページ)
+            kk_len = len(kk_full)
+            gg_len = len(gg_full)
+            ratio = round(gg_len / kk_len, 2) if kk_len > 0 else 0.0
+
+            first_pos = first_positions.get(shidx)
+            if first_pos is None or gg_len == 0:
+                context_excerpt = gg_full[: int(excerpt_radius) * 2]
+                excerpt_position = 0
+            else:
+                start = max(0, first_pos - int(excerpt_radius))
+                end = min(gg_len, first_pos + int(excerpt_radius))
+                context_excerpt = gg_full[start:end]
+                excerpt_position = start
+
+            hits_out: Dict[str, List[Dict[str, Any]]] = {
+                "terms": [], "citations": [], "sanskrit": [],
+                "kaimyo_jukugo": [], "persons": [], "places": [],
+            }
+            kaimyo_by_key = self.entry_by_key.get("kaimyo_jukugo", {})
+            for cat in ("terms", "citations", "sanskrit", "kaimyo_jukugo", "persons", "places"):
+                lst = c["cat_hits"].get(cat, []) or []
+                lst_sorted = sorted(lst, key=lambda h: (-h["count"], h["key"]))
+                cat_out: List[Dict[str, Any]] = []
+                for h in lst_sorted:
+                    k = h["key"]
+                    base = {"matched_form": h["matched_form"], "count": h["count"]}
+                    if cat == "terms":
+                        cat_out.append({"term": k, **base})
+                    elif cat == "citations":
+                        cat_out.append({"term": k, **base})
+                    elif cat == "sanskrit":
+                        cat_out.append({"canonical": k, **base})
+                    elif cat == "kaimyo_jukugo":
+                        ke = kaimyo_by_key.get(k)
+                        cat_out.append({
+                            "jukugo": k,
+                            "kaimyo_score": ke.raw.get("kaimyo_score") if ke else None,
+                            "needs_human_review": bool(ke.raw.get("needs_human_review", False)) if ke else False,
+                            **base,
+                        })
+                    elif cat == "persons":
+                        pe = persons_by_canonical.get(k)
+                        cat_out.append({
+                            "canonical": k,
+                            "subcategory": pe.raw.get("subcategory") if pe else None,
+                            **base,
+                        })
+                    elif cat == "places":
+                        pe = places_by_canonical.get(k)
+                        cat_out.append({
+                            "canonical": k,
+                            "subcategory": pe.raw.get("subcategory") if pe else None,
+                            **base,
+                        })
+                hits_out[cat] = cat_out
+
+            citations_out.append({
+                "rank":             rank,
+                "shoryoshu_idx":    shidx,
+                "篇名":              miyasaka_entry.get("篇名"),
+                "巻":                miyasaka_entry.get("巻番号"),
+                "score":            c["score"],
+                "hits":             hits_out,
+                "context_excerpt":  context_excerpt,
+                "excerpt_position": excerpt_position,
+                "字数": {
+                    "書き下し": kk_len,
+                    "現代語訳": gg_len,
+                    "倍率":     ratio,
+                },
+            })
+
+        return {
+            "query": {
+                "theme":                 theme,
+                "expanded_terms":        expanded_terms,
+                "expand":                bool(expand),
+                "is_known_theme":        is_known_theme,
+                "limit":                 int(limit),
+                "include_persons":       bool(include_persons),
+                "include_places":        bool(include_places),
+                "include_kaimyo_jukugo": bool(include_kaimyo_jukugo),
+                "min_hits":              int(min_hits),
+            },
+            "citations": citations_out,
+            "metadata": {
+                "total_篇_matched": total_matched,
+                "schema_version":   self.schema_version,
+                "data_corpus":      "shoryoshu_miyasaka_v_phase2_complete",
+            },
+        }
+
 
 
 # --------------------------------------------------------------------------

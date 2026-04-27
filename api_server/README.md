@@ -31,10 +31,25 @@
     → Step 5（final_score = kaimyo_score + bonus_score 降順 + limit 切詰）
   - エラー: `MISSING_PARAMETER`（characteristics 空・400）/ `UNKNOWN_CHARACTERISTIC`（未登録キー・400・available 同梱）/ `INVALID_LENGTH`（2 / 4 以外・400）
 
-## v1.8 以降の予定
+## v1.8 で追加（★ §13 全 9 エンドポイント実装完了 ★）
 
-- v1.8: `/api/houwa/citations`（中核 2・THEME_EXPANSION + 篇スコアリング + context 抜粋）
+- `GET /api/houwa/citations` … 中核 2・法話テーマ → 関連篇統合検索（§13.4）
+  - クエリ: `theme`（必須）/ `expand`（既定 true）/ `limit`（既定 10）/
+    `include_persons`（既定 true）/ `include_places`（既定 false）/
+    `include_kaimyo_jukugo`（既定 true・spec §13.4 拡張）/
+    `min_hits`（既定 1）/ `excerpt_radius`（既定 150・出典文の片側字数）
+  - 内部フロー: Step 1（THEME_EXPANSION で展開・10 種既知 + 自由語可）→ Step 2（terms / citations / sanskrit / kaimyo_jukugo / persons / places を並行検索）
+    → Step 3（篇 idx で集約）→ Step 4（terms*3 + citations*2 + sanskrit*2 + kaimyo_jukugo*1 + persons*1 + places*1）
+    → Step 5（gendaigoyaku の最初のヒット位置 ±excerpt_radius 字を抜粋）→ Step 6（スコア降順 + limit 切詰）
+  - 拡張理由: terms 索引は 19 件の curated 教学用語のみで、無常・智慧・慈悲・金剛 等の代表的テーマ語が
+    kaimyo_jukugo（1971 件）にしか存在しないため、法話・諷誦文用途の実用性確保として併用（既定 true）。
+    spec 厳密準拠したい場合は `include_kaimyo_jukugo=false`。
+  - エラー: `MISSING_PARAMETER`（theme 空・400）
+
+## v1.9 以降の予定
+
 - v1.9: OpenAPI yaml 整備 + kaimyo-app 結合テスト + デプロイ
+- 候補 D 完結後の優先候補（A. 注 chu 取込再開・C. メタデータ構造化・E. 専門家校閲 等）
 
 ## ローカル起動
 
@@ -108,6 +123,45 @@ curl -s -G 'http://127.0.0.1:8000/api/kaimyo/candidates' \
 # エラー：未定義特性 → 400 + available 同梱
 curl -s -G 'http://127.0.0.1:8000/api/kaimyo/candidates' \
   --data-urlencode 'characteristics=未知の特性' | jq '.detail'
+```
+
+### v1.8 系（法話典故検索）
+
+```bash
+# 既知テーマ「無常」→ THEME_EXPANSION で 4 語展開（無常・anitya・生滅・変化）
+curl -s -G 'http://127.0.0.1:8000/api/houwa/citations' \
+  --data-urlencode 'theme=無常' \
+  --data-urlencode 'limit=5' | jq '.query, (.citations[] | {rank, shoryoshu_idx, 篇名, score})'
+
+# 自由語（THEME_EXPANSION 未登録）→ そのまま検索
+curl -s -G 'http://127.0.0.1:8000/api/houwa/citations' \
+  --data-urlencode 'theme=金剛' \
+  --data-urlencode 'limit=3' | jq '.query.is_known_theme, .citations[].score'
+
+# expand=false で展開を抑止
+curl -s -G 'http://127.0.0.1:8000/api/houwa/citations' \
+  --data-urlencode 'theme=慈悲' \
+  --data-urlencode 'expand=false' \
+  --data-urlencode 'limit=3' | jq '.query.expanded_terms'
+
+# 関連地名も含める + min_hits=3 で精密化
+curl -s -G 'http://127.0.0.1:8000/api/houwa/citations' \
+  --data-urlencode 'theme=智慧' \
+  --data-urlencode 'include_places=true' \
+  --data-urlencode 'min_hits=3' \
+  --data-urlencode 'limit=5' | jq '.citations[] | {篇名, score, hits: (.hits | map_values(length))}'
+
+# 出典文抜粋を ±300 字に拡張
+curl -s -G 'http://127.0.0.1:8000/api/houwa/citations' \
+  --data-urlencode 'theme=即身成仏' \
+  --data-urlencode 'excerpt_radius=300' \
+  --data-urlencode 'limit=2' | jq '.citations[] | {rank, 篇名, context_excerpt}'
+
+# spec §13.4 厳密準拠（kaimyo_jukugo を抑止 → terms / citations / sanskrit のみ）
+curl -s -G 'http://127.0.0.1:8000/api/houwa/citations' \
+  --data-urlencode 'theme=慈悲' \
+  --data-urlencode 'include_kaimyo_jukugo=false' \
+  --data-urlencode 'limit=5' | jq '.metadata.total_篇_matched'
 ```
 
 ## 起動時ロード（仕様 §13.8.2）
