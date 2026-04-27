@@ -1,11 +1,12 @@
 # 横断索引化フェーズ B 設計書（cross_index_spec.md）
 
 作成日：2026-04-27（フェーズ B 着手セッション）
-版：**v1.0（本格抽出版・典故書名 + 密教教学用語完成）**
+版：**v1.1（梵語抽出完了版・典故書名 + 密教教学用語 + 梵語）**
 
 更新履歴：
 - 2026-04-27 v0.1 ドラフト作成 + 典故書名パイロット抽出（256 種・1187 件）
 - 2026-04-27 v1.0 昇格：課題 A〜E 解消（CANONICAL_MAP 拡充・空海著作分離・除外辞書整備）+ 密教教学用語 19 語の本格抽出 + cross_index 共通スキーマ確定
+- 2026-04-27 v1.1 昇格：Tier 2-4 梵語 IAST 抽出完了（438 種・654 件・表記揺れ統合 6 種・除外辞書 14 ノイズ語）
 
 ---
 
@@ -212,7 +213,7 @@ JSON レスポンス
 |---|---|---|
 | 1（着手）| 仕様書作成 + パイロット抽出（典故書名）+ スキーマ確定 | ✅ 完了 |
 | **2（v1.0）** | **課題 A〜E 解消 + 典故書名 v1.0 + 密教教学用語 v1.0 + 共通スキーマ確定** | **✅ 完了** |
-| 3 | 梵語 411 種の正規化 + index_shoryoshu_sanskrit.json | 次セッション候補 |
+| **3（v1.1）** | **梵語 IAST の正規化 + index_shoryoshu_sanskrit.json（438 種・654 件）** | **✅ 完了** |
 | 4 | 戒名向け熟語の選別・スコアリング + index_shoryoshu_kaimyo.json | 次セッション候補 |
 | 5 | 人名抽出 + index_shoryoshu_persons.json | 未着手 |
 | 6 | 地名抽出 + index_shoryoshu_places.json | 未着手 |
@@ -380,4 +381,99 @@ a-kāra, amoghavajra, bodhi, cetanā, cintāmaṇi, guhya, guhya-piṭaka, hṛd
 
 ---
 
-最終更新：2026-04-27 v1.0 昇格（典故書名 + 空海著作分離 + 密教教学用語の本格抽出完了・課題 A〜E 解消・共通スキーマ確定）。次セッション以降は梵語・戒名向け熟語・人名・地名の Tier 2/3 抽出に進む。
+## 9. v1.1 本格抽出結果：梵語 IAST（2026-04-27 第 3 セッション）
+
+`_dev_references/extract_sanskrit.py`（新規作成）で梵語 IAST 索引を完成させた。
+
+### 9.1 抽出方針
+
+出力先：`data/mikkyou/index_shoryoshu_sanskrit.json`
+
+抽出方針：
+- 全 112 篇 gendaigoyaku に対し、ASCII ラテン文字 + IAST ダイアクリティカル（ā ī ū ṛ ṅ ñ ṇ ḍ ṭ ṣ ś ḥ ṃ）+ ハイフン + ピリオド + アポストロフィを許す正規表現で梵語候補を網羅抽出
+- 3 文字以上を採用（密教種子字 vam・raṃ・vaṃ 等を含めるため最小値）
+- **EXCLUDE_TOKENS（小文字基準・14 語）**で以下を除外：
+  - メタ情報語：idx・kindle・ocr・claude.md
+  - URL 断片：https・ran・hu（"https://hu hu ran" 由来）
+  - 補注内英訳：milk・gruel・brass・gold・elixir・clavicle
+  - ローマ字日本語：goshin-kekkai
+- **小文字基準で canonical_key を生成**し、大文字小文字の表記揺れを統合
+  - 例：`Vairocana`×1 + `vairocana`×8 → canonical=`vairocana`、aliases に両形をカウント保存
+- IAST ダイアクリティカル含有/非含有を `has_diacritics` フラグで記録（戒名選定では IAST 含有が確実な梵語と扱える）
+- ALIAS_MAP（異綴り統合・例：`vairochana`→`vairocana`）は拡張余地として準備（現状空）
+
+### 9.2 結果サマリ
+
+| 指標 | 値 |
+|---|---|
+| 異なり canonical 数 | **438 種** |
+| 延べ出現件数 | **654 件** |
+| IAST ダイアクリティカル含有 | 328 種（74.9%） |
+| ASCII 純粋（dharma・bodhi 等の伝統綴り）| 110 種（25.1%） |
+| 出現篇数 | 66 篇 / 112 篇（58.9%）|
+| 表記揺れ統合 canonical | 6 種 |
+| 除外辞書サイズ | 14 ノイズ語 |
+| ALIAS_MAP サイズ | 0（拡張余地） |
+
+引き継ぎメモ「411 種・603 件」（品質報告書由来見積り）に対し +27 種・+51 件の超過は、抽出基準を「IAST 含有 + ASCII 全候補から除外辞書のみで絞る」と広く取ったため（ホワイトリスト方式より網羅的）。
+
+### 9.3 出現上位 20
+
+| 順位 | canonical | 出現数 | IAST | 篇数 | 主漢訳 |
+|---|---|---|---|---|---|
+| 1 | bodhi | 10 |  | 8 | 菩提 |
+| 2 | buddha | 9 |  | 9 | 仏陀 |
+| 2 | vairocana | 9 | 大文字統合 | 9 | 毘盧遮那・大日如来 |
+| 4 | bhikṣu | 7 | ★ | 7 | 比丘 |
+| 4 | dharma | 7 |  | 7 | 法 |
+| 4 | sattva | 7 |  | 7 | 薩埵 |
+| 7 | samādhi | 6 | ★ | 5 | 三摩地 |
+| 8 | ekayāna | 5 | ★ | 4 | 一乗 |
+| 8 | gāthā | 5 | ★ | 5 | 偈 |
+| 8 | māyā | 5 | ★ | 2 | 幻 |
+| 8 | nāgārjuna | 5 | ★ | 4 | 龍樹 |
+| 8 | prajñā | 5 | ★ | 5 | 般若 |
+| 8 | sumeru | 5 |  | 5 | 須弥山 |
+| 8 | ācārya | 5 | ★ | 5 | 阿闍梨 |
+| 8 | śūnya | 5 | ★ | 2 | 空 |
+| 16 | amoghavajra | 4 | 大文字統合 | 4 | 不空三蔵 |
+| 16 | bhagavān | 4 | ★ | 4 | 世尊 |
+| 16 | bodhisattva | 4 |  | 4 | 菩薩 |
+| 16 | dharmakāya | 4 | ★ | 3 | 法身 |
+| 16 | saṃgha | 4 | ★ | 4 | 僧伽 |
+
+### 9.4 表記揺れ統合 6 件（canonical=小文字基準）
+
+| canonical | aliases |
+|---|---|
+| vairocana | vairocana×8, Vairocana×1 |
+| amoghavajra | Amoghavajra×2, amoghavajra×2 |
+| mañjuśrī | mañjuśrī×2, Mañjuśrī×1 |
+| ānanda | Ānanda×2, ānanda×1 |
+| rāhula | Rāhula×1, rāhula×1 |
+| tuṣita | Tuṣita×1, tuṣita×1 |
+
+固有名詞（人名・本尊名）に冒頭大文字化と全小文字の揺れが残存。canonical 集約により検索利便性は確保。
+
+### 9.5 戒名選定への適用ヒント
+
+梵語そのものは戒名（漢字）にならないが、漢訳語との対応が選定補強情報になる：
+- vairocana / mahāvairocana → 「遮那」「大日」（既に terms に登録済・kaimyo_suitable=true）
+- prajñā → 「般若」「智」「慧」（戒名適合一字候補）
+- karuṇā / mahā-karuṇā → 「大悲」「慈」「悲」（kaimyo_suitable=true）
+- bodhi → 「菩提」「悟」「覚」
+- śūnya / śūnyatā → 「空」「玄」
+- 周辺漢訳の自動関連付けは Tier 2-3 戒名向け熟語選別フェーズで集約予定。
+
+### 9.6 v1.1 完成度評価
+
+- ✅ **梵語 IAST カテゴリ完成**：438 種・654 件・表記揺れ統合 6 種・除外辞書 14 ノイズ語
+- ✅ **既知梵語 ASCII の網羅**：dharma・bodhi・vairocana 等のダイアクリティカルなし表記も拾えている（ホワイトリスト不要・除外辞書のみで十分な品質）
+- ⏭️ 次セッション以降の予定：
+  - **Tier 2-3 戒名向け熟語選別**（密教教学用語 + 梵語の漢訳対応 + 補注 2 字熟語抽出）
+  - **Tier 3-5/6 人名・地名抽出**
+  - **kaimyo-app 連携 API 設計**（候補 D）
+
+---
+
+最終更新：2026-04-27 v1.1 昇格（典故書名 + 空海著作分離 + 密教教学用語 + 梵語 IAST 抽出完了）。次セッション以降は戒名向け熟語選別・人名・地名抽出に進む。
