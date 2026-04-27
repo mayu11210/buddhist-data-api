@@ -22,6 +22,8 @@ node_modules/
 
 # Cowork JSON 反映時の一時翻訳ファイル（git に取り込まない）
 _dev_references/_tmp_*.txt
+# Cowork 編集用一時 Python（outputs フォルダ truncate 問題回避のため _dev_references/ 配下に置く）
+_dev_references/_tmp_*.py
 
 # LibreOffice lock files（recalc.py 等で生成・git に取り込まない）
 .~lock.*#

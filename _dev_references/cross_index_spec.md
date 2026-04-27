@@ -1,12 +1,13 @@
 # 横断索引化フェーズ B 設計書（cross_index_spec.md）
 
 作成日：2026-04-27（フェーズ B 着手セッション）
-版：**v1.1（梵語抽出完了版・典故書名 + 密教教学用語 + 梵語）**
+版：**v1.2（戒名向け熟語抽出完了版・典故書名 + 密教教学用語 + 梵語 + 戒名向け熟語）**
 
 更新履歴：
 - 2026-04-27 v0.1 ドラフト作成 + 典故書名パイロット抽出（256 種・1187 件）
 - 2026-04-27 v1.0 昇格：課題 A〜E 解消（CANONICAL_MAP 拡充・空海著作分離・除外辞書整備）+ 密教教学用語 19 語の本格抽出 + cross_index 共通スキーマ確定
 - 2026-04-27 v1.1 昇格：Tier 2-4 梵語 IAST 抽出完了（438 種・654 件・表記揺れ統合 6 種・除外辞書 14 ノイズ語）
+- 2026-04-27 v1.2 昇格：Tier 2-3 戒名向け熟語抽出完了（111 種・1971 件・起点 1 シード 11 + 起点 2 梵語漢訳 32 + 起点 3 補注ホワイトリスト 68・人手レビュー要 51 件マーカー）
 
 ---
 
@@ -476,4 +477,177 @@ a-kāra, amoghavajra, bodhi, cetanā, cintāmaṇi, guhya, guhya-piṭaka, hṛd
 
 ---
 
-最終更新：2026-04-27 v1.1 昇格（典故書名 + 空海著作分離 + 密教教学用語 + 梵語 IAST 抽出完了）。次セッション以降は戒名向け熟語選別・人名・地名抽出に進む。
+## 10. v1.2 本格抽出結果：戒名向け熟語（2026-04-27 第 4 セッション）
+
+`_dev_references/_tmp_extract_kaimyo_jukugo.py`（新規作成）で kaimyo-app の戒名選定用辞書を完成させた。スクリプトは Cowork sandbox 編集の安全のため `_dev_references/_tmp_*.py` 配下に置く運用（outputs フォルダの truncate 問題回避・引き継ぎメモ 2026-04-27_梵語抽出v1.1完了 §副次発見）。
+
+### 10.1 抽出方針
+
+出力先：`data/mikkyou/index_shoryoshu_kaimyo.json`
+
+3 つの起点を組み合わせて戒名向け熟語を網羅：
+
+**起点 1：密教教学用語の戒名適合 11 語（シード）**
+
+`index_shoryoshu_terms.json` で `kaimyo_suitable=true` が付与された 11 語をそのままシードに採用：
+
+即身成仏・無縁慈悲・大日・法界・三密・法身・真言・大悲・遮那・玄機・智剣
+
+**起点 2：梵語の漢訳対応（手書きキュレーション）**
+
+`SANSKRIT_TO_KAIMYO_JUKUGO`（51 エントリ）で梵語 → 戒名熟語の対応辞書を定義し、`index_shoryoshu_sanskrit.json` に該当 canonical が存在する場合のみ採用：
+
+- prajñā → 般若・智慧
+- karuṇā / mahā-karuṇā → 大悲・慈悲
+- bodhi / bodhicitta → 菩提
+- śūnya / śūnyatā → 空観
+- samādhi → 三昧 / dhyāna → 禅定
+- dharma / dharmakāya → 法身・正法 / dharma-dhātu → 法界
+- mantra → 真言 / vajra → 金剛
+- mahāvairocana → 大日・遮那 / vairocana → 遮那
+- tathāgata → 如来 / tathatā → 真如 / nirvāṇa → 涅槃
+- avalokiteśvara → 観音 / mañjuśrī → 文殊 / samantabhadra → 普賢 / amitābha → 弥陀
+- śīla → 持戒 / kṣānti → 忍辱 / vīrya → 精進
+- ratna / cintāmaṇi → 宝珠
+- siddhi → 成就 / mokṣa → 解脱
+- śraddhā → 浄信
+- ekayāna → 一乗 / mahāyāna → 大乗
+- pāramitā → 波羅蜜 / upāya → 方便
+- praṇidhāna → 誓願 / mahāmudrā → 大印
+- ほか
+
+起点 1 のシードと重複する熟語（大日・遮那・大悲・法身・法界・真言）は起点 1 を優先。
+
+**起点 3：補注内 2 字漢語熟語のホワイトリスト抽出**
+
+全 112 篇 `gendaigoyaku` から括弧書き内（`（〜）`）の 2 字漢語熟語を機械抽出し、人手キュレートした `DOCTRINAL_2CHAR_WHITELIST`（約 150 語）と `KAIMYO_NOISE`（約 140 語）の 2 段フィルタで戒名向けに絞り込み：
+
+- ホワイトリスト採用例：仏法・蓮華・真理・本性・清浄・解脱・大徳・心地・常住・霊妙
+- ノイズ除外例：天皇・天子・空海・荘子・嵯峨・神泉・八二（年代）・譬喩（メタ）
+
+機械的に 6,246 種・13,887 件出現する 2 字漢語からホワイトリスト＆ノイズ除外で 68 種に絞り込み。
+
+### 10.2 戒名適合性スコアリング
+
+```
+kaimyo_score = freq_score + doctrinal_score + ichiji_score + aesthetic_score
+                                                           （0〜75 点スケール）
+```
+
+| 要素 | 算出ルール | 上限 |
+|---|---|---|
+| `freq_score` | log10(occurrence_count + 1) × 12 | 25 |
+| `doctrinal_score` | seed_terms=30, seed_sanskrit=20, paren_doctrinal=10 | 30 |
+| `ichiji_score` | KAIMYO_ICHIJI（戒名適合一字 85 字）含字数 × 8 | 16 |
+| `aesthetic_score` | 字形美・響き美のヒューリスティック（重複字 -2 / 全字 ICHIJI +2 / GOOD_PAIRS +2） | 4 |
+
+**KAIMYO_ICHIJI（戒名適合一字 85 字・抜粋）**：
+
+智・慧・明・覚・悟・聡・玄・慈・悲・仁・善・愛・浄・信・清・澄・寂・静・和・雅・真・常・実・正・法・道・理・心・性・空・無・元・本・妙・宝・尊・大・広・恵・徳・栄・光・明・照・月・華・蓮・雲・霞・山・海・泉・水・河・永・長・久・密・真・言・阿・吽・金・剛・仏・如・尊・聖・師・経・志・誓・願・念
+
+### 10.3 人手レビュー要マーカー
+
+`needs_human_review=true` を以下の条件で自動付与：
+
+- 起点 3（補注由来）かつ kaimyo_score < 35 の語
+
+シード 11 語（起点 1）と梵語漢訳対応 32 語（起点 2）は人手キュレート済のため `needs_human_review=false`。kaimyo-app 連携時はまずシード由来 43 語を確実な辞書として運用し、補注由来 68 語は段階的に人手校閲を経て採用する想定。
+
+### 10.4 結果サマリ
+
+| 指標 | 値 |
+|---|---|
+| 異なり熟語数 | **111 種** |
+| 延べ出現件数 | **1,971 件** |
+| 出現篇数 | **100 篇 / 112 篇（89.3%）** |
+| 起点 1（密教教学用語シード） | 11 種 |
+| 起点 2（梵語漢訳対応） | 32 種 |
+| 起点 3（補注ホワイトリスト） | 68 種 |
+| `needs_human_review=true` | 51 件（全て起点 3） |
+| 4 字熟語（即身成仏・無縁慈悲）| 2 種（シード由来） |
+| 出力ファイルサイズ | 978,464 bytes |
+
+### 10.5 出現上位 15
+
+| 順位 | jukugo | source | 出現数 | kaimyo_score | review |
+|---|---|---|---|---|---|
+| 1 | 金剛 | seed_sanskrit | 193 | 63.0 | false |
+| 2 | 菩薩 | seed_sanskrit | 149 | 45.0 | false |
+| 3 | 如来 | seed_sanskrit | 134 | 53.0 | false |
+| 4 | 大日 | seed_terms | 111 | 62.6 | false |
+| 5 | 涅槃 | seed_sanskrit | 78 | 42.8 | false |
+| 6 | 法界 | seed_terms | 68 | 60.1 | false |
+| 7 | 智慧 | seed_sanskrit | 63 | 61.7 | false |
+| 8 | 般若 | seed_sanskrit | 57 | 41.2 | false |
+| 9 | 仏法 | paren_doctrinal | 51 | 48.6 | false |
+| 10 | 三密 | seed_terms | 46 | 58.1 | false |
+| 10 | 三昧 | seed_sanskrit | 46 | 40.1 | false |
+| 12 | 法身 | seed_terms | 45 | 60.0 | false |
+| 13 | 真言 | seed_terms | 44 | 67.8 | false |
+| 14 | 仏陀 | seed_sanskrit | 43 | 47.7 | false |
+| 15 | 観音 | seed_sanskrit | 34 | 38.5 | false |
+
+「真言」が score 67.8 で最高位（freq=20.0 + doctrinal=30 + ichiji=16 + aesthetic=2 = 68.0 → 一字「真」「言」が両方 KAIMYO_ICHIJI）。「金剛」は出現件数 193 と最多だが 4 文字戒名「金剛智」「金剛峯寺」等の人名・寺名の混入が一定数含まれる可能性あり（occurrences の context を kaimyo-app 側で再走査して人名フィルタ要）。
+
+### 10.6 paren_doctrinal（起点 3・補注由来）の代表例
+
+| jukugo | 出現数 | kaimyo_score | review |
+|---|---|---|---|
+| 仏法 | 51 | 48.6 | false |
+| 蓮華 | 30 | 45.9 | false |
+| 修行 | 28 | 27.6 | **true** |
+| 真理 | 25 | 45.0 | false |
+| 本来 | 22 | 34.3 | **true** |
+| 聖王 | 22 | 34.3 | **true** |
+| 真実 | 18 | 43.4 | false |
+| 三宝 | 18 | 33.4 | **true** |
+| 浄土 | 17 | 33.1 | **true** |
+| 慈悲 | 13 | 43.8 | false |
+| 清浄 | 10 | 42.5 | false |
+| 大徳 | 8 | 39.5 | false |
+
+「修行」「本来」「聖王」「三宝」「浄土」等は教義性は十分高いが戒名適合性のスコアが中位のため要レビュー。kaimyo-app の戒名候補生成時に「シード由来 43 + review=false の補注由来 17」の合計 60 種程度を「自動採用候補」として、残り 51 種を「人手校閲要候補」として段階運用する。
+
+### 10.7 戒名適合一字（KAIMYO_ICHIJI 85 字）の収録
+
+各 entry の `kaimyo_chars` に、その熟語を構成する字のうち KAIMYO_ICHIJI に含まれるものを保存。kaimyo-app 側で「故人の特性 → 適合一字 → 候補熟語」の逆引きマッピングに使用：
+
+```jsonc
+{
+  "jukugo": "智慧",
+  "kaimyo_chars": ["智", "慧"],
+  "kaimyo_score": 61.7,
+  "source_tag": "seed_sanskrit",
+  "sanskrit_origins": ["prajñā"]
+}
+```
+
+### 10.8 連携 API への接続イメージ
+
+```
+GET /api/kaimyo/candidates?characteristics=学問熱心,温和
+
+  → 内部マッピング：学問熱心 → ["智","慧","明","覚","悟"]
+                    温和   → ["慈","悲","仁","和","雅"]
+
+  → index_shoryoshu_kaimyo.json から kaimyo_chars に該当字を含む entries を抽出
+
+  → スコア順にソート、出典文（occurrences[0..n].context）付きで返却
+```
+
+実装は次セッション以降の §4 API 設計（候補 D）で本格設計する。
+
+### 10.9 v1.2 完成度評価
+
+- ✅ **戒名向け熟語カテゴリ完成**：111 種・1,971 件・起点 3 つの組合せで kaimyo-app 用辞書として機能
+- ✅ **人手レビュー要マーカー実装**：51 件のグレーゾーン熟語を明示
+- ✅ **シード由来 43 件の確実辞書**：人手キュレート済で `review=false`、即運用可
+- ⏭️ 次セッション以降の予定：
+  - **Tier 3-5/6 人名・地名抽出**（仏教人名 / 漢籍人名 / 仏教地名 / 日本地名）
+  - **kaimyo-app 連携 API 設計**（候補 D・3〜5 セッション）
+  - **paren_doctrinal の人手校閲ラウンド**（51 件のレビュー → 採否決定）
+
+---
+
+最終更新：2026-04-27 v1.2 昇格（典故書名 + 空海著作分離 + 密教教学用語 + 梵語 IAST + 戒名向け熟語抽出完了）。次セッション以降は人名・地名抽出または kaimyo-app 連携 API 設計に進む。
+
