@@ -4,17 +4,24 @@ api_server/loaders.py
 
 横断索引化フェーズ B（cross_index_spec.md §13）の API サーバ起動時ロード基盤。
 
-7 索引 + miyasaka.json + api_mappings.json をメモリにロードし、篇 idx →
-ヒットエントリ集合の逆引き辞書を構築する。/api/篇/:idx をはじめとする
-すべてのエンドポイントから O(1) で参照できる。
+7 索引 + miyasaka.json + api_mappings.json をメモリにロードし、
+
+  - 篇 idx → ヒットエントリ集合の逆引き辞書（per_idx）
+  - alias / matched_form → canonical の逆引き辞書（alias_to_canonical）
+  - 7 ペアの共起マトリックス（co_occurrence・§13.7.3）
+
+を起動時に前計算してメモリ常駐させる。/api/篇/:idx と詳細参照系 6 本
+（/api/term, /api/person, /api/place, /api/citation, /api/sanskrit,
+/api/kukai-work）はすべてこのストアから O(1) 〜 O(N) 程度で組み立てる。
 
 使い方:
 
     from api_server.loaders import IndexStore
     store = IndexStore.load_default()
-    篇カルテ = store.build_篇_card(idx=1, excerpt_chars=300, include_full_text=False)
+    篇カルテ = store.build_篇_card(idx=1, excerpt_chars=300)
+    term参照 = store.build_reference(endpoint="terms", key="三密")
 
-cross_index_spec.md §13.8.2 起動シーケンスに準拠。
+cross_index_spec.md §13.5 / §13.6 / §13.7.3 / §13.8.2 に準拠。
 """
 
 from __future__ import annotations
@@ -23,7 +30,7 @@ import json
 from collections import defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Set, Tuple
 
 # --------------------------------------------------------------------------
 # 索引種別 → ファイル名 + 主キー（仕様 §13.6 / §13.5）の定義
@@ -50,6 +57,27 @@ PRIMARY_KEY: Dict[str, str] = {
     "kukai_works":   "term",
 }
 
+# §13.7.3 で前計算する 7 ペア（無向）
+CO_OCCURRENCE_PAIRS: List[Tuple[str, str]] = [
+    ("kaimyo_jukugo", "persons"),
+    ("kaimyo_jukugo", "places"),
+    ("terms",         "persons"),
+    ("terms",         "places"),
+    ("kaimyo_jukugo", "terms"),
+    ("persons",       "persons"),
+    ("persons",       "places"),
+]
+
+# 参照系から呼ばれる「逆方向」ペア（前計算済みの転置で導出）
+_REVERSE_PAIRS: List[Tuple[str, str]] = [
+    ("persons",       "kaimyo_jukugo"),
+    ("places",        "kaimyo_jukugo"),
+    ("persons",       "terms"),
+    ("places",        "terms"),
+    ("terms",         "kaimyo_jukugo"),
+    ("places",        "persons"),
+]
+
 
 # --------------------------------------------------------------------------
 # データクラス
@@ -75,17 +103,30 @@ class IndexStore:
     """
     起動時にロードした全索引・本文・マッピングを保持するインメモリストア。
 
-    /api/篇/:idx は per_idx[name][idx] -> [(entry, occ_count), ...] を引いて
-    すぐにレスポンスを組み立てる。
+    /api/篇/:idx は per_idx[name][idx] -> [(entry, occ_count), ...] を引き、
+    /api/term/:term 等の参照系は entry_by_key + co_occurrence + alias_to_canonical
+    を組み合わせて即時にレスポンスを組み立てる。
     """
 
-    indices_raw: Dict[str, Dict[str, Any]]               # name -> 索引 JSON 全体
-    entries_by_index: Dict[str, List[IndexEntry]]        # name -> エントリ配列
-    miyasaka: List[Dict[str, Any]]                        # 全 112 篇の本文
-    api_mappings: Dict[str, Any]                          # CHARACTERISTIC_TO_ICHIJI 等
+    indices_raw: Dict[str, Dict[str, Any]]                 # name -> 索引 JSON 全体
+    entries_by_index: Dict[str, List[IndexEntry]]          # name -> エントリ配列
+    miyasaka: List[Dict[str, Any]]                          # 全 112 篇の本文
+    api_mappings: Dict[str, Any]                            # CHARACTERISTIC_TO_ICHIJI 等
 
     # 篇 idx 別の逆引き：name -> idx -> [(entry, occ_count), ...]（occ_count 降順）
     per_idx: Dict[str, Dict[int, List[Tuple[IndexEntry, int]]]] = field(default_factory=dict)
+
+    # primary key (canonical/term/jukugo) → IndexEntry
+    entry_by_key: Dict[str, Dict[str, IndexEntry]] = field(default_factory=dict)
+
+    # alias / matched_form → canonical（自身も自身を引ける形で含む）
+    alias_to_canonical: Dict[str, Dict[str, str]] = field(default_factory=dict)
+
+    # primary key → frozenset(篇分布) 高速 set 交差用
+    entry_篇sets: Dict[str, Dict[str, frozenset]] = field(default_factory=dict)
+
+    # 共起マトリックス（§13.7.3）：(a_name, b_name) -> a_key -> b_key -> count
+    co_occurrence: Dict[Tuple[str, str], Dict[str, Dict[str, int]]] = field(default_factory=dict)
 
     schema_version: str = "1.4.0"
 
@@ -97,7 +138,6 @@ class IndexStore:
     def load_default(cls, repo_root: Optional[Path] = None) -> "IndexStore":
         """リポジトリルートから既定パスでロードする。"""
         if repo_root is None:
-            # api_server/loaders.py の親ディレクトリの親 = リポジトリルート
             repo_root = Path(__file__).resolve().parent.parent
         return cls.load(
             mikkyou_dir=repo_root / "data" / "mikkyou",
@@ -136,6 +176,8 @@ class IndexStore:
             api_mappings=api_mappings,
         )
         store._build_per_idx()
+        store._build_lookups()
+        store._build_co_occurrence()
         return store
 
     # ------------------------------------------------------------------
@@ -143,21 +185,16 @@ class IndexStore:
     # ------------------------------------------------------------------
 
     def _build_per_idx(self) -> None:
-        """
-        各索引の occurrences を走査し、name -> idx -> [(entry, count), ...] を構築。
-        count は当該 idx 内の occurrence 数（出現回数）。降順で保持する。
-        """
+        """各索引の occurrences を走査し、name -> idx -> [(entry, count), ...] を構築。"""
         per: Dict[str, Dict[int, List[Tuple[IndexEntry, int]]]] = {}
         for name, entries in self.entries_by_index.items():
             idx_to_pairs: Dict[int, Dict[int, int]] = defaultdict(lambda: defaultdict(int))
-            # entry_id (= entries 配列内の位置) をキーに count を集計
             for entry_id, entry in enumerate(entries):
                 for occ in entry.raw.get("occurrences", []):
                     idx = occ.get("shoryoshu_idx")
                     if idx is None:
                         continue
                     idx_to_pairs[idx][entry_id] += 1
-            # 降順ソート + 元エントリへ解決
             resolved: Dict[int, List[Tuple[IndexEntry, int]]] = {}
             for idx, eid_to_count in idx_to_pairs.items():
                 pairs = [(entries[eid], cnt) for eid, cnt in eid_to_count.items()]
@@ -165,6 +202,123 @@ class IndexStore:
                 resolved[idx] = pairs
             per[name] = resolved
         self.per_idx = per
+
+    # ------------------------------------------------------------------
+    # alias_to_canonical / entry_by_key / entry_篇sets
+    # ------------------------------------------------------------------
+
+    def _build_lookups(self) -> None:
+        """各索引の primary key と alias を逆引き可能にする。"""
+        for name, entries in self.entries_by_index.items():
+            pk = PRIMARY_KEY[name]
+            by_key: Dict[str, IndexEntry] = {}
+            篇sets: Dict[str, frozenset] = {}
+            alias_map: Dict[str, str] = {}
+            for e in entries:
+                key_raw = e.raw.get(pk)
+                if key_raw is None:
+                    continue
+                key = str(key_raw)
+                by_key[key] = e
+                篇sets[key] = frozenset(int(i) for i in e.raw.get("篇分布", []) or [])
+                alias_map.setdefault(key, key)  # canonical も自身を引けるように
+                for alias in _extract_aliases(name, e.raw):
+                    if alias and alias not in alias_map:
+                        alias_map[alias] = key
+            self.entry_by_key[name] = by_key
+            self.entry_篇sets[name] = 篇sets
+            self.alias_to_canonical[name] = alias_map
+
+    # ------------------------------------------------------------------
+    # 共起マトリックス（§13.7.3）
+    # ------------------------------------------------------------------
+
+    def _build_co_occurrence(self) -> None:
+        """7 ペア（無向）を前計算してメモリ常駐。逆方向も転置で派生。"""
+        for a_name, b_name in CO_OCCURRENCE_PAIRS:
+            mat: Dict[str, Dict[str, int]] = {}
+            a_sets = self.entry_篇sets.get(a_name, {})
+            b_sets = self.entry_篇sets.get(b_name, {})
+            same = (a_name == b_name)
+            for ak, aset in a_sets.items():
+                if not aset:
+                    continue
+                row: Dict[str, int] = {}
+                for bk, bset in b_sets.items():
+                    if same and ak == bk:
+                        continue
+                    n = len(aset & bset)
+                    if n > 0:
+                        row[bk] = n
+                if row:
+                    mat[ak] = row
+            self.co_occurrence[(a_name, b_name)] = mat
+
+        # 逆方向（前計算済みの転置を派生）
+        for a_name, b_name in _REVERSE_PAIRS:
+            if (a_name, b_name) in self.co_occurrence:
+                continue
+            base = self.co_occurrence.get((b_name, a_name))
+            if base is None:
+                continue
+            inv: Dict[str, Dict[str, int]] = {}
+            for bk, row in base.items():
+                for ak, n in row.items():
+                    inv.setdefault(ak, {})[bk] = n
+            self.co_occurrence[(a_name, b_name)] = inv
+
+    # ------------------------------------------------------------------
+    # 公開ヘルパ
+    # ------------------------------------------------------------------
+
+    def lookup_entry(self, index_name: str, key: str) -> Optional[Tuple[IndexEntry, str, bool]]:
+        """
+        key を canonical または alias として解決し、(entry, canonical_key, alias_matched)
+        を返す。見つからなければ None。
+        """
+        amap = self.alias_to_canonical.get(index_name, {})
+        canonical = amap.get(key)
+        if canonical is None:
+            return None
+        entry = self.entry_by_key.get(index_name, {}).get(canonical)
+        if entry is None:
+            return None
+        return (entry, canonical, canonical != key)
+
+    def top_co_occurring(
+        self,
+        source_index: str,
+        source_key: str,
+        target_index: str,
+        n: int = 10,
+    ) -> List[Tuple[str, int]]:
+        """
+        source の 篇分布 と target_index 各エントリの 篇分布 の積集合を計算し、
+        上位 N 件を (key, count) 降順で返す。
+
+        前計算済みのペアならマトリックスから O(1) で参照。
+        未計算のペア（citations や sanskrit など）はその場で set 交差を計算。
+        """
+        # 前計算済み or 転置済み
+        mat = self.co_occurrence.get((source_index, target_index))
+        if mat is not None:
+            row = mat.get(source_key, {})
+            items = sorted(row.items(), key=lambda p: (-p[1], p[0]))
+            return items[:n]
+        # フォールバック：その場で交差計算
+        src_set = self.entry_篇sets.get(source_index, {}).get(source_key)
+        if not src_set:
+            return []
+        same = (source_index == target_index)
+        results: List[Tuple[str, int]] = []
+        for tk, tset in self.entry_篇sets.get(target_index, {}).items():
+            if same and tk == source_key:
+                continue
+            n_co = len(src_set & tset)
+            if n_co > 0:
+                results.append((tk, n_co))
+        results.sort(key=lambda p: (-p[1], p[0]))
+        return results[:n]
 
     # ------------------------------------------------------------------
     # /api/篇/:idx を組み立てる（§13.6）
@@ -176,11 +330,6 @@ class IndexStore:
         excerpt_chars: int = 300,
         include_full_text: bool = False,
     ) -> Dict[str, Any]:
-        """
-        仕様 §13.6.2 に準拠した篇カルテ JSON を組み立てる。
-
-        idx が範囲外なら ValueError を投げる（FastAPI 側で 404 に変換）。
-        """
         if not (0 <= idx < len(self.miyasaka)):
             raise ValueError(f"shoryoshu_idx={idx} is out of range (0..{len(self.miyasaka)-1})")
 
@@ -192,14 +341,11 @@ class IndexStore:
         gg_len = len(gendaigoyaku_full)
         ratio = round(gg_len / kk_len, 2) if kk_len > 0 else 0.0
 
-        # 各索引のヒット
         indices_block: Dict[str, List[Dict[str, Any]]] = {}
         totals_block: Dict[str, int] = {}
         for name in INDEX_FILES.keys():
             pairs = self.per_idx.get(name, {}).get(idx, [])
-            indices_block[name] = [
-                _format_index_hit(name, e, cnt) for (e, cnt) in pairs
-            ]
+            indices_block[name] = [_format_index_hit(name, e, cnt) for (e, cnt) in pairs]
             totals_block[name] = len(pairs)
 
         excerpts = {
@@ -210,15 +356,11 @@ class IndexStore:
         result: Dict[str, Any] = {
             "shoryoshu_idx": idx,
             "篇名": entry.get("篇名"),
-            "巻": entry.get("巻番号"),       # miyasaka.json では「巻番号」フィールド
+            "巻": entry.get("巻番号"),
             "原文題": entry.get("原文題"),
             "詩形": entry.get("詩形"),
             "page_count": len(ページ),
-            "字数": {
-                "書き下し": kk_len,
-                "現代語訳": gg_len,
-                "倍率": ratio,
-            },
+            "字数": {"書き下し": kk_len, "現代語訳": gg_len, "倍率": ratio},
             "indices": indices_block,
             "totals": totals_block,
             "excerpts": excerpts,
@@ -231,42 +373,223 @@ class IndexStore:
             }
         return result
 
+    # ------------------------------------------------------------------
+    # 詳細参照系 6 本（§13.5）
+    # ------------------------------------------------------------------
+
+    def build_reference(
+        self,
+        endpoint: str,
+        key: str,
+        full_context: bool = False,
+        top_n: int = 10,
+        max_occurrences_when_short: int = 5,
+    ) -> Dict[str, Any]:
+        """
+        詳細参照系 6 本（terms / persons / places / citations / sanskrit /
+        kukai_works）の共通レスポンスを組み立てる。
+
+        - key は canonical / term / jukugo そのものか、alias / matched_form
+          のいずれかで解決可能。
+        - full_context=False の既定では occurrences を冒頭 max_occurrences_when_short 件
+          に絞る（仕様 §13.5.1 の挙動を簡略化した実装。±400 字拡張は将来 v1.7 以降）。
+        - top_n は related ブロックの各カテゴリ上限。
+
+        endpoint が INDEX_FILES に存在しない、または key が解決できない場合は
+        KeyError を投げる（FastAPI 側で 404 にマップ）。
+        """
+        if endpoint not in INDEX_FILES:
+            raise KeyError(f"UNKNOWN_ENDPOINT: {endpoint}")
+
+        result = self.lookup_entry(endpoint, key)
+        if result is None:
+            raise KeyError(f"NOT_FOUND: {endpoint}={key}")
+        entry, canonical, alias_matched = result
+
+        raw = dict(entry.raw)
+        full_occ_count = len(raw.get("occurrences", []) or [])
+        truncated = False
+        if not full_context and "occurrences" in raw and full_occ_count > max_occurrences_when_short:
+            raw["occurrences"] = list(raw["occurrences"])[:max_occurrences_when_short]
+            truncated = True
+
+        related = self._build_related_block(endpoint, canonical, top_n)
+
+        return {
+            "query": {
+                "endpoint": endpoint,
+                "key": key,
+                "canonical": canonical,
+                "alias_matched": alias_matched,
+                "full_context": full_context,
+            },
+            "entry": raw,
+            "related": related,
+            "metadata": {
+                "schema_version": self.schema_version,
+                "occurrence_count_total": full_occ_count,
+                "occurrence_count_returned": len(raw.get("occurrences", []) or []),
+                "occurrence_truncated": truncated,
+                "top_n": top_n,
+            },
+        }
+
+    # ------------------------------------------------------------------
+    # related ブロック組立（参照系 6 本ごとに方針を切替）
+    # ------------------------------------------------------------------
+
+    def _build_related_block(self, endpoint: str, canonical: str, n: int) -> Dict[str, Any]:
+        related: Dict[str, Any] = {}
+        if endpoint == "terms":
+            related["co_occurring_kaimyo_jukugo"] = self._co_block(endpoint, canonical, "kaimyo_jukugo", n)
+            related["co_occurring_persons"]       = self._co_block(endpoint, canonical, "persons", n)
+            related["co_occurring_places"]        = self._co_block(endpoint, canonical, "places", n)
+            related["co_occurring_citations"]     = self._co_block(endpoint, canonical, "citations", n)
+        elif endpoint == "persons":
+            related["co_occurring_persons"]       = self._co_block(endpoint, canonical, "persons", n)
+            related["co_occurring_places"]        = self._co_block(endpoint, canonical, "places", n)
+            related["co_occurring_terms"]         = self._co_block(endpoint, canonical, "terms", n)
+            related["co_occurring_kaimyo_jukugo"] = self._co_block(endpoint, canonical, "kaimyo_jukugo", n)
+            related["co_occurring_citations"]     = self._co_block(endpoint, canonical, "citations", n)
+        elif endpoint == "places":
+            related["co_occurring_persons"]       = self._co_block(endpoint, canonical, "persons", n)
+            related["co_occurring_terms"]         = self._co_block(endpoint, canonical, "terms", n)
+            related["co_occurring_kaimyo_jukugo"] = self._co_block(endpoint, canonical, "kaimyo_jukugo", n)
+            related["co_occurring_citations"]     = self._co_block(endpoint, canonical, "citations", n)
+        elif endpoint == "citations":
+            related["co_occurring_persons"]       = self._co_block(endpoint, canonical, "persons", n)
+            related["co_occurring_places"]        = self._co_block(endpoint, canonical, "places", n)
+            related["co_occurring_terms"]         = self._co_block(endpoint, canonical, "terms", n)
+            related["co_occurring_kaimyo_jukugo"] = self._co_block(endpoint, canonical, "kaimyo_jukugo", n)
+        elif endpoint == "sanskrit":
+            related["related_kaimyo_jukugo_via_sanskrit_origins"] = self._sanskrit_to_kaimyo(canonical, n)
+            related["co_occurring_persons"]       = self._co_block(endpoint, canonical, "persons", n)
+            related["co_occurring_places"]        = self._co_block(endpoint, canonical, "places", n)
+            related["co_occurring_terms"]         = self._co_block(endpoint, canonical, "terms", n)
+        elif endpoint == "kukai_works":
+            related["co_occurring_persons"]       = self._co_block(endpoint, canonical, "persons", n)
+            related["co_occurring_places"]        = self._co_block(endpoint, canonical, "places", n)
+            related["co_occurring_terms"]         = self._co_block(endpoint, canonical, "terms", n)
+            related["co_occurring_kaimyo_jukugo"] = self._co_block(endpoint, canonical, "kaimyo_jukugo", n)
+        return related
+
+    def _co_block(
+        self,
+        source_index: str,
+        source_key: str,
+        target_index: str,
+        n: int,
+    ) -> List[Dict[str, Any]]:
+        pairs = self.top_co_occurring(source_index, source_key, target_index, n)
+        out: List[Dict[str, Any]] = []
+        for k, count in pairs:
+            e = self.entry_by_key.get(target_index, {}).get(k)
+            if e is None:
+                continue
+            item: Dict[str, Any] = {"co_count": count}
+            if target_index == "persons":
+                item["canonical"]   = k
+                item["subcategory"] = e.raw.get("subcategory")
+            elif target_index == "places":
+                item["canonical"]   = k
+                item["subcategory"] = e.raw.get("subcategory")
+            elif target_index == "kaimyo_jukugo":
+                item["jukugo"]              = k
+                item["kaimyo_score"]        = e.raw.get("kaimyo_score")
+                item["needs_human_review"]  = bool(e.raw.get("needs_human_review", False))
+            elif target_index == "terms":
+                item["term"]            = k
+                item["kaimyo_suitable"] = bool(e.raw.get("kaimyo_suitable", False))
+            elif target_index == "citations":
+                item["term"] = k
+            elif target_index == "kukai_works":
+                item["term"] = k
+            elif target_index == "sanskrit":
+                item["canonical"] = k
+            out.append(item)
+        return out
+
+    def _sanskrit_to_kaimyo(self, sanskrit_canonical: str, n: int) -> List[Dict[str, Any]]:
+        """sanskrit_origins フィールドから kaimyo_jukugo の逆引き。"""
+        kaimyo_entries = self.entries_by_index.get("kaimyo_jukugo", [])
+        out: List[Dict[str, Any]] = []
+        for e in kaimyo_entries:
+            sos = e.raw.get("sanskrit_origins") or []
+            # sanskrit_origins は list[str] のことも list[dict] のこともある（旧形式互換）
+            for so in sos:
+                so_canon = so if isinstance(so, str) else (so.get("canonical") if isinstance(so, dict) else None)
+                if so_canon == sanskrit_canonical:
+                    out.append({
+                        "jukugo":             e.raw.get("jukugo"),
+                        "kaimyo_score":       e.raw.get("kaimyo_score"),
+                        "needs_human_review": bool(e.raw.get("needs_human_review", False)),
+                        "occurrence_count":   e.raw.get("occurrence_count"),
+                    })
+                    break
+        out.sort(key=lambda d: (-(d.get("kaimyo_score") or 0), d.get("jukugo") or ""))
+        return out[:n]
+
 
 # --------------------------------------------------------------------------
-# 索引ヒット 1 件を §13.6.2 出力スキーマ通りに整形
+# 索引ヒット 1 件を §13.6.2 出力スキーマ通りに整形（/api/篇/:idx 用）
 # --------------------------------------------------------------------------
 
 def _format_index_hit(name: str, entry: IndexEntry, count: int) -> Dict[str, Any]:
     raw = entry.raw
     if name == "terms":
-        return {
-            "term": raw.get("term"),
-            "count": count,
-            "kaimyo_suitable": bool(raw.get("kaimyo_suitable", False)),
-        }
+        return {"term": raw.get("term"), "count": count, "kaimyo_suitable": bool(raw.get("kaimyo_suitable", False))}
     if name == "citations":
         return {"term": raw.get("term"), "count": count}
     if name == "sanskrit":
         return {"canonical": raw.get("canonical"), "count": count}
     if name == "kaimyo_jukugo":
         return {
-            "jukugo": raw.get("jukugo"),
-            "score": raw.get("kaimyo_score"),
-            "review": bool(raw.get("needs_human_review", False)),
-            "count": count,
+            "jukugo":  raw.get("jukugo"),
+            "score":   raw.get("kaimyo_score"),
+            "review":  bool(raw.get("needs_human_review", False)),
+            "count":   count,
         }
     if name == "persons":
-        return {
-            "canonical": raw.get("canonical"),
-            "subcategory": raw.get("subcategory"),
-            "count": count,
-        }
+        return {"canonical": raw.get("canonical"), "subcategory": raw.get("subcategory"), "count": count}
     if name == "places":
-        return {
-            "canonical": raw.get("canonical"),
-            "subcategory": raw.get("subcategory"),
-            "count": count,
-        }
+        return {"canonical": raw.get("canonical"), "subcategory": raw.get("subcategory"), "count": count}
     if name == "kukai_works":
         return {"term": raw.get("term"), "count": count}
     raise ValueError(f"unknown index name: {name}")
+
+
+# --------------------------------------------------------------------------
+# alias 抽出（索引ごとの形式差を吸収）
+# --------------------------------------------------------------------------
+
+def _extract_aliases(index_name: str, raw: Dict[str, Any]) -> List[str]:
+    """各索引から alias 候補（人間が打鍵しうる表記）の文字列リストを抽出。
+
+    形式差:
+      - persons / places: aliases = list[str], matched_forms = list[{form, count}]
+      - sanskrit:         aliases = list[{form, count}]
+      - citations / kukai_works: aliases = list[str]
+      - terms / kaimyo_jukugo:   aliases なし（primary key のみ）
+    """
+    out: List[str] = []
+    aliases = raw.get("aliases") or []
+    for a in aliases:
+        if isinstance(a, str):
+            out.append(a)
+        elif isinstance(a, dict):
+            f = a.get("form")
+            if f:
+                out.append(str(f))
+    for mf in raw.get("matched_forms") or []:
+        if isinstance(mf, dict):
+            f = mf.get("form")
+            if f:
+                out.append(str(f))
+    # 重複除去（出現順保持）
+    seen: Set[str] = set()
+    uniq: List[str] = []
+    for s in out:
+        if s and s not in seen:
+            seen.add(s)
+            uniq.append(s)
+    return uniq
