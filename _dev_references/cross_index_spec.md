@@ -1,13 +1,15 @@
 # 横断索引化フェーズ B 設計書（cross_index_spec.md）
 
 作成日：2026-04-27（フェーズ B 着手セッション）
-版：**v1.2（戒名向け熟語抽出完了版・典故書名 + 密教教学用語 + 梵語 + 戒名向け熟語）**
+版：**v1.4（kaimyo-app 連携 API 設計編・候補 D 着手）**
 
 更新履歴：
 - 2026-04-27 v0.1 ドラフト作成 + 典故書名パイロット抽出（256 種・1187 件）
 - 2026-04-27 v1.0 昇格：課題 A〜E 解消（CANONICAL_MAP 拡充・空海著作分離・除外辞書整備）+ 密教教学用語 19 語の本格抽出 + cross_index 共通スキーマ確定
 - 2026-04-27 v1.1 昇格：Tier 2-4 梵語 IAST 抽出完了（438 種・654 件・表記揺れ統合 6 種・除外辞書 14 ノイズ語）
 - 2026-04-27 v1.2 昇格：Tier 2-3 戒名向け熟語抽出完了（111 種・1971 件・起点 1 シード 11 + 起点 2 梵語漢訳 32 + 起点 3 補注ホワイトリスト 68・人手レビュー要 51 件マーカー）
+- 2026-04-27 v1.3 昇格：Tier 3-5 人名抽出（81 種・1,197 件・9 分類・109/112 篇）+ Tier 3-6 地名抽出（70 種・466 件・18 分類・92/112 篇）完了
+- 2026-04-27 v1.4 昇格：kaimyo-app 連携 API 設計編（§13 追加）。7 索引上に統合 API レイヤを設計、CHARACTERISTIC_TO_ICHIJI / THEME_EXPANSION / 共起ロジックを確定（候補 D 第 1 セッション）
 
 ---
 
@@ -177,7 +179,9 @@ shoryoshu_miyasaka.json (全 112 篇 gendaigoyaku)
 
 ---
 
-## 4. kaimyo-app 連携 API 案（候補 D の前段）
+## 4. kaimyo-app 連携 API 案（候補 D の前段・v1.0 暫定スケッチ）
+
+> **本セクションは v1.0 時点の暫定スケッチ。v1.4（2026-04-27）で 7 索引（terms / citations / kukai_works / sanskrit / kaimyo / persons / places）が出揃ったため、本格設計は §13「kaimyo-app 連携 API 設計（v1.4 確定版）」に移行した。本セクションは設計の出発点として履歴保全。**
 
 ### 4.1 想定エンドポイント
 
@@ -861,3 +865,483 @@ GET /api/kaimyo/candidates?characteristics=学問熱心,温和
 ---
 
 最終更新：2026-04-27 v1.3 昇格（典故書名 + 空海著作分離 + 密教教学用語 + 梵語 IAST + 戒名向け熟語 + 人名 + 地名抽出完了）。次セッション以降は kaimyo-app 連携 API 設計または paren_doctrinal 人手校閲に進む。
+
+
+---
+
+## §13 kaimyo-app 連携 API 設計（v1.4 確定版・候補 D 第 1 セッション）
+
+横断索引化フェーズ B v1.3 で 7 索引（密教教学用語・典故書名・空海著作・梵語 IAST・戒名向け熟語・人名・地名）が出揃ったため、kaimyo-app（戒名・諷誦文・葬儀法話生成アプリ）および将来の周辺アプリ（日常法話・ブログ・教義学習アプリ等）から横断検索可能な API レイヤを v1.4 で確定する。
+
+本節は「実装に直結する仕様書」として、エンドポイント・入出力・内部フロー・マッピングテーブル・アーキテクチャを v1.4 時点で確定し、リファレンス実装は次セッション以降（v1.5 以降）に着手する。
+
+### 13.1 設計方針
+
+| 方針 | 内容 |
+|---|---|
+| 読み取り専用 | 全エンドポイント GET のみ。索引データの書き換えは別経路（`_tmp_extract_*.py` の再実行）で行う。 |
+| ステートレス REST | 認証・セッション・DB 不要。索引 JSON をメモリにロードして応答。 |
+| データソース固定 | `data/mikkyou/index_shoryoshu_*.json`（7 ファイル）+ `data/kukai/shoryoshu_miyasaka.json`（本文・出典文抜粋用）。 |
+| レスポンス形式 | `application/json; charset=utf-8`。原文引用部分は `gendaigoyaku` の context 抜粋。 |
+| 索引非破壊 | API は索引ファイルを書き換えない。`schema_version` をレスポンスに含めて互換性を担保。 |
+| CORS | kaimyo-app・blog-app 等から呼べるよう全許可（当面）。将来 origin ホワイトリスト化可。 |
+
+### 13.2 エンドポイント一覧
+
+統合系 2 本 + 詳細参照系 6 本 + 篇単位統合 1 本の計 9 本。
+
+| 優先度 | パス | 用途 | データ源 |
+|---|---|---|---|
+| ★ 中核 | `GET /api/kaimyo/candidates` | 特性 → 戒名候補熟語 + 関連人物・地名 + 出典 | kaimyo + persons + places + sanskrit + miyasaka |
+| ★ 中核 | `GET /api/houwa/citations` | テーマ → 法話用典故引用候補（篇単位スコア付き） | terms + citations + sanskrit + persons + places + miyasaka |
+| 参照 | `GET /api/term/:term` | 教学用語の定義・梵語・典拠・用例 | terms + sanskrit + miyasaka |
+| 参照 | `GET /api/person/:canonical` | 人名の詳細・サブカテゴリ・梵語名・出典・共起 | persons + sanskrit + miyasaka |
+| 参照 | `GET /api/place/:canonical` | 地名の詳細・サブカテゴリ・出典・共起 | places + miyasaka |
+| 参照 | `GET /api/citation/:canonical` | 典故書名の詳細・出現篇・前後文 | citations + miyasaka |
+| 参照 | `GET /api/sanskrit/:canonical` | 梵語の詳細・表記揺れ・対応漢訳熟語 | sanskrit + kaimyo + miyasaka |
+| 参照 | `GET /api/kukai-work/:canonical` | 空海著作言及の詳細 | kukai_works + miyasaka |
+| 統合 | `GET /api/篇/:idx` | 篇単位で全索引のヒットを統合表示 | 7 索引 + miyasaka |
+
+### 13.3 GET /api/kaimyo/candidates（中核 1）
+
+故人の生前特性（自由語）から、戒名選定に適合する熟語候補を出典・関連人物地名付きで返す。
+
+#### 13.3.1 入力（クエリパラメータ）
+
+| パラメータ | 型 | 必須 | 既定 | 用途 |
+|---|---|---|---|---|
+| `characteristics` | csv string | ★ | — | 故人の特性キー（後述 CHARACTERISTIC_TO_ICHIJI のキー）。例 `学問熱心,温和` |
+| `min_score` | number | — | 30 | `kaimyo_score` の下限。30 で「実用候補」、40 以上で「強推奨」程度。 |
+| `limit` | int | — | 20 | 上位返却件数。 |
+| `include_review` | bool | — | false | `needs_human_review=true` を含めるか。 |
+| `prefer_persons` | csv string | — | — | 故人と所縁のある人名（人名索引の canonical または alias）。共起篇の候補にスコア加点。 |
+| `prefer_places` | csv string | — | — | 故人と所縁のある地名。共起篇の候補にスコア加点。 |
+| `length` | int (2 or 4) | — | — | 戒名熟語の字数指定。`2` で 2 字熟語のみ、`4` で 4 字熟語のみ、未指定で両方。 |
+
+#### 13.3.2 内部フロー
+
+```
+Step 1: characteristics → 適合一字集合 ICHIJI_SET の解決
+  CHARACTERISTIC_TO_ICHIJI（§13.7.1 で確定・15 特性）を参照。
+  例：["学問熱心", "温和"] →
+      ICHIJI_SET = {"智","慧","明","覚","悟","聡","文","博",
+                    "慈","悲","仁","和","雅"}
+
+Step 2: index_shoryoshu_kaimyo.json から候補抽出
+  各 entry の `kaimyo_chars` と ICHIJI_SET の積集合が空でない entry を
+  候補とする。`kaimyo_score >= min_score` でフィルタ。
+  `include_review=false` なら `needs_human_review=false` のみ採用。
+  `length` 指定時は jukugo の文字数で絞り込み。
+
+Step 3: 共起ボーナスの加算
+  prefer_persons / prefer_places が指定された場合、各候補熟語の
+  `occurrences[].shoryoshu_idx` 集合と、人名・地名索引の同 canonical
+  の `篇分布` 集合を比較し、共通篇 1 つにつき +0.5 点を `bonus_score`
+  として付与（最大 +5）。
+
+Step 4: 出典文 + 梵語原語 + 関連人物地名の付帯情報生成
+  - 出典文：`occurrences[0..3].context`（最多 4 件）
+  - 梵語原語：`sanskrit_origins`（kaimyo 索引に既に保持）を sanskrit
+    索引と照合し `definition` を補強
+  - 関連人物：候補熟語の `篇分布` と persons 索引の `篇分布` の積集合で
+    共起頻度上位 5 件
+  - 関連地名：同様に places 索引で共起頻度上位 3 件
+
+Step 5: ソート & 切り詰め
+  `final_score = kaimyo_score + bonus_score` 降順、`limit` 件で切る。
+```
+
+#### 13.3.3 出力スキーマ
+
+```jsonc
+{
+  "query": {
+    "characteristics": ["学問熱心", "温和"],
+    "ichiji_resolved": ["智","慧","明","覚","悟","聡","文","博",
+                        "慈","悲","仁","和","雅"],
+    "min_score": 30,
+    "limit": 20,
+    "length": null
+  },
+  "results": [
+    {
+      "rank": 1,
+      "jukugo": "智慧",
+      "length": 2,
+      "kaimyo_chars": ["智","慧"],
+      "kaimyo_score": 61.7,
+      "bonus_score": 0.0,
+      "final_score": 61.7,
+      "source": "seed_sanskrit",
+      "needs_human_review": false,
+      "sanskrit_origins": [
+        {
+          "canonical": "prajñā",
+          "definition": "智慧。般若。",
+          "occurrence_count_in_corpus": 14,
+          "linked_in_index": true
+        }
+      ],
+      "matched_ichiji": ["智","慧"],
+      "occurrence_count": 63,
+      "篇分布_count": 27,
+      "examples": [
+        {
+          "shoryoshu_idx": 0,
+          "篇名": "真済序",
+          "巻": "巻第一",
+          "context": "...智慧の海に...",
+          "context_position": 1234
+        }
+      ],
+      "related_persons": [
+        {"canonical": "空海", "subcategory": "buddhist_master_japan", "co_occurrence_count": 12},
+        {"canonical": "大日如来", "subcategory": "buddhist_buddha_bodhisattva", "co_occurrence_count": 8}
+      ],
+      "related_places": [
+        {"canonical": "高野山", "subcategory": "mountain_japan", "co_occurrence_count": 4}
+      ]
+    }
+  ],
+  "metadata": {
+    "total_matched_before_limit": 47,
+    "schema_version": "1.4.0",
+    "data_corpus": "shoryoshu_miyasaka_v_phase2_complete",
+    "generated_at": "2026-04-27T..."
+  }
+}
+```
+
+#### 13.3.4 エラーレスポンス
+
+```jsonc
+// 400: characteristics 未指定
+{"error": "MISSING_PARAMETER", "message": "characteristics is required", "schema_version": "1.4.0"}
+
+// 400: 未定義の特性キー
+{"error": "UNKNOWN_CHARACTERISTIC", "message": "characteristic '◯◯' is not in CHARACTERISTIC_TO_ICHIJI",
+ "available": ["学問熱心","温和", ...], "schema_version": "1.4.0"}
+
+// 200 with empty results: 該当なし
+{"query": {...}, "results": [], "metadata": {"total_matched_before_limit": 0, ...}}
+```
+
+### 13.4 GET /api/houwa/citations（中核 2）
+
+法話・諷誦文・ブログのテーマ語から、性霊集中で関連する典故・教学用語・梵語・人名・地名を統合検索し、篇単位でスコア付き返却する。
+
+#### 13.4.1 入力
+
+| パラメータ | 型 | 必須 | 既定 | 用途 |
+|---|---|---|---|---|
+| `theme` | string | ★ | — | 法話テーマ。THEME_EXPANSION（§13.7.2）のキーまたは自由語。 |
+| `expand` | bool | — | true | THEME_EXPANSION で多言語展開するか（false ならテーマ語そのもののみ）。 |
+| `limit` | int | — | 10 | 上位返却篇数。 |
+| `include_persons` | bool | — | true | 関連人名を含めるか。 |
+| `include_places` | bool | — | false | 関連地名を含めるか。 |
+| `min_hits` | int | — | 1 | 篇あたり最低ヒット数（合計）。 |
+
+#### 13.4.2 内部フロー
+
+```
+Step 1: テーマ展開
+  THEME_EXPANSION[theme] → 関連語 list（漢字熟語 + 梵語 IAST + 異表記）。
+  expand=false ならテーマ語そのもの 1 件のみ。
+
+Step 2: 並行索引検索
+  各関連語について以下を検索：
+    a. terms 索引：term または matched_forms.form と一致
+    b. citations 索引：term または aliases と一致
+    c. sanskrit 索引：canonical または aliases と一致
+    d. （include_persons）persons 索引：canonical または aliases と一致
+    e. （include_places）places 索引：canonical または aliases と一致
+
+Step 3: 篇単位の集約
+  各ヒットを `shoryoshu_idx` でグルーピング。1 篇に対し各カテゴリのヒット
+  数をカウント。
+
+Step 4: 篇スコアリング
+  篇スコア = Σ(category_weight × hit_count_in_篇)
+  category_weight:
+    terms      = 3 （教学用語の直接ヒットは最重要）
+    citations  = 2
+    sanskrit   = 2
+    persons    = 1
+    places     = 1
+  `min_hits` 未満の篇は除外。
+
+Step 5: 出典文抜粋
+  各篇について shoryoshu_miyasaka.json[idx].ページ[0].gendaigoyaku から
+  最初のヒット位置 ±150 字程度を抜粋（`context_excerpt`）。
+
+Step 6: ソート & 切り詰め
+  篇スコア降順、limit 件で切る。
+```
+
+#### 13.4.3 出力スキーマ
+
+```jsonc
+{
+  "query": {
+    "theme": "無常",
+    "expanded_terms": ["無常", "anitya", "生滅", "変化"],
+    "limit": 10,
+    "include_persons": true,
+    "include_places": false
+  },
+  "citations": [
+    {
+      "rank": 1,
+      "shoryoshu_idx": 7,
+      "篇名": "...",
+      "巻": "巻第一",
+      "score": 12,
+      "hits": {
+        "terms": [{"term": "...", "matched_form": "無常", "count": 3}],
+        "citations": [{"term": "涅槃経", "count": 1}],
+        "sanskrit": [{"canonical": "anitya", "count": 1}],
+        "persons": [{"canonical": "釈迦", "subcategory": "buddhist_master_india"}],
+        "places": []
+      },
+      "context_excerpt": "...生死無常の理を観じて...（200〜400 字）",
+      "字数": {"書き下し": 1582, "現代語訳": 4023, "倍率": 2.54}
+    }
+  ],
+  "metadata": {
+    "total_篇_matched": 23,
+    "schema_version": "1.4.0",
+    "data_corpus": "shoryoshu_miyasaka_v_phase2_complete"
+  }
+}
+```
+
+### 13.5 詳細参照系（/api/term, /person, /place, /citation, /sanskrit, /kukai-work）
+
+各索引のエントリ詳細を、共起情報・出典文・関連索引へのリンクを補強した形で返す。kaimyo-app の「もっと見る」「典拠を表示」UI で利用。
+
+#### 13.5.1 共通入力
+
+```
+GET /api/term/:term
+GET /api/person/:canonical
+GET /api/place/:canonical
+GET /api/citation/:canonical
+GET /api/sanskrit/:canonical
+GET /api/kukai-work/:canonical
+
+? full_context=false   (任意・true なら occurrences の前後文を 400 字に拡張)
+? lang=ja              (将来の多言語対応)
+```
+
+#### 13.5.2 共通レスポンス構造
+
+```jsonc
+{
+  "query": {"endpoint": "term", "key": "三密"},
+  "entry": {
+    // 元索引のエントリ全体（schema_version も含む）
+    ...
+  },
+  "related": {
+    "kaimyo_jukugo": [
+      {"jukugo": "三密", "kaimyo_score": 58.1, "needs_human_review": false}
+    ],
+    "sanskrit": [{"canonical": "tri-guhya"}],
+    "co_occurring_persons": [
+      {"canonical": "空海", "subcategory": "...", "co_count": 28}
+    ],
+    "co_occurring_places": [...],
+    "co_occurring_citations": [...]
+  },
+  "metadata": {"schema_version": "1.4.0"}
+}
+```
+
+存在しない canonical の場合は 404：
+
+```jsonc
+{"error": "NOT_FOUND", "endpoint": "person", "key": "存在しない人名",
+ "schema_version": "1.4.0"}
+```
+
+### 13.6 GET /api/篇/:idx（統合 1 本）
+
+故人の生涯・趣向に近い篇を提示する用途。idx を指定すると、その篇に含まれる全索引のヒットを統合した「篇カルテ」を返す。
+
+#### 13.6.1 入力
+
+```
+GET /api/篇/:idx           (idx は 0..111)
+? include_full_text=false  (true で書き下し + 訳の全文を含める。既定 false)
+? excerpt_chars=300        (書き下し・訳の冒頭抜粋字数)
+```
+
+#### 13.6.2 出力スキーマ
+
+```jsonc
+{
+  "shoryoshu_idx": 1,
+  "篇名": "山に遊んで仙を慕う詩",
+  "巻": "巻第一",
+  "page_count": 1,
+  "字数": {"書き下し": 1482, "現代語訳": 3551, "倍率": 2.40},
+  "indices": {
+    "terms": [{"term": "三密", "count": 2, "kaimyo_suitable": true}],
+    "citations": [{"term": "荘子", "count": 5}],
+    "sanskrit": [{"canonical": "...", "count": 1}],
+    "kaimyo_jukugo": [{"jukugo": "...", "score": 45.2, "review": false}],
+    "persons": [{"canonical": "荘子", "subcategory": "chinese_classical", "count": 12}],
+    "places": [{"canonical": "崑崙", "subcategory": "mountain_china", "count": 1}],
+    "kukai_works": []
+  },
+  "totals": {
+    "terms": 4, "citations": 8, "sanskrit": 3,
+    "kaimyo_jukugo": 9, "persons": 7, "places": 3
+  },
+  "excerpts": {
+    "kakikudashi_head": "...（excerpt_chars 字）",
+    "gendaigoyaku_head": "...（excerpt_chars 字）"
+  },
+  "metadata": {"schema_version": "1.4.0"}
+}
+```
+
+### 13.7 マッピングテーブル v1.4 確定
+
+API の入力（人間が直接書く特性・テーマ）を索引のキー（一字・正規語）に変換する 2 つのテーブルを v1.4 で確定する。
+
+#### 13.7.1 CHARACTERISTIC_TO_ICHIJI（特性 → 適合一字）
+
+15 特性を網羅。各値の一字は KAIMYO_ICHIJI（85 字）の部分集合。kaimyo-app 側の UI ラベルもこのキーをそのまま採用する想定。
+
+| キー | 適合一字 |
+|---|---|
+| `学問熱心` | 智・慧・明・覚・悟・聡・文・博 |
+| `温和` | 慈・悲・仁・和・雅 |
+| `清廉` | 浄・信・清・澄・寂・静 |
+| `信仰深い` | 真・信・誓・願・念・仏・尊 |
+| `志高い` | 志・誓・願・光・栄・徳 |
+| `慈愛` | 慈・悲・愛・恵・徳 |
+| `勤勉` | 精・勤・行・進 |
+| `寛大` | 広・大・寛・容・仁 |
+| `質実` | 真・実・正・直・本 |
+| `達観` | 玄・空・無・寂・静・悟・覚 |
+| `風雅` | 雅・月・華・雲・霞・清 |
+| `自然親和` | 山・海・泉・水・河・月・華・蓮 |
+| `不動` | 金・剛・堅・定 |
+| `長寿` | 永・長・久 |
+| `光明` | 光・明・照・栄・華 |
+
+実装では JSON 設定ファイル `data/mikkyou/api_mappings.json` 内の `characteristic_to_ichiji` キーに格納し、API サーバ起動時にロードする。kaimyo-app からも同ファイルを参照可能。将来の拡張は当ファイルへの追記で対応。
+
+#### 13.7.2 THEME_EXPANSION（法話テーマ → 多言語展開）
+
+10 テーマを v1.4 で確定。各値は索引で実際にヒットする表記（梵語 IAST 含む）の集合。
+
+| キー | 展開語（漢字 + 梵語 + 異表記） |
+|---|---|
+| `無常` | 無常・anitya・生滅・変化 |
+| `慈悲` | 慈悲・karuṇā・mahā-karuṇā・大悲・慈愛・慈 |
+| `智慧` | 智慧・prajñā・般若・智・慧・明 |
+| `空` | 空・śūnya・śūnyatā・空観・空性 |
+| `解脱` | 解脱・mokṣa・涅槃・nirvāṇa |
+| `即身成仏` | 即身成仏・siddhi・成就・成仏 |
+| `大日如来` | 大日・大日如来・vairocana・mahāvairocana・遮那・毘盧遮那 |
+| `三密` | 三密・身口意・tri-guhya |
+| `法身` | 法身・dharmakāya・本性 |
+| `菩提心` | 菩提心・bodhicitta・菩提・bodhi |
+
+実装では同じ `data/mikkyou/api_mappings.json` の `theme_expansion` キーに格納。`/api/houwa/citations?expand=true` で参照される。
+
+未掲載のテーマ（自由語）が来た場合は `expand=true` でも展開せずテーマ語そのもののみで検索する（`expanded_terms` には 1 件のみ含まれる）。
+
+#### 13.7.3 共起マトリックス計算ロジック
+
+API サーバ起動時に、7 索引の `occurrences[].shoryoshu_idx` または `篇分布` から「篇 × 索引エントリ」の二部グラフを構築し、エントリペアの共起篇数を求める。
+
+```
+preprocessing (起動時 1 回):
+  for each pair (a, b) in (kaimyo_jukugo × persons),
+                        (kaimyo_jukugo × places),
+                        (terms × persons),
+                        (terms × places),
+                        (kaimyo_jukugo × terms),
+                        (persons × persons),
+                        (persons × places):
+    co_occurrence[(a, b)] = |篇分布(a) ∩ 篇分布(b)|
+
+メモリ概算:
+  人名 81 × 地名 70 = 5,670 ペア → ~ 0.1 MB
+  熟語 111 × 人名 81 = 8,991 ペア → ~ 0.2 MB
+  全マトリックスでも ~ 数 MB 以内に収まる。
+```
+
+`/api/kaimyo/candidates` の Step 3（prefer_persons ボーナス）と Step 4（関連人物地名）、`/api/term/:term` 等の `co_occurring_*` フィールドはこのマトリックスから返す。
+
+### 13.8 アーキテクチャ
+
+#### 13.8.1 推奨実装スタック
+
+| 選択肢 | メリット | デメリット |
+|---|---|---|
+| **TypeScript + Next.js API Routes** | kaimyo-app（同じ Next.js 想定）と同一リポジトリで運用可。fetch ベースで kaimyo-app 内部呼び出しに最適。 | 索引ファイルの読み込みコードを TS で書く必要。 |
+| **Python + FastAPI** | 索引生成スクリプト（`_tmp_extract_*.py`）と同言語で索引ロジックを共有可能。pydantic で型バリデーション。 | kaimyo-app から HTTP 経由必須（追加プロセス）。 |
+
+第 1 候補：**Python + FastAPI**（索引生成 Python と整合・型安全・OpenAPI 自動生成）。kaimyo-app は HTTP で呼ぶ。
+
+#### 13.8.2 起動シーケンス
+
+```
+1. data/mikkyou/index_shoryoshu_*.json（7 ファイル）をメモリにロード
+2. data/kukai/shoryoshu_miyasaka.json をメモリにロード（出典抜粋用）
+3. data/mikkyou/api_mappings.json をロード（CHARACTERISTIC_TO_ICHIJI 等）
+4. 共起マトリックスを構築（§13.7.3）
+5. 各エントリの逆引き辞書を構築：
+   - alias_to_canonical: 全 aliases → canonical のフラット辞書
+   - 篇_to_entries: 篇 idx → 各索引のヒットエントリ集合
+6. listen on port（既定 8000）
+```
+
+総メモリフットプリント概算：3〜6 MB（索引）+ 5〜8 MB（miyasaka 全文）+ 数 MB（共起マトリックス）= 15〜20 MB 程度。
+
+#### 13.8.3 デプロイ
+
+- 開発：`uvicorn main:app --reload --port 8000`（local）
+- 本番：Vercel Functions または Cloud Run（FastAPI 対応）
+- kaimyo-app からは `process.env.BUDDHIST_API_URL` 経由で呼ぶ
+
+### 13.9 実装ロードマップ
+
+| セッション | 作業 | 成果物 |
+|---|---|---|
+| **v1.4（本セッション）** | **§13 仕様書追加 + マッピング 2 表確定** | **cross_index_spec.md v1.4** |
+| v1.5 | `data/mikkyou/api_mappings.json` 生成 + 索引ロード基盤 + `/api/篇/:idx` 実装（最も単純） | `api_server/`（FastAPI 雛形）+ 篇エンドポイント |
+| v1.6 | `/api/term`・`/api/person`・`/api/place`・`/api/citation`・`/api/sanskrit`・`/api/kukai-work` 実装 + 共起マトリックス構築 | 詳細参照系 6 本完成 |
+| v1.7 | `/api/kaimyo/candidates` 実装（CHARACTERISTIC_TO_ICHIJI 解決 + 共起ボーナス + 関連人物地名） | 中核 1 完成 |
+| v1.8 | `/api/houwa/citations` 実装（THEME_EXPANSION + 篇スコアリング + context 抜粋） | 中核 2 完成 |
+| v1.9 | OpenAPI yaml 整備 + kaimyo-app との結合テスト + README + デプロイ | 本番運用化 |
+
+総工数：5〜6 セッション（v1.5〜v1.9）+ 本セッション（v1.4 仕様確定）= 6〜7 セッション。
+
+### 13.10 v1.4 完成度評価
+
+- ✅ **9 エンドポイントの仕様確定**：中核 2（kaimyo/candidates・houwa/citations）+ 詳細参照系 6 本 + 篇単位統合 1 本。
+- ✅ **入出力スキーマの厳密化**：JSON レスポンスの構造を v1.4 で固定し、`schema_version` を全レスポンスに含める。
+- ✅ **マッピングテーブル 2 表確定**：CHARACTERISTIC_TO_ICHIJI 15 特性 + THEME_EXPANSION 10 テーマ。`api_mappings.json` として外部設定化。
+- ✅ **共起マトリックス計算ロジック明文化**：起動時前計算で API 応答性能を担保。
+- ✅ **アーキテクチャ第 1 候補確定**：Python + FastAPI（索引生成スクリプトと言語統一）。
+- ⏭️ 次セッション（v1.5）以降：`api_server/` ディレクトリ新設、`/api/篇/:idx` から実装開始（最も単純なエンドポイント）。
+
+### 13.11 候補 D 進捗
+
+| サブステップ | 状態 |
+|---|---|
+| §4 v1.0 暫定スケッチ → §13 v1.4 確定版へ昇格 | ✅ 本セッション完了 |
+| 9 エンドポイント仕様策定 | ✅ 本セッション完了 |
+| マッピング 2 表確定 | ✅ 本セッション完了 |
+| アーキテクチャ第 1 候補確定 | ✅ 本セッション完了 |
+| `api_mappings.json` 生成 | ⏭️ v1.5 |
+| `api_server/` リファレンス実装 | ⏭️ v1.5〜v1.8 |
+| OpenAPI yaml + デプロイ | ⏭️ v1.9 |
+
+候補 D 全体（3〜5 セッション見積→ 仕様分が予想より厚いため 5〜6 セッションに修正）：本セッションが第 1 セッションとして完了。
