@@ -1,0 +1,6116 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "data/kukai/shoryoshu_miyasaka.json",
+  "generated_at": "2026-04-27",
+  "extraction_strategy": "人手キュレートシード辞書（中国寺院・日本寺院・名山・王朝・西域・天竺・都城・日本旧国・神話仙境・宇宙論界・インド聖地）。長表記優先・1 文字王朝/国名は前後非漢字境界 + 動詞活用語尾の除外で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "summary": {
+    "unique_places": 70,
+    "total_occurrences": 466,
+    "covered_shoryoshu_idx_count": 92,
+    "by_subcategory": {
+      "capital_china": {
+        "unique": 2,
+        "occurrences": 28
+      },
+      "capital_japan": {
+        "unique": 4,
+        "occurrences": 25
+      },
+      "cosmological_realm": {
+        "unique": 6,
+        "occurrences": 40
+      },
+      "country_china": {
+        "unique": 7,
+        "occurrences": 35
+      },
+      "country_dynasty": {
+        "unique": 9,
+        "occurrences": 92
+      },
+      "country_india": {
+        "unique": 2,
+        "occurrences": 8
+      },
+      "country_japan": {
+        "unique": 1,
+        "occurrences": 60
+      },
+      "country_western_region": {
+        "unique": 2,
+        "occurrences": 6
+      },
+      "mountain_buddhist": {
+        "unique": 3,
+        "occurrences": 38
+      },
+      "mountain_china": {
+        "unique": 4,
+        "occurrences": 15
+      },
+      "mountain_japan": {
+        "unique": 3,
+        "occurrences": 9
+      },
+      "mythological": {
+        "unique": 2,
+        "occurrences": 8
+      },
+      "province_japan": {
+        "unique": 9,
+        "occurrences": 27
+      },
+      "river_china": {
+        "unique": 3,
+        "occurrences": 12
+      },
+      "sacred_site_indian": {
+        "unique": 2,
+        "occurrences": 4
+      },
+      "sacred_site_japan": {
+        "unique": 1,
+        "occurrences": 6
+      },
+      "temple_china": {
+        "unique": 3,
+        "occurrences": 16
+      },
+      "temple_japan": {
+        "unique": 7,
+        "occurrences": 37
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "日本",
+      "aliases": [
+        "日域",
+        "本朝",
+        "我朝",
+        "皇朝",
+        "神国"
+      ],
+      "subcategory": "country_japan",
+      "definition": "日本国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "日本",
+          "count": 54
+        },
+        {
+          "form": "皇朝",
+          "count": 4
+        },
+        {
+          "form": "日域",
+          "count": 1
+        },
+        {
+          "form": "本朝",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 60,
+      "篇分布": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        11,
+        12,
+        16,
+        17,
+        18,
+        20,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        47,
+        98,
+        101,
+        102
+      ],
+      "篇分布_count": 23,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 0,
+          "篇名": "真済序",
+          "巻": "巻第一",
+          "page_idx": 0,
+          "context": "〇五年示寂）。それゆえ大師に法を付嘱されてこう仰った。「いま日本の沙門あり。聖教を求めて来たり、両部の秘奥なる壇場の儀軌・印",
+          "context_position": 1006,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 0,
+          "篇名": "真済序",
+          "巻": "巻第一",
+          "page_idx": 0,
+          "context": "曼荼羅と灌頂の風がこの時いよいよ普及した。これはまさに、わが日本の聖（補注：時の天皇を指す）が聖運から出でて教化が広く行き渡",
+          "context_position": 1296,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "轄の禁苑。延暦十九年〔八〇〇〕桓武天皇の造営にかかり、嵯峨天皇朝には文人サロンの場となり、のちに空海自身が天長元年〔八二四〕",
+          "context_position": 76,
+          "matched_form": "皇朝"
+        },
+        {
+          "shoryoshu_idx": 3,
+          "篇名": "野陸州に贈る歌 序を并せたり 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "、笑いを誘って憂鬱を吹きとばす）ことに供しよう。  【歌】 日本の麗しき国は三百の州、 その中でも陸奥は最もなつけ難い。 天",
+          "context_position": 433,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 4,
+          "篇名": "雨を喜ぶ歌 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "ずから出御せられた。 智あり、また仁あって、八州（大八洲国＝日本）に君臨される御方。 三教（儒・釈・道）九流（『漢書芸文志』",
+          "context_position": 732,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 6,
+          "篇名": "山に入る興 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "あなたはご覧にならぬか、ご覧にならぬか。九州八嶋（中国九州・日本八嶋、すなわち天下）の無量の人々が、いにしえより今に至るまで",
+          "context_position": 423,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "烏（八咫烏、神武東征で熊野から大和へ天皇を導いた『古事記』『日本書紀』神武紀）が初めて導きし国（大和国）である。  地はこれ",
+          "context_position": 519,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "天地）に照らし、赤子（民、『書経』康誥「若保赤子」）を八嶋（日本国・大八洲、『古事記』）の上に撫育する。  伴平章事（参議）",
+          "context_position": 1112,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "ど）を右（西）にする。  大墓（大墓山、神武天皇陵に比定。『日本書紀』神武紀「葬于畝傍山東北陵」）が南に聳え、畝傍（畝傍山、",
+          "context_position": 1743,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "）出でず、  国常（国常立尊、『古事記』神代「国之常立神」、日本神話の最初の神）生ること無し。  元気（混元の一気、『淮南子",
+          "context_position": 3348,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "都（長安）青龍寺の故・三朝の国師・潅頂阿闍梨恵果和尚の碑  日本国・学法の弟子・苾蒭（出家者の自称、サンスクリットbhikṣ",
+          "context_position": 34,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "経』小雅小弁「維桑与梓、必恭敬止」）を顧みれば則ち東海の東（日本国）、行李（旅の行程・道のり）を想えば則ち難中の難（困難の中",
+          "context_position": 5322,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "（中国）にしてわが足を接した（受戒の最敬礼）。吾は東生（東方日本に生まれて）して汝が室に入ろう。久しく遅留することなかれ。吾",
+          "context_position": 5771,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 16,
+          "篇名": "伴按察平章事の陸府に赴くに贈る詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "景行天皇）撫運（治世撫育）の日、東夷いまだ賓服（服従）せず。日本武尊（景行皇子の英雄、『古事記』『日本書紀』）は左右の将軍・",
+          "context_position": 268,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 16,
+          "篇名": "伴按察平章事の陸府に赴くに贈る詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "まだ賓服（服従）せず。日本武尊（景行皇子の英雄、『古事記』『日本書紀』）は左右の将軍・武彦と武日命（伴氏の祖・大伴武日）等を",
+          "context_position": 287,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 17,
+          "篇名": "新羅の道者に与える詩 并に状",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "葉に浮かべて海を渡る、達磨「一葦渡江」を踏む）日域（日の本・日本）に過（よぎ）り  嚢を持し錫を飛ばして（錫飛、『高僧伝』、",
+          "context_position": 662,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 17,
+          "篇名": "新羅の道者に与える詩 并に状",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "浮べて（盃を一葉に浮かべて海を渡る、達磨「一葦渡江」を踏む）日域（日の本・日本）に過（よぎ）り  嚢を持し錫を飛ばして（錫飛",
+          "context_position": 655,
+          "matched_form": "日域"
+        },
+        {
+          "shoryoshu_idx": 18,
+          "篇名": "勅賜の世説の屏風書き了て献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "つき、伏して申しあげる。今月三日（大同四年〔八〇九〕、嵯峨天皇朝大同年中の出来事）、大舎人（律令官名・宮中近侍の任）の山背豊",
+          "context_position": 51,
+          "matched_form": "皇朝"
+        },
+        {
+          "shoryoshu_idx": 20,
+          "篇名": "劉希夷が集を書して献納する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "まの世は、古の堯帝の太陽（堯日）が天にかかる如き聖代（嵯峨天皇朝）であり、薫風（南風・舜帝『南風歌』に「南風之薫兮、可以解吾",
+          "context_position": 350,
+          "matched_form": "皇朝"
+        },
+        {
+          "shoryoshu_idx": 35,
+          "篇名": "藤の真川が浄豊を挙するが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "渡来人の系裔）は、故の従五位上勲十一等晋卿（しんけい、唐より日本に帰化した先父）の第九の男子である。  父晋卿は遥かに聖風（",
+          "context_position": 333,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 35,
+          "篇名": "藤の真川が浄豊を挙するが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "に帰化した先父）の第九の男子である。  父晋卿は遥かに聖風（日本天皇の聖徳の風）を慕って、遠く本族（唐の本族）を辞して来朝し",
+          "context_position": 365,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 35,
+          "篇名": "藤の真川が浄豊を挙するが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "・洛陽の正音）も詠じ易く、呉音（南方音、呉地方の発音、当時の日本の仏典音読）も誰か難しと申そう（浄豊の唐音学識を世に活かしめ",
+          "context_position": 2052,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 37,
+          "篇名": "大使福州の観察使に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "（私、日本からの遣唐大使である）賀能が申しあげる。高山はゆったりと静か",
+          "context_position": 3,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 37,
+          "篇名": "大使福州の観察使に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "してとりおさめておられる。このようなありさまであるから、わが日本国のひとびとは、この風雨の時がよく定まり、天下がよく治まるあ",
+          "context_position": 507,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 37,
+          "篇名": "大使福州の観察使に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "唐の宮殿にその使命を遂げに来たのである。蓬莱国といわれるわが日本からの宝をもち来たり、崑崙山から産する美玉にもたとうべき貢物",
+          "context_position": 635,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 37,
+          "篇名": "大使福州の観察使に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "、あい続いて、絶えることがなかった。 このゆえに、いま、わが日本の天皇は、先祖の遺志をかえりみて、唐の今上陛下（すなわち徳宗",
+          "context_position": 722,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 37,
+          "篇名": "大使福州の観察使に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "身の力のいかんともすべからざるところである。 また、大唐国が日本国を待遇することは、北方の八つの蛮族が雲のように集まって陛下",
+          "context_position": 1507,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 37,
+          "篇名": "大使福州の観察使に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "ように集まって宮中に参上し、稽首礼拝しているのであるが、わが日本国の使者に限っては、格別に丁寧に扱われ、その待遇は上客のそれ",
+          "context_position": 1593,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 37,
+          "篇名": "大使福州の観察使に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "であろうか。 それなのにいま、この州の官吏たちは、われわれが日本国使の公文書を帯同せるや否やを責めるにもっぱらであって、われ",
+          "context_position": 2165,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 37,
+          "篇名": "大使福州の観察使に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "公文書を帯同せるや否やを責めるにもっぱらであって、われわれが日本国天皇の腹心であることを疑っている。船上にまで臨検して、公私",
+          "context_position": 2200,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 37,
+          "篇名": "大使福州の観察使に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "の州や県の役人方の、使者を慰労することも慇懃なものがあった。日本船の物をいかように左右しようとも、使者の一存に任せ、船の物を",
+          "context_position": 2546,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 37,
+          "篇名": "大使福州の観察使に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "いをなつけるお恵みを垂れ、隣国と修好する道理をお考えになり、日本の習俗を行なうことをお許しになり、日本人の常習をお認めになっ",
+          "context_position": 2734,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 37,
+          "篇名": "大使福州の観察使に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "る道理をお考えになり、日本の習俗を行なうことをお許しになり、日本人の常習をお認めになって異としないでいただきたい。そうであれ",
+          "context_position": 2753,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 38,
+          "篇名": "福州の観察使に与える入京の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "日本国の留学僧である沙門空海、謹んで啓を奉る。私空海は、才能は世",
+          "context_position": 0,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 38,
+          "篇名": "福州の観察使に与える入京の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "謹んで啓す。  貞元二十年（延暦二十三年・八〇四）十月某日、日本国学問の僧空海啓す。中丞閣下。  （本啓は空海唐土滞在の最初",
+          "context_position": 1142,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 38,
+          "篇名": "福州の観察使に与える入京の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "永貞元年〔八〇五〕青龍寺の恵果阿闍梨に師事する道が拓かれる。日本密教伝来の関鍵となる文書）",
+          "context_position": 1269,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "日本国の求法の沙門空海、謹んで啓を奉る。空海かつて聞く――法（仏",
+          "context_position": 0,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "るも塞がるも）は、人を待ち時を待つ。  伏して顧みれば、我が日本国は、曦和（ぎか、太陽神の御者・『楚辞』離騒「吾令羲和弭節兮",
+          "context_position": 1028,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "うとして至らざる嶽である。  南嶽大士（南嶽慧思、天台二祖。日本では聖徳太子の前身とされる伝説あり）は後身（来世）にしてよう",
+          "context_position": 1233,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "下する）。乗牛して西方（インド・西天）へ赴く者はあっても東（日本）へは赴かぬのである（西天の聖地を慕う者は多くとも、東陲の僻",
+          "context_position": 1796,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "よいよ篤い。大方（広大）の教海を決（き）り、東垂（東のはて・日本）の亢旱（こうかん、大旱魃）にこれを潅（そそ）がんと思欲（お",
+          "context_position": 2295,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "すく）うべきものを、多少（そこばく、多くも少なくも）、遠方（日本）に流伝せしめ給え。  これすなわち大士（菩薩、ここでは閣下",
+          "context_position": 3828,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "不宣、謹んで啓す。  元和元年（大同元年・八〇六）四月某日、日本国求法の沙門空海啓す。  （本啓は空海の帰国直前、明州・越州",
+          "context_position": 4161,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "・外典』にわたる膨大な典籍を獲得し、帰国後の真言密教の教学と日本文化全般に決定的な影響を与えた。中国側は空海の博学・誠意に感",
+          "context_position": 4283,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 40,
+          "篇名": "藤大使の渤海の王子に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "渤海と日本とは、地は南北に分かれ、人は天地のごとく阻（へだ）て隔絶して",
+          "context_position": 3,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 40,
+          "篇名": "藤大使の渤海の王子に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "に代って空海が起草した、渤海王子への離別の書。当時、渤海国は日本と並んで唐に朝貢する東方の大国であり、長安では渤海使と日本使",
+          "context_position": 581,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 40,
+          "篇名": "藤大使の渤海の王子に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "は日本と並んで唐に朝貢する東方の大国であり、長安では渤海使と日本使が顔を合わせることがあった。本書はおそらく貞元二十一年〔八",
+          "context_position": 610,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 41,
+          "篇名": "橘学生の本国の使に与えるが為の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "（または）かんずべきはずである。  然れども今、山川は両郷（日本と唐）の舌（言語）を隔て、未だ槐林（かいりん、宮殿の槐樹の林",
+          "context_position": 341,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 41,
+          "篇名": "橘学生の本国の使に与えるが為の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "橘逸勢〔たちばなの はやなり〕に代って空海が起草した、本国〔日本〕への帰国請願の啓。逸勢は遣唐留学生として八〇四年に空海と共",
+          "context_position": 1110,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "郷（唐土）に客となり、領（首・うなじ）を皇華（こうか、皇国・日本の朝廷）に引き伸ばし続けようとも、白駒（白駒過隙、『荘子』知",
+          "context_position": 1026,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "、奉啓する。不宣、謹んで啓す。  （本啓は空海自身が、本国〔日本〕からの遣唐使船に伴って早期帰国することを請うた啓。当初の二",
+          "context_position": 1181,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "料。これらの密教法具・経典・曼荼羅は『請来目録』に詳述され、日本密教の根本資料となった）",
+          "context_position": 1366,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 43,
+          "篇名": "青龍の和尚に衲の袈裟を献ずる状",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "ana の音写、合掌礼拝の意）し奉る。  空海、生縁は海外（日本）、時は仏滅後（釈迦入滅後の像法・末法の世）である。常に歎い",
+          "context_position": 76,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 43,
+          "篇名": "青龍の和尚に衲の袈裟を献ずる状",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "。伏して願わくは、領（首にかけ／受納）を垂（た）れ給え。  日本国学法（仏法を学ぶ）の弟子、苾芻（びっしゅ、梵語 bhikṣ",
+          "context_position": 1120,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 47,
+          "篇名": "右将軍良納言開府儀同三司左僕射の為に大祥の斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "わらの ふゆつぐ・七七五〜八二六、左大臣・贈正一位太政大臣・日本国家を実質支えた藤原氏北家の祖。空海とは『性霊集』の篇々に交",
+          "context_position": 3113,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 98,
+          "篇名": "高野建立の初めの結界の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "閣（ひかく・秘蔵庫）に韞（つつ）まれて、未だ此の朝（みかど・日本）に及ばず。  　（某甲〔それがし——空海〕）、幸いに諸仏の",
+          "context_position": 811,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 98,
+          "篇名": "高野建立の初めの結界の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "の金剛乗（vajrayāna・密教経軌）を奉請して、平らかに本朝に帰れり。  　地に相応（そうおう・ふさわしき）の地無く、時",
+          "context_position": 1004,
+          "matched_form": "本朝"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "宅嗣〔七二九〜七八一〕中納言）の芸亭（うんてい・宅嗣の私塾兼日本最古の公共図書館・宝亀年中設置）と、これらの院は皆始めあって",
+          "context_position": 2072,
+          "matched_form": "日本"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "辞した藤原朝臣三守（ふじわらのみもり・七八五〜八四〇・嵯峨天皇朝の重臣）卿には、左京九条に邸宅があり、土地は二町（およそ六十",
+          "context_position": 37,
+          "matched_form": "皇朝"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "）を把（と）ってからは、陽谷（ようこく・太陽の昇る東方の谷・日本の異称・『山海経』海外東経）が不異（ふい・八不のうち不異の理",
+          "context_position": 659,
+          "matched_form": "日本"
+        }
+      ]
+    },
+    {
+      "canonical": "長安",
+      "aliases": [],
+      "subcategory": "capital_china",
+      "definition": "唐の都。陝西省西安。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "長安",
+          "count": 22
+        }
+      ],
+      "occurrence_count": 22,
+      "篇分布": [
+        0,
+        11,
+        12,
+        21,
+        35,
+        38,
+        39,
+        40,
+        42,
+        53,
+        54,
+        97,
+        100,
+        101,
+        106
+      ],
+      "篇分布_count": 15,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 0,
+          "篇名": "真済序",
+          "巻": "巻第一",
+          "page_idx": 0,
+          "context": "三年・西暦八〇四年）、勅命を奉じて唐に渡られた。ちょうど都・長安の青龍寺の大徳である恵果阿闍梨にまみえる機会を得られた。恵果",
+          "context_position": 640,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "り、広きこと淮（淮河、中国大河）を超える。  昆明（漢武帝が長安城外に造築した昆明池、『漢書』武帝紀）の類いではないことを笑",
+          "context_position": 2376,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "○大唐神都（長安）青龍寺の故・三朝の国師・潅頂阿闍梨恵果和尚の碑  日本国・",
+          "context_position": 6,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "法、誰がさとるのか。その人、何処に在るのか。  ここに神都（長安）青龍寺東塔院の大阿闍梨、法の諱（いみな）は恵果と号する和尚",
+          "context_position": 305,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 21,
+          "篇名": "雑書迹を奉献する状 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "蔵（Amoghavajra、七〇五〜七七四、真言付法第六祖、長安大興善寺）の碑一首 道岸和尚（六五四〜七一七、唐代律宗・荊州",
+          "context_position": 156,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 35,
+          "篇名": "藤の真川が浄豊を挙するが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "の風）を慕って、遠く本族（唐の本族）を辞して来朝した。両京（長安・洛陽の二都）の音韻を誦じて、三呉（呉郡・呉興・会稽の三呉、",
+          "context_position": 402,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 35,
+          "篇名": "藤の真川が浄豊を挙するが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "窮翼（窮地の鳥の翼）に賜わん事を。然らば則ち、漢語（北方音、長安・洛陽の正音）も詠じ易く、呉音（南方音、呉地方の発音、当時の",
+          "context_position": 2020,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 38,
+          "篇名": "福州の観察使に与える入京の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "当に分陰を惜しむべし」の故事）。  いま、遣唐使に随って京（長安）に入ることを許されぬ旨を承った。その理由は官の処置に俟（ま",
+          "context_position": 391,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 38,
+          "篇名": "福州の観察使に与える入京の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "業を顧みて、私に入京の許しを賜りたい。さすれば、名徳の高僧（長安の青龍寺恵果阿闍梨ら碩徳をはるかに念頭に置く）を尋ねて、速や",
+          "context_position": 989,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 38,
+          "篇名": "福州の観察使に与える入京の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "な一首。本書を経て空海は単独入京を許され、同年十二月二十三日長安に到着、翌永貞元年〔八〇五〕青龍寺の恵果阿闍梨に師事する道が",
+          "context_position": 1232,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "は魚を捕る具、ここでは仏理の真髄）を訪ね探った。  今まさに長安城の中において、写し得たる所の経論疏等は凡そ三百余軸、および",
+          "context_position": 2410,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 40,
+          "篇名": "藤大使の渤海の王子に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "書。当時、渤海国は日本と並んで唐に朝貢する東方の大国であり、長安では渤海使と日本使が顔を合わせることがあった。本書はおそらく",
+          "context_position": 602,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 40,
+          "篇名": "藤大使の渤海の王子に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "わせることがあった。本書はおそらく貞元二十一年〔八〇五〕春、長安での僅かな会見の後の別離の挨拶。空海の駢儷文の力量と、外交儀",
+          "context_position": 647,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "しくも辱めて、海を渉（わた）りて来朝した。草履を著（は）いて長安城中を歴遊するうちに、幸いにも中天竺国の般若三蔵（プラジュニ",
+          "context_position": 221,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "遣唐使船にて、無事に大唐の地に入ることができた。  たまたま長安青龍寺において導師（恵果阿闍梨。不空三蔵直伝の付法第七祖）に",
+          "context_position": 1498,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "以来、年は三六（さんろく。三×六=十八年。永貞元年〔八〇五〕長安での請来から本願文弘仁十二年〔八二一〕まで概数で「三六」と数",
+          "context_position": 1668,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 54,
+          "篇名": "故藤中納言の為に十七尊の像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "離騒・『荘子』達生に見える名馬）を馳せた。  東は洛陽、西は長安（西秦は秦の故地・関中、漢以来の都）、その間の関輔（かんぽ。",
+          "context_position": 999,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 54,
+          "篇名": "故藤中納言の為に十七尊の像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "故地・関中、漢以来の都）、その間の関輔（かんぽ。関中・三輔。長安京畿の地）の郵亭（駅伝の宿駅）にあって、生死を共にする契りを",
+          "context_position": 1037,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "七四・大広智三蔵の追諡）の付法の弟子、青龍寺（せいりゅうじ・長安東街〔新昌坊〕）の法（法諱）の諱（いみな）恵果（七四六〜八〇",
+          "context_position": 1342,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "基〔きき・六三二〜六八二〕慈恩大師）は則ち慈恩寺（じおんじ・長安大慈恩寺）の上綱なり。是れ則ち法を護り人を利するの雅致（がち",
+          "context_position": 165,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "羽音）など何の益があろうか」と。 　答えて曰う、「大唐の城（長安・洛陽）には、坊（区画）ごとに閭塾（ろじゅく・里の私塾。閭は",
+          "context_position": 2625,
+          "matched_form": "長安"
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "（じき）応（おう）ぜざれば、我が師（恵果・けいか・空海の師、長安青龍寺の阿闍梨）も黙然（もくねん・黙して語らず）す。 　所以",
+          "context_position": 4517,
+          "matched_form": "長安"
+        }
+      ]
+    },
+    {
+      "canonical": "漢",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。前漢・後漢。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "漢",
+          "count": 19
+        }
+      ],
+      "occurrence_count": 19,
+      "篇分布": [
+        3,
+        8,
+        11,
+        13,
+        16,
+        23,
+        26,
+        39,
+        66,
+        75,
+        76,
+        81,
+        98,
+        101,
+        106
+      ],
+      "篇分布_count": 15,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 3,
+          "篇名": "野陸州に贈る歌 序を并せたり 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "裏に住むことなどを。 聖天子は必ずや万戸の秩（万戸侯の封地・漢の絳侯ら大功臣の故事）を封じてくださるであろう。",
+          "context_position": 1904,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 8,
+          "篇名": "徒に玉を懐く 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "の台座、または仙居）に秘し 宜尼（孔子の謚号「褒成宣尼公」、漢平帝が贈った）の良玉も「沽（う）らんかな、沽らんかな」と称え",
+          "context_position": 175,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "に似ており、広きこと淮（淮河、中国大河）を超える。  昆明（漢武帝が長安城外に造築した昆明池、『漢書』武帝紀）の類いではな",
+          "context_position": 2372,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "に造築した昆明池、『漢書』武帝紀）の類いではないことを笑い（漢の名跡を凌ぐ誇り）、耨達（阿耨達池・マナサロワール湖、『大智",
+          "context_position": 2410,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "」、虎の咆哮が大風を呼ぶ古来の自然観）には、驚汰（驚く波）が漢（天の川）にまで沃（そそ）ぎ、龍が吟じて堤を決壊させるとき（",
+          "context_position": 2547,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 13,
+          "篇名": "勅賜の屏風を書き了て即ち献ずる表并びに詩",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "牛」、対象に没入する観想）に耽（ふけ）り、久しく返鵲（鵲書、漢代の書体）の書を絶ってきた身。夜を達して数息（数息観、呼吸を",
+          "context_position": 355,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 13,
+          "篇名": "勅賜の屏風を書き了て即ち献ずる表并びに詩",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "曹喜（後漢の能書家曹喜、『後漢書』）に非ず、誤って漢主の邸（漢の天子の宮）に対した（その任に当たる体ではない、の謙辞）。辞",
+          "context_position": 517,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 16,
+          "篇名": "伴按察平章事の陸府に赴くに贈る詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "徳が淵にも及ぶ・民を救う心）軫慮（心痛配慮）して、即ち文翁（漢の蜀郡太守文翁、『漢書』循吏伝、教化の名臣）・孫子（孫武、兵",
+          "context_position": 907,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 16,
+          "篇名": "伴按察平章事の陸府に赴くに贈る詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "旗・軍旗）飛び馳せて、軍令申（の）ぶ  孫子（孫武）・張良（漢の謀臣）、彼ら何物ぞ（伴公に及ばずの誇り）  六韜（太公望の",
+          "context_position": 2050,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 23,
+          "篇名": "雑文を献する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "『急就章』（漢の元帝期、史游撰、児童識字教材として千余字を韻文化したもの）",
+          "context_position": 6,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 26,
+          "篇名": "柑子を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "より伝来したものである（柑橘は西域・イラン高原原産との伝承、漢の張騫が西域より帰朝の際に齎したと伝わる）。  ふと見るに興",
+          "context_position": 214,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "鷁鳥を画く・『淮南子』本経訓）が能く威圧できる相手ではない。漢（あまのがわ・『大荒経』に天漢を冠す）に沃（そそ）ぐ驚波は岳",
+          "context_position": 1408,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 66,
+          "篇名": "藤左近の将監先妣の為に三七の斎を設くる願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "となす」）の葉に攀（よ）じて時の長きを延べ、西王母の仙桃（『漢武故事』に三千年に一たび実る西王母の蟠桃）を数たびも甞めて永",
+          "context_position": 855,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 75,
+          "篇名": "忠延師が先妣の為に理趣経を講ずる表白文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "ときお姿）は月城（げつじょう・月の宮殿・墳墓——『十洲記』『漢武故事』）に入りたまうとは。弟子は霜を履むの感（『易』坤卦初",
+          "context_position": 907,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 76,
+          "篇名": "三嶋の大夫亡息女の為に法華経を書写し供養して講説する表白の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "の針灸も験無く、返魂（はんごん・死者を蘇生させる）の妙香（『漢武故事』『十洲記』少室洲の返魂樹の香——その香を以て死者を蘇",
+          "context_position": 1188,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 81,
+          "篇名": "有る人亡親の為に法事を修する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "命（西王母蟠桃は三千年に一たび実り、九千年の長寿を得るとの『漢武故事』伝説）を人ごとに招かしめ、蛇俈（じゃこう・蛇足・転じ",
+          "context_position": 1003,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 98,
+          "篇名": "高野建立の初めの結界の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "vajra 七〇五〜七七四・大広智三蔵）、錫を振りて東来し、漢の地に流伝して、群生を抜済す。然りといえども、地は泓海（こう",
+          "context_position": 722,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "あれば、茂士（もし・才徳秀でた士）孝廉（こうれん・孝行廉直の漢代郷挙里選の徳目科）が、宜しきに随って伝授せよ。 　もし青衿",
+          "context_position": 4872,
+          "matched_form": "漢"
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "べし。 　若使（もし）千年、本草（ほんぞう・『神農本草経』・漢代の医薬書・三百六十五種の薬草を載す）、大素（たいそ・『黄帝",
+          "context_position": 6143,
+          "matched_form": "漢"
+        }
+      ]
+    },
+    {
+      "canonical": "周",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。文王・武王が建国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "周",
+          "count": 16
+        }
+      ],
+      "occurrence_count": 16,
+      "篇分布": [
+        1,
+        6,
+        10,
+        14,
+        27,
+        28,
+        47,
+        68,
+        83,
+        101,
+        104,
+        109
+      ],
+      "篇分布_count": 12,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "夷（殷末の高士。武王の革命を非とし首陽山に隠れて餓死した）は周の梁（きさはし、橋）を絶ち、周の穀物を断った 老聃（老子。『",
+          "context_position": 2169,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "とし首陽山に隠れて餓死した）は周の梁（きさはし、橋）を絶ち、周の穀物を断った 老聃（老子。『道徳経』の作者と伝えられる）は",
+          "context_position": 2184,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 6,
+          "篇名": "山に入る興 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "聖天子の堯・舜・禹・湯と、暴君の桀・紂と 舜の賢臣たる八元・周武王の十乱（十人の補佐）・舜の五臣（五人の側近）と 美女の西",
+          "context_position": 497,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 10,
+          "篇名": "沙門勝道山水を歴て玄珠を瑩く碑 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "を擲（なげう）ち 郭詞（東晋の郭璞、『遊仙詩』の作者）も豈に周（あまね）からんや ああ志を同じくする者よ 何ぞ優遊せざらん",
+          "context_position": 4592,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "経』、密教の重要礼讃文）に四十行の頌あり。文は約かにして義は周（あまね）く、句句金玉のごとくして、字字に円融（諸法円融・互",
+          "context_position": 374,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 27,
+          "篇名": "梵字并びに雑文を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "霊獣の象形に擬えた書体）は、白姫（白氏少昊金天氏と姫氏黄帝・周王、霊鳥霊獣を瑞として制した古王の系譜）を侯（ま）ってその体",
+          "context_position": 208,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 28,
+          "篇名": "僧中璟が罪を赦されんことを請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "事）。秦政（秦の始皇帝・趙政の苛刑必罰）の必ず罪するを去け、周成（周の成王、また成王・康王の四十年に「刑措不用」と称された",
+          "context_position": 1869,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 28,
+          "篇名": "僧中璟が罪を赦されんことを請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "秦政（秦の始皇帝・趙政の苛刑必罰）の必ず罪するを去け、周成（周の成王、また成王・康王の四十年に「刑措不用」と称された徳治、",
+          "context_position": 1872,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 47,
+          "篇名": "右将軍良納言開府儀同三司左僕射の為に大祥の斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "の代）の益稷（えきしょく、伯益と后稷の名臣）、姫年（きねん、周の代）の奭望（せきぼう、召公奭〔せき〕と太公望）であると。 ",
+          "context_position": 1047,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 68,
+          "篇名": "林学生の先考妣の忌日に仏を造り僧に飯する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "てき・あざやかに輝く）たる星菓（星の煌めき）は、いま朞（き・周年・命日）の到来を告げる。 　謹んで先考妣の奉為（おんために",
+          "context_position": 852,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 83,
+          "篇名": "公家の仁王講を修せらるる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "（じくん・皇太子）は、名は文王の世子（『礼記』文王世子篇——周文王の太子発・武王の徳）に斉しく、徳は悉陀（しった・sidd",
+          "context_position": 1677,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "ひとえ）に仏経のみを翫（もてあそ）び、槐序（かいじょ・大学・周代王宮前の三槐九棘に擬えて高位高官の養成所）の茂廉（もれん・",
+          "context_position": 1587,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "曰う、「国家は広く庠序（しょうじょ・古代の学校。庠は殷・序は周）を開いて諸芸を勧め励ましている。霹靂（へきれき・落雷）の下",
+          "context_position": 2548,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 104,
+          "篇名": "秋の日僧正大師を賀し奉る詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "公世家に文王が呂尚〔太公望〕を見出した地）には、天子（黄帝・周文王）が斎戒（さいかい・身心を浄めて教えを請う）の問いを遺（",
+          "context_position": 314,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 104,
+          "篇名": "秋の日僧正大師を賀し奉る詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "ṭ-pāramitā・布施・持戒・忍辱・精進・禅定・智慧）を周（あまね）く備う。緇素（しそ・黒衣の僧と白衣の俗・『隋書』経",
+          "context_position": 1231,
+          "matched_form": "周"
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "cana）円々（えんねん・遍く満つ）として、万徳（ばんとく）周（あまね）し  【鏡中の像（ぞう・pratibimba・鏡中",
+          "context_position": 2526,
+          "matched_form": "周"
+        }
+      ]
+    },
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "殷",
+          "count": 9
+        },
+        {
+          "form": "商",
+          "count": 7
+        }
+      ],
+      "occurrence_count": 16,
+      "篇分布": [
+        1,
+        10,
+        12,
+        28,
+        35,
+        36,
+        46,
+        76,
+        80,
+        101
+      ],
+      "篇分布_count": 10,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "り嵩山に昇仙したと伝える）は銀河を凌いで挙（あが）り 伯夷（殷末の高士。武王の革命を非とし首陽山に隠れて餓死した）は周の梁",
+          "context_position": 2141,
+          "matched_form": "殷"
+        },
+        {
+          "shoryoshu_idx": 10,
+          "篇名": "沙門勝道山水を歴て玄珠を瑩く碑 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "宝を惜しむ意か）の歯（齢）にして清らかであった。四民（士農工商の庶民）の生事（生計）に枷（かせ）せられ、三諦（空・仮・中の",
+          "context_position": 670,
+          "matched_form": "商"
+        },
+        {
+          "shoryoshu_idx": 10,
+          "篇名": "沙門勝道山水を歴て玄珠を瑩く碑 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "あり。松風は琴を懸け、坻浪（みぎわの波）は鼓を調ぶ。五音（宮商角徴羽）争うて天韻を奏し、八徳（『涅槃経』の八功徳水）は澹澹",
+          "context_position": 2707,
+          "matched_form": "商"
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "王、サンスクリットnāga）を召きて滂沱（雨沛然）たらしめ、商羊（『家語』『説苑』、雨を予知する一足の鳥）が堤を決壊させれ",
+          "context_position": 1893,
+          "matched_form": "商"
+        },
+        {
+          "shoryoshu_idx": 28,
+          "篇名": "僧中璟が罪を赦されんことを請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "ある。  伏して乞う、陛下、網を解いて辜（つみびと）に泣き（殷の湯王が田猟の網三面を解いて禽獣に逃げ場を与えた『史記』殷本",
+          "context_position": 1673,
+          "matched_form": "殷"
+        },
+        {
+          "shoryoshu_idx": 35,
+          "篇名": "藤の真川が浄豊を挙するが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "七五六〜八一八〕、または右丞相）、帝寵は伊霍（いかく、伊尹〔殷湯王の宰相、阿衡〕と霍光〔前漢武帝の託孤の臣〕、帝の信任厚き",
+          "context_position": 1718,
+          "matched_form": "殷"
+        },
+        {
+          "shoryoshu_idx": 36,
+          "篇名": "人の官を求むるが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "代名門の家系）の代を累ね、一人（天皇御一人）に阿衡（あこう、殷の伊尹〔いいん〕、湯王が父師として尊崇した名宰相、『書経』太",
+          "context_position": 377,
+          "matched_form": "殷"
+        },
+        {
+          "shoryoshu_idx": 36,
+          "篇名": "人の官を求むるが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "ずして、蚕食（さんしょく、家計を蝕み食らう者）するもの多し。商もせず、買（あきない）もせずして、蠧費（とひ、本紙を食う蠧虫",
+          "context_position": 599,
+          "matched_form": "商"
+        },
+        {
+          "shoryoshu_idx": 36,
+          "篇名": "人の官を求むるが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "を覚悟した魂）の魂はたちまち倚陶（いとう、倚頓〔魯の大富、塩商で財を成した〕と陶朱〔范蠡、越王勾践の宰相、引退して陶〔斉国",
+          "context_position": 1765,
+          "matched_form": "商"
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "の精霊）に祷（いの）れば山魅は髪を焦がす（焼け付くほどに）。殷の湯（とう、殷の湯王、桑林に祈雨し自らを犠牲に擬したる故事・",
+          "context_position": 1023,
+          "matched_form": "殷"
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "いの）れば山魅は髪を焦がす（焼け付くほどに）。殷の湯（とう、殷の湯王、桑林に祈雨し自らを犠牲に擬したる故事・『荀子』『淮南",
+          "context_position": 1030,
+          "matched_form": "殷"
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "しんでいた京畿地域に対する朝廷主催の祈雨法会の貴重な記録。「殷湯六事」「夏禹治水」「燕舞鶴唳」「畝有余粮、路不拾遺」など中",
+          "context_position": 2669,
+          "matched_form": "殷"
+        },
+        {
+          "shoryoshu_idx": 76,
+          "篇名": "三嶋の大夫亡息女の為に法華経を書写し供養して講説する表白の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "（ざかい・海上の船に乗りたる）の丈夫は、慈悲の心を発して五百商人を救って大覚（仏果）を成就した（『大智度論』『摩訶僧祇律』",
+          "context_position": 207,
+          "matched_form": "商"
+        },
+        {
+          "shoryoshu_idx": 76,
+          "篇名": "三嶋の大夫亡息女の為に法華経を書写し供養して講説する表白の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "成就した（『大智度論』『摩訶僧祇律』海中の薩埵が悪盗を殺して商人を救った菩薩本生譚）。されば兼愛（広く一切に及ぶ愛・墨子兼",
+          "context_position": 250,
+          "matched_form": "商"
+        },
+        {
+          "shoryoshu_idx": 80,
+          "篇名": "和尚皇帝を祈りたてまつらんが奉為に大般若経を転読する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "二理が、わが君の福を茂（しげ）からしめたまえ。石舞（せきぶ・殷の湯王が桑林の野で雨を祈り自ら身を祭る舞をした故事——『荀子",
+          "context_position": 798,
+          "matched_form": "殷"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "が難じて曰う、「国家は広く庠序（しょうじょ・古代の学校。庠は殷・序は周）を開いて諸芸を勧め励ましている。霹靂（へきれき・落",
+          "context_position": 2544,
+          "matched_form": "殷"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "sanskrit_canonical": "sumeru",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 9
+        },
+        {
+          "form": "sumeru",
+          "count": 5
+        },
+        {
+          "form": "須弥",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 15,
+      "篇分布": [
+        10,
+        48,
+        74,
+        82,
+        84,
+        94,
+        101,
+        110
+      ],
+      "篇分布_count": 8,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 10,
+          "篇名": "沙門勝道山水を歴て玄珠を瑩く碑 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "沙門遍照金剛（空海）撰文ならびに書  蘇巓（須弥山、世界の中心の高山）・鷲嶽（霊鷲山、釈迦の説法地、ともに仏教",
+          "context_position": 22,
+          "matched_form": "須弥山"
+        },
+        {
+          "shoryoshu_idx": 10,
+          "篇名": "沙門勝道山水を歴て玄珠を瑩く碑 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "南北は虎の踞（うずくま）るがごとくして棲息に風情あり。妙高（須弥山）を指して儔（ともがら）となし、輪䥫（鉄囲山、世界を囲む鉄の",
+          "context_position": 1674,
+          "matched_form": "須弥山"
+        },
+        {
+          "shoryoshu_idx": 48,
+          "篇名": "東太上故中務卿親王の為に檀の像を造刻する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "がく、巨大な山）を小芥（しょうかい、小さな芥子粒）に入れる（須弥納芥子の譬）。四量（四無量心：慈・悲・喜・捨）を心に用い、六",
+          "context_position": 253,
+          "matched_form": "須弥"
+        },
+        {
+          "shoryoshu_idx": 74,
+          "篇名": "孝子先妣の周忌の為に両部の曼荼羅大日経を図写し供養して講説す表白の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "　高く聳えて頂きの見えざるは妙高山（みょうこうさん・sumeru・須弥山・世界の中心の高山）、渺漫（びょうまん・茫々として広",
+          "context_position": 26,
+          "matched_form": "sumeru"
+        },
+        {
+          "shoryoshu_idx": 74,
+          "篇名": "孝子先妣の周忌の為に両部の曼荼羅大日経を図写し供養して講説す表白の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "聳えて頂きの見えざるは妙高山（みょうこうさん・sumeru・須弥山・世界の中心の高山）、渺漫（びょうまん・茫々として広い）とし",
+          "context_position": 33,
+          "matched_form": "須弥山"
+        },
+        {
+          "shoryoshu_idx": 82,
+          "篇名": "有る人先師の為に法事を修する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "阿含経』『大智度論』）の脚はよくその底を極め、蘇迷（そめい・sumeru・須弥山）は大なりといえども、大士（菩薩）の手はよくこれを他",
+          "context_position": 75,
+          "matched_form": "sumeru"
+        },
+        {
+          "shoryoshu_idx": 82,
+          "篇名": "有る人先師の為に法事を修する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "度論』）の脚はよくその底を極め、蘇迷（そめい・sumeru・須弥山）は大なりといえども、大士（菩薩）の手はよくこれを他界へ擲（",
+          "context_position": 82,
+          "matched_form": "須弥山"
+        },
+        {
+          "shoryoshu_idx": 84,
+          "篇名": "高野山万灯会の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "（こんぽう・高野山——金剛峯）は高く聳えて安明（あんみょう・sumeru・須弥山の異名・安明大山）の培塿（ばいろう・小さき盛土の塚—",
+          "context_position": 587,
+          "matched_form": "sumeru"
+        },
+        {
+          "shoryoshu_idx": 84,
+          "篇名": "高野山万灯会の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "野山——金剛峯）は高く聳えて安明（あんみょう・sumeru・須弥山の異名・安明大山）の培塿（ばいろう・小さき盛土の塚——『左伝",
+          "context_position": 594,
+          "matched_form": "須弥山"
+        },
+        {
+          "shoryoshu_idx": 94,
+          "篇名": "高野の四至の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "・白虎・朱雀・玄武〕の風水地相）。妙高（みょうこう・須弥山・sumeru）を指（さ）してもって儔（とも）と為し、輪鉄（りんてつ・鉄囲",
+          "context_position": 469,
+          "matched_form": "sumeru"
+        },
+        {
+          "shoryoshu_idx": 94,
+          "篇名": "高野の四至の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "応〔青龍・白虎・朱雀・玄武〕の風水地相）。妙高（みょうこう・須弥山・sumeru）を指（さ）してもって儔（とも）と為し、輪鉄（",
+          "context_position": 465,
+          "matched_form": "須弥山"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "の川）を資（たすけ）として深きを致し、蘇迷（すめい・須弥山 sumeru の写音）は衆山（多くの小山）を越えて高きを成す。大厦（たい",
+          "context_position": 2201,
+          "matched_form": "sumeru"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "流（多くの川）を資（たすけ）として深きを致し、蘇迷（すめい・須弥山 sumeru の写音）は衆山（多くの小山）を越えて高きを成",
+          "context_position": 2197,
+          "matched_form": "須弥山"
+        },
+        {
+          "shoryoshu_idx": 110,
+          "篇名": "九相の詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "ごと）し 　忉利（とうり・Trāyastriṃśa・忉利天〔須弥山頂三十三天〕）は匠堂（しょうどう・工匠の堂・人為の手で築き得",
+          "context_position": 577,
+          "matched_form": "須弥山"
+        },
+        {
+          "shoryoshu_idx": 110,
+          "篇名": "九相の詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "べき所なり 　閻浮（えんぶ・jambu-dvīpa・閻浮提・須弥山南方の人間世界）は楽しみ寐（い）ぬべきに非ず 　膚血（ふけつ",
+          "context_position": 4066,
+          "matched_form": "須弥山"
+        }
+      ]
+    },
+    {
+      "canonical": "陳",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "南朝の王朝。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "陳",
+          "count": 13
+        }
+      ],
+      "occurrence_count": 13,
+      "篇分布": [
+        13,
+        14,
+        16,
+        29,
+        30,
+        32,
+        33,
+        61,
+        82,
+        92,
+        102,
+        103,
+        105
+      ],
+      "篇分布_count": 13,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 13,
+          "篇名": "勅賜の屏風を書き了て即ち献ずる表并びに詩",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "を交（かわ）し  鵠頭（鵠頭書）と龍爪（龍爪書）と、君が為に陳ぜんとは  祥雲（吉祥の雲、書中の雲気）濃淡として、御邸（天",
+          "context_position": 2564,
+          "matched_form": "陳"
+        },
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "  ときに悲収（悲しみと収まり）たちまちに過ぎて、日月ここに陳（つら）なる。雲雨は彩を含んで、あるいは灑（そそ）ぎ、あるい",
+          "context_position": 853,
+          "matched_form": "陳"
+        },
+        {
+          "shoryoshu_idx": 16,
+          "篇名": "伴按察平章事の陸府に赴くに贈る詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "なんぞ塞（辺塞）を出でんや  賢才の妙略は幄（とばり）の中に陳ぶ（『漢書』高帝紀「運籌帷幄之中、決勝千里之外」、張良の故事",
+          "context_position": 1789,
+          "matched_form": "陳"
+        },
+        {
+          "shoryoshu_idx": 29,
+          "篇名": "天長皇帝の即位を賀し奉つる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "）の至りに堪えがたく、謹んで奉表（祝賀の表を奉り）陳賀（賀を陳ぶ）して、以て聞こしめさんとす。軽々しく宸厳（皇帝の威厳）を",
+          "context_position": 907,
+          "matched_form": "陳"
+        },
+        {
+          "shoryoshu_idx": 30,
+          "篇名": "小僧都を辞する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "（私の愚かにして凡庸）の至りに堪えがたく、謹んで表を奉り辞を陳じて以て聞こしめす。軽々しく威厳を黷（けが）す、伏して深く悚",
+          "context_position": 1301,
+          "matched_form": "陳"
+        },
+        {
+          "shoryoshu_idx": 32,
+          "篇名": "大徳如宝が為に招提の封戸を恩賜するを奉謝する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "る。  謹んで闕（皇宮の楼門・朝廷）に詣でて、表を奉り謝意を陳ぶることを以て聞こしめす。沙門如宝、誠懽誠喜（誠に歓び誠に喜",
+          "context_position": 570,
+          "matched_form": "陳"
+        },
+        {
+          "shoryoshu_idx": 33,
+          "篇名": "真能が為に右将軍に与える啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "り）を戢（おさ）めて、私の狂言（取り乱した申し訳なき言葉）を陳ぶることを許したまえ。  そもそも箕星（きせい、二十八宿の箕",
+          "context_position": 583,
+          "matched_form": "陳"
+        },
+        {
+          "shoryoshu_idx": 61,
+          "篇名": "知識の華厳会の為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "の雲門・大咸・大韶・大夏・大濩・大武の六代楽）が倶（とも）に陳ねられ、八音（はちおん。『書経』舜典「八音克諧」、金・石・糸",
+          "context_position": 958,
+          "matched_form": "陳"
+        },
+        {
+          "shoryoshu_idx": 82,
+          "篇名": "有る人先師の為に法事を修する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "に聚まりて、四魔（しま・煩悩魔・五蘊魔・死魔・天子魔）の軍を陳（つら）ね、命の蔓（命藤）は夜に断えて、死王（閻魔）の殃（わ",
+          "context_position": 744,
+          "matched_form": "陳"
+        },
+        {
+          "shoryoshu_idx": 92,
+          "篇名": "永忠僧都少僧都を辞する表の勅答",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "　忽（たちま）ち来表を省（み）て、陳ぶる所、これ具（つぶさ）なり。公（永忠）の情は草繋（そうけい",
+          "context_position": 17,
+          "matched_form": "陳"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "鸞鳥・天上の妙音鳥・『山海経』西山経）の妙法は、誰に向かって陳べん  　天長五年（八二八）四月十三日",
+          "context_position": 6269,
+          "matched_form": "陳"
+        },
+        {
+          "shoryoshu_idx": 103,
+          "篇名": "暮秋に元興の僧正大徳の八十を賀する詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "趣（ゆうしゅ・深奥なる旨）は 　公（護命）に非（あら）ざれば陳（の）べず 　両帝（りょうてい・嵯峨・淳和の両帝）仰止（ぎょ",
+          "context_position": 3080,
+          "matched_form": "陳"
+        },
+        {
+          "shoryoshu_idx": 105,
+          "篇名": "泰範叡山の澄和尚に啓を答する為の書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "管〔くだ〕より天を窺う狭き見解・『荘子』秋水「以管窺天」）を陳ぶ。 　夫（そ）れ如来大師は、機（き・衆生の機根 indri",
+          "context_position": 1494,
+          "matched_form": "陳"
+        }
+      ]
+    },
+    {
+      "canonical": "震旦",
+      "aliases": [
+        "支那",
+        "神州",
+        "唐土",
+        "中華",
+        "華夏"
+      ],
+      "subcategory": "country_china",
+      "definition": "中国の異称。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "唐土",
+          "count": 8
+        },
+        {
+          "form": "支那",
+          "count": 2
+        },
+        {
+          "form": "神州",
+          "count": 2
+        },
+        {
+          "form": "震旦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 13,
+      "篇分布": [
+        7,
+        22,
+        24,
+        27,
+        38,
+        41,
+        42,
+        53,
+        54,
+        97,
+        102
+      ],
+      "篇分布_count": 11,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 7,
+          "篇名": "山中に何の楽しみが有る 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "か 摩竭（マガダ国）の鷲峯（霊鷲山）は釈迦の住みたまえる地 支那（中国）の台嶽（五台山）は曼殊（文殊菩薩）の盧（庵）のあった",
+          "context_position": 176,
+          "matched_form": "支那"
+        },
+        {
+          "shoryoshu_idx": 22,
+          "篇名": "筆を奉献する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "空海、わが家にて試みにこの新作の筆を使ってみたところ、唐家（唐土）製のものに劣らない出来である。但し恐れるは、星の好み（人そ",
+          "context_position": 342,
+          "matched_form": "唐土"
+        },
+        {
+          "shoryoshu_idx": 24,
+          "篇名": "劉廷芝が集を書して奉献する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "臨写する者は別物の境地である、と）。  余（私空海）は海西（唐土）にて頗（すこぶ）る骨法（書の骨格・筆法）を閑（なら）った。",
+          "context_position": 785,
+          "matched_form": "唐土"
+        },
+        {
+          "shoryoshu_idx": 27,
+          "篇名": "梵字并びに雑文を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "字悉曇）を学び、茶湯坐し来たりて（茶を喫し坐に就けば）、ふと震旦（中国）の書を披閲する。蒼史（蒼頡と史籀、文字を制作した古代",
+          "context_position": 1466,
+          "matched_form": "震旦"
+        },
+        {
+          "shoryoshu_idx": 38,
+          "篇名": "福州の観察使に与える入京の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "十月某日、日本国学問の僧空海啓す。中丞閣下。  （本啓は空海唐土滞在の最初期の文書群の中で、個人としての入京願いを単独で記し",
+          "context_position": 1167,
+          "matched_form": "唐土"
+        },
+        {
+          "shoryoshu_idx": 41,
+          "篇名": "橘学生の本国の使に与えるが為の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "留住（唐土に留まりて住める）の学生（がくしょう）、逸勢（橘逸勢〔たちば",
+          "context_position": 3,
+          "matched_form": "唐土"
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "留住（唐土に留住する）学問の僧空海、謹んで啓を奉る。空海、器（うつわ・",
+          "context_position": 3,
+          "matched_form": "唐土"
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "て、これを天命（朝廷の命）に答えたい。  たとい久しく他郷（唐土）に客となり、領（首・うなじ）を皇華（こうか、皇国・日本の朝",
+          "context_position": 998,
+          "matched_form": "唐土"
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "。しかし経文を前にしては心昏くして意を解しがたく、ついに赤縣神州（せきけんしんしゅう。中国の雅称。『史記』孟子荀卿列伝の鄒衍",
+          "context_position": 1376,
+          "matched_form": "神州"
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "ゅう。中国の雅称。『史記』孟子荀卿列伝の鄒衍説「中国名曰赤縣神州」に見える）まで尋ねたいと願ったのである。  人々の願いに天",
+          "context_position": 1416,
+          "matched_form": "神州"
+        },
+        {
+          "shoryoshu_idx": 54,
+          "篇名": "故藤中納言の為に十七尊の像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "貂尾と蝉文。代々の貴家を象徴。藤原北家の家系を指す）として、唐土・本邦の両国にわたり令聞（よき名声）が高かった。  一心の誠",
+          "context_position": 488,
+          "matched_form": "唐土"
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "しゅ）・安行（あんぎょう）等を差して、彼の方（諸国・あるいは唐土）に発赴（はっぷ・派遣）せしむ。もし神通乗（金剛乗・密教）の",
+          "context_position": 2365,
+          "matched_form": "唐土"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "僧）が錍（へい・楔・教えの楔を打ち込む譬喩）を投じてからは、支那（しな・cīna の写音・中国）が無起（むき・空・諸法の不生",
+          "context_position": 516,
+          "matched_form": "支那"
+        }
+      ]
+    },
+    {
+      "canonical": "霊鷲山",
+      "aliases": [
+        "霊山",
+        "耆闍崛山",
+        "gṛdhrakūṭa"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "王舎城東北の山。釈迦が法華経などを説いた地。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "霊鷲山",
+          "count": 9
+        },
+        {
+          "form": "霊山",
+          "count": 2
+        },
+        {
+          "form": "gṛdhrakūṭa",
+          "count": 1
+        },
+        {
+          "form": "耆闍崛山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 13,
+      "篇分布": [
+        7,
+        10,
+        44,
+        64,
+        76,
+        78,
+        93
+      ],
+      "篇分布_count": 7,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 7,
+          "篇名": "山中に何の楽しみが有る 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "はご覧にならぬか、お聞きにならぬか 摩竭（マガダ国）の鷲峯（霊鷲山）は釈迦の住みたまえる地 支那（中国）の台嶽（五台山）は曼殊",
+          "context_position": 160,
+          "matched_form": "霊鷲山"
+        },
+        {
+          "shoryoshu_idx": 10,
+          "篇名": "沙門勝道山水を歴て玄珠を瑩く碑 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "）撰文ならびに書  蘇巓（須弥山、世界の中心の高山）・鷲嶽（霊鷲山、釈迦の説法地、ともに仏教世界の聖山）は、異人（聖者）の都と",
+          "context_position": 39,
+          "matched_form": "霊鷲山"
+        },
+        {
+          "shoryoshu_idx": 10,
+          "篇名": "沙門勝道山水を歴て玄珠を瑩く碑 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "、妙吉祥の略）が鎮（つね）に住して接引（救済導引）し、提山（霊鷲山または提山菩薩）に迹を垂れ、孤岸（生死を超えた彼岸）の津梁（",
+          "context_position": 372,
+          "matched_form": "霊鷲山"
+        },
+        {
+          "shoryoshu_idx": 10,
+          "篇名": "沙門勝道山水を歴て玄珠を瑩く碑 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "界、『華厳経』の浄土）を心海に観じ、実相（諸法実相）を眉山（霊鷲山に喩える眉のごとき山）に念ずる。蘿（つた）と寒を遮し、葉蔭に",
+          "context_position": 3268,
+          "matched_form": "霊鷲山"
+        },
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "をご講演し給う。  釈迦が再び世に生まれて、鷲嶺（じゅれい、霊鷲山・釈尊『法華経』説法の地）の会（霊山会）が再び輻湊（ふくそう",
+          "context_position": 1962,
+          "matched_form": "霊鷲山"
+        },
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "れて、鷲嶺（じゅれい、霊鷲山・釈尊『法華経』説法の地）の会（霊山会）が再び輻湊（ふくそう、車軸が集まるごとく集まる）するごと",
+          "context_position": 1981,
+          "matched_form": "霊山"
+        },
+        {
+          "shoryoshu_idx": 64,
+          "篇名": "田小貳が先妣の忌斎を設くる為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "養育する）することには、二親の恩が重い。  五岳（中国の五大霊山——東岳泰山・西岳華山・南岳衡山・北岳恒山・中岳嵩山）と四涜",
+          "context_position": 58,
+          "matched_form": "霊山"
+        },
+        {
+          "shoryoshu_idx": 76,
+          "篇名": "三嶋の大夫亡息女の為に法華経を書写し供養して講説する表白の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "華経』）の奥義を講宣した。 　仰ぎ願わくは、鷲峯（じゅほう・霊鷲山——『法華経』所説の地）海会の釈迦尊、多宝（たほう・多宝如来",
+          "context_position": 1665,
+          "matched_form": "霊鷲山"
+        },
+        {
+          "shoryoshu_idx": 78,
+          "篇名": "先師の為に梵網経を講釈する表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "して衆生は拯（すく）うものを失った。 　法華の座（『法華経』霊鷲山法華説法会）の上に釈迦はたちまちに跡を匿（かく）し、三論の堂",
+          "context_position": 1806,
+          "matched_form": "霊鷲山"
+        },
+        {
+          "shoryoshu_idx": 78,
+          "篇名": "先師の為に梵網経を講釈する表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "品の多宝如来塔）の中に帰したまえるか、まさに鷲峯（じゅほう・霊鷲山）の窟の裏に還りたまえるか。一乗の妙法はいずれの方に演説した",
+          "context_position": 2259,
+          "matched_form": "霊鷲山"
+        },
+        {
+          "shoryoshu_idx": 93,
+          "篇名": "紀伊の国伊都の郡高野の峯に於いて入定の処を請け乞わるる表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "化（産まれ化育）す。是の故に耆闍（ぎじゃ・耆闍崛山＝霊鷲山・gṛdhrakūṭa・釈尊説法の地）の峻嶺には能仁（のうにん・釈尊）の迹（あと）",
+          "context_position": 89,
+          "matched_form": "gṛdhrakūṭa"
+        },
+        {
+          "shoryoshu_idx": 93,
+          "篇名": "紀伊の国伊都の郡高野の峯に於いて入定の処を請け乞わるる表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "ときは則ち魚龍は産化（産まれ化育）す。是の故に耆闍（ぎじゃ・耆闍崛山＝霊鷲山・gṛdhrakūṭa・釈尊説法の地）の峻嶺には能仁",
+          "context_position": 80,
+          "matched_form": "耆闍崛山"
+        },
+        {
+          "shoryoshu_idx": 93,
+          "篇名": "紀伊の国伊都の郡高野の峯に於いて入定の処を請け乞わるる表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "魚龍は産化（産まれ化育）す。是の故に耆闍（ぎじゃ・耆闍崛山＝霊鷲山・gṛdhrakūṭa・釈尊説法の地）の峻嶺には能仁（のうに",
+          "context_position": 85,
+          "matched_form": "霊鷲山"
+        }
+      ]
+    },
+    {
+      "canonical": "青龍寺",
+      "aliases": [],
+      "subcategory": "temple_china",
+      "definition": "長安にあった密教の中心寺院。恵果阿闍梨の住所。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "青龍寺",
+          "count": 11
+        }
+      ],
+      "occurrence_count": 11,
+      "篇分布": [
+        0,
+        12,
+        19,
+        38,
+        42,
+        43,
+        53,
+        97,
+        106
+      ],
+      "篇分布_count": 9,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 0,
+          "篇名": "真済序",
+          "巻": "巻第一",
+          "page_idx": 0,
+          "context": "西暦八〇四年）、勅命を奉じて唐に渡られた。ちょうど都・長安の青龍寺の大徳である恵果阿闍梨にまみえる機会を得られた。恵果は南イン",
+          "context_position": 643,
+          "matched_form": "青龍寺"
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "○大唐神都（長安）青龍寺の故・三朝の国師・潅頂阿闍梨恵果和尚の碑  日本国・学法の弟",
+          "context_position": 9,
+          "matched_form": "青龍寺"
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "がさとるのか。その人、何処に在るのか。  ここに神都（長安）青龍寺東塔院の大阿闍梨、法の諱（いみな）は恵果と号する和尚があられ",
+          "context_position": 308,
+          "matched_form": "青龍寺"
+        },
+        {
+          "shoryoshu_idx": 19,
+          "篇名": "国家の奉為に修法せんと請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "るか海西（中国・大唐国）に遊学する機会を得た。たまたま（儻）青龍寺恵果阿闍梨の灌頂道場に入って、一百余部の金剛乗（密教・金剛頂",
+          "context_position": 71,
+          "matched_form": "青龍寺"
+        },
+        {
+          "shoryoshu_idx": 38,
+          "篇名": "福州の観察使に与える入京の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "みて、私に入京の許しを賜りたい。さすれば、名徳の高僧（長安の青龍寺恵果阿闍梨ら碩徳をはるかに念頭に置く）を尋ねて、速やかに志す",
+          "context_position": 992,
+          "matched_form": "青龍寺"
+        },
+        {
+          "shoryoshu_idx": 38,
+          "篇名": "福州の観察使に与える入京の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "を許され、同年十二月二十三日長安に到着、翌永貞元年〔八〇五〕青龍寺の恵果阿闍梨に師事する道が拓かれる。日本密教伝来の関鍵となる",
+          "context_position": 1248,
+          "matched_form": "青龍寺"
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "および内供奉（ないぐぶ、宮中供奉僧）恵果大阿闍梨（八世紀後半青龍寺東塔院の唐密第七祖、不空三蔵の高弟、不空―金剛智―善無畏に連",
+          "context_position": 321,
+          "matched_form": "青龍寺"
+        },
+        {
+          "shoryoshu_idx": 43,
+          "篇名": "青龍の和尚に衲の袈裟を献ずる状",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "家僧）空海、稽首和南。  （本状は永貞元年〔八〇五〕、空海が青龍寺東塔院の恵果阿闍梨より両部大法の灌頂を受けた直後、ささやかな",
+          "context_position": 1192,
+          "matched_form": "青龍寺"
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "使船にて、無事に大唐の地に入ることができた。  たまたま長安青龍寺において導師（恵果阿闍梨。不空三蔵直伝の付法第七祖）にお会い",
+          "context_position": 1500,
+          "matched_form": "青龍寺"
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "ajra〕・七〇五〜七七四・大広智三蔵の追諡）の付法の弟子、青龍寺（せいりゅうじ・長安東街〔新昌坊〕）の法（法諱）の諱（いみな",
+          "context_position": 1331,
+          "matched_form": "青龍寺"
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "き）応（おう）ぜざれば、我が師（恵果・けいか・空海の師、長安青龍寺の阿闍梨）も黙然（もくねん・黙して語らず）す。 　所以（ゆえ",
+          "context_position": 4519,
+          "matched_form": "青龍寺"
+        }
+      ]
+    },
+    {
+      "canonical": "大和",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "奈良県。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "大和",
+          "count": 10
+        }
+      ],
+      "occurrence_count": 10,
+      "篇分布": [
+        11,
+        102
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "○大和国（現・奈良県）益田の池の碑の銘文（序を併記）  東大寺の沙",
+          "context_position": 1,
+          "matched_form": "大和"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "の洲（豊葦原瑞穂国の異称）、八烏（八咫烏、神武東征で熊野から大和へ天皇を導いた『古事記』『日本書紀』神武紀）が初めて導きし国",
+          "context_position": 504,
+          "matched_form": "大和"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "天皇を導いた『古事記』『日本書紀』神武紀）が初めて導きし国（大和国）である。  地はこれ漢諳（あやんあん／漢族渡来人）の旧宅",
+          "context_position": 537,
+          "matched_form": "大和"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "き）し弘仁十三年（西暦八二二年）仲冬（陰暦十一月）の月、前の大和国監察使・藤納言（藤原氏のある納言）と紀大守末（紀末成、当時",
+          "context_position": 638,
+          "matched_form": "大和"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "（藤公に）代えて国の事を検（監督）させ、同時に藤広（藤原広・大和守に比定）を抜擢して刺史（国司）に任じた。両公が池の工事を検",
+          "context_position": 1192,
+          "matched_form": "大和"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "曰魃、雨止」）でさえ其の底を涸らすことができない。  六郡（大和国の六郡）が潤いを蒙り、万浍（万の溝渠、『書経』禹貢「濬畎浍",
+          "context_position": 2765,
+          "matched_form": "大和"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "）に豊かなり。  伴相（大伴国道）計を施し、  原守（藤広・大和守）公（任務）に在り。  良才と奇術ありて、  民は具（こと",
+          "context_position": 4046,
+          "matched_form": "大和"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "七五三〜八二七）、俗姓は秦の氏、母は嶋の史（しまのふひと）、大和の州（やまとのくに）高市（たけち）の郡の人である。 　初め母",
+          "context_position": 867,
+          "matched_form": "大和"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "、心中これを憂えていた。たびたび駕龍寺（がりゅうじ・飛龍寺・大和国高市郡岡寺の旧称、または別寺。岡寺は天武帝の皇子草壁皇子の",
+          "context_position": 940,
+          "matched_form": "大和"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "僧の衣を設けて一心に敬供した。あるいは倭曲（わきょく・和讃・大和の歌曲）を整えて義成（ぎじょう・siddhārtha・釈尊の",
+          "context_position": 3250,
+          "matched_form": "大和"
+        }
+      ]
+    },
+    {
+      "canonical": "秦",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。始皇帝による天下統一。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "秦",
+          "count": 10
+        }
+      ],
+      "occurrence_count": 10,
+      "篇分布": [
+        1,
+        13,
+        28,
+        31,
+        39,
+        54,
+        102,
+        109
+      ],
+      "篇分布_count": 8,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "げた『新序』雑事五）は仮借（うわべの仮の物）を珍とし 秦鏡（秦の始皇帝が持っていたという万物を映す宝鏡）は真の姿を照らし出",
+          "context_position": 826,
+          "matched_form": "秦"
+        },
+        {
+          "shoryoshu_idx": 13,
+          "篇名": "勅賜の屏風を書き了て即ち献ずる表并びに詩",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "説文解字』）の萃楚（萃まり聚まれる楚才）を折（と）り、八体（秦代の八種書体、『説文解字』序「自爾秦書有八体」）の英華を摘（",
+          "context_position": 1493,
+          "matched_form": "秦"
+        },
+        {
+          "shoryoshu_idx": 28,
+          "篇名": "僧中璟が罪を赦されんことを請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "・麦はいかにして華を生ぜん。法を守りて盗を一切赦さずならば、秦人（秦の穆公が宝馬を盗んで食した野人を許して後の戦で恩義を返",
+          "context_position": 1194,
+          "matched_form": "秦"
+        },
+        {
+          "shoryoshu_idx": 28,
+          "篇名": "僧中璟が罪を赦されんことを請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "いかにして華を生ぜん。法を守りて盗を一切赦さずならば、秦人（秦の穆公が宝馬を盗んで食した野人を許して後の戦で恩義を返された",
+          "context_position": 1197,
+          "matched_form": "秦"
+        },
+        {
+          "shoryoshu_idx": 28,
+          "篇名": "僧中璟が罪を赦されんことを請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "の者は王の窮地を救った『説苑』復恩、寛恕報恩の故事）。秦政（秦の始皇帝・趙政の苛刑必罰）の必ず罪するを去け、周成（周の成王",
+          "context_position": 1845,
+          "matched_form": "秦"
+        },
+        {
+          "shoryoshu_idx": 31,
+          "篇名": "李邕が真跡の屏風の書 一帖",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "篆・刻符・虫書・摹印・署書・殳書・隷書、許慎『説文解字』叙の秦の八体）の風を篤くしたまう。  空海、この李邕の妙迹を得たの",
+          "context_position": 727,
+          "matched_form": "秦"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "と将（まさ）に浮ばんと欲して能わざるところの海であり、山谷は秦王（秦始皇）が東方蓬萊に往こうとして至らざる嶽である。  南",
+          "context_position": 1188,
+          "matched_form": "秦"
+        },
+        {
+          "shoryoshu_idx": 54,
+          "篇名": "故藤中納言の為に十七尊の像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "』達生に見える名馬）を馳せた。  東は洛陽、西は長安（西秦は秦の故地・関中、漢以来の都）、その間の関輔（かんぽ。関中・三輔",
+          "context_position": 1005,
+          "matched_form": "秦"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "（ごんそう・七五四〜八二七・もしくは七五三〜八二七）、俗姓は秦の氏、母は嶋の史（しまのふひと）、大和の州（やまとのくに）高",
+          "context_position": 849,
+          "matched_form": "秦"
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "楞厳経』巻四）の楼の中の円鏡（えんきょう・円形の鏡）の影 　秦王（しんおう・秦始皇帝）の台（だい・楼台）の上の方丈（ほうじ",
+          "context_position": 2642,
+          "matched_form": "秦"
+        }
+      ]
+    },
+    {
+      "canonical": "雪山",
+      "aliases": [
+        "ヒマーラヤ",
+        "himālaya"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "ヒマーラヤ山脈。仏典でしばしば言及される聖山。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "雪山",
+          "count": 10
+        }
+      ],
+      "occurrence_count": 10,
+      "篇分布": [
+        27,
+        58,
+        71,
+        73,
+        78,
+        104,
+        110
+      ],
+      "篇分布_count": 7,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 27,
+          "篇名": "梵字并びに雑文を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "て重んじる。満界（全宇宙）の宝をもってしても半偈（『涅槃経』雪山童子の半偈、菩薩が身命を擲って半偈の法を求めた話）の恩には報",
+          "context_position": 773,
+          "matched_form": "雪山"
+        },
+        {
+          "shoryoshu_idx": 58,
+          "篇名": "前の清丹州の亡妻の為の達嚫",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "『涅槃経』『無常経』）である。  故に経（『涅槃経』聖行品の雪山偈）に云う、「諸行無常、是生滅法、生滅滅已、寂滅為楽」云々と",
+          "context_position": 922,
+          "matched_form": "雪山"
+        },
+        {
+          "shoryoshu_idx": 58,
+          "篇名": "前の清丹州の亡妻の為の達嚫",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "罪業を滅して早く善果（菩提の善果）に登るのである。  雪童（雪山童子。過去世の釈尊。『涅槃経』聖行品で雪山にて修行中、半偈を",
+          "context_position": 1010,
+          "matched_form": "雪山"
+        },
+        {
+          "shoryoshu_idx": 58,
+          "篇名": "前の清丹州の亡妻の為の達嚫",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "である。  雪童（雪山童子。過去世の釈尊。『涅槃経』聖行品で雪山にて修行中、半偈を聞かんがために羅刹に身を投じた）が身を投げ",
+          "context_position": 1031,
+          "matched_form": "雪山"
+        },
+        {
+          "shoryoshu_idx": 58,
+          "篇名": "前の清丹州の亡妻の為の達嚫",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "とに深き理由があったのである。  伏して願わくは、この法力（雪山偈読誦の功徳）をもって先霊（亡妻の御霊）を開悟せしめ、妙偈（",
+          "context_position": 1160,
+          "matched_form": "雪山"
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "行無常云云（しょぎょうむじょううんぬん——『涅槃経』聖行品の雪山偈「諸行は無常にして、これ生滅の法なり」）」、「阿娑迷云云（",
+          "context_position": 548,
+          "matched_form": "雪山"
+        },
+        {
+          "shoryoshu_idx": 73,
+          "篇名": "弟子求寂真際が冥扉に入る為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "のいかだ）に帆を揚げる——「諸行無常云云（『涅槃経』聖行品の雪山偈「諸行は無常にして、これ生滅の法なり」）」と、また「諸法如",
+          "context_position": 915,
+          "matched_form": "雪山"
+        },
+        {
+          "shoryoshu_idx": 78,
+          "篇名": "先師の為に梵網経を講釈する表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "を求めて雪中に立ち、自臂を断って志を示した『景徳伝灯録』）、雪山童子は身を投じて寂滅の偈を渇求した（『涅槃経』聖行品「諸行は",
+          "context_position": 1317,
+          "matched_form": "雪山"
+        },
+        {
+          "shoryoshu_idx": 104,
+          "篇名": "秋の日僧正大師を賀し奉る詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "した。 　況（いわ）んや復（ま）た、巖下（がんか・岩崖の下・雪山童子が羅刹のために半偈を聞いて身を投げた『涅槃経』聖行品の故",
+          "context_position": 378,
+          "matched_form": "雪山"
+        },
+        {
+          "shoryoshu_idx": 110,
+          "篇名": "九相の詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "倶舎論』巻五）を以て遷（うつ）る 　半偈（はんげ・半句の偈・雪山童子〔Himavān〕が半偈「諸行無常、是生滅法」を聞かんが",
+          "context_position": 1093,
+          "matched_form": "雪山"
+        }
+      ]
+    },
+    {
+      "canonical": "極楽",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "阿弥陀如来の西方浄土。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "極楽",
+          "count": 9
+        }
+      ],
+      "occurrence_count": 9,
+      "篇分布": [
+        14,
+        47,
+        63,
+        66,
+        79,
+        81,
+        102
+      ],
+      "篇分布_count": 7,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "俗諦）の真俗はともにこれ常住、禽獣卉木はみなこれ法音、安楽（極楽世界）・都史（都史多天・兜率天、Tuṣita）はもとより我が",
+          "context_position": 779,
+          "matched_form": "極楽"
+        },
+        {
+          "shoryoshu_idx": 47,
+          "篇名": "右将軍良納言開府儀同三司左僕射の為に大祥の斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "）し、花山の松林（如意輪観音の住処・補陀洛山の松林）は宝樹（極楽浄土の宝樹）に変じて、刹（くに、世界）の説法のごとし。  梵",
+          "context_position": 1848,
+          "matched_form": "極楽"
+        },
+        {
+          "shoryoshu_idx": 63,
+          "篇名": "菅平章事の為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "（みょうけい。冥府に独り佇む亡者）を蓮宮（れんぐう。蓮華宮、極楽浄土）に済（すく）わんには。  これをもって、亡き父母の奉為",
+          "context_position": 1297,
+          "matched_form": "極楽"
+        },
+        {
+          "shoryoshu_idx": 66,
+          "篇名": "藤左近の将監先妣の為に三七の斎を設くる願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "魂を達（とど）け運ばん。心の蓮華を八功徳水（はっくどくすい・極楽八功徳の池水）の池に開かしめ、覚りの花蕊（かずい）を九品蓮台",
+          "context_position": 1510,
+          "matched_form": "極楽"
+        },
+        {
+          "shoryoshu_idx": 79,
+          "篇名": "有る人先舅の為に法事を修する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "、八徳（はっとく・八功徳水——『阿弥陀経』『無量寿経』に説く極楽の池水・澄浄・清冷・甘美・軽軟・潤沢・安和・除飢渇・長養諸根",
+          "context_position": 632,
+          "matched_form": "極楽"
+        },
+        {
+          "shoryoshu_idx": 81,
+          "篇名": "有る人亡親の為に法事を修する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "中下に分けた九品——『観無量寿経』）の正路に開きたまえ。早く極楽の刹に遊び、蓮台の上に生ぜしめたまえ云云。檀主の樹罸（じゅば",
+          "context_position": 910,
+          "matched_form": "極楽"
+        },
+        {
+          "shoryoshu_idx": 81,
+          "篇名": "有る人亡親の為に法事を修する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "二鬼使者）には掌（つかさど）られず、直ちに安養（あんにょう・極楽浄土の異名）の宝刹に向かい、必ず兜率（とそつ・弥勒菩薩の浄土",
+          "context_position": 1151,
+          "matched_form": "極楽"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "者の腸を絶ち、迦陵（かりょう・kalaviṅka・迦陵頻伽・極楽の妙音鳥）の宸響（しんきょう・玉のごとき響き）は見る者の愛死",
+          "context_position": 3594,
+          "matched_form": "極楽"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "界（しゃば・娑婆世界 sahā）には憂苦するけれども、他境（極楽もしくは弥勒の兜率〔とそつ・tuṣita〕）にては歓喜してい",
+          "context_position": 4305,
+          "matched_form": "極楽"
+        }
+      ]
+    },
+    {
+      "canonical": "神護寺",
+      "aliases": [],
+      "subcategory": "temple_japan",
+      "definition": "高雄山。空海の主要拠点の一つ。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "神護寺",
+          "count": 9
+        }
+      ],
+      "occurrence_count": 9,
+      "篇分布": [
+        17,
+        19,
+        65,
+        66,
+        69,
+        100,
+        102,
+        105,
+        109
+      ],
+      "篇分布_count": 9,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 17,
+          "篇名": "新羅の道者に与える詩 并に状",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "聞かぬ事）を披（ひら）かん。珍重珍重。  高雄寺（高雄山寺、神護寺の前身）の金剛道場、持念（陀羅尼念誦）の沙門・遍照金剛（空海",
+          "context_position": 434,
+          "matched_form": "神護寺"
+        },
+        {
+          "shoryoshu_idx": 19,
+          "篇名": "国家の奉為に修法せんと請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "伏して望むらくは、国家のおん為に、諸弟子等を率いて高雄山寺（神護寺の前身）の三門（山門・寺門の意）に於いて、来月一日（弘仁元年",
+          "context_position": 681,
+          "matched_form": "神護寺"
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "義）の法曼荼羅たる『大日経』一部七巻を書写した。さらに兼ねて神護寺（京都高雄山神護国祚真言寺・空海の常住道場）に赴き、聊か法席",
+          "context_position": 1552,
+          "matched_form": "神護寺"
+        },
+        {
+          "shoryoshu_idx": 66,
+          "篇名": "藤左近の将監先妣の為に三七の斎を設くる願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "—その高深の如き親の恩）に酬（むく）ゆ得ようか。謹んで高雄（神護寺）の道場において、妙法（『法華経』および密教真言の妙法）を転",
+          "context_position": 1367,
+          "matched_form": "神護寺"
+        },
+        {
+          "shoryoshu_idx": 69,
+          "篇名": "弟子の僧真体が亡妹の七七の斎を設け並びに伝灯の料田を奉入する為の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "並びに田村の庄、美作国の佐良の庄、但馬国の針谷の田等を、永く神護寺の伝法料（でんぼうりょう・密教伝法のための田領）として奉入し",
+          "context_position": 1295,
+          "matched_form": "神護寺"
+        },
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "雅致（がち・雅やかな趣）なり。  　今、此の高雄（高雄山寺・神護寺の前身・空海の最初期の根本道場）の伽藍に未だ三綱（さんごう・",
+          "context_position": 222,
+          "matched_form": "神護寺"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "。弘仁七年（八一六）孟秋（七月）、諸の名僧を率いて、高雄山（神護寺の前身・後の神護国祚真言寺）の金剛道場にて三昧耶戒（さんまや",
+          "context_position": 5129,
+          "matched_form": "神護寺"
+        },
+        {
+          "shoryoshu_idx": 105,
+          "篇名": "泰範叡山の澄和尚に啓を答する為の書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "の咎）を責（せ）めずんば、弟子が望み足んぬ。身は山林（高雄山神護寺）に避（の）がるとも、丹誠（たんせい・赤誠・お師匠への真心）",
+          "context_position": 2825,
+          "matched_form": "神護寺"
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "上都（じょうと・京）神護国祚真言寺（じんごこくそしんごんじ・神護寺・京都高雄）沙門少僧都（しょうそうず・僧綱の高位）遍照金剛。",
+          "context_position": 5579,
+          "matched_form": "神護寺"
+        }
+      ]
+    },
+    {
+      "canonical": "平城",
+      "aliases": [
+        "平城京"
+      ],
+      "subcategory": "capital_japan",
+      "definition": "平城京。奈良。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "平城",
+          "count": 7
+        },
+        {
+          "form": "平城京",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 8,
+      "篇分布": [
+        34,
+        44,
+        48,
+        54,
+        90,
+        103
+      ],
+      "篇分布_count": 6,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 34,
+          "篇名": "酒人の内公主が為の遺言 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "玉の枝、わが愛しき子・朝原内親王〔七七九〜八一七、桓武皇女、平城天皇妃〕を指す）あり、不幸にして露（朝露の如く儚き命）に先だ",
+          "context_position": 773,
+          "matched_form": "平城"
+        },
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "今上（淳和天皇、ただしここでは桓武皇帝〔崩御〕に対する太上＝平城または嵯峨、今上＝当時の天皇の意で、文脈から先後両聖は嵯峨と",
+          "context_position": 836,
+          "matched_form": "平城"
+        },
+        {
+          "shoryoshu_idx": 48,
+          "篇名": "東太上故中務卿親王の為に檀の像を造刻する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "ん、法の苑・浄土）に遊ばん。  （本願文は淳和天皇（東太上＝平城遷宮後の故太上、または「東太上」は本来嵯峨上皇または平城上皇",
+          "context_position": 1538,
+          "matched_form": "平城"
+        },
+        {
+          "shoryoshu_idx": 48,
+          "篇名": "東太上故中務卿親王の為に檀の像を造刻する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "上＝平城遷宮後の故太上、または「東太上」は本来嵯峨上皇または平城上皇を指す尊称か。「東宮の元上皇」の意で平城上皇〔嵯峨の前帝",
+          "context_position": 1566,
+          "matched_form": "平城"
+        },
+        {
+          "shoryoshu_idx": 48,
+          "篇名": "東太上故中務卿親王の為に檀の像を造刻する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "来嵯峨上皇または平城上皇を指す尊称か。「東宮の元上皇」の意で平城上皇〔嵯峨の前帝・在位八〇六〜八〇九〕を指す可能性が高い。但",
+          "context_position": 1588,
+          "matched_form": "平城"
+        },
+        {
+          "shoryoshu_idx": 54,
+          "篇名": "故藤中納言の為に十七尊の像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "き名声）が高かった。  一心の誠忠をもって四帝（光仁・桓武・平城・嵯峨の四代の天皇）にお仕え申し、閨門の孝（家庭での親孝行の",
+          "context_position": 534,
+          "matched_form": "平城"
+        },
+        {
+          "shoryoshu_idx": 90,
+          "篇名": "東寺の塔を造り奉る材木を曳き運ぶ勧進の表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "。  　東寺は先帝（桓武天皇）の御願なり。帝（みかど・桓武・平城・嵯峨・淳和）四朝を経、年三十に逾（こ）えたりといえども（—",
+          "context_position": 372,
+          "matched_form": "平城"
+        },
+        {
+          "shoryoshu_idx": 103,
+          "篇名": "暮秋に元興の僧正大徳の八十を賀する詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "南都七大寺・法相宗の本拠の一つ・もと飛鳥の法興寺〔飛鳥寺〕が平城京遷都に伴って移転したもの）の大徳（だいとく・bhadanta",
+          "context_position": 450,
+          "matched_form": "平城京"
+        }
+      ]
+    },
+    {
+      "canonical": "平安",
+      "aliases": [
+        "平安京"
+      ],
+      "subcategory": "capital_japan",
+      "definition": "平安京。京都。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "平安",
+          "count": 5
+        },
+        {
+          "form": "平安京",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 8,
+      "篇分布": [
+        2,
+        28,
+        78,
+        87,
+        101,
+        102,
+        111
+      ],
+      "篇分布_count": 7,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "【題と作詩の体例】 秋の日神泉苑を観る　七言  （神泉苑は平安京大内裏の南東に位置する天皇直轄の禁苑。延暦十九年〔八〇〇〕桓",
+          "context_position": 29,
+          "matched_form": "平安京"
+        },
+        {
+          "shoryoshu_idx": 28,
+          "篇名": "僧中璟が罪を赦されんことを請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "、四海は康哉（『書経』益稷「股肱喜哉、元首起哉、百工熙哉」、平安泰平の語）にして百穀豊稔である。  そもそも鄧林（とうりん、",
+          "context_position": 488,
+          "matched_form": "平安"
+        },
+        {
+          "shoryoshu_idx": 78,
+          "篇名": "先師の為に梵網経を講釈する表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "、険夷（けんい・険〔けわしい道〕と夷〔平らかな道〕——危険と平安）を導き示し、法はよくわれに甘露を沃（そそ）いで、熱悩（煩悩",
+          "context_position": 952,
+          "matched_form": "平安"
+        },
+        {
+          "shoryoshu_idx": 87,
+          "篇名": "弘仁天皇の御厄を祈誓する表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "もって神護を仏陀（buddha）に仰ぎ、平損（へいそん・平癒平安）を天躬（てんきゅう・玉体）に祈誓（祈誓誓願）したてまつる。",
+          "context_position": 262,
+          "matched_form": "平安"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "は国に盈（み）ちている。しかし今この華城（けじょう・華の都・平安京）には、ただ一つの大学（だいがく・大学寮）のみがあって、閭塾",
+          "context_position": 2790,
+          "matched_form": "平安京"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "く保てようか。 　天長四年（八二七）五月七日をもって、中京（平安京）西寺（さいじ・東寺と対になる京の鎮護）の北院にて、奄然（え",
+          "context_position": 4418,
+          "matched_form": "平安京"
+        },
+        {
+          "shoryoshu_idx": 111,
+          "篇名": "納涼房に雲雷を望む 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "　納涼房（のうりょうぼう・夏の暑気を避くる涼房・平安期には宮中・寺院・私邸に設けられた風通しよき小屋・空海在世時",
+          "context_position": 24,
+          "matched_form": "平安"
+        },
+        {
+          "shoryoshu_idx": 111,
+          "篇名": "納涼房に雲雷を望む 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "『説文』「疾風也」の通常字（䬆＝拂と同じく hū）であるが、平安期写本では「颶」「颷」等と通用する例あり。本訳では原字「䬆」",
+          "context_position": 1060,
+          "matched_form": "平安"
+        }
+      ]
+    },
+    {
+      "canonical": "東寺",
+      "aliases": [
+        "教王護国寺"
+      ],
+      "subcategory": "temple_japan",
+      "definition": "京都。空海に下賜された真言宗根本道場。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "東寺",
+          "count": 7
+        },
+        {
+          "form": "教王護国寺",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 8,
+      "篇分布": [
+        20,
+        90,
+        101,
+        102
+      ],
+      "篇分布_count": 4,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 20,
+          "篇名": "劉希夷が集を書して献納する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "誠に堪えがたく、謹んで弟子の僧実恵（じちえ、空海の高弟・後の東寺二長者）を遣わし、状に随えて奉進せしむ。軽々しく宸厳（皇帝の",
+          "context_position": 1169,
+          "matched_form": "東寺"
+        },
+        {
+          "shoryoshu_idx": 90,
+          "篇名": "東寺の塔を造り奉る材木を曳き運ぶ勧進の表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "　右、東寺の別当・沙門少僧都空海等、奏す。  　空海等、聞く——三宝（",
+          "context_position": 3,
+          "matched_form": "東寺"
+        },
+        {
+          "shoryoshu_idx": 90,
+          "篇名": "東寺の塔を造り奉る材木を曳き運ぶ勧進の表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "の王（轉輪聖王）と作り、遠くは法界の帝（仏陀）と為る。  　東寺は先帝（桓武天皇）の御願なり。帝（みかど・桓武・平城・嵯峨・",
+          "context_position": 346,
+          "matched_form": "東寺"
+        },
+        {
+          "shoryoshu_idx": 90,
+          "篇名": "東寺の塔を造り奉る材木を曳き運ぶ勧進の表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "つく）し、各々曳くこと一味（同心）ならしめん。但し東西二寺（東寺・西寺）の工夫（こうふ・大工人夫）をして、各々木を持ち、材を",
+          "context_position": 926,
+          "matched_form": "東寺"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "の貧病施療所）の慈悲の院に隣り、西は真言の祠院すなわち東寺（教王護国寺）に近接する。生休帰真の原（葬送の地・聖明・京内の墓地）が南",
+          "context_position": 168,
+          "matched_form": "教王護国寺"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "后設置の貧病施療所）の慈悲の院に隣り、西は真言の祠院すなわち東寺（教王護国寺）に近接する。生休帰真の原（葬送の地・聖明・京内",
+          "context_position": 165,
+          "matched_form": "東寺"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "れを歎じて、即ち少僧都（しょうそうず・僧綱の高位）に任じ、造東寺の別当（べっとう・寺院長官）を兼ねしめられた。  　今上（き",
+          "context_position": 2528,
+          "matched_form": "東寺"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "四年（八二七）五月七日をもって、中京（平安京）西寺（さいじ・東寺と対になる京の鎮護）の北院にて、奄然（えんぜん・忽然と）とし",
+          "context_position": 4429,
+          "matched_form": "東寺"
+        }
+      ]
+    },
+    {
+      "canonical": "梁",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "南朝の王朝。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "梁",
+          "count": 8
+        }
+      ],
+      "occurrence_count": 8,
+      "篇分布": [
+        1,
+        2,
+        18,
+        27,
+        65,
+        93
+      ],
+      "篇分布_count": 6,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "殷末の高士。武王の革命を非とし首陽山に隠れて餓死した）は周の梁（きさはし、橋）を絶ち、周の穀物を断った 老聃（老子。『道徳",
+          "context_position": 2171,
+          "matched_form": "梁"
+        },
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "まま禁苑に及ぶ自然の到来として味わう。）  11.　草を銜み梁を啄んで何ぞ在らざらん 鳥は草を銜え梁を啄み、獣もまたその影",
+          "context_position": 1403,
+          "matched_form": "梁"
+        },
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "）  11.　草を銜み梁を啄んで何ぞ在らざらん 鳥は草を銜え梁を啄み、獣もまたその影を顕し、生類はこの苑のどこにも在らぬと",
+          "context_position": 1422,
+          "matched_form": "梁"
+        },
+        {
+          "shoryoshu_idx": 18,
+          "篇名": "勅賜の世説の屏風書き了て献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "た龍が天門に跳り鵲が飛び返るかのような筆勢の妙芸（跳龍返鵲、梁武帝『古今書人優劣評』「龍跳天門、虎臥鳳閣」に通ずる書法批評",
+          "context_position": 393,
+          "matched_form": "梁"
+        },
+        {
+          "shoryoshu_idx": 27,
+          "篇名": "梵字并びに雑文を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "に釈義』一巻 『古今文字讃』三巻 『古今篆隷の文体』一巻 『梁の武帝の草書の評』（梁武帝『古今書人優劣評』）一巻 『王右軍",
+          "context_position": 2650,
+          "matched_form": "梁"
+        },
+        {
+          "shoryoshu_idx": 27,
+          "篇名": "梵字并びに雑文を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "字讃』三巻 『古今篆隷の文体』一巻 『梁の武帝の草書の評』（梁武帝『古今書人優劣評』）一巻 『王右軍が蘭亭の碑』（王羲之蘭",
+          "context_position": 2661,
+          "matched_form": "梁"
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "に這いずり回って母を求める。慈雨を降らす油然たる雲（『孟子』梁恵王上「天油然として雲を作し、沛然として雨を下す」）はたちま",
+          "context_position": 1120,
+          "matched_form": "梁"
+        },
+        {
+          "shoryoshu_idx": 93,
+          "篇名": "紀伊の国伊都の郡高野の峯に於いて入定の処を請け乞わるる表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "定侶（禅定の修行者）袂を連ぬること有り。是れ則ち国の宝、民の梁（はり）なり。  　伏して惟（おもんみ）るに、我が朝（みかど",
+          "context_position": 340,
+          "matched_form": "梁"
+        }
+      ]
+    },
+    {
+      "canonical": "無色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最上。色身のない世界。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "無色界",
+          "count": 8
+        }
+      ],
+      "occurrence_count": 8,
+      "篇分布": [
+        4,
+        6,
+        39,
+        44,
+        46,
+        73,
+        77,
+        106
+      ],
+      "篇分布_count": 8,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 4,
+          "篇名": "雨を喜ぶ歌 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "輝き）の源（根本）を知ることがない。 長く三界（欲界・色界・無色界の生死流転の世界）の夢に眠りこけ、 永く四蛇の原（地・水・火",
+          "context_position": 129,
+          "matched_form": "無色界"
+        },
+        {
+          "shoryoshu_idx": 6,
+          "篇名": "山に入る興 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "名利の毒に慢ること（おごり高ぶること）なかれ 三界（欲・色・無色界）火宅（『法華経』譬喩品）の裏に焼かるることなかれ 斗薮（と",
+          "context_position": 1004,
+          "matched_form": "無色界"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "、亭之毒之」）する用心、大覚大雄（仏陀）が三界（欲界・色界・無色界）を子のように育てたまう行業である。然りといえども、教法は或",
+          "context_position": 641,
+          "matched_form": "無色界"
+        },
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "畝（うね）に盈（み）ち、万民は街に満たん。  三界（欲・色・無色界）を牢籠（ろうろう、抱含包摂）し、四生（胎・卵・湿・化の四生",
+          "context_position": 2896,
+          "matched_form": "無色界"
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "して唱和し、摩尼（如意宝珠）に超えて感応する。三界（欲・色・無色界）はこれゆえに仏を仰ぎ、十方（東西南北および四維上下、全宇宙",
+          "context_position": 462,
+          "matched_form": "無色界"
+        },
+        {
+          "shoryoshu_idx": 73,
+          "篇名": "弟子求寂真際が冥扉に入る為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "　そもそも三界（欲界・色界・無色界）の縁生（因縁によって生ずる存在）は、幻化（まぼろし）のごと",
+          "context_position": 14,
+          "matched_form": "無色界"
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "苦の怨は招き易い。悲しいかな、悲しいかな、三界（欲界・色界・無色界）の子よ。苦しいかな、苦しいかな、六道の旅客よ。善知識（ぜん",
+          "context_position": 1167,
+          "matched_form": "無色界"
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "ḥ・欲界 kāma-dhātu・色界 rūpa-dhātu・無色界 ārūpya-dhātu）の外（そと）に跨（また）がり、多",
+          "context_position": 669,
+          "matched_form": "無色界"
+        }
+      ]
+    },
+    {
+      "canonical": "伊予",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "愛媛県の旧国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "伊予",
+          "count": 7
+        }
+      ],
+      "occurrence_count": 7,
+      "篇分布": [
+        35,
+        45
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 35,
+          "篇名": "藤の真川が浄豊を挙するが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "す。  如今（いま）——故の中務卿（なかつかさきょう）親王（伊予親王〔いよしんのう〕、桓武天皇皇子、母は藤原吉子、大同二年〔",
+          "context_position": 186,
+          "matched_form": "伊予"
+        },
+        {
+          "shoryoshu_idx": 35,
+          "篇名": "藤の真川が浄豊を挙するが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "恩を蒙って駿河国（駿州）の録事（書記官）に沐し、次いで親王（伊予親王）の文学に遷った。  しかるに忽ちにして時の変に羅（か）",
+          "context_position": 817,
+          "matched_form": "伊予"
+        },
+        {
+          "shoryoshu_idx": 35,
+          "篇名": "藤の真川が浄豊を挙するが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "に忽ちにして時の変に羅（か）かるに遇い（大同二年〔八〇七〕の伊予親王事件、皇子と母吉子が讒誣で幽閉自害）、進仕（進んで仕える",
+          "context_position": 865,
+          "matched_form": "伊予"
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "る）。  伏して惟れば、故中務卿（なかつかさきょう）の親王（伊予親王・桓武天皇の皇子、または別の親王。本願文の年代「天長四年",
+          "context_position": 524,
+          "matched_form": "伊予"
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "保親王または良岑安世など要詳細考証――一般には葛井親王または伊予親王を当てる説があるが、伊予親王は大同二年〔八〇七〕の伊予親",
+          "context_position": 607,
+          "matched_form": "伊予"
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "細考証――一般には葛井親王または伊予親王を当てる説があるが、伊予親王は大同二年〔八〇七〕の伊予親王事件で薨去しているので、こ",
+          "context_position": 621,
+          "matched_form": "伊予"
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "は伊予親王を当てる説があるが、伊予親王は大同二年〔八〇七〕の伊予親王事件で薨去しているので、ここでは中務卿に任じた他の親王を",
+          "context_position": 636,
+          "matched_form": "伊予"
+        }
+      ]
+    },
+    {
+      "canonical": "夏",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国伝説的な最古の王朝。禹が建国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "夏",
+          "count": 7
+        }
+      ],
+      "occurrence_count": 7,
+      "篇分布": [
+        28,
+        46,
+        81,
+        109,
+        110,
+        111
+      ],
+      "篇分布_count": 6,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 28,
+          "篇名": "僧中璟が罪を赦されんことを請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "み）れば、皇帝陛下（嵯峨天皇）、慈しみは春の風に過ぎ、恵みは夏の雨に踰（こ）ゆ。至孝（最高の孝徳）の名は潜龍（『易』乾卦「",
+          "context_position": 335,
+          "matched_form": "夏"
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "に擬したる故事・『荀子』『淮南子』）を顧みてもって己を罪し、夏の禹（う、夏の禹王、洪水鎮治の聖王）を想いて人に泣く。けだし",
+          "context_position": 1076,
+          "matched_form": "夏"
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "事・『荀子』『淮南子』）を顧みてもって己を罪し、夏の禹（う、夏の禹王、洪水鎮治の聖王）を想いて人に泣く。けだし苞苴（ほうそ",
+          "context_position": 1082,
+          "matched_form": "夏"
+        },
+        {
+          "shoryoshu_idx": 81,
+          "篇名": "有る人亡親の為に法事を修する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "紛（ひんぷん・乱れ散るさま）として、ついに枝に返る期は無く、夏の蓮華は萎（しお）み落ちて、また台（うてな）に託（よ）る期は",
+          "context_position": 413,
+          "matched_form": "夏"
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "（げんき）せん  【陽焔（ようえん・marīci・かげろう・夏の野の蜃気楼）の喩を詠ず】 　遅々たる春の日（『詩経』豳風七",
+          "context_position": 1172,
+          "matched_form": "夏"
+        },
+        {
+          "shoryoshu_idx": 110,
+          "篇名": "九相の詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "　寒苔（かんたい・冬の苔）壌（つち）を縁（よ）りて緑なり 　夏の草（くさ）墳（はか）を鑽（き）りて生ず 　嚢（ふくろ・霊供",
+          "context_position": 4950,
+          "matched_form": "夏"
+        },
+        {
+          "shoryoshu_idx": 111,
+          "篇名": "納涼房に雲雷を望む 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "　納涼房（のうりょうぼう・夏の暑気を避くる涼房・平安期には宮中・寺院・私邸に設けられた風",
+          "context_position": 13,
+          "matched_form": "夏"
+        }
+      ]
+    },
+    {
+      "canonical": "天竺",
+      "aliases": [
+        "印度",
+        "身毒"
+      ],
+      "subcategory": "country_india",
+      "definition": "インドの古称。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "印度",
+          "count": 5
+        },
+        {
+          "form": "天竺",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 7,
+      "篇分布": [
+        12,
+        27,
+        52,
+        100,
+        102,
+        104
+      ],
+      "篇分布_count": 6,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "とを得た。訶陵（ジャワ島中部の古王国訶陵国）の弁弘は五天（五天竺・インド全土）を経てきて接足し（足を接して礼拝する最高敬礼）",
+          "context_position": 2357,
+          "matched_form": "天竺"
+        },
+        {
+          "shoryoshu_idx": 27,
+          "篇名": "梵字并びに雑文を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "天下を覆う）の下に臥す。  窟観（禅窟の観法）の余暇に、時々印度の文（梵字悉曇）を学び、茶湯坐し来たりて（茶を喫し坐に就けば",
+          "context_position": 1430,
+          "matched_form": "印度"
+        },
+        {
+          "shoryoshu_idx": 52,
+          "篇名": "藤大使亡児の為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "を渇仰）して功（功徳）を推（ゆず）り、西聖（さいせい、西方〔印度〕の聖者）は信じ難きを能く信ぜしむ（『法華経』「難信難解之法",
+          "context_position": 516,
+          "matched_form": "印度"
+        },
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "弟子に非ざるは、所謂、旃陀羅（せんだら・caṇḍāla・古代印度の最下層階級）悪人なり、仏法と国家との大賊なり。大賊は則ち、",
+          "context_position": 1730,
+          "matched_form": "印度"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "部の論を著したと称せられる）の論師がいまだ生まれないときは、印度（インド）は八不（はっぷ・『中論』巻頭の八不中道〔不生不滅・",
+          "context_position": 357,
+          "matched_form": "印度"
+        },
+        {
+          "shoryoshu_idx": 104,
+          "篇名": "秋の日僧正大師を賀し奉る詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "しおん・二八音＝八音・金石土革絲木匏竹、もしくは二十四音律・天竺の楽律）の伎楽（ぎがく・gāndharva・神楽舞踊）を調え",
+          "context_position": 2221,
+          "matched_form": "天竺"
+        },
+        {
+          "shoryoshu_idx": 104,
+          "篇名": "秋の日僧正大師を賀し奉る詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "無畏三蔵 śubhakara-siṃha〔六三七〜七三五・東印度オリッサ国王子、王位を捨て出家、後に唐に来朝し密教を伝える〕",
+          "context_position": 461,
+          "matched_form": "印度"
+        }
+      ]
+    },
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 7
+        }
+      ],
+      "occurrence_count": 7,
+      "篇分布": [
+        8,
+        14,
+        46,
+        78,
+        106,
+        107
+      ],
+      "篇分布_count": 6,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 8,
+          "篇名": "徒に玉を懐く 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "御丈夫、仏陀十号の一）の髻珠（もとどりの中の宝珠、『法華経』安楽行品の譬喩、最上の法を内に秘す）は霊台（心の台座、または仙居",
+          "context_position": 122,
+          "matched_form": "安楽"
+        },
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "真諦・俗諦）の真俗はともにこれ常住、禽獣卉木はみなこれ法音、安楽（極楽世界）・都史（都史多天・兜率天、Tuṣita）はもとよ",
+          "context_position": 776,
+          "matched_form": "安楽"
+        },
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "祖）が林泉に飲むがごとく、その天稟（天賦の性）に任せて昼夜に安楽なる者は、まことに堯日（堯帝の太陽、聖代の喩）の力なり。その",
+          "context_position": 1222,
+          "matched_form": "安楽"
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "・不妄語・不飲酒）を修するときは、五穀豊登（豊作）にして万民安楽である――と（『仁王般若経』『金光明経』等の所説）。  敢え",
+          "context_position": 1566,
+          "matched_form": "安楽"
+        },
+        {
+          "shoryoshu_idx": 78,
+          "篇名": "先師の為に梵網経を講釈する表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "できない。四恩の所在を知り、三宝の帰すべきことを識り、現前の安楽を得、後世の菩提を証することは、皆これ現前師僧の功徳である。",
+          "context_position": 1211,
+          "matched_form": "安楽"
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "（けいちゅう・もとどりのなか）の明珠（みょうじゅ・『法華経』安楽行品・転輪聖王 cakravarti-rāja が髻中に秘蔵",
+          "context_position": 8069,
+          "matched_form": "安楽"
+        },
+        {
+          "shoryoshu_idx": 107,
+          "篇名": "還俗の人を見る作",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": " 　出家二種（しゅっけにしゅ・身の出家と心の出家・『法華経』安楽行品「出家二種」、また『禅源諸詮集都序』に身出家・心出家の別",
+          "context_position": 91,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "楚",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋戦国の南方の大国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "楚",
+          "count": 7
+        }
+      ],
+      "occurrence_count": 7,
+      "篇分布": [
+        1,
+        28,
+        31,
+        42,
+        71,
+        109
+      ],
+      "篇分布_count": 6,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "でか日の当らないことがあろう  【葉公好龍と秦鏡】  葉公（楚の葉公子高。彫り物の龍を愛したが、本物の龍が現れると怖がって",
+          "context_position": 764,
+          "matched_form": "楚"
+        },
+        {
+          "shoryoshu_idx": 28,
+          "篇名": "僧中璟が罪を赦されんことを請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "去其三面」、慈仁の故事）、纓を絶って讎（あだ）に報いたまえ（楚荘王の絶纓の会、宴中ろうそく消えて美姫の袖を引いた者があり、",
+          "context_position": 1754,
+          "matched_form": "楚"
+        },
+        {
+          "shoryoshu_idx": 31,
+          "篇名": "李邕が真跡の屏風の書 一帖",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "犠氏＝伏犠氏、八卦を制した古聖）を待って初めて彰われ、美玉（楚の卞和〔べんか〕の璧〔へき〕、いわゆる和氏の璧、『韓非子』和",
+          "context_position": 251,
+          "matched_form": "楚"
+        },
+        {
+          "shoryoshu_idx": 31,
+          "篇名": "李邕が真跡の屏風の書 一帖",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "〕の璧〔へき〕、いわゆる和氏の璧、『韓非子』和氏篇）は賢王（楚の文王）に由って初めて車を照らす（一車前後を照らす夜光の璧、",
+          "context_position": 289,
+          "matched_form": "楚"
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "海、謹んで啓を奉る。空海、器（うつわ・才能）は楚材（そざい、楚の地から出る良材・俊才・『左伝』襄公二十六年「雖楚有材、晋実",
+          "context_position": 46,
+          "matched_form": "楚"
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "はこれに憑（よ）り頼って受戒した。まこと人中の抜楚（ばつそ・楚〔いばら〕より抜き出でた俊秀）、法城の葛亮（かつりょう・諸葛",
+          "context_position": 1253,
+          "matched_form": "楚"
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "取りの譬・『楞厳経』巻二）か嬰（か）かれる 　楚沢（そたく・楚の沢〔雲夢の沢〕）の行雲（こううん・朝雲行雨・宋玉『高唐賦』",
+          "context_position": 797,
+          "matched_form": "楚"
+        }
+      ]
+    },
+    {
+      "canonical": "西寺",
+      "aliases": [],
+      "subcategory": "temple_japan",
+      "definition": "京都。東寺と並立する官寺。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "西寺",
+          "count": 7
+        }
+      ],
+      "occurrence_count": 7,
+      "篇分布": [
+        44,
+        90,
+        102
+      ],
+      "篇分布_count": 3,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "海岳（広大なる父帝の恩）にお答えされた。天下の宝としてこれを西寺（さいじ、京都西寺・空海所縁の官寺）に蔵（おさ）めた。  し",
+          "context_position": 1384,
+          "matched_form": "西寺"
+        },
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "の恩）にお答えされた。天下の宝としてこれを西寺（さいじ、京都西寺・空海所縁の官寺）に蔵（おさ）めた。  しかるに前年の冬の月",
+          "context_position": 1393,
+          "matched_form": "西寺"
+        },
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "の気持ちが極まりない）。謹んで西の仁祠（にんし、慈悲の祠堂・西寺）に託して、金仙（こんせん、釈尊の異称）の霊を馮（たの）み仰",
+          "context_position": 1838,
+          "matched_form": "西寺"
+        },
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "による金字『法華経』七巻焼失再写の経緯を語り、八日間にわたる西寺の盛大な法華講会を讃する。「太行皇帝」は崩御直後の天皇に対す",
+          "context_position": 3050,
+          "matched_form": "西寺"
+        },
+        {
+          "shoryoshu_idx": 90,
+          "篇名": "東寺の塔を造り奉る材木を曳き運ぶ勧進の表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "し、各々曳くこと一味（同心）ならしめん。但し東西二寺（東寺・西寺）の工夫（こうふ・大工人夫）をして、各々木を持ち、材を引き安",
+          "context_position": 929,
+          "matched_form": "西寺"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "āya・救済の手立て）あるをもって、これを大僧都に擢んでて造西寺の別当に転任させた。 　公は位がいよいよ高くなったが、志はい",
+          "context_position": 2762,
+          "matched_form": "西寺"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "うか。 　天長四年（八二七）五月七日をもって、中京（平安京）西寺（さいじ・東寺と対になる京の鎮護）の北院にて、奄然（えんぜん",
+          "context_position": 4422,
+          "matched_form": "西寺"
+        }
+      ]
+    },
+    {
+      "canonical": "高野山",
+      "aliases": [],
+      "subcategory": "mountain_japan",
+      "definition": "紀伊。空海開創の真言密教の根本道場。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "高野山",
+          "count": 7
+        }
+      ],
+      "occurrence_count": 7,
+      "篇分布": [
+        49,
+        84,
+        93,
+        94,
+        111
+      ],
+      "篇分布_count": 5,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 49,
+          "篇名": "藤大使中納言亡児の為に斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "）不二（ふに、二にあらず・絶対一如）である――［以下、底本〔高野山 Kindle 本〕に欠脱。本願文の後半部は伝写の過程で散逸",
+          "context_position": 198,
+          "matched_form": "高野山"
+        },
+        {
+          "shoryoshu_idx": 49,
+          "篇名": "藤大使中納言亡児の為に斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "の亡くなった児のための斎会〔さいえ、追善法要〕の願文。底本〔高野山 Kindle 本『遍照発揮性霊集』〕に冒頭わずか四十五字の",
+          "context_position": 336,
+          "matched_form": "高野山"
+        },
+        {
+          "shoryoshu_idx": 84,
+          "篇名": "高野山万灯会の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "こんごうし・密教の弟子）等とともに、金剛峯寺（こんごうぶじ・高野山金剛峯寺）において、聊か万灯万花の会を設けて、両部（金剛界・",
+          "context_position": 288,
+          "matched_form": "高野山"
+        },
+        {
+          "shoryoshu_idx": 84,
+          "篇名": "高野山万灯会の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "」——空海の生涯願文を象徴する語）。されば、金峯（こんぽう・高野山——金剛峯）は高く聳えて安明（あんみょう・sumeru・須弥",
+          "context_position": 563,
+          "matched_form": "高野山"
+        },
+        {
+          "shoryoshu_idx": 93,
+          "篇名": "紀伊の国伊都の郡高野の峯に於いて入定の処を請け乞わるる表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "海、表をたてまつる（——この上奏により、同年七月八日付勅許で高野山下賜決定。金剛峯寺開創の起点となる文書）。",
+          "context_position": 1291,
+          "matched_form": "高野山"
+        },
+        {
+          "shoryoshu_idx": 94,
+          "篇名": "高野の四至の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "僧都空海書す（——空海入定〔承和二年三月二十一日〕の半年前。高野山確定の啓白文）。",
+          "context_position": 1225,
+          "matched_form": "高野山"
+        },
+        {
+          "shoryoshu_idx": 111,
+          "篇名": "納涼房に雲雷を望む 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "て心胆を寒からしむる戦慄の境となる構造を採る。空海の山中坊（高野山開創以前の入唐前山林修行期、もしくは大同年間の和泉・讃岐の修",
+          "context_position": 895,
+          "matched_form": "高野山"
+        }
+      ]
+    },
+    {
+      "canonical": "兜率",
+      "aliases": [
+        "兜率天",
+        "tuṣita"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "欲界第四天。弥勒菩薩の住所。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "兜率天",
+          "count": 3
+        },
+        {
+          "form": "兜率",
+          "count": 2
+        },
+        {
+          "form": "tuṣita",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 6,
+      "篇分布": [
+        14,
+        66,
+        81,
+        102
+      ],
+      "篇分布_count": 4,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "、禽獣卉木はみなこれ法音、安楽（極楽世界）・都史（都史多天・兜率天、Tuṣita）はもとより我が胸中にありということを。  と",
+          "context_position": 793,
+          "matched_form": "兜率天"
+        },
+        {
+          "shoryoshu_idx": 66,
+          "篇名": "藤左近の将監先妣の為に三七の斎を設くる願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "来の根本住処）に住んで大日如来の徳化を輔（たす）け、都史殿（兜率天・とそつてん・弥勒菩薩の常住浄土）に居して能寂（のうじゃく・",
+          "context_position": 328,
+          "matched_form": "兜率天"
+        },
+        {
+          "shoryoshu_idx": 66,
+          "篇名": "藤左近の将監先妣の為に三七の斎を設くる願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "u-dvīpa・南閻浮提・この穢土）を厭い離れ、夕には都率（兜率天）の浄土を欣求（ごんぐ）して、その身は花と共にやがて散り落ち",
+          "context_position": 718,
+          "matched_form": "兜率天"
+        },
+        {
+          "shoryoshu_idx": 81,
+          "篇名": "有る人亡親の為に法事を修する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "直ちに安養（あんにょう・極楽浄土の異名）の宝刹に向かい、必ず兜率（とそつ・弥勒菩薩の浄土）の天宮に昇らしめたまえ云云。",
+          "context_position": 1169,
+          "matched_form": "兜率"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "には憂苦するけれども、他境（極楽もしくは弥勒の兜率〔とそつ・tuṣita〕）にては歓喜していよう。電影（でんよう・電光）は駐（とど）",
+          "context_position": 4321,
+          "matched_form": "tuṣita"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "界 sahā）には憂苦するけれども、他境（極楽もしくは弥勒の兜率〔とそつ・tuṣita〕）にては歓喜していよう。電影（でんよ",
+          "context_position": 4314,
+          "matched_form": "兜率"
+        }
+      ]
+    },
+    {
+      "canonical": "奈良",
+      "aliases": [],
+      "subcategory": "capital_japan",
+      "definition": "奈良の都。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "奈良",
+          "count": 6
+        }
+      ],
+      "occurrence_count": 6,
+      "篇分布": [
+        11,
+        28,
+        32,
+        45,
+        57
+      ],
+      "篇分布_count": 5,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "○大和国（現・奈良県）益田の池の碑の銘文（序を併記）  東大寺の沙門・大僧都・",
+          "context_position": 7,
+          "matched_form": "奈良"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "地、『古事記』神武）が北に峙（そばだ）つ。  米眼（米眼寺、奈良の古寺）の精舎が其の艮（うしとら・東北、『易』艮卦）を鎮め、",
+          "context_position": 1811,
+          "matched_form": "奈良"
+        },
+        {
+          "shoryoshu_idx": 28,
+          "篇名": "僧中璟が罪を赦されんことを請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "ることができようか。  伏して見るに——元興寺（がんごうじ、奈良の名刹）の僧、伝灯法師位の中璟（なかあきら）は、戒行（戒律と",
+          "context_position": 849,
+          "matched_form": "奈良"
+        },
+        {
+          "shoryoshu_idx": 32,
+          "篇名": "大徳如宝が為に招提の封戸を恩賜するを奉謝する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "寺〕第二代別当）言上したてまつる。伏して、招提寺（唐招提寺、奈良の律宗総本山、鑑真開基〔天平宝字三年・七五九〕）に封戸（ふこ",
+          "context_position": 61,
+          "matched_form": "奈良"
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "き中務卿親王の追善のため、淳和天皇〔または嵯峨上皇〕が橘寺〔奈良県明日香村、聖徳太子建立の古寺〕に水田十余町と道場の什器を施",
+          "context_position": 2508,
+          "matched_form": "奈良"
+        },
+        {
+          "shoryoshu_idx": 57,
+          "篇名": "和気の夫人法華寺に於いて千灯料を入れ奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "亡き姉、法諱（ほうき。出家戒名）某は、昔、法華寺（ほっけじ。奈良の総国分尼寺、光明皇后建立）に詣でた折、たまたま千灯会（千灯",
+          "context_position": 330,
+          "matched_form": "奈良"
+        }
+      ]
+    },
+    {
+      "canonical": "崑崙",
+      "aliases": [
+        "崑崙山"
+      ],
+      "subcategory": "mountain_china",
+      "definition": "中国西方の霊山。神仙の住所。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "崑崙山",
+          "count": 5
+        },
+        {
+          "form": "崑崙",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 6,
+      "篇分布": [
+        1,
+        10,
+        11,
+        26,
+        37,
+        39
+      ],
+      "篇分布_count": 6,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "子』逍遙遊篇の北溟の魚が化した大鳥）は風吹く床に臥す 崑獄（崑崙山、西方の仙界）は西方の家 蓬莱（東海の三神山の一、東方の仙界",
+          "context_position": 2345,
+          "matched_form": "崑崙山"
+        },
+        {
+          "shoryoshu_idx": 10,
+          "篇名": "沙門勝道山水を歴て玄珠を瑩く碑 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "岱（衡山と泰山、中国五岳のうち）の卑（ひく）きを笑い、崐香（崑崙山と香酔山、仏教神話の四宝山のうち）の劣（つたな）きを哂（あざ",
+          "context_position": 1750,
+          "matched_form": "崑崙山"
+        },
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "（のぼ）る罔象（水の精、『荘子』天地「黄帝遊乎赤水之北、登乎崑崙之丘、遺其玄珠、使罔象求之而得之」）でさえ其の塘（堤）を溢れ",
+          "context_position": 2664,
+          "matched_form": "崑崙"
+        },
+        {
+          "shoryoshu_idx": 26,
+          "篇名": "柑子を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "れはどこより来たれる賜物か） 定めてこれ天上の王母（西王母、崑崙山に棲む女仙、不老不死の桃を司る、『穆天子伝』『山海経』西山経",
+          "context_position": 634,
+          "matched_form": "崑崙山"
+        },
+        {
+          "shoryoshu_idx": 37,
+          "篇名": "大使福州の観察使に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "来たのである。蓬莱国といわれるわが日本からの宝をもち来たり、崑崙山から産する美玉にもたとうべき貢物を献上する。このことは昔より",
+          "context_position": 648,
+          "matched_form": "崑崙山"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "、もつれた糸）を解こうか。  空海、たまたま崑嶽（こんがく、崑崙山。ここでは仏法の高峰の比喩）に登りながらも、未だ懐（こころ）",
+          "context_position": 2658,
+          "matched_form": "崑崙山"
+        }
+      ]
+    },
+    {
+      "canonical": "洛陽",
+      "aliases": [],
+      "subcategory": "capital_china",
+      "definition": "中国古都。漢魏隋唐の副都。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "洛陽",
+          "count": 6
+        }
+      ],
+      "occurrence_count": 6,
+      "篇分布": [
+        1,
+        12,
+        35,
+        54,
+        101
+      ],
+      "篇分布_count": 5,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "帳の中で哀しみの声をたてる 松柏は南嶺で摧（くだ）け 北邙（洛陽の北の邙山、墓地として有名）の墓地に白楊（はくよう、墓地の木",
+          "context_position": 1619,
+          "matched_form": "洛陽"
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "日を建寅（陰暦正月）の十七に簡（えら）んで、塋（墓）を城邙（洛陽北邙山、墓地の代名詞、『古詩十九首』「驅車上東門、遙望郭北墓",
+          "context_position": 4871,
+          "matched_form": "洛陽"
+        },
+        {
+          "shoryoshu_idx": 35,
+          "篇名": "藤の真川が浄豊を挙するが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "を慕って、遠く本族（唐の本族）を辞して来朝した。両京（長安・洛陽の二都）の音韻を誦じて、三呉（呉郡・呉興・会稽の三呉、江南の",
+          "context_position": 405,
+          "matched_form": "洛陽"
+        },
+        {
+          "shoryoshu_idx": 35,
+          "篇名": "藤の真川が浄豊を挙するが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "窮地の鳥の翼）に賜わん事を。然らば則ち、漢語（北方音、長安・洛陽の正音）も詠じ易く、呉音（南方音、呉地方の発音、当時の日本の",
+          "context_position": 2023,
+          "matched_form": "洛陽"
+        },
+        {
+          "shoryoshu_idx": 54,
+          "篇名": "故藤中納言の為に十七尊の像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "。『楚辞』離騒・『荘子』達生に見える名馬）を馳せた。  東は洛陽、西は長安（西秦は秦の故地・関中、漢以来の都）、その間の関輔",
+          "context_position": 994,
+          "matched_form": "洛陽"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "など何の益があろうか」と。 　答えて曰う、「大唐の城（長安・洛陽）には、坊（区画）ごとに閭塾（ろじゅく・里の私塾。閭は二十五",
+          "context_position": 2628,
+          "matched_form": "洛陽"
+        }
+      ]
+    },
+    {
+      "canonical": "神泉苑",
+      "aliases": [],
+      "subcategory": "sacred_site_japan",
+      "definition": "平安京の禁苑。空海の祈雨儀礼の地。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "神泉苑",
+          "count": 6
+        }
+      ],
+      "occurrence_count": 6,
+      "篇分布": [
+        0,
+        2,
+        6
+      ],
+      "篇分布_count": 3,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 0,
+          "篇名": "真済序",
+          "巻": "巻第一",
+          "page_idx": 0,
+          "context": "「高山には風が起こりやすく、深海は水を量り難い」と仰り、また神泉苑に遊ばれた折の詩には「高台は神のお造りであって人力では及ばな",
+          "context_position": 2324,
+          "matched_form": "神泉苑"
+        },
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "【題と作詩の体例】 秋の日神泉苑を観る　七言  （神泉苑は平安京大内裏の南東に位置する天皇直",
+          "context_position": 13,
+          "matched_form": "神泉苑"
+        },
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "【題と作詩の体例】 秋の日神泉苑を観る　七言  （神泉苑は平安京大内裏の南東に位置する天皇直轄の禁苑。延暦十九年〔八",
+          "context_position": 25,
+          "matched_form": "神泉苑"
+        },
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "二句の短編。）  ---  1.　神泉に彳亍して物候を観る 神泉苑をゆるゆると佇み歩み、季節の景物を心ゆくまで観じる。 （「彳",
+          "context_position": 175,
+          "matched_form": "神泉苑"
+        },
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "たかのようで、人の力の及ぶところではない。 （神工鬼斧の意。神泉苑の乾臨閣などの壮麗を讃え、嵯峨朝の造営の妙を天工になぞらえる",
+          "context_position": 426,
+          "matched_form": "神泉苑"
+        },
+        {
+          "shoryoshu_idx": 6,
+          "篇名": "山に入る興 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "飛ぶ あなたはご覧にならぬか、ご覧にならぬか。王城の城裏なる神泉苑の水を。 あるは沸き、あるは流れて、その速さはたがいに似たり",
+          "context_position": 283,
+          "matched_form": "神泉苑"
+        }
+      ]
+    },
+    {
+      "canonical": "越",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋の国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "越",
+          "count": 6
+        }
+      ],
+      "occurrence_count": 6,
+      "篇分布": [
+        13,
+        16,
+        36,
+        38,
+        60,
+        61
+      ],
+      "篇分布_count": 6,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 13,
+          "篇名": "勅賜の屏風を書き了て即ち献ずる表并びに詩",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "汚す。一たびは悚（おそ）れ、一たびは懼（おそ）れて、心魂飛び越（と）ぶ。  ときに堯曦（堯帝の太陽、天皇の徳光）が光を流し",
+          "context_position": 2060,
+          "matched_form": "越"
+        },
+        {
+          "shoryoshu_idx": 16,
+          "篇名": "伴按察平章事の陸府に赴くに贈る詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "き末世）にして、仁義の郷もかえって胡越（『荘子』徳充符、胡と越ほどに遠く離れる）と化した。  このごろ神光・恠気（怪気）が",
+          "context_position": 815,
+          "matched_form": "越"
+        },
+        {
+          "shoryoshu_idx": 36,
+          "篇名": "人の官を求むるが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "陶（いとう、倚頓〔魯の大富、塩商で財を成した〕と陶朱〔范蠡、越王勾践の宰相、引退して陶〔斉国の地〕で巨富を得て陶朱公と号し",
+          "context_position": 1780,
+          "matched_form": "越"
+        },
+        {
+          "shoryoshu_idx": 38,
+          "篇名": "福州の観察使に与える入京の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "れず、敢えて閣下の視聴を塵（けが）し、伏して戦慄（おのの）き越（とびの）くこと深い。謹んで啓を奉り、もって聞達する。謹んで",
+          "context_position": 1084,
+          "matched_form": "越"
+        },
+        {
+          "shoryoshu_idx": 60,
+          "篇名": "荒城の大夫幡の上の仏像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "うてん。広大なる蒼天）が爰（ここ）に極まり無きを歎き、苦海が越（ここ）に無辺なるを悲しむ。  ましてや、春の花蘂（はなしべ",
+          "context_position": 817,
+          "matched_form": "越"
+        },
+        {
+          "shoryoshu_idx": 61,
+          "篇名": "知識の華厳会の為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "七十而従心所欲、不踰矩」を踏まえる）を越えることがない。  越（こ）えること無き規範を、その極まで体現されたのは誰か。いわ",
+          "context_position": 172,
+          "matched_form": "越"
+        }
+      ]
+    },
+    {
+      "canonical": "長江",
+      "aliases": [
+        "揚子江"
+      ],
+      "subcategory": "river_china",
+      "definition": "中国南部の大河。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "長江",
+          "count": 4
+        },
+        {
+          "form": "揚子江",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 6,
+      "篇分布": [
+        39,
+        54,
+        107
+      ],
+      "篇分布_count": 3,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "れる伝説あり）は後身（来世）にしてようやく到り、揚江の応真（揚子江を渡る応真＝阿羅漢、ここでは六度渡海を試みた鑑真和尚を指す）",
+          "context_position": 1276,
+          "matched_form": "揚子江"
+        },
+        {
+          "shoryoshu_idx": 54,
+          "篇名": "故藤中納言の為に十七尊の像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "（きょうとう。荒波）が船を毀つ危険を共にし、三江（さんこう。長江下流の松江・婁江・東江、もしくは呉淞江・婁江・銭塘江）に鷁首",
+          "context_position": 820,
+          "matched_form": "長江"
+        },
+        {
+          "shoryoshu_idx": 54,
+          "篇名": "故藤中納言の為に十七尊の像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "（ごれい。中国南部の越城嶺・都龐嶺・萌渚嶺・騎田嶺・大庾嶺。長江流域から嶺南への陸路）に騏騮（きりゅう。駿馬。『楚辞』離騒・",
+          "context_position": 940,
+          "matched_form": "長江"
+        },
+        {
+          "shoryoshu_idx": 107,
+          "篇名": "還俗の人を見る作",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "a・無上正等覚への大道）に通（つう）ず 　長江（ちょうこう・揚子江）万里（ばんり）以（もっ）て相（あ）い答（こた）う（万里の長",
+          "context_position": 461,
+          "matched_form": "揚子江"
+        },
+        {
+          "shoryoshu_idx": 107,
+          "篇名": "還俗の人を見る作",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "mahā-mārga・無上正等覚への大道）に通（つう）ず 　長江（ちょうこう・揚子江）万里（ばんり）以（もっ）て相（あ）い答",
+          "context_position": 452,
+          "matched_form": "長江"
+        },
+        {
+          "shoryoshu_idx": 107,
+          "篇名": "還俗の人を見る作",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "江）万里（ばんり）以（もっ）て相（あ）い答（こた）う（万里の長江はその水脈で互いに通じ合う・万里離れていても本性は同じ） 　",
+          "context_position": 493,
+          "matched_form": "長江"
+        }
+      ]
+    },
+    {
+      "canonical": "欲界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最下。欲望が支配する世界。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "欲界",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "篇分布": [
+        4,
+        39,
+        73,
+        77,
+        106
+      ],
+      "篇分布_count": 5,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 4,
+          "篇名": "雨を喜ぶ歌 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "なわる仏性の輝き）の源（根本）を知ることがない。 長く三界（欲界・色界・無色界の生死流転の世界）の夢に眠りこけ、 永く四蛇の",
+          "context_position": 123,
+          "matched_form": "欲界"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "』「長之育之、亭之毒之」）する用心、大覚大雄（仏陀）が三界（欲界・色界・無色界）を子のように育てたまう行業である。然りといえ",
+          "context_position": 635,
+          "matched_form": "欲界"
+        },
+        {
+          "shoryoshu_idx": 73,
+          "篇名": "弟子求寂真際が冥扉に入る為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "　そもそも三界（欲界・色界・無色界）の縁生（因縁によって生ずる存在）は、幻化（ま",
+          "context_position": 8,
+          "matched_form": "欲界"
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "鬼と作り、病苦の怨は招き易い。悲しいかな、悲しいかな、三界（欲界・色界・無色界）の子よ。苦しいかな、苦しいかな、六道の旅客よ",
+          "context_position": 1161,
+          "matched_form": "欲界"
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "を騁（は）せて、遠く三有（さんう・trayo bhavāḥ・欲界 kāma-dhātu・色界 rūpa-dhātu・無色界 ",
+          "context_position": 641,
+          "matched_form": "欲界"
+        }
+      ]
+    },
+    {
+      "canonical": "色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の中。色身があるが欲望のない世界。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "色界",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "篇分布": [
+        4,
+        39,
+        73,
+        77,
+        106
+      ],
+      "篇分布_count": 5,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 4,
+          "篇名": "雨を喜ぶ歌 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "仏性の輝き）の源（根本）を知ることがない。 長く三界（欲界・色界・無色界の生死流転の世界）の夢に眠りこけ、 永く四蛇の原（地",
+          "context_position": 126,
+          "matched_form": "色界"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "之育之、亭之毒之」）する用心、大覚大雄（仏陀）が三界（欲界・色界・無色界）を子のように育てたまう行業である。然りといえども、",
+          "context_position": 638,
+          "matched_form": "色界"
+        },
+        {
+          "shoryoshu_idx": 73,
+          "篇名": "弟子求寂真際が冥扉に入る為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "　そもそも三界（欲界・色界・無色界）の縁生（因縁によって生ずる存在）は、幻化（まぼろし",
+          "context_position": 11,
+          "matched_form": "色界"
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "り、病苦の怨は招き易い。悲しいかな、悲しいかな、三界（欲界・色界・無色界）の子よ。苦しいかな、苦しいかな、六道の旅客よ。善知",
+          "context_position": 1164,
+          "matched_form": "色界"
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "んう・trayo bhavāḥ・欲界 kāma-dhātu・色界 rūpa-dhātu・無色界 ārūpya-dhātu）の",
+          "context_position": 655,
+          "matched_form": "色界"
+        }
+      ]
+    },
+    {
+      "canonical": "蓬莱",
+      "aliases": [
+        "蓬萊"
+      ],
+      "subcategory": "mythological",
+      "definition": "東海の仙島。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "蓬莱",
+          "count": 3
+        },
+        {
+          "form": "蓬萊",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 5,
+      "篇分布": [
+        1,
+        37,
+        39,
+        46,
+        83
+      ],
+      "篇分布_count": 5,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "鳥）は風吹く床に臥す 崑獄（崑崙山、西方の仙界）は西方の家 蓬莱（東海の三神山の一、東方の仙界）は東方の家  【名利の害から",
+          "context_position": 2361,
+          "matched_form": "蓬莱"
+        },
+        {
+          "shoryoshu_idx": 37,
+          "篇名": "大使福州の観察使に与えるが為の書",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "に坐して大使となり、唐の宮殿にその使命を遂げに来たのである。蓬莱国といわれるわが日本からの宝をもち来たり、崑崙山から産する美",
+          "context_position": 625,
+          "matched_form": "蓬莱"
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "と欲して能わざるところの海であり、山谷は秦王（秦始皇）が東方蓬萊に往こうとして至らざる嶽である。  南嶽大士（南嶽慧思、天台",
+          "context_position": 1198,
+          "matched_form": "蓬萊"
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "」を踏まえ、ここでは淳和天皇）、祖州（そしゅう、東方の聖地・蓬萊三神山の一）の林（きみ、君主）が、甲膚（こうふ、よろい肌）を",
+          "context_position": 152,
+          "matched_form": "蓬萊"
+        },
+        {
+          "shoryoshu_idx": 83,
+          "篇名": "公家の仁王講を修せらるる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "遥遊「藐姑射の山に神人有り」）の遊びに、八仙（八仙人・道教の蓬莱八仙——李鉄拐・鐘離権・呂洞賓ほか）とともに極まりなく遊び、",
+          "context_position": 1532,
+          "matched_form": "蓬莱"
+        }
+      ]
+    },
+    {
+      "canonical": "西域",
+      "aliases": [],
+      "subcategory": "country_western_region",
+      "definition": "中国西方諸国の総称。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "西域",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "篇分布": [
+        26,
+        77,
+        102
+      ],
+      "篇分布_count": 3,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 26,
+          "篇名": "柑子を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "世、去而上仙」の類、天瑞の数）。またこの菓（くだもの）はもと西域より伝来したものである（柑橘は西域・イラン高原原産との伝承、",
+          "context_position": 182,
+          "matched_form": "西域"
+        },
+        {
+          "shoryoshu_idx": 26,
+          "篇名": "柑子を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "たこの菓（くだもの）はもと西域より伝来したものである（柑橘は西域・イラン高原原産との伝承、漢の張騫が西域より帰朝の際に齎した",
+          "context_position": 199,
+          "matched_form": "西域"
+        },
+        {
+          "shoryoshu_idx": 26,
+          "篇名": "柑子を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "たものである（柑橘は西域・イラン高原原産との伝承、漢の張騫が西域より帰朝の際に齎したと伝わる）。  ふと見るに興あり、すなわ",
+          "context_position": 219,
+          "matched_form": "西域"
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "て檀香木で刻んだ釈迦像の故事——『増一阿含経』巻二八・『大唐西域記』）の刻檀の誠を仰ぎ、精進剥皮（『摩訶般若波羅蜜経』常啼菩",
+          "context_position": 173,
+          "matched_form": "西域"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "尊を慕って檀木〔旃檀〕を刻んで最初の仏像を作ったという『大唐西域記』巻五の故事）の檀木（だんぼく・旃檀木）を刻んだ（勤操の像",
+          "context_position": 4921,
+          "matched_form": "西域"
+        }
+      ]
+    },
+    {
+      "canonical": "高雄山寺",
+      "aliases": [],
+      "subcategory": "temple_japan",
+      "definition": "神護寺の旧称。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "高雄山寺",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "篇分布": [
+        13,
+        17,
+        19,
+        24,
+        100
+      ],
+      "篇分布_count": 5,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 13,
+          "篇名": "勅賜の屏風を書き了て即ち献ずる表并びに詩",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "人名）が、五彩の呉の綾の錦の縁取りある五尺の屏風四帖を山房（高雄山寺ほか空海の住房）に持参し、聖旨（天皇の詔）を奉じて宣べ、空海",
+          "context_position": 100,
+          "matched_form": "高雄山寺"
+        },
+        {
+          "shoryoshu_idx": 17,
+          "篇名": "新羅の道者に与える詩 并に状",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "未聞（まだ聞かぬ事）を披（ひら）かん。珍重珍重。  高雄寺（高雄山寺、神護寺の前身）の金剛道場、持念（陀羅尼念誦）の沙門・遍照金",
+          "context_position": 429,
+          "matched_form": "高雄山寺"
+        },
+        {
+          "shoryoshu_idx": 19,
+          "篇名": "国家の奉為に修法せんと請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "ていない。伏して望むらくは、国家のおん為に、諸弟子等を率いて高雄山寺（神護寺の前身）の三門（山門・寺門の意）に於いて、来月一日（",
+          "context_position": 676,
+          "matched_form": "高雄山寺"
+        },
+        {
+          "shoryoshu_idx": 24,
+          "篇名": "劉廷芝が集を書して奉献する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "詩人）  右、先日の御命令に随って書き上げ、奉進する。山窟（高雄山寺）には良筆なく、再三人を遣わして問い索（もと）めても、闃然（",
+          "context_position": 84,
+          "matched_form": "高雄山寺"
+        },
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "を利するの雅致（がち・雅やかな趣）なり。  　今、此の高雄（高雄山寺・神護寺の前身・空海の最初期の根本道場）の伽藍に未だ三綱（さ",
+          "context_position": 217,
+          "matched_form": "高雄山寺"
+        }
+      ]
+    },
+    {
+      "canonical": "元興寺",
+      "aliases": [],
+      "subcategory": "temple_japan",
+      "definition": "奈良の南都七大寺の一。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "元興寺",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "篇分布": [
+        28,
+        103,
+        104
+      ],
+      "篇分布_count": 3,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 28,
+          "篇名": "僧中璟が罪を赦されんことを請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "は、どうして相い離れることができようか。  伏して見るに——元興寺（がんごうじ、奈良の名刹）の僧、伝灯法師位の中璟（なかあきら",
+          "context_position": 839,
+          "matched_form": "元興寺"
+        },
+        {
+          "shoryoshu_idx": 103,
+          "篇名": "暮秋に元興の僧正大徳の八十を賀する詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "こと）と称（しょう）す。良（まこと）に以（ゆえ）有らん。 　元興寺（がんごうじ・南都七大寺・法相宗の本拠の一つ・もと飛鳥の法興",
+          "context_position": 410,
+          "matched_form": "元興寺"
+        },
+        {
+          "shoryoshu_idx": 103,
+          "篇名": "暮秋に元興の僧正大徳の八十を賀する詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "（＝護命〔ごみょう・七五〇〜八三四・法相宗・薬師寺出身、後に元興寺〕）は、年（齢）八十に登（いた）って、智は十二（じゅうに・十",
+          "context_position": 539,
+          "matched_form": "元興寺"
+        },
+        {
+          "shoryoshu_idx": 104,
+          "篇名": "秋の日僧正大師を賀し奉る詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "の師＝阿闍梨 ācārya・護命〔ごみょう・七五〇〜八三四・元興寺・法相宗〕を指す）は、気を禀（う）けたること清了（しょうりょ",
+          "context_position": 990,
+          "matched_form": "元興寺"
+        }
+      ]
+    },
+    {
+      "canonical": "天台山",
+      "aliases": [],
+      "subcategory": "mountain_china",
+      "definition": "浙江省。天台宗の発祥地。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "天台山",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "篇分布": [
+        10,
+        93,
+        105
+      ],
+      "篇分布_count": 3,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 10,
+          "篇名": "沙門勝道山水を歴て玄珠を瑩く碑 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "に寧（むし）ろ儔（ともがら）あらんや 孫興（東晋の孫綽、『遊天台山賦』の作者）も筆を擲（なげう）ち 郭詞（東晋の郭璞、『遊仙詩",
+          "context_position": 4551,
+          "matched_form": "天台山"
+        },
+        {
+          "shoryoshu_idx": 93,
+          "篇名": "紀伊の国伊都の郡高野の峯に於いて入定の処を請け乞わるる表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "るに、地勢おのずから爾（しか）り。  　また台嶺（たいれい・天台山）の五寺（——天台山・国清・修禅・真覚・玉泉等の五大寺）には",
+          "context_position": 234,
+          "matched_form": "天台山"
+        },
+        {
+          "shoryoshu_idx": 93,
+          "篇名": "紀伊の国伊都の郡高野の峯に於いて入定の処を請け乞わるる表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "爾（しか）り。  　また台嶺（たいれい・天台山）の五寺（——天台山・国清・修禅・真覚・玉泉等の五大寺）には禅客肩を比べ、天山（",
+          "context_position": 244,
+          "matched_form": "天台山"
+        },
+        {
+          "shoryoshu_idx": 105,
+          "篇名": "泰範叡山の澄和尚に啓を答する為の書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "る）し、同じく四方に遊んで天台宗（てんだいしゅう・最澄が中国天台山〔智顗〕より将来した教学）を宣揚（せんよう・広め顕わす）せん",
+          "context_position": 766,
+          "matched_form": "天台山"
+        }
+      ]
+    },
+    {
+      "canonical": "五台山",
+      "aliases": [
+        "清涼山"
+      ],
+      "subcategory": "mountain_china",
+      "definition": "山西省。文殊菩薩の聖地。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "五台山",
+          "count": 2
+        },
+        {
+          "form": "清涼山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 3,
+      "篇分布": [
+        7,
+        93
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 7,
+          "篇名": "山中に何の楽しみが有る 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "の鷲峯（霊鷲山）は釈迦の住みたまえる地 支那（中国）の台嶽（五台山）は曼殊（文殊菩薩）の盧（庵）のあった所 私は息悪修善（悪を",
+          "context_position": 186,
+          "matched_form": "五台山"
+        },
+        {
+          "shoryoshu_idx": 93,
+          "篇名": "紀伊の国伊都の郡高野の峯に於いて入定の処を請け乞わるる表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "禅・真覚・玉泉等の五大寺）には禅客肩を比べ、天山（てんざん・五台山〔清涼山〕・mañjuśrī＝文殊聖地）の一院には定侶（禅定",
+          "context_position": 282,
+          "matched_form": "五台山"
+        },
+        {
+          "shoryoshu_idx": 93,
+          "篇名": "紀伊の国伊都の郡高野の峯に於いて入定の処を請け乞わるる表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "・玉泉等の五大寺）には禅客肩を比べ、天山（てんざん・五台山〔清涼山〕・mañjuśrī＝文殊聖地）の一院には定侶（禅定の修行者",
+          "context_position": 286,
+          "matched_form": "清涼山"
+        }
+      ]
+    },
+    {
+      "canonical": "南都",
+      "aliases": [],
+      "subcategory": "capital_japan",
+      "definition": "奈良。北嶺（比叡山）に対する呼称。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "南都",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "篇分布": [
+        102,
+        103
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "え、出家して俗世に帰らぬ意）の思いを懐いて、南嶽（なんがく・南都の南方山・槙尾山〔まきおさん〕）の窟に躋（のぼ）った。弱冠（",
+          "context_position": 1447,
+          "matched_form": "南都"
+        },
+        {
+          "shoryoshu_idx": 103,
+          "篇名": "暮秋に元興の僧正大徳の八十を賀する詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "す。良（まこと）に以（ゆえ）有らん。 　元興寺（がんごうじ・南都七大寺・法相宗の本拠の一つ・もと飛鳥の法興寺〔飛鳥寺〕が平城",
+          "context_position": 420,
+          "matched_form": "南都"
+        },
+        {
+          "shoryoshu_idx": 103,
+          "篇名": "暮秋に元興の僧正大徳の八十を賀する詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "ma）は古（いにしえ）を稽（かんが）え 　六宗（ろくしゅう・南都六宗・三論・成実・法相・倶舎・華厳・律）は惟（こ）れ新たなり",
+          "context_position": 2657,
+          "matched_form": "南都"
+        }
+      ]
+    },
+    {
+      "canonical": "大慈恩寺",
+      "aliases": [
+        "慈恩寺"
+      ],
+      "subcategory": "temple_china",
+      "definition": "長安。玄奘の住所。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "大慈恩寺",
+          "count": 2
+        },
+        {
+          "form": "慈恩寺",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 3,
+      "篇分布": [
+        100,
+        103
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "きき・六三二〜六八二〕慈恩大師）は則ち慈恩寺（じおんじ・長安大慈恩寺）の上綱なり。是れ則ち法を護り人を利するの雅致（がち・雅やか",
+          "context_position": 167,
+          "matched_form": "大慈恩寺"
+        },
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "あるいはその弟子窺基〔きき・六三二〜六八二〕慈恩大師）は則ち慈恩寺（じおんじ・長安大慈恩寺）の上綱なり。是れ則ち法を護り人を利",
+          "context_position": 156,
+          "matched_form": "慈恩寺"
+        },
+        {
+          "shoryoshu_idx": 103,
+          "篇名": "暮秋に元興の僧正大徳の八十を賀する詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "きき・六三二〜六八二〕・玄奘の高弟・法相宗の中国における祖・大慈恩寺）・慧沼（えしょう・六五〇〜七一四・窺基の高弟・法相宗第二祖",
+          "context_position": 930,
+          "matched_form": "大慈恩寺"
+        }
+      ]
+    },
+    {
+      "canonical": "斉",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋戦国の東方の大国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "斉",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "篇分布": [
+        27,
+        44,
+        103
+      ],
+      "篇分布_count": 3,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 27,
+          "篇名": "梵字并びに雑文を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "（聖明）は烏兎（日輪に住む金烏と月中の玉兎、すなわち日月）に斉（ひと）し。露は文下（皇文の下、天恩雨露）に沈んで六合（天地",
+          "context_position": 985,
+          "matched_form": "斉"
+        },
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "とく絡み包む）して、同じく愛獄（愛欲の牢獄）を脱（のが）れ、斉（ひと）しく覚道（仏の覚りの道）に遊ばん。  （本願文は故桓",
+          "context_position": 2972,
+          "matched_form": "斉"
+        },
+        {
+          "shoryoshu_idx": 103,
+          "篇名": "暮秋に元興の僧正大徳の八十を賀する詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "席）に備わりて、上聖（じょうしょう・最上の聖者・護命僧正）に斉（ひと）しからむことを思う。澆醨（ぎょうり・澆季〔末世〕の薄",
+          "context_position": 1834,
+          "matched_form": "斉"
+        }
+      ]
+    },
+    {
+      "canonical": "方丈",
+      "aliases": [],
+      "subcategory": "mythological",
+      "definition": "東海の仙島。蓬莱・瀛洲と並ぶ。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "方丈",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "篇分布": [
+        47,
+        109
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 47,
+          "篇名": "右将軍良納言開府儀同三司左僕射の為に大祥の斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "）べるに涌泉（ようせん、湧き出る泉のごとき弁才）をもってす。方丈の草堂（維摩居士の方丈の室・小空間に万善を含む）は法果（仏法",
+          "context_position": 1759,
+          "matched_form": "方丈"
+        },
+        {
+          "shoryoshu_idx": 47,
+          "篇名": "右将軍良納言開府儀同三司左僕射の為に大祥の斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "、湧き出る泉のごとき弁才）をもってす。方丈の草堂（維摩居士の方丈の室・小空間に万善を含む）は法果（仏法の果実）を呑んで蟇芥（",
+          "context_position": 1770,
+          "matched_form": "方丈"
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "）の影 　秦王（しんおう・秦始皇帝）の台（だい・楼台）の上の方丈（ほうじょう・四角の鏡・『西京雑記』巻三所伝の照胆鏡）の相（",
+          "context_position": 2667,
+          "matched_form": "方丈"
+        }
+      ]
+    },
+    {
+      "canonical": "渭水",
+      "aliases": [],
+      "subcategory": "river_china",
+      "definition": "長安付近の河川。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "渭水",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "篇分布": [
+        104,
+        106
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 104,
+          "篇名": "秋の日僧正大師を賀し奉る詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "子』在宥篇に黄帝が広成子に至道を問うた地）・溪水（けいすい・渭水のほとり・『史記』斉太公世家に文王が呂尚〔太公望〕を見出した",
+          "context_position": 271,
+          "matched_form": "渭水"
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "病を間違った方向で治そうとする譬）。 　涇渭（けいい・涇水と渭水・陝西を流れる二河・涇水は濁り渭水は清く合流して「涇渭分明」",
+          "context_position": 5404,
+          "matched_form": "渭水"
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "。 　涇渭（けいい・涇水と渭水・陝西を流れる二河・涇水は濁り渭水は清く合流して「涇渭分明」の四字熟語・『詩経』邶風谷風「涇以",
+          "context_position": 5421,
+          "matched_form": "渭水"
+        }
+      ]
+    },
+    {
+      "canonical": "燕",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋戦国の北方の国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "燕",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "篇分布": [
+        1,
+        46
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "電影（稲妻のかげのごとく過ぎ行く時）こそ無常の姿である 雁と燕が更（こもごも）に来ては去り 紅桃（桃の花）は昔の芳りを落と",
+          "context_position": 1717,
+          "matched_form": "燕"
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "馳せて蒼生（万民）の障を摧（くだ）き給え。  鷰舞（えんぶ、燕の舞い）を労（いた）わしくせず（燕が舞い飛ぶような旱魃の苛酷",
+          "context_position": 2035,
+          "matched_form": "燕"
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "き給え。  鷰舞（えんぶ、燕の舞い）を労（いた）わしくせず（燕が舞い飛ぶような旱魃の苛酷を待つことなく）、畎澮（けんかい、",
+          "context_position": 2052,
+          "matched_form": "燕"
+        }
+      ]
+    },
+    {
+      "canonical": "祇園精舎",
+      "aliases": [],
+      "subcategory": "sacred_site_indian",
+      "definition": "舎衛国に建立された釈迦説法の地。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "祇園精舎",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "篇分布": [
+        81,
+        101
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 81,
+          "篇名": "有る人亡親の為に法事を修する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "）の妙供を設け、須達（しゅだつ・sudatta・須達多長者・祇園精舎の施主・給孤独長者）の宝蔵を開いて、一切の三宝を供養したてま",
+          "context_position": 701,
+          "matched_form": "祇園精舎"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "孤独（ぎっこどく・anāthapiṇḍika・舎衛城の長者・祇園精舎の建立者）が黄金を敷きつめて土地を購った労を経ずして、たちま",
+          "context_position": 753,
+          "matched_form": "祇園精舎"
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "林泉を得たのである（『中本起経』『有部毘奈耶雑事』巻三十一の祇園精舎建立譚）。本願がたちまちに感応して、これに名を樹てて「綜芸種",
+          "context_position": 877,
+          "matched_form": "祇園精舎"
+        }
+      ]
+    },
+    {
+      "canonical": "紀伊",
+      "aliases": [
+        "紀州"
+      ],
+      "subcategory": "province_japan",
+      "definition": "和歌山県・三重県南部の旧国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "紀伊",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "篇分布": [
+        11,
+        93,
+        94
+      ],
+      "篇分布_count": 3,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "監察使・藤納言（藤原氏のある納言）と紀大守末（紀末成、当時の紀伊守）らは、亢陽（強烈な日照り、『漢書』五行志）への備えを慮り",
+          "context_position": 671,
+          "matched_form": "紀伊"
+        },
+        {
+          "shoryoshu_idx": 93,
+          "篇名": "紀伊の国伊都の郡高野の峯に於いて入定の処を請け乞わるる表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "の幽地有り。名づけて高野（こうや）と曰（い）う。計りみるに、紀伊の国伊都の郡（いとのこおり）の南に当たれり。四面は高嶺にして",
+          "context_position": 775,
+          "matched_form": "紀伊"
+        },
+        {
+          "shoryoshu_idx": 94,
+          "篇名": "高野の四至の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "　（紀伊の国在田〔ありた〕の郡、石垣の上の庄に在り。一処の四至〔しい",
+          "context_position": 2,
+          "matched_form": "紀伊"
+        }
+      ]
+    },
+    {
+      "canonical": "黄河",
+      "aliases": [],
+      "subcategory": "river_china",
+      "definition": "中国北部の大河。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "黄河",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "篇分布": [
+        36,
+        46,
+        47
+      ],
+      "篇分布_count": 3,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 36,
+          "篇名": "人の官を求むるが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "如く過ぎ去る。清河（『左伝』襄公八年「俟河之清、人寿幾何」、黄河の濁水が清くなる時を待つに人の寿命はいくばくぞ、絶望的な待望",
+          "context_position": 1521,
+          "matched_form": "黄河"
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "）る（十日が経ち、何日も連続する）。  これを河伯（かはく、黄河の神・水神）に祈れば河伯は国を竭（つ）くし（河伯さえ水を尽く",
+          "context_position": 942,
+          "matched_form": "黄河"
+        },
+        {
+          "shoryoshu_idx": 47,
+          "篇名": "右将軍良納言開府儀同三司左僕射の為に大祥の斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "（やまかわのちかい・『漢書』高帝紀「使河如帯、泰山若厲」――黄河が帯のように細くなり泰山が砥石のように小さくなるまで、永久の",
+          "context_position": 2821,
+          "matched_form": "黄河"
+        }
+      ]
+    },
+    {
+      "canonical": "大興善寺",
+      "aliases": [],
+      "subcategory": "temple_china",
+      "definition": "長安。不空三蔵の住所。密教伝来の中心。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "大興善寺",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "篇分布": [
+        12,
+        21
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "に就いて、これを師としてこれに事（つか）えた。その大徳は則ち大興善寺の大広智不空三蔵（金剛智の弟子・密教を中国に伝えた阿闍梨、空",
+          "context_position": 658,
+          "matched_form": "大興善寺"
+        },
+        {
+          "shoryoshu_idx": 21,
+          "篇名": "雑書迹を奉献する状 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "Amoghavajra、七〇五〜七七四、真言付法第六祖、長安大興善寺）の碑一首 道岸和尚（六五四〜七一七、唐代律宗・荊州弘景門下",
+          "context_position": 158,
+          "matched_form": "大興善寺"
+        }
+      ]
+    },
+    {
+      "canonical": "廬山",
+      "aliases": [
+        "盧山"
+      ],
+      "subcategory": "mountain_china",
+      "definition": "江西省。中国の名山。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "廬山",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "篇分布": [
+        14,
+        16
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "下を譲られて箕山に逃れた高士）が山薮に啄（ついば）み、慧遠（廬山慧遠、東晋の高僧、白蓮社の祖）が林泉に飲むがごとく、その天稟",
+          "context_position": 1177,
+          "matched_form": "廬山"
+        },
+        {
+          "shoryoshu_idx": 16,
+          "篇名": "伴按察平章事の陸府に赴くに贈る詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "山木「君子之交淡若水」）にして、玄度（曠達なる度量）・遠公（廬山の慧遠、東晋の高僧）の交友（戴逵と慧遠の交わり、緇素を超えた",
+          "context_position": 1329,
+          "matched_form": "廬山"
+        }
+      ]
+    },
+    {
+      "canonical": "東大寺",
+      "aliases": [],
+      "subcategory": "temple_japan",
+      "definition": "奈良。華厳宗大本山。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "東大寺",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "篇分布": [
+        11,
+        34
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 11,
+          "篇名": "大和の州益田の池の碑の銘 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "○大和国（現・奈良県）益田の池の碑の銘文（序を併記）  東大寺の沙門・大僧都・伝灯大法師遍照金剛（空海の法号）、文を作りか",
+          "context_position": 28,
+          "matched_form": "東大寺"
+        },
+        {
+          "shoryoshu_idx": 34,
+          "篇名": "酒人の内公主が為の遺言 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "七七（しちしち、四十九日）の経を転ぜよ。周忌（一周忌）は則ち東大寺にて修めよ。  所有の田宅・林牧（田地・宅地・林野・牧場）等",
+          "context_position": 1302,
+          "matched_form": "東大寺"
+        }
+      ]
+    },
+    {
+      "canonical": "興福寺",
+      "aliases": [],
+      "subcategory": "temple_japan",
+      "definition": "奈良。法相宗大本山。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "興福寺",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "篇分布": [
+        34,
+        102
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 34,
+          "篇名": "酒人の内公主が為の遺言 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "生前）に修し終えた。もし事やむを得ずんば、春日の院（春日院、興福寺〔藤原氏の氏寺、春日大社と密接〕の院、または酒人内親王御所内",
+          "context_position": 1232,
+          "matched_form": "興福寺"
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "四年（七七〇）の秋、勅により宮中および山階寺（やましなでら・興福寺の前身・山科移転前の名残）にて千人の僧を度（ど・得度・正規の",
+          "context_position": 1278,
+          "matched_form": "興福寺"
+        }
+      ]
+    },
+    {
+      "canonical": "陸奥",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "東北地方の旧国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "陸奥",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "篇分布": [
+        3,
+        16
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 3,
+          "篇名": "野陸州に贈る歌 序を并せたり 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "供しよう。  【歌】 日本の麗しき国は三百の州、 その中でも陸奥は最もなつけ難い。 天皇は赫怒されて、幾たびも剣のつかに手を",
+          "context_position": 452,
+          "matched_form": "陸奥"
+        },
+        {
+          "shoryoshu_idx": 16,
+          "篇名": "伴按察平章事の陸府に赴くに贈る詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "○伴按察平章事の陸（陸奥）府に赴くに贈る詩　序を併記  それ膚寸（『公羊伝』僖公三十",
+          "context_position": 10,
+          "matched_form": "陸奥"
+        }
+      ]
+    },
+    {
+      "canonical": "魏",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "三国時代の魏。曹操の国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "魏",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "篇分布": [
+        15
+      ],
+      "篇分布_count": 1,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 15,
+          "篇名": "恩賜の百屯の綿兼て七言の詩を奉謝する詩 一首 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "也者始条理也、玉振之也者終条理也」、聖人の徳の喩）。  かの魏武（魏の武帝・曹操、文才を兼ねた帝王）・唐文（唐の文帝あるい",
+          "context_position": 318,
+          "matched_form": "魏"
+        },
+        {
+          "shoryoshu_idx": 15,
+          "篇名": "恩賜の百屯の綿兼て七言の詩を奉謝する詩 一首 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "条理也、玉振之也者終条理也」、聖人の徳の喩）。  かの魏武（魏の武帝・曹操、文才を兼ねた帝王）・唐文（唐の文帝あるいは文宗",
+          "context_position": 321,
+          "matched_form": "魏"
+        }
+      ]
+    },
+    {
+      "canonical": "魯",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋の国。孔子の出身地。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "魯",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "篇分布": [
+        24,
+        36
+      ],
+      "篇分布_count": 2,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 24,
+          "篇名": "劉廷芝が集を書して奉献する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "く弱翰（穂先の弱い拙筆）をもって強いて書したのである。郢輸（魯の名匠魯班〔公輸般〕、また『荘子』徐無鬼に「郢人堊漫其鼻端、",
+          "context_position": 173,
+          "matched_form": "魯"
+        },
+        {
+          "shoryoshu_idx": 36,
+          "篇名": "人の官を求むるが為の啓 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "死ぬこと、死を覚悟した魂）の魂はたちまち倚陶（いとう、倚頓〔魯の大富、塩商で財を成した〕と陶朱〔范蠡、越王勾践の宰相、引退",
+          "context_position": 1759,
+          "matched_form": "魯"
+        }
+      ]
+    },
+    {
+      "canonical": "中天竺",
+      "aliases": [],
+      "subcategory": "country_india",
+      "definition": "中インド。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "中天竺",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        42
+      ],
+      "篇分布_count": 1,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "朝した。草履を著（は）いて長安城中を歴遊するうちに、幸いにも中天竺国の般若三蔵（プラジュニャー、北インド出身、貞元年間の『四十",
+          "context_position": 238,
+          "matched_form": "中天竺"
+        }
+      ]
+    },
+    {
+      "canonical": "于闐",
+      "aliases": [],
+      "subcategory": "country_western_region",
+      "definition": "西域の王国。コータン。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "于闐",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        77
+      ],
+      "篇分布_count": 1,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "線（経軸の糸）に竭（つく）し、于填（うてん・udayana・于闐〔コータン〕の優填王が釈尊在世時に世尊を恋うて檀香木で刻んだ",
+          "context_position": 119,
+          "matched_form": "于闐"
+        }
+      ]
+    },
+    {
+      "canonical": "吉野",
+      "aliases": [
+        "吉野山"
+      ],
+      "subcategory": "mountain_japan",
+      "definition": "大和。山岳信仰の聖地。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "吉野",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        93
+      ],
+      "篇分布_count": 1,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 93,
+          "篇名": "紀伊の国伊都の郡高野の峯に於いて入定の処を請け乞わるる表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "も修禅に宜（よろ）し。空海、少年の日、好んで山水を渉覧して、吉野より南に行くこと一日、更に西に向いて去ること両日（二日）程に",
+          "context_position": 708,
+          "matched_form": "吉野"
+        }
+      ]
+    },
+    {
+      "canonical": "呉",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋の国。三国時代の呉も。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "呉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        13
+      ],
+      "篇分布_count": 1,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 13,
+          "篇名": "勅賜の屏風を書き了て即ち献ずる表并びに詩",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "十七日、主殿（宮内省主殿寮）の助・布勢の海（人名）が、五彩の呉の綾の錦の縁取りある五尺の屏風四帖を山房（高雄山寺ほか空海の",
+          "context_position": 78,
+          "matched_form": "呉"
+        }
+      ]
+    },
+    {
+      "canonical": "土佐",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "高知県の旧国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "土佐",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        69
+      ],
+      "篇分布_count": 1,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 69,
+          "篇名": "弟子の僧真体が亡妹の七七の斎を設け並びに伝灯の料田を奉入する為の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "（八二六）十月八日をもって、先人（先考・亡父）の遺された所の土佐国の久満（くま）並びに田村の庄、美作国の佐良の庄、但馬国の針",
+          "context_position": 1255,
+          "matched_form": "土佐"
+        }
+      ]
+    },
+    {
+      "canonical": "山城",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "京都南部の旧国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "山城",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        26
+      ],
+      "篇分布_count": 1,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 26,
+          "篇名": "柑子を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "沙門空海、言上したてまつる。乙訓寺（おとくにでら、山城国乙訓郡、空海は弘仁二年〔八一一〕別当として赴任）に数株の柑",
+          "context_position": 25,
+          "matched_form": "山城"
+        }
+      ]
+    },
+    {
+      "canonical": "播磨",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "兵庫県南西部の旧国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "播磨",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        67
+      ],
+      "篇分布_count": 1,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 67,
+          "篇名": "播州の和判官が攘災の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "として彼岸に渡るのである。 　それゆえ今、和（やまと）の氏（播磨国の和判官）はにわかに不祥の災難に遭遇し、法（仏法）の祐（た",
+          "context_position": 359,
+          "matched_form": "播磨"
+        }
+      ]
+    },
+    {
+      "canonical": "比叡山",
+      "aliases": [
+        "叡山",
+        "北嶺"
+      ],
+      "subcategory": "mountain_japan",
+      "definition": "近江・山城。最澄開創の天台宗根本道場。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "北嶺",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        110
+      ],
+      "篇分布_count": 1,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 110,
+          "篇名": "九相の詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "  〔済暹奥書（さいせんおくがき・後序・承暦三年〔一〇七九〕北嶺の苾蒭済暹〔さいせん・八九五〜一〇〇〇頃の天台僧か東密学僧。",
+          "context_position": 5145,
+          "matched_form": "北嶺"
+        }
+      ]
+    },
+    {
+      "canonical": "舎衛城",
+      "aliases": [
+        "舎衛国",
+        "舎衛"
+      ],
+      "subcategory": "sacred_site_indian",
+      "definition": "コーサラ国の都。釈迦の主要説法地。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "舎衛城",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        101
+      ],
+      "篇分布_count": 1,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "期せられた。給孤独（ぎっこどく・anāthapiṇḍika・舎衛城の長者・祇園精舎の建立者）が黄金を敷きつめて土地を購った労を",
+          "context_position": 746,
+          "matched_form": "舎衛城"
+        }
+      ]
+    },
+    {
+      "canonical": "讃岐",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "香川県の旧国。空海生地。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "讃岐",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        111
+      ],
+      "篇分布_count": 1,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 111,
+          "篇名": "納涼房に雲雷を望む 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "（高野山開創以前の入唐前山林修行期、もしくは大同年間の和泉・讃岐の修行地、特定不能）にての作と推定される。「魑魅媚殺人」の一",
+          "context_position": 924,
+          "matched_form": "讃岐"
+        }
+      ]
+    },
+    {
+      "canonical": "阿波",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "徳島県の旧国。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "阿波",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        103
+      ],
+      "篇分布_count": 1,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 103,
+          "篇名": "暮秋に元興の僧正大徳の八十を賀する詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "伽陀 gāthā・優陀那 udāna・尼陀那 nidāna・阿波陀那 avadāna・伊帝目多伽 ityuktaka・闍陀伽",
+          "context_position": 675,
+          "matched_form": "阿波"
+        }
+      ]
+    },
+    {
+      "canonical": "隋",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。唐の前。",
+      "sanskrit_canonical": null,
+      "matched_forms": [
+        {
+          "form": "隋",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        106
+      ],
+      "篇分布_count": 1,
+      "occurrences": [
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "三百六十五種の薬草を載す）、大素（たいそ・『黄帝内経太素』・隋代楊上善撰の医経）を読誦（どくじゅ）すとも、四大（しだい・c",
+          "context_position": 6180,
+          "matched_form": "隋"
+        }
+      ]
+    }
+  ]
+}

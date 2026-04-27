@@ -647,7 +647,217 @@ GET /api/kaimyo/candidates?characteristics=学問熱心,温和
   - **kaimyo-app 連携 API 設計**（候補 D・3〜5 セッション）
   - **paren_doctrinal の人手校閲ラウンド**（51 件のレビュー → 採否決定）
 
+
+## §11 Tier 3-5 人名索引（v1.3 新規）
+
+性霊集 gendaigoyaku に登場する人名を、仏教祖師・諸尊・諸天・諸子百家・神話伝説人物・天皇・貴族の各カテゴリで構造化する索引。kaimyo-app では「故人の修学・所属・尊崇する人物」と当索引を突き合わせて、戒名選定時の典拠例示や法話用引用に活用する。
+
+出力ファイル：`data/mikkyou/index_shoryoshu_persons.json`
+
+### 11.1 抽出方針
+
+人手キュレートシード辞書による「漏れなく・誤検知少なく」の網羅型抽出。
+シード辞書の各エントリには `canonical`（代表表記）, `aliases`（追号・尊称・略称・梵語名併記）, `subcategory`（後述の 9 分類）, `definition`（簡潔な人物紹介）, 任意の `sanskrit_canonical`（既存梵語索引へのリンク）を持たせる。
+
+#### subcategory（taxonomy 9 分類）
+
+| サブカテゴリ | 内容 | 代表例 |
+|---|---|---|
+| `buddhist_master_india` | インドの仏教祖師・仏弟子 | 釈迦・迦葉・阿難・舎利弗・龍樹・龍智 |
+| `buddhist_master_china` | 中国の仏教祖師・密教伝持者 | 不空・善無畏・金剛智・恵果・玄奘・智顗・道宣 |
+| `buddhist_master_japan` | 日本の仏教祖師・空海十大弟子 | 空海・最澄・真済・徳一・泰範・実恵・智泉・聖徳太子・鑑真 |
+| `buddhist_buddha_bodhisattva` | 仏菩薩・諸尊 | 大日如来・阿弥陀・薬師・弥勒・観音・文殊・普賢・地蔵・虚空蔵・不動・勢至 |
+| `buddhist_deva` | 諸天・天部・八部衆 | 梵天・帝釈天・夜叉・羅刹・阿修羅・迦楼羅・緊那羅 |
+| `chinese_classical` | 諸子百家・古典文人 | 荘子・老子・孔子・孟子・荀子・韓非・列子・揚雄・宋玉・屈原・司馬遷・陶淵明・王羲之・張旭・郭璞 |
+| `chinese_legend` | 神話・伝説人物 | 黄帝・堯・舜・禹・湯王・文王・武王・周公・太公望・許由・巣父・伯夷・葉公・伯牙・鍾子期 |
+| `japanese_emperor` | 天皇・皇族 | 嵯峨天皇・桓武天皇・淳和天皇・光仁天皇・平城天皇 |
+| `japanese_aristocrat` | 日本の貴族・文人 | 橘逸勢 |
+
+### 11.2 マッチングの設計
+
+- 各 seed の `canonical` と全 `aliases` を「surface 候補」として展開し、長表記優先（surface 文字数の降順）でマッチさせる。
+- 例：「龍樹」と aliases「龍猛」を別エントリにせず canonical 「龍樹」に統一し、`matched_forms` で内訳を保持。
+- 「Vairocana」「Mañjuśrī」「Avalokiteśvara」など梵語名を aliases に組み込むことで、既存梵語索引（v1.1）との整合を取る（`sanskrit_canonical` フィールドで直接リンク）。
+- 一字人名（堯・舜・禹）は前後の文字が漢字でない場合のみ採用（`is_single_kanji=True` フラグ + 前後非漢字境界条件）。
+
+### 11.3 出力スキーマ（per entry）
+
+```jsonc
+{
+  "canonical": "釈迦",
+  "aliases": ["釈尊", "釈迦牟尼", "能仁", "śākyamuni", "Śākyamuni"],
+  "subcategory": "buddhist_master_india",
+  "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+  "sanskrit_canonical": "śākyamuni",
+  "sanskrit_canonical_in_index": false,  // 既存梵語索引にエントリがあるか
+  "matched_forms": [
+    {"form": "釈迦", "count": 41},
+    {"form": "釈尊", "count": 37},
+    {"form": "釈迦牟尼", "count": 11}
+  ],
+  "occurrence_count": 89,
+  "篇分布": [0, 1, 6],
+  "篇分布_count": 36,
+  "occurrences": [
+    {"shoryoshu_idx": 0, "篇名": "...", "巻": "巻第一", "page_idx": 0,
+     "context": "...釈迦如来の...", "context_position": 1234,
+     "matched_form": "釈迦"}
+  ]
+}
+```
+
+### 11.4 v1.3 結果サマリ
+
+| 指標 | 値 |
+|---|---|
+| seed_dictionary_size | 81 |
+| unique_persons | 81 |
+| total_occurrences | 1,197 |
+| covered_篇 | 109 / 112（97.3%）|
+
+サブカテゴリ別の分布：
+
+| サブカテゴリ | unique | occurrences |
+|---|---|---|
+| buddhist_master_japan | 10 | 248 |
+| chinese_classical | 15 | 234 |
+| buddhist_buddha_bodhisattva | 11 | 260 |
+| buddhist_master_india | 8 | 130 |
+| buddhist_master_china | 10 | 109 |
+| chinese_legend | 14 | 91 |
+| japanese_emperor | 5 | 70 |
+| buddhist_deva | 7 | 53 |
+| japanese_aristocrat | 1 | 2 |
+
+### 11.5 出現上位 10
+
+| 順位 | canonical | subcategory | occ |
+|---|---|---|---|
+| 1 | 空海 | buddhist_master_japan | 202 |
+| 2 | 大日如来 | buddhist_buddha_bodhisattva | 135 |
+| 3 | 荘子 | chinese_classical | 105 |
+| 4 | 釈迦 | buddhist_master_india | 89 |
+| 5 | 観音 | buddhist_buddha_bodhisattva | 45 |
+| 6 | 恵果 | buddhist_master_china | 38 |
+| 7 | 不空 | buddhist_master_china | 32 |
+| 8 | 孔子 | chinese_classical | 32 |
+| 9 | 嵯峨天皇 | japanese_emperor | 30 |
+| 10 | 老子 | chinese_classical | 28 |
+
+### 11.6 既存梵語索引（v1.1）とのクロスリンク
+
+`sanskrit_canonical` フィールドで既存梵語索引（`index_shoryoshu_sanskrit.json`）の canonical キーへリンク。`sanskrit_canonical_in_index` で「既存索引にエントリ有無」を bool 値として保持し、kaimyo-app から「人名 → 梵語名 → 漢訳熟語」の三段クロスリンクを可能にする。
+
+性霊集中で IAST 表記が登場しない仏菩薩名（阿弥陀 amitābha・迦葉 kāśyapa・目連 maudgalyāyana・舎利弗 śāriputra）は `sanskrit_canonical_in_index=false` となるが、後続のコーパス（『十住心論』『秘蔵宝鑰』等）追加時にリンクが有効化される予定。
+
 ---
 
-最終更新：2026-04-27 v1.2 昇格（典故書名 + 空海著作分離 + 密教教学用語 + 梵語 IAST + 戒名向け熟語抽出完了）。次セッション以降は人名・地名抽出または kaimyo-app 連携 API 設計に進む。
+## §12 Tier 3-6 地名索引（v1.3 新規）
 
+性霊集 gendaigoyaku に登場する地名を、寺院・山・国/王朝・都城・旧国・神話・宇宙論・聖地のカテゴリで構造化する索引。kaimyo-app では「故人の出身地・修行地・所縁の聖地」と当索引を突き合わせて、戒名選定時の典拠例示や法話用引用に活用する。
+
+出力ファイル：`data/mikkyou/index_shoryoshu_places.json`
+
+### 12.1 抽出方針
+
+人手キュレートシード辞書による網羅型抽出。`canonical`, `aliases`, `subcategory`（後述の 18 分類）, `definition`, 任意の `sanskrit_canonical` を持たせる。
+
+#### subcategory（taxonomy 18 分類）
+
+| サブカテゴリ | 内容 | 代表例 |
+|---|---|---|
+| `temple_china` | 中国の寺院 | 青龍寺・大興善寺・大慈恩寺 |
+| `temple_japan` | 日本の寺院 | 東大寺・東寺・西寺・神護寺・高雄山寺・元興寺・興福寺・法隆寺 |
+| `mountain_china` | 中国の山 | 五台山・天台山・廬山・崑崙 |
+| `mountain_japan` | 日本の山 | 高野山・比叡山・吉野・室生 |
+| `mountain_buddhist` | 仏教の山 | 霊鷲山・須弥山・雪山・香山 |
+| `country_dynasty` | 中国の王朝 | 殷・周・夏・秦・漢・隋・梁・陳・魏・宋・北魏 |
+| `country_china` | 春秋戦国諸国・中国の異称 | 燕・趙・斉・魯・楚・韓・呉・越・蜀・震旦（支那・神州・唐土・中華・華夏）|
+| `country_western_region` | 西域諸国 | 于闐・亀茲・高昌・吐蕃・波斯・西域 |
+| `country_india` | インド系地名 | 天竺（印度・身毒）・南天竺・中天竺 |
+| `country_japan` | 日本国 | 日本（日域・本朝・我朝・皇朝・神国）|
+| `capital_china` | 中国の都城 | 長安・洛陽 |
+| `capital_japan` | 日本の都城 | 平安京・平城京・奈良・南都 |
+| `province_japan` | 日本の旧国 | 大和・山城・河内・摂津・近江・伊勢・紀伊・伊予・阿波・讃岐・土佐・播磨・陸奥 |
+| `mythological` | 神仙世界の地名 | 蓬莱・方丈・瀛洲 |
+| `river_china` | 中国の河川 | 黄河・長江（揚子江）・渭水 |
+| `cosmological_realm` | 仏教宇宙論の界 | 欲界・色界・無色界・兜率（兜率天）・極楽・安楽 |
+| `sacred_site_indian` | インド仏教聖地 | 祇園精舎・舎衛城（舎衛国）・王舎城・迦毘羅・伽耶 |
+| `sacred_site_japan` | 日本の聖地 | 神泉苑 |
+
+### 12.2 マッチングの設計
+
+- 長表記優先：「青龍寺」と「青龍」、「霊鷲山」と「霊山」、「祇園精舎」と「祇園」等で長い表記を先にマッチさせ、短表記は重複位置を除外。
+- 1 文字王朝/国名（殷・周・夏・斉・楚・秦・燕・趙・魯・韓・呉・越・蜀・魏・宋・隋・漢・梁・陳）は前後の漢字非継続性を確認（`is_safe_single_char` 条件）。
+- さらに `DYNASTY_REJECT_AFTER` で動詞・形容詞活用語尾を除外：
+  - 「越」直後が `えゆしすさ` → 「越え/越ゆ/越し/越す/越さ」（動詞活用）として除外
+  - 「斉」直後が `しひ` → 「斉しく/斉（ひと）し」（形容詞）として除外
+- `DYNASTY_OK_AFTER` で許容直後文字（`王代朝末初年人`、王名の人名起点字 `紂湯文武穆桓` 等）を許容。
+
+### 12.3 出力スキーマ（per entry）
+
+```jsonc
+{
+  "canonical": "霊鷲山",
+  "aliases": ["霊山", "耆闍崛山", "gṛdhrakūṭa"],
+  "subcategory": "mountain_buddhist",
+  "definition": "王舎城東北の山。釈迦が法華経などを説いた地。",
+  "sanskrit_canonical": null,
+  "matched_forms": [
+    {"form": "霊鷲山", "count": 9},
+    {"form": "霊山", "count": 4}
+  ],
+  "occurrence_count": 13,
+  "篇分布_count": 7
+}
+```
+
+### 12.4 v1.3 結果サマリ
+
+| 指標 | 値 |
+|---|---|
+| seed_dictionary_size | 84 |
+| unique_places | 70 |
+| total_occurrences | 466 |
+| covered_篇 | 92 / 112（82.1%）|
+
+### 12.5 出現上位 15
+
+| 順位 | canonical | subcategory | occ |
+|---|---|---|---|
+| 1 | 日本 | country_japan | 60 |
+| 2 | 長安 | capital_china | 22 |
+| 3 | 漢 | country_dynasty | 19 |
+| 4 | 周 | country_dynasty | 16 |
+| 5 | 殷 | country_dynasty | 16 |
+| 6 | 須弥山 | mountain_buddhist | 15 |
+| 7 | 陳 | country_dynasty | 13 |
+| 8 | 震旦 | country_china | 13 |
+| 9 | 霊鷲山 | mountain_buddhist | 13 |
+| 10 | 青龍寺 | temple_china | 11 |
+| 11 | 大和 | province_japan | 10 |
+| 12 | 秦 | country_dynasty | 10 |
+| 13 | 雪山 | mountain_buddhist | 10 |
+| 14 | 極楽 | cosmological_realm | 9 |
+| 15 | 神護寺 | temple_japan | 9 |
+
+### 12.6 残課題と人手レビュー推奨事項
+
+- 「越（と）ぶ」「斉（ひと）し」のように補注内で読み付け（漢字＋括弧ひらがな）された動詞・形容詞用法は、現行の活用語尾除外で完全には除外できない（数件残存）。kaimyo-app 連携前に人手レビューを推奨。
+- 「夏」は「夏王朝」と「季節の夏」の両義語であり、文脈ベースの精密判定は将来の v1.4 で改善予定。
+- 「南山」（終南山 / Mt.南）など複数解釈のある語は、現状 seed に未収録。次フェーズで「南山＝終南山」の文脈判定とともに採否決定。
+
+### 12.7 v1.3 完成度評価
+
+- ✅ **人名カテゴリ完成**：81 種・1,197 件・9 分類で kaimyo-app 用辞書として機能
+- ✅ **地名カテゴリ完成**：70 種・466 件・18 分類で kaimyo-app 用辞書として機能
+- ✅ **既存梵語索引とのクロスリンク**：`sanskrit_canonical` フィールドで人名・地名 → 梵語の三段リンク
+- ✅ **長表記優先 + 1 文字境界条件**：誤検知抑止の二重ガード
+- ⏭️ 次セッション以降の予定：
+  - **kaimyo-app 連携 API 設計**（候補 D・3〜5 セッション）
+  - **paren_doctrinal の人手校閲ラウンド**（51 件のレビュー → 採否決定）
+  - **地名 v1.4 改善**：「夏（季節 vs 王朝）」「南山」等の精密文脈判定
+
+---
+
+最終更新：2026-04-27 v1.3 昇格（典故書名 + 空海著作分離 + 密教教学用語 + 梵語 IAST + 戒名向け熟語 + 人名 + 地名抽出完了）。次セッション以降は kaimyo-app 連携 API 設計または paren_doctrinal 人手校閲に進む。
