@@ -1,0 +1,5760 @@
+{
+  "schema_version": "1.0",
+  "category": "密教教学用語（mikkyo terms）",
+  "source_corpus": "shoryoshu_miyasaka.json",
+  "generated_at": "2026-04-27",
+  "extraction_strategy": "辞書ベース（19 語）+ 長語優先 substring 走査 + 周辺梵語注記抽出",
+  "dictionary_size": 19,
+  "summary": {
+    "unique_terms": 19,
+    "total_occurrences": 544,
+    "covered_shoryoshu_idx_count": 78,
+    "kaimyo_suitable_count": 11
+  },
+  "entries": [
+    {
+      "term": "密教",
+      "term_kana": "",
+      "sanskrit": "guhya-mantra-yāna",
+      "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 125,
+      "篇分布": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        30,
+        38,
+        39,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        62,
+        63,
+        66,
+        67,
+        69,
+        72,
+        73,
+        84,
+        86,
+        89,
+        97,
+        98,
+        101,
+        102,
+        104,
+        105,
+        106,
+        109,
+        111
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 0,
+          "篇名": "真済序",
+          "巻": "巻第一",
+          "page_idx": 0,
+          "context": "えるには唐とインドの儀式をもってし、恩に報いるには秘密の宝（密教の法宝）をもってすることができたのである。真言加持の道がこの",
+          "context_position": 1225,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": " 眷属（聖衆たち）は雨のごとく集い従う  【大日如来＝心王（密教思想の核）】  遮那（毘盧遮那如来＝大日如来）は中央にましま",
+          "context_position": 2560,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "る王、衆生本具の仏性そのもの）なり 三密（身・口・意の三密、密教の修行体系）は刹土（仏土）に遍し 虚空に荘厳な道場（浄土）を",
+          "context_position": 2658,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "と修行】  光明は法界（仏教世界・宇宙）に満ちわたり 一字（密教でいう「阿〔ア〕字」、本不生の根本字、万物の本源たる教え）が",
+          "context_position": 3031,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 3,
+          "篇名": "野陸州に贈る歌 序を并せたり 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "為農器」、武器を農具に鋳直す故事）を待ち、 智剣（智慧の剣・密教では金剛智の象徴。『金剛経』等で煩悩を断つ知慧の喩）は胸に満",
+          "context_position": 1371,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 4,
+          "篇名": "雨を喜ぶ歌 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": " 老僧は読誦して徴雲（雨をきざす雲）を起こし、 禅客は持観（密教の三密の念誦・観法）して雨の足（雨脚）をゆたかに降らしむ。 ",
+          "context_position": 998,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 4,
+          "篇名": "雨を喜ぶ歌 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "通じよう。 男も女も、もし能く一字（万物不生の本源を象徴する密教阿字）を持つことができるならば、 朝ごとに、ただひたすら自心",
+          "context_position": 1697,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 4,
+          "篇名": "雨を喜ぶ歌 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "ごとに、ただひたすら自心の宮（心王・心数のすまう内なる宮殿。密教の心宮観）を観ぜよ。 自心はまた、三身（法身・報身・応身の仏",
+          "context_position": 1747,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 5,
+          "篇名": "良相公に贈る詩 五言 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "夫）を済度することにある 機水（衆生の宗教的素質を水に喩えた密教の譬喩）は塵濁（汚れ）ばかり多くて 金波（金色の波、月光、こ",
+          "context_position": 370,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 7,
+          "篇名": "山中に何の楽しみが有る 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": " 一身に具わる三密（身・口・意の三業を仏陀の三密と一致させる密教の根本観）は塵滴の数を超えたり これを十方法界の身に奉献す（",
+          "context_position": 567,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 10,
+          "篇名": "沙門勝道山水を歴て玄珠を瑩く碑 序を并せたり",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "、心の鏡）を瑩（みが）き、機水（衆生の宗教的素質を水に喩えた密教の語）に俯（うつむ）いて応じる者がいる。沙門勝道という者であ",
+          "context_position": 509,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "えた。その大徳は則ち大興善寺の大広智不空三蔵（金剛智の弟子・密教を中国に伝えた阿闍梨、空海の祖師）の入室の弟子（衣鉢を継ぐ直",
+          "context_position": 678,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "見て驚異の念を已めず、ひそかに大師に告げて曰く、「我が法教（密教）は汝、これを興せ」と。既にしてこれを視ること父の如く、これ",
+          "context_position": 784,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "蔵）を教えた。  大仏頂・大随求（大仏頂陀羅尼・随求陀羅尼、密教重要陀羅尼）は耳に経るや心に持し、普賢の行（普賢菩薩の修行、",
+          "context_position": 881,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "三蔵の教えの海）は脣吻（くちびる）に波濤（波だち）し、五部（密教の五部・金剛界の仏部・蓮華部・金剛部・宝部・羯磨部）の観鏡（",
+          "context_position": 1413,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "って法を秉（と）り、後には三密潅頂（身口意の三密による潅頂・密教正統の伝授）を授かった。弥天（『高僧伝』、東晋の釈道安が「弥",
+          "context_position": 1632,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "操敏・堅通（恵果の弟子たち）が輩、ならびに皆三眛耶（三摩耶、密教の本誓と戒法）に入りて瑜伽（ヨーガ・密教観法）を学び、三秘密",
+          "context_position": 2697,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "に皆三眛耶（三摩耶、密教の本誓と戒法）に入りて瑜伽（ヨーガ・密教観法）を学び、三秘密（身口意の三密）を持して毘鉢（毘鉢舎那・",
+          "context_position": 2717,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "ゆ）むも坐するも、道場が即ち変ずる（一身一動が即道場となる、密教の即身成仏観）。眠るも覚むるも、観智は離れない。これをもって",
+          "context_position": 3489,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "国王に過ぎず（人間世界では王が最も貴い）。法の最なるは密蔵（密教）に如かず。牛羊に策（むちう）ちて道に趣（おもむ）くときは、",
+          "context_position": 3731,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "徒然ならんや（無意味にしたか、いな意義深し）。  金剛薩埵（密教第二祖、大日如来から法を直受した菩薩）が稽首して寂（大日如来",
+          "context_position": 4013,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "。  冒地（菩提・bodhiの音写）の得難きに非ず、この法（密教）に遇うことの易からざるなり。このゆえに胎蔵の大壇（胎蔵界大",
+          "context_position": 4143,
+          "sanskrit_in_context": [
+            "bodhi"
+          ]
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "蔵の大壇（胎蔵界大曼荼羅壇）を建てて潅頂の甘露（不死の妙薬・密教の灌頂）を開く。  期する所は、もしくは天、もしくは鬼、尊儀",
+          "context_position": 4196,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "、住世（在世）六十、僧夏（受戒以来の夏臘）四十にして、法印（密教印契）を結んで摂念（観念集中）し、人間（じんかん）に薪の尽き",
+          "context_position": 4550,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 13,
+          "篇名": "勅賜の屏風を書き了て即ち献ずる表并びに詩",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "を絶ってきた身。夜を達して数息（数息観、呼吸を数える瞑想法、密教観想の基礎）し、誰が穿被（衣を穿（うが）つほどの書写労作）を",
+          "context_position": 393,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 13,
+          "篇名": "勅賜の屏風を書き了て即ち献ずる表并びに詩",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "、粗口訣（口伝の要訣）を聞いた。しかしながら志す所は別の道（密教）にあり、かつて心に留めなかった。  今、聖雷の震響（天皇の",
+          "context_position": 1350,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 13,
+          "篇名": "勅賜の屏風を書き了て即ち献ずる表并びに詩",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "・真（草書・行書・楷書の三体）  心仏会（心と仏との出会い・密教三密相応の境）に遊んで筆に遊ばず  揚波（波立てる書勢、書の",
+          "context_position": 2436,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "んには。  ここに文殊讃仏法身礼（『文殊師利讃仏法身礼経』、密教の重要礼讃文）に四十行の頌あり。文は約かにして義は周（あまね",
+          "context_position": 347,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "玉のごとくして、字字に円融（諸法円融・互いに融け合う、天台・密教の円融観）せり。  古文にいう――「知命（五十歳、『論語』為",
+          "context_position": 415,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "）はこれ浄虚空（清浄なる虚空・空性）なり  一心（心の本性、密教でいう本不生の心王）の趣を談ぜんと欲するに  三曜（日・月・",
+          "context_position": 1582,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 15,
+          "篇名": "恩賜の百屯の綿兼て七言の詩を奉謝する詩 一首 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "ち）  風雪は情なく、春の夜なお寒し  五綴錫（五綴の錫杖、密教法具・五智五部の象徴）を持して妙法（『法華経』）を観じ  六",
+          "context_position": 689,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 16,
+          "篇名": "伴按察平章事の陸府に赴くに贈る詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "送るに言をもってす――古人もこれを噵（い）えり。三軸の秘録（密教の秘密文書三巻）、一篇の拙詩、神薬を加持して、もって別れの後",
+          "context_position": 1450,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 19,
+          "篇名": "国家の奉為に修法せんと請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "（儻）青龍寺恵果阿闍梨の灌頂道場に入って、一百余部の金剛乗（密教・金剛頂系経軌の総称）の法門を授けられることができた。これら",
+          "context_position": 98,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 19,
+          "篇名": "国家の奉為に修法せんと請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "和し、国を護り、家を護り、自身を安んじ他人を安んずる、まさに密教の秘妙の典である。  空海、師恵果阿闍梨の伝授を受けたといえ",
+          "context_position": 595,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 19,
+          "篇名": "国家の奉為に修法せんと請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "仁慈の王・嵯峨天皇）の天地に他ならず、我が目を開き耳を開いて密教に出会わせたまうたは聖帝（桓武天皇）の医王（薬師如来、衆生の",
+          "context_position": 967,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 30,
+          "篇名": "小僧都を辞する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "散華供養）じて経を講じ、心を三密（身密・口密〔語密〕・意密、密教の枢要、印・真言・観想による即身成仏の修行）に運んで、国恩を",
+          "context_position": 753,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 30,
+          "篇名": "小僧都を辞する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "て責めずして性に任せたまえ。然らば則ち、昼夜に真言（真実語・密教陀羅尼）を誦じて塵滴（塵芥や水滴ほどの微功）を聖化（聖代の御",
+          "context_position": 1192,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 38,
+          "篇名": "福州の観察使に与える入京の啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "元年〔八〇五〕青龍寺の恵果阿闍梨に師事する道が拓かれる。日本密教伝来の関鍵となる文書）",
+          "context_position": 1271,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "等は凡そ三百余軸、および大悲胎蔵・金剛界等の大曼荼羅の尊容（密教両部の曼荼羅本尊像）を、力を竭（つ）くし財を涸（か）らして、",
+          "context_position": 2460,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "空海は『内典・外典』にわたる膨大な典籍を獲得し、帰国後の真言密教の教学と日本文化全般に決定的な影響を与えた。中国側は空海の博",
+          "context_position": 4277,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "部すなわち仏部・金剛部・宝部・蓮華部・羯磨部の瑜伽）の灌頂（密教の伝法相承の儀礼）の法に沐（もく、浴）した。飡（さん、食事）",
+          "context_position": 506,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "ね合わせ（一日も無駄にせず）、三密（さんみつ、身語意の三密、密教の根本実践）の印（印契）をこれを一志（一念）に貫いた。この明",
+          "context_position": 925,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "ているのは、空海の入唐成果を端的に伝える第一級史料。これらの密教法具・経典・曼荼羅は『請来目録』に詳述され、日本密教の根本資",
+          "context_position": 1342,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "これらの密教法具・経典・曼荼羅は『請来目録』に詳述され、日本密教の根本資料となった）",
+          "context_position": 1368,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 43,
+          "篇名": "青龍の和尚に衲の袈裟を献ずる状",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "を方々で目にした）。然りといえども、三密（身・語・意の三密、密教の根本）を一法（金剛頂・大日経の根本法）に朗らかにし、十地（",
+          "context_position": 507,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 43,
+          "篇名": "青龍の和尚に衲の袈裟を献ずる状",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "日常仕事、最低限の侍奉）に廁（まじ）わって、甘露（仏法の喩・密教の灌頂）に沐することを得た。悲喜は分（ぶん、定まった分量）に",
+          "context_position": 878,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 43,
+          "篇名": "青龍の和尚に衲の袈裟を献ずる状",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "と、雑宝（種々の宝飾を施した）の手鑪（しゅろ、手にする香炉・密教法具）のみが有る。これをもって丹誠（赤心の真情）を表す。伏し",
+          "context_position": 1061,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "〔リッタ〕で「真実の心」）の蓮理（れんり、蓮華のごとき真理・密教の蓮華蔵世界の理）は、湿凝（しつぎょう、潤湿凝結する微妙の働",
+          "context_position": 74,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "比べて、乗蓮の珍長（じんちょう、蓮華に乗る尊い大覚者・釈尊と密教の大日如来）は三椎（さんつい、三毒・貪瞋癡の三本の槌の謂、ま",
+          "context_position": 483,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "もって、敬って薬師如来の羯磨身（かつまじん、修法・行為の身、密教の四種法身の一）と、日月遍照両大士（にちがつへんじょう・りょ",
+          "context_position": 1382,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "びの礼拝）の題（もんだい・きっかけ）に蕩（とろ）かし、五智（密教の五智・大日如来の五智）は一誦の吻（くちさき）に集（つど）う",
+          "context_position": 1934,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "育する・『老子』）せん。同じく鑁乳（ばんにゅう、鑁〔ばん〕は密教の水大の種子字、水のごとき法乳）の味に飽き、斉しく阿字（あじ",
+          "context_position": 2384,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "水大の種子字、水のごとき法乳）の味に飽き、斉しく阿字（あじ、密教の根本種子字、本不生の理を表す）の閣（こう、楼閣・阿字本不生",
+          "context_position": 2417,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "大極殿・清涼殿の両殿において、三尊（仏・法・僧の三宝、または密教の中尊三尊）の霊に雩（う、雨乞い）し給う。  開いて噵（なら",
+          "context_position": 309,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "尊）に供奠（くてん、供え奉る）する。  仰ぎ願わくは、四智（密教の四智〔大円鏡・平等性・妙観察・成所作〕、または大日如来の四",
+          "context_position": 1821,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "性・妙観察・成所作〕、または大日如来の四智印）の法帝、五大（密教の五大〔地・水・火・風・空〕の五大忿怒明王）の忿王、十護（十",
+          "context_position": 1863,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 47,
+          "篇名": "右将軍良納言開府儀同三司左僕射の為に大祥の斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "、卓越した美しき）の徳。皇（おお）いなるかな、五転（ごてん、密教の五輪・五大の転変、また菩提心の発心・修行・菩提・涅槃・方便",
+          "context_position": 42,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 47,
+          "篇名": "右将軍良納言開府儀同三司左僕射の為に大祥の斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "また菩提心の発心・修行・菩提・涅槃・方便の五転）の鑁（ばん、密教の水大の種子字）。千門を津梁（しんりょう、渡し場と橋・救済の",
+          "context_position": 84,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 47,
+          "篇名": "右将軍良納言開府儀同三司左僕射の為に大祥の斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "詣極（けいきょく、究極）、それは唯だ金剛（こんごう、金剛界・密教の金剛不壊の智）にあり。金剛の普門は、人と法と倶に妙なるかな",
+          "context_position": 554,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 48,
+          "篇名": "東太上故中務卿親王の為に檀の像を造刻する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "王（不動明王・降三世明王・軍荼利明王・大威徳明王の四大明王、密教の主要忿怒尊）の像四躯、四摂（鉤・索・鎖・鈴の四摂菩薩）八供",
+          "context_position": 705,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 48,
+          "篇名": "東太上故中務卿親王の為に檀の像を造刻する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "）・三昧耶曼荼羅（さんまやまんだら、持物・標幟による曼荼羅、密教四種曼荼羅の二）を副え、兼ねて法侶（ほうりょ、僧侶）をお招き",
+          "context_position": 859,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 48,
+          "篇名": "東太上故中務卿親王の為に檀の像を造刻する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "。「四大忿怒王」「四摂八供養」「法曼荼羅・三昧耶曼荼羅」など密教の正統な像形儀軌を駆使した盛大な造像で、当時の宮廷密教の隆盛",
+          "context_position": 1774,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 48,
+          "篇名": "東太上故中務卿親王の為に檀の像を造刻する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "」など密教の正統な像形儀軌を駆使した盛大な造像で、当時の宮廷密教の隆盛を物語る貴重な記録）",
+          "context_position": 1801,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 50,
+          "篇名": "式部の笠丞が為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "とく滅（き）える。  その源は則ち大日（大日如来）に名を得（密教の中尊・両部曼荼羅の主尊）、大悲は則ち観音（観世音菩薩）に号",
+          "context_position": 438,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 50,
+          "篇名": "式部の笠丞が為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "―翻じて大聖十一面観音という。すなわちこれ蓮華部（れんげぶ、密教五部の一・観音菩薩を主尊とする部）の利他（衆生救済）の一門（",
+          "context_position": 596,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 50,
+          "篇名": "式部の笠丞が為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "」「有情非情、動物植物」と一切衆生の平等仏性を讃する結びは、密教の自然観・草木国土悉皆成仏思想を典型的に示す）",
+          "context_position": 1976,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 51,
+          "篇名": "藤中納言大使の為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "りに念ずる）し、摩醯（まけい、摩醯首羅天〔大自在天〕の略称、密教の大威徳尊）はこれに帰して接足（せっそく、足下に頭を接ける最",
+          "context_position": 372,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 51,
+          "篇名": "藤中納言大使の為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "よび各国の名神大社の総数とも近く、空海の手になるこの願文は、密教渡来期の神仏混淆〔本地垂迹〕の早期史料としても貴重。藤原葛野",
+          "context_position": 1601,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 52,
+          "篇名": "藤大使亡児の為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "らず、一同（いちどう、唯一同体）の本覚（ほんがく、本来覚悟・密教の根本）は、何ぞ縁を待って起こらん（縁を待たずに本来具有）。",
+          "context_position": 85,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 52,
+          "篇名": "藤大使亡児の為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "具有）。雲敷（うんふ、雲のごとく敷き広がる）の四印（しいん、密教の四種曼荼羅・大三法羯の四印、または四種印契）、雨足（うそく",
+          "context_position": 143,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 52,
+          "篇名": "藤大使亡児の為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "法筵（ほうえん、法会の席）を設けて、三尊（仏・法・僧、または密教の三尊像）を礼し供える。諷音（ふうおん、経を諷読する音声）は",
+          "context_position": 1104,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "』月令に見える）の祭を営み、重重無尽の真如（華厳法界縁起観を密教に取入れた表現）にあって馬に秣（まぐさ）を与え、車轄（しゃか",
+          "context_position": 281,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "むい。生死を超越した一実中道の境地、『十住心論』第八住心）は密教から見れば最初の入門に過ぎず、華厳の説く三自本覚（さんじほん",
+          "context_position": 402,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "（だいが。大日如来の絶対的主宰者性。顕教の無我説とは異なり、密教では大日如来を「我」として把握する）は本より心蓮（しんれん。",
+          "context_position": 683,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "に従う心所有法、無数の眷属諸尊）は自ずと覚月（さとりの月輪、密教観想の所依たる月輪三昧）に安んじておられる。  三等（さんと",
+          "context_position": 781,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "十数人に命じて写し描かしめた）、併せて諸尊の真言・印契その他密教の儀軌一切を学んだ。  それより以来、年は三六（さんろく。三",
+          "context_position": 1620,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "諸尊の御姿は今しも消え変じようとしている。  後学（後の世に密教を学ぶ人々）を顧みては歎きを興し、群生（一切の衆生）が法縁を",
+          "context_position": 1749,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "が煩悩の縛を断ち切り、もしは供養を捧げ、もしは讃嘆を奉れば、密教の智宝（ちほう。如意宝珠に喩えられる仏智）が無上の福を授け給",
+          "context_position": 2736,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 54,
+          "篇名": "故藤中納言の為に十七尊の像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "羅（あつ）め取り、普く本不生（阿字本不生。万法の本来不生なる密教究極の覚境）の境地に入らしめ給わんことを。",
+          "context_position": 2274,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "識・十地の慮）も心を滅して休遊せねば及ばない。  まことに（密教は）父とも母とも為（な）って、戒・定・慧の三学を牢籠（ろうろ",
+          "context_position": 1013,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "よく生育して、五蔵（経・律・論・般若・陀羅尼の五蔵、もしくは密教の五部）を出入せしめる。  阿字一声の含む義は、劫（こう。極",
+          "context_position": 1090,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 62,
+          "篇名": "葛木の参軍先考の忌斎を設くる願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "報いること）は如何ともなし難い。  彼（仏陀）はすでに大我（密教大日如来の絶対主体）であり、よく阿字（胎蔵大日種子。万法本不",
+          "context_position": 502,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 63,
+          "篇名": "菅平章事の為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "感応するのである。  ましてや真如・如智（しんにょ・にょち。密教所立の理智不二・如如智不二）は慈悲を本体と為し、自覚・覚他は",
+          "context_position": 251,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 63,
+          "篇名": "菅平章事の為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "り飛ぶ羽目となった。  昔の期約を顧みて、灌頂（かんじょう。密教灌頂儀軌）の幡一旒、堂中の小幡四十口、ならびに若干の彩色の物",
+          "context_position": 1758,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 66,
+          "篇名": "藤左近の将監先妣の為に三七の斎を設くる願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "。謹んで高雄（神護寺）の道場において、妙法（『法華経』および密教真言の妙法）を転諷（てんふう・読誦）し、金仙（こんせん・仏の",
+          "context_position": 1390,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 67,
+          "篇名": "播州の和判官が攘災の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "た。謹んで良辰（吉日）を選び、五類の諸天（ごるいのしょてん・密教の天部五類——梵天・帝釈天・四天王・遮文茶等の天類諸尊）の奉",
+          "context_position": 433,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 69,
+          "篇名": "弟子の僧真体が亡妹の七七の斎を設け並びに伝灯の料田を奉入する為の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "、但馬国の針谷の田等を、永く神護寺の伝法料（でんぼうりょう・密教伝法のための田領）として奉入した（田の数は別紙に記す）。兼ね",
+          "context_position": 1311,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "きも同和（どうわ・むつまじく和合する団欒）するときも、王宮（密教の道場・宮中道場）にあるときも山巌（山林修行）にあるときも、",
+          "context_position": 1566,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 73,
+          "篇名": "弟子求寂真際が冥扉に入る為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "ところは、この善業に藉（よ）りて、亡き真際が本尊（ほんぞん・密教本尊・大日如来）に帰承し、法界に遊戯（ゆけ・遊化自在）し、秘",
+          "context_position": 1013,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 73,
+          "篇名": "弟子求寂真際が冥扉に入る為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "・大日如来）に帰承し、法界に遊戯（ゆけ・遊化自在）し、秘法（密教の秘法）を弘伝し、二利（自利・利他）を円満し、三身（法身・報",
+          "context_position": 1047,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 84,
+          "篇名": "高野山万灯会の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "におられようか。 　ここに空海は、諸々の金剛子（こんごうし・密教の弟子）等とともに、金剛峯寺（こんごうぶじ・高野山金剛峯寺）",
+          "context_position": 264,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 86,
+          "篇名": "宮中の真言院の正月の御修法の奏状",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "antra）を持誦せんことを。然らば則ち、顕密の二趣（顕教・密教）ともに如来の本意に契（かな）い、現当（現世・当来）の福聚（",
+          "context_position": 858,
+          "sanskrit_in_context": [
+            "antra"
+          ]
+        },
+        {
+          "shoryoshu_idx": 89,
+          "篇名": "大僧都空海病に嬰りて上表して職を辞する奏状",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "乎の歎息）に銷（け）さんとするのみならんや。  　況や密門（密教の門）稍くに啓け、真言（mantra）載（すなわ）ち敭（あ）",
+          "context_position": 1107,
+          "sanskrit_in_context": [
+            "mantra"
+          ]
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "菩薩）、鑣（くつわ）を分かちて生（衆生）を駆（か）り、顕教・密教、機に逗（ひか）えて滅（涅槃）を証す。  　所謂（いわゆる）",
+          "context_position": 285,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "を得て、此の秘密神通最上金剛乗（vajrayāna・金剛乗・密教）の教を受学（じゅがく）す。  　和尚（恵果）告げて曰く——",
+          "context_position": 1424,
+          "sanskrit_in_context": [
+            "vajrayāna"
+          ]
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "いは唐土）に発赴（はっぷ・派遣）せしむ。もし神通乗（金剛乗・密教）の機の善男善女、もしくは緇（しい・出家の黒衣）、もしくは素",
+          "context_position": 2393,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 98,
+          "篇名": "高野建立の初めの結界の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "大曼荼羅の法、ならびに一百余部の金剛乗（vajrayāna・密教経軌）を奉請して、平らかに本朝に帰れり。  　地に相応（そう",
+          "context_position": 989,
+          "sanskrit_in_context": [
+            "vajrayāna"
+          ]
+        },
+        {
+          "shoryoshu_idx": 98,
+          "篇名": "高野建立の初めの結界の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "此の伽藍の処を賜（たま）えり。  　今、上は諸仏の恩を報じて密教を弘揚し、下は五類の天威を増して群生（ぐんじょう・衆生）を抜",
+          "context_position": 1337,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 98,
+          "篇名": "高野建立の初めの結界の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "て群生（ぐんじょう・衆生）を抜済せんが為に、もっぱら金剛乗秘密教に依りて、両部の大曼荼羅を建立せんと欲す。  　仰ぎ願わくは",
+          "context_position": 1384,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "神変真言経』）に曰う、「初の阿闍梨（あじゃり・ācārya・密教の伝法師）は衆芸を兼ね綜（す）ぶ」と。論（『瑜伽師地論』菩薩",
+          "context_position": 3542,
+          "sanskrit_in_context": [
+            "ācārya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": " 　一、道人（仏道の人）の伝受の事。 　右、顕密二教（顕教と密教）は僧の意楽（いぎょう・cetanā・心の楽い・本分の願い）",
+          "context_position": 4161,
+          "sanskrit_in_context": [
+            "cetanā"
+          ]
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "金剛道場にて三昧耶戒（さんまやかい・samaya-śīla・密教の根本戒）を授け、両部（りょうぶ・金剛界 vajradhāt",
+          "context_position": 5177,
+          "sanskrit_in_context": [
+            "samaya-śīla",
+            "vajradhāt"
+          ]
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "。さらにいわんや、祖宗（しゅうそ）はこれ一（龍樹一人に三論・密教の祖を遡る）にして法派は昆季（こんき・兄と弟・三論と密教は同",
+          "context_position": 5297,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "論・密教の祖を遡る）にして法派は昆季（こんき・兄と弟・三論と密教は同祖から枝分かれした兄弟）である。 　筆を含んで述べようと",
+          "context_position": 5325,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 104,
+          "篇名": "秋の日僧正大師を賀し奉る詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "七三五・東印度オリッサ国王子、王位を捨て出家、後に唐に来朝し密教を伝える〕が王位を捨てた故事）に位を捨て、臂（ひじ）を断ちて",
+          "context_position": 486,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 105,
+          "篇名": "泰範叡山の澄和尚に啓を答する為の書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "して一仏乗に帰する天台教学）と真言一乗（しんごんいちじょう・密教の即身成仏の一乗・大日経・金剛頂経）と、何の優劣か有る」と。",
+          "context_position": 1229,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 105,
+          "篇名": "泰範叡山の澄和尚に啓を答する為の書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": " と実教）別ち難く、顕密（けんみつ・顕教 prakāśa と密教 guhya）濫（みだ）れ易し。知音（ちいん・真の理解者・『",
+          "context_position": 1779,
+          "sanskrit_in_context": [
+            "guhya",
+            "prakāśa"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "乗）は公（最澄）に非ざれば伝えず。秘密仏蔵（ひみつぶつぞう・密教の秘蔵 guhya-piṭaka）は唯だ我（空海）が誓う所な",
+          "context_position": 863,
+          "sanskrit_in_context": [
+            "guhya-piṭaka"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "不空 amoghavajra〔七〇五〜七七四〕の理趣経註釈、密教の根本秘蔵の一書）を覓（もと）むることを覚（さと）った。然り",
+          "context_position": 1078,
+          "sanskrit_in_context": [
+            "amoghavajra"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "pañca・無益なる思惟分別）を浄（きよ）めて、理趣の句義、密教の逗留（とうりゅう・教えの止まる所・甚深の義）を聴け。 　夫",
+          "context_position": 1603,
+          "sanskrit_in_context": [
+            "pañca"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "きものは則ち汝が声密（しょうみつ・vāg-guhya・口密・密教三密の語密）是（こ）れなり。汝が口の中の言説（ごんせつ）即ち",
+          "context_position": 1801,
+          "sanskrit_in_context": [
+            "vāg-guhya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "ya・語密 vāg-guhya・意密 mano-guhya・密教三密）は則ち是れ理趣なり。我が三密は即ち是れ釈経なり。汝の身",
+          "context_position": 2679,
+          "sanskrit_in_context": [
+            "mano-guhya",
+            "vāg-guhya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "ば、則ち必ず須（すべか）らく三昧耶（さんまや・samaya・密教三昧耶戒・四重禁戒：不捨正法・不捨菩提心・不慳吝勝法・不損悩",
+          "context_position": 3592,
+          "sanskrit_in_context": [
+            "samaya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "無し。 　夫（そ）れ秘蔵（ひぞう・guhya-piṭaka・密教の秘密の蔵）の興廃（こうはい）は、唯（た）だ汝（最澄）と我（",
+          "context_position": 3716,
+          "sanskrit_in_context": [
+            "guhya-piṭaka"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "心 hṛd-cit-saṃkrama・禅宗の核教義であるが、密教でも師資相承の根本）。 　文は是れ糟粕（そうはく・酒粕・『荘",
+          "context_position": 4017,
+          "sanskrit_in_context": [
+            "hṛd-cit-saṃkrama"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "を愛し、摩尼（まに・maṇi・cintāmaṇi・如意宝珠・密教における五智の象徴）を咲（わら）い、以（も）って燕石（えんせ",
+          "context_position": 4986,
+          "sanskrit_in_context": [
+            "cintāmaṇi",
+            "maṇi"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "r-maṇḍa・牛乳五味〔乳・酪・生酥・熟酥・醍醐〕の最上・密教における大日如来の譬喩・『涅槃経』聖行品「譬如従牛出乳、従乳",
+          "context_position": 5514,
+          "sanskrit_in_context": [
+            "r-maṇḍa"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "入れて鍛える）すこと有り（妙剣はみだりに人に与えてはならぬ・密教秘蔵の譬喩）。師師（しし・代々の師）の誥訓（こうくん・遺訓）",
+          "context_position": 7566,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "（し・あなた）若し三昧耶（さんまや・samaya・三昧耶戒・密教の根本誓戒）を越えずして、護（まも）ること身命の如くし、堅く",
+          "context_position": 7645,
+          "sanskrit_in_context": [
+            "samaya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "て、護（まも）ること身命の如くし、堅く四禁（しきん・四重禁・密教の四種根本重戒・諸説あれども不捨正法・不捨菩提心・不慳吝勝法",
+          "context_position": 7688,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "いしゃ）孰（たれ）か此（これ）を観ず 　超越して阿字（あじ・密教阿字本不生〔本来不生 ādyanutpāda〕の根本字 a-",
+          "context_position": 1093,
+          "sanskrit_in_context": [
+            "ādyanutpāda"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "き・等しく希〔まれ〕・無分別）なり 　瑜伽（ゆが・yoga・密教の修法）の境界は特に奇異（きい・希有）なり 　法界の炎光（え",
+          "context_position": 1712,
+          "sanskrit_in_context": [
+            "yoga"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "る者は憂（うれ）いなり 　悉地（しっじ・siddhi・成就・密教の妙果）の楽宮（らっく・楽の宮殿）すら愛し取ること莫れ 　有",
+          "context_position": 2202,
+          "sanskrit_in_context": [
+            "siddhi"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "）せて遷（うつ）る 　一種（いっしゅ）の阿字（a-kāra・密教根本字・阿字本不生）旋輪（せんりん・旋り回る輪）多し 　無辺",
+          "context_position": 5144,
+          "sanskrit_in_context": [
+            "a-kāra"
+          ]
+        },
+        {
+          "shoryoshu_idx": 111,
+          "篇名": "納涼房に雲雷を望む 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "行地、特定不能）にての作と推定される。「魑魅媚殺人」の一句は密教行者の護法（rakṣā）の必要を暗示するも、本詩自体は呪法を",
+          "context_position": 958,
+          "sanskrit_in_context": [
+            "rakṣā"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "大日",
+      "term_kana": "",
+      "sanskrit": "Mahāvairocana",
+      "definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "日"
+      ],
+      "occurrence_count": 111,
+      "篇分布": [
+        0,
+        1,
+        2,
+        6,
+        8,
+        12,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        50,
+        53,
+        55,
+        59,
+        60,
+        61,
+        62,
+        64,
+        65,
+        66,
+        69,
+        71,
+        72,
+        73,
+        74,
+        77,
+        78,
+        84,
+        85,
+        90,
+        97,
+        98,
+        100,
+        101,
+        105,
+        106,
+        108,
+        109
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 0,
+          "篇名": "真済序",
+          "巻": "巻第一",
+          "page_idx": 0,
+          "context": "剛（だいへんじょうこんごう）」（補注：弘法大師空海の灌頂名。大日如来の徳を表す）と申し上げる。お若いころ（青襟、すなわち学生",
+          "context_position": 184,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 0,
+          "篇名": "真済序",
+          "巻": "巻第一",
+          "page_idx": 0,
+          "context": "は伝灯の業を終えた。私の願いも満たされた」と。  金剛薩埵が大日如来の禅定を扣いて（=法を請うて）以来、いわゆる付法第八祖と",
+          "context_position": 1132,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 0,
+          "篇名": "真済序",
+          "巻": "巻第一",
+          "page_idx": 0,
+          "context": "集（へんじょうほっきしょうりょうしゅう）」（補注：「遍照」は大日如来=空海の灌頂名、「発揮」はその精神を発揚する意、「性霊」",
+          "context_position": 2749,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "  (2) かくて筆を取って白絹に記し、大仙（大いなる仙人＝大日如来を寓意）の世界を指し示し、併せて俗世におけるわずらわしさ",
+          "context_position": 341,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "空間の果てを人々は察することなく 法身（仏の真理身、すなわち大日如来）のみが独り能くわきまえておられる  鳬鶴（鳬〔かも〕の",
+          "context_position": 627,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "）に囲まれている 眷属（聖衆たち）は雨のごとく集い従う  【大日如来＝心王（密教思想の核）】  遮那（毘盧遮那如来＝大日如来",
+          "context_position": 2552,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": " 【大日如来＝心王（密教思想の核）】  遮那（毘盧遮那如来＝大日如来）は中央にまします 遮那とは誰の号（よびな）ぞ―― 本（",
+          "context_position": 2580,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "』以来の道家語で「玄妙の機微」、空海においては万物の根源たる大日如来＝法界の機関にも通じる語。本詩末尾は道家的「玄機」によっ",
+          "context_position": 1763,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 6,
+          "篇名": "山に入る興 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "とそう、煩悩を払い落とすこと、頭陀行の同義）して、早く法身（大日如来の真理身）の里に入れよ",
+          "context_position": 1066,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 8,
+          "篇名": "徒に玉を懐く 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "理想王）の妙薬も鄙（おろそ）かにすれば毒となり 法帝（法王、大日如来）の醍醐（『涅槃経』五味の最上、最勝の法味）も謗ずれば災",
+          "context_position": 410,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "ざる所（最も誇るところ）である。法界宮（胎蔵界曼荼羅の中央・大日如来の住処）に遊んで胎蔵（胎蔵界曼荼羅）の海会（諸尊集会）を",
+          "context_position": 3332,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "尊集会）を観じ、金剛界（金剛界曼荼羅）に入りて遍智（遍智印・大日如来の智印）の麻集（麻のごとく密集する諸尊）を礼した。百千の",
+          "context_position": 3389,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "仏法の心髄要妙、これに在るか。  無畏三蔵（善無畏阿闍梨、『大日経』を中国に将来）は王位を脱躧（履きものを脱ぐように王位を捨",
+          "context_position": 3878,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "（無意味にしたか、いな意義深し）。  金剛薩埵（密教第二祖、大日如来から法を直受した菩薩）が稽首して寂（大日如来の入定）を扣",
+          "context_position": 4019,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "埵（密教第二祖、大日如来から法を直受した菩薩）が稽首して寂（大日如来の入定）を扣（こう）いてより、師師相伝して、いまに七葉（",
+          "context_position": 4041,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 43,
+          "篇名": "青龍の和尚に衲の袈裟を献ずる状",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "えども、三密（身・語・意の三密、密教の根本）を一法（金剛頂・大日経の根本法）に朗らかにし、十地（菩薩の十地階位）を一生に究め",
+          "context_position": 521,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "、乗蓮の珍長（じんちょう、蓮華に乗る尊い大覚者・釈尊と密教の大日如来）は三椎（さんつい、三毒・貪瞋癡の三本の槌の謂、または三",
+          "context_position": 486,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "、孕日の輪王（ようじつのりんおう、太陽を孕む転輪聖王の比喩・大日如来）は一路（一乗の道・成仏の唯一道）を褰（かか）げて示し給",
+          "context_position": 567,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 44,
+          "篇名": "桓武皇帝の奉為に太上御書の金字の法華を講ずる達嚫",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "荘子』）せん。  太上天皇（嵯峨上皇）、超然として一（道一・大日真理）を守って、姑射（こや、藐姑射山・『荘子』逍遙遊の神人の",
+          "context_position": 2326,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "、両部曼荼羅・胎蔵界と金剛界の両方の円満）の大我（仏の真如・大日如来の自性）は、如如（にょにょ、真如・絶対の真理）を一居（い",
+          "context_position": 37,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "題（もんだい・きっかけ）に蕩（とろ）かし、五智（密教の五智・大日如来の五智）は一誦の吻（くちさき）に集（つど）う。幡蓋（はん",
+          "context_position": 1940,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "者の至上の依処）は、唯だ覚中の大覚（諸々の覚りの中の大覚者・大日如来および釈尊）にあるばかり。  また、夫れ国は民を以て基（",
+          "context_position": 562,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "、四智（密教の四智〔大円鏡・平等性・妙観察・成所作〕、または大日如来の四智印）の法帝、五大（密教の五大〔地・水・火・風・空〕",
+          "context_position": 1847,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 48,
+          "篇名": "東太上故中務卿親王の為に檀の像を造刻する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "（ばがぼん、梵語 bhagavat の音写・世尊・釈尊または大日如来）と号す。大虚（たいきょ、大いなる空・虚空）を孕（はら）",
+          "context_position": 60,
+          "sanskrit_in_context": [
+            "bhagavat"
+          ]
+        },
+        {
+          "shoryoshu_idx": 48,
+          "篇名": "東太上故中務卿親王の為に檀の像を造刻する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "とも尊き）の玉の質（しつ、すがた）、智智（ちち、諸智の根源・大日五智）の金山（こんざん、黄金の山・仏身の喩）、香饌（こうせん",
+          "context_position": 1026,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 49,
+          "篇名": "藤大使中納言亡児の為に斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "（ばがぼん、梵語 bhagavat の音写・世尊・釈尊または大日如来）大師は、悲（大悲）有り、智（大智）有り。達磨（だつま、",
+          "context_position": 33,
+          "sanskrit_in_context": [
+            "bhagavat"
+          ]
+        },
+        {
+          "shoryoshu_idx": 50,
+          "篇名": "式部の笠丞が為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "さつ、悪鬼の祟り）が雪のごとく滅（き）える。  その源は則ち大日（大日如来）に名を得（密教の中尊・両部曼荼羅の主尊）、大悲は",
+          "context_position": 425,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 50,
+          "篇名": "式部の笠丞が為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "悪鬼の祟り）が雪のごとく滅（き）える。  その源は則ち大日（大日如来）に名を得（密教の中尊・両部曼荼羅の主尊）、大悲は則ち観",
+          "context_position": 428,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "羅）に身命を投げうって帰命したてまつる。  そもそも、金剛界大日如来の体現する四種法身（自性・受用・変化・等流の四身）と胎蔵",
+          "context_position": 90,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "来の体現する四種法身（自性・受用・変化・等流の四身）と胎蔵界大日如来の標示する三種の秘密印契（身・口・意の三密印）とは、絶対",
+          "context_position": 123,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "際無く、光明の日宮（にっきゅう。太陽の宮殿。胎蔵中台八葉院の大日所居）は、遍く遍照せざる所が無い。  真言の大我（だいが。大",
+          "context_position": 627,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "日所居）は、遍く遍照せざる所が無い。  真言の大我（だいが。大日如来の絶対的主宰者性。顕教の無我説とは異なり、密教では大日如",
+          "context_position": 658,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "。大日如来の絶対的主宰者性。顕教の無我説とは異なり、密教では大日如来を「我」として把握する）は本より心蓮（しんれん。心月輪の",
+          "context_position": 687,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "心仏衆生三無差別・仏法僧三宝平等）の法門は、仏日（ぶつにち。大日如来の智慧の太陽）の中に住しながら常に法輪を転じて止まず、秘",
+          "context_position": 859,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "を映すごとく、断えることが無い。  法性身（ほっしょうじん。大日如来の自性法身）の塔の姿——なんと奇しく不思議なるかな、なん",
+          "context_position": 973,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "法華経』見宝塔品の多宝塔出現を踏まえた賛嘆。両部曼荼羅は法身大日の塔身そのものとして拝む）。  弟子空海は、本性熏習（ほんし",
+          "context_position": 1046,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "誠（精一なる真心）の感応によって、ようやくこの秘密の法門（『大日経』『金剛頂経』）に巡り会うことができた。しかし経文を前にし",
+          "context_position": 1324,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "胎蔵中台八葉院の九識の心王（くしきのしんのう。中台九尊＝中央大日如来と八葉の宝幢・開敷華王・無量寿・天鼓雷音・普賢・文殊・観",
+          "context_position": 2284,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "音・弥勒。九尊を眼耳鼻舌身意末那阿頼耶阿摩羅の九識に配する『大日経疏』の説に拠る）は蓮華台に乗じて静かに座する相を凝らし、金",
+          "context_position": 2346,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "相を凝らし、金剛界の五智の法帝（ごちのほうたい。金剛界五仏＝大日・阿閦・宝生・阿弥陀・不空成就。五智＝法界体性・大円鏡・平等",
+          "context_position": 2401,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "して居並んでおられる。  ひとたび礼し、ひとたび仰ぎ瞻れば、大日如来の慧剣（えけん。智慧の利剣、文殊金剛智剣）が煩悩の縛を断",
+          "context_position": 2681,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "したい。  この国土は妙楽の刹（みょうらくのせつ。密厳浄土。大日如来の本国浄土）に均しくなり、すべての人々は不変の人（如来。",
+          "context_position": 2884,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "遍く満ちる所、心識の在る所のすべての衆生は、阿字（あじ。胎蔵大日如来の種子字。本不生＝諸法の本来不生の真理を象徴）を本初（ほ",
+          "context_position": 3157,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "て三宝（仏法僧）を三密（身口意）に覚り、鑁字（ばんじ。金剛界大日如来の種子字。離言説不可得＝言詮の及ばぬ真理を象徴）を無終に",
+          "context_position": 3232,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "四）孟冬（陰暦十月）二十二日、亡母の本願を遂行せんがために、大日如来の微細会曼荼羅（『金剛頂経』所説の九会曼荼羅のうちの微細",
+          "context_position": 1711,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "七十三尊」と独自に構成）一鋪九幅七十三尊を画き奉り、併せて『大日経』等の若干部巻を書写し奉った。兼ねて法侶（僧侶）を延（ひ）",
+          "context_position": 1783,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "の若干部巻を書写し奉った。兼ねて法侶（僧侶）を延（ひ）き、『大日経』所説の法身大日如来の智印（諸尊の三昧耶印契）を講演した。",
+          "context_position": 1818,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "奉った。兼ねて法侶（僧侶）を延（ひ）き、『大日経』所説の法身大日如来の智印（諸尊の三昧耶印契）を講演した。  四銖（ししゅ。",
+          "context_position": 1827,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "疎遠なる者・親密なる者、ことごとく等しく鑁字（ばんじ。金剛界大日種子）の乳の珍味に飽き、斉しく阿字（胎蔵大日種子）本不生の宝",
+          "context_position": 2525,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "（ばんじ。金剛界大日種子）の乳の珍味に飽き、斉しく阿字（胎蔵大日種子）本不生の宝閣に登らんことを。",
+          "context_position": 2547,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 59,
+          "篇名": "平城の東大寺に於いて三宝を供する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "、三宝（仏・法・僧）に帰命したてまつる。  法身（ほっしん。大日如来の本体身）は何処にあるのか。遠きにあらず、即ち我が身その",
+          "context_position": 38,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 59,
+          "篇名": "平城の東大寺に於いて三宝を供する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "を超越）にして、赫日の台（胎蔵界曼荼羅の日輪台、中台八葉院の大日所居）に常恒（じょうごう。常住恒久）たり。  摂下（しょうげ",
+          "context_position": 244,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 60,
+          "篇名": "荒城の大夫幡の上の仏像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "に若（し）かんや、性蓮（しょうれん。本性蓮華、胎蔵界の理法身大日）の大我（だいが。大日如来の絶対主体）が、太虚に遍じて終りな",
+          "context_position": 403,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 60,
+          "篇名": "荒城の大夫幡の上の仏像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "（しょうれん。本性蓮華、胎蔵界の理法身大日）の大我（だいが。大日如来の絶対主体）が、太虚に遍じて終りなく、覚樹（菩提樹）の法",
+          "context_position": 414,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 60,
+          "篇名": "荒城の大夫幡の上の仏像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "樹）の法皇（ほうおう。菩提樹下に正覚した法王、金剛界の智法身大日）が、微塵（極微）に入って始めなきことに。  三点（さんてん",
+          "context_position": 472,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 60,
+          "篇名": "荒城の大夫幡の上の仏像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "）は、三力（さんりき。自業力〔自力〕・如来加持力・法界力。『大日経』疏巻一所説）の加持と、六通（六神通——神足・天眼・天耳・",
+          "context_position": 1571,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 61,
+          "篇名": "知識の華厳会の為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "帰依する者は忽ちに青雲の上に飛翔し、これを誦持する者は乍ちに大日如来（『華厳経』本尊・毘盧遮那如来）の輿（こし。聖駕）に乗じ",
+          "context_position": 338,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 62,
+          "篇名": "葛木の参軍先考の忌斎を設くる願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "ること）は如何ともなし難い。  彼（仏陀）はすでに大我（密教大日如来の絶対主体）であり、よく阿字（胎蔵大日種子。万法本不生の",
+          "context_position": 504,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 62,
+          "篇名": "葛木の参軍先考の忌斎を設くる願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "はすでに大我（密教大日如来の絶対主体）であり、よく阿字（胎蔵大日種子。万法本不生の真理）を覚（さと）る。これは達磨（だるま。",
+          "context_position": 525,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 64,
+          "篇名": "田小貳が先妣の忌斎を設くる為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "洗（じゅんせん。潤し清める）せしめん。  妄霧を褰（あ）げて大日如来を覩（み）、智鏡を懐（いだ）いて実相（諸法実相）を照らさ",
+          "context_position": 1229,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "有を摂め保って乱れさせぬ徳がある。理が万有を摂持するゆえに、大日法身は法界全体をその内に孕みつつ、しかも法界の外にもひろがっ",
+          "context_position": 116,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "vān mahāvairocana tathāgata・世尊大日如来）その人にほかならない。 　また、（『老子』四十三章「天",
+          "context_position": 470,
+          "sanskrit_in_context": [
+            "mahāvairocana",
+            "tathāgata",
+            "vān"
+          ]
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "）五月二十二日、亡室の焭たる孤魂（焭霊）を済度せんがために、大日如来一印一尊の曼荼羅一鋪五幅を画き奉り、あわせて広眼（こうげ",
+          "context_position": 1469,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "・vairocana の異名・遍く照らす義）の法曼荼羅たる『大日経』一部七巻を書写した。さらに兼ねて神護寺（京都高雄山神護国",
+          "context_position": 1532,
+          "sanskrit_in_context": [
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "国祚真言寺・空海の常住道場）に赴き、聊か法席を肆（の）べて『大日経』を講演した。松の谷（松㵎・しょうかん）はうつろにして人の",
+          "context_position": 1593,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "杖を飛ばす行脚僧）の徒は森羅と立ち並び、写瓶（しゃびょう・『大日経疏』に「水を瓶より瓶に瀉ぐがごとく師の法を受け尽くす」と説",
+          "context_position": 1812,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "は菩提樹王（覚樹）の根葉に灑がんことを。覚眼を除蓋障三昧（『大日経』六無畏の入仏三摩地・智の障りを除く三昧）に開き、心月（自",
+          "context_position": 2098,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 66,
+          "篇名": "藤左近の将監先妣の為に三七の斎を設くる願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "わち弥勒菩薩）こそそれである。法界宮（胎蔵曼荼羅中台八葉院・大日如来の根本住処）に住んで大日如来の徳化を輔（たす）け、都史殿",
+          "context_position": 295,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 66,
+          "篇名": "藤左近の将監先妣の為に三七の斎を設くる願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "。法界宮（胎蔵曼荼羅中台八葉院・大日如来の根本住処）に住んで大日如来の徳化を輔（たす）け、都史殿（兜率天・とそつてん・弥勒菩",
+          "context_position": 309,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 69,
+          "篇名": "弟子の僧真体が亡妹の七七の斎を設け並びに伝灯の料田を奉入する為の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "さま）として頂きが見えぬほどに高い。内心の大我（だいが・心王大日）は法界をその都（みやこ）として、しかも常恒（永遠不変）に変",
+          "context_position": 433,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 69,
+          "篇名": "弟子の僧真体が亡妹の七七の斎を設け並びに伝灯の料田を奉入する為の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "す）。兼ねては龍象（りゅうぞう・大徳高僧）を延（まね）いて『大日経』を演説し、並びに百味（ひゃくみ・百種の供物）を設けて三宝",
+          "context_position": 1368,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "（がかくほんふしょううんぬん・我覚れり、本不生にして云云・『大日経』阿字本不生五字真言の意）」、「普賢法身遍一切云云（ふげん",
+          "context_position": 451,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "びょう・水を瓶より瓶に注ぐごとく師の教えを残らず受ける——『大日経疏』）し、秉法（へいほう・法執を秉る）の日に戒壇に臨んで翻",
+          "context_position": 1110,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "同経）の客は、日夜に般楽（はんらく・遊楽）し、不二一如の主（大日如来）は、歳時（年がら年中）に無為（仏果無為）に住まいたまう",
+          "context_position": 1086,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "金剛界五仏の五智）を鑁水（ばんすい・鑁字vam・水大の真言・大日如来の智の象徴）に得たり。法界三昧（dharma-dhātu",
+          "context_position": 2470,
+          "sanskrit_in_context": [
+            "dharma-dhātu",
+            "vam"
+          ]
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "に通ずる三昧）を汝は久しく修習し、遮那（vairocana・大日如来）の四秘（しひ・四種曼荼羅・大・三昧耶・法・羯磨の四曼）",
+          "context_position": 2545,
+          "sanskrit_in_context": [
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "観察智の力をもって即身成仏し、即心の曼荼羅となる。故に経（『大日経』）にいわく「我覚本不生云云（われ本不生なるを覚れり云云）",
+          "context_position": 2802,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "有（ほんぬ・本来本有）の殿を開き、九尊（胎蔵中台八葉院の中央大日と四仏四菩薩の九尊）の性蓮（本性の蓮華）の宮を授けたまえ。法",
+          "context_position": 3425,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 73,
+          "篇名": "弟子求寂真際が冥扉に入る為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "を闕（か）かんとは。常に思っていたのは、写瓶（しゃびょう・『大日経疏』「水を瓶より瓶に瀉ぐがごとく師の法を残すところなく受け",
+          "context_position": 522,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 73,
+          "篇名": "弟子求寂真際が冥扉に入る為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "この善業に藉（よ）りて、亡き真際が本尊（ほんぞん・密教本尊・大日如来）に帰承し、法界に遊戯（ゆけ・遊化自在）し、秘法（密教の",
+          "context_position": 1018,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 74,
+          "篇名": "孝子先妣の周忌の為に両部の曼荼羅大日経を図写し供養して講説す表白の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "証（自内証）の微言（深妙な言）を留めて七軸（七巻）の真典（『大日経』七巻）を書写した。昼の時には尊経（『大日経』）の題目を唱",
+          "context_position": 984,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 74,
+          "篇名": "孝子先妣の周忌の為に両部の曼荼羅大日経を図写し供養して講説す表白の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "七巻）の真典（『大日経』七巻）を書写した。昼の時には尊経（『大日経』）の題目を唱え開き、夜の間には海会の諸尊を供養した。四衆",
+          "context_position": 1006,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "それがし）は、法界三昧の薄伽梵（ばがばん・bhagavān・大日如来）に帰命したてまつる。財を金剛等至（こんごうとうじ・sa",
+          "context_position": 36,
+          "sanskrit_in_context": [
+            "bhagavān"
+          ]
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "書写した故事）の信を尚んで、五十五の大曼荼羅（だいまんだら・大日五十五尊曼荼羅／金剛界三十七尊＋胎蔵諸尊等の合計）の如来像を",
+          "context_position": 270,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "して、今日この時、荒穢の山亭を払い洒（そそ）ぎ清め、経王（『大日経』『法華経』等の経の王者）の妙なる法筵を鋪（し）き肆（の）",
+          "context_position": 2479,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 78,
+          "篇名": "先師の為に梵網経を講釈する表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "法・報・応〕の譬・『涅槃経』哀歎品）の堂に散ずる。命を台上の大日（中台八葉院の大日如来）に帰し、身を樹下の能仁（のうにん・釈",
+          "context_position": 339,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 78,
+          "篇名": "先師の為に梵網経を講釈する表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "『涅槃経』哀歎品）の堂に散ずる。命を台上の大日（中台八葉院の大日如来）に帰し、身を樹下の能仁（のうにん・釈尊・菩提樹下成道）",
+          "context_position": 348,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 78,
+          "篇名": "先師の為に梵網経を講釈する表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "げ訴える。仰ぎ願わくは、慈悲の三尊（先師勤操の本尊三尊か——大日・釈迦・梵網盧遮那）、霊あらば証明したまえ。 　風に聞く——",
+          "context_position": 434,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 78,
+          "篇名": "先師の為に梵網経を講釈する表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "（『梵網経』所説の蓮華蔵世界の中央本尊・vairocana 大日如来）、千百億国の釈迦尊（『梵網経』千百億化身釈迦）と、四十",
+          "context_position": 2688,
+          "sanskrit_in_context": [
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 84,
+          "篇名": "高野山万灯会の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "が銀河に懸けられて、誰がよく三千大千世界の明を作し得ようか。大日如来があまねく法界を照らし、智鏡が高く霊台（心の高台）に鑑（",
+          "context_position": 134,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 84,
+          "篇名": "高野山万灯会の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "じつ・赫々たる太陽）の光をも滅す。囉（ラン・raṃ・火大字・大日如来の真言）の一炎がたちまちに法界に飄（ひるがえ）って病を除",
+          "context_position": 748,
+          "sanskrit_in_context": [
+            "raṃ"
+          ]
+        },
+        {
+          "shoryoshu_idx": 84,
+          "篇名": "高野山万灯会の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "がく・本来本覚）の自がたちまちに他の身を奪う。無尽の荘厳は、大日の恵光を放って、刹塵の智印は、朗月（さやけき満月）の定照（禅",
+          "context_position": 926,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 85,
+          "篇名": "敬て勧む仏塔曼荼羅等を造り奉るべき事",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "んがために、金剛峯寺において、毘盧遮那（vairocana・大日如来）法界体性（ほっかいたいしょう・法界体性智の表象）の塔二",
+          "context_position": 308,
+          "sanskrit_in_context": [
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 85,
+          "篇名": "敬て勧む仏塔曼荼羅等を造り奉るべき事",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "福に饒（ゆた）かなり。同じく無明の郷（くに）を脱して、斉しく大日の殿に遊ばしめたまえ。敬んで勧む。 　承和元年（八三四）八月",
+          "context_position": 786,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 90,
+          "篇名": "東寺の塔を造り奉る材木を曳き運ぶ勧進の表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "）と号（なづ）く。功徳聚は則ち毘盧遮那（vairocana・大日如来）の万徳の集成する所、与願印は則ち宝生（ratnasam",
+          "context_position": 198,
+          "sanskrit_in_context": [
+            "ratnasam",
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "）は影を分かちて類（衆生の類）に随い、理仏（理智の中の理仏・大日法身）・智仏（智の中の仏・自証仏）は秘宮（ひきゅう・秘密法界",
+          "context_position": 181,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "〔他受用〕・応化身）の経これなり。密蔵とは、法身如来（自性身大日）の説これなり。顕は則ち因果の六度（ろくど・布施・持戒・忍辱",
+          "context_position": 359,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "でん）の中に常恒に演説したまう所の自受法楽（じじゅほうらく・大日自身の法楽）の教なり」と。  　故に『金剛頂経』に説かく——",
+          "context_position": 1699,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "自外（顕教外）の顕経論の中には説かずとなり。  　法身如来（大日）より我が大広智三蔵和尚（不空）に暨（およ）ぶまで、師師伝受",
+          "context_position": 1885,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "よ）ぶまで、師師伝受して、今に六葉（ろくよう・六代）なり——大日 → 金剛薩埵（vajrasattva）→ 龍猛 → 龍智 ",
+          "context_position": 1937,
+          "sanskrit_in_context": [
+            "vajrasattva"
+          ]
+        },
+        {
+          "shoryoshu_idx": 98,
+          "篇名": "高野建立の初めの結界の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "者は毎に三界（欲・色・無色）の泥に沈む。  　是の故に大悲の大日如来、独り三昧耶（さんまや・samaya・本誓・平等の誓願）",
+          "context_position": 385,
+          "sanskrit_in_context": [
+            "samaya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "震宮（しんきゅう・東宮〔即ち補処〕、震は東方）に養いて、位を大日の覚殿に紹（つ）ぐ。名この徳を含めり。実に合契（ごうけい・符",
+          "context_position": 595,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "く）するの類は、我が大師薄伽梵（ばがぼん・bhagavan・大日如来）の子なり。僧伽（そうが・saṃgha）と呼ぶ。僧伽は梵",
+          "context_position": 1434,
+          "sanskrit_in_context": [
+            "bhagavan",
+            "saṃgha"
+          ]
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "ぶ」（道に志し、徳に依り、仁に依り、芸に遊ぶ）と曰う。経（『大日経』入真言門住心品、もしくは『不空羂索神変真言経』）に曰う、",
+          "context_position": 3491,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "二諦相即・真俗不二の旨）とは、わが師（恵果阿闍梨か、あるいは大日如来本師）の雅言（がげん・尊い教え）である。  　一、道人（",
+          "context_position": 4106,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 105,
+          "篇名": "泰範叡山の澄和尚に啓を答する為の書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "教学）と真言一乗（しんごんいちじょう・密教の即身成仏の一乗・大日経・金剛頂経）と、何の優劣か有る」と。泰範は智、菽麦（しゅく",
+          "context_position": 1240,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "し無我の大我を求めば、則ち遮那（しゃな・vairocana・大日如来）の三密即ち是れなり。遮那の三密は何（いず）れの処にか遍",
+          "context_position": 3066,
+          "sanskrit_in_context": [
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "a・牛乳五味〔乳・酪・生酥・熟酥・醍醐〕の最上・密教における大日如来の譬喩・『涅槃経』聖行品「譬如従牛出乳、従乳出酪、従酪出",
+          "context_position": 5520,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 108,
+          "篇名": "後夜に仏法僧鳥を聞く",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "」）たり（三宝の声・人の心・山中の雲・流れる水、いずれも法身大日 vairocana の三密 tri-guhya の現前。一",
+          "context_position": 333,
+          "sanskrit_in_context": [
+            "tri-guhya",
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "）く観じて取らざれば、法身（ほっしん・dharmakāya・大日如来）清（きよ）し 　咄（とつ・嘆ずる声）なきかな、迷者（め",
+          "context_position": 1031,
+          "sanskrit_in_context": [
+            "dharmakāya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "深く修して観察すれば原底（げんてい・本源の底）を得（う） 　大日（だいにち・vairocana）円々（えんねん・遍く満つ）と",
+          "context_position": 2483,
+          "sanskrit_in_context": [
+            "vairocana"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "法界",
+      "term_kana": "",
+      "sanskrit": "dharma-dhātu",
+      "definition": "宇宙の真実相。一切法の根本領域。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "界"
+      ],
+      "occurrence_count": 68,
+      "篇分布": [
+        1,
+        2,
+        4,
+        7,
+        12,
+        47,
+        53,
+        54,
+        55,
+        56,
+        57,
+        60,
+        61,
+        65,
+        66,
+        68,
+        69,
+        71,
+        72,
+        73,
+        77,
+        78,
+        84,
+        85,
+        90,
+        97,
+        98,
+        99,
+        100,
+        101,
+        104,
+        106,
+        109
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "空海特有の比喩。山を筆、海を墨として書いてもなお書き尽くせぬ法界の広大さ） 乾坤（天と地）は経籍の箱 万象を一点の中に含み ",
+          "context_position": 2762,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "降年（天より授かった寿命）あに限り壃（さかい）あらんや  【法界の境地と修行】  光明は法界（仏教世界・宇宙）に満ちわたり ",
+          "context_position": 2996,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "に限り壃（さかい）あらんや  【法界の境地と修行】  光明は法界（仏教世界・宇宙）に満ちわたり 一字（密教でいう「阿〔ア〕字",
+          "context_position": 3010,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "家語で「玄妙の機微」、空海においては万物の根源たる大日如来＝法界の機関にも通じる語。本詩末尾は道家的「玄機」によって禁苑の景",
+          "context_position": 1768,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 4,
+          "篇名": "雨を喜ぶ歌 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "は筹（はか）ることあたわず。 一唾（一念の威力）よく百界（百法界、あらゆる世界）の火を銷し、 一朝（一日のうち）よく万人の愁",
+          "context_position": 1567,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 4,
+          "篇名": "雨を喜ぶ歌 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "（法身・報身・応身の仏の三種身）の所住の国土であり、 五智（法界体性智・大円鏡智・平等性智・妙観察智・成所作智の如来五智）の",
+          "context_position": 1798,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 7,
+          "篇名": "山中に何の楽しみが有る 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "あった所 私は息悪修善（悪を息め善を修む）の人と名づけられ 法界（全宇宙）を家として、仏恩に報ずる賓（旅人）である 天子は頭",
+          "context_position": 235,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 7,
+          "篇名": "山中に何の楽しみが有る 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "密と一致させる密教の根本観）は塵滴の数を超えたり これを十方法界の身に奉献す（全宇宙の仏陀身に捧げ奉る） 一片の香煙、一口の",
+          "context_position": 590,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "よく勤むること、わが師の譲らざる所（最も誇るところ）である。法界宮（胎蔵界曼荼羅の中央・大日如来の住処）に遊んで胎蔵（胎蔵界",
+          "context_position": 3318,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 47,
+          "篇名": "右将軍良納言開府儀同三司左僕射の為に大祥の斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "翔楼（しょうろう、空翔る高楼）に賞（しょう、賞翫）せん。当に法界（ほっかい、宇宙全体）を有（たも）ちて、覚尊王（かくそんおう",
+          "context_position": 2161,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "祖」、『礼記』月令に見える）の祭を営み、重重無尽の真如（華厳法界縁起観を密教に取入れた表現）にあって馬に秣（まぐさ）を与え、",
+          "context_position": 275,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "蔵大曼荼羅一鋪八幅、金剛界大曼荼羅一鋪九幅、五大虚空蔵菩薩（法界・金剛・宝光・蓮華・業用の五菩薩）、五忿怒尊（不動・降三世・",
+          "context_position": 2035,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "たい。金剛界五仏＝大日・阿閦・宝生・阿弥陀・不空成就。五智＝法界体性・大円鏡・平等性・妙観察・成所作）は月輪に坐し、おごそか",
+          "context_position": 2422,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "終に解して、五界（地水火風空の五大に対応する五智界）を五智（法界体性・大円鏡・平等性・妙観察・成所作）に知るに至るであろう。",
+          "context_position": 3292,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 54,
+          "篇名": "故藤中納言の為に十七尊の像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "理趣会では金剛薩埵に侍する女形菩薩、ゆえに「侍女」と称す）は法界に充満して尽くることなく、四摂菩薩（鉤・索・鎖・鈴。衆生を引",
+          "context_position": 2026,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "りがあり、三宝（仏・法・僧の三尊）よ、どうかお受け給え。  法界が彩光を発して、海会（諸尊集合）の影像は森羅と並び、丹青（赤",
+          "context_position": 2001,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 56,
+          "篇名": "僧寿勢先師の為に忌日の料物を入るる願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "の教えに従って五十三善知識を百十余城に歴参した（『華厳経』入法界品）ように、朋を百城に訪ねて勇鋭の心はいよいよ励み、常啼菩薩",
+          "context_position": 363,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 57,
+          "篇名": "和気の夫人法華寺に於いて千灯料を入れ奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "くあん。煩悩の暗黒）の心がたちまち銷え去らんことを。  普く法界を照らして五眼（ごげん。肉眼・天眼・慧眼・法眼・仏眼の五種の",
+          "context_position": 695,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 60,
+          "篇名": "荒城の大夫幡の上の仏像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "ょう。父母）は、三力（さんりき。自業力〔自力〕・如来加持力・法界力。『大日経』疏巻一所説）の加持と、六通（六神通——神足・天",
+          "context_position": 1566,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 61,
+          "篇名": "知識の華厳会の為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "陀訳の華厳経）これである。  事と理とは無碍に通じ（事理無碍法界。華厳四法界の第三）、一と多とは相融する（事事無碍法界。華厳",
+          "context_position": 255,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 61,
+          "篇名": "知識の華厳会の為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "）これである。  事と理とは無碍に通じ（事理無碍法界。華厳四法界の第三）、一と多とは相融する（事事無碍法界。華厳四法界の第四",
+          "context_position": 261,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 61,
+          "篇名": "知識の華厳会の為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "理無碍法界。華厳四法界の第三）、一と多とは相融する（事事無碍法界。華厳四法界の第四、一即多・多即一）。  これに帰依する者は",
+          "context_position": 282,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 61,
+          "篇名": "知識の華厳会の為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "華厳四法界の第三）、一と多とは相融する（事事無碍法界。華厳四法界の第四、一即多・多即一）。  これに帰依する者は忽ちに青雲の",
+          "context_position": 288,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "って乱れさせぬ徳がある。理が万有を摂持するゆえに、大日法身は法界全体をその内に孕みつつ、しかも法界の外にもひろがって境涯を絶",
+          "context_position": 121,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "摂持するゆえに、大日法身は法界全体をその内に孕みつつ、しかも法界の外にもひろがって境涯を絶し（外無し）、智が万象を光照するゆ",
+          "context_position": 138,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "、ただの迷妄無知でしかない。塵粒のごとき微小な色身と広大なる法界とが本来不二であると達し、一滴のごとき微小な心と一切の心とが",
+          "context_position": 343,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "を受け尽くす」と説く弟子）の衆が車輻のごとく湊（あつ）まる。法界の浄体（金剛界自性身）は月輪に乗じて儼然と坐したまい、摂供の",
+          "context_position": 1865,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "く同じく四生（胎・卵・湿・化）の愛欲輪廻を破って、ともに一真法界（唯一真実の法界）の覚殿に入らんことを。",
+          "context_position": 2280,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "・卵・湿・化）の愛欲輪廻を破って、ともに一真法界（唯一真実の法界）の覚殿に入らんことを。",
+          "context_position": 2288,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 66,
+          "篇名": "藤左近の将監先妣の為に三七の斎を設くる願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "attva・聖大慈氏菩薩・すなわち弥勒菩薩）こそそれである。法界宮（胎蔵曼荼羅中台八葉院・大日如来の根本住処）に住んで大日如",
+          "context_position": 280,
+          "sanskrit_in_context": [
+            "attva"
+          ]
+        },
+        {
+          "shoryoshu_idx": 66,
+          "篇名": "藤左近の将監先妣の為に三七の斎を設くる願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "・中台八葉院＋遍知院その他八殿）の九殿に開かしめたまえ。この法界はすべてことごとく四恩（父母の恩・国王の恩・衆生の恩・三宝の",
+          "context_position": 1600,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 68,
+          "篇名": "林学生の先考妣の忌日に仏を造り僧に飯する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "—『摩訶止観』『大智度論』の譬）を竭（か）らしたまえ。高くは法界（dharma-dhātu）の宮殿に臨み、深くは真如（しんに",
+          "context_position": 1296,
+          "sanskrit_in_context": [
+            "dharma-dhātu"
+          ]
+        },
+        {
+          "shoryoshu_idx": 69,
+          "篇名": "弟子の僧真体が亡妹の七七の斎を設け並びに伝灯の料田を奉入する為の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "　そもそも仏には五智（ごち・法界体性智・大円鏡智・平等性智・妙観察智・成所作智）があり、それ",
+          "context_position": 14,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 69,
+          "篇名": "弟子の僧真体が亡妹の七七の斎を設け並びに伝灯の料田を奉入する為の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "して頂きが見えぬほどに高い。内心の大我（だいが・心王大日）は法界をその都（みやこ）として、しかも常恒（永遠不変）に変ぜず、金",
+          "context_position": 437,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "・菩薩・仏）の所有は、ことごとくわが心である。虚空を尽くし、法界に洞（とお）らかに、同じく一味（『法華経』薬草喩品の一味の雨",
+          "context_position": 1874,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "すい・鑁字vam・水大の真言・大日如来の智の象徴）に得たり。法界三昧（dharma-dhātu-samādhi・遍く法界に通",
+          "context_position": 2485,
+          "sanskrit_in_context": [
+            "dharma-dhātu-samādhi",
+            "vam"
+          ]
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "り。法界三昧（dharma-dhātu-samādhi・遍く法界に通ずる三昧）を汝は久しく修習し、遮那（vairocana・",
+          "context_position": 2513,
+          "sanskrit_in_context": [
+            "dharma-dhātu-samādhi",
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "、妄薪（妄想の薪）を智火（智慧の火）に焼く。「我即金剛、我即法界（われすなわち金剛、われすなわち法界）」と——三等（さんとう",
+          "context_position": 2652,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "に焼く。「我即金剛、我即法界（われすなわち金剛、われすなわち法界）」と——三等（さんとう・三平等・身口意の三密平等加持）の真",
+          "context_position": 2670,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "日と四仏四菩薩の九尊）の性蓮（本性の蓮華）の宮を授けたまえ。法界を都として帝（みかど）と称し、刹塵に遍くして民を撫したまえ。",
+          "context_position": 3456,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 73,
+          "篇名": "弟子求寂真際が冥扉に入る為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "て、亡き真際が本尊（ほんぞん・密教本尊・大日如来）に帰承し、法界に遊戯（ゆけ・遊化自在）し、秘法（密教の秘法）を弘伝し、二利",
+          "context_position": 1028,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "　弟子某甲（それがし）は、法界三昧の薄伽梵（ばがばん・bhagavān・大日如来）に帰命し",
+          "context_position": 13,
+          "sanskrit_in_context": [
+            "bhagavān"
+          ]
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "・解脱知見の五分法身の香——『心地観経』『涅槃経』）の妙香を法界の宮殿（中台八葉院）に熏じ、一覚（一切種智の覚り）の虹幡を円",
+          "context_position": 491,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "書写したてまつった。兼ねて、普賢大士の菩提行願（『華厳経』入法界品・普賢行願品「十大願王」）の心、観音菩薩・慈氏（じし・慈氏",
+          "context_position": 2404,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "法華経』等の経の王者）の妙なる法筵を鋪（し）き肆（の）べた。法界の諸尊を驚覚し、羅漢・龍象（大徳の僧）を延請（えんしょう）し",
+          "context_position": 2514,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 78,
+          "篇名": "先師の為に梵網経を講釈する表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "）を本浄（自性清浄・本来本浄）の水に洗い、信香（信心の香）を法界の爐（ろ・香爐）に焚き、慧灯（智慧の灯）を一如（真如一如）の",
+          "context_position": 249,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 78,
+          "篇名": "先師の為に梵網経を講釈する表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "の肉身を養うのみ、国王の徳は一世の凡体を安んずるのみ、三宝は法界に遍くとはいえ、すべて見聞することはできない。四恩の所在を知",
+          "context_position": 1161,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 84,
+          "篇名": "高野山万灯会の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "、誰がよく三千大千世界の明を作し得ようか。大日如来があまねく法界を照らし、智鏡が高く霊台（心の高台）に鑑（かが）みるに至って",
+          "context_position": 143,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 84,
+          "篇名": "高野山万灯会の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "き、衆生尽き、涅槃尽きなば、わが願いも尽きん」（『華厳経』入法界品・普賢行願品「虚空界尽き、衆生界尽き、衆生業尽き、衆生煩悩",
+          "context_position": 455,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 84,
+          "篇名": "高野山万灯会の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "囉（ラン・raṃ・火大字・大日如来の真言）の一炎がたちまちに法界に飄（ひるがえ）って病を除き、質多（チッタ・citta・心字",
+          "context_position": 765,
+          "sanskrit_in_context": [
+            "citta",
+            "raṃ"
+          ]
+        },
+        {
+          "shoryoshu_idx": 85,
+          "篇名": "敬て勧む仏塔曼荼羅等を造り奉るべき事",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "、金剛峯寺において、毘盧遮那（vairocana・大日如来）法界体性（ほっかいたいしょう・法界体性智の表象）の塔二基（根本大",
+          "context_position": 313,
+          "sanskrit_in_context": [
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 85,
+          "篇名": "敬て勧む仏塔曼荼羅等を造り奉るべき事",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "vairocana・大日如来）法界体性（ほっかいたいしょう・法界体性智の表象）の塔二基（根本大塔と西塔の二基）、および胎蔵・",
+          "context_position": 328,
+          "sanskrit_in_context": [
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 90,
+          "篇名": "東寺の塔を造り奉る材木を曳き運ぶ勧進の表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "福徳尽くること無し。近くは人天の王（轉輪聖王）と作り、遠くは法界の帝（仏陀）と為る。  　東寺は先帝（桓武天皇）の御願なり。",
+          "context_position": 331,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "大日法身）・智仏（智の中の仏・自証仏）は秘宮（ひきゅう・秘密法界宮）にして楽（自受法楽）を受く。一乗（いちじょう・ekayā",
+          "context_position": 211,
+          "sanskrit_in_context": [
+            "ekayā"
+          ]
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "自眷属（じけんぞく・四仏・四波羅蜜・十六大菩薩等）の法仏と、法界秘密心殿（ほっかいひみつしんでん）の中に常恒に演説したまう所",
+          "context_position": 1653,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "断じて、五智（ごち・大円鏡智・平等性智・妙観察智・成所作智・法界体性智）の観に遊ばしめん。  　今、弘法利人（ぐほうりにん・",
+          "context_position": 2769,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 98,
+          "篇名": "高野建立の初めの結界の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "athāgatagarbha）を具す。仏性は法性（法の本性）法界（dharmadhātu）に遍じて不二なり。自身他身は一如（",
+          "context_position": 281,
+          "sanskrit_in_context": [
+            "athāgatagarbha",
+            "dharmadhātu"
+          ]
+        },
+        {
+          "shoryoshu_idx": 98,
+          "篇名": "高野建立の初めの結界の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "じっち・yathābhūta-jñāna・如実の智慧）の雷、法界の殿に震い、秘密の曼荼羅、閻浮提（jambudvīpa・南瞻",
+          "context_position": 488,
+          "sanskrit_in_context": [
+            "jambudvīpa",
+            "yathābhūta-jñāna"
+          ]
+        },
+        {
+          "shoryoshu_idx": 99,
+          "篇名": "高野に壇場を建立して結界する啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "場（つだいどうじょう・大壇場）の法壇の会を立てて、一切の十方法界の諸仏世尊及び般若波羅蜜多と、諸の菩薩衆の諸の徒衆を領せると",
+          "context_position": 151,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "でて以て上座と為す。杲（こう）とは、雲霧を大虚に除き、光明を法界に満つ。隣（りん）とは、徳を法雲（ほううん・第十地法雲地）の",
+          "context_position": 533,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "・本来具有）の五智（大円鏡智・平等性智・妙観察智・成所作智・法界体性智）を証し、法雷を五趣（ごしゅ・地獄・餓鬼・畜生・人・天",
+          "context_position": 1289,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "えに、善財童子（ぜんざいどうじ・sudhana・『華厳経』入法界品の主人公）は百十の城を巡り（実は本来五十三参の旅）五十三人",
+          "context_position": 3665,
+          "sanskrit_in_context": [
+            "sudhana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 104,
+          "篇名": "秋の日僧正大師を賀し奉る詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "っくいちげ・gāthā・一句一偈の教え）は満界（まんがい・満法界）の財に超え、片言片字（へんげんへんじ）は誰れか命を捨（すつ",
+          "context_position": 1766,
+          "sanskrit_in_context": [
+            "gāthā"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "ñāna・成所作智 kṛtyānuṣṭhāna-jñāna・法界体性智 dharmadhātu-svabhāva-jñāna",
+          "context_position": 7941,
+          "sanskrit_in_context": [
+            "dharmadhātu-svabhāva-jñāna",
+            "kṛtyānuṣṭhāna-jñāna",
+            "ñāna"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "主体）所（しょ・所造・対象）の造（つく）るところなり 　十方法界（じっぽうほっかい・dharma-dhātu・宇宙の真実相）",
+          "context_position": 416,
+          "sanskrit_in_context": [
+            "dharma-dhātu"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "yoga・密教の修法）の境界は特に奇異（きい・希有）なり 　法界の炎光（えんこう・智慧の光焔）自ら相い暉（かがや）く 　慢ず",
+          "context_position": 1737,
+          "sanskrit_in_context": [
+            "yoga"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "て忽ちに来り訪う 　喜ぶこと莫れ、嗔（いか）ること莫れ、是れ法界（ほっかい・dharma-dhātu）なり 　法界と心とは異",
+          "context_position": 3255,
+          "sanskrit_in_context": [
+            "dharma-dhātu"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "莫れ、是れ法界（ほっかい・dharma-dhātu）なり 　法界と心とは異詳（いしょう・別異）無し  【乾闥婆城（けんだつば",
+          "context_position": 3280,
+          "sanskrit_in_context": [
+            "dharma-dhātu"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "三密",
+      "term_kana": "",
+      "sanskrit": "trīṇi guhyāni",
+      "definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "密"
+      ],
+      "occurrence_count": 46,
+      "篇分布": [
+        1,
+        4,
+        7,
+        12,
+        13,
+        30,
+        42,
+        43,
+        52,
+        53,
+        60,
+        66,
+        68,
+        72,
+        87,
+        89,
+        97,
+        100,
+        106,
+        108,
+        109
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "れ我が心王（自心の本性たる王、衆生本具の仏性そのもの）なり 三密（身・口・意の三密、密教の修行体系）は刹土（仏土）に遍し 虚",
+          "context_position": 2646,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "本性たる王、衆生本具の仏性そのもの）なり 三密（身・口・意の三密、密教の修行体系）は刹土（仏土）に遍し 虚空に荘厳な道場（浄",
+          "context_position": 2655,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 4,
+          "篇名": "雨を喜ぶ歌 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "は読誦して徴雲（雨をきざす雲）を起こし、 禅客は持観（密教の三密の念誦・観法）して雨の足（雨脚）をゆたかに降らしむ。 甘露（",
+          "context_position": 1001,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 7,
+          "篇名": "山中に何の楽しみが有る 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "向かい 暁の月、朝の風は情塵（俗念の塵）を洗う 一身に具わる三密（身・口・意の三業を仏陀の三密と一致させる密教の根本観）は塵",
+          "context_position": 544,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 7,
+          "篇名": "山中に何の楽しみが有る 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "俗念の塵）を洗う 一身に具わる三密（身・口・意の三業を仏陀の三密と一致させる密教の根本観）は塵滴の数を超えたり これを十方法",
+          "context_position": 559,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "分（四分律、説一切有部系の律）に依って法を秉（と）り、後には三密潅頂（身口意の三密による潅頂・密教正統の伝授）を授かった。弥",
+          "context_position": 1615,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "有部系の律）に依って法を秉（と）り、後には三密潅頂（身口意の三密による潅頂・密教正統の伝授）を授かった。弥天（『高僧伝』、東",
+          "context_position": 1624,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "者）これに当たれり。一子（独り子）を顧みるごとき愛顧に沐して三密の教を蒙りしは、すなわち智璨・攻壹（諫迹）が徒、操敏・堅通（",
+          "context_position": 2641,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "法）に入りて瑜伽（ヨーガ・密教観法）を学び、三秘密（身口意の三密）を持して毘鉢（毘鉢舎那・観・vipaśyanā）に達した。",
+          "context_position": 2734,
+          "sanskrit_in_context": [
+            "vipaśyanā"
+          ]
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "篭（しっかり包蔵）せり  四分（四分律）に法を秉（と）り  三密（身口意の三密）加持す  三代（三朝）の国師として  万類こ",
+          "context_position": 6393,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "蔵）せり  四分（四分律）に法を秉（と）り  三密（身口意の三密）加持す  三代（三朝）の国師として  万類これに依る  雨",
+          "context_position": 6400,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 13,
+          "篇名": "勅賜の屏風を書き了て即ち献ずる表并びに詩",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "（草書・行書・楷書の三体）  心仏会（心と仏との出会い・密教三密相応の境）に遊んで筆に遊ばず  揚波（波立てる書勢、書の躍動",
+          "context_position": 2438,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 30,
+          "篇名": "小僧都を辞する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "を散（『法華経』『無量寿経』等の散華供養）じて経を講じ、心を三密（身密・口密〔語密〕・意密、密教の枢要、印・真言・観想による",
+          "context_position": 737,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "毎日昼夜の四時運行）にすべて兼ね合わせ（一日も無駄にせず）、三密（さんみつ、身語意の三密、密教の根本実践）の印（印契）をこれ",
+          "context_position": 910,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "べて兼ね合わせ（一日も無駄にせず）、三密（さんみつ、身語意の三密、密教の根本実践）の印（印契）をこれを一志（一念）に貫いた。",
+          "context_position": 922,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 43,
+          "篇名": "青龍の和尚に衲の袈裟を献ずる状",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "論や論争に明け暮れる僧侶を方々で目にした）。然りといえども、三密（身・語・意の三密、密教の根本）を一法（金剛頂・大日経の根本",
+          "context_position": 495,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 43,
+          "篇名": "青龍の和尚に衲の袈裟を献ずる状",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "る僧侶を方々で目にした）。然りといえども、三密（身・語・意の三密、密教の根本）を一法（金剛頂・大日経の根本法）に朗らかにし、",
+          "context_position": 504,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 52,
+          "篇名": "藤大使亡児の為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "の四印、または四種印契）、雨足（うそく、雨足のごとく繁き）の三密（身密・語密・意密）――水喩（みずのたとえ、水のごとき無形の",
+          "context_position": 186,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "四身）と胎蔵界大日如来の標示する三種の秘密印契（身・口・意の三密印）とは、絶対の空性（万法の本性たる無自性・真如）にあって悠",
+          "context_position": 146,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "）に安んじておられる。  三等（さんとう。三種の平等。身口意三密平等・心仏衆生三無差別・仏法僧三宝平等）の法門は、仏日（ぶつ",
+          "context_position": 824,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "象徴）を本初（ほんしょ。万象の根源）に悟って三宝（仏法僧）を三密（身口意）に覚り、鑁字（ばんじ。金剛界大日如来の種子字。離言",
+          "context_position": 3211,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 60,
+          "篇名": "荒城の大夫幡の上の仏像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "阿の上に伊点を配し、法身・般若・解脱の三徳、もしくは身口意の三密を象徴。『涅槃経』哀歎品所説）を心に凝らし、四量（しりょう。",
+          "context_position": 546,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 66,
+          "篇名": "藤左近の将監先妣の為に三七の斎を設くる願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "ya・くう）であり、空をすらも呑み超えるものは仏である。仏の三密（身密・口密・意密の三密加持）は、いずこの処にあまねく行きわ",
+          "context_position": 77,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 66,
+          "篇名": "藤左近の将監先妣の為に三七の斎を設くる願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "すらも呑み超えるものは仏である。仏の三密（身密・口密・意密の三密加持）は、いずこの処にあまねく行きわたらないことがあろうか。",
+          "context_position": 89,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 68,
+          "篇名": "林学生の先考妣の忌日に仏を造り僧に飯する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "だるま・dharma・法）に寄せて呼ぶ。金剛のごとく堅固なる三密（身密・口密・意密）が無碍（むげ・障りなく）無数（無尽）に和",
+          "context_position": 179,
+          "sanskrit_in_context": [
+            "dharma"
+          ]
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "ったところは、百年の長きに亘ってわれの遺せる教化の輪を転じ、三密の妙旨を長夜の眠りの中の衆生に驚かしめんことであった。誰がこ",
+          "context_position": 1823,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "、われすなわち法界）」と——三等（さんとう・三平等・身口意の三密平等加持）の真言加持の故に、五相成身（ごそうじょうじん・通達",
+          "context_position": 2693,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "a・断善根の不成仏者）も除かれ、一たびこれを誦すれば、三等（三密平等加持）・四法身（自性・受用・変化・等流の四種法身）を証す",
+          "context_position": 3152,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 87,
+          "篇名": "弘仁天皇の御厄を祈誓する表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "（しんすい・加持された水）一瓶を加持（adhiṣṭhāna・三密加持）し、かつ弟子の沙弥（śrāmaṇera）真朗（しんろう",
+          "context_position": 399,
+          "sanskrit_in_context": [
+            "adhiṣṭhāna",
+            "śrāmaṇera"
+          ]
+        },
+        {
+          "shoryoshu_idx": 89,
+          "篇名": "大僧都空海病に嬰りて上表して職を辞する奏状",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "——終（じゅう・命終）に臨むの一言を顧みたまうことを賜いて、三密（さんみつ・身口意の三密加持）の法教を棄てたまわざれ。生生（",
+          "context_position": 611,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 89,
+          "篇名": "大僧都空海病に嬰りて上表して職を辞する奏状",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "臨むの一言を顧みたまうことを賜いて、三密（さんみつ・身口意の三密加持）の法教を棄てたまわざれ。生生（しょうじょう・生まれ変わ",
+          "context_position": 623,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "う方便語）の方便の門なり。密は則ち本有（ほんぬ・本来具有）の三密（しんごい・身口意の三密）を以て教と為す。具さに自証の理を説",
+          "context_position": 469,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "。密は則ち本有（ほんぬ・本来具有）の三密（しんごい・身口意の三密）を以て教と為す。具さに自証の理を説く、如義語（にょぎご・真",
+          "context_position": 481,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "ざること無し。庶（ねが）わくは、無垢の眼を豁（ひら）かにして三密の源を照らし、有執（うしゅう・執着）の縛を断じて、五智（ごち",
+          "context_position": 2716,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "三宝（仏法僧）なり。三宝は則ち三平等（さんびょうどう・身口意三密の平等）なり。三平等の観、何人か行ぜざらん。誠に須らく彼此上",
+          "context_position": 1167,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "のは則ち汝が声密（しょうみつ・vāg-guhya・口密・密教三密の語密）是（こ）れなり。汝が口の中の言説（ごんせつ）即ち是な",
+          "context_position": 1803,
+          "sanskrit_in_context": [
+            "vāg-guhya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "（もち）いず。 　又た所謂（いわゆる）『理趣釈経』とは、汝の三密（さんみつ・身密 kāya-guhya・語密 vāg-guh",
+          "context_position": 2630,
+          "sanskrit_in_context": [
+            "kāya-guhya",
+            "vāg-guh"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "・語密 vāg-guhya・意密 mano-guhya・密教三密）は則ち是れ理趣なり。我が三密は即ち是れ釈経なり。汝の身等（",
+          "context_position": 2681,
+          "sanskrit_in_context": [
+            "mano-guhya",
+            "vāg-guhya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "密 mano-guhya・密教三密）は則ち是れ理趣なり。我が三密は即ち是れ釈経なり。汝の身等（らら・身口意三密）も不可得（ふ",
+          "context_position": 2696,
+          "sanskrit_in_context": [
+            "mano-guhya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "理趣なり。我が三密は即ち是れ釈経なり。汝の身等（らら・身口意三密）も不可得（ふかとく・anupalabdha・捉え得ず）なり",
+          "context_position": 2719,
+          "sanskrit_in_context": [
+            "anupalabdha"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "を求めば、則ち遮那（しゃな・vairocana・大日如来）の三密即ち是れなり。遮那の三密は何（いず）れの処にか遍ぜざらん。汝",
+          "context_position": 3072,
+          "sanskrit_in_context": [
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "な・vairocana・大日如来）の三密即ち是れなり。遮那の三密は何（いず）れの処にか遍ぜざらん。汝が三密即ち是れなり。外に",
+          "context_position": 3084,
+          "sanskrit_in_context": [
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "ち是れなり。遮那の三密は何（いず）れの処にか遍ぜざらん。汝が三密即ち是れなり。外に求むべからず。 　又た余未だ知らず、公（最",
+          "context_position": 3105,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 108,
+          "篇名": "後夜に仏法僧鳥を聞く",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "山中の雲・流れる水、いずれも法身大日 vairocana の三密 tri-guhya の現前。一切の現象が了々として明らかに",
+          "context_position": 347,
+          "sanskrit_in_context": [
+            "tri-guhya",
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "の薫る室）に香を焚（た）いて、讃の響（ひびき）暢（の）ぶ 　三密（さんみつ・身口意の三密 tri-guhya）廖寂（りょうじ",
+          "context_position": 3119,
+          "sanskrit_in_context": [
+            "tri-guhya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "いて、讃の響（ひびき）暢（の）ぶ 　三密（さんみつ・身口意の三密 tri-guhya）廖寂（りょうじゃく・寂寞）として死灰（",
+          "context_position": 3131,
+          "sanskrit_in_context": [
+            "tri-guhya"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "法身",
+      "term_kana": "",
+      "sanskrit": "dharmakāya",
+      "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "身"
+      ],
+      "occurrence_count": 45,
+      "篇分布": [
+        1,
+        4,
+        6,
+        14,
+        43,
+        45,
+        53,
+        55,
+        59,
+        60,
+        62,
+        65,
+        71,
+        72,
+        73,
+        74,
+        77,
+        96,
+        97,
+        100,
+        101,
+        105,
+        107,
+        108,
+        109
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "すく 深海の水は量り難い 空間の果てを人々は察することなく 法身（仏の真理身、すなわち大日如来）のみが独り能くわきまえておら",
+          "context_position": 614,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 4,
+          "篇名": "雨を喜ぶ歌 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "まう内なる宮殿。密教の心宮観）を観ぜよ。 自心はまた、三身（法身・報身・応身の仏の三種身）の所住の国土であり、 五智（法界体",
+          "context_position": 1769,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 6,
+          "篇名": "山に入る興 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "行きね、止まることあたわず 去り来たり去り来たれ、大空の師（法身の大空に通じた者）よ、住むることなかれ 住むることなかれ、乳",
+          "context_position": 883,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 6,
+          "篇名": "山に入る興 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "斗薮（とそう、煩悩を払い落とすこと、頭陀行の同義）して、早く法身（大日如来の真理身）の里に入れよ",
+          "context_position": 1063,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "ず――目を閉じ端坐して仏徳を思念せんには。  ここに文殊讃仏法身礼（『文殊師利讃仏法身礼経』、密教の重要礼讃文）に四十行の頌",
+          "context_position": 330,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "仏徳を思念せんには。  ここに文殊讃仏法身礼（『文殊師利讃仏法身礼経』、密教の重要礼讃文）に四十行の頌あり。文は約かにして義",
+          "context_position": 341,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "（生来の盲）の徒をして頓（とん）に悟らしめん――三昧の法仏（法身仏）はもと我が心に具せり、二諦（真諦・俗諦）の真俗はともにこ",
+          "context_position": 728,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 43,
+          "篇名": "青龍の和尚に衲の袈裟を献ずる状",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "ら）んで迷衢（めいく、迷いの大路）に臨めり。謂うべし、三身（法身・報身・応身）の一身、千仏（千仏出世）の一仏（一たびの出現）",
+          "context_position": 777,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "って薬師如来の羯磨身（かつまじん、修法・行為の身、密教の四種法身の一）と、日月遍照両大士（にちがつへんじょう・りょうだいじ、",
+          "context_position": 1387,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "帰命したてまつる。  そもそも、金剛界大日如来の体現する四種法身（自性・受用・変化・等流の四身）と胎蔵界大日如来の標示する三",
+          "context_position": 101,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "断えることが無い。  法性身（ほっしょうじん。大日如来の自性法身）の塔の姿——なんと奇しく不思議なるかな、なんと巨大壮厳なる",
+          "context_position": 980,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "（『法華経』見宝塔品の多宝塔出現を踏まえた賛嘆。両部曼荼羅は法身大日の塔身そのものとして拝む）。  弟子空海は、本性熏習（ほ",
+          "context_position": 1044,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "浄土）に均しくなり、すべての人々は不変の人（如来。常住不変の法身）と同じくなるであろう。  身分高き者も卑しき者も、出家の道",
+          "context_position": 2921,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "写し奉った。兼ねて法侶（僧侶）を延（ひ）き、『大日経』所説の法身大日如来の智印（諸尊の三昧耶印契）を講演した。  四銖（しし",
+          "context_position": 1825,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 59,
+          "篇名": "平城の東大寺に於いて三宝を供する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "弟子苾蒭空海等は、三宝（仏・法・僧）に帰命したてまつる。  法身（ほっしん。大日如来の本体身）は何処にあるのか。遠きにあらず",
+          "context_position": 30,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 60,
+          "篇名": "荒城の大夫幡の上の仏像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "これに若（し）かんや、性蓮（しょうれん。本性蓮華、胎蔵界の理法身大日）の大我（だいが。大日如来の絶対主体）が、太虚に遍じて終",
+          "context_position": 401,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 60,
+          "篇名": "荒城の大夫幡の上の仏像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "菩提樹）の法皇（ほうおう。菩提樹下に正覚した法王、金剛界の智法身大日）が、微塵（極微）に入って始めなきことに。  三点（さん",
+          "context_position": 470,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 60,
+          "篇名": "荒城の大夫幡の上の仏像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": " 三点（さんてん。伊字三点 ｜・∴。梵字阿の上に伊点を配し、法身・般若・解脱の三徳、もしくは身口意の三密を象徴。『涅槃経』哀",
+          "context_position": 526,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 60,
+          "篇名": "荒城の大夫幡の上の仏像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "なく現じ、香雲（こううん。香煙の雲）が数（しばしば）薫じて、法身が開発（かいほつ。開示発現）するのである。  伏して願わくは",
+          "context_position": 1235,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 62,
+          "篇名": "葛木の参軍先考の忌斎を設くる願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "馳せて先慈（亡き慈父）を駕（が。乗せる）し奉らん。  字字の法身は盈盈（えいえい。満ち満ちる）たる月曜（げつよう。月光）を引",
+          "context_position": 1346,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "摂め保って乱れさせぬ徳がある。理が万有を摂持するゆえに、大日法身は法界全体をその内に孕みつつ、しかも法界の外にもひろがって境",
+          "context_position": 118,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "不生にして云云・『大日経』阿字本不生五字真言の意）」、「普賢法身遍一切云云（ふげんほっしんへんいっさい——普賢菩薩の法身は一",
+          "context_position": 472,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "普賢法身遍一切云云（ふげんほっしんへんいっさい——普賢菩薩の法身は一切に遍く満ちて云云）」、「諸行無常云云（しょぎょうむじょ",
+          "context_position": 500,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "点（『涅槃経』哀歎品の伊字三点・∴・三身〔法・報・応〕三徳〔法身・般若・解脱〕の譬）の覚苑（覚りの苑——涅槃の境地）に登らん",
+          "context_position": 1948,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "ょうかく・広漠として広大な）たる性虚（しょうきょ・法性虚空・法身の体）は、諸因（一切の因縁）を離れて、しかも凝然（ぎょうねん",
+          "context_position": 39,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "の雨）の鼎（かなえ）をもってする。三点（伊字三点・∴・三身〔法身・般若・解脱〕の譬——『涅槃経』哀歎品）四徳（しとく・常・楽",
+          "context_position": 1013,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "ときの真言、かくのごときの伽陀（がだ・gāthā・偈頌）は、法身の体をこの身に示し、真理をこの心に表わす。一たびこれを聞けば",
+          "context_position": 3051,
+          "sanskrit_in_context": [
+            "gāthā"
+          ]
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "者）も除かれ、一たびこれを誦すれば、三等（三密平等加持）・四法身（自性・受用・変化・等流の四種法身）を証する。汝は久しくこの",
+          "context_position": 3161,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "、三等（三密平等加持）・四法身（自性・受用・変化・等流の四種法身）を証する。汝は久しくこの義を解（さと）る。われは重ねて汝の",
+          "context_position": 3178,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 73,
+          "篇名": "弟子求寂真際が冥扉に入る為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "法（密教の秘法）を弘伝し、二利（自利・利他）を円満し、三身（法身・報身・応身）を現証（げんしょう・現に証得する）せんことを。",
+          "context_position": 1075,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 74,
+          "篇名": "孝子先妣の周忌の為に両部の曼荼羅大日経を図写し供養して講説す表白の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "周忌の朞（き）はたちまちに到来した。 　これに因（よ）って、法身の海会（仏菩薩の集まる会座）の諸尊を移して両部（金剛界・胎蔵",
+          "context_position": 909,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "風に蕩（あら）い去る。五分（戒・定・慧・解脱・解脱知見の五分法身の香——『心地観経』『涅槃経』）の妙香を法界の宮殿（中台八葉",
+          "context_position": 469,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 96,
+          "篇名": "紀伊の国伊都の郡高野寺の鐘の知識の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "（ゆえ）に駢填（へんてん・連なり集まる）し、三尊（さんそん・法身〔dharmakāya〕・報身〔saṃbhogakāya〕・",
+          "context_position": 353,
+          "sanskrit_in_context": [
+            "dharmakāya",
+            "saṃbhogakāya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "影を分かちて類（衆生の類）に随い、理仏（理智の中の理仏・大日法身）・智仏（智の中の仏・自証仏）は秘宮（ひきゅう・秘密法界宮）",
+          "context_position": 183,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "、報応化身（報身〔他受用〕・応化身）の経これなり。密蔵とは、法身如来（自性身大日）の説これなり。顕は則ち因果の六度（ろくど・",
+          "context_position": 351,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "偈、及び『大毘盧遮那』十万偈の経これなり。此の経は則ち、浄妙法身大毘盧遮那仏（śuddha-vairocana）、自眷属（じ",
+          "context_position": 1596,
+          "sanskrit_in_context": [
+            "śuddha-vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "み説けり。自外（顕教外）の顕経論の中には説かずとなり。  　法身如来（大日）より我が大広智三蔵和尚（不空）に暨（およ）ぶまで",
+          "context_position": 1880,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "（さんじん・三人の善き者）を選んで、彼の三徳（——大乗三徳：法身・般若・解脱、もしくは断徳・智徳・恩徳）に称（かな）づく。三",
+          "context_position": 1061,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "の四恩）の広徳に報い、三点（さんてん・伊字三点〔∴〕に喩える法身・解脱・般若の三徳・『涅槃経』徳王品）の良因（ぜんいん・善き",
+          "context_position": 3336,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 105,
+          "篇名": "泰範叡山の澄和尚に啓を答する為の書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "）く之（これ）を別（わか）たん。 　然りと雖（いえ）も、法（法身仏 dharmakāya）と応（応身仏 nirmāṇakāy",
+          "context_position": 1869,
+          "sanskrit_in_context": [
+            "dharmakāya",
+            "nirmāṇakāy"
+          ]
+        },
+        {
+          "shoryoshu_idx": 105,
+          "篇名": "泰範叡山の澄和尚に啓を答する為の書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "に、差無きことを得（う）ず。顕密の教、何ぞ浅深無からん。法（法身）と智（智身・受用身 saṃbhogakāya）の両仏、自（",
+          "context_position": 1935,
+          "sanskrit_in_context": [
+            "saṃbhogakāya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 107,
+          "篇名": "還俗の人を見る作",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "春の花と秋の実で色は変わるが、樹は同じ・出家還俗いずれも同じ法身の現われの譬喩） 　世理（せり・世の道理・諸行無常 anit",
+          "context_position": 289,
+          "sanskrit_in_context": [
+            "anit"
+          ]
+        },
+        {
+          "shoryoshu_idx": 108,
+          "篇名": "後夜に仏法僧鳥を聞く",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "常知」）たり（三宝の声・人の心・山中の雲・流れる水、いずれも法身大日 vairocana の三密 tri-guhya の現前",
+          "context_position": 331,
+          "sanskrit_in_context": [
+            "tri-guhya",
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "tavaḥ）熾（さか）んなり 　能（よ）く観じて取らざれば、法身（ほっしん・dharmakāya・大日如来）清（きよ）し 　",
+          "context_position": 1012,
+          "sanskrit_in_context": [
+            "dharmakāya",
+            "tavaḥ"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "んき・千の河と万の器）、各々暉（かがや）きを分（わか）つ 　法身（dharmakāya）寂々（じゃくじゃく）として大空（ma",
+          "context_position": 4119,
+          "sanskrit_in_context": [
+            "dharmakāya"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "真言",
+      "term_kana": "",
+      "sanskrit": "mantra",
+      "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "occurrence_count": 44,
+      "篇分布": [
+        0,
+        12,
+        21,
+        30,
+        39,
+        45,
+        53,
+        55,
+        65,
+        66,
+        71,
+        72,
+        77,
+        84,
+        86,
+        87,
+        89,
+        94,
+        101,
+        102,
+        105,
+        109
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 0,
+          "篇名": "真済序",
+          "巻": "巻第一",
+          "page_idx": 0,
+          "context": "には秘密の宝（密教の法宝）をもってすることができたのである。真言加持の道がこの日以来漸く広まり、曼荼羅と灌頂の風がこの時いよ",
+          "context_position": 1248,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "の三摩耶・契印）は証道（道を証する）の径路、一字一句（一字の真言・一句の密語）は入仏（仏に入る）の父母なるものなり。汝等、勉",
+          "context_position": 4322,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 21,
+          "篇名": "雑書迹を奉献する状 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "の帖一首 不空三蔵（Amoghavajra、七〇五〜七七四、真言付法第六祖、長安大興善寺）の碑一首 道岸和尚（六五四〜七一七",
+          "context_position": 148,
+          "sanskrit_in_context": [
+            "Amoghavajra"
+          ]
+        },
+        {
+          "shoryoshu_idx": 30,
+          "篇名": "小僧都を辞する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "を講じ、心を三密（身密・口密〔語密〕・意密、密教の枢要、印・真言・観想による即身成仏の修行）に運んで、国恩を枯木（老朽の身）",
+          "context_position": 761,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 30,
+          "篇名": "小僧都を辞する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "私）の願に随って責めずして性に任せたまえ。然らば則ち、昼夜に真言（真実語・密教陀羅尼）を誦じて塵滴（塵芥や水滴ほどの微功）を",
+          "context_position": 1185,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "経て空海は『内典・外典』にわたる膨大な典籍を獲得し、帰国後の真言密教の教学と日本文化全般に決定的な影響を与えた。中国側は空海",
+          "context_position": 4275,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "師）とする。法相宗には中継・隆長ら、三論宗には寿遠・実敏ら、真言宗には真円・道雄ら――合わせて二十の智象（智慧の象、賢徳の僧",
+          "context_position": 1584,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "の古寺〕に水田十余町と道場の什器を施入し、三宗〔法相・三論・真言〕の智象二十名と空海以下の僧侶を招じて行った薬師法・蓮華法曼",
+          "context_position": 2552,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "法・蓮華法曼荼羅供養の願文。法相中継・隆長、三論寿遠・実敏、真言真円・道雄など、当時の各宗派代表的な学僧が顔を揃える盛大な法",
+          "context_position": 2608,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "。胎蔵中台八葉院の大日所居）は、遍く遍照せざる所が無い。  真言の大我（だいが。大日如来の絶対的主宰者性。顕教の無我説とは異",
+          "context_position": 648,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "かり、絵師李真ら十数人に命じて写し描かしめた）、併せて諸尊の真言・印契その他密教の儀軌一切を学んだ。  それより以来、年は三",
+          "context_position": 1612,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "uḍa の音写、迦楼羅鳥）の像、初祖龍猛菩薩・二祖龍智菩薩（真言宗付法八祖のうち最初の二祖）の御影など、合計二十六鋪を画き奉",
+          "context_position": 2184,
+          "sanskrit_in_context": [
+            "uḍa"
+          ]
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "誓って曰く。「聞くところによると、曼荼羅の諸仏は仏中の最尊、真言の秘経は経中の最上であるとの由。願わくは我が身を粉にしてこれ",
+          "context_position": 1388,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "』一部七巻を書写した。さらに兼ねて神護寺（京都高雄山神護国祚真言寺・空海の常住道場）に赴き、聊か法席を肆（の）べて『大日経』",
+          "context_position": 1565,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "んに・さながら絵のごとく）並びたまう。字は法然（自然法爾）の真言の文を写し、義は無尽（重重無尽）の旨を明らかに開く。 　伏し",
+          "context_position": 1955,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 66,
+          "篇名": "藤左近の将監先妣の為に三七の斎を設くる願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "んで高雄（神護寺）の道場において、妙法（『法華経』および密教真言の妙法）を転諷（てんふう・読誦）し、金仙（こんせん・仏の異名",
+          "context_position": 1392,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "んぬん・我覚れり、本不生にして云云・『大日経』阿字本不生五字真言の意）」、「普賢法身遍一切云云（ふげんほっしんへんいっさい—",
+          "context_position": 462,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "hi-saṃ または āsane māmaの転訛・入仏三昧耶真言）」と。もし衆生があってひとたびこの法を聞けば、五逆（殺父・",
+          "context_position": 620,
+          "sanskrit_in_context": [
+            "hi-saṃ",
+            "māma",
+            "āsane"
+          ]
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "存在し、しかも入滅したまうたゆえに、誰もこの理は毀し得ない。真言の秘印は、汝はすでに授かって謬らず、一字一画にも衆経（あらゆ",
+          "context_position": 2319,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "生（阿字本不生・anutpāda）を一阿（いちあ・阿字唯一の真言）に証し、五智（金剛界五仏の五智）を鑁水（ばんすい・鑁字va",
+          "context_position": 2430,
+          "sanskrit_in_context": [
+            "anutpāda"
+          ]
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "五智（金剛界五仏の五智）を鑁水（ばんすい・鑁字vam・水大の真言・大日如来の智の象徴）に得たり。法界三昧（dharma-dh",
+          "context_position": 2467,
+          "sanskrit_in_context": [
+            "dharma-dh",
+            "vam"
+          ]
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "界）」と——三等（さんとう・三平等・身口意の三密平等加持）の真言加持の故に、五相成身（ごそうじょうじん・通達菩提心・修菩提心",
+          "context_position": 2701,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "わく「我覚本不生云云（われ本不生なるを覚れり云云）」と。また真言にいわく「曩莫三曼多没駄南、阿三迷底里三迷、三麼曳、娑縛訶（",
+          "context_position": 2839,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "平等なる三昧耶〔本誓〕に〔帰命〕したてまつる云云・入仏三昧耶真言）」と。かくのごときの真言、かくのごときの伽陀（がだ・gāt",
+          "context_position": 3011,
+          "sanskrit_in_context": [
+            "gāt"
+          ]
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "帰命〕したてまつる云云・入仏三昧耶真言）」と。かくのごときの真言、かくのごときの伽陀（がだ・gāthā・偈頌）は、法身の体を",
+          "context_position": 3024,
+          "sanskrit_in_context": [
+            "gāthā"
+          ]
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "羅・諸経十一部）を書写した。身の垢を鑁（バン・vaṃ・水大の真言・大悲の象徴）字の大悲の乳水に洗い、心の塵を訶（カ・hūṃ ",
+          "context_position": 383,
+          "sanskrit_in_context": [
+            "hūṃ",
+            "vaṃ"
+          ]
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "洗い、心の塵を訶（カ・hūṃ あるいは kha・風大／空大の真言）字の大願力の風に蕩（あら）い去る。五分（戒・定・慧・解脱・",
+          "context_position": 430,
+          "sanskrit_in_context": [
+            "hūṃ",
+            "kha"
+          ]
+        },
+        {
+          "shoryoshu_idx": 84,
+          "篇名": "高野山万灯会の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "たる太陽）の光をも滅す。囉（ラン・raṃ・火大字・大日如来の真言）の一炎がたちまちに法界に飄（ひるがえ）って病を除き、質多（",
+          "context_position": 753,
+          "sanskrit_in_context": [
+            "raṃ"
+          ]
+        },
+        {
+          "shoryoshu_idx": 84,
+          "篇名": "高野山万灯会の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "ひるがえ）って病を除き、質多（チッタ・citta・心字・心の真言）の万華が咲を含んで、諸尊の眼を開く。 　仰ぎ願わくは、この",
+          "context_position": 800,
+          "sanskrit_in_context": [
+            "citta"
+          ]
+        },
+        {
+          "shoryoshu_idx": 86,
+          "篇名": "宮中の真言院の正月の御修法の奏状",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "である。秘密趣とは、諸経の中の陀羅尼（dhāraṇī・総持、真言密咒）これである。  　浅略趣を譬えていえば、『太素』（『黄",
+          "context_position": 176,
+          "sanskrit_in_context": [
+            "dhāraṇī"
+          ]
+        },
+        {
+          "shoryoshu_idx": 86,
+          "篇名": "宮中の真言院の正月の御修法の奏状",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "・修行中の沙弥）二七人（十四人）を択（えら）んで、別に一室（真言院の道場）を荘厳（しょうごん）し、諸尊の像（金胎両部曼荼羅諸",
+          "context_position": 750,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 86,
+          "篇名": "宮中の真言院の正月の御修法の奏状",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "・閼伽・塗香・華・焼香・飲食・燈明等）を奠布（てんぷ）して、真言（mantra）を持誦せんことを。然らば則ち、顕密の二趣（顕",
+          "context_position": 824,
+          "sanskrit_in_context": [
+            "mantra"
+          ]
+        },
+        {
+          "shoryoshu_idx": 86,
+          "篇名": "宮中の真言院の正月の御修法の奏状",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "例と為（な）せ、と（——以後、毎年正月八日より十四日まで宮中真言院にて修される後七日御修法の起源となる）。",
+          "context_position": 984,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 87,
+          "篇名": "弘仁天皇の御厄を祈誓する表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "日より今朝に至るまで、一七日まさに畢（おわ）らんとす。持誦（真言陀羅尼を受持読誦）する声は響き間絶（けんぜつ）せず、護摩（g",
+          "context_position": 165,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 89,
+          "篇名": "大僧都空海病に嬰りて上表して職を辞する奏状",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "んとするのみならんや。  　況や密門（密教の門）稍くに啓け、真言（mantra）載（すなわ）ち敭（あ）がるといえども、これを",
+          "context_position": 1118,
+          "sanskrit_in_context": [
+            "mantra"
+          ]
+        },
+        {
+          "shoryoshu_idx": 94,
+          "篇名": "高野の四至の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "を修し、四上（しじょう・朝晝晡夜の四度の上堂）持念（じねん・真言を持誦祈念）す。華蔵（けぞう・蓮華蔵世界・毘盧遮那の浄土）を",
+          "context_position": 851,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "年〔七三〇〕光明皇后設置の貧病施療所）の慈悲の院に隣り、西は真言の祠院すなわち東寺（教王護国寺）に近接する。生休帰真の原（葬",
+          "context_position": 156,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "志し、徳に依り、仁に依り、芸に遊ぶ）と曰う。経（『大日経』入真言門住心品、もしくは『不空羂索神変真言経』）に曰う、「初の阿闍",
+          "context_position": 3496,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 101,
+          "篇名": "綜芸種智院の式",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "と曰う。経（『大日経』入真言門住心品、もしくは『不空羂索神変真言経』）に曰う、「初の阿闍梨（あじゃり・ācārya・密教の伝",
+          "context_position": 3514,
+          "sanskrit_in_context": [
+            "ācārya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 102,
+          "篇名": "故の贈僧正勤操大徳の影の讃",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "七月）、諸の名僧を率いて、高雄山（神護寺の前身・後の神護国祚真言寺）の金剛道場にて三昧耶戒（さんまやかい・samaya-śī",
+          "context_position": 5142,
+          "sanskrit_in_context": [
+            "samaya-śī"
+          ]
+        },
+        {
+          "shoryoshu_idx": 105,
+          "篇名": "泰範叡山の澄和尚に啓を答する為の書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "āna・声聞縁覚菩薩の三乗を会して一仏乗に帰する天台教学）と真言一乗（しんごんいちじょう・密教の即身成仏の一乗・大日経・金剛",
+          "context_position": 1214,
+          "sanskrit_in_context": [
+            "āna"
+          ]
+        },
+        {
+          "shoryoshu_idx": 105,
+          "篇名": "泰範叡山の澄和尚に啓を答する為の書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "の二受、顕密説を別にし、権実隔（へだ）て有り。所以（ゆえ）に真言の醍醐（だいご・五味の最上）に耽執（たんしゅう・耽溺）して、",
+          "context_position": 2033,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 105,
+          "篇名": "泰範叡山の澄和尚に啓を答する為の書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "夕）に劬労（くろう・苦労）す。若し狂執（きょうしゅう・偏執〔真言耽執〕の咎）を責（せ）めずんば、弟子が望み足んぬ。身は山林（",
+          "context_position": 2790,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "んざい）に忘るること莫れ。 　　上都（じょうと・京）神護国祚真言寺（じんごこくそしんごんじ・神護寺・京都高雄）沙門少僧都（し",
+          "context_position": 5563,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大悲",
+      "term_kana": "",
+      "sanskrit": "mahā-karuṇā",
+      "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "occurrence_count": 26,
+      "篇分布": [
+        28,
+        39,
+        42,
+        46,
+        49,
+        50,
+        53,
+        54,
+        64,
+        67,
+        72,
+        76,
+        77,
+        82,
+        85,
+        98,
+        100,
+        104,
+        109
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 28,
+          "篇名": "僧中璟が罪を赦されんことを請う表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "。苦を見て悲を起こすは、観音（観自在菩薩）の用心（はたらき・大悲心）。危きを視て身を忘るるは仁人の務むる所である。  伏して",
+          "context_position": 1619,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 39,
+          "篇名": "越州の節度使に与えて内外の経書を求むる啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "城の中において、写し得たる所の経論疏等は凡そ三百余軸、および大悲胎蔵・金剛界等の大曼荼羅の尊容（密教両部の曼荼羅本尊像）を、",
+          "context_position": 2442,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "接す最敬礼）して、彼の甘露（仏法の喩）を仰ぎ受けた。  遂に大悲胎蔵（だいひたいぞう、大悲胎蔵生大曼荼羅）・金剛界大部の大曼",
+          "context_position": 423,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "（仏法の喩）を仰ぎ受けた。  遂に大悲胎蔵（だいひたいぞう、大悲胎蔵生大曼荼羅）・金剛界大部の大曼荼羅に入って、五部瑜伽（ご",
+          "context_position": 436,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 42,
+          "篇名": "本国の使と共に帰らんと請う啓",
+          "巻": "第五巻",
+          "page_idx": 0,
+          "context": "食事）を忘れて読（経論諷読）に耽（ふけ）り、仮寝（仮眠）して大悲胎蔵・金剛頂等を書写した。已（すで）に指南（指南車のごとき指",
+          "context_position": 565,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "）く（説きて言う）――仏心は慈と悲とである。大慈は楽を与え、大悲は苦を抜く。抜苦には軽重を問うことなく、与楽は親疎を論じない",
+          "context_position": 371,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 49,
+          "篇名": "藤大使中納言亡児の為に斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "agavat の音写・世尊・釈尊または大日如来）大師は、悲（大悲）有り、智（大智）有り。達磨（だつま、梵語 dharma の",
+          "context_position": 44,
+          "sanskrit_in_context": [
+            "agavat",
+            "dharma"
+          ]
+        },
+        {
+          "shoryoshu_idx": 50,
+          "篇名": "式部の笠丞が為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "）の自覚は空（虚空・宇宙）に満ち、海涕（かいてい、海のごとき大悲の涙、観音の慈悲）の化身（けしん、応化身）は世を救う。遍界（",
+          "context_position": 50,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 50,
+          "篇名": "式部の笠丞が為の願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "ち大日（大日如来）に名を得（密教の中尊・両部曼荼羅の主尊）、大悲は則ち観音（観世音菩薩）に号を立てる。いわゆる阿哩野翳迦捺者",
+          "context_position": 454,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "二年（八二一）四月三日に修復を起首し、八月晦日に至るまでに、大悲胎蔵大曼荼羅一鋪八幅、金剛界大曼荼羅一鋪九幅、五大虚空蔵菩薩",
+          "context_position": 2002,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 54,
+          "篇名": "故藤中納言の為に十七尊の像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "清浄）は、愛縛（あいばく。愛欲の縛縄）に苦しむ衆生の心をその大悲の幢に吸収して解脱せしめる。  八供養菩薩（嬉・鬘・歌・舞の",
+          "context_position": 1948,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 64,
+          "篇名": "田小貳が先妣の忌斎を設くる為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "って大同二年（八〇七）仲春（陰暦二月）十一日、恭しく千手千眼大悲菩薩（千手観音）ならびに四摂菩薩（金剛鉤・金剛索・金剛鎖・金",
+          "context_position": 934,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 67,
+          "篇名": "播州の和判官が攘災の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "と並称）の没駄（ぼだ・buddha・仏陀）は悲済（衆生済度の大悲）をその根本となし、妙花（みょうけ・『妙法蓮華経』）の達磨（",
+          "context_position": 56,
+          "sanskrit_in_context": [
+            "buddha"
+          ]
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "　仰ぎ願わくは、金剛海会の三十七尊（金剛界曼荼羅三十七尊）、大悲胎蔵の四種曼荼羅（胎蔵四曼）、入我我入加持（仏が我に入り、我",
+          "context_position": 3250,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 76,
+          "篇名": "三嶋の大夫亡息女の為に法華経を書写し供養して講説する表白の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "兼愛思想を仏教の慈悲に重ねた語）は受楽（楽果を受ける）の因、大悲は脱苦（苦を脱する）の本である。三世の如去（にょこ・如来）は",
+          "context_position": 310,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "経十一部）を書写した。身の垢を鑁（バン・vaṃ・水大の真言・大悲の象徴）字の大悲の乳水に洗い、心の塵を訶（カ・hūṃ あるい",
+          "context_position": 386,
+          "sanskrit_in_context": [
+            "hūṃ",
+            "vaṃ"
+          ]
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "した。身の垢を鑁（バン・vaṃ・水大の真言・大悲の象徴）字の大悲の乳水に洗い、心の塵を訶（カ・hūṃ あるいは kha・風大",
+          "context_position": 394,
+          "sanskrit_in_context": [
+            "hūṃ",
+            "kha",
+            "vaṃ"
+          ]
+        },
+        {
+          "shoryoshu_idx": 77,
+          "篇名": "仏経を講演して四恩の徳を報ずる表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "ちしき・善き師友）の善誘（よく誘導する）の力、大導師（仏）の大悲の功にあらずんば、何によって流転の業輪を破し、常住の仏果に登",
+          "context_position": 1230,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 82,
+          "篇名": "有る人先師の為に法事を修する願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "楽果を与えるに至っては、大師（先師）の恩は広くしてはて無く、大悲の徳は高くして頂きがない。されば知る——沐（もく）し易くして",
+          "context_position": 363,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 85,
+          "篇名": "敬て勧む仏塔曼荼羅等を造り奉るべき事",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "　そもそも諸仏の事業は大慈を以て先となし、菩薩の行願は大悲を以て本となす。慈はよく楽を与え、悲はよく苦を抜く。抜苦与楽",
+          "context_position": 27,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 98,
+          "篇名": "高野建立の初めの結界の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "に迷う者は毎に三界（欲・色・無色）の泥に沈む。  　是の故に大悲の大日如来、独り三昧耶（さんまや・samaya・本誓・平等の",
+          "context_position": 382,
+          "sanskrit_in_context": [
+            "samaya"
+          ]
+        },
+        {
+          "shoryoshu_idx": 98,
+          "篇名": "高野建立の初めの結界の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "て、去（さ）りし延暦二十三年（八〇四）を以て彼の大唐に入る。大悲胎蔵（mahākaruṇā-garbha・胎蔵界）及び金剛界",
+          "context_position": 910,
+          "sanskrit_in_context": [
+            "mahākaruṇā-garbha"
+          ]
+        },
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "だな・karma-dāna・都維那・維那）に任ず。金剛の智と大悲の泉、既に自行（じぎょう・自己修行）化他（けた・他者教化）の",
+          "context_position": 929,
+          "sanskrit_in_context": [
+            "karma-dāna"
+          ]
+        },
+        {
+          "shoryoshu_idx": 100,
+          "篇名": "高雄山寺に三綱を択び任ずるの書",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "仏の大慈も覆蔭（ふいん・覆い護る）すること能わざる所、菩薩の大悲も救護すること能わざる所なり。何に況や諸天善神をや。誰の人か",
+          "context_position": 1845,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 104,
+          "篇名": "秋の日僧正大師を賀し奉る詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "すること幾許（いくばく・幾度）の度（たび）ぞ 　悲智（ひち・大悲 mahā-karuṇā と大智 mahā-prajñā）の",
+          "context_position": 2871,
+          "sanskrit_in_context": [
+            "mahā-karuṇā",
+            "mahā-prajñā"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "）にして、人の為に説けば 　兼ねて如来（tathāgata）大悲（だいひ・mahā-karuṇā）の衣（ころも）を著（き）た",
+          "context_position": 4328,
+          "sanskrit_in_context": [
+            "mahā-karuṇā",
+            "tathāgata"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "遮那",
+      "term_kana": "",
+      "sanskrit": "Vairocana",
+      "definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "遮",
+        "那"
+      ],
+      "occurrence_count": 18,
+      "篇分布": [
+        1,
+        56,
+        61,
+        63,
+        65,
+        72,
+        74,
+        78,
+        85,
+        90,
+        94,
+        97,
+        106
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "雨のごとく集い従う  【大日如来＝心王（密教思想の核）】  遮那（毘盧遮那如来＝大日如来）は中央にまします 遮那とは誰の号（",
+          "context_position": 2570,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "集い従う  【大日如来＝心王（密教思想の核）】  遮那（毘盧遮那如来＝大日如来）は中央にまします 遮那とは誰の号（よびな）ぞ",
+          "context_position": 2575,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "の核）】  遮那（毘盧遮那如来＝大日如来）は中央にまします 遮那とは誰の号（よびな）ぞ―― 本（もと）これ我が心王（自心の本",
+          "context_position": 2594,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 56,
+          "篇名": "僧寿勢先師の為に忌日の料物を入るる願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "乗ずる遊戯三昧に救いの手を授け、一大の浄満（じょうまん。毘盧遮那 Vairocana の意訳「光明遍照」「浄満」。一大本覚の",
+          "context_position": 1601,
+          "sanskrit_in_context": [
+            "Vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 61,
+          "篇名": "知識の華厳会の為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "翔し、これを誦持する者は乍ちに大日如来（『華厳経』本尊・毘盧遮那如来）の輿（こし。聖駕）に乗じ入るのである。  奇しきかな覚",
+          "context_position": 353,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 63,
+          "篇名": "菅平章事の為の願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "に沐（ゆあみ）して、不染の蓮蔵（『華厳経』蓮華蔵世界海。毘盧遮那の浄土）に優遊せんことを。",
+          "context_position": 2318,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "一なる如一であると覚りたもう御方こそ、わが大師薄伽梵摩訶毘盧遮那薩他怛掲多（ばがばん・まかびろしゃな・たたぎゃた・bhaga",
+          "context_position": 408,
+          "sanskrit_in_context": [
+            "bhaga"
+          ]
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "-samādhi・遍く法界に通ずる三昧）を汝は久しく修習し、遮那（vairocana・大日如来）の四秘（しひ・四種曼荼羅・大",
+          "context_position": 2532,
+          "sanskrit_in_context": [
+            "samādhi",
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 74,
+          "篇名": "孝子先妣の周忌の為に両部の曼荼羅大日経を図写し供養して講説す表白の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "ら）が、尊敬を込めて法庭（道場）に集まり、五方の仏（中央毘盧遮那・東方阿閦・南方宝生・西方阿弥陀・北方不空成就の金剛界五仏）",
+          "context_position": 1090,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 78,
+          "篇名": "先師の為に梵網経を講釈する表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "くは、慈悲の三尊（先師勤操の本尊三尊か——大日・釈迦・梵網盧遮那）、霊あらば証明したまえ。 　風に聞く——情無き杞梓（きし・",
+          "context_position": 443,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 78,
+          "篇名": "先師の為に梵網経を講釈する表白",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "極の真実義）の奥旨を講演する。 　仰ぎ願わくは、蓮華台上の廬遮那如来（『梵網経』所説の蓮華蔵世界の中央本尊・vairocan",
+          "context_position": 2654,
+          "sanskrit_in_context": [
+            "vairocan"
+          ]
+        },
+        {
+          "shoryoshu_idx": 85,
+          "篇名": "敬て勧む仏塔曼荼羅等を造り奉るべき事",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "二利（自利・利他）を具足せんがために、金剛峯寺において、毘盧遮那（vairocana・大日如来）法界体性（ほっかいたいしょう",
+          "context_position": 295,
+          "sanskrit_in_context": [
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 90,
+          "篇名": "東寺の塔を造り奉る材木を曳き運ぶ勧進の表",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "a-mudrā・施願の印相）と号（なづ）く。功徳聚は則ち毘盧遮那（vairocana・大日如来）の万徳の集成する所、与願印は",
+          "context_position": 185,
+          "sanskrit_in_context": [
+            "a-mudrā",
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 94,
+          "篇名": "高野の四至の啓白の文",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "（じねん・真言を持誦祈念）す。華蔵（けぞう・蓮華蔵世界・毘盧遮那の浄土）を心海（しんかい）に観じ、実相を此の山に念ず。もって",
+          "context_position": 876,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "を学すべし。自証の教とは、所謂『金剛頂』十万偈、及び『大毘盧遮那』十万偈の経これなり。此の経は則ち、浄妙法身大毘盧遮那仏（ś",
+          "context_position": 1574,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "大毘盧遮那』十万偈の経これなり。此の経は則ち、浄妙法身大毘盧遮那仏（śuddha-vairocana）、自眷属（じけんぞく・",
+          "context_position": 1601,
+          "sanskrit_in_context": [
+            "śuddha-vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "由（よ）りてか得ることを覓めん。若し無我の大我を求めば、則ち遮那（しゃな・vairocana・大日如来）の三密即ち是れなり。",
+          "context_position": 3049,
+          "sanskrit_in_context": [
+            "vairocana"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "（しゃな・vairocana・大日如来）の三密即ち是れなり。遮那の三密は何（いず）れの処にか遍ぜざらん。汝が三密即ち是れなり",
+          "context_position": 3081,
+          "sanskrit_in_context": [
+            "vairocana"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "本不生",
+      "term_kana": "",
+      "sanskrit": "ādyanutpāda",
+      "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 12,
+      "篇分布": [
+        1,
+        14,
+        45,
+        53,
+        54,
+        55,
+        62,
+        71,
+        72
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "教世界・宇宙）に満ちわたり 一字（密教でいう「阿〔ア〕字」、本不生の根本字、万物の本源たる教え）が津梁（彼岸への橋）の務めを果",
+          "context_position": 3044,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "虚空（清浄なる虚空・空性）なり  一心（心の本性、密教でいう本不生の心王）の趣を談ぜんと欲するに  三曜（日・月・星の三光）天",
+          "context_position": 1587,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "ごとき法乳）の味に飽き、斉しく阿字（あじ、密教の根本種子字、本不生の理を表す）の閣（こう、楼閣・阿字本不生の境地）に遊ばん。 ",
+          "context_position": 2426,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "の在る所のすべての衆生は、阿字（あじ。胎蔵大日如来の種子字。本不生＝諸法の本来不生の真理を象徴）を本初（ほんしょ。万象の根源）",
+          "context_position": 3166,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 54,
+          "篇名": "故藤中納言の為に十七尊の像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "に輝かしめ、広く無際の衆生をことごとく羅（あつ）め取り、普く本不生（阿字本不生。万法の本来不生なる密教究極の覚境）の境地に入ら",
+          "context_position": 2255,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "ている。自ら自と為し、阿一字独り婀（あ。阿字を女性形に読み、本不生の母性を表すか）を作（な）す。  日烏に乗る金剛界五智（金烏",
+          "context_position": 730,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "金剛界大日種子）の乳の珍味に飽き、斉しく阿字（胎蔵大日種子）本不生の宝閣に登らんことを。",
+          "context_position": 2552,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 62,
+          "篇名": "葛木の参軍先考の忌斎を設くる願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "密教大日如来の絶対主体）であり、よく阿字（胎蔵大日種子。万法本不生の真理）を覚（さと）る。これは達磨（だるま。dharma の",
+          "context_position": 532,
+          "sanskrit_in_context": [
+            "dharma"
+          ]
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "・「渇」は「偈」の異体・gāthā・妙偈）にいわく——「我覚本不生云云（がかくほんふしょううんぬん・我覚れり、本不生にして云云",
+          "context_position": 416,
+          "sanskrit_in_context": [
+            "gāthā"
+          ]
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "——「我覚本不生云云（がかくほんふしょううんぬん・我覚れり、本不生にして云云・『大日経』阿字本不生五字真言の意）」、「普賢法身",
+          "context_position": 441,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "仏し、即心の曼荼羅となる。故に経（『大日経』）にいわく「我覚本不生云云（われ本不生なるを覚れり云云）」と。また真言にいわく「曩",
+          "context_position": 2814,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "羅となる。故に経（『大日経』）にいわく「我覚本不生云云（われ本不生なるを覚れり云云）」と。また真言にいわく「曩莫三曼多没駄南、",
+          "context_position": 2822,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "阿字",
+      "term_kana": "",
+      "sanskrit": "a-kāra",
+      "definition": "密教根本字。梵語五十字門の最初の字。本不生を象徴。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 11,
+      "篇分布": [
+        4,
+        45,
+        53,
+        55,
+        62,
+        72,
+        109
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 4,
+          "篇名": "雨を喜ぶ歌 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "よう。 男も女も、もし能く一字（万物不生の本源を象徴する密教阿字）を持つことができるならば、 朝ごとに、ただひたすら自心の宮",
+          "context_position": 1699,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "ん〕は密教の水大の種子字、水のごとき法乳）の味に飽き、斉しく阿字（あじ、密教の根本種子字、本不生の理を表す）の閣（こう、楼閣",
+          "context_position": 2411,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "・火・風・空）の遍く満ちる所、心識の在る所のすべての衆生は、阿字（あじ。胎蔵大日如来の種子字。本不生＝諸法の本来不生の真理を",
+          "context_position": 3149,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "に優遊しているに過ぎない。  誰がこれに及ぶことができよう、阿字一字（弌阿）の本初不生の境地——本性真如の慈愛をすべて吸引し",
+          "context_position": 526,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "の方便の喩え）を離れている。自ら自と為し、阿一字独り婀（あ。阿字を女性形に読み、本不生の母性を表すか）を作（な）す。  日烏",
+          "context_position": 720,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "般若・陀羅尼の五蔵、もしくは密教の五部）を出入せしめる。  阿字一声の含む義は、劫（こう。極大の時間）を歴（へ）ても尽くし難",
+          "context_position": 1106,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 55,
+          "篇名": "笠の大夫先妣の奉為に大曼荼羅を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "等しく鑁字（ばんじ。金剛界大日種子）の乳の珍味に飽き、斉しく阿字（胎蔵大日種子）本不生の宝閣に登らんことを。",
+          "context_position": 2542,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 62,
+          "篇名": "葛木の参軍先考の忌斎を設くる願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "彼（仏陀）はすでに大我（密教大日如来の絶対主体）であり、よく阿字（胎蔵大日種子。万法本不生の真理）を覚（さと）る。これは達磨",
+          "context_position": 520,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "あらず。不生（阿字本不生・anutpāda）を一阿（いちあ・阿字唯一の真言）に証し、五智（金剛界五仏の五智）を鑁水（ばんすい",
+          "context_position": 2425,
+          "sanskrit_in_context": [
+            "anutpāda"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "な、迷者（めいしゃ）孰（たれ）か此（これ）を観ず 　超越して阿字（あじ・密教阿字本不生〔本来不生 ādyanutpāda〕の",
+          "context_position": 1087,
+          "sanskrit_in_context": [
+            "ādyanutpāda"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "（こころ）に任（まか）せて遷（うつ）る 　一種（いっしゅ）の阿字（a-kāra・密教根本字・阿字本不生）旋輪（せんりん・旋り",
+          "context_position": 5134,
+          "sanskrit_in_context": [
+            "a-kāra"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "心王",
+      "term_kana": "",
+      "sanskrit": "citta-rāja",
+      "definition": "八識の根本識。心の主体・統括者。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 9,
+      "篇分布": [
+        1,
+        4,
+        14,
+        53,
+        69,
+        71,
+        72
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "ている 眷属（聖衆たち）は雨のごとく集い従う  【大日如来＝心王（密教思想の核）】  遮那（毘盧遮那如来＝大日如来）は中央に",
+          "context_position": 2557,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "まします 遮那とは誰の号（よびな）ぞ―― 本（もと）これ我が心王（自心の本性たる王、衆生本具の仏性そのもの）なり 三密（身・",
+          "context_position": 2619,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 4,
+          "篇名": "雨を喜ぶ歌 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "を持つことができるならば、 朝ごとに、ただひたすら自心の宮（心王・心数のすまう内なる宮殿。密教の心宮観）を観ぜよ。 自心はま",
+          "context_position": 1732,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 14,
+          "篇名": "中寿感興の詩 序を并せたり",
+          "巻": "第三巻",
+          "page_idx": 0,
+          "context": "浄なる虚空・空性）なり  一心（心の本性、密教でいう本不生の心王）の趣を談ぜんと欲するに  三曜（日・月・星の三光）天中に朗",
+          "context_position": 1591,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "中央に開く蓮華）の上に住し、塵沙の如く無数の心数（しんすう。心王に従う心所有法、無数の眷属諸尊）は自ずと覚月（さとりの月輪、",
+          "context_position": 749,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "華を設えて、この曼荼羅を供養した。  胎蔵中台八葉院の九識の心王（くしきのしんのう。中台九尊＝中央大日如来と八葉の宝幢・開敷",
+          "context_position": 2265,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 69,
+          "篇名": "弟子の僧真体が亡妹の七七の斎を設け並びに伝灯の料田を奉入する為の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "なるさま）として頂きが見えぬほどに高い。内心の大我（だいが・心王大日）は法界をその都（みやこ）として、しかも常恒（永遠不変）",
+          "context_position": 431,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "もそも妄念の風がひとたび扇ぐと、清浄なる識海（しきかい・八識心王の海——『首楞厳経』『大乗起信論』）は波濤して荒れ立ち、覚り",
+          "context_position": 32,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "・漂い揺らぐ）たる染海（ぜんかい・煩悩に染められた識海・八識心王の海）は、衆縁（多くの因縁）に随って起滅し変転する。それゆえ",
+          "context_position": 137,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "阿字本不生",
+      "term_kana": "",
+      "sanskrit": "ā-di-an-utpāda",
+      "definition": "密教根本教義。阿字（a-kāra）が本来不生（不滅）であることを観じ、万物の本源を悟る。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 8,
+      "篇分布": [
+        45,
+        54,
+        59,
+        70,
+        71,
+        72,
+        109
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 45,
+          "篇名": "天長皇帝故中務卿の親王の為に田及び道場の支具を捨てて橘寺に入るる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "あじ、密教の根本種子字、本不生の理を表す）の閣（こう、楼閣・阿字本不生の境地）に遊ばん。  （本願文は天長四年〔八二七〕九月、亡き",
+          "context_position": 2444,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 54,
+          "篇名": "故藤中納言の為に十七尊の像を造り奉る願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "め、広く無際の衆生をことごとく羅（あつ）め取り、普く本不生（阿字本不生。万法の本来不生なる密教究極の覚境）の境地に入らしめ給わんこ",
+          "context_position": 2259,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 59,
+          "篇名": "平城の東大寺に於いて三宝を供する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "羅の月輪宮、心月輪三昧の所居）に住し、如今（いまここ）不生（阿字本不生、生滅を超越）にして、赫日の台（胎蔵界曼荼羅の日輪台、中台八",
+          "context_position": 206,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 70,
+          "篇名": "弟子僧真境が亡考の七七の斎を設くる為の願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "灌（そそ）ぎたまえ。恵眼（智慧の眼）を開いて不生（ふしょう・阿字本不生・anutpāda）の真理を見、心蓮（心の蓮華）を敷き開いて",
+          "context_position": 1162,
+          "sanskrit_in_context": [
+            "anutpāda"
+          ]
+        },
+        {
+          "shoryoshu_idx": 71,
+          "篇名": "招提寺の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "ほんふしょううんぬん・我覚れり、本不生にして云云・『大日経』阿字本不生五字真言の意）」、「普賢法身遍一切云云（ふげんほっしんへんい",
+          "context_position": 455,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "も諸障（あらゆる障り）を銷（け）すこと、難きにあらず。不生（阿字本不生・anutpāda）を一阿（いちあ・阿字唯一の真言）に証し、",
+          "context_position": 2402,
+          "sanskrit_in_context": [
+            "anutpāda"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "ゃ）孰（たれ）か此（これ）を観ず 　超越して阿字（あじ・密教阿字本不生〔本来不生 ādyanutpāda〕の根本字 a-kāra）",
+          "context_position": 1095,
+          "sanskrit_in_context": [
+            "a-kāra",
+            "ādyanutpāda"
+          ]
+        },
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "つ）る 　一種（いっしゅ）の阿字（a-kāra・密教根本字・阿字本不生）旋輪（せんりん・旋り回る輪）多し 　無辺の法義（ほうぎ・諸",
+          "context_position": 5150,
+          "sanskrit_in_context": [
+            "a-kāra"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "即身成仏",
+      "term_kana": "",
+      "sanskrit": "sa-deha-prāpti-buddhatva",
+      "definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "成",
+        "仏"
+      ],
+      "occurrence_count": 7,
+      "篇分布": [
+        12,
+        30,
+        59,
+        72,
+        105,
+        106
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 12,
+          "篇名": "大唐神都青龍寺故三朝の国師潅頂阿闍梨恵果和尚の碑",
+          "巻": "第二巻",
+          "page_idx": 0,
+          "context": "も坐するも、道場が即ち変ずる（一身一動が即道場となる、密教の即身成仏観）。眠るも覚むるも、観智は離れない。これをもって朝日と等（",
+          "context_position": 3492,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 30,
+          "篇名": "小僧都を辞する表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "（身密・口密〔語密〕・意密、密教の枢要、印・真言・観想による即身成仏の修行）に運んで、国恩を枯木（老朽の身）の中で報じ、冒地（ぼ",
+          "context_position": 769,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 59,
+          "篇名": "平城の東大寺に於いて三宝を供する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "は何処にあるのか。遠きにあらず、即ち我が身そのものである（『即身成仏義』所説の即身成仏義に通ずる）。  智体（如来の智慧の本体）",
+          "context_position": 77,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 59,
+          "篇名": "平城の東大寺に於いて三宝を供する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "遠きにあらず、即ち我が身そのものである（『即身成仏義』所説の即身成仏義に通ずる）。  智体（如来の智慧の本体）は如何（いかん）。",
+          "context_position": 86,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 72,
+          "篇名": "亡弟子智泉の為の達嚫の文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "を経て金剛界曼荼羅本尊と成る瑜伽行）し、妙観察智の力をもって即身成仏し、即心の曼荼羅となる。故に経（『大日経』）にいわく「我覚本",
+          "context_position": 2781,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 105,
+          "篇名": "泰範叡山の澄和尚に啓を答する為の書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "仏乗に帰する天台教学）と真言一乗（しんごんいちじょう・密教の即身成仏の一乗・大日経・金剛頂経）と、何の優劣か有る」と。泰範は智、",
+          "context_position": 1232,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "、誰か能（よ）く一覚（いっかく・一刹那の sambodhi・即身成仏の一念）の妙行を信じ、三磨（さんま・samādhi・三摩地）",
+          "context_position": 6528,
+          "sanskrit_in_context": [
+            "sambodhi",
+            "samādhi"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "玄機",
+      "term_kana": "",
+      "sanskrit": "—",
+      "definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "玄",
+        "機"
+      ],
+      "occurrence_count": 5,
+      "篇分布": [
+        0,
+        2
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 0,
+          "篇名": "真済序",
+          "巻": "巻第一",
+          "page_idx": 0,
+          "context": "に来たのか。その才を誇示するためではあるまい。ますます学んで玄機（深遠なる道）を助けよ。土地の人にも君のような者は稀である」",
+          "context_position": 1805,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "獣魚すべてを言外に含める。）  12.　蹌蹌として率い舞うて玄機に在り 整然と群を率いて舞いを奏でるそのさまは、すべて玄機（",
+          "context_position": 1562,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "て玄機に在り 整然と群を率いて舞いを奏でるそのさまは、すべて玄機（天地の奥深い機微・大道の働き）の只中にある。 （「蹌蹌」は",
+          "context_position": 1591,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "率いて舞う〕」を踏まえる、舜帝の徳に万物が舞う礼楽の典故。「玄機」は『荘子』『老子』以来の道家語で「玄妙の機微」、空海におい",
+          "context_position": 1722,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 2,
+          "篇名": "秋の日神泉苑を観る 七言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "根源たる大日如来＝法界の機関にも通じる語。本詩末尾は道家的「玄機」によって禁苑の景を一気に大道の地平へ開く。）",
+          "context_position": 1789,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "智剣",
+      "term_kana": "",
+      "sanskrit": "jñāna-khaḍga",
+      "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "智",
+        "剣"
+      ],
+      "occurrence_count": 4,
+      "篇分布": [
+        3,
+        46,
+        47,
+        53
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 3,
+          "篇名": "野陸州に贈る歌 序を并せたり 雑言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "書』食貨志「銷兵為農器」、武器を農具に鋳直す故事）を待ち、 智剣（智慧の剣・密教では金剛智の象徴。『金剛経』等で煩悩を断つ知",
+          "context_position": 1363,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 46,
+          "篇名": "天長皇帝大極殿に於いて百僧を屈して雩する願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "・乾闥婆・阿修羅・迦楼羅・緊那羅・摩睺羅伽の八部衆）の霊神、智剣（智慧の剣）を揮って黔黎（けんれい、頭の黒い民・庶民・『戦国",
+          "context_position": 1947,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 47,
+          "篇名": "右将軍良納言開府儀同三司左僕射の為に大祥の斎を設くる願文",
+          "巻": "第六巻",
+          "page_idx": 0,
+          "context": "、転輪聖王の最上位金輪聖王）四天（四天下、世界全体）に転じ、智剣三障（さんしょう、煩悩障・業障・報障）を斫（き）り砕かん。魔",
+          "context_position": 2302,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 53,
+          "篇名": "四恩の奉為に二部の大曼荼羅を造する願文",
+          "巻": "第七巻",
+          "page_idx": 0,
+          "context": "たび仰ぎ瞻れば、大日如来の慧剣（えけん。智慧の利剣、文殊金剛智剣）が煩悩の縛を断ち切り、もしは供養を捧げ、もしは讃嘆を奉れば",
+          "context_position": 2703,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三摩地",
+      "term_kana": "",
+      "sanskrit": "samādhi",
+      "definition": "禅定。心を一境に住して散乱を離れた状態。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 3,
+      "篇分布": [
+        65,
+        97,
+        106
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 65,
+          "篇名": "大夫笠の左衛の佐亡室の為に大日の禎像を造る願文",
+          "巻": "第八巻",
+          "page_idx": 0,
+          "context": "根葉に灑がんことを。覚眼を除蓋障三昧（『大日経』六無畏の入仏三摩地・智の障りを除く三昧）に開き、心月（自性清浄心）を月輪観の定",
+          "context_position": 2108,
+          "sanskrit_in_context": []
+        },
+        {
+          "shoryoshu_idx": 97,
+          "篇名": "諸の有縁の衆を勧め奉り秘密の法蔵合して三十五巻を写し奉るべし",
+          "巻": "第九巻",
+          "page_idx": 0,
+          "context": "うみょう・nāgārjuna・龍樹）菩薩の云わく——「自証の三摩地（samādhi）の法は、諸教の中に闕（か）けて書せず」と。",
+          "context_position": 1799,
+          "sanskrit_in_context": [
+            "nāgārjuna",
+            "samādhi"
+          ]
+        },
+        {
+          "shoryoshu_idx": 106,
+          "篇名": "叡山の澄法師の理趣釈経を求むるに答する書",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "即身成仏の一念）の妙行を信じ、三磨（さんま・samādhi・三摩地）の難思（なんし）を修（しゅ）せん。 　止（や）みね、止みね",
+          "context_position": 6558,
+          "sanskrit_in_context": [
+            "samādhi"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "大空三昧",
+      "term_kana": "",
+      "sanskrit": "mahā-śūnyatā-samādhi",
+      "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 1,
+      "篇分布": [
+        109
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 109,
+          "篇名": "十喩を詠ずる詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": " 　慢ずること莫れ、欺くこと莫れ、是れ仮物（けぶつ）なり 　大空三昧（だいくうざんまい・mahāśūnyatā-samādhi・",
+          "context_position": 1795,
+          "sanskrit_in_context": [
+            "mahāśūnyatā-samādhi"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "無縁慈悲",
+      "term_kana": "",
+      "sanskrit": "an-ārambaṇa-karuṇā",
+      "definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "慈",
+        "悲"
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        1
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 1,
+          "篇名": "山に遊んで仙を慕う詩 序を并せたり 五言",
+          "巻": "第一巻",
+          "page_idx": 0,
+          "context": "我（我執）はともに消亡す 定慧（禅定と智慧）は心海を澄まし 無縁慈悲（縁なき者にもおよぶ仏の慈悲）は常に湯湯（とうとう、水が広く",
+          "context_position": 3329,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "即身",
+      "term_kana": "",
+      "sanskrit": "sa-deha",
+      "definition": "即身成仏の略。父母所生の身のまま現生で仏となる。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "篇分布": [],
+      "occurrences": []
+    }
+  ]
+}

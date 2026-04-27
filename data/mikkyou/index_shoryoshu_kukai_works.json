@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "category": "空海著作・性霊集編纂物（kukai works）",
+  "source_corpus": "shoryoshu_miyasaka.json",
+  "generated_at": "2026-04-27",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 6,
+  "summary": {
+    "unique_terms": 5,
+    "total_occurrences": 5,
+    "covered_shoryoshu_idx_count": 2
+  },
+  "entries": [
+    {
+      "term": "古今文字讃",
+      "aliases": [],
+      "occurrence_count": 1,
+      "篇分布": [
+        27
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 27,
+          "篇名": "梵字并びに雑文を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "誠惶誠恐、謹んで言上す。  『梵字悉曇字母并びに釈義』一巻 『古今文字讃』三巻 『古今篆隷の文体』一巻 『梁の武帝の草書の評』（梁武帝",
+          "context_position": 2627,
+          "raw_form": "古今文字讃"
+        }
+      ]
+    },
+    {
+      "term": "古今篆隷の文体",
+      "aliases": [],
+      "occurrence_count": 1,
+      "篇分布": [
+        27
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 27,
+          "篇名": "梵字并びに雑文を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "す。  『梵字悉曇字母并びに釈義』一巻 『古今文字讃』三巻 『古今篆隷の文体』一巻 『梁の武帝の草書の評』（梁武帝『古今書人優劣評』）一巻",
+          "context_position": 2637,
+          "raw_form": "古今篆隷の文体"
+        }
+      ]
+    },
+    {
+      "term": "大広智の影の讃",
+      "aliases": [
+        "大広智（不空三蔵）の影（肖像）の讃"
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        27
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 27,
+          "篇名": "梵字并びに雑文を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "亭序の臨書ないし拓本）一巻 『曇一律師の碑銘』一巻（草書） 『大広智（不空三蔵）の影（肖像）の讃』一巻  弘仁五年（八一四）閏七月二十八日　沙門空海進上",
+          "context_position": 2722,
+          "raw_form": "大広智（不空三蔵）の影（肖像）の讃"
+        }
+      ]
+    },
+    {
+      "term": "梵字悉曇字母并びに釈義",
+      "aliases": [],
+      "occurrence_count": 1,
+      "篇分布": [
+        27
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 27,
+          "篇名": "梵字并びに雑文を献ずる表 一首",
+          "巻": "第四巻",
+          "page_idx": 0,
+          "context": "戦慄）する次第である。沙門空海、誠惶誠恐、謹んで言上す。  『梵字悉曇字母并びに釈義』一巻 『古今文字讃』三巻 『古今篆隷の文体』一巻 『梁の武帝",
+          "context_position": 2611,
+          "raw_form": "梵字悉曇字母并びに釈義"
+        }
+      ]
+    },
+    {
+      "term": "続性霊集補闕鈔",
+      "aliases": [
+        "続性霊集補闕鈔（ぞくしょうりょうしゅうほけつしょう）"
+      ],
+      "occurrence_count": 1,
+      "篇分布": [
+        110
+      ],
+      "occurrences": [
+        {
+          "shoryoshu_idx": 110,
+          "篇名": "九相の詩",
+          "巻": "第十巻",
+          "page_idx": 0,
+          "context": "三巻を勒成（ろくせい・編纂完成）す。題号（だいごう）を立てて『続性霊集補闕鈔（ぞくしょうりょうしゅうほけつしょう）』と曰（い）う。 　忝（かたじけな）く先集（せんしゅう・真済〔",
+          "context_position": 5861,
+          "raw_form": "続性霊集補闕鈔（ぞくしょうりょうしゅうほけつしょう）"
+        }
+      ]
+    }
+  ],
+  "classification_table": {
+    "梵字悉曇字母并びに釈義": "空海著作",
+    "古今文字讃": "空海請来書",
+    "古今篆隷の文体": "空海請来書",
+    "続性霊集補闕鈔": "性霊集編纂物",
+    "大広智の影の讃": "idx12篇名（空海碑文）",
+    "大広智不空三蔵の影の讃": "idx12篇名（空海碑文・括弧前）"
+  }
+}
