@@ -46,9 +46,26 @@
     spec 厳密準拠したい場合は `include_kaimyo_jukugo=false`。
   - エラー: `MISSING_PARAMETER`（theme 空・400）
 
-## v1.9 以降の予定
+## v1.9 で追加（OpenAPI 整備 + 結合テスト）
 
-- v1.9: OpenAPI yaml 整備 + kaimyo-app 結合テスト + デプロイ
+- **OpenAPI 強化**：FastAPI app に `openapi_tags` メタ + 各 14 ルートに `tags=` / `summary=` を付与。
+  alias 系 2 本（`/api/hen/{idx}` / `/api/kukai_work/{key}`）は `include_in_schema=False` で
+  スキーマから隠蔽（Swagger UI には canonical のみ表示・実 HTTP では引ける）。
+- **export_openapi.py**：`python -m api_server.export_openapi` で `openapi.json` + `openapi.yaml`
+  を `api_server/` 直下に生成（PyYAML 必須）。手動補強として servers セクション・主要エラー
+  レスポンス例（MISSING_PARAMETER / UNKNOWN_CHARACTERISTIC / INVALID_LENGTH）・
+  v1.8 拡張点（include_kaimyo_jukugo の理由）を追記。
+- **結合テスト**：`api_server/tests/` 配下に 30+ テスト。
+  - `test_integration.py`：FastAPI TestClient で in-process・全 14 ルート + 主要エラー系。
+    期待値は引き継ぎメモに準拠（慈悲 → 29 篇 / 智慧 min_hits=3 → 16 篇 / 即身成仏 → idx=59 rank=1
+    / 学問熱心+温和 → 1〜5 件 / 弘法大師 → 空海 alias 解決 等）。
+  - `test_e2e_uvicorn.py`：実 uvicorn を subprocess で起動し httpx で 7 ルート smoke test
+    （Swagger UI HTML / OpenAPI JSON / Unicode path 含む）。
+- 一括ランチャー：`api_server\run_tests.bat` / `api_server\export_openapi.bat`（Windows 用）。
+
+## v1.10 以降の予定
+
+- v1.10: 本番デプロイ（VPS / Cloud Run / Vercel 等の選定 + .env / CORS / レート制限策定）
 - 候補 D 完結後の優先候補（A. 注 chu 取込再開・C. メタデータ構造化・E. 専門家校閲 等）
 
 ## ローカル起動
@@ -59,6 +76,30 @@ uvicorn api_server.main:app --reload --port 8000
 ```
 
 `/docs`（Swagger UI）が http://127.0.0.1:8000/docs に自動生成される。
+v1.9 で 5 つの tags グループ（Meta / 篇カルテ / 詳細参照系 / 戒名候補 / 法話典故）に分類済。
+
+## OpenAPI スキーマ書き出し（v1.9）
+
+```bash
+pip install -r api_server/requirements-test.txt   # PyYAML 含む
+python -m api_server.export_openapi
+# → api_server/openapi.json + api_server/openapi.yaml が更新される
+```
+
+Windows なら `api_server\export_openapi.bat` をダブルクリックでも可。
+
+## 結合テスト（v1.9）
+
+```bash
+pip install -r api_server/requirements-test.txt
+pytest api_server/tests -v
+```
+
+Windows なら `api_server\run_tests.bat`。
+
+- `test_integration.py`：TestClient で in-process（高速・全 14 ルート + エラー系・OpenAPI 検証）。
+- `test_e2e_uvicorn.py`：実 uvicorn を subprocess で起動して httpx で叩く（Unicode path / Swagger UI / OpenAPI JSON 含む）。
+  port は既定 8765（環境変数 `BUDDHIST_API_TEST_PORT` で変更可）。
 
 ## curl で動作確認
 

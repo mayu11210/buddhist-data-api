@@ -60,6 +60,47 @@ except ImportError:
 # FastAPI アプリ + 起動時ロード
 # --------------------------------------------------------------------------
 
+OPENAPI_TAGS_META = [
+    {
+        "name": "Meta",
+        "description": (
+            "サービスメタ・ヘルスチェック・マッピング表参照。"
+            "起動シーケンス（仕様 §13.8.2）に従い、7 索引 + miyasaka.json + "
+            "api_mappings.json をメモリ常駐済。"
+        ),
+    },
+    {
+        "name": "篇カルテ",
+        "description": (
+            "性霊集 全 112 篇（idx 0..111）に対する全索引ヒット統合エンドポイント。"
+            "仕様 §13.6 の 1 本構成。"
+        ),
+    },
+    {
+        "name": "詳細参照系",
+        "description": (
+            "仕様 §13.5 の詳細参照系 6 本（terms / persons / places / citations / "
+            "sanskrit / kukai-works）。alias / matched_form でも引け、共起マトリックスを"
+            "用いた related ブロックを同梱。"
+        ),
+    },
+    {
+        "name": "戒名候補",
+        "description": (
+            "仕様 §13.3 中核 1。故人特性（CHARACTERISTIC_TO_ICHIJI 15 種）から"
+            "戒名候補を生成し、共起人物・地名ボーナス・梵語原語照合を含めて返す。"
+        ),
+    },
+    {
+        "name": "法話典故",
+        "description": (
+            "仕様 §13.4 中核 2。法話テーマから関連篇（典故）を統合検索し、"
+            "出典文 ±N 字を抜粋。THEME_EXPANSION（10 種既知テーマ）+ 自由語可。"
+            "v1.8 拡張で kaimyo_jukugo（1971 件）を併用（既定 true）し実用性確保。"
+        ),
+    },
+]
+
 app = FastAPI(
     title="Buddhist Data API",
     description=(
@@ -69,9 +110,16 @@ app = FastAPI(
         "6 本と共起マトリックス前計算を追加。v1.7 で中核 1 "
         "/api/kaimyo/candidates（故人特性 → 戒名候補）を実装。v1.8 で "
         "中核 2 /api/houwa/citations（法話テーマ → 関連篇）を実装し、"
-        "§13 の 9 エンドポイントが全実装完了。"
+        "§13 の 9 エンドポイントが全実装完了。v1.9 で OpenAPI yaml 整備 + "
+        "結合テスト整備。"
     ),
-    version="1.8.0",
+    version="1.9.0",
+    openapi_tags=OPENAPI_TAGS_META,
+    contact={
+        "name": "buddhist-data-api / kaimyo-app",
+        "url": "https://github.com/mayu11210/buddhist-data-api",
+    },
+    license_info={"name": "Internal use", "identifier": "Proprietary"},
 )
 
 
@@ -98,7 +146,7 @@ def _store() -> IndexStore:
 # ルートとヘルス
 # --------------------------------------------------------------------------
 
-@app.get("/")
+@app.get("/", tags=["Meta"], summary="サービスメタ（バージョン・索引統計・登録ルート一覧）")
 def root() -> Dict[str, Any]:
     store = _store()
     co_pairs_total = sum(
@@ -106,7 +154,7 @@ def root() -> Dict[str, Any]:
     )
     return {
         "service": "buddhist-data-api",
-        "version": "1.8.0",
+        "version": "1.9.0",
         "schema_version": store.schema_version,
         "loaded_indices": list(INDEX_FILES.keys()),
         "miyasaka_entries": len(store.miyasaka),
@@ -137,12 +185,12 @@ def root() -> Dict[str, Any]:
     }
 
 
-@app.get("/health")
+@app.get("/health", tags=["Meta"], summary="簡易ヘルスチェック（{status: ok}）")
 def health() -> Dict[str, str]:
     return {"status": "ok"}
 
 
-@app.get("/api/mappings")
+@app.get("/api/mappings", tags=["Meta"], summary="マッピング 2 表（CHARACTERISTIC_TO_ICHIJI + THEME_EXPANSION）取得")
 def get_mappings() -> Dict[str, Any]:
     """v1.4 で確定したマッピング 2 表（CHARACTERISTIC_TO_ICHIJI + THEME_EXPANSION）を返す。"""
     return _store().api_mappings
@@ -152,8 +200,8 @@ def get_mappings() -> Dict[str, Any]:
 # /api/篇/{idx} （§13.6 統合 1 本・v1.5 から継続）
 # --------------------------------------------------------------------------
 
-@app.get("/api/篇/{idx}")
-@app.get("/api/hen/{idx}")
+@app.get("/api/篇/{idx}", tags=["篇カルテ"], summary="篇カルテ（§13.6・全索引ヒット統合）")
+@app.get("/api/hen/{idx}", tags=["篇カルテ"], summary="篇カルテ（ASCII alias）", include_in_schema=False)
 def get_篇(
     idx: int,
     excerpt_chars: int = Query(300, ge=0, le=5000, description="書き下し・訳の冒頭抜粋字数"),
@@ -206,7 +254,7 @@ def _build_reference_or_404(endpoint: str, key: str, full_context: bool, top_n: 
         )
 
 
-@app.get("/api/term/{key:path}")
+@app.get("/api/term/{key:path}", tags=["詳細参照系"], summary="密教教学用語（terms 索引・19 種）の詳細参照")
 def get_term(
     key: str,
     full_context: bool = Query(False, description="true で occurrences を全件返す"),
@@ -216,7 +264,7 @@ def get_term(
     return _build_reference_or_404("terms", key, full_context, top_n)
 
 
-@app.get("/api/person/{key:path}")
+@app.get("/api/person/{key:path}", tags=["詳細参照系"], summary="人名（persons 索引・81 種）の詳細参照（alias / matched_form 可）")
 def get_person(
     key: str,
     full_context: bool = Query(False),
@@ -226,7 +274,7 @@ def get_person(
     return _build_reference_or_404("persons", key, full_context, top_n)
 
 
-@app.get("/api/place/{key:path}")
+@app.get("/api/place/{key:path}", tags=["詳細参照系"], summary="地名（places 索引・70 種）の詳細参照（alias / matched_form 可）")
 def get_place(
     key: str,
     full_context: bool = Query(False),
@@ -236,7 +284,7 @@ def get_place(
     return _build_reference_or_404("places", key, full_context, top_n)
 
 
-@app.get("/api/citation/{key:path}")
+@app.get("/api/citation/{key:path}", tags=["詳細参照系"], summary="典故書名（citations 索引・237 種）の詳細参照（aliases 可）")
 def get_citation(
     key: str,
     full_context: bool = Query(False),
@@ -246,7 +294,7 @@ def get_citation(
     return _build_reference_or_404("citations", key, full_context, top_n)
 
 
-@app.get("/api/sanskrit/{key:path}")
+@app.get("/api/sanskrit/{key:path}", tags=["詳細参照系"], summary="梵語 IAST（sanskrit 索引・438 種）の詳細参照（aliases.form 可）")
 def get_sanskrit(
     key: str,
     full_context: bool = Query(False),
@@ -256,8 +304,8 @@ def get_sanskrit(
     return _build_reference_or_404("sanskrit", key, full_context, top_n)
 
 
-@app.get("/api/kukai-work/{key:path}")
-@app.get("/api/kukai_work/{key:path}")
+@app.get("/api/kukai-work/{key:path}", tags=["詳細参照系"], summary="空海著作（kukai_works 索引・5 種）の詳細参照")
+@app.get("/api/kukai_work/{key:path}", tags=["詳細参照系"], summary="空海著作（ASCII alias）", include_in_schema=False)
 def get_kukai_work(
     key: str,
     full_context: bool = Query(False),
@@ -278,7 +326,7 @@ def _split_csv(s: str) -> "list[str]":
     return [t.strip() for t in s.split(",") if t and t.strip()]
 
 
-@app.get("/api/kaimyo/candidates")
+@app.get("/api/kaimyo/candidates", tags=["戒名候補"], summary="故人特性 → 戒名候補生成（§13.3 中核 1）")
 def get_kaimyo_candidates(
     characteristics: str = Query(
         "",
@@ -374,7 +422,7 @@ def get_kaimyo_candidates(
 # /api/houwa/citations （§13.4 中核 2・v1.8 で新規追加）
 # --------------------------------------------------------------------------
 
-@app.get("/api/houwa/citations")
+@app.get("/api/houwa/citations", tags=["法話典故"], summary="法話テーマ → 関連篇統合検索（§13.4 中核 2）")
 def get_houwa_citations(
     theme: str = Query(
         "",
