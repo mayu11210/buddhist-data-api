@@ -27,3 +27,7 @@ _dev_references/_tmp_*.py
 
 # LibreOffice lock files（recalc.py 等で生成・git に取り込まない）
 .~lock.*#
+
+# Python bytecode キャッシュ（api_server/ で生成・git に取り込まない・2026-04-27 v1.5 追加）
+__pycache__/
+*.pyc

@@ -1,0 +1,6 @@
+# kaimyo-app 連携 API（候補 D・v1.5 雛形）
+# Python + FastAPI 構成（cross_index_spec.md §13.8.1 第 1 候補）
+
+fastapi==0.115.2
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
