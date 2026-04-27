@@ -529,6 +529,225 @@ class IndexStore:
         out.sort(key=lambda d: (-(d.get("kaimyo_score") or 0), d.get("jukugo") or ""))
         return out[:n]
 
+    # ------------------------------------------------------------------
+    # /api/kaimyo/candidates （§13.3 中核 1・v1.7 で新規追加）
+    # ------------------------------------------------------------------
+
+    def build_kaimyo_candidates(
+        self,
+        characteristics: List[str],
+        min_score: float = 30.0,
+        limit: int = 20,
+        include_review: bool = False,
+        prefer_persons: Optional[List[str]] = None,
+        prefer_places: Optional[List[str]] = None,
+        length: Optional[int] = None,
+    ) -> Dict[str, Any]:
+        """§13.3 GET /api/kaimyo/candidates の本体。
+
+        Step 1: characteristics → ICHIJI_SET 解決（CHARACTERISTIC_TO_ICHIJI）
+        Step 2: index_shoryoshu_kaimyo.json から候補抽出
+                （kaimyo_chars × ICHIJI_SET の積集合・min_score・review・length）
+        Step 3: prefer_persons / prefer_places 共起ボーナス（共通篇 1 つ +0.5・上限 +5）
+        Step 4: 出典文（最多 4 件）+ 梵語原語（sanskrit 索引照合）
+                + 関連人物（上位 5）+ 関連地名（上位 3）
+        Step 5: final_score = kaimyo_score + bonus_score 降順 + limit 切詰
+
+        例外:
+            ValueError("MISSING_PARAMETER:characteristics")
+                characteristics が空のとき
+            ValueError("UNKNOWN_CHARACTERISTIC:<カンマ区切り>")
+                CHARACTERISTIC_TO_ICHIJI に登録のないキーが含まれるとき
+        """
+        from datetime import datetime, timezone
+
+        # ---- 入力検証 ----
+        if not characteristics:
+            raise ValueError("MISSING_PARAMETER:characteristics")
+
+        # ---- Step 1: ICHIJI_SET 解決 ----
+        cti = self.api_mappings.get("characteristic_to_ichiji", {}) or {}
+        ichiji_set: Set[str] = set()
+        unknown: List[str] = []
+        for c in characteristics:
+            chars = cti.get(c)
+            if chars is None:
+                unknown.append(c)
+                continue
+            for ch in chars or []:
+                ichiji_set.add(str(ch))
+        if unknown:
+            raise ValueError("UNKNOWN_CHARACTERISTIC:" + ",".join(unknown))
+
+        # ---- Step 3 準備: prefer_* を canonical 解決し、篇分布の和集合を作る ----
+        prefer_set: Set[int] = set()
+        resolved_persons: List[str] = []
+        resolved_places: List[str] = []
+        unresolved_persons: List[str] = []
+        unresolved_places: List[str] = []
+        if prefer_persons:
+            for raw_p in prefer_persons:
+                res = self.lookup_entry("persons", raw_p)
+                if res is None:
+                    unresolved_persons.append(raw_p)
+                    continue
+                _, canon, _ = res
+                resolved_persons.append(canon)
+                prefer_set |= self.entry_篇sets.get("persons", {}).get(canon, frozenset())
+        if prefer_places:
+            for raw_p in prefer_places:
+                res = self.lookup_entry("places", raw_p)
+                if res is None:
+                    unresolved_places.append(raw_p)
+                    continue
+                _, canon, _ = res
+                resolved_places.append(canon)
+                prefer_set |= self.entry_篇sets.get("places", {}).get(canon, frozenset())
+
+        # ---- Step 2 + Step 3: 候補抽出 + ボーナス加算 ----
+        candidates: List[Dict[str, Any]] = []
+        kaimyo_篇sets = self.entry_篇sets.get("kaimyo_jukugo", {})
+        for entry in self.entries_by_index.get("kaimyo_jukugo", []):
+            raw = entry.raw
+            chars = list(raw.get("kaimyo_chars") or [])
+            if not chars:
+                continue
+            matched = [c for c in chars if c in ichiji_set]
+            if not matched:
+                continue
+            score = float(raw.get("kaimyo_score") or 0.0)
+            if score < float(min_score):
+                continue
+            if (not include_review) and bool(raw.get("needs_human_review", False)):
+                continue
+            jukugo = str(raw.get("jukugo") or "")
+            jl = len(jukugo)
+            if length is not None and jl != int(length):
+                continue
+
+            # 共起ボーナス
+            bonus = 0.0
+            if prefer_set:
+                cand_set = kaimyo_篇sets.get(jukugo, frozenset())
+                common = len(cand_set & prefer_set)
+                bonus = min(5.0, common * 0.5)
+
+            candidates.append({
+                "raw": raw,
+                "matched": matched,
+                "kaimyo_score": round(score, 2),
+                "bonus_score": round(bonus, 2),
+                "final_score": round(score + bonus, 2),
+                "jukugo": jukugo,
+                "length": jl,
+            })
+
+        total_matched = len(candidates)
+
+        # ---- Step 5 (前段): ソート + 切詰 ----
+        candidates.sort(key=lambda c: (-c["final_score"], -c["kaimyo_score"], c["jukugo"]))
+        if limit is not None and limit >= 0:
+            candidates = candidates[: int(limit)]
+
+        # ---- Step 4: 付帯情報生成 ----
+        sanskrit_by_canonical = self.entry_by_key.get("sanskrit", {})
+        persons_by_canonical = self.entry_by_key.get("persons", {})
+        places_by_canonical = self.entry_by_key.get("places", {})
+
+        results: List[Dict[str, Any]] = []
+        for rank, c in enumerate(candidates, start=1):
+            raw = c["raw"]
+
+            # 出典文（最多 4 件）
+            examples: List[Dict[str, Any]] = []
+            for occ in (raw.get("occurrences") or [])[:4]:
+                examples.append({
+                    "shoryoshu_idx":    occ.get("shoryoshu_idx"),
+                    "篇名":              occ.get("篇名"),
+                    "巻":                occ.get("巻"),
+                    "context":          occ.get("context"),
+                    "context_position": occ.get("context_position"),
+                })
+
+            # 梵語原語（sanskrit 索引照合・kaimyo の seed_definition で補強）
+            sanskrit_out: List[Dict[str, Any]] = []
+            for so in raw.get("sanskrit_origins") or []:
+                so_canon = (
+                    so if isinstance(so, str)
+                    else (so.get("canonical") if isinstance(so, dict) else None)
+                )
+                if not so_canon:
+                    continue
+                sk = sanskrit_by_canonical.get(so_canon)
+                sanskrit_out.append({
+                    "canonical": so_canon,
+                    "definition": raw.get("seed_definition") or "",
+                    "occurrence_count_in_corpus": (sk.raw.get("occurrence_count") if sk else 0) or 0,
+                    "linked_in_index": sk is not None,
+                })
+
+            # 関連人物（共起頻度上位 5）
+            related_persons: List[Dict[str, Any]] = []
+            for pk, count in self.top_co_occurring("kaimyo_jukugo", c["jukugo"], "persons", 5):
+                pe = persons_by_canonical.get(pk)
+                related_persons.append({
+                    "canonical": pk,
+                    "subcategory": pe.raw.get("subcategory") if pe else None,
+                    "co_occurrence_count": count,
+                })
+
+            # 関連地名（共起頻度上位 3）
+            related_places: List[Dict[str, Any]] = []
+            for pk, count in self.top_co_occurring("kaimyo_jukugo", c["jukugo"], "places", 3):
+                pe = places_by_canonical.get(pk)
+                related_places.append({
+                    "canonical": pk,
+                    "subcategory": pe.raw.get("subcategory") if pe else None,
+                    "co_occurrence_count": count,
+                })
+
+            results.append({
+                "rank":               rank,
+                "jukugo":             c["jukugo"],
+                "length":             c["length"],
+                "kaimyo_chars":       list(raw.get("kaimyo_chars") or []),
+                "kaimyo_score":       c["kaimyo_score"],
+                "bonus_score":        c["bonus_score"],
+                "final_score":        c["final_score"],
+                "source":             raw.get("source_tag"),
+                "needs_human_review": bool(raw.get("needs_human_review", False)),
+                "sanskrit_origins":   sanskrit_out,
+                "matched_ichiji":     c["matched"],
+                "occurrence_count":   raw.get("occurrence_count"),
+                "篇分布_count":        len(raw.get("篇分布") or []),
+                "examples":           examples,
+                "related_persons":    related_persons,
+                "related_places":     related_places,
+            })
+
+        return {
+            "query": {
+                "characteristics":     list(characteristics),
+                "ichiji_resolved":     sorted(ichiji_set),
+                "min_score":           float(min_score),
+                "limit":               int(limit),
+                "include_review":      bool(include_review),
+                "length":              length,
+                "prefer_persons":      resolved_persons,
+                "prefer_places":       resolved_places,
+                "unresolved_persons":  unresolved_persons,
+                "unresolved_places":   unresolved_places,
+            },
+            "results": results,
+            "metadata": {
+                "total_matched_before_limit": total_matched,
+                "schema_version":             self.schema_version,
+                "data_corpus":                "shoryoshu_miyasaka_v_phase2_complete",
+                "generated_at":               datetime.now(timezone.utc).isoformat(),
+            },
+        }
+
+
 
 # --------------------------------------------------------------------------
 # 索引ヒット 1 件を §13.6.2 出力スキーマ通りに整形（/api/篇/:idx 用）

@@ -20,9 +20,19 @@
 - `GET /api/kukai-work/{key}` (alias: `/api/kukai_work/{key}`) … 空海著作（kukai_works 索引）の詳細参照
 - 起動時前計算：共起マトリックス 7 ペア（§13.7.3）+ 派生 6 ペア・alias_to_canonical 逆引き辞書
 
-## v1.7 以降の予定
+## v1.7 で追加
 
-- v1.7: `/api/kaimyo/candidates`（中核 1・CHARACTERISTIC_TO_ICHIJI 解決 + 共起ボーナス + 関連人物地名）
+- `GET /api/kaimyo/candidates` … 中核 1・故人特性 → 戒名候補生成（§13.3）
+  - クエリ: `characteristics`（必須・csv）/ `min_score`（既定 30）/ `limit`（既定 20）/
+    `include_review`（既定 false）/ `prefer_persons` / `prefer_places`（共起篇 1 つにつき +0.5・最大 +5）/
+    `length`（2 または 4・未指定で両方）
+  - 内部フロー: Step 1（CHARACTERISTIC_TO_ICHIJI 解決）→ Step 2（kaimyo_chars × ICHIJI_SET 積集合 + min_score + review + length フィルタ）
+    → Step 3（prefer_persons・prefer_places 共起ボーナス）→ Step 4（出典文最多 4 件・梵語原語 sanskrit 索引照合・関連人物上位 5・関連地名上位 3）
+    → Step 5（final_score = kaimyo_score + bonus_score 降順 + limit 切詰）
+  - エラー: `MISSING_PARAMETER`（characteristics 空・400）/ `UNKNOWN_CHARACTERISTIC`（未登録キー・400・available 同梱）/ `INVALID_LENGTH`（2 / 4 以外・400）
+
+## v1.8 以降の予定
+
 - v1.8: `/api/houwa/citations`（中核 2・THEME_EXPANSION + 篇スコアリング + context 抜粋）
 - v1.9: OpenAPI yaml 整備 + kaimyo-app 結合テスト + デプロイ
 
@@ -68,6 +78,36 @@ curl -s --data-urlencode 'top_n=5' \
 
 # 空海著作
 curl -s 'http://127.0.0.1:8000/api/kukai-work/梵字悉曇字母并びに釈義' | jq '.entry'
+```
+
+### v1.7 系（戒名候補生成）
+
+```bash
+# 学問熱心 + 温和 → 上位 5 件（matched_ichiji + final_score を見る）
+curl -s -G 'http://127.0.0.1:8000/api/kaimyo/candidates' \
+  --data-urlencode 'characteristics=学問熱心,温和' \
+  --data-urlencode 'limit=5' | jq '.query, (.results[] | {rank, jukugo, final_score, matched_ichiji})'
+
+# prefer_persons / prefer_places 共起ボーナス（弘法大師→空海 alias 解決）
+curl -s -G 'http://127.0.0.1:8000/api/kaimyo/candidates' \
+  --data-urlencode 'characteristics=温和' \
+  --data-urlencode 'prefer_persons=弘法大師,大日如来' \
+  --data-urlencode 'prefer_places=高野山' \
+  --data-urlencode 'limit=3' | jq '.results[] | {jukugo, kaimyo_score, bonus_score, final_score}'
+
+# 4 字熟語のみ
+curl -s -G 'http://127.0.0.1:8000/api/kaimyo/candidates' \
+  --data-urlencode 'characteristics=信仰深い' \
+  --data-urlencode 'length=4' | jq '.results[] | {jukugo, length, kaimyo_score}'
+
+# レビュー対象を含める
+curl -s -G 'http://127.0.0.1:8000/api/kaimyo/candidates' \
+  --data-urlencode 'characteristics=清廉' \
+  --data-urlencode 'include_review=true' | jq '.metadata, (.results | length)'
+
+# エラー：未定義特性 → 400 + available 同梱
+curl -s -G 'http://127.0.0.1:8000/api/kaimyo/candidates' \
+  --data-urlencode 'characteristics=未知の特性' | jq '.detail'
 ```
 
 ## 起動時ロード（仕様 §13.8.2）
