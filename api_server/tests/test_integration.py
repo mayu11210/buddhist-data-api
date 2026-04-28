@@ -129,8 +129,9 @@ def test_person_alias_弘法大師_to_空海(client):
     assert r.status_code == 200
     body = r.json()
     assert body["query"]["canonical"] == "空海"
-    # alias_matched は弘法大師
-    assert body["query"]["alias_matched"] in ("弘法大師", "空海")
+    # alias_matched は bool（True = alias 経由）/ 元キーは query.key に保存
+    assert body["query"]["alias_matched"] is True
+    assert body["query"]["key"] == "弘法大師"
 
 
 def test_place_高野山(client):

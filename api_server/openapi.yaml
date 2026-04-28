@@ -1,0 +1,651 @@
+openapi: 3.1.0
+info:
+  title: Buddhist Data API
+  description: 性霊集 横断索引化フェーズ B（候補 D）に基づく仏教資料 API。kaimyo-app など複数の仏教関連アプリから共有される知識バンクを横断検索可能なエンドポイント群として公開する。v1.6 で詳細参照系 6 本と共起マトリックス前計算を追加。v1.7 で中核 1 /api/kaimyo/candidates（故人特性 → 戒名候補）を実装。v1.8 で 中核 2 /api/houwa/citations（法話テーマ
+    → 関連篇）を実装し、§13 の 9 エンドポイントが全実装完了。v1.9 で OpenAPI yaml 整備 + 結合テスト整備。
+  contact:
+    name: buddhist-data-api / kaimyo-app
+    url: https://github.com/mayu11210/buddhist-data-api
+  license:
+    name: Internal use
+    identifier: Proprietary
+  version: 1.9.0
+paths:
+  /:
+    get:
+      tags:
+      - Meta
+      summary: サービスメタ（バージョン・索引統計・登録ルート一覧）
+      operationId: root__get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                title: Response Root  Get
+  /health:
+    get:
+      tags:
+      - Meta
+      summary: '簡易ヘルスチェック（{status: ok}）'
+      operationId: health_health_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties:
+                  type: string
+                type: object
+                title: Response Health Health Get
+  /api/mappings:
+    get:
+      tags:
+      - Meta
+      summary: マッピング 2 表（CHARACTERISTIC_TO_ICHIJI + THEME_EXPANSION）取得
+      description: v1.4 で確定したマッピング 2 表（CHARACTERISTIC_TO_ICHIJI + THEME_EXPANSION）を返す。
+      operationId: get_mappings_api_mappings_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                title: Response Get Mappings Api Mappings Get
+  /api/篇/{idx}:
+    get:
+      tags:
+      - 篇カルテ
+      summary: 篇カルテ（§13.6・全索引ヒット統合）
+      description: 篇 idx（0..111）に対する全索引ヒットを統合した「篇カルテ」を返す。
+      operationId: get_篇_api_篇__idx__get
+      parameters:
+      - name: idx
+        in: path
+        required: true
+        schema:
+          type: integer
+          title: Idx
+      - name: excerpt_chars
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 5000
+          minimum: 0
+          description: 書き下し・訳の冒頭抜粋字数
+          default: 300
+          title: Excerpt Chars
+        description: 書き下し・訳の冒頭抜粋字数
+      - name: include_full_text
+        in: query
+        required: false
+        schema:
+          type: boolean
+          description: true で書き下し + 訳の全文を含める
+          default: false
+          title: Include Full Text
+        description: true で書き下し + 訳の全文を含める
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                title: Response Get 篇 Api 篇  Idx  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/term/{key}:
+    get:
+      tags:
+      - 詳細参照系
+      summary: 密教教学用語（terms 索引・19 種）の詳細参照
+      description: 密教教学用語（terms 索引）の詳細参照。共起する人名・地名・典故・戒名熟語を同梱。
+      operationId: get_term_api_term__key__get
+      parameters:
+      - name: key
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Key
+      - name: full_context
+        in: query
+        required: false
+        schema:
+          type: boolean
+          description: true で occurrences を全件返す
+          default: false
+          title: Full Context
+        description: true で occurrences を全件返す
+      - name: top_n
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 100
+          minimum: 1
+          description: related ブロック各カテゴリの上限件数
+          default: 10
+          title: Top N
+        description: related ブロック各カテゴリの上限件数
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                title: Response Get Term Api Term  Key  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/person/{key}:
+    get:
+      tags:
+      - 詳細参照系
+      summary: 人名（persons 索引・81 種）の詳細参照（alias / matched_form 可）
+      description: 人名（persons 索引）の詳細参照。alias / matched_form でも引ける。
+      operationId: get_person_api_person__key__get
+      parameters:
+      - name: key
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Key
+      - name: full_context
+        in: query
+        required: false
+        schema:
+          type: boolean
+          default: false
+          title: Full Context
+      - name: top_n
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 100
+          minimum: 1
+          default: 10
+          title: Top N
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                title: Response Get Person Api Person  Key  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/place/{key}:
+    get:
+      tags:
+      - 詳細参照系
+      summary: 地名（places 索引・70 種）の詳細参照（alias / matched_form 可）
+      description: 地名（places 索引）の詳細参照。alias / matched_form でも引ける。
+      operationId: get_place_api_place__key__get
+      parameters:
+      - name: key
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Key
+      - name: full_context
+        in: query
+        required: false
+        schema:
+          type: boolean
+          default: false
+          title: Full Context
+      - name: top_n
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 100
+          minimum: 1
+          default: 10
+          title: Top N
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                title: Response Get Place Api Place  Key  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/citation/{key}:
+    get:
+      tags:
+      - 詳細参照系
+      summary: 典故書名（citations 索引・237 種）の詳細参照（aliases 可）
+      description: 典故書名（citations 索引）の詳細参照。aliases でも引ける。
+      operationId: get_citation_api_citation__key__get
+      parameters:
+      - name: key
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Key
+      - name: full_context
+        in: query
+        required: false
+        schema:
+          type: boolean
+          default: false
+          title: Full Context
+      - name: top_n
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 100
+          minimum: 1
+          default: 10
+          title: Top N
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                title: Response Get Citation Api Citation  Key  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/sanskrit/{key}:
+    get:
+      tags:
+      - 詳細参照系
+      summary: 梵語 IAST（sanskrit 索引・438 種）の詳細参照（aliases.form 可）
+      description: 梵語 IAST（sanskrit 索引）の詳細参照。漢訳熟語との対応も related に同梱。
+      operationId: get_sanskrit_api_sanskrit__key__get
+      parameters:
+      - name: key
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Key
+      - name: full_context
+        in: query
+        required: false
+        schema:
+          type: boolean
+          default: false
+          title: Full Context
+      - name: top_n
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 100
+          minimum: 1
+          default: 10
+          title: Top N
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                title: Response Get Sanskrit Api Sanskrit  Key  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/kukai-work/{key}:
+    get:
+      tags:
+      - 詳細参照系
+      summary: 空海著作（kukai_works 索引・5 種）の詳細参照
+      description: 空海著作（kukai_works 索引）の詳細参照。
+      operationId: get_kukai_work_api_kukai_work__key__get
+      parameters:
+      - name: key
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Key
+      - name: full_context
+        in: query
+        required: false
+        schema:
+          type: boolean
+          default: false
+          title: Full Context
+      - name: top_n
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 100
+          minimum: 1
+          default: 10
+          title: Top N
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                title: Response Get Kukai Work Api Kukai Work  Key  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/kaimyo/candidates:
+    get:
+      tags:
+      - 戒名候補
+      summary: 故人特性 → 戒名候補生成（§13.3 中核 1）
+      description: '故人特性 → 戒名候補生成（§13.3 中核 1）。
+
+
+        Step 1〜5 を IndexStore.build_kaimyo_candidates に委譲し、
+
+        結果に出典文・梵語原語・関連人物地名を同梱して返す。'
+      operationId: get_kaimyo_candidates_api_kaimyo_candidates_get
+      parameters:
+      - name: characteristics
+        in: query
+        required: false
+        schema:
+          type: string
+          description: '故人の特性キー（CHARACTERISTIC_TO_ICHIJI のキー）の csv。例: 学問熱心,温和'
+          default: ''
+          title: Characteristics
+        description: '故人の特性キー（CHARACTERISTIC_TO_ICHIJI のキー）の csv。例: 学問熱心,温和'
+      - name: min_score
+        in: query
+        required: false
+        schema:
+          type: number
+          maximum: 100.0
+          minimum: 0.0
+          description: kaimyo_score の下限
+          default: 30.0
+          title: Min Score
+        description: kaimyo_score の下限
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 200
+          minimum: 1
+          description: 上位返却件数
+          default: 20
+          title: Limit
+        description: 上位返却件数
+      - name: include_review
+        in: query
+        required: false
+        schema:
+          type: boolean
+          description: needs_human_review=true を含めるか
+          default: false
+          title: Include Review
+        description: needs_human_review=true を含めるか
+      - name: prefer_persons
+        in: query
+        required: false
+        schema:
+          type: string
+          description: 所縁のある人名（canonical または alias）の csv。共起篇 1 つにつき +0.5（最大 +5）
+          default: ''
+          title: Prefer Persons
+        description: 所縁のある人名（canonical または alias）の csv。共起篇 1 つにつき +0.5（最大 +5）
+      - name: prefer_places
+        in: query
+        required: false
+        schema:
+          type: string
+          description: 所縁のある地名（canonical または alias）の csv。共起篇 1 つにつき +0.5（最大 +5）
+          default: ''
+          title: Prefer Places
+        description: 所縁のある地名（canonical または alias）の csv。共起篇 1 つにつき +0.5（最大 +5）
+      - name: length
+        in: query
+        required: false
+        schema:
+          type: integer
+          description: 戒名熟語の字数（2 または 4・未指定で両方）
+          title: Length
+        description: 戒名熟語の字数（2 または 4・未指定で両方）
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                title: Response Get Kaimyo Candidates Api Kaimyo Candidates Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+        '400':
+          description: MISSING_PARAMETER / UNKNOWN_CHARACTERISTIC / INVALID_LENGTH
+          content:
+            application/json:
+              examples:
+                missing:
+                  summary: characteristics 未指定
+                  value:
+                    detail:
+                      error: MISSING_PARAMETER
+                      message: characteristics is required (csv)
+                      schema_version: 1.4.0
+                unknown:
+                  summary: 未登録の特性
+                  value:
+                    detail:
+                      error: UNKNOWN_CHARACTERISTIC
+                      message: the following characteristic(s) are not in CHARACTERISTIC_TO_ICHIJI
+                      unknown:
+                      - 未知の特性
+                      available:
+                      - 学問熱心
+                      - 温和
+                      - 信仰深い
+                      schema_version: 1.4.0
+                invalid_length:
+                  summary: length が 2 / 4 以外
+                  value:
+                    detail:
+                      error: INVALID_LENGTH
+                      message: length must be 2 or 4 (or unspecified)
+                      schema_version: 1.4.0
+  /api/houwa/citations:
+    get:
+      tags:
+      - 法話典故
+      summary: 法話テーマ → 関連篇統合検索（§13.4 中核 2）
+      description: '法話テーマ → 関連篇統合検索（§13.4 中核 2）。
+
+
+        Step 1〜6 を IndexStore.build_houwa_citations に委譲。
+
+        THEME_EXPANSION（10 種）にあれば自動で多言語展開、なければ自由語として
+
+        そのまま検索。各篇のスコアは terms*3 + citations*2 + sanskrit*2 +
+
+        persons*1 + places*1 で算出し、出典文 ±excerpt_radius 字を抜粋。
+
+
+        **spec §13.4 への拡張（v1.8 で追加）**：`include_kaimyo_jukugo` 既定 true。terms 索引は curated 19 件のみで、無常・智慧・慈悲・金剛 等の代表的テーマ語が kaimyo_jukugo（1971 件）にしか存在しないため、法話・諷誦文用途で実用に耐える（慈悲 → 29 篇 / 智慧 min_hits=3 → 16 篇）。spec
+        厳密準拠したい場合は false で抑止可能。'
+      operationId: get_houwa_citations_api_houwa_citations_get
+      parameters:
+      - name: theme
+        in: query
+        required: false
+        schema:
+          type: string
+          description: '法話テーマ（THEME_EXPANSION のキーまたは自由語）。例: 無常 / 慈悲 / 智慧 / 空 / 解脱 等 10 種'
+          default: ''
+          title: Theme
+        description: '法話テーマ（THEME_EXPANSION のキーまたは自由語）。例: 無常 / 慈悲 / 智慧 / 空 / 解脱 等 10 種'
+      - name: expand
+        in: query
+        required: false
+        schema:
+          type: boolean
+          description: THEME_EXPANSION で多言語展開するか（false ならテーマ語そのもののみ）
+          default: true
+          title: Expand
+        description: THEME_EXPANSION で多言語展開するか（false ならテーマ語そのもののみ）
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 200
+          minimum: 1
+          description: 上位返却篇数
+          default: 10
+          title: Limit
+        description: 上位返却篇数
+      - name: include_persons
+        in: query
+        required: false
+        schema:
+          type: boolean
+          description: 関連人名を含めるか
+          default: true
+          title: Include Persons
+        description: 関連人名を含めるか
+      - name: include_places
+        in: query
+        required: false
+        schema:
+          type: boolean
+          description: 関連地名を含めるか
+          default: false
+          title: Include Places
+        description: 関連地名を含めるか
+      - name: include_kaimyo_jukugo
+        in: query
+        required: false
+        schema:
+          type: boolean
+          description: 戒名向け熟語索引（1971 件）を併用するか。spec §13.4 への拡張。false で spec 厳密準拠（terms 19 件 + citations + sanskrit のみ）。
+          default: true
+          title: Include Kaimyo Jukugo
+        description: 戒名向け熟語索引（1971 件）を併用するか。spec §13.4 への拡張。false で spec 厳密準拠（terms 19 件 + citations + sanskrit のみ）。
+      - name: min_hits
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 100
+          minimum: 1
+          description: 篇あたり最低ヒット数（合計）
+          default: 1
+          title: Min Hits
+        description: 篇あたり最低ヒット数（合計）
+      - name: excerpt_radius
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 1000
+          minimum: 20
+          description: 出典文抜粋の片側字数（既定 150 → 中央 ±150 字 = 約 300 字）
+          default: 150
+          title: Excerpt Radius
+        description: 出典文抜粋の片側字数（既定 150 → 中央 ±150 字 = 約 300 字）
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                title: Response Get Houwa Citations Api Houwa Citations Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+components:
+  schemas:
+    HTTPValidationError:
+      properties:
+        detail:
+          items:
+            $ref: '#/components/schemas/ValidationError'
+          type: array
+          title: Detail
+      type: object
+      title: HTTPValidationError
+    ValidationError:
+      properties:
+        loc:
+          items:
+            anyOf:
+            - type: string
+            - type: integer
+          type: array
+          title: Location
+        msg:
+          type: string
+          title: Message
+        type:
+          type: string
+          title: Error Type
+      type: object
+      required:
+      - loc
+      - msg
+      - type
+      title: ValidationError
+tags:
+- name: Meta
+  description: サービスメタ・ヘルスチェック・マッピング表参照。起動シーケンス（仕様 §13.8.2）に従い、7 索引 + miyasaka.json + api_mappings.json をメモリ常駐済。
+- name: 篇カルテ
+  description: 性霊集 全 112 篇（idx 0..111）に対する全索引ヒット統合エンドポイント。仕様 §13.6 の 1 本構成。
+- name: 詳細参照系
+  description: 仕様 §13.5 の詳細参照系 6 本（terms / persons / places / citations / sanskrit / kukai-works）。alias / matched_form でも引け、共起マトリックスを用いた related ブロックを同梱。
+- name: 戒名候補
+  description: 仕様 §13.3 中核 1。故人特性（CHARACTERISTIC_TO_ICHIJI 15 種）から戒名候補を生成し、共起人物・地名ボーナス・梵語原語照合を含めて返す。
+- name: 法話典故
+  description: 仕様 §13.4 中核 2。法話テーマから関連篇（典故）を統合検索し、出典文 ±N 字を抜粋。THEME_EXPANSION（10 種既知テーマ）+ 自由語可。v1.8 拡張で kaimyo_jukugo（1971 件）を併用（既定 true）し実用性確保。
+servers:
+- url: http://127.0.0.1:8000
+  description: ローカル開発
+- url: https://buddhist-data-api.example.com
+  description: 本番（v1.9 デプロイ後・URL 仮）
