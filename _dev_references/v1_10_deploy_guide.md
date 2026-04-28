@@ -11,7 +11,7 @@
         ↓ 連携
 [Render：Blueprint 読み込み]
         ↓ 自動ビルド・自動デプロイ
-[https://buddhist-data-api-xxxx.onrender.com]
+[https://buddhist-data-api.onrender.com]
         ↓ X-API-Key 認証
 [戒名アプリ・法話アプリ]
 ```
@@ -70,19 +70,19 @@ https://kaimyo-app.vercel.app,https://houwa-app.vercel.app
 ## Step 4：デプロイ完了確認（3 分）
 
 1. サービスのトップ画面で「Live」状態になるまで待つ
-2. URL（例：`https://buddhist-data-api-xxxx.onrender.com`）をメモ
+2. URL（例：`https://buddhist-data-api.onrender.com`）をメモ
 3. **動作確認 3 連発**：
 
 ### 4-A：認証スキップ系（ブラウザでアクセス可能）
 
 ブラウザで以下を開く：
 ```
-https://buddhist-data-api-xxxx.onrender.com/health
+https://buddhist-data-api.onrender.com/health
 ```
 → `{"status":"ok"}` が返れば OK
 
 ```
-https://buddhist-data-api-xxxx.onrender.com/robots.txt
+https://buddhist-data-api.onrender.com/robots.txt
 ```
 → `User-agent: *\nDisallow: /` が返れば OK（検索エンジン除け有効）
 
@@ -90,7 +90,7 @@ https://buddhist-data-api-xxxx.onrender.com/robots.txt
 
 ブラウザで以下を開く：
 ```
-https://buddhist-data-api-xxxx.onrender.com/api/篇/0
+https://buddhist-data-api.onrender.com/api/篇/0
 ```
 → `{"error":"UNAUTHORIZED",...}` が 401 で返れば OK（認証が効いている）
 
@@ -99,7 +99,7 @@ https://buddhist-data-api-xxxx.onrender.com/api/篇/0
 PowerShell で：
 ```powershell
 curl -H "X-API-Key: 【ここにAPIキーを貼る】" `
-  https://buddhist-data-api-xxxx.onrender.com/api/篇/0
+  https://buddhist-data-api.onrender.com/api/篇/0
 ```
 → 篇カルテの JSON が返れば OK（v1.10 完全動作）
 
@@ -118,7 +118,7 @@ const res = await fetch('https://buddhist-data-api.vercel.app/api/search', {
 
 // 新（API ② の呼び出し例）
 const res = await fetch(
-  'https://buddhist-data-api-xxxx.onrender.com/api/kaimyo/candidates?'
+  'https://buddhist-data-api.onrender.com/api/kaimyo/candidates?'
   + 'characteristics=' + encodeURIComponent('学問熱心,温和')
   + '&limit=20',
   {

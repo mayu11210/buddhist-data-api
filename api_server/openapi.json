@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Buddhist Data API",
-    "description": "性霊集 横断索引化フェーズ B（候補 D）に基づく仏教資料 API。kaimyo-app など複数の仏教関連アプリから共有される知識バンクを横断検索可能なエンドポイント群として公開する。v1.6 で詳細参照系 6 本と共起マトリックス前計算を追加。v1.7 で中核 1 /api/kaimyo/candidates（故人特性 → 戒名候補）を実装。v1.8 で 中核 2 /api/houwa/citations（法話テーマ → 関連篇）を実装し、§13 の 9 エンドポイントが全実装完了。v1.9 で OpenAPI yaml 整備 + 結合テスト整備。",
+    "description": "性霊集 横断索引化フェーズ B（候補 D）に基づく仏教資料 API。kaimyo-app など複数の仏教関連アプリから共有される知識バンクを横断検索可能なエンドポイント群として公開する。v1.6 で詳細参照系 6 本と共起マトリックス前計算を追加。v1.7 で中核 1 /api/kaimyo/candidates（故人特性 → 戒名候補）を実装。v1.8 で 中核 2 /api/houwa/citations（法話テーマ → 関連篇）を実装し、§13 の 9 エンドポイントが全実装完了。v1.9 で OpenAPI yaml 整備 + 結合テスト整備。v1.10 で APIキー認証 / CORS / 検索エンジン除け追加・lifespan 移行・本番デプロイ準備。",
     "contact": {
       "name": "buddhist-data-api / kaimyo-app",
       "url": "https://github.com/mayu11210/buddhist-data-api"
@@ -11,7 +11,7 @@
       "name": "Internal use",
       "identifier": "Proprietary"
     },
-    "version": "1.9.0"
+    "version": "1.10.0"
   },
   "paths": {
     "/": {
@@ -930,8 +930,8 @@
       "description": "ローカル開発"
     },
     {
-      "url": "https://buddhist-data-api.example.com",
-      "description": "本番（v1.9 デプロイ後・URL 仮）"
+      "url": "https://buddhist-data-api.onrender.com",
+      "description": "本番（Render・v1.10〜稼働中・X-API-Key 必須）"
     }
   ]
 }

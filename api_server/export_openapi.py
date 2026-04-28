@@ -37,7 +37,7 @@ def _patch_openapi(schema: Dict[str, Any]) -> Dict[str, Any]:
     """
     schema.setdefault("servers", [
         {"url": "http://127.0.0.1:8000", "description": "ローカル開発"},
-        {"url": "https://buddhist-data-api.example.com", "description": "本番（v1.9 デプロイ後・URL 仮）"},
+        {"url": "https://buddhist-data-api.onrender.com", "description": "本番（Render・v1.10〜稼働中・X-API-Key 必須）"},
     ])
 
     # /api/houwa/citations の include_kaimyo_jukugo 拡張理由を強調

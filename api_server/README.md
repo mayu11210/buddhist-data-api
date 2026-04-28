@@ -89,6 +89,35 @@
   - `_dev_references/v1_10_deploy_guide.md`（Render UI 5 ステップ + 動作確認 + トラブルシューティング）
   - `_dev_references/v1_10_kaimyo_app_migration.md`（kaimyo-app 側のコード変更例 + 段階移行戦略）
 
+## 本番デプロイ URL（v1.10 稼働中）
+
+- **本番ベース URL**：`https://buddhist-data-api.onrender.com`
+- **プラン**：Render Free（15 分アイドルでスリープ・初回 30〜60 秒の起動遅延あり）
+- **ホスト**：Render（Blueprint = `render.yaml` / autoDeploy: true / main push で自動再デプロイ）
+- **公開パス（認証不要）**：`/`・`/health`・`/robots.txt`・`/docs`・`/redoc`・`/openapi.json`
+- **認証必須パス**：上記以外の全 API（`X-API-Key` ヘッダー必須）
+- **APIキー**：Render Dashboard → buddhist-data-api → Environment → `BUDDHIST_API_KEY` で確認
+
+### 動作確認（本番環境・全て期待通り）
+
+```bash
+# ① ヘルスチェック（公開）
+curl https://buddhist-data-api.onrender.com/health
+# → {"status":"ok"}
+
+# ② 検索エンジン除け
+curl https://buddhist-data-api.onrender.com/robots.txt
+# → User-agent: *  Disallow: /
+
+# ③ 認証必須エンドポイント（キー無しで 401）
+curl https://buddhist-data-api.onrender.com/api/篇/0
+# → {"error":"UNAUTHORIZED","message":"X-API-Key header is required"}
+
+# ④ APIキー付きアクセス
+curl -H "X-API-Key: YOUR_KEY" https://buddhist-data-api.onrender.com/api/篇/0
+# → 篇カルテの JSON
+```
+
 ## v1.11 以降の予定
 
 - v1.11: kaimyo-app 側を API ② に切替（別リポジトリ作業）
