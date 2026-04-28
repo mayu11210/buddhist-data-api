@@ -30,7 +30,7 @@ def test_root_returns_meta(client):
     assert r.status_code == 200
     body = r.json()
     assert body["service"] == "buddhist-data-api"
-    assert body["version"] == "1.9.0"
+    assert body["version"] == "1.10.0"
     # 全 7 索引
     assert sorted(body["loaded_indices"]) == sorted([
         "terms", "citations", "sanskrit", "kaimyo_jukugo",
@@ -349,7 +349,7 @@ def test_openapi_schema_is_well_formed(client):
     r = client.get("/openapi.json")
     assert r.status_code == 200
     schema = r.json()
-    assert schema["info"]["version"] == "1.9.0"
+    assert schema["info"]["version"] == "1.10.0"
     assert schema["info"]["title"] == "Buddhist Data API"
     # tags メタ 5 グループ
     tag_names = {t["name"] for t in schema.get("tags", [])}

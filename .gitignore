@@ -1,7 +1,14 @@
 node_modules/
 .next/
+
+# ============================================================
+#  環境変数（v1.10：APIキー等の秘密情報を絶対にコミットしない）
+# ============================================================
 .env
-.env.local
+.env.*
+!.env.example
+*.env
+*.env.*
 
 # ============================================================
 #  Cowork 作業用ツール類（untracked で運用）
@@ -31,3 +38,14 @@ _dev_references/_tmp_*.py
 # Python bytecode キャッシュ（api_server/ で生成・git に取り込まない・2026-04-27 v1.5 追加）
 __pycache__/
 *.pyc
+
+# pytest キャッシュ（v1.10 追加）
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / IDE 由来の生成物（v1.10 追加）
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

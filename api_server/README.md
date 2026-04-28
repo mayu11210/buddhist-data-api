@@ -63,9 +63,35 @@
     （Swagger UI HTML / OpenAPI JSON / Unicode path 含む）。
 - 一括ランチャー：`api_server\run_tests.bat` / `api_server\export_openapi.bat`（Windows 用）。
 
-## v1.10 以降の予定
+## v1.10 で追加（★ デプロイ準備完了 ★）
 
-- v1.10: 本番デプロイ（VPS / Cloud Run / Vercel 等の選定 + .env / CORS / レート制限策定）
+- **Render Blueprint デプロイ準備**（`render.yaml` + `.env.example`）
+  - 無料プラン Free / Python 3.11.10 固定 / `/health` ヘルスチェック / 自動デプロイ ON
+  - 環境変数は `BUDDHIST_API_KEY`（必須・sync: false で UI 手入力）+ `BUDDHIST_API_ALLOWED_ORIGINS`（任意・CSV）
+- **APIキー認証**（X-API-Key ヘッダー必須化）
+  - 環境変数 `BUDDHIST_API_KEY` 設定時のみ有効化（未設定なら dev モード扱いでスキップ）
+  - 公開パス（/ /health /robots.txt /docs /redoc /openapi.json）は常に認証不要
+  - middleware 形式で一括制御（個別ルートに Depends を撒かない設計）
+- **CORS 制限**
+  - `CORSMiddleware` で `kaimyo-app.vercel.app` + localhost のみ許可（既定）
+  - `BUDDHIST_API_ALLOWED_ORIGINS` で本番上書き可
+- **検索エンジン除け（三重防御）**
+  - `/robots.txt` で `User-agent: * Disallow: /` を返す
+  - 全レスポンスに `X-Robots-Tag: noindex, nofollow` ヘッダー付与
+  - APIキー認証で中身を見せない（究極の防御）
+- **技術的負債解消**
+  - FastAPI deprecated な `@app.on_event("startup")` → `lifespan` context manager 移行
+  - `.gitignore` に `.env*` / `.pytest_cache/` / `.DS_Store` / `.vscode/` 等を追加
+- **テスト追加**
+  - `tests/test_v1_10_security.py`（9 件）：robots.txt / noindex ヘッダー / APIキー認証の各シナリオ
+  - 既存 36 件 + 新規 9 件 = 計 **45 件**
+- **デプロイ手順書 + kaimyo-app 移行ガイド**
+  - `_dev_references/v1_10_deploy_guide.md`（Render UI 5 ステップ + 動作確認 + トラブルシューティング）
+  - `_dev_references/v1_10_kaimyo_app_migration.md`（kaimyo-app 側のコード変更例 + 段階移行戦略）
+
+## v1.11 以降の予定
+
+- v1.11: kaimyo-app 側を API ② に切替（別リポジトリ作業）
 - 候補 D 完結後の優先候補（A. 注 chu 取込再開・C. メタデータ構造化・E. 専門家校閲 等）
 
 ## ローカル起動

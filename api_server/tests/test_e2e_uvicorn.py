@@ -27,7 +27,7 @@ httpx = pytest.importorskip("httpx")
 def test_e2e_root(live_url):
     r = httpx.get(f"{live_url}/", timeout=10.0)
     assert r.status_code == 200
-    assert r.json()["version"] == "1.9.0"
+    assert r.json()["version"] == "1.10.0"
 
 
 def test_e2e_health(live_url):
@@ -71,7 +71,7 @@ def test_e2e_openapi_json(live_url):
     r = httpx.get(f"{live_url}/openapi.json", timeout=10.0)
     assert r.status_code == 200
     schema = r.json()
-    assert schema["info"]["version"] == "1.9.0"
+    assert schema["info"]["version"] == "1.10.0"
     # tags 5 グループが付与されている
     tag_names = {t["name"] for t in schema.get("tags", [])}
     assert tag_names >= {"Meta", "篇カルテ", "詳細参照系", "戒名候補", "法話典故"}

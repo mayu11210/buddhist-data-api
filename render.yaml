@@ -1,0 +1,40 @@
+# ============================================================
+# Render Blueprint（v1.10 デプロイ準備・2026-04-28）
+# ============================================================
+# このファイルを Render の "Blueprint" として読み込ませると、
+# 以下の Web サービスが自動構成される。
+#
+# 手順は `_dev_references/v1_10_deploy_guide.md` 参照。
+# ============================================================
+
+services:
+  - type: web
+    name: buddhist-data-api
+    runtime: python
+    plan: free  # 初期は無料枠で開始（メモリ 512MB / アイドル時スリープあり）
+
+    # 起動前のビルド（依存パッケージのインストール）
+    buildCommand: "pip install -r api_server/requirements.txt"
+
+    # 本番起動コマンド（$PORT は Render が自動注入）
+    startCommand: "uvicorn api_server.main:app --host 0.0.0.0 --port $PORT"
+
+    # ヘルスチェック（Render が定期的に叩いて死活監視）
+    healthCheckPath: "/health"
+
+    # Python バージョン固定（FastAPI 0.115 の安定動作確認済）
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.10"
+
+      # 【重要】APIキー：必ず Render UI から手入力で設定すること
+      # 値を render.yaml に書くと git に漏れるため sync: false
+      - key: BUDDHIST_API_KEY
+        sync: false
+
+      # 許可オリジン（CSV）。未設定なら main.py の DEFAULT_ALLOWED_ORIGINS が使われる
+      - key: BUDDHIST_API_ALLOWED_ORIGINS
+        sync: false
+
+    # 自動デプロイ（main ブランチ push で自動再デプロイ）
+    autoDeploy: true
