@@ -1,0 +1,2439 @@
+{
+  "schema_version": "1.2",
+  "category": "戒名向け熟語索引",
+  "source_corpus": "sokushin-jobutsu.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "起点 1（密教教学用語の戒名適合 11 語）+ 起点 2（梵語の漢訳対応）+ 起点 3（補注内 2 字漢語熟語のホワイトリスト抽出）",
+  "scoring_rule": "kaimyo_score = freq(log10×12, 上限25) + doctrinal(seed_terms=30 / seed_sanskrit=20 / paren_doctrinal=10) + ichiji(KAIMYO_ICHIJI 含字数 × 8, 上限16) + aesthetic(美字構成・最大4)",
+  "review_policy": "needs_human_review=true の語は kaimyo-app 連携前に専門家校閲を要する",
+  "dictionary_sizes": {
+    "kaimyo_ichiji": 85,
+    "sanskrit_to_kaimyo_jukugo": 51,
+    "doctrinal_2char_whitelist": 151,
+    "kaimyo_noise": 140
+  },
+  "gendaigoyaku_length": 20298,
+  "summary": {
+    "unique_terms": 22,
+    "unique_jukugo": 22,
+    "total_occurrences": 333,
+    "seed_terms_count": 11,
+    "seed_sanskrit_count": 2,
+    "paren_doctrinal_count": 9,
+    "needs_review_count": 9,
+    "matched_jukugo_count": 18
+  },
+  "entries": [
+    {
+      "jukugo": "大日",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "seed_sanskrit": "Mahāvairocana",
+      "kaimyo_chars": [
+        "大"
+      ],
+      "kaimyo_score": 63.0,
+      "freq_score": 25.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 153,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "しょうか。（自問自答して）お答えいたします。密教の経論の中に大日如来がそのように説いておられるのです。ではその証拠を示して下",
+          "context_position": 161,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "するものは現に仏菩提を証す」とあります。ちなみにこの境地とは大日如来のお心の意味であります。 また次に、金剛智訳の『金剛頂瑜",
+          "context_position": 280,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "六生に正覚を成ず」とあります。 この文中で「この教」とは法身大日如来の悟りそのもの、つまり大日如来の教えである真言密教のこと",
+          "context_position": 414,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": " この文中で「この教」とは法身大日如来の悟りそのもの、つまり大日如来の教えである真言密教のことであり、また「歓喜地」も一般的",
+          "context_position": 429,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ど考えません。密教では十地に高下なしです。あえて言うならば、大日如来のお心の内を、自証（自らの悟り）と化他（他を導く）の二面",
+          "context_position": 574,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "乗の初地）と理解するべきなのです。詳しくは「地位品」つまり『大日経』住心品第一の「十地段」に説かれております。 また「十六生",
+          "context_position": 726,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ではなく、密教独特の意味の「十六大菩薩生」のことです。これは大日如来をとり囲む四仏のそれぞれに四菩薩が配置されて、これを金剛",
+          "context_position": 801,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "、この徳を備えることは四仏に通じることであり、とりもなおさず大日如来のお心に同ずることになるという、まことに神秘的な理解なの",
+          "context_position": 873,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "物の見方は、他の仏教とは次元が違う点が多々あり、その源は法身大日如来を真仏と仰ぐ、いわゆる仏陀観が他とかけ離れていることにあ",
+          "context_position": 947,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "陀観が他とかけ離れていることにあるのです。これらについても『大日経』の住心品に説かれている通りですし、仏陀観については『弁顕",
+          "context_position": 993,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "て傾壊なし、われ金剛身となる」と説かれています。 また次に『大日経』の悉地出現品第六に「この身を捨てずして神境通を逮得し、大",
+          "context_position": 1205,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "、大空位に遊歩して、しかも身秘密を成ず」といいます。 次に『大日経』巻七供養次第法といわれるものの真言行・学処品第一に「この",
+          "context_position": 1265,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "いと思うならば、各人それぞれの願う処に応じてこう思いなさい。大日如来につらなる師のもとで正しい密教の教えを受け、さまざまの角",
+          "context_position": 1430,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "察しそれに相応するように努めれば成就がかなうのです。 この『大日経』に説かれる最高の境地（悉地）とは、真言を誦持（声に出して",
+          "context_position": 1496,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "真言を誦持（声に出して読む）して得られる世間的な成就と、法身大日の果徳を成就するいわば出世間の成就のすべてを含んでいます。法",
+          "context_position": 1547,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "果徳を成就するいわば出世間の成就のすべてを含んでいます。法身大日は他の一切の価値をも含み持っていますから、世間一般の価値まで",
+          "context_position": 1580,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "。 さらに第五の証文で「大空位に遊歩する」といいますが、法身大日は虚空に等しいほどの規模で法界に遍満しているのですから、あら",
+          "context_position": 1667,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ほどの規模で法界に遍満しているのですから、あらゆる現象は法身大日のあらわれだともいえるのです。しかも大日は過去・現在・未来の",
+          "context_position": 1706,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "、あらゆる現象は法身大日のあらわれだともいえるのです。しかも大日は過去・現在・未来の三世を通じて実現するのですから、大日と一",
+          "context_position": 1726,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "かも大日は過去・現在・未来の三世を通じて実現するのですから、大日と一体となることを「大空を飛ぶ」と表現したのです。これを空中",
+          "context_position": 1754,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "礎を求め続けるという意味で「大空位」というのです。さらに法身大日のはたらきや動作は、きわめて広大なので、これまでの仏教でいう",
+          "context_position": 1860,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ず」と述べられています。ここで仏と一体になるとはもちろん法身大日と一体になるという意味です。また諸教というのは、大日如来以外",
+          "context_position": 2080,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ろん法身大日と一体になるという意味です。また諸教というのは、大日如来以外のつまり曼荼羅の中央の仏以外の諸仏が説法する教えであ",
+          "context_position": 2106,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "経典や論書の証文を根拠にして、私（空海）は、この身このままで大日如来と一体になるという「即身成仏」の主張をするのであります。",
+          "context_position": 2258,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "詳しい説明は後に述べましょう。 以上に挙げた八つの証文は、『大日経』『金剛頂経』の二経と『菩提心論』という一論書から空海が選",
+          "context_position": 2323,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "していることが予想される。〈編者注〉 頌の形式で示します。 大日如来の身体は地水火風空識の六つの要素で構成されています。つま",
+          "context_position": 2854,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "成されています。つまり私たちの身体と同様なのです。したがって大日如来の体と私たち一般の人間の体とは一体であり、少しも不相応な",
+          "context_position": 2906,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "なところは無いのです。 次に姿かたちの外見からいいましても、大日如来の姿は四種マンダラ（後に説く）で表わされますが、特に大マ",
+          "context_position": 2967,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "に説く）で表わされますが、特に大マンダラの中央に画かれている大日の姿は、私たちと少しも異なるところがないのです。従って姿から",
+          "context_position": 3012,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "、私たちと少しも異なるところがないのです。従って姿から見ても大日と私たちとは差異は無いのです。 第三に大日如来の活動を見ても",
+          "context_position": 3047,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "従って姿から見ても大日と私たちとは差異は無いのです。 第三に大日如来の活動を見ても、経典には大日は身・口・意の三方面で活動し",
+          "context_position": 3068,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "は差異は無いのです。 第三に大日如来の活動を見ても、経典には大日は身・口・意の三方面で活動し、身口意の三密、身体の動作と口の",
+          "context_position": 3084,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "人間とまったく同様だといえます。動作という点では同じですが、大日は仏陀でありますから、これを三密といい、私たち衆生はこれを三",
+          "context_position": 3187,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "す。 本質（体）・姿（相）・活動（用）の各方面から観察して、大日如来と衆生とは人格を有しているという意味からまったく同様であ",
+          "context_position": 3258,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "味からまったく同様であり、仏陀と衆生との差異はあるとしても、大日は限り無く高い人格をそなえている、ということが言えるのです。",
+          "context_position": 3309,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "人格をそなえている、ということが言えるのです。すなわち、法身大日如来は、神話の神でも無く、また仮空の人物でもありません。はっ",
+          "context_position": 3348,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ありません。はっきりとこの世に実在する生命体なのです。 もし大日如来が神話の神だとすれば、密教は釈尊の基本にそむくことになり",
+          "context_position": 3402,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の基本にそむくことになり、仏教の仲間ではなくなりますし、また大日如来が仮空の仏陀だというならば、私（空海）が密教の理論体系を",
+          "context_position": 3452,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "礙（相応・一体・同体）を表わします。後の一頌四句も順に、法身大日の成仏の意味（本来成仏しているということ）を述べ、次に法身は",
+          "context_position": 3760,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "て漏れの無いことを述べます。そして最後の句は、その理由として大日如来が実覚智として実在していることを述べています。 三 六大",
+          "context_position": 3867,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "てここで六大というのは、五大に識大を加えたという意味です。『大日経』の「悉地出現品第六」に大日如来を表象する「あびらうんきゃ",
+          "context_position": 3943,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "識大を加えたという意味です。『大日経』の「悉地出現品第六」に大日如来を表象する「あびらうんきゃん」という真言が説かれています",
+          "context_position": 3958,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "いますが、この五文字にあえて私（空海）（吽）の一字を加えて、大日如来が人格であることを明確化したのです。そしてこの六字は、「",
+          "context_position": 4017,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "一字を加えたと考えられ、次に述べるように地水火風空識の六大で大日如来の体が構成される、ということになります。 先ず六大の第一",
+          "context_position": 4100,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "れる、ということになります。 先ず六大の第一の証文は、同じ『大日経』に「われ本不生を覚り、語言の道を出過し、諸過を解脱するこ",
+          "context_position": 4140,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ごとしの意から空大の徳を表わすと受けとめます。 以上でこの『大日経』の文には本不生（地）・離言説（水）・諸過得解脱（火）・離",
+          "context_position": 4719,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "しています。このように覚と知とは意味が同じなのです。ここで『大日経』が識といわずに覚としたのはこの場合、大日如来が主体だから",
+          "context_position": 5002,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "のです。ここで『大日経』が識といわずに覚としたのはこの場合、大日如来が主体だから「我覚る」と表現したまでのことで、五仏の中尊",
+          "context_position": 5024,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "主体だから「我覚る」と表現したまでのことで、五仏の中尊、法身大日の体をのべるためだからなのです。したがって「我覚」とは識大の",
+          "context_position": 5059,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "我覚」とは識大の証拠といえるのです。この経の文は、まさに法身大日は六大で構成されており、その点では我々と同じに人格を有する実",
+          "context_position": 5113,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "にして垢染なし、因業なし、虚空に等し」 この文も先に挙げた『大日経』と同様です。すべてのものを物質と精神（心）の二方面に分け",
+          "context_position": 5252,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "。その他の五大は前に説明したのとまったく同じです。 さらに『大日経』の「阿闍梨真実智品」第十六に次の文があります。 「私（大",
+          "context_position": 5518,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "日経』の「阿闍梨真実智品」第十六に次の文があります。 「私（大日如来）はあらゆるものと心が一つなのです。そしてすべての場所に",
+          "context_position": 5549,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "佉字）は空大を体としています」と。 この中、風大については『大日経』では「吽字を忿怒と名づく」となっているが中国の古典の『玉",
+          "context_position": 5701,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の五句は五大のことです。中間の三句は六大で成り立っている法身大日が自由自在であること、さわり無しにすべてに行きわたっているこ",
+          "context_position": 5908,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "下）及び『菩薩瓔珞経』巻二（大正蔵一六、一九下）等にも同様に大日の体が六大で構成されていることが説かれています。 このように",
+          "context_position": 6000,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "で構成されていることが説かれています。 このように六大所成の大日は、一切の仏、一切の衆生、そして人々の住む世界、いいかえれば",
+          "context_position": 6037,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "世界）の一切を造り出している、ということになるのです。そこで大日如来は『大日経』巻五、秘密曼荼羅品第十一（大正蔵一八、三一上",
+          "context_position": 6149,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "を造り出している、ということになるのです。そこで大日如来は『大日経』巻五、秘密曼荼羅品第十一（大正蔵一八、三一上）の中の如来",
+          "context_position": 6155,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "蔵一八、三一上）の中の如来発生の偈にこう述べています。 私（大日）はさまざまな形の諸法と法相と諸仏と声聞と、この世を救済する",
+          "context_position": 6204,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "生み出したのです。一切の人々も、また彼らの住む世界も順に私（大日）が生み出したのです。そして彼らの生住異滅という変化してゆく",
+          "context_position": 6319,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "が述べるが、この偈は、この世のすべてのものは六大所成であり、大日如来の六大が遍満している、の意味に理解するべきであって、間違",
+          "context_position": 6425,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "〈編者注〉 この偈文は一体どういう意味でありましょう。つまり大日如来の六大がこの世のあらゆるものを生み出し、あらゆるものの当",
+          "context_position": 6569,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の六大」と空海は見ていることである。その「能生の六大」は法身大日であり、六大によって生ずる「所生の法」は四種法身、四種マンダ",
+          "context_position": 7274,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "めに用いたまでで、本旨は、すべてが六大によって構成され、法身大日も識大があるゆえに、れっきとした高い人格を持った実在の仏陀で",
+          "context_position": 7457,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "れば仏、迷えば衆生」の違いだけなのである。〈編者注〉 また『大日経』秘密曼荼羅品第十一に次の偈文があります。「金剛手秘密主（",
+          "context_position": 7587,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "経』秘密曼荼羅品第十一に次の偈文があります。「金剛手秘密主（大日如来の教えを受ける役で、金剛薩埵を指す）よ、曼荼羅の聖尊の分",
+          "context_position": 7619,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "さい。この観法を修することによって、その指導者は自身の身体、大日如来となるのです」 この場合、金剛輪とは阿字ですなわち地大を",
+          "context_position": 7829,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "言者は心大（識大）を示します。偈の前文の部分で聖尊というのは大日如来の姿を意味します。大曼荼羅です。種字とは大日の法曼荼羅で",
+          "context_position": 7928,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "尊というのは大日如来の姿を意味します。大曼荼羅です。種字とは大日の法曼荼羅です。標幟とは三昧耶曼荼羅であり、こうした大日如来",
+          "context_position": 7952,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "とは大日の法曼荼羅です。標幟とは三昧耶曼荼羅であり、こうした大日如来には活動と作業が付いていますから羯磨曼荼羅が備わって、こ",
+          "context_position": 7980,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "前文には四種曼荼羅が説かれているのです。こう受け止めれば法身大日は六大で構成されていることになるでしょう。 また次に、これが",
+          "context_position": 8043,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "次に、これが六大の最後の第六番目の証文となりますが、同じく『大日経』悉地出現品第六に次のような文があります。大日如来はこうい",
+          "context_position": 8099,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "が、同じく『大日経』悉地出現品第六に次のような文があります。大日如来はこういわれます、「金剛手菩薩よ、私（大日）は地水火風の",
+          "context_position": 8123,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "文があります。大日如来はこういわれます、「金剛手菩薩よ、私（大日）は地水火風の四界を手中におさめ、含み持ち、心の主なる作用（",
+          "context_position": 8146,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "とを述べているのでしょう。要するに六大によって構成される法身大日が一切のものを生じることを述べているのです。文中の心王は識大",
+          "context_position": 8308,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "上六つの経文を引用いたしましたが、これらの文は、いずれも法身大日は六大所成であり、一切を生み出す主体（能生）であり、四種法身",
+          "context_position": 8494,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "よって構成されていることに違いは無いのです。そのゆえに仏陀（大日）はこの六大をこの世のすべての根本的な要素という意味で法界体",
+          "context_position": 8664,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "を意味しているに過ぎません。しかし密教で六大という意味は法身大日如来の悟りの姿と実在そのものを意味しているのであります。 三",
+          "context_position": 8787,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "せん。 こうして考えますと、六大法界体性で構成されている法身大日の身体も私たち一切衆生の身体もお互いに礙り無く同体のごとくに",
+          "context_position": 9632,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "礙り無く同体のごとくに深くかかわり合って実在しているわけで、大日が常住不変であるように私たち衆生も常住不変のたしかな存在とし",
+          "context_position": 9683,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "生きているのです。このゆえ、頌に「六大（所成の身体であるから大日も衆生も）無礙であり、（両者は）常に相応している」というので",
+          "context_position": 9746,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ず 四種曼荼とは頌の字数の都合で四種曼荼羅と同じです。先ず『大日経』本尊三昧品第二十八に次のような句があります。 「一切の如",
+          "context_position": 9923,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "姿があるわけであるから、これを羯磨曼荼羅に当てます。以上が『大日経』に説かれる四種曼荼羅です。 次に『金剛頂経』系の『理趣釈",
+          "context_position": 10127,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "、さらには真言密教の修行者が「五相成身観」という観法を修して大日尊の姿を現じた場合も大曼荼羅といい尊の五智を備えた姿全体とい",
+          "context_position": 10273,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "たもので、各尊を示す梵字一字をその居場所に画きます。また法身大日の悟りの内容自体及びその内容を説き明かした経典や文章などはみ",
+          "context_position": 10583,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "仏も衆生も虚空の如きひろがりなのです。その中央に座すのが法身大日如来なのです。そして曼荼羅上のすべての存在は中央の大日と同体",
+          "context_position": 10830,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "が法身大日如来なのです。そして曼荼羅上のすべての存在は中央の大日と同体なのです。したがって、大日如来と衆生とも一体で、離れた",
+          "context_position": 10857,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "荼羅上のすべての存在は中央の大日と同体なのです。したがって、大日如来と衆生とも一体で、離れた存在ではありません。融合し瑜伽し",
+          "context_position": 10873,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ず三密とは一に身密、二に語密、三には心密を指します。法身仏（大日）に私たちと同様に三種の活動作用があるということは、一般仏教",
+          "context_position": 11131,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "す。だから三種の活動を三業といわず三密というのです。要するに大日の三密も衆生の三業も相互に交り合いながら存在していることを「",
+          "context_position": 11234,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "がら存在していることを「三密加持」と名づけるのです。こうして大日の活動も衆生の活動も深いかかわり合いの中で存在していることを",
+          "context_position": 11284,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "まで近づけていけば、如来と衆生との行動が加持感応して、直ちに大日と一体になるという大目標を達成することができるのです。 加持",
+          "context_position": 11399,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "法とか幻術などのたとえで説いているほどである。以下に空海は、大日如来の活動が衆生の活動に及ぼす力を三密加持といい、それを示す",
+          "context_position": 11555,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の『一切時処念誦成仏儀軌』に次のような文があります。 「この大日如来の三字からなる秘密の文字はその一字ずつに大日の内容を含む",
+          "context_position": 11678,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "す。 「この大日如来の三字からなる秘密の文字はその一字ずつに大日の内容を含む無量の意が込められています。この印密言をもって心",
+          "context_position": 11702,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "きわめて堅い如来の身体を得ることができます。また額を印ずれば大日の平等性智を成就して灌頂地の福聚ゆたかにそなわった大日の身体",
+          "context_position": 11790,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ずれば大日の平等性智を成就して灌頂地の福聚ゆたかにそなわった大日の身体を得ることができます。如来の秘密語をもって口を印ずると",
+          "context_position": 11817,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "なり、この印密言によって自身を加持すれば、法界体性智、つまり大日如来の遍く虚空に満ちわたっている身体を体現することができるの",
+          "context_position": 11984,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "じ不空訳の『金剛頂五秘密儀軌』にこうあります。「もし修行者が大日如来の自受用身（悟りそのものの身）が説く心の奥底のさとりの内",
+          "context_position": 12521,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "口意の三密が金剛の如く堅固になるのを増進の機縁として、行者は大日如来の法身、報身、応身のすべてになり切ることができます」と。",
+          "context_position": 13627,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "りと感応相応するので、この世で直ちに私たちは本来備わっている大日如来の三身すべての仏性を顕わし証得することができます。この故",
+          "context_position": 14014,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "と名づく 次に「重重帝網なるを即身と名づく」とは譬喩をあげて大日如来の身口意の行動は法界に遍満しており、私たち凡夫・衆生の行",
+          "context_position": 14150,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "おり、私たち凡夫・衆生の行動にも行きわたっているのであって、大日と衆生との関係は一体であるといえます。それはあたかも帝釈天の",
+          "context_position": 14199,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の宮殿を飾る珠をちりばめた網の如くであるのです。 空海が法身大日と衆生との関係を重々帝網と述べたのは、華厳教学の法界縁起に用",
+          "context_position": 14260,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "て関係し合っていると見る重々無尽縁起の論法を、凡と聖、我々と大日が一体であることを表わすために応用したのである。ただし、華厳",
+          "context_position": 14508,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ず、きわめて遠い道のりなのである。 それに比して真言密教では大日如来という新たな仏身を見出し、大日は虚空に遍満する仏陀であり",
+          "context_position": 14701,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": " それに比して真言密教では大日如来という新たな仏身を見出し、大日は虚空に遍満する仏陀であり、法身を備えた生命体として登場し、",
+          "context_position": 14718,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "し、あらゆる現象をとって示現するのであり、我々の活動や行動も大日の行動と同一であり、「即」で結ばれているのである。〈編者注〉",
+          "context_position": 14778,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "三密という体（本質）、相（姿）、用（活動）の三方面から見て、大日如来は決して仮空の仏陀ではなく、私たち人間と少しも異ならない",
+          "context_position": 14877,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "姿をとらえることは難しいのです。そこで後半の一頌四句でさらに大日の実体を詳しく説きましょう。 即身の身とは、我身・仏身・衆生",
+          "context_position": 14989,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の身もあります。文字や印契や姿を画くことで表わされる身です。大日如来の身はこのようにさまざまな身であらわされるのですが、私た",
+          "context_position": 15185,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "な身であらわされるのですが、私たちの身もこれと同様ですから、大日の身と私たちの身はお互いにまじり合って、縦横に重々に重なりあ",
+          "context_position": 15231,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "いに映り合って混然一体になっているようなものです。 彼の身（大日）は此の身（我）、であり、仏身は衆生の身であり、衆生の身は仏",
+          "context_position": 15323,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "かのようにそれぞれの持ち場において個々に存在しているのです。大日如来と自分との関係が、正にこれなので、これが、「重重帝網なる",
+          "context_position": 15829,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "に薩般若を具足して 「法然に薩般若を具足して」というのは、『大日経』にこうあります。「私は一切のものの本初なのです。だから私",
+          "context_position": 15913,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ることなどできないのです」と。ここで「私は」といっているのは大日如来のことです。「一切の」とは無数のことです。「本初」という",
+          "context_position": 16064,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "はじめは菩薩で、長い間の修行によって仏陀になったのではなく、大日如来は始めから仏陀として存在している、という意味で、これを法",
+          "context_position": 16165,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ます。本来、自然に仏陀でおられる、という意味です。そしてこの大日如来という法身の仏陀は、法界に遍満し、すみずみにまで行きわた",
+          "context_position": 16231,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "です。しかしこの深い意味を衆生は知らないし認識していないので大日如来はそのことを衆生に知らせてあげようとしているのです。 ま",
+          "context_position": 16341,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ことを衆生に知らせてあげようとしているのです。 また同じく『大日経』悉地出現品第六に次のような文があります。 「諸々の人々の",
+          "context_position": 16378,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "れを「自然法爾」といいまた「阿字本不生」というのである。法身大日如来の存在も、まさにこのような「密教眼」をもって観察しなけれ",
+          "context_position": 17010,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "まさにこのような「密教眼」をもって観察しなければならぬ。法身大日は、自然法爾に一切智智をそなえているのであり、一般大乗の如来",
+          "context_position": 17049,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "身の説明にゆずる。〈編者注〉 前に六大の証文として引用した『大日経』の「われは本不生を覚り云々」の句も、『金剛頂経』の「諸法",
+          "context_position": 17199,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "金剛頂経』の「諸法もとより不生なり云々」の句も、いずれも法身大日が私たちと同様に六大から成り立っている生命体であることをあら",
+          "context_position": 17252,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ら成り立っている生命体であることをあらわしていると同時に法身大日の性格を示しているのです。つまりすでに大日は「本不生を覚り、",
+          "context_position": 17295,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ていると同時に法身大日の性格を示しているのです。つまりすでに大日は「本不生を覚り、語言の道を出過し、諸々の過を解脱し、因縁を",
+          "context_position": 17316,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "々の過を解脱し、因縁を離れ、虚空に等しい」のであります。この大日如来の存在は、いい換えれば、「法然に薩般若を具足している」と",
+          "context_position": 17367,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "『金剛頂経』の一つであります『金剛峯楼閣一切瑜伽瑜祇経』に「大日如来は四仏にかこまれ、その四仏はそれぞれ四菩薩にとりまかれ（",
+          "context_position": 17444,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "スクリット語）」の音写語で千万とか億とか京とかいう数の名で、大日如来の五智五仏の広がりは無数で、法界に遍満すること虚空の如く",
+          "context_position": 17611,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "入っているのであります。こうなると、われわれ凡夫も一人残らず大日と同体であり、さらに自然界の山川草木から果ては自然現象に至る",
+          "context_position": 17685,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "然界の山川草木から果ては自然現象に至るまでの一切は中央の法身大日の六大であるとまで言い切れるのです。こうした深旨を経文では、",
+          "context_position": 17728,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "「微細法身の金剛を流出する」と表現しているのであります。法身大日も、作者（造り手）など無しに自然法爾に存在しその意味で「不生",
+          "context_position": 17790,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "している、しかも欠けたところもなく不足しているところもなく、大日は本来的に一切智智を成就しており、その五智はすでに述べたよう",
+          "context_position": 17922,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "簡び決断する心の作用ですが真言密教の場合、すでに述べたように大日の智は五智五仏で無際に広がり、われわれ人間の一人一人にまでも",
+          "context_position": 18069,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "れているように、真言密教では凡聖不二、凡即是仏であり、凡夫も大日も一体なのですから、凡夫の心とか識とかは、仏における智の問題",
+          "context_position": 18265,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "題とまったく同一に論じられるべきものなのです。六大のところで大日如来が「我覚（われ覚る）」というのが、衆生においては「われ識",
+          "context_position": 18326,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "動との関係をあらわす用語です。このように、智と識（心）とは、大日と衆生が同体であるとすれば、同列に論じられることになり、智は",
+          "context_position": 18549,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "を「一切智」といいますが、真言密教では智も無量、心も無量で、大日如来の智は際限が無いのですから、そういう智を指して「一切智智",
+          "context_position": 18920,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "的に認知するはたらきを心数（心所とも）といいます。これを法身大日にあてはめて言えば、心王とは法界体性智であり、心数とはそれを",
+          "context_position": 19119,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の上に置いた大きな鏡に、まわりの一切のものの姿が映るように、大日如来の広々としてくもりのない心の鏡は、この世の最も高い場所に",
+          "context_position": 19335,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "正確にあやまりなく映しだしているのです。しかも他の一切の仏も大日と等しいのですから、大日以外の何の仏というのでしょう、まさに",
+          "context_position": 19411,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "しているのです。しかも他の一切の仏も大日と等しいのですから、大日以外の何の仏というのでしょう、まさに大日は円鏡力であり実覚智",
+          "context_position": 19423,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "と等しいのですから、大日以外の何の仏というのでしょう、まさに大日は円鏡力であり実覚智なのであり、決して仮空の仏などではないの",
+          "context_position": 19443,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "て仮空の仏などではないのです。 この最後の一句で空海は自身の大日如来に対する確かな手ごたえを表わそうとしているように思える。",
+          "context_position": 19493,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "かな手ごたえを表わそうとしているように思える。空海によれば、大日の心鏡はこの世の一切を映し出し、一切のことを正確に見通してい",
+          "context_position": 19532,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "世の一切を映し出し、一切のことを正確に見通しているのである。大日の前では何をかくしても無駄であり、どのような言いのがれもきか",
+          "context_position": 19570,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "も無駄であり、どのような言いのがれもきかないのである。まさに大日如来を頂点とする一切諸仏は実覚智を有する限り無く高い人格なの",
+          "context_position": 19612,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "生命体なのであって、決して仮空の仏身などではない。そしてこの大日如来は五智五仏の重層的な広がりで示されるように凡夫一人一人と",
+          "context_position": 19702,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ば大覚と号し、迷える者をば衆生と名づく」と述べているが、我即大日という大原則に衆生はただ気付いていないだけなのである。仏と自",
+          "context_position": 19815,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "教で最も重要なことは、これまで述べてきたような脈々とした法身大日をどうとらえ、凡夫の自分と一体であることを認知することであり",
+          "context_position": 19912,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "教では、人間は本来、仏と一緒であり同等なのである。ただし法身大日の実在に気づかなければだめなのである。ただこの理に気づきさえ",
+          "context_position": 20126,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "この理に気づきさえすれば、煩悩にまとわれたこの肉身のままで、大日にいだかれている自分を発見できるのである。この意味から、即身",
+          "context_position": 20179,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法身",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "seed_sanskrit": "dharmakāya",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 60.88,
+      "freq_score": 20.88,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 54,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の十六生に正覚を成ず」とあります。 この文中で「この教」とは法身大日如来の悟りそのもの、つまり大日如来の教えである真言密教の",
+          "context_position": 412,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "教の物の見方は、他の仏教とは次元が違う点が多々あり、その源は法身大日如来を真仏と仰ぐ、いわゆる仏陀観が他とかけ離れていること",
+          "context_position": 945,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "は、真言を誦持（声に出して読む）して得られる世間的な成就と、法身大日の果徳を成就するいわば出世間の成就のすべてを含んでいます",
+          "context_position": 1545,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "日の果徳を成就するいわば出世間の成就のすべてを含んでいます。法身大日は他の一切の価値をも含み持っていますから、世間一般の価値",
+          "context_position": 1578,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "です。 さらに第五の証文で「大空位に遊歩する」といいますが、法身大日は虚空に等しいほどの規模で法界に遍満しているのですから、",
+          "context_position": 1665,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "しいほどの規模で法界に遍満しているのですから、あらゆる現象は法身大日のあらわれだともいえるのです。しかも大日は過去・現在・未",
+          "context_position": 1704,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "つ基礎を求め続けるという意味で「大空位」というのです。さらに法身大日のはたらきや動作は、きわめて広大なので、これまでの仏教で",
+          "context_position": 1858,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "書せず」と述べられています。ここで仏と一体になるとはもちろん法身大日と一体になるという意味です。また諸教というのは、大日如来",
+          "context_position": 2078,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "高い人格をそなえている、ということが言えるのです。すなわち、法身大日如来は、神話の神でも無く、また仮空の人物でもありません。",
+          "context_position": 3346,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "・無礙（相応・一体・同体）を表わします。後の一頌四句も順に、法身大日の成仏の意味（本来成仏しているということ）を述べ、次に法",
+          "context_position": 3758,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "身大日の成仏の意味（本来成仏しているということ）を述べ、次に法身は法界に遍満し無数であることを述べ、第三には法身所有の五智は",
+          "context_position": 3789,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "を述べ、次に法身は法界に遍満し無数であることを述べ、第三には法身所有の五智は世のすべてに行きわたって一つとして漏れの無いこと",
+          "context_position": 3813,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "来が主体だから「我覚る」と表現したまでのことで、五仏の中尊、法身大日の体をのべるためだからなのです。したがって「我覚」とは識",
+          "context_position": 5057,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "て「我覚」とは識大の証拠といえるのです。この経の文は、まさに法身大日は六大で構成されており、その点では我々と同じに人格を有す",
+          "context_position": 5111,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "。後の五句は五大のことです。中間の三句は六大で成り立っている法身大日が自由自在であること、さわり無しにすべてに行きわたってい",
+          "context_position": 5906,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "切の仏、一切の衆生、そして人々の住む世界、いいかえれば、自性法身・受用法身・変化法身・等流法身の四種法身や、智正覚世間・衆生",
+          "context_position": 6072,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "切の衆生、そして人々の住む世界、いいかえれば、自性法身・受用法身・変化法身・等流法身の四種法身や、智正覚世間・衆生世間・器世",
+          "context_position": 6077,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "そして人々の住む世界、いいかえれば、自性法身・受用法身・変化法身・等流法身の四種法身や、智正覚世間・衆生世間・器世間（仏陀と",
+          "context_position": 6082,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の住む世界、いいかえれば、自性法身・受用法身・変化法身・等流法身の四種法身や、智正覚世間・衆生世間・器世間（仏陀と衆生の住む",
+          "context_position": 6087,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "、いいかえれば、自性法身・受用法身・変化法身・等流法身の四種法身や、智正覚世間・衆生世間・器世間（仏陀と衆生の住む世界）の一",
+          "context_position": 6092,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "能生の六大」と空海は見ていることである。その「能生の六大」は法身大日であり、六大によって生ずる「所生の法」は四種法身、四種マ",
+          "context_position": 7272,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "六大」は法身大日であり、六大によって生ずる「所生の法」は四種法身、四種マンダラ、三種世間すなわち一切のものなのである。 ここ",
+          "context_position": 7298,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "のために用いたまでで、本旨は、すべてが六大によって構成され、法身大日も識大があるゆえに、れっきとした高い人格を持った実在の仏",
+          "context_position": 7455,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "この前文には四種曼荼羅が説かれているのです。こう受け止めれば法身大日は六大で構成されていることになるでしょう。 また次に、こ",
+          "context_position": 8041,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "なことを述べているのでしょう。要するに六大によって構成される法身大日が一切のものを生じることを述べているのです。文中の心王は",
+          "context_position": 8306,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": " 以上六つの経文を引用いたしましたが、これらの文は、いずれも法身大日は六大所成であり、一切を生み出す主体（能生）であり、四種",
+          "context_position": 8492,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "大日は六大所成であり、一切を生み出す主体（能生）であり、四種法身、三種世間など一切は六大によって生み出されたもの（所生）であ",
+          "context_position": 8524,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "とを示しています。したがってこの生み出された所生の法は、上は法身から下は六道に及ぶまで、麁細（粗いと細かい）、大・小などの違",
+          "context_position": 8588,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "四大を意味しているに過ぎません。しかし密教で六大という意味は法身大日如来の悟りの姿と実在そのものを意味しているのであります。",
+          "context_position": 8785,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "りません。 こうして考えますと、六大法界体性で構成されている法身大日の身体も私たち一切衆生の身体もお互いに礙り無く同体のごと",
+          "context_position": 9630,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "画いたもので、各尊を示す梵字一字をその居場所に画きます。また法身大日の悟りの内容自体及びその内容を説き明かした経典や文章など",
+          "context_position": 10581,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ら、仏も衆生も虚空の如きひろがりなのです。その中央に座すのが法身大日如来なのです。そして曼荼羅上のすべての存在は中央の大日と",
+          "context_position": 10828,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ついてまず三密とは一に身密、二に語密、三には心密を指します。法身仏（大日）に私たちと同様に三種の活動作用があるということは、",
+          "context_position": 11127,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "えいれば、真言の修行者が手で印契を作り、口で真言を誦し、心を法身如来と同様な深さと広がりにまで近づけていけば、如来と衆生との",
+          "context_position": 11354,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "れも不空訳の『成就妙法蓮華経王瑜伽観智儀軌』の中に、 「もし法身真如観という観法に入れば一つの縁、一つの姿が法身と平等になる",
+          "context_position": 12250,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "に、 「もし法身真如観という観法に入れば一つの縁、一つの姿が法身と平等になること丁度自身が虚空にとりまかれているのと同様にな",
+          "context_position": 12274,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "う高い地位にも昇ることができ、あらゆる智慧を備え、一切如来の法身と同体となり、常に縁の無い人々に至るまで多くの衆生を安楽にし",
+          "context_position": 12427,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "が金剛の如く堅固になるのを増進の機縁として、行者は大日如来の法身、報身、応身のすべてになり切ることができます」と。 これまで",
+          "context_position": 13632,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "釈天の宮殿を飾る珠をちりばめた網の如くであるのです。 空海が法身大日と衆生との関係を重々帝網と述べたのは、華厳教学の法界縁起",
+          "context_position": 14258,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "来という新たな仏身を見出し、大日は虚空に遍満する仏陀であり、法身を備えた生命体として登場し、あらゆる現象をとって示現するので",
+          "context_position": 14734,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "日如来は始めから仏陀として存在している、という意味で、これを法身と呼びます。本来、自然に仏陀でおられる、という意味です。そし",
+          "context_position": 16196,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "然に仏陀でおられる、という意味です。そしてこの大日如来という法身の仏陀は、法界に遍満し、すみずみにまで行きわたっているのです",
+          "context_position": 16238,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "法界に遍満し、すみずみにまで行きわたっているのですから、この法身と、一切の衆生とはまったく同一にとけ合っていて、いわば一体の",
+          "context_position": 16275,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "。これを「自然法爾」といいまた「阿字本不生」というのである。法身大日如来の存在も、まさにこのような「密教眼」をもって観察しな",
+          "context_position": 17008,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "も、まさにこのような「密教眼」をもって観察しなければならぬ。法身大日は、自然法爾に一切智智をそなえているのであり、一般大乗の",
+          "context_position": 17047,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "未来に至るまで、三世を貫いてすでに仏なのである。詳しくは後の法身の説明にゆずる。〈編者注〉 前に六大の証文として引用した『大",
+          "context_position": 17168,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "、『金剛頂経』の「諸法もとより不生なり云々」の句も、いずれも法身大日が私たちと同様に六大から成り立っている生命体であることを",
+          "context_position": 17250,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "大から成り立っている生命体であることをあらわしていると同時に法身大日の性格を示しているのです。つまりすでに大日は「本不生を覚",
+          "context_position": 17293,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "に自然界の山川草木から果ては自然現象に至るまでの一切は中央の法身大日の六大であるとまで言い切れるのです。こうした深旨を経文で",
+          "context_position": 17726,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "であるとまで言い切れるのです。こうした深旨を経文では、「微細法身の金剛を流出する」と表現しているのであります。法身大日も、作",
+          "context_position": 17763,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "は、「微細法身の金剛を流出する」と表現しているのであります。法身大日も、作者（造り手）など無しに自然法爾に存在しその意味で「",
+          "context_position": 17788,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "個別的に認知するはたらきを心数（心所とも）といいます。これを法身大日にあてはめて言えば、心王とは法界体性智であり、心数とはそ",
+          "context_position": 19117,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "言密教で最も重要なことは、これまで述べてきたような脈々とした法身大日をどうとらえ、凡夫の自分と一体であることを認知することで",
+          "context_position": 19910,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "言密教では、人間は本来、仏と一緒であり同等なのである。ただし法身大日の実在に気づかなければだめなのである。ただこの理に気づき",
+          "context_position": 20124,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "真言",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "seed_sanskrit": "mantra",
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "kaimyo_score": 66.53,
+      "freq_score": 18.53,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 34,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "要だという「三劫成仏」を説いております。ところがいまここでは真言密教の「即身成仏」を主張しようとしております。一体どこに証拠",
+          "context_position": 94,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "」とは法身大日如来の悟りそのもの、つまり大日如来の教えである真言密教のことであり、また「歓喜地」も一般的な仏教用語では、菩薩",
+          "context_position": 439,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "」といいます。 次に『大日経』巻七供養次第法といわれるものの真言行・学処品第一に「この生において悉地に入らんとおもわば、その",
+          "context_position": 1284,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "うのです。 この『大日経』に説かれる最高の境地（悉地）とは、真言を誦持（声に出して読む）して得られる世間的な成就と、法身大日",
+          "context_position": 1517,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "です。 また竜猛菩薩が著したと伝えられる『菩提心論』には、「真言法の中にのみ即身成仏するが故に、これ三摩地の法を説く。諸教の",
+          "context_position": 2008,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "地出現品第六」に大日如来を表象する「あびらうんきゃん」という真言が説かれていますが、この五文字にあえて私（空海）（吽）の一字",
+          "context_position": 3980,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "きなさい、今ここに説明します」。そしてこういわれました。 「真言密教の指導者たる人は、円壇を自身の身体の上に置きなさい。そし",
+          "context_position": 7714,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "大・火大・風大は文の通りです。円壇は空大を意味します。そして真言者は心大（識大）を示します。偈の前文の部分で聖尊というのは大",
+          "context_position": 7897,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "は三界の足かせ、など一般にも広く用いられている。〈編者注〉 真言密教では六大を法界体性とし、一人の人格とみていますから、同じ",
+          "context_position": 9069,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "各々の仏菩薩の全体の姿を色彩つきで画いたものをいい、さらには真言密教の修行者が「五相成身観」という観法を修して大日尊の姿を現",
+          "context_position": 10248,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "る物で、これらを諸尊の姿のかわりに図画した曼荼羅です。さらに真言行者が二手を合わせて金剛縛の印を結んで、自身が金剛石のように",
+          "context_position": 10455,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "智印」ともいうのです。 第三には法曼荼羅。各尊をあらわす種字真言で画いたもので、各尊を示す梵字一字をその居場所に画きます。ま",
+          "context_position": 10548,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "かわり合いの中で存在していることを十分に理解してさえいれば、真言の修行者が手で印契を作り、口で真言を誦し、心を法身如来と同様",
+          "context_position": 11329,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "十分に理解してさえいれば、真言の修行者が手で印契を作り、口で真言を誦し、心を法身如来と同様な深さと広がりにまで近づけていけば",
+          "context_position": 11346,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "界縁起は説くが即身成仏思想は打ち出してはいない。華厳の見方は真言にきわめて近いように見えるが、華厳宗学においては、たとえば法",
+          "context_position": 14575,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "なければならず、きわめて遠い道のりなのである。 それに比して真言密教では大日如来という新たな仏身を見出し、大日は虚空に遍満す",
+          "context_position": 14695,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "うな、まことに微妙なものといえましょう。したがって三等無礙の真言にこうあります。 アサンメイ、チリサンメイ、サンマエイ、ソワ",
+          "context_position": 15432,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "のが等しい）、その次の句（これ三平等である）、最後のソワカは真言の末尾につけることばであります。大意は、一見等しくない三つの",
+          "context_position": 15526,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "は、一見等しくない三つのものが実は等しいのだと見抜く意味で、真言宗では「入仏三昧耶の真言」と呼ばれるものです。この見方によれ",
+          "context_position": 15576,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ものが実は等しいのだと見抜く意味で、真言宗では「入仏三昧耶の真言」と呼ばれるものです。この見方によれば三宝（仏・法・僧）や身",
+          "context_position": 15588,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "る人がいるが、それはまことに愚かなことであって、そういう人は真言というものの真意も、真言の真実の姿もとうてい知ることはできま",
+          "context_position": 16460,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "とに愚かなことであって、そういう人は真言というものの真意も、真言の真実の姿もとうてい知ることはできません。原因の造り手など存",
+          "context_position": 16472,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "筈がないのです。まさに十分知っておかねばならないことですが、真言密教でいう果は、すべて因果の関係からかけ離れているのです」 ",
+          "context_position": 16597,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "認めないのである。そうした固定的な因果を願っている人々には、真言密教の因果がわかっていない。大乗仏教、特に真言密教では、因と",
+          "context_position": 16755,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "いる人々には、真言密教の因果がわかっていない。大乗仏教、特に真言密教では、因と果はあくまで天上の神を否定するために仮に立てた",
+          "context_position": 16778,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "いうのは略語です。智とは是非正邪を簡び決断する心の作用ですが真言密教の場合、すでに述べたように大日の智は五智五仏で無際に広が",
+          "context_position": 18052,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "題のようでありますが、すでに六大のところで触れているように、真言密教では凡聖不二、凡即是仏であり、凡夫も大日も一体なのですか",
+          "context_position": 18243,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ば、同列に論じられることになり、智は即ち心であります。しかも真言密教では、教えとか教理が独立して存在するとは考えずに、教え（",
+          "context_position": 18593,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "のです。人生を離れた教えなどあり得ない（人法不二）というのが真言密教の基本なのです。 さて識（心）・智一体、心法一体であれば",
+          "context_position": 18733,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "教で一智で一切の事柄を判断できるのを「一切智」といいますが、真言密教では智も無量、心も無量で、大日如来の智は際限が無いのです",
+          "context_position": 18903,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "どの一切の智で、この様子を五智無際智というのです。このように真言密教では常に曼荼羅を頭に置いて仏陀を想わなければなりません。",
+          "context_position": 19188,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の深いかかわりを、確認できるか否かが分れ目なのである。だから真言密教で最も重要なことは、これまで述べてきたような脈々とした法",
+          "context_position": 19879,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "煩悩をさとりに変えたり、生死をさとりに変えたりするのであって真言密教とはまったく異なる。本来仏では無いものを仏にするのである",
+          "context_position": 20036,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "るのであるからむずかしいのであり、時間もかかる。これに対して真言密教では、人間は本来、仏と一緒であり同等なのである。ただし法",
+          "context_position": 20093,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "仏陀",
+      "source_tag": "seed_sanskrit",
+      "sanskrit_origins": [
+        "buddha"
+      ],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 44.34,
+      "freq_score": 16.34,
+      "doctrinal_score": 20.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 22,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "違う点が多々あり、その源は法身大日如来を真仏と仰ぐ、いわゆる仏陀観が他とかけ離れていることにあるのです。これらについても『大",
+          "context_position": 962,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "これらについても『大日経』の住心品に説かれている通りですし、仏陀観については『弁顕密二教論』に詳しく論じてありますので参考に",
+          "context_position": 1014,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "まったく同様だといえます。動作という点では同じですが、大日は仏陀でありますから、これを三密といい、私たち衆生はこれを三業と呼",
+          "context_position": 3190,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "と衆生とは人格を有しているという意味からまったく同様であり、仏陀と衆生との差異はあるとしても、大日は限り無く高い人格をそなえ",
+          "context_position": 3292,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "とになり、仏教の仲間ではなくなりますし、また大日如来が仮空の仏陀だというならば、私（空海）が密教の理論体系を確立した意味がま",
+          "context_position": 3460,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "第五字の欠字はkha（虚空）に空点を加えたkhamという字で仏陀の自在であることは虚空のごとしの意から空大の徳を表わすと受け",
+          "context_position": 4675,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "覚る」が識大を意味するのです。一般にはこれを「我識る」といい仏陀の場合は「我智る」といいましょう。智と覚とは同じ意味です。サ",
+          "context_position": 4839,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "。智と覚とは同じ意味です。サンスクリット語でもbuddha（仏陀）とbodhi（覚り、菩提）とは同じ語源です。buddhaを",
+          "context_position": 4887,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "大で構成されており、その点では我々と同じに人格を有する実在の仏陀であることがわかるのです。 第二に、『毘盧遮那三摩地法』（大",
+          "context_position": 5147,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "化法身・等流法身の四種法身や、智正覚世間・衆生世間・器世間（仏陀と衆生の住む世界）の一切を造り出している、ということになるの",
+          "context_position": 6111,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "身大日も識大があるゆえに、れっきとした高い人格を持った実在の仏陀であり、仮空の仏陀ではない、われわれ衆生と少しも違わない構成",
+          "context_position": 7486,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ゆえに、れっきとした高い人格を持った実在の仏陀であり、仮空の仏陀ではない、われわれ衆生と少しも違わない構成要素をもっており、",
+          "context_position": 7495,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "六大によって構成されていることに違いは無いのです。そのゆえに仏陀（大日）はこの六大をこの世のすべての根本的な要素という意味で",
+          "context_position": 8661,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "間に集められた福徳や智慧を手に入れることができます。すなわち仏陀と等しくなるのです。その人は一切如来の心より生じ、仏の御口か",
+          "context_position": 12826,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ては、たとえば法蔵（賢首大師）の『華厳五教章』などを見れば、仏陀に近づくための菩薩の過程は、一般大乗仏教と同じく、五十二位の",
+          "context_position": 14629,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "教では大日如来という新たな仏身を見出し、大日は虚空に遍満する仏陀であり、法身を備えた生命体として登場し、あらゆる現象をとって",
+          "context_position": 14728,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "相（姿）、用（活動）の三方面から見て、大日如来は決して仮空の仏陀ではなく、私たち人間と少しも異ならない人格を有した生命体だと",
+          "context_position": 14888,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "乗仏教の化身）のように、はじめは菩薩で、長い間の修行によって仏陀になったのではなく、大日如来は始めから仏陀として存在している",
+          "context_position": 16153,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "い間の修行によって仏陀になったのではなく、大日如来は始めから仏陀として存在している、という意味で、これを法身と呼びます。本来",
+          "context_position": 16174,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "在している、という意味で、これを法身と呼びます。本来、自然に仏陀でおられる、という意味です。そしてこの大日如来という法身の仏",
+          "context_position": 16210,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "陀でおられる、という意味です。そしてこの大日如来という法身の仏陀は、法界に遍満し、すみずみにまで行きわたっているのですから、",
+          "context_position": 16241,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "智というのです。このように真言密教では常に曼荼羅を頭に置いて仏陀を想わなければなりません。 九 円鏡力の故に実覚智なり さて",
+          "context_position": 19205,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "三密",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "seed_sanskrit": "trīṇi guhyāni",
+      "kaimyo_chars": [
+        "密"
+      ],
+      "kaimyo_score": 52.77,
+      "freq_score": 14.77,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 16,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "を見ても、経典には大日は身・口・意の三方面で活動し、身口意の三密、身体の動作と口の動作、つまりことばのはたらきと心の動きと表",
+          "context_position": 3105,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "動作という点では同じですが、大日は仏陀でありますから、これを三密といい、私たち衆生はこれを三業と呼んでいるのです。 本質（体",
+          "context_position": 3203,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "切即一の「即」の義で、「等しい」という意味であります。 五 三密加持すれば速疾に顕わる 「三密加持すれば速疾に顕わる」につい",
+          "context_position": 11067,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "」という意味であります。 五 三密加持すれば速疾に顕わる 「三密加持すれば速疾に顕わる」についてまず三密とは一に身密、二に語",
+          "context_position": 11082,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "れば速疾に顕わる 「三密加持すれば速疾に顕わる」についてまず三密とは一に身密、二に語密、三には心密を指します。法身仏（大日）",
+          "context_position": 11102,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "たりすることができないのです。だから三種の活動を三業といわず三密というのです。要するに大日の三密も衆生の三業も相互に交り合い",
+          "context_position": 11221,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "から三種の活動を三業といわず三密というのです。要するに大日の三密も衆生の三業も相互に交り合いながら存在していることを「三密加",
+          "context_position": 11237,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の三密も衆生の三業も相互に交り合いながら存在していることを「三密加持」と名づけるのです。こうして大日の活動も衆生の活動も深い",
+          "context_position": 11266,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "である。以下に空海は、大日如来の活動が衆生の活動に及ぼす力を三密加持といい、それを示す経文を四文挙げているが、現代語訳をして",
+          "context_position": 11574,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "たっている身体を体現することができるのです」と。 これ以降、三密の加持によって凡夫が佛に成るという趣旨の経文が四文あげられる",
+          "context_position": 12027,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の教えという財産を手に入れます。この教えの財産とは、身口意の三密の菩提心の教法のことです」（以下空海の注これははじめて菩提心",
+          "context_position": 12916,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": " また『五秘密儀軌』にこういう文があります。 「もし身口意の三密が金剛の如く堅固になるのを増進の機縁として、行者は大日如来の",
+          "context_position": 13600,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "細についてはそれぞれの経典に説かれています。 この故に頌に「三密加持すれば速疾に顕わる」と述べたのです。加持とは如来の大慈悲",
+          "context_position": 13835,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "持」と名づけるのです。修行者がこの意味を深く理解すれば、仏の三密と修行者の三業とがぴったりと感応相応するので、この世で直ちに",
+          "context_position": 13970,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "一頌四句をおわるのですが、ここで述べたい趣旨は、六大・四曼・三密という体（本質）、相（姿）、用（活動）の三方面から見て、大日",
+          "context_position": 14847,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ばれるものです。この見方によれば三宝（仏・法・僧）や身口意の三密、我身・仏身・衆生身なども、一般的にはそれぞれ別の三つのもの",
+          "context_position": 15623,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法界",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "宇宙の真実相。一切法の根本領域。",
+      "seed_sanskrit": "dharma-dhātu",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 52.11,
+      "freq_score": 14.11,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 14,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "に遊歩する」といいますが、法身大日は虚空に等しいほどの規模で法界に遍満しているのですから、あらゆる現象は法身大日のあらわれだ",
+          "context_position": 1682,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の成仏の意味（本来成仏しているということ）を述べ、次に法身は法界に遍満し無数であることを述べ、第三には法身所有の五智は世のす",
+          "context_position": 3792,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "（大日）はこの六大をこの世のすべての根本的な要素という意味で法界体性といわれております。 一般の仏教でもその他の哲学でも地水",
+          "context_position": 8693,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ど一般にも広く用いられている。〈編者注〉 真言密教では六大を法界体性とし、一人の人格とみていますから、同じ四大といってもこれ",
+          "context_position": 9078,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "った言い争いなどしてはなりません。 こうして考えますと、六大法界体性で構成されている法身大日の身体も私たち一切衆生の身体もお",
+          "context_position": 9618,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ことができるようになり、この印密言によって自身を加持すれば、法界体性智、つまり大日如来の遍く虚空に満ちわたっている身体を体現",
+          "context_position": 11975,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "なるを即身と名づく」とは譬喩をあげて大日如来の身口意の行動は法界に遍満しており、私たち凡夫・衆生の行動にも行きわたっているの",
+          "context_position": 14162,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "海が法身大日と衆生との関係を重々帝網と述べたのは、華厳教学の法界縁起に用いられる用語を応用して、二者の間が一如であることの譬",
+          "context_position": 14286,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の間が一如であることの譬えにしたのであり、空海の工夫である。法界縁起というのは、華厳の立場に立ってこの世を観察すれば、すべて",
+          "context_position": 14336,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "あることを表わすために応用したのである。ただし、華厳教学では法界縁起は説くが即身成仏思想は打ち出してはいない。華厳の見方は真",
+          "context_position": 14544,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "れる、という意味です。そしてこの大日如来という法身の仏陀は、法界に遍満し、すみずみにまで行きわたっているのですから、この法身",
+          "context_position": 16245,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "とか京とかいう数の名で、大日如来の五智五仏の広がりは無数で、法界に遍満すること虚空の如く、その中にわれわれ凡夫も入っているの",
+          "context_position": 17629,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "数の関係もまったく「五智無際智」と同じで、心王が曼荼羅中央の法界体性智とすれば、心数はまわりをとりまく四仏四智をあらわしそれ",
+          "context_position": 18997,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "とも）といいます。これを法身大日にあてはめて言えば、心王とは法界体性智であり、心数とはそれをとりまく四智などの一切の智で、こ",
+          "context_position": 19135,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "即身成仏",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "seed_sanskrit": "sa-deha-prāpti-buddhatva",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 51.75,
+      "freq_score": 13.75,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 13,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "即身成仏義　現代語訳 即身成仏義 一 二経一論八箇の証文 質問いたし",
+          "context_position": 0,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "即身成仏義　現代語訳 即身成仏義 一 二経一論八箇の証文 質問いたしますが、大乗諸経論では",
+          "context_position": 11,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "三劫成仏」を説いております。ところがいまここでは真言密教の「即身成仏」を主張しようとしております。一体どこに証拠があるのでしょう",
+          "context_position": 100,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "てる、と説明されています。 つまり密教的に考えれば、初地とは即身成仏の位であり、この場合の歓喜地も密教独特の意味の初地（自家仏乗",
+          "context_position": 663,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "菩薩が著したと伝えられる『菩提心論』には、「真言法の中にのみ即身成仏するが故に、これ三摩地の法を説く。諸教の中において闕して書せ",
+          "context_position": 2016,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "、私（空海）は、この身このままで大日如来と一体になるという「即身成仏」の主張をするのであります。さらに詳しい説明は後に述べましょ",
+          "context_position": 2272,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "「即成仏身」または「速疾成仏」など類似の表現は散見するが、「即身成仏」の四字が見られるのは『菩提心論』のこの第七の証文だけである",
+          "context_position": 2654,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "のは『菩提心論』のこの第七の証文だけである。〈編者注〉 二 即身成仏の頌 これから本論に入る。はじめに空海自作の二頌八句──一句",
+          "context_position": 2697,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の説明がこの著作の半分を占めているところから、第一句が空海の即身成仏思想の中心をなしていることが予想される。〈編者注〉 頌の形式",
+          "context_position": 2813,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "のです。 以下に解釈してみましょう。ここに挙げた二頌八句は、即身成仏という四文字をあらわしています。この四字には限りなく広い意味",
+          "context_position": 3561,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ために応用したのである。ただし、華厳教学では法界縁起は説くが即身成仏思想は打ち出してはいない。華厳の見方は真言にきわめて近いよう",
+          "context_position": 14552,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "らえ、凡夫の自分と一体であることを認知することであり、これを即身成仏と表現するのである。一般の仏教で「煩悩即菩提」とか「生死即涅",
+          "context_position": 19948,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "大日にいだかれている自分を発見できるのである。この意味から、即身成仏思想というのは、仏身観の大転換であり、あえていえば、発想のど",
+          "context_position": 20209,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "菩提",
+      "source_tag": "seed_sanskrit",
+      "sanskrit_origins": [
+        "bodhi"
+      ],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 34.95,
+      "freq_score": 12.95,
+      "doctrinal_score": 20.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 11,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "『一切時処念誦成仏儀軌』）に、「この三昧を修するものは現に仏菩提を証す」とあります。ちなみにこの境地とは大日如来のお心の意味",
+          "context_position": 258,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "密」と言っているのです。 また竜猛菩薩が著したと伝えられる『菩提心論』には、「真言法の中にのみ即身成仏するが故に、これ三摩地",
+          "context_position": 1999,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "説法する教えであって、密教に対して顕教といいます。 同じく『菩提心論』の中に次のような文があります。「もし人仏慧を求めて、菩",
+          "context_position": 2160,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "提心論』の中に次のような文があります。「もし人仏慧を求めて、菩提心に通達すれば、父母所生の身に、速に大覚の位を証す」と。 以",
+          "context_position": 2191,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": " 以上に挙げた八つの証文は、『大日経』『金剛頂経』の二経と『菩提心論』という一論書から空海が選んで示したもので、後世これらを",
+          "context_position": 2338,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ど類似の表現は散見するが、「即身成仏」の四字が見られるのは『菩提心論』のこの第七の証文だけである。〈編者注〉 二 即身成仏の",
+          "context_position": 2670,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "サンスクリット語でもbuddha（仏陀）とbodhi（覚り、菩提）とは同じ語源です。buddhaを覚といいbodhiを智とい",
+          "context_position": 4900,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "印密言をもって心を印ずれば大円鏡智を成就（実現）して速やかに菩提心がきわめて堅い如来の身体を得ることができます。また額を印ず",
+          "context_position": 11756,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "という財産を手に入れます。この教えの財産とは、身口意の三密の菩提心の教法のことです」（以下空海の注これははじめて菩提心戒を授",
+          "context_position": 12919,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の三密の菩提心の教法のことです」（以下空海の注これははじめて菩提心戒を授かる時、師僧の加持方便によって得るところの利益を明か",
+          "context_position": 12945,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "あり、これを即身成仏と表現するのである。一般の仏教で「煩悩即菩提」とか「生死即涅槃」といっても、それは、長期にわたる修行によ",
+          "context_position": 19972,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "遮那",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "seed_sanskrit": "Vairocana",
+      "kaimyo_chars": [],
+      "kaimyo_score": 38.39,
+      "freq_score": 8.39,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の意味であります。 また次に、金剛智訳の『金剛頂瑜伽修習毘盧遮那三摩地法』（略称『毘盧遮那三摩地法』）には、「もし衆生あって",
+          "context_position": 317,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "に、金剛智訳の『金剛頂瑜伽修習毘盧遮那三摩地法』（略称『毘盧遮那三摩地法』）には、「もし衆生あってこの教に遇うて昼夜四時に精",
+          "context_position": 330,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "無上覚を成ずることをう」とあります。 また次に、前出の『毘盧遮那三摩地法』に「まさに知るべし、自身すなわち金剛界となる。自身",
+          "context_position": 1131,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "を有する実在の仏陀であることがわかるのです。 第二に、『毘盧遮那三摩地法』（大正蔵一八・三三一上）に次の文があります。「諸法",
+          "context_position": 5170,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "如来",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "如"
+      ],
+      "kaimyo_score": 25.22,
+      "freq_score": 7.22,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "実智品」第十六に次の文があります。 「私（大日如来）はあらゆるものと心が一つなのです。そして",
+          "context_position": 5548,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "十一に次の偈文があります。「金剛手秘密主（大日如来の教えを受ける役で、金剛薩埵を指す）よ、曼荼羅の聖尊の分位と種字と標幟とを造",
+          "context_position": 7618,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ことです。「本初」というのは、ほかの仏身（たとえば薬師如来や阿弥陀如来などの大乗仏教の化身）のように、はじめは菩薩で、長い間の修行に",
+          "context_position": 16104,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "本来",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "本"
+      ],
+      "kaimyo_score": 23.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "後の一頌四句も順に、法身大日の成仏の意味（本来成仏しているということ）を述べ、次に法身は法界に遍満し無数である",
+          "context_position": 3768,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "リット語（インドの古語）anutpāda（本不生、本来生せず）の初字で、諸法は本来生ぜず、という教理を",
+          "context_position": 4229,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "金剛",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "金",
+        "剛"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "十一に次の偈文があります。「金剛手秘密主（大日如来の教えを受ける役で、金剛薩埵を指す）よ、曼荼羅の聖尊の分位と種字と標幟とを造",
+          "context_position": 7618,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "心王",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "心"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "を手中におさめ、含み持ち、心の主なる作用（心王）を安らかならしめて、しかも虚空に遍満して",
+          "context_position": 8177,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "阿字",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "阿"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "の中にあまねく行きわたっています。さらに（阿字）は第一の中心的いのちで地大、（嚩字）は水",
+          "context_position": 5628,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "三摩",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 13.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "智訳の『金剛頂瑜伽修習毘盧遮那三摩地法』（略称『毘盧遮那三摩地法』）には、「もし衆生あってこの教に遇うて昼夜",
+          "context_position": 324,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "三昧",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 13.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "れの悟りの内証を示現したいわゆる三昧耶身（三昧耶マンダラ）であり、そのあとに続く諸仏、声聞、縁覚、",
+          "context_position": 6906,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "修行",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 13.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "薩埵の位に引きあげることができるのです」（空海の注、これは儀軌法則によって修行する時の不思議の法の利益を明かしたものです）。 また『五秘密儀軌』にこういう文があり",
+          "context_position": 13528,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "菩薩",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 13.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "れ、その四仏はそれぞれ四菩薩にとりまかれ（四仏に各四菩薩で十六大菩薩）さらにその各々の菩薩が四尊にかこまれる」",
+          "context_position": 17475,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "大悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "seed_sanskrit": "mahā-karuṇā",
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "kaimyo_score": 50.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "無縁慈悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "seed_sanskrit": "an-ārambaṇa-karuṇā",
+      "kaimyo_chars": [
+        "無",
+        "慈",
+        "悲"
+      ],
+      "kaimyo_score": 46.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "智剣",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "seed_sanskrit": "jñāna-khaḍga",
+      "kaimyo_chars": [
+        "智"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "玄機",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "seed_sanskrit": "—",
+      "kaimyo_chars": [
+        "玄"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

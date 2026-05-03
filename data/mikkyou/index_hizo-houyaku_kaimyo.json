@@ -1,0 +1,2045 @@
+{
+  "schema_version": "1.2",
+  "category": "戒名向け熟語索引",
+  "source_corpus": "hizo-houyaku.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "起点 1（密教教学用語の戒名適合 11 語）+ 起点 2（梵語の漢訳対応）+ 起点 3（補注内 2 字漢語熟語のホワイトリスト抽出）",
+  "scoring_rule": "kaimyo_score = freq(log10×12, 上限25) + doctrinal(seed_terms=30 / seed_sanskrit=20 / paren_doctrinal=10) + ichiji(KAIMYO_ICHIJI 含字数 × 8, 上限16) + aesthetic(美字構成・最大4)",
+  "review_policy": "needs_human_review=true の語は kaimyo-app 連携前に専門家校閲を要する",
+  "dictionary_sizes": {
+    "kaimyo_ichiji": 85,
+    "sanskrit_to_kaimyo_jukugo": 51,
+    "doctrinal_2char_whitelist": 151,
+    "kaimyo_noise": 140
+  },
+  "gendaigoyaku_length": 75246,
+  "summary": {
+    "unique_terms": 32,
+    "unique_jukugo": 32,
+    "total_occurrences": 236,
+    "seed_terms_count": 11,
+    "seed_sanskrit_count": 0,
+    "paren_doctrinal_count": 21,
+    "needs_review_count": 20,
+    "matched_jukugo_count": 28
+  },
+  "entries": [
+    {
+      "jukugo": "大日",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "seed_sanskrit": "Mahāvairocana",
+      "kaimyo_chars": [
+        "大"
+      ],
+      "kaimyo_score": 59.59,
+      "freq_score": 21.59,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 62,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "典や論書に書かれていますが、詳しいことは後に述べましょう。 大日如来に帰依 七言の頌で申します。 初めに種々のものを形成する",
+          "context_position": 3828,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "する原点としての能生である地・水・火・風・空・識の六大の仏（大日如来のこと）〔＊〕に帰依し奉ります。また、大日如来が種々の形",
+          "context_position": 3888,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "識の六大の仏（大日如来のこと）〔＊〕に帰依し奉ります。また、大日如来が種々の形をとって現われた所生である四種の曼荼羅に帰依し",
+          "context_position": 3911,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "示される仏・菩薩です。これをサマヤマンダラといいます。第三に大日如来を囲む金剛薩埵等の四菩薩とその四尊を供養する四菩薩女等で",
+          "context_position": 4051,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "整然と碍りなく並んでおり、その数は無数で、かつすべては中央の大日如来の変化した姿なのです。 私はいま、淳和天皇の詔命を承けて",
+          "context_position": 4206,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "なたも、毎日が新しい生活になることでしょう。 ＊六大の仏……大日如来の本性は六大という六つの本質で構成され、あらゆるものの当",
+          "context_position": 4383,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "六大能生という。漢文で「六大能く……を生ず」から主体としての大日を六大能生と表現するのである。その大日如来が、あらゆる形で現",
+          "context_position": 4452,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "生ず」から主体としての大日を六大能生と表現するのである。その大日如来が、あらゆる形で現われることを所生の四種曼荼羅という。以",
+          "context_position": 4471,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ういう経典によってこの教えを建てるのですか。 答う、それは『大日経』です。 問う、その経になんと説いているのですか。 答う、",
+          "context_position": 8918,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "』です。 問う、その経になんと説いているのですか。 答う、『大日経』の住心品にこう言っています、「秘密主よ、無始の生死の中に",
+          "context_position": 8951,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "したいという心が生じてくるのです。 私たちの善心の種子は、『大日経疏』に記されているように、まず芽を出し、次にふくらんで、や",
+          "context_position": 10342,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "住心はどの経典によって説かれているのですか。 答う、それは『大日経』です。 その経典になんと書いてあるのですか。 『大日経』",
+          "context_position": 12332,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "は『大日経』です。 その経典になんと書いてあるのですか。 『大日経』住心品にこう言っています、「愚童・凡夫にも、ある時ふと、",
+          "context_position": 12360,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "は一切の徳を備えておられ一切の教えのそれぞれの教主なのです。大日如来は、相手の好みや力量に応じてそれぞれの教えを説かれて衆生",
+          "context_position": 13813,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の教えを説かれて衆生を済度されているのです。 経典の典拠 『大日経』にこう説いています、「如来・応供・正遍智（仏の十号といっ",
+          "context_position": 13865,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "すと、声聞乗・縁覚乗・大乗の教え、及び人乗・天乗はみな一人の大日如来が説かれた教えなのです。したがってどの教えにしたがおうと",
+          "context_position": 14156,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "どのような経典・論書によって説かれているのですか。 答う、『大日経』と『菩提心論』とです。 その経に何と説いているのですか。",
+          "context_position": 17423,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "と『菩提心論』とです。 その経に何と説いているのですか。 『大日経』住心品に次のように云っています、 「秘密主よ、彼らは戒を",
+          "context_position": 17457,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "阿羅漢という聖者になることができるでありましょう── また『大日経』具縁品にはこうも言っています、 「秘密主よ、世間の因果と",
+          "context_position": 18397,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の内容をいう時に用いられる。 声聞乗の教理 そこで大覚世尊（大日如来）は羊車の教え（『法華経』で声聞乗を羊車にたとえるところ",
+          "context_position": 19525,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ずらわしさの中に輪廻転生してゆくばかりです。それゆえに大聖（大日如来）は羊車の教え（声聞乗・前出）をここに開示されたのです。",
+          "context_position": 21937,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "問う、この住心はどの経論によって建立するのですか。 答う、『大日経』と『菩提心論』とによっています。 その経論に何と説いてい",
+          "context_position": 22304,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "』とによっています。 その経論に何と説いているのですか。 『大日経』住心品にこういっています、「謂く、この人たちは、唯蘊無我",
+          "context_position": 22344,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "を第十地という。 ◇ これらに対して密教とは、自性法身である大日如来がお説きになった教えです。この如来が御自分の眷属とご一緒",
+          "context_position": 33312,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "て、寂滅の心境を身に悟るだけのものといえましょう。それゆえ『大日経』の住心品にこう言っています、「業・煩悩の株杌と無明の種子",
+          "context_position": 40465,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の世を継続せしめていく要因）を抜き去ります」と。 また同じ『大日経』の入曼荼羅具縁品にこう言っています、「このうち辟支仏（縁",
+          "context_position": 40550,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "第五住心はいずれの経論によって説いているのですか。 答う、『大日経』と『菩提心論』とです。 それらの経論に何と説いているので",
+          "context_position": 43012,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "提心論』とです。 それらの経論に何と説いているのですか。 『大日経』住心品にこう言っています、「縁覚乗の者は、業・煩悩の株杌",
+          "context_position": 43049,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "、この住心は何という経論に依って建立したのですか。 答う、『大日経』と『菩提心論』等によっています。 問う、その経論等に何と",
+          "context_position": 48277,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ます。 問う、その経論等に何と説いているのですか。 答う、『大日経』住心品に次のように言っています、「秘密主よ、大乗の教えを",
+          "context_position": 48324,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "宗、いわゆる南宗の綱領なのです。 第七住心の名前 それ故に『大日経』住心品の中で大日如来は秘密主（金剛手菩薩・金剛薩埵）にこ",
+          "context_position": 51192,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "領なのです。 第七住心の名前 それ故に『大日経』住心品の中で大日如来は秘密主（金剛手菩薩・金剛薩埵）にこう告げられました、「",
+          "context_position": 51202,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "本体などというものは把握できないものなのです」と。 さらに『大日経疏』にはこの文を釈してこういっています、「ここで心主といっ",
+          "context_position": 51358,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の典拠 前の覚心不生の名称を説明した文の続きになりますが、『大日経』住心品に次のように言っています、「秘密主よ、彼はこのよう",
+          "context_position": 52661,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "て、これを「菩提」とするのです。 第八住心の典拠 それゆえ『大日経』住心品の中で大日如来は秘密主（金剛薩埵）に告げてこう言っ",
+          "context_position": 56539,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "するのです。 第八住心の典拠 それゆえ『大日経』住心品の中で大日如来は秘密主（金剛薩埵）に告げてこう言っておられます。 「秘",
+          "context_position": 56549,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の教えと比べてみれば、こうした考えはまだ入口にすぎません。『大日経』でもそう言っておりますし、『大智度論』でもそう述べている",
+          "context_position": 58183,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "もそう述べているのですから疑う余地はありません。 さらに、『大日経』の、先に挙げた文について、『大日経疏』では次のように説明",
+          "context_position": 58237,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ありません。 さらに、『大日経』の、先に挙げた文について、『大日経疏』では次のように説明しています、「謂う所の空性（空観を体",
+          "context_position": 58255,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "れています」と。この文は理法身〔＊〕を明かしたものです。 『大日経疏』ではさらにこう言います、「行者がこの心に住する時に、次",
+          "context_position": 58403,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "金剛手秘密主、秘密主、金剛手、これらは皆同じ菩薩で、密教では大日如来の教えを承ける菩薩として重要な役目を持っている。 ＊一切",
+          "context_position": 58720,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "智ですべて一切を知ることができる、ということであるが、密教で大日如来は、マンダラ上で四仏にとりかこまれて五仏となり、同時に五",
+          "context_position": 58798,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "方八方にひろがり、虚空に遍満している。このような広がりを持つ大日如来の智を、一切智智という。マンダラを頭に置いて理解する必要",
+          "context_position": 58918,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "は、法身を人格的にとらえようとする考え方による。空海上人は、大日如来を理智法身の境界と言っている。 第八住心の主張者 隋の天",
+          "context_position": 59045,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "す。その仏は、身・心ともに滅して虚空と等同なのですが、応化（大日如来の本体ではなく、他のお姿に現じている仏身）の仏身ですから",
+          "context_position": 59504,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "界、即ち華厳三昧の大意であります。 第九住心の典拠（一） 『大日経』住心品の中で毘盧舎那仏は秘密主に対して次のように告げてお",
+          "context_position": 63582,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "（極めて自性の無い心）が生じます」と。 そして善無畏三蔵は『大日経疏』の中でこう説明しています。 「この極無自性心という一句",
+          "context_position": 63738,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "わしている。法界縁起がこれである。 第九住心の典拠（二） 『大日経』の住心品にこう言っています、「有為（常に変りゆく世界）と",
+          "context_position": 64794,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "になってさらに六年間苦行を続けましたが、私は無上の正覚を得て大日如来になることはできませんでした。そして道場に坐っていた時に",
+          "context_position": 65610,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "因となっているのです。 しかしこの第十住心の真言密教は、法身大日如来の説であり、秘密金剛の教えで、最もすぐれた真実の生きかた",
+          "context_position": 67657,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "をこの自身に体現することができるのです。 第十住心の典拠 『大日経』住心品にこう言っています、「また次に秘密主よ。真言密教に",
+          "context_position": 68023,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "に入る菩薩の功徳を讃歎しているという意味であります。 また『大日経』（入曼荼羅品）にこう言っています、「その時に毘盧遮那世尊",
+          "context_position": 68219,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "るのでなければ、明らかにすることは難しいのです。また、この『大日経』には、百字輪とか十二字などの真言の観法や三摩地法門があり",
+          "context_position": 68494,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "三十七尊とか、四智印の三摩地等があります。すなわちこれらは、大日如来の極秘密三昧なのです。意味は広大ですから、直接会って伝え",
+          "context_position": 68571,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "であります。 金剛界三十七尊 三十七尊について言えば、中央の大日如来とその四方をとり囲む、いわゆる五仏は各々一つの智慧を表わ",
+          "context_position": 69608,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "それが羯磨部の智なるがゆえに、羯磨智と名づけるのです。中央の大日如来・毘盧遮那仏は、法界体性智を成ずるに由るもので、これを根",
+          "context_position": 69885,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "、一切諸法の、本より不生不滅なる義を示すものであります。 『大日経疏』第十四によると、この阿字を釈するのに五通りあります。一",
+          "context_position": 70709,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ばなりません。 第十住心の典拠 このゆえに『大毘盧遮那経』（大日経）にこう言っています、〈悉地は心より生ず〉と。 また『金剛",
+          "context_position": 72908,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "。もし根本の菩提心に帰してみれば、衆生の世界が即ち密厳国土（大日如来の仏国土）であります。この座を起たずしてそのまま、よく一",
+          "context_position": 73324,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "す。このゆえに、この世の人々を救済するために応化（本体である大日如来が種々の諸尊に身を変えて種々の人々を救済する、これを応化",
+          "context_position": 73947,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "う二つの秘蔵（秘密の蔵で真言密教を指す）は、これだけが、法身大日如来のお説きになった教えなのです。この大日如来が、自分の眷族",
+          "context_position": 75041,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "、これだけが、法身大日如来のお説きになった教えなのです。この大日如来が、自分の眷族である四種法身の仏・菩薩と共に、金剛法界宮",
+          "context_position": 75062,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "真言",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "seed_sanskrit": "mantra",
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "kaimyo_score": 67.35,
+      "freq_score": 19.35,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 40,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "れを顕教という）は、宮殿の外側の塵を払っているようなもので、真言密教こそが、宝の宮殿の鍵をあけて、中の宝物を手に入れることが",
+          "context_position": 3528,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "しめを受けてさらに次に進んで行くのです。 第十、秘密荘厳心（真言密教の心） 顕教の教えは、宝の箱の塵を払うような効用しかあり",
+          "context_position": 5784,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "） 顕教の教えは、宝の箱の塵を払うような効用しかありません。真言密教こそ宝の庫を開き、中の秘宝が陳げられて、如来の徳をこの身",
+          "context_position": 5820,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "楽にすることだけにつとめ、三毒とか五慾に身をまかせています。真言行人は、まことにこれを厭い患えなければなりません。まことにこ",
+          "context_position": 9370,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "と。また同じくこうも言っています。 「もし諸天・世間の中にも真言法教の道が見えるのは、勤勇者が衆生を利益しようとするためであ",
+          "context_position": 18519,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "いはまた彼らは天に生まれることを最高の目的と思っています。 真言行を修している人たちは彼らを見てこう思いなさい。あの修行の業",
+          "context_position": 18656,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "す」と。 また同経具縁品にこう言っています、「もし声聞の説く真言の場合には、密教のように一言のうちに多義を含めることができな",
+          "context_position": 22556,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "です。すなわち、一仏の名号を称えれば無量の重罪が消え、一字の真言を讃すれば無辺の功徳が得られるのです。まして、僧侶が国から受",
+          "context_position": 30800,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ために（御自分の法楽のために）説かれた教えなのです。いわゆる真言乗（真言密教）がこれです。 これら三種類の教えは、人々の能力",
+          "context_position": 33381,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "御自分の法楽のために）説かれた教えなのです。いわゆる真言乗（真言密教）がこれです。 これら三種類の教えは、人々の能力に応じて",
+          "context_position": 33385,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "にこうも言っています、「秘密主よ、もし縁覚や声聞の説いている真言の教えに住していれば、諸の過患をくだき害ることができます」と",
+          "context_position": 43401,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "。 また同じく具縁品にこうも言っています、「声聞の人々の説く真言は、一つ一つの句が並べられていますが、辟支仏（縁覚）の場合は",
+          "context_position": 43463,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "行して、縁覚の悟りに至り、これを究極のものと考えています。 真言行者は次のように考えるべきです、声聞・縁覚等の南方仏教の人々",
+          "context_position": 43731,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "価値を法相・三論・天台・華厳に順に配し、第五の不二摩訶衍こそ真言密教を意味するのだと理解した。不二摩訶衍が本来なにを意味する",
+          "context_position": 49272,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "不滅という本性なのだと覚ること、これこそ阿字門に入り、次第に真言の悟りに近づいていくことなのです。 こうした無為の生死（悟っ",
+          "context_position": 51946,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "こで仏道といっているのは、金剛法界宮の大曼荼羅の仏、すなわち真言密教の中心の仏を指すのです。諸の顕教においては、これを「究竟",
+          "context_position": 58099,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "においては、これを「究竟の理智法身」と名づけているのですが、真言密教の教えと比べてみれば、こうした考えはまだ入口にすぎません",
+          "context_position": 58149,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "地（自分の心を観察する気持に専念すること）に住して自性成就の真言をもって自ら自由に念誦しなさい〉」と。 ◇ 『守護国界主陀羅",
+          "context_position": 65457,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "めます。 九種の住心は自性無し 転深転妙にして皆これ因なり 真言密教は法身の説 秘密金剛は最勝の真なり （これまでの九種の住",
+          "context_position": 67542,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "各々が次の住心の因となっているのです。 しかしこの第十住心の真言密教は、法身大日如来の説であり、秘密金剛の教えで、最もすぐれ",
+          "context_position": 67649,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "拠 『大日経』住心品にこう言っています、「また次に秘密主よ。真言密教において菩薩の修行をするすべての菩薩は、無量無数百千億劫",
+          "context_position": 68050,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "とができるのです」と。 これを釈しますと、この一段は、初めて真言門に入る菩薩の功徳を讃歎しているという意味であります。 また",
+          "context_position": 68186,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "しいのです。また、この『大日経』には、百字輪とか十二字などの真言の観法や三摩地法門があり、また『金剛頂経』にも、金剛界三十七",
+          "context_position": 68512,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "論』にこう言っています。 「第三に三摩地の菩提心というのは、真言行人がこのように観察しおわって、どのようにして無上菩提を証す",
+          "context_position": 68897,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "すと、まさに一切智を具すことになるのです。 五相成身観 凡そ真言の瑜伽の観行を修習する人は、まさに三密の行を修し、五相成身の",
+          "context_position": 71543,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "するなどのことがこれです。二には語密であり、行者がひそやかに真言（陀羅尼、秘密語）を誦してその真言の文句を心に観じてよくはっ",
+          "context_position": 71661,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "密であり、行者がひそやかに真言（陀羅尼、秘密語）を誦してその真言の文句を心に観じてよくはっきりと理解し、間違いなく唱えるなど",
+          "context_position": 71678,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "きで、決して頼りにすべきものではありません。 これに比べて、真言行人（真言密教の修行者）は、すでに人執と法執の二つの執着を破",
+          "context_position": 72592,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "て頼りにすべきものではありません。 これに比べて、真言行人（真言密教の修行者）は、すでに人執と法執の二つの執着を破しています",
+          "context_position": 72597,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "からこの心地をさずけられてしかる後によく証果す〉と。 およそ真言の行人ならば、もし心が決定して教えのごとく修行すれば、その座",
+          "context_position": 73019,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の頌を聴きましたが、どうかその意味を説明して下さい。 答う、真言密教では、一一の声字にも、一一の言名にも、一一の句義・一一の",
+          "context_position": 73569,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "す。また一一の句にも浅略釈と深秘釈（一般仏教の解釈を浅略釈、真言密教の解釈を深秘釈という）との二義がありますから、簡単におは",
+          "context_position": 73769,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "といえども説いてはなりません。もし本尊の儀軌（お経のこと）や真言などの場合は、たとえ同じ教えの仲間であってもたやすく説いては",
+          "context_position": 74170,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "いて、死んだ後には無間地獄に堕ちるのです。云云」と。 問う、真言の教法はたやすく説くべきでないというご注意はつつしんで承わり",
+          "context_position": 74270,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "々深妙だからこのゆえに「深妙」と言うのです。 次に第三句の「真言密教は法身の説」とはこの一句は真言密教の教主をあらわしていま",
+          "context_position": 74923,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "うのです。 次に第三句の「真言密教は法身の説」とはこの一句は真言密教の教主をあらわしています。極無自性以下の教えはみな、他受",
+          "context_position": 74940,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "教えはみな、他受用身または変化身の仏の所説であります。そして真言密教の金剛界と胎蔵法（界）という二つの秘蔵（秘密の蔵で真言密",
+          "context_position": 74994,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "て真言密教の金剛界と胎蔵法（界）という二つの秘蔵（秘密の蔵で真言密教を指す）は、これだけが、法身大日如来のお説きになった教え",
+          "context_position": 75023,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "、自分の眷族である四種法身の仏・菩薩と共に、金剛法界宮および真言宮殿等に住して、自受法楽のゆえに演説された教えなのです。『十",
+          "context_position": 75097,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "も不要なほどです。 第四句の「秘密金剛は最勝の真なり」とは、真言乗の教えが、諸の他の教えを越えて、究極の真実であることを示し",
+          "context_position": 75205,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法身",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "seed_sanskrit": "dharmakāya",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 56.98,
+      "freq_score": 16.98,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 25,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "地、五十位を第十地という。 ◇ これらに対して密教とは、自性法身である大日如来がお説きになった教えです。この如来が御自分の眷",
+          "context_position": 33307,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の成果が手に入るのです。ここには常・楽・我・浄という四徳と、法身・般若・解脱という三点の徳〔＊〕とを自分の身に具えることがで",
+          "context_position": 47957,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "から三つの大切なものを表わして伊字の三点という。涅槃経で説く法身・般若・解脱もその一種。法身は如来の身、般若は如来の智慧、解",
+          "context_position": 48181,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "て伊字の三点という。涅槃経で説く法身・般若・解脱もその一種。法身は如来の身、般若は如来の智慧、解脱はあらゆる束縛から解放され",
+          "context_position": 48195,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の相〉といい〈青に非ず黄に非ず〉等というのは、いずれもこれは法身真如の一道無畏（第八住心）の真理を明かしているので、仏はこれ",
+          "context_position": 57984,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "中心の仏を指すのです。諸の顕教においては、これを「究竟の理智法身」と名づけているのですが、真言密教の教えと比べてみれば、こう",
+          "context_position": 58134,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "を離れ、眼・耳・鼻・舌・身・意を離れています」と。この文は理法身〔＊〕を明かしたものです。 『大日経疏』ではさらにこう言いま",
+          "context_position": 58386,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の道理を証する仏を〈浄寂光土の毘盧遮那仏〉と名づけるのです。法身大毘盧遮那仏ではないのです。 ＊金剛手菩薩（秘密主）……金剛",
+          "context_position": 58654,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "切智智という。マンダラを頭に置いて理解する必要がある。 ＊理法身……法身を理論的な面と実体的な面に分けて考える方法。理法身は",
+          "context_position": 58957,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "いう。マンダラを頭に置いて理解する必要がある。 ＊理法身……法身を理論的な面と実体的な面に分けて考える方法。理法身は、法身を",
+          "context_position": 58961,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "理法身……法身を理論的な面と実体的な面に分けて考える方法。理法身は、法身を理論的な考えでとらえる探究方法。他方で智法身は、法",
+          "context_position": 58986,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "…法身を理論的な面と実体的な面に分けて考える方法。理法身は、法身を理論的な考えでとらえる探究方法。他方で智法身は、法身を人格",
+          "context_position": 58990,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "法。理法身は、法身を理論的な考えでとらえる探究方法。他方で智法身は、法身を人格的にとらえようとする考え方による。空海上人は、",
+          "context_position": 59013,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "身は、法身を理論的な考えでとらえる探究方法。他方で智法身は、法身を人格的にとらえようとする考え方による。空海上人は、大日如来",
+          "context_position": 59017,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "的にとらえようとする考え方による。空海上人は、大日如来を理智法身の境界と言っている。 第八住心の主張者 隋の天台山国清寺の智",
+          "context_position": 59052,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "て下さる変化身（いろいろにお姿を変えた仏身）なのです。当然に法身ではありません。 問う、このような一法界の道理、一道真如の真",
+          "context_position": 59579,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "性があるわけではありません。 また次に、諸仏の大慈悲は、真如法身からはたらきを起こして衆生を救って下さるのです。病に応じて薬",
+          "context_position": 66392,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "習（影響を与え指導）して一覚（一まとめのさとり）となし、一大法身の果（仏陀の法身）を荘厳するのです。このゆえに名づけて〈因薫",
+          "context_position": 66744,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "導）して一覚（一まとめのさとり）となし、一大法身の果（仏陀の法身）を荘厳するのです。このゆえに名づけて〈因薫習鏡〉というので",
+          "context_position": 66752,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "九種の住心は自性無し 転深転妙にして皆これ因なり 真言密教は法身の説 秘密金剛は最勝の真なり （これまでの九種の住心は、次々",
+          "context_position": 67547,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "心の因となっているのです。 しかしこの第十住心の真言密教は、法身大日如来の説であり、秘密金剛の教えで、最もすぐれた真実の生き",
+          "context_position": 67655,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": " すなわちこの三摩地というのは、よく諸仏の自性に達し、諸仏の法身を覚り、法界体性智を証すること、そして大毘盧遮那仏の自性身・",
+          "context_position": 72763,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "らこのゆえに「深妙」と言うのです。 次に第三句の「真言密教は法身の説」とはこの一句は真言密教の教主をあらわしています。極無自",
+          "context_position": 74928,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "という二つの秘蔵（秘密の蔵で真言密教を指す）は、これだけが、法身大日如来のお説きになった教えなのです。この大日如来が、自分の",
+          "context_position": 75039,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "きになった教えなのです。この大日如来が、自分の眷族である四種法身の仏・菩薩と共に、金剛法界宮および真言宮殿等に住して、自受法",
+          "context_position": 75078,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法界",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "宇宙の真実相。一切法の根本領域。",
+      "seed_sanskrit": "dharma-dhātu",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 54.98,
+      "freq_score": 16.98,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 25,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "。 次に華厳の教学を修めて、華厳宗の悟りの世界である事事無碍法界〔＊〕を観じ、初発心すれば直ちに究極の悟りに達するというよう",
+          "context_position": 2382,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "笑してその境地を承認したもうのです（第九住心）。 ＊事事無碍法界……現象界は互いに作用し合い交渉し合って、一と多が無尽に縁起",
+          "context_position": 2472,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "りの有であり、同時に他の一面に於ては空であり、これがそのまま法界の相である、と観察すれば、そこに縁起による中道〔＊〕の正しい",
+          "context_position": 16537,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の世界では、「一真」という楼台に昇ってゆったりと手を組み、「法界」という御殿に住んで泰らかに過ごすのです。 三大阿僧祇という",
+          "context_position": 46249,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "異るがいずれもまことに壮大な仏国土である。 第六住心の名前 法界のすべての生きとし生けるものを教化の対象とする住心ですから「",
+          "context_position": 47306,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "真如の理はことばにもあらわせず心でもとらえられないのですが、法界には遍満しているのです。これを知らずに生死の海に浮き沈み、も",
+          "context_position": 48067,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "道の初門」と名づけています。ここで仏道といっているのは、金剛法界宮の大曼荼羅の仏、すなわち真言密教の中心の仏を指すのです。諸",
+          "context_position": 58084,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "身）なのです。当然に法身ではありません。 問う、このような一法界の道理、一道真如の真理は、究竟の仏というべきでしょうか。 答",
+          "context_position": 59599,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "、『釈摩訶衍論』で竜猛菩薩は次のように説いています、「この一法界の心は、あらゆる否定によっても表現できないし、あらゆる肯定に",
+          "context_position": 59662,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "てくる巧歴のような、すぐれた暦法の達人でも、また『華厳経』入法界品に出てくる衆芸覚童子のような算術の達人でも、「心の仏」に向",
+          "context_position": 60399,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "立ってながめると、華蔵世界の全体を自分の家とみており、一切の法界を包み込んでこれを自分の国土と考えているのです。またこの経は",
+          "context_position": 62041,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "る世界がこの華厳の悟りの世界なのです。 さらにまた最後の「入法界品」においては、善財童子の求道の物語が説かれています。すなわ",
+          "context_position": 63121,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ば『華厳経』の大意は、その始めを原ね終りを要めますと、〈真如法界は自性を守らず、因縁に随う（常に変化している）〉という意味を",
+          "context_position": 63835,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "（西暦六四〇年寂）がこの法門を研究し、『華厳五教止観』『華厳法界観』などを著作され、その弟子の智儼師はこれを承けて弘め、その",
+          "context_position": 63945,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ころにしている、といいます。 この対照的な二人の竜王が結局一法界であり一つのものであるように、真如門（変らない世界）と生滅門",
+          "context_position": 64187,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "に、真如門（変らない世界）と生滅門（揺れ動く世界）とはこの一法界の峯に帰一するのです。 また『釈摩訶衍論』巻三に出ている輪多",
+          "context_position": 64232,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "とが互いに一体化してさまたげない縁起の様子をあらわしている。法界縁起がこれである。 第九住心の典拠（二） 『大日経』の住心品",
+          "context_position": 64770,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ぐれた真実の生きかたです） その教えは、五相成身観と五智と、法界体性と、四種曼荼羅と四智印等であって、この住心の中に陳べられ",
+          "context_position": 67709,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "世尊は、一切如来一体速疾力三昧という禅定に入って、自ら悟った法界体性三昧を説いて言いました。〈我本不生を覚り、語言の道を出過",
+          "context_position": 68279,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "えた境地を〈無覚了〉（覚るべき何物もないという境地）とも〈浄法界〉（清らかなる仏の世界）とも名づけます。あるいはまた〈実相般",
+          "context_position": 69318,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "えに、羯磨智と名づけるのです。中央の大日如来・毘盧遮那仏は、法界体性智を成ずるに由るもので、これを根本智といいます。四方の四",
+          "context_position": 69897,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "一切の諸賢聖を生み出し養育する母体です。ここにおいて印成する法界体性の中に四仏を出生するのです。 四方の如来にも各々四菩薩が",
+          "context_position": 70004,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "もしこの観智が次第に増ます増大してきますと、それがひろびろと法界に周ねく広がり、その量は虚空と等しくなります。そして巻くも舒",
+          "context_position": 71470,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の三摩地というのは、よく諸仏の自性に達し、諸仏の法身を覚り、法界体性智を証すること、そして大毘盧遮那仏の自性身・受用身・変化",
+          "context_position": 72769,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の大日如来が、自分の眷族である四種法身の仏・菩薩と共に、金剛法界宮および真言宮殿等に住して、自受法楽のゆえに演説された教えな",
+          "context_position": 75091,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "遮那",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "seed_sanskrit": "Vairocana",
+      "kaimyo_chars": [],
+      "kaimyo_score": 44.77,
+      "freq_score": 14.77,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 16,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "になっています。この受け止めかたを知っているのは、顕教の毘盧遮那仏です。 第九、極無自性心（華厳宗の心） 華厳宗の教理による",
+          "context_position": 5613,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "けるだけのことです」と。この道理を証する仏を〈浄寂光土の毘盧遮那仏〉と名づけるのです。法身大毘盧遮那仏ではないのです。 ＊金",
+          "context_position": 58641,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "する仏を〈浄寂光土の毘盧遮那仏〉と名づけるのです。法身大毘盧遮那仏ではないのです。 ＊金剛手菩薩（秘密主）……金剛手菩薩、金",
+          "context_position": 58659,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "光の仏土であり、この住心の仏は、言語による表現のできない毘盧遮那仏です。その仏は、身・心ともに滅して虚空と等同なのですが、応",
+          "context_position": 59470,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ややあらわれてきます。 華厳宗の宇宙観によれば、全宇宙を毘盧遮那仏の顕現であると考えます。そしてこれを「三種世間を融会した十",
+          "context_position": 61720,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "意 次に『華厳経』によってこの教えの大意を述べましょう。毘盧遮那仏は、はじめて菩提樹下に成道された時に、その第二・七日（第二",
+          "context_position": 61909,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "いるから）また華厳宗によれば、『華厳経』の内容はすべて、毘盧遮那仏が海印定（天上のものが七海の上にあらわれるようにこの定に入",
+          "context_position": 62157,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "らし、次第に低い山や平地を照していきます。それと同様に、毘盧遮那仏が悟られて『華厳経』を説かれた時も、まずはじめに山の頂きに",
+          "context_position": 62350,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "四千の法門のためのひかりであり、錠前なのです。唵字はこれ毘盧遮那の真身です。唵字はこれ、一切の陀羅尼の母なのです。一切の如来",
+          "context_position": 66109,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "た『大日経』（入曼荼羅品）にこう言っています、「その時に毘盧遮那世尊は、一切如来一体速疾力三昧という禅定に入って、自ら悟った",
+          "context_position": 68247,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "智なるがゆえに、羯磨智と名づけるのです。中央の大日如来・毘盧遮那仏は、法界体性智を成ずるに由るもので、これを根本智といいます",
+          "context_position": 69892,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "を証して、普賢の一切の行願を満足します。このゆえに、『大毘盧遮那経』成就悉地品にこう言っています、〈このような真実心は、前仏",
+          "context_position": 72230,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "達し、諸仏の法身を覚り、法界体性智を証すること、そして大毘盧遮那仏の自性身・受用身・変化身・等流身を成ずることなのです。行人",
+          "context_position": 72787,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "法を修さねばなりません。 第十住心の典拠 このゆえに『大毘盧遮那経』（大日経）にこう言っています、〈悉地は心より生ず〉と。 ",
+          "context_position": 72903,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "て本尊の身を成就することができるのです。 このゆえに『大毘盧遮那経』供養次第法にこう言っています、〈もし勢力の広く増益するこ",
+          "context_position": 73105,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ましょう。だから、『金剛頂経』にこう説いています、「この毘盧遮那の三摩地の法は、まだ灌頂の儀式を済ませていない者に対しては、",
+          "context_position": 74103,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "seed_sanskrit": "mahā-karuṇā",
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "kaimyo_score": 62.0,
+      "freq_score": 12.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ました、「仏教で罪を断ずる場合二種のやり方があります。一つは大悲の門で二つには大智の門です。大悲の門では、法を犯した者を寛大",
+          "context_position": 34199,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "種のやり方があります。一つは大悲の門で二つには大智の門です。大悲の門では、法を犯した者を寛大に扱って、罪を咎めることをゆるや",
+          "context_position": 34215,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "いているのは『涅槃経』や『薩遮尼乾子経』のような経典ですし、大悲の門は、『地蔵十輪経』などがそれに当ります。大悲の門では破戒",
+          "context_position": 34336,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "経典ですし、大悲の門は、『地蔵十輪経』などがそれに当ります。大悲の門では破戒の僧尼であっても寛大に扱います。出家得道し、これ",
+          "context_position": 34360,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ず慈悲の心に基いています。慈悲のうち、大慈は人々に楽を与え、大悲は人々の苦しみを抜くものです。そして、苦を抜き楽を与える根本",
+          "context_position": 36619,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "やめます。この住心の人は、平等を見る真実の智慧と、差別を見る大悲の働きとの二智によって、一如平等の理を見て、円満なさとりに到",
+          "context_position": 51011,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "、心と虚空界と菩提との三種は別なものではありません。これらは大悲を根本とし、方便波羅蜜が満足されるのです。この故に秘密主よ、",
+          "context_position": 57464,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "が無窮（妙えなるはたらきはきわまりない）なのです。この大智・大悲の心を具える者だけが、説法し、自らをも他をも、ともに利益する",
+          "context_position": 66614,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ためにしばられていて、その真相が見えないのです。そこで諸仏は大悲心の上から、善巧方便の智をもって、この甚深秘密瑜伽の観（はな",
+          "context_position": 69094,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "智慧",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "智",
+        "慧"
+      ],
+      "kaimyo_score": 41.45,
+      "freq_score": 11.45,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 8,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "実体は無いのだ、という見方）という無漏智（さとりの智慧）の火が生じますので、智を滅し、身心を焼き",
+          "context_position": 22170,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "二種の因があり二種の縁があります。不来智（自ら悟る智慧・根本智）の故であり、如来智（他を利益する智慧・後",
+          "context_position": 41721,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "自ら悟る智慧・根本智）の故であり、如来智（他を利益する智慧・後得智）の故であります。 また次に二種の因縁があ",
+          "context_position": 41742,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の中で開拓していきます。 煩悩障と所知障（さとりへの智慧を妨げる煩悩を煩悩障といい、さとりの正智が生ずるのをさまたげるのを所知障という）という二つの障りを断ち切って浄らかになれ",
+          "context_position": 47845,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "けます。あるいはまた〈実相般若波羅蜜海〉（すべての物の真の姿をつかむ智慧の境地）とも申します。 これこそ、種々の無量の宝",
+          "context_position": 69356,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "に配釈することができます。「開」は仏智見（仏の智慧を持った境地）を開くことであり、同時に菩提心を開くこと",
+          "context_position": 70907,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "が具足成就の第五、暗字であり、方便善巧智（すべてのことをうまくはこべる仏陀の智慧）を円満する義に当ります。 阿字観 阿字は",
+          "context_position": 71102,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "智の指（両手の親指）を入れ、如来の寂静智（きわめて静寂な心を得る仏の智慧）を自心の中に招き入れると観想しなさい。 ",
+          "context_position": 71256,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "仏陀",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 28.84,
+      "freq_score": 10.84,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "理の綱要を述べれば、まず経・律・論の三蔵（仏陀と、仏陀の説かれた教えと、その研究書）を広く学んで、苦・集・滅・道の四諦の法門",
+          "context_position": 19661,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "いは建立外道や声論外道などのインドの哲学（古代インドの仏陀時代におこなわれていた仏教以外の思想、宗教）を学ぶ者たちが近づけもせず、うかがい知る",
+          "context_position": 39904,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の説明によると、葉上〔＊〕の百億の応化仏（仏陀がさまざまな姿に身を変えてそれぞれの人々を導き助けてくださる。この姿をいう）は一様に六波羅蜜を実践して、人々を教化し",
+          "context_position": 47105,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "をおこなってみな悉く具足し、その後に仏果（仏陀のさとり）を証するのです。長い修行時間を要するのは",
+          "context_position": 48661,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "（一まとめのさとり）となし、一大法身の果（仏陀の法身）を荘厳するのです。このゆえに名づけて〈因",
+          "context_position": 66748,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "が具足成就の第五、暗字であり、方便善巧智（すべてのことをうまくはこべる仏陀の智慧）を円満する義に当ります。 阿字観 阿字は",
+          "context_position": 71102,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "出来ないために、いくつかの次第を経て仏位（仏陀の位）に入っていくのであります。 すなわちこの",
+          "context_position": 72714,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "修行",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 20.84,
+      "freq_score": 10.84,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "法。数息観や不浄観など）であり、四念処観（身・受・心・法の四つについて観察する小乗仏教の修行）などであって、これを六十劫にわたり、ある",
+          "context_position": 22030,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "家の信者の中で特に十善戒を持ち、六度の行（布施・持戒等の六波羅蜜の修行）を修めているもののことです。また出家者の",
+          "context_position": 37566,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "す。また次に二種の因縁があります。具足行（すべて漏れなく備わった修行）の故であり智慧解脱が現在前するの故であり",
+          "context_position": 41832,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "これが密教でいえば第二劫を超越する瑜祇行（密教の修行）なのです」と。 また『菩提心論』にはこう",
+          "context_position": 52792,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "処に同じく会している世界なのです。対治道（煩悩を断ずる段階の修行）を修行する者には、たとえ位の高い補処の菩",
+          "context_position": 58534,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "も汚れたるものも、六道の衆生や三乗の行位（修行とその成果）、および三世国土の成壊（生まれたり死んだ",
+          "context_position": 72104,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ではありません。 これに比べて、真言行人（真言密教の修行者）は、すでに人執と法執の二つの執着を破して",
+          "context_position": 72596,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "如来",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "如"
+      ],
+      "kaimyo_score": 28.14,
+      "freq_score": 10.14,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "生である地・水・火・風・空・識の六大の仏（大日如来のこと）〔＊〕に帰依し奉ります。また、大日如来が",
+          "context_position": 3887,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "いられる。 声聞乗の教理 そこで大覚世尊（大日如来）は羊車の教え（『法華経』で声聞乗を羊車に",
+          "context_position": 19524,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "廻転生してゆくばかりです。それゆえに大聖（大日如来）は羊車の教え（声聞乗・前出）をここに開示",
+          "context_position": 21936,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "心ともに滅して虚空と等同なのですが、応化（大日如来の本体ではなく、他のお姿に現じている仏身）の仏身ですから、類に従って影現され済度し",
+          "context_position": 59503,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "に帰してみれば、衆生の世界が即ち密厳国土（大日如来の仏国土）であります。この座を起たずしてそのまま、",
+          "context_position": 73323,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ゆえに、この世の人々を救済するために応化（本体である大日如来が種々の諸尊に身を変えて種々の人々を救済する、これを応化の仏身という）の身となられて出世された釈尊も、黙して、",
+          "context_position": 73941,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "三密",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "seed_sanskrit": "trīṇi guhyāni",
+      "kaimyo_chars": [
+        "密"
+      ],
+      "kaimyo_score": 46.39,
+      "freq_score": 8.39,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "す。 五相成身観 凡そ真言の瑜伽の観行を修習する人は、まさに三密の行を修し、五相成身の義を悟るべきであります。 初めに三密に",
+          "context_position": 71562,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "に三密の行を修し、五相成身の義を悟るべきであります。 初めに三密について述べますと、三密とは一には身密で、行者が手に印契を結",
+          "context_position": 71591,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "身の義を悟るべきであります。 初めに三密について述べますと、三密とは一には身密で、行者が手に印契を結び、聖衆をお招きするなど",
+          "context_position": 71603,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "）があるから成仏できない、と申しました。しかし今また五相とか三密など有相（目にみえる形）の方法を設けて三摩地の菩提心を修行さ",
+          "context_position": 72348,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "禅定",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 18.39,
+      "freq_score": 8.39,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "しみ）と知って憎み嫌い、世間を超えた等持（禅定）は極めて清涼なものと知って喜び願うのです",
+          "context_position": 21398,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "得しめます。いわく奢脱他すなわち心一境性（心を一所にとどめつづける性で禅定の一名称）の故であり、毘鉢舎那すなわち能く善巧（善",
+          "context_position": 41631,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "大師智顗師）はこの住心の教えによって止観（禅定と観法）を修して〈法華三昧（『法華経』の理による",
+          "context_position": 59110,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "厳経』の内容はすべて、毘盧遮那仏が海印定（天上のものが七海の上にあらわれるようにこの定に入る仏には一切の現象がはっきりと現われる、という禅定）に入り、これから出定して説かれたもの、と",
+          "context_position": 62164,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "菩薩",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 18.39,
+      "freq_score": 8.39,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "てその床座となって努力したこと、又同じ経（芽王菩薩本事品）に仏が前生に一切衆生憙見菩薩であった時、",
+          "context_position": 30680,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "経・律・論）という法令を定めて三根の有情（声聞・縁覚・菩薩）を教化（教え導く）しますし、十善戒（不殺",
+          "context_position": 46598,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ている者（縁覚定性）、菩薩に決っている者（菩薩定性）、いずれの聖者にもなり得る者（不定性）、",
+          "context_position": 46952,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "震動して破れ裂け、その地中から四唱の菩薩（『法華経』を唱道する四人の菩薩、その名は上行・無辺行・浄行・安立行）が無量無辺の菩薩にともなわれて出現し、仏",
+          "context_position": 54985,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "金剛",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "金",
+        "剛"
+      ],
+      "kaimyo_score": 33.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "に『大日経』住心品の中で大日如来は秘密主（金剛手菩薩・金剛薩埵）にこう告げられました、「秘密主よ、彼はこ",
+          "context_position": 51210,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "え『大日経』住心品の中で大日如来は秘密主（金剛薩埵）に告げてこう言っておられます。 「秘密主",
+          "context_position": 56557,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "宝珠",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "宝"
+      ],
+      "kaimyo_score": 23.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "その時代は天下が泰平になるといわれ、摩尼（宝珠）や金剛（ダイヤ）が出現すると、万物が望み",
+          "context_position": 24393,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "派な国王）が、最も大切に秘蔵している髻珠（かみのもっといに秘蔵している宝珠）を、特別に功労のあった臣下に与えるように",
+          "context_position": 55097,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "菩提",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 17.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "がなされ、『菩提心論』にいう「勝義無性」（勝義のすぐれた菩提心も常に向上していてとどまることなく、それ自体は無性である）という、如来の内密（心の奥）の教勅が示さ",
+          "context_position": 61289,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "に大覚円満の位を証することができます。 （以上、「菩提心論」） 問答の形式で第十住心を説明する 問う、",
+          "context_position": 73490,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "三昧",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 15.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "をあらわし、同時に諸仏をあらわしています（三昧耶曼荼羅）。 私たちすべての心身には、曼荼羅で示さ",
+          "context_position": 67889,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "す。三には意密で、行者が心を統一する瑜伽（三昧、さとりの心の状態）に住して、白浄・円満の月に相応する菩提心",
+          "context_position": 71735,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "仏法",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "仏",
+        "法"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "なものなのです。菩薩・声聞・天・竜・八部（仏法守護の八種の鬼神）など道を求めるものすべてがこれを信受して",
+          "context_position": 31361,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "寂静",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "寂",
+        "静"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "人あって、仏慧を求めて、 菩提心の三摩地（妄念をはなれて心を一ヶ所に集中し、寂静な心に置く）に通達すれば、 父母より生まれたこの肉身",
+          "context_position": 73415,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "正智",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "正",
+        "智"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の中で開拓していきます。 煩悩障と所知障（さとりへの智慧を妨げる煩悩を煩悩障といい、さとりの正智が生ずるのをさまたげるのを所知障という）という二つの障りを断ち切って浄らかになれ",
+          "context_position": 47845,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "真如",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "真",
+        "如"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "内容 第九住心においては、「真如の受薫」（真如縁起・華厳宗の教理）というすばらしい唱道がなされ、『菩提心論",
+          "context_position": 61246,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "真実",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "真",
+        "実"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "を遠離し、空は虚空に等しと知って、如実相（真実の姿）の智、生ず。すでに一切の暗を離れたり〉と",
+          "context_position": 68349,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "仏国",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "に帰してみれば、衆生の世界が即ち密厳国土（大日如来の仏国土）であります。この座を起たずしてそのまま、",
+          "context_position": 73323,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "常住",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "常"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "自性はすべて空であると観じますから、常見（霊魂は来世にも常住であるという辺見）に陥ることもありません。一面においては、",
+          "context_position": 16461,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "本来",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "本"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "持っているものであって、それが本有の薩埵（衆生がだれでも心の中に本来持っているほとけのこころ）なのです。それにもかかわらず一切衆生は、",
+          "context_position": 69008,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "浄行",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "浄"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "震動して破れ裂け、その地中から四唱の菩薩（『法華経』を唱道する四人の菩薩、その名は上行・無辺行・浄行・安立行）が無量無辺の菩薩にともなわれて出現し、仏",
+          "context_position": 54985,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "一乗",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 13.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "仰ぎ、仏に向って進むことを説く優れた仏教（一乗の教え）を、声聞・縁覚・菩薩以下の人々に説かれま",
+          "context_position": 53608,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "六波",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 13.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "家の信者の中で特に十善戒を持ち、六度の行（布施・持戒等の六波羅蜜の修行）を修めているもののことです。また出家者の",
+          "context_position": 37566,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "無縁慈悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "seed_sanskrit": "an-ārambaṇa-karuṇā",
+      "kaimyo_chars": [
+        "無",
+        "慈",
+        "悲"
+      ],
+      "kaimyo_score": 46.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "即身成仏",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "seed_sanskrit": "sa-deha-prāpti-buddhatva",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "智剣",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "seed_sanskrit": "jñāna-khaḍga",
+      "kaimyo_chars": [
+        "智"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "玄機",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "seed_sanskrit": "—",
+      "kaimyo_chars": [
+        "玄"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

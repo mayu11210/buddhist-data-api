@@ -39,7 +39,7 @@
       "citations": 9,
       "kukai_works": 9,
       "sanskrit": 9,
-      "kaimyo_jukugo": 1,
+      "kaimyo_jukugo": 9,
       "persons": 1,
       "places": 1
     }
@@ -132,6 +132,14 @@
           "total_occurrences": 1955,
           "with_diacritics_count": 1144,
           "ascii_only_count": 265
+        },
+        "kaimyo_jukugo": {
+          "file": "index_dainichikyo-sho-vol1_kaimyo.json",
+          "present": true,
+          "unique_terms": 70,
+          "total_occurrences": 1088,
+          "needs_review_count": 27,
+          "matched_jukugo_count": 64
         }
       }
     },
@@ -239,6 +247,14 @@
           "total_occurrences": 14,
           "with_diacritics_count": 5,
           "ascii_only_count": 2
+        },
+        "kaimyo_jukugo": {
+          "file": "index_hannya-hiken_kaimyo.json",
+          "present": true,
+          "unique_terms": 19,
+          "total_occurrences": 136,
+          "needs_review_count": 4,
+          "matched_jukugo_count": 13
         }
       }
     },
@@ -292,6 +308,14 @@
           "total_occurrences": 0,
           "with_diacritics_count": 0,
           "ascii_only_count": 0
+        },
+        "kaimyo_jukugo": {
+          "file": "index_hizo-houyaku_kaimyo.json",
+          "present": true,
+          "unique_terms": 32,
+          "total_occurrences": 236,
+          "needs_review_count": 20,
+          "matched_jukugo_count": 28
         }
       }
     },
@@ -424,6 +448,14 @@
           "total_occurrences": 0,
           "with_diacritics_count": 0,
           "ascii_only_count": 0
+        },
+        "kaimyo_jukugo": {
+          "file": "index_nikyo-ron_kaimyo.json",
+          "present": true,
+          "unique_terms": 36,
+          "total_occurrences": 310,
+          "needs_review_count": 21,
+          "matched_jukugo_count": 33
         }
       }
     },
@@ -501,6 +533,14 @@
           "total_occurrences": 0,
           "with_diacritics_count": 0,
           "ascii_only_count": 0
+        },
+        "kaimyo_jukugo": {
+          "file": "index_sankyo-shiki_kaimyo.json",
+          "present": true,
+          "unique_terms": 14,
+          "total_occurrences": 7,
+          "needs_review_count": 3,
+          "matched_jukugo_count": 5
         }
       }
     },
@@ -577,6 +617,14 @@
           "total_occurrences": 0,
           "with_diacritics_count": 0,
           "ascii_only_count": 0
+        },
+        "kaimyo_jukugo": {
+          "file": "index_shoji-jisso_kaimyo.json",
+          "present": true,
+          "unique_terms": 16,
+          "total_occurrences": 137,
+          "needs_review_count": 5,
+          "matched_jukugo_count": 12
         }
       }
     },
@@ -732,6 +780,14 @@
           "total_occurrences": 11,
           "with_diacritics_count": 1,
           "ascii_only_count": 8
+        },
+        "kaimyo_jukugo": {
+          "file": "index_sokushin-jobutsu_kaimyo.json",
+          "present": true,
+          "unique_terms": 22,
+          "total_occurrences": 333,
+          "needs_review_count": 9,
+          "matched_jukugo_count": 18
         }
       }
     },
@@ -795,6 +851,14 @@
           "total_occurrences": 37,
           "with_diacritics_count": 13,
           "ascii_only_count": 22
+        },
+        "kaimyo_jukugo": {
+          "file": "index_ujiji_kaimyo.json",
+          "present": true,
+          "unique_terms": 25,
+          "total_occurrences": 177,
+          "needs_review_count": 11,
+          "matched_jukugo_count": 20
         }
       }
     }
@@ -813,7 +877,7 @@
       "places": "Tier 3-6 地名"
     },
     "g2_status": {
-      "description": "G2-A（Tier 1: terms+citations+kukai_works）2026-05-03 完了 / G2-B（Tier 2-4: sanskrit）2026-05-04 完了",
+      "description": "G2-A（Tier 1: terms+citations+kukai_works）2026-05-03 完了 / G2-B（Tier 2-4: sanskrit）2026-05-04 完了 / G2-C（Tier 2-3: kaimyo_jukugo）2026-05-04 完了",
       "list_corpus_full_index": [
         "shoryoshu_miyasaka.json"
       ],
