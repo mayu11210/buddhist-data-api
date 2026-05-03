@@ -1,0 +1,1283 @@
+{
+  "schema_version": "1.0",
+  "category": "密教教学用語（mikkyo terms）",
+  "source_corpus": "ujiji.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "辞書ベース（19 語）+ 長語優先 substring 走査 + 周辺梵語注記抽出",
+  "dictionary_size": 19,
+  "gendaigoyaku_length": 21863,
+  "summary": {
+    "unique_terms": 19,
+    "total_occurrences": 170,
+    "kaimyo_suitable_count": 11,
+    "matched_term_count": 11
+  },
+  "entries": [
+    {
+      "term": "大日",
+      "term_kana": "",
+      "sanskrit": "Mahāvairocana",
+      "definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "日"
+      ],
+      "occurrence_count": 74,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "字はHetu（因）の最初の字ですから因の義をあらわします。『大日経疏』巻七の文に「梵には係嚩（Hetva）といいます。すなわ",
+          "context_position": 286,
+          "sanskrit_in_context": [
+            "Hetu",
+            "Hetva"
+          ]
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "体だともいえますし、つまりすべての存在の源といえるのです。『大日経疏』巻七にも「最初に口を開いて音を出せば、まず阿の声が出ま",
+          "context_position": 589,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "がそれぞれ別だからです。 先ず初めに訶字の実義を論じます。『大日経疏』巻七に「訶字の教理というのは、すべての物の生ずる原因は",
+          "context_position": 1341,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "訶字の実義ということです。 次に阿字の実義についてですが、『大日経疏』巻七に「三つの意味があります。不生の義、空の義、有の義",
+          "context_position": 2004,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "て説くのです。これがすなわち阿字の実義なのです」と。 また『大日経疏』巻七にこう言っています。「阿字を観想することによって一",
+          "context_position": 2500,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "ますし、自心の真実の内容を知ることができれば、この心こそ仏陀大日如来の一切智智と同一だといえるのです。そういうわけで大日如来",
+          "context_position": 3069,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "仏陀大日如来の一切智智と同一だといえるのです。そういうわけで大日如来はこの阿字という一字を大日如来の真言、種字とされているの",
+          "context_position": 3097,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "といえるのです。そういうわけで大日如来はこの阿字という一字を大日如来の真言、種字とされているのです。これに対して世間の一般の",
+          "context_position": 3112,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "込んでしまって、種々の苦しみを受けているのです。これに対して大日如来の智を備えた絵師は真実をすでに体得していますから、阿字本",
+          "context_position": 3399,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "ざまな悟りの義、思うがままになるという義、そして仏陀の法身（大日如来）の義があります」とあります。これらはみな阿字の実義であ",
+          "context_position": 3666,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "仏教の因果の理法を否定しますが、彼らがいかに否定しようとも、大日如来の身、口、意の三つの活動（三密）そのものであるこの虚空は",
+          "context_position": 4278,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "我説を主張していますが、人間の心の中に備わっている悟りの心（大日如来の心）は少しも変わらず、損じることもなく減じることもあり",
+          "context_position": 4462,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "棄てて、因縁生無自性の空の立場に立ってはいますが、これとても大日如来の身口意の三密の活動が変わらずに続けられていることにはま",
+          "context_position": 4658,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "よって生じたものを絶対のものだと勘ちがいしたりしたとしても、大日如来の三密の活動は少しも影響されることなく、それらによってこ",
+          "context_position": 4893,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "りすることなど絶対に不可能だと考えている人たちがおりますが、大日如来の三密はそのような考え方によって決して絶えたり減じたりす",
+          "context_position": 5132,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "であり、煩悩が尽きて汚れないから浄という）は汙字の実義です。大日如来の徳に相応するこれらの徳目は、損じたり減じたりすることが",
+          "context_position": 5780,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "った状態で、覚りなどいつになったら到達できましょうか。 いま大日如来の立場からこれを観れば、仏も衆生も差別なく、同じ悟りの床",
+          "context_position": 6697,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "ょう。 すべてのものは無から生じたものではなく根本的な存在（大日如来）のあらわれにすぎない（これを阿字本不生という）。だから",
+          "context_position": 6993,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "いうのはまさに仏陀釈尊のおさとりの境地であり、これはすなわち大日如来の法身そのもののお身体ということになるのです。 以上述べ",
+          "context_position": 9174,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": " 以上述べたことが汙字の実義であります（この旋陀羅尼門は、『大日経』具縁品より）。 ◇ この世の（三界、欲界、色界、無色界）",
+          "context_position": 9231,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "たり損じたりし続けているのですが、心の中に本来存在する仏性（大日如来と同一の悟り）の実在することを考えれば、少しも苦労ではな",
+          "context_position": 9596,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "月が存在しないと思ってしまうのです。私たちの心の中に存在する大日如来のさまざまな姿とその悟りもこれとまったく同じなのです。こ",
+          "context_position": 9772,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "なものです。間違った人々はこの様子を見て、人の心には本来から大日と同様の覚りの性質など無いのだと思ってしまうのです。愚かな人",
+          "context_position": 9959,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "大きな損害はありません。これに対してこの世に本来実在している大日如来の身心は、少しも動ずることなく、法界に遍満しておられる数",
+          "context_position": 10436,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "、少しも動ずることなく、法界に遍満しておられる数かぎりもない大日如来の応化身たる諸仏は各方面で人々を導いて正道に気づかせてく",
+          "context_position": 10474,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "する気持を殺し害してしまうのです。 これに対して本来実在する大日如来の活動は、太陽が天上にかかっているように、また大日如来の",
+          "context_position": 10949,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "在する大日如来の活動は、太陽が天上にかかっているように、また大日如来の智は、金が地中深くに埋まって動かないようなものです。い",
+          "context_position": 10976,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "。だからこうした真如空の教え（三論宗）を主張して、真言密教の大日如来についてはまったく気付かずにいるのです。しかし、その奥に",
+          "context_position": 11369,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "たく気付かずにいるのです。しかし、その奥に常住し遍在している大日如来の三身は、少しも損じたり欠けたりすることがないのです。汙",
+          "context_position": 11410,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "見失わせてしまうのです。といいましても、本来的に内在している大日如来にとっては、損ずることも無く減ずることもなく、まったく関",
+          "context_position": 11704,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "（山川国土）・智正覚世間（ほとけの世界）の三種世間はみなこれ大日如来の仏体なのですし、大曼荼羅（諸尊の全身が画かれる）・三昧",
+          "context_position": 12015,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "（諸尊の立体像で配置される）、以上の四種曼荼羅で示される中尊大日如来の姿こそ真実の仏身なのです。汙字の実義はまさにこのような",
+          "context_position": 12125,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "羅の諸尊をはじめとして数かぎりも無い多くの諸仏諸尊は、すべて大日如来の身を変えたお姿に違いないのですが、すべて私の宝なのです",
+          "context_position": 12517,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "燈の光は穴の数だけ無数に見えますが、もとの光は一つなのです。大日如来のお身体もお心も量ることの出来ないほどであり、そのお姿も",
+          "context_position": 12740,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "り、ひいては一人一人の人間の心にもつながっています。要するに大日如来と私たちは、互いに深く関係していまして、それは丁度、帝釈",
+          "context_position": 12876,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "鏡智、平等性智、妙観察智、成所作智、そして中央の法界体性智。大日如来をかこむ四仏は五智を表わし、その一体ずつが中心となってそ",
+          "context_position": 13067,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "して私たち一人一人にまで遍満する、と考える。真言密教における大日如来と私たちのかかわりを示す基本的な考え方）を具しているので",
+          "context_position": 13167,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "と私たちのかかわりを示す基本的な考え方）を具しているのです。大日如来と私たちの関係は別々であるようにも見えますが、実は異なる",
+          "context_position": 13201,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "は思えないのです。こういう不可思議な深い関係にありますから、大日如来と衆生とは一つであると言うこともできますが、この一如の一",
+          "context_position": 13292,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "は、如しの如ではなくて常に変わらないという意味の如なのです。大日と衆生とは同一といってもよいし、きわめて似ているといってもよ",
+          "context_position": 13402,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "す。 自性、受用、変化、等流というさまざまなお姿で出現される大日如来は、『法華経』の化城喩品で説かれるように、三千大千世界の",
+          "context_position": 13590,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "ように須弥山のような筆で書いてもとうてい書き尽くせないほど、大日如来の活動は量り知れないのです。このような大日のお身体と活動",
+          "context_position": 13699,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "くせないほど、大日如来の活動は量り知れないのです。このような大日のお身体と活動は、何事があろうとも少しもさまたげられずに本来",
+          "context_position": 13722,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "って一に人我、二に法我です。真言密教の立場からすれば、人とは大日如来の四種法身（自性、受用、変化、等流の四身がすべて法身だと",
+          "context_position": 13893,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "変化、等流の四身がすべて法身だとする密教独特の四身説で、法身大日が実在するという前提によってこうなる）であり、法とは一切諸法",
+          "context_position": 13939,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "いう前提によってこうなる）であり、法とは一切諸法のことです。大日のさとりの世界、一法界、一真如、一菩提から八万四千の法門、さ",
+          "context_position": 13977,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "を見せるこの世のすべてのものに及ぶのです。これらの法はすべて大日の四種法身のあらわれで、その法身の数も無量なのですが、もとを",
+          "context_position": 14055,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "あらわれで、その法身の数も無量なのですが、もとをただせば法身大日如来のお身体にほかならず、所詮は大日のあらわれに変わりは無く",
+          "context_position": 14093,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "すが、もとをただせば法身大日如来のお身体にほかならず、所詮は大日のあらわれに変わりは無く、此れとか彼れの区別は必要ないのです",
+          "context_position": 14111,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "といいます。 『仁王般若陀羅尼釈』（不空訳）では、「麼字とは大日の種子（諸尊を梵字一字で象徴的に表わす）です。一般の世間の人",
+          "context_position": 14490,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "着していますが、いまだその実体をつかんでいないのです。ただし大日如来だけは、無我の世界にあって大我（真実の自我）を体得されて",
+          "context_position": 14560,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "世界にあって大我（真実の自我）を体得されているのです。中心の大日如来がそうなのですから、周辺の諸仏諸尊、そして数え切れない多",
+          "context_position": 14601,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "仏諸尊、そして数え切れない多くの眷族、ひいては一切衆生まで、大日如来の大我の身を得ていない者は無いと言えるのです。これが表徳",
+          "context_position": 14649,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "この場合の化とは、さまざまの作用や動作を示すという意味です。大日如来は自ら悟りを受用するという自受用の力がありますから、種々",
+          "context_position": 14769,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "動能力を持つ不可思議な方という麼字の実義なのです。 また、『大日経』巻二、具縁品には、この麼字とは、いかなるものにでも象徴と",
+          "context_position": 14883,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "中国の唐では等持といいます。等とは平等、持とは摂持のことで、大日如来の活動や作用は、繊芥のような微細なところに入っていっても",
+          "context_position": 14992,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "けるのです。これを麼字の平等の実義というのです。   また『大日経疏』巻十にこういう説明があります。麼字の語尾変化をすると瞞",
+          "context_position": 15145,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "そろっています。これが麼字の円徳の実義です。 また、同じく『大日経疏』巻十にこう言っています。麼字に十一番目の母音を付けると",
+          "context_position": 15403,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "くされて、含まれないものは一つとしてないのです。そのゆえに『大日経疏』巻二十にこう説いています。われすなわち法界、われすなわ",
+          "context_position": 15767,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "いています。われすなわち法界、われすなわち法身、われすなわち大日如来、われすなわち金剛薩埵、われすなわち一切仏、われすなわち",
+          "context_position": 15809,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "りこの四つの身ですべての仏身を含ませて、その結果として吽字（大日如来の種字）にはすべての仏身が含まれていることを示しているの",
+          "context_position": 16411,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "人々は、この世における真言密教の密号とか名字のありさまとか、大日如来の真実語とか如義語を知らない者たちなのであって、彼らの用",
+          "context_position": 17744,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "的な深い意味を理解している人があればこの方は正遍知者（仏陀、大日如来）とお呼びします。経典に説かれる「発菩提心にすなわち正覚",
+          "context_position": 18183,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "じて理解するべきであります。 次に菩薩について申しますと、『大日経』や『金剛頂経』等の経典に、菩薩たるものは「菩提心を因とし",
+          "context_position": 19133,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "教理も含まれ尽くしていることについて述べてみましょう。まず『大日経』と『金剛頂経』に説かれている内容のすべては、先に触れた「",
+          "context_position": 19552,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "このようなことは一般的にはとうてい考えられないことで、まさに大日如来の不思議力のたまものであり、如来の本来所有されておられる",
+          "context_position": 19806,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "々の字門もまったく同様に考えるべきなのです。 吽字の義には『大日経疏』巻九に種々記述されておりますが、中に擁護の義とは、上に",
+          "context_position": 20013,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "が含まれており、すなわち大護の義であります」と。 また次に『大日経疏』にいう「自在能破（自由に打ち破る）」の義とは、上の空点",
+          "context_position": 20170,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "ていないのにたとえられます。これは高峯観所知の境界といって、大日如来が大力明妃の真言を説くために入住する三昧であります。中に",
+          "context_position": 20266,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "ようになるのです。吽字との一体化によって一切の仏法を体得し、大日如来の一切智智を具え、その究極の境地に至り、如来の台座に坐す",
+          "context_position": 21091,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "みがただちに消え去ってしまうようなものなのです。 また次に『大日経疏』巻九に次のような意味が説かれています。「大日如来はどう",
+          "context_position": 21287,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "また次に『大日経疏』巻九に次のような意味が説かれています。「大日如来はどういう方法で諸々の障りになるものを恐怖させ除くことが",
+          "context_position": 21312,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "る訶字は仏法を表わす旗です。この三昧と空点と旗とが合わさって大日如来が大力明妃の真言を説くために入住する高峯観三昧という境地",
+          "context_position": 21479,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "（如来と同一であることを観じて喜ぶ意）といいますが、これは『大日経疏』巻十に「吽字の中に訶字あり、これ歓喜の義です。上に空点",
+          "context_position": 21679,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "阿字",
+      "term_kana": "",
+      "sanskrit": "a-kāra",
+      "definition": "密教根本字。梵語五十字門の最初の字。本不生を象徴。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 28,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "字の意味が含まれていて、その四字とは、一には賀字の義、二には阿字の義、三には汙字の義、四には麼字の義なり、と説かれています。",
+          "context_position": 194,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "いうことが知れます。これが訶字の字相であります」と。  二に阿字の義とは、訶字の中にすでに阿の字が含まれていますように、阿字",
+          "context_position": 503,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "阿字の義とは、訶字の中にすでに阿の字が含まれていますように、阿字はすべての文字の母ともいえますし、すべての声の本体だともいえ",
+          "context_position": 533,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "阿は、すべての声の母となるのです」といっています。この故に、阿字を離れて一切の言説は無く、一切の諸法も空無であることが知れま",
+          "context_position": 689,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "切の言説は無く、一切の諸法も空無であることが知れます。これが阿字の字相であります。  三に汙字とは、損減（Ūna）の最初の文",
+          "context_position": 726,
+          "sanskrit_in_context": [
+            "Ūna"
+          ]
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "また法界であり、因縁によって生じたものもまた法界なのです。 阿字門を修して阿字から訶字に至る三十四字を順に観じてこのような結",
+          "context_position": 1763,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "、因縁によって生じたものもまた法界なのです。 阿字門を修して阿字から訶字に至る三十四字を順に観じてこのような結果を得るのです",
+          "context_position": 1770,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "じてこのような結果を得るのですが、訶字門を修して逆に訶字から阿字までの三十四字を観じても結局は同じ結論に達します。阿字は「本",
+          "context_position": 1817,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "字から阿字までの三十四字を観じても結局は同じ結論に達します。阿字は「本来生ぜず」という基本に立ちながら阿字が一切を生ずるので",
+          "context_position": 1844,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "じ結論に達します。阿字は「本来生ぜず」という基本に立ちながら阿字が一切を生ずるのです。訶字もまた「原因を持たない」という基本",
+          "context_position": 1865,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "言えると思います」と。以上が訶字の実義ということです。 次に阿字の実義についてですが、『大日経疏』巻七に「三つの意味がありま",
+          "context_position": 1990,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "「三つの意味があります。不生の義、空の義、有の義です。梵語の阿字などは本初という意味があり、もし本（最初）があるならば因縁に",
+          "context_position": 2042,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "々に理解し易いように、三種に分けて説くのです。これがすなわち阿字の実義なのです」と。 また『大日経疏』巻七にこう言っています",
+          "context_position": 2484,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "義なのです」と。 また『大日経疏』巻七にこう言っています。「阿字を観想することによって一切のものが本来的に生じたものではなく",
+          "context_position": 2518,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "しかもその名称は字によって示されます。したがって梵字の書体の阿字も他の字の母とするのです。他の字はすべて阿字が変化したものだ",
+          "context_position": 2627,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "って梵字の書体の阿字も他の字の母とするのです。他の字はすべて阿字が変化したものだからです。阿字を観想して真実を知る時も同じで",
+          "context_position": 2649,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "母とするのです。他の字はすべて阿字が変化したものだからです。阿字を観想して真実を知る時も同じです。阿字はすべての教えの中に行",
+          "context_position": 2664,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "化したものだからです。阿字を観想して真実を知る時も同じです。阿字はすべての教えの中に行きわたっているのです。つまり一切の教え",
+          "context_position": 2683,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "ていると同様に、すべてのものが生じていくのを見る時に、やはり阿字の存在をひとりでに見ていることになり、これを阿字本不生という",
+          "context_position": 2968,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "一切智智と同一だといえるのです。そういうわけで大日如来はこの阿字という一字を大日如来の真言、種字とされているのです。これに対",
+          "context_position": 3104,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "陀がこれを隠して秘密にしているわけではないのです」と。以上が阿字の実義であります。 また『守護国界主陀羅尼経』巻九には、「阿",
+          "context_position": 3547,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "字の実義であります。 また『守護国界主陀羅尼経』巻九には、「阿字とは菩提心（悟りに向かおうとする心）の義、さまざまな教えの義",
+          "context_position": 3578,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "陀の法身（大日如来）の義があります」とあります。これらはみな阿字の実義であります。また同じ経の巻二には、「その時に一切法自在",
+          "context_position": 3691,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "その時に一切法自在王菩薩摩訶薩という菩薩が仏陀に申し上げて（阿字の百義を説いて）おります」と。 第三に汙字の実義というのは、",
+          "context_position": 3744,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "とを示しているのです。 次にもう少し別の言いかたをしますと、阿字門には一切の真如（真理）、法界（さとりの世界）、法性（さとり",
+          "context_position": 16465,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "非ず、有に非ず、非常、非断、非一、非異などに執着する見方は、阿字の中の非の義（前出）の中に含まれるものであり、不生、不滅、不",
+          "context_position": 17507,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "、不生、不滅、不増、不減などのいわゆる八不に執着する見方は、阿字の中の不の義（前出）の中に含み尽くされております。さらにまた",
+          "context_position": 17561,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "また、無色、無形、無言、無説などと執着している見方は、これも阿字の中の無の義に含まれ尽くしているのです。そしてこれも真実の義",
+          "context_position": 17621,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法界",
+      "term_kana": "",
+      "sanskrit": "dharma-dhātu",
+      "definition": "宇宙の真実相。一切法の根本領域。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "界"
+      ],
+      "occurrence_count": 16,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "その心の実の姿は仏陀の一切種智です。そうなればすべてのものが法界なのです。法界とはすべてのものの本体となるものであって、これ",
+          "context_position": 1665,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "は仏陀の一切種智です。そうなればすべてのものが法界なのです。法界とはすべてのものの本体となるものであって、これは因とすること",
+          "context_position": 1672,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "これは因とすることはできません。こう考えてみますと、因もまた法界であり、縁もまた法界であり、因縁によって生じたものもまた法界",
+          "context_position": 1725,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "できません。こう考えてみますと、因もまた法界であり、縁もまた法界であり、因縁によって生じたものもまた法界なのです。 阿字門を",
+          "context_position": 1735,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "法界であり、縁もまた法界であり、因縁によって生じたものもまた法界なのです。 阿字門を修して阿字から訶字に至る三十四字を順に観",
+          "context_position": 1755,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "実をすでに体得していますから、阿字本不生という教えをさとって法界曼荼羅の境地に安住できるのです。こう考えてきますと、深い広い",
+          "context_position": 3443,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "も同様に施し無しということになります。 すべてのことについて法界（悟りの世界）は得られないものだという真実がdharmadh",
+          "context_position": 8083,
+          "sanskrit_in_context": [
+            "dharmadh"
+          ]
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "tuの頭字dhaの字義ですから、汙字の実義もまったく同様に無法界（法界なし）ということです。 すべてのものについて、第一義（",
+          "context_position": 8146,
+          "sanskrit_in_context": [
+            "dha"
+          ]
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "頭字dhaの字義ですから、汙字の実義もまったく同様に無法界（法界なし）ということです。 すべてのものについて、第一義（最高の",
+          "context_position": 8149,
+          "sanskrit_in_context": [
+            "dha"
+          ]
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "世に本来実在している大日如来の身心は、少しも動ずることなく、法界に遍満しておられる数かぎりもない大日如来の応化身たる諸仏は各",
+          "context_position": 10456,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "が五智（大円鏡智、平等性智、妙観察智、成所作智、そして中央の法界体性智。大日如来をかこむ四仏は五智を表わし、その一体ずつが中",
+          "context_position": 13061,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "ってそれぞれ四仏にかこまれ、この五智五仏の形は縦横に広がり、法界のすみずみまで、そして私たち一人一人にまで遍満する、と考える",
+          "context_position": 13126,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "てもとても画ききれない広さをもっておられますし、『華厳経』入法界品に説かれるように須弥山のような筆で書いてもとうてい書き尽く",
+          "context_position": 13661,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "る）であり、法とは一切諸法のことです。大日のさとりの世界、一法界、一真如、一菩提から八万四千の法門、さらにこまかい微塵の数ほ",
+          "context_position": 13988,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "そのゆえに『大日経疏』巻二十にこう説いています。われすなわち法界、われすなわち法身、われすなわち大日如来、われすなわち金剛薩",
+          "context_position": 15791,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "う少し別の言いかたをしますと、阿字門には一切の真如（真理）、法界（さとりの世界）、法性（さとりの性質）、実際の理などのすべて",
+          "context_position": 16480,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "密教",
+      "term_kana": "",
+      "sanskrit": "guhya-mantra-yāna",
+      "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 14,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "現代語訳 吽の一字を相（表面的な顕教的な意味）と義（より深い密教的な意味）との二つに分け、はじめに字相を、次に字義について解",
+          "context_position": 36,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "している、というのです。ですからいまここここで説いている真言密教の汙字の実義とはまったく異なっているのです。 『守護国界主陀",
+          "context_position": 5372,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "のです。だからこうした真如空の教え（三論宗）を主張して、真言密教の大日如来についてはまったく気付かずにいるのです。しかし、そ",
+          "context_position": 11366,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "することを主張しているがそれはそれでよいでしょう。しかし真言密教からすれば、有情世間・器世間（山川国土）・智正覚世間（ほとけ",
+          "context_position": 11969,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "広がっていることなど、彼らには理解できないのです。彼らは真言密教の奥深い見方を知ることができずに、それぞれの自分たちの小さい",
+          "context_position": 12372,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "ることに気づかないとは、まさに貧しさのきわみといえましょう。密教における両界曼荼羅の諸尊をはじめとして数かぎりも無い多くの諸",
+          "context_position": 12477,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "ずみまで、そして私たち一人一人にまで遍満する、と考える。真言密教における大日如来と私たちのかかわりを示す基本的な考え方）を具",
+          "context_position": 13161,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "、これが実義です。我に二種あって一に人我、二に法我です。真言密教の立場からすれば、人とは大日如来の四種法身（自性、受用、変化",
+          "context_position": 13879,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "の四種法身（自性、受用、変化、等流の四身がすべて法身だとする密教独特の四身説で、法身大日が実在するという前提によってこうなる",
+          "context_position": 13927,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "（大乗と小乗）・権実（劣った教えと真実の教え）・顕密（顕教と密教）の教えがもれなく含まれていますし、また汙字門には声聞・縁覚",
+          "context_position": 16582,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "方であります。これらの偏見を持った人々は、この世における真言密教の密号とか名字のありさまとか、大日如来の真実語とか如義語を知",
+          "context_position": 17727,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "いえるのです。あえていえば誤っているのです。最も奥の深い真言密教の教えを知らないからであります。 このゆえに竜猛菩薩は『大智",
+          "context_position": 17836,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "の世界にも衆生ありと説きます」と。  もしこうした吽字などの密教的な深い意味を理解している人があればこの方は正遍知者（仏陀、",
+          "context_position": 18151,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "、さらに申せば、顕教一乗といわれる天台宗・華厳宗、さらに真言密教の因・行・果もすべて含まれていることも三乗の人々の場合に准じ",
+          "context_position": 19444,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "真言",
+      "term_kana": "",
+      "sanskrit": "mantra",
+      "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "occurrence_count": 13,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "です。そういうわけで大日如来はこの阿字という一字を大日如来の真言、種字とされているのです。これに対して世間の一般の人々はすべ",
+          "context_position": 3117,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "損減している、というのです。ですからいまここここで説いている真言密教の汙字の実義とはまったく異なっているのです。 『守護国界",
+          "context_position": 5370,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "いるのです。だからこうした真如空の教え（三論宗）を主張して、真言密教の大日如来についてはまったく気付かずにいるのです。しかし",
+          "context_position": 11364,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "縁起することを主張しているがそれはそれでよいでしょう。しかし真言密教からすれば、有情世間・器世間（山川国土）・智正覚世間（ほ",
+          "context_position": 11967,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "数に広がっていることなど、彼らには理解できないのです。彼らは真言密教の奥深い見方を知ることができずに、それぞれの自分たちの小",
+          "context_position": 12370,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "すみずみまで、そして私たち一人一人にまで遍満する、と考える。真言密教における大日如来と私たちのかかわりを示す基本的な考え方）",
+          "context_position": 13159,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "いう、これが実義です。我に二種あって一に人我、二に法我です。真言密教の立場からすれば、人とは大日如来の四種法身（自性、受用、",
+          "context_position": 13877,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "ると瞞になります。これは妙徳菩薩（文珠菩薩）をあらわす一字の真言で、すべてのものをもれなく備えているという意味です。文珠菩薩",
+          "context_position": 15204,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "な見方であります。これらの偏見を持った人々は、この世における真言密教の密号とか名字のありさまとか、大日如来の真実語とか如義語",
+          "context_position": 17725,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "いといえるのです。あえていえば誤っているのです。最も奥の深い真言密教の教えを知らないからであります。 このゆえに竜猛菩薩は『",
+          "context_position": 17834,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "して、さらに申せば、顕教一乗といわれる天台宗・華厳宗、さらに真言密教の因・行・果もすべて含まれていることも三乗の人々の場合に",
+          "context_position": 19442,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "れます。これは高峯観所知の境界といって、大日如来が大力明妃の真言を説くために入住する三昧であります。中に訶字があり、これは菩",
+          "context_position": 20276,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "旗です。この三昧と空点と旗とが合わさって大日如来が大力明妃の真言を説くために入住する高峯観三昧という境地を表わします。また上",
+          "context_position": 21489,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法身",
+      "term_kana": "",
+      "sanskrit": "dharmakāya",
+      "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "身"
+      ],
+      "occurrence_count": 11,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "、さまざまな悟りの義、思うがままになるという義、そして仏陀の法身（大日如来）の義があります」とあります。これらはみな阿字の実",
+          "context_position": 3663,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "と心にうつる外界がうまくそろっていて不二である故に報といい、法身と智身が一体となっているところから報と名づけ、性質とすがたが",
+          "context_position": 5564,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "さに仏陀釈尊のおさとりの境地であり、これはすなわち大日如来の法身そのもののお身体ということになるのです。 以上述べたことが汙",
+          "context_position": 9179,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "二に法我です。真言密教の立場からすれば、人とは大日如来の四種法身（自性、受用、変化、等流の四身がすべて法身だとする密教独特の",
+          "context_position": 13900,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "とは大日如来の四種法身（自性、受用、変化、等流の四身がすべて法身だとする密教独特の四身説で、法身大日が実在するという前提によ",
+          "context_position": 13921,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "用、変化、等流の四身がすべて法身だとする密教独特の四身説で、法身大日が実在するという前提によってこうなる）であり、法とは一切",
+          "context_position": 13937,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "の世のすべてのものに及ぶのです。これらの法はすべて大日の四種法身のあらわれで、その法身の数も無量なのですが、もとをただせば法",
+          "context_position": 14060,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "ぶのです。これらの法はすべて大日の四種法身のあらわれで、その法身の数も無量なのですが、もとをただせば法身大日如来のお身体にほ",
+          "context_position": 14071,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "身のあらわれで、その法身の数も無量なのですが、もとをただせば法身大日如来のお身体にほかならず、所詮は大日のあらわれに変わりは",
+          "context_position": 14091,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "疏』巻二十にこう説いています。われすなわち法界、われすなわち法身、われすなわち大日如来、われすなわち金剛薩埵、われすなわち一",
+          "context_position": 15800,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "しますが吽字は阿訶汙麼の四字でできていますが、そのうちの阿は法身の義、訶は報身の義、汙は応身の義、麼は化身の義といえます。こ",
+          "context_position": 16287,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三密",
+      "term_kana": "",
+      "sanskrit": "trīṇi guhyāni",
+      "definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "密"
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "らがいかに否定しようとも、大日如来の身、口、意の三つの活動（三密）そのものであるこの虚空は、少しも変わることなく静かな状態で",
+          "context_position": 4295,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "性の空の立場に立ってはいますが、これとても大日如来の身口意の三密の活動が変わらずに続けられていることにはまったくかかわりが無",
+          "context_position": 4667,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "たものを絶対のものだと勘ちがいしたりしたとしても、大日如来の三密の活動は少しも影響されることなく、それらによってこわされたり",
+          "context_position": 4898,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "など絶対に不可能だと考えている人たちがおりますが、大日如来の三密はそのような考え方によって決して絶えたり減じたりするものでは",
+          "context_position": 5137,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "阿字本不生",
+      "term_kana": "",
+      "sanskrit": "ā-di-an-utpāda",
+      "definition": "密教根本教義。阿字（a-kāra）が本来不生（不滅）であることを観じ、万物の本源を悟る。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "時に、やはり阿字の存在をひとりでに見ていることになり、これを阿字本不生というのです。このように阿字本不生の実体を見るものは、真実の",
+          "context_position": 2992,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "見ていることになり、これを阿字本不生というのです。このように阿字本不生の実体を見るものは、真実の自分の心を知ることになりますし、自",
+          "context_position": 3009,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "て大日如来の智を備えた絵師は真実をすでに体得していますから、阿字本不生という教えをさとって法界曼荼羅の境地に安住できるのです。こう",
+          "context_position": 3428,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "ではなく根本的な存在（大日如来）のあらわれにすぎない（これを阿字本不生という）。だから汙字門も同様に損じたり減じたりするわけではな",
+          "context_position": 7012,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大空三昧",
+      "term_kana": "",
+      "sanskrit": "mahā-śūnyatā-samādhi",
+      "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "に訶字があり、これは因の義です。「この虚空蔵菩薩のお心である大空三昧の中には、真実の因の種字が含まれており、すなわち大護の義であ",
+          "context_position": 20124,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "の訶字は風大に相当しますから自在力を意味します。こうして佉字大空三昧と訶字自在力と二字合わせて、戦場において大将が敵を破ると同じ",
+          "context_position": 20356,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "あり菩提心（さとりに向かう心）の宝であり佉字門の虚空蔵菩薩の大空三昧（前出）と一緒になって摩尼宝珠（意のままに望むものを与えてく",
+          "context_position": 20473,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大悲",
+      "term_kana": "",
+      "sanskrit": "mahā-karuṇā",
+      "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "』や『金剛頂経』等の経典に、菩薩たるものは「菩提心を因とし、大悲を根とし、方便を究竟とする」と説かれてありますが、元来、吽字",
+          "context_position": 19166,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "』に説かれている内容のすべては、先に触れた「菩提心を因とし、大悲を根とし、方便を究竟となす」という、いわゆる三句の法門に代表",
+          "context_position": 19592,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三摩地",
+      "term_kana": "",
+      "sanskrit": "samādhi",
+      "definition": "禅定。心を一境に住して散乱を離れた状態。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "。もし四魔（蘊魔、煩悩魔、死魔、天魔）が現われても如来の大慈三摩地（大いなる慈悲の心境地）に入り、四魔等を恐れさせ服従させるこ",
+          "context_position": 21160,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "即身",
+      "term_kana": "",
+      "sanskrit": "sa-deha",
+      "definition": "即身成仏の略。父母所生の身のまま現生で仏となる。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "即身成仏",
+      "term_kana": "",
+      "sanskrit": "sa-deha-prāpti-buddhatva",
+      "definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "成",
+        "仏"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "心王",
+      "term_kana": "",
+      "sanskrit": "citta-rāja",
+      "definition": "八識の根本識。心の主体・統括者。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "智剣",
+      "term_kana": "",
+      "sanskrit": "jñāna-khaḍga",
+      "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "智",
+        "剣"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "本不生",
+      "term_kana": "",
+      "sanskrit": "ādyanutpāda",
+      "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "無縁慈悲",
+      "term_kana": "",
+      "sanskrit": "an-ārambaṇa-karuṇā",
+      "definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "慈",
+        "悲"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "玄機",
+      "term_kana": "",
+      "sanskrit": "—",
+      "definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "玄",
+        "機"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "遮那",
+      "term_kana": "",
+      "sanskrit": "Vairocana",
+      "definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "遮",
+        "那"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

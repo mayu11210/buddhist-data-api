@@ -1,7 +1,7 @@
 # 横断索引化フェーズ B 設計書（cross_index_spec.md）
 
 作成日：2026-04-27（フェーズ B 着手セッション）
-版：**v1.4（kaimyo-app 連携 API 設計編・候補 D 着手）**
+版：**v1.5（G2 dict 型 8 著作 Tier 1 索引化完了）**
 
 更新履歴：
 - 2026-04-27 v0.1 ドラフト作成 + 典故書名パイロット抽出（256 種・1187 件）
@@ -10,6 +10,7 @@
 - 2026-04-27 v1.2 昇格：Tier 2-3 戒名向け熟語抽出完了（111 種・1971 件・起点 1 シード 11 + 起点 2 梵語漢訳 32 + 起点 3 補注ホワイトリスト 68・人手レビュー要 51 件マーカー）
 - 2026-04-27 v1.3 昇格：Tier 3-5 人名抽出（81 種・1,197 件・9 分類・109/112 篇）+ Tier 3-6 地名抽出（70 種・466 件・18 分類・92/112 篇）完了
 - 2026-04-27 v1.4 昇格：kaimyo-app 連携 API 設計編（§13 追加）。7 索引上に統合 API レイヤを設計、CHARACTERISTIC_TO_ICHIJI / THEME_EXPANSION / 共起ロジックを確定（候補 D 第 1 セッション）
+- 2026-05-03 v1.5 昇格：**G2 着手**。dict 型 8 著作（弁顕密二教論・吽字義・声字実相義・即身成仏義・般若心経秘鍵・秘蔵宝鑰・大日経疏巻第一・三教指帰）に Tier 1（terms + citations + kukai_works）を展開。`extract_terms_dict.py` / `extract_citations_dict.py` 新設・著作別 7 索引方針確定（§14 追加）
 
 ---
 
@@ -1345,3 +1346,159 @@ preprocessing (起動時 1 回):
 | OpenAPI yaml + デプロイ | ⏭️ v1.9 |
 
 候補 D 全体（3〜5 セッション見積→ 仕様分が予想より厚いため 5〜6 セッションに修正）：本セッションが第 1 セッションとして完了。
+
+---
+
+## 14. G2 dict 型 8 著作 Tier 1 索引化（v1.5・2026-05-03）
+
+設計方針メモ `kaimyo-app/設計方針メモ_2026-05-03_真言宗教えデータ整理_buddhist-data-api倉庫設計.md` のフェーズ 2 候補 G2「17 著作横断索引化」の第 1 弾。**性霊集（list 型）**だけだった索引基盤を **dict 型 8 著作**にも展開し、横断検索の対象を 1 → 9 著作に拡張した。
+
+### 14.1 着手判断（2026-05-03 ケンシン決定）
+
+3 つの設計判断：
+
+| 判断軸 | 採用案 | 棄却案 |
+|---|---|---|
+| 索引構成 | **著作別 7 索引（同パターン拡張）** | 全著作統合 1 本／ハイブリッド |
+| 着手スコープ | **Tier 1 から 8 著作分**（terms + citations + kukai_works） | 1 著作で 7 索引フルセット／全 8×7 一気 |
+| 抽出フィールド | **gendaigoyaku のみ**（性霊集と統一） | gendaigoyaku + kakikudashi／全 3 フィールド |
+
+著作別 7 索引方針により、`index_<corpus_id>_<category>.json` 命名で各著作ごとに索引が完結する。横断検索が必要になったら集約ファイル（`index_<category>_all.json` 等）を別途作成する余地を残す。
+
+### 14.2 dict 型コーパスの索引化仕様
+
+性霊集（list 型・112 篇分割）と異なり、dict 型コーパス（弁顕密二教論等）は **トップレベル `gendaigoyaku` 単一文字列**を持つ。索引化仕様：
+
+| 項目 | list 型（性霊集） | dict 型（弁顕密二教論等） |
+|---|---|---|
+| 抽出ソース | `entry.ページ[].gendaigoyaku` | `top.gendaigoyaku` |
+| 位置キー | `shoryoshu_idx` + `篇名` + `巻` + `page_idx` + `context_position` | `corpus_id` + `context_position` |
+| 篇分布 | あり（`篇分布: [int]`） | なし（単一連続テキスト） |
+| 篇境界 | 112 entries | なし |
+| summary | `covered_shoryoshu_idx_count` | `gendaigoyaku_length` |
+
+dict 型 occurrences の例：
+
+```json
+{
+  "corpus_id": "nikyo-ron",
+  "context": "...仏陀を法身、応身、化身の三身とするうち、応身、化身が説かれる...",
+  "context_position": 122,
+  "sanskrit_in_context": []
+}
+```
+
+### 14.3 新設スクリプト
+
+- `_dev_references/extract_terms_dict.py`（dict 型 19 語密教教学用語抽出・extract_terms.py の dict 版）
+- `_dev_references/extract_citations_dict.py`（dict 型 典故書名抽出・extract_citations.py の dict 版）
+
+両スクリプトとも `--corpus <filename>` または `--corpus all` で実行。19 語辞書・CANONICAL_MAP・除外辞書・KUKAI_WORKS 分類は性霊集版と完全互換（コードレベルで同一定義をコピー）。
+
+### 14.4 G2 第 1 弾の生成結果（2026-05-03）
+
+#### 14.4.1 terms（密教教学用語）
+
+| 著作 | gendaigoyaku 字数 | 一致語数 / 19 | 延べ件数 | 上位 3 |
+|---|---|---|---|---|
+| nikyo-ron（弁顕密二教論）| 38,816 | 11 | 360 | 法身=101 / 密教=92 / 大日=60 |
+| ujiji（吽字義）| 21,863 | 11 | 170 | 大日=74 / 阿字=28 / 法界=16 |
+| shoji-jisso（声字実相義）| 14,087 | 10 | 136 | 大日=72 / 法身=24 / 真言=16 |
+| sokushin-jobutsu（即身成仏義）| 20,298 | 14 | 361 | 大日=153 / 法身=54 / 密教=42 |
+| hannya-hiken（般若心経秘鍵）| 14,186 | 7 | 105 | 密教=40 / 真言=30 / 大日=23 |
+| hizo-houyaku（秘蔵宝鑰）| 75,246 | 13 | 257 | 大日=62 / 真言=40 / 密教=36 |
+| dainichikyo-sho-vol1（大日経疏巻第一）| 101,714 | 14 | 286 | 真言=58 / 遮那=42 / 大悲=38 |
+| sankyo-shiki（三教指帰）| 44,863 | 2 | 3 | 真言=2 / 法身=1 |
+| **合計** | **331,073** | - | **1,678** | - |
+
+意味的妥当性確認：
+- **三教指帰**は空海 24 歳の儒道仏比較作で、密教教学用語が極端に少ない（真言=2・法身=1 のみ）のは妥当
+- **即身成仏義**で大日=153・法身=54 が突出（中心教義の本拠）
+- **大日経疏**で真言=58・遮那=42 が首位（『大日経』疏としての性格）
+- **般若心経秘鍵**で密教=40 が首位（密教観点からの心経解釈）
+
+#### 14.4.2 citations（典故書名・他者著作）
+
+| 著作 | citations 異なり | 延べ件数 | 上位 3 |
+|---|---|---|---|
+| nikyo-ron | 51 | 142 | 大智度論=13 / 楞伽経=12 / 釈摩訶衍論=10 |
+| ujiji | 14 | 37 | 大日経疏=12 / 大日経=4 / 守護国界主陀羅尼経=3 |
+| shoji-jisso | 12 | 27 | 大日経=12 / 大日経疏=2 / 瑜伽師地論=2 |
+| sokushin-jobutsu | 17 | 44 | 大日経=21 / 金剛頂経=5 / 毘盧遮那三摩地法=3 |
+| hannya-hiken | 14 | 45 | 般若心経=21 / 大般若経=4 / 大日経疏=3 |
+| hizo-houyaku | 57 | 139 | 大日経=26 / 法華経=24 / 釈摩訶衍論=10 |
+| dainichikyo-sho-vol1 | 106 | 179 | 大智度論=25 / 大日経=11 / 法華経=6 |
+| sankyo-shiki | 21 | 35 | 詩経=7 / 礼記=4 / 法華経=3 |
+| **合計** | - | **648** | - |
+
+意味的妥当性確認：
+- **三教指帰**で漢籍（詩経・礼記・易経・書経）が首位 → 儒道仏比較作の性格と整合
+- **般若心経秘鍵**で『般若心経』本体が 21 件首位 → 心経の註釈書としての性格と整合
+- **大日経疏**は 106 種で最多典故 → 注釈書として網羅的引用の特性
+
+#### 14.4.3 kukai_works（空海著作・性霊集編纂物）
+
+| 著作 | 異なり | 延べ件数 | 内訳 |
+|---|---|---|---|
+| nikyo-ron | 3 | 8 | 菩提心論=5 / 秘蔵宝鑰=2 / 弁顕密二教論=1 |
+| ujiji | 0 | 0 | — |
+| shoji-jisso | 1 | 2 | 即身成仏義=2 |
+| sokushin-jobutsu | 2 | 5 | 菩提心論=4 / 弁顕密二教論=1 |
+| hannya-hiken | 1 | 1 | 菩提心論=1 |
+| hizo-houyaku | 2 | 19 | 菩提心論=14 / 十住心論=5 |
+| dainichikyo-sho-vol1 | 3 | 11 | 即身成仏義=5 / 弁顕密二教論=3 / 般若心経秘鍵=3 |
+| sankyo-shiki | 1 | 1 | 三教指帰=1 |
+
+extract_citations_dict.py で KUKAI_WORKS 分類辞書を性霊集版から拡張：弁顕密二教論・吽字義・即身成仏義・声字実相義・般若心経秘鍵・秘蔵宝鑰・十住心論・三教指帰・聾瞽指帰・御請来目録・性霊集・遍照発揮性霊集・菩提心論を追加（各「空海著作」または「空海関連」タグ付き）。
+
+### 14.5 横断検索の現状
+
+`_corpus_manifest.json` の `summary.indexed_corpora` ブロックで横断対応状況を一元管理：
+
+```
+indexed_corpora:
+  terms:         9 / 10 primary_corpus（菩提心論除く）
+  citations:     9 / 10
+  kukai_works:   9 / 10
+  sanskrit:      1 / 10（性霊集のみ・Tier 2-4）
+  kaimyo_jukugo: 1 / 10（性霊集のみ・Tier 2-3）
+  persons:       1 / 10（性霊集のみ・Tier 3-5）
+  places:        1 / 10（性霊集のみ・Tier 3-6）
+```
+
+**Tier 1 全 9 著作完成。Tier 2-3 は性霊集のみ。**
+
+### 14.6 残作業（G2 後続）
+
+| サブステップ | 内容 | 工数 |
+|---|---|---|
+| ✅ G2-A | dict 型 8 著作の Tier 1 索引（terms + citations + kukai_works） | 1 セッション（本セッション） |
+| ⏭️ G2-B | dict 型 8 著作の Tier 2-4 sanskrit 抽出（extract_sanskrit_dict.py 新設） | 1〜2 セッション |
+| ⏭️ G2-C | dict 型 8 著作の Tier 2-3 kaimyo_jukugo 抽出（extract_kaimyo_jukugo_dict.py 新設） | 1〜2 セッション |
+| ⏭️ G2-D | dict 型 8 著作の Tier 3-5/6 persons / places 抽出（extract_persons_dict.py / extract_places_dict.py 新設） | 1〜2 セッション |
+| ⏭️ G2-E | 横断集約ファイル（index_<category>_all.json）生成スクリプト | 0.5 セッション |
+| ⏭️ G2-F | 菩提心論の gendaigoyaku 取込後に再索引化 | 0.5 セッション |
+
+### 14.7 v1.5 完成度評価
+
+- ✅ **dict 型コーパスの索引化フローを確立**：トップレベル gendaigoyaku から occurrence を抽出し `corpus_id` + `context_position` で位置特定
+- ✅ **著作別 7 索引方針**：`index_<corpus>_<category>.json` 命名規則で 9 著作 × 最大 7 カテゴリの索引体系を確立
+- ✅ **24 索引ファイル新設**（8 著作 × 3 カテゴリ・合計 940 KB）：合計 1,678 件の terms + 648 件の citations + 47 件の kukai_works を索引化
+- ✅ **manifest 統合**：`_corpus_manifest.json` の各 file entry に `index_status` ブロック追加・`summary.indexed_corpora` で全体可視化
+- ✅ **NULL バイト 0 件・JSON 整合性 OK**（全 24 ファイル）
+- ⏭️ 次セッション（G2-B 以降）：sanskrit / kaimyo_jukugo / persons / places の dict 型版抽出スクリプトを順次実装
+
+### 14.8 設計方針メモとの対応
+
+`kaimyo-app/設計方針メモ_2026-05-03_真言宗教えデータ整理_buddhist-data-api倉庫設計.md` のフェーズ 2 G2 進捗：
+
+```
+G1 ✅ L1 スキーマ統一（2026-05-03 commit c1e9494・案 A 既存破壊なし）
+G2 🟡 L1 横断索引化
+    G2-A ✅ Tier 1 dict 8 著作（本セッション）
+    G2-B〜F ⏭️ Tier 2-4 段階展開
+G3 ⏭️ 未着手 8 著作のロードマップ
+G4 ⏭️ L2 字索引の新設
+G5 ⏭️ L3 by_* 汎用 endpoint の整備
+G6 ⏭️ kaimyo-app 暫定ハードコード 3 種の置き換え API
+```

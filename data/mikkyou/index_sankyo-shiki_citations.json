@@ -1,0 +1,376 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "sankyo-shiki.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 44863,
+  "summary": {
+    "unique_terms": 21,
+    "total_occurrences": 35
+  },
+  "entries": [
+    {
+      "term": "詩経",
+      "aliases": [],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ち）の説も、老子の著わした『道徳経』も、周時代までの詩である『詩経』も、楚の国の文章を集めた『楚辞』も、これら古典はいずれも、先",
+          "context_position": 192,
+          "raw_form": "詩経"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "が立派で背の高い人物です。中国の代表的な古典『易経』『書経』『詩経』『春秋』『礼記』等の九つの書物、あるいは八卦の説などをすべて",
+          "context_position": 2198,
+          "raw_form": "詩経"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "、水中の鴛鴦も雌雄一組でいることを喜ぶといいます。このゆえに『詩経』にも「標つるもの、梅あり、その実七つぶ」の詩をのせて、落ちて",
+          "context_position": 11470,
+          "raw_form": "詩経"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "るといいますが、いまの二人はそれ以上に固く結ばれています。 『詩経』に「東方に鰈という魚がいて、雌雄で比ばなければ泳がない」と記",
+          "context_position": 12138,
+          "raw_form": "詩経"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "いゆく睦まじさについても二人は十分に身についていますし、同じ『詩経』に「南方に鶼という比翼の鳥がいて、雌雄で比ばなければ飛ばない",
+          "context_position": 12216,
+          "raw_form": "詩経"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "れませんし、その恩はどんなに返そうとしても返し切れません。 『詩経』には「南」という詩（いま題名のみ残る）があって孝子が互いに戒",
+          "context_position": 24657,
+          "raw_form": "詩経"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "能あるふりをして仕える姦りの行動は 甚だ正直ではありません 『詩経』の雅頌に詠われる美しい風習の教えは 周の国の昔語りに過ぎませ",
+          "context_position": 25690,
+          "raw_form": "詩経"
+        }
+      ]
+    },
+    {
+      "term": "礼記",
+      "aliases": [],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "人物です。中国の代表的な古典『易経』『書経』『詩経』『春秋』『礼記』等の九つの書物、あるいは八卦の説などをすべて記憶しているほど",
+          "context_position": 2206,
+          "raw_form": "礼記"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "の生涯とまったく同じで、ただ空しい人生ではないでしょうか。 『礼記』にこう書かれています。「父母に病ある時は冠者（元服を終えた男",
+          "context_position": 7183,
+          "raw_form": "礼記"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "う気持が強くてそういうことができないというのです。また同じく『礼記』にこうもいっております。「隣に喪（不幸）あるときは臼つくに相",
+          "context_position": 7348,
+          "raw_form": "礼記"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "をさらさらと書きあげて提示しました。 「私の聞くところでは、『礼記』に、小孝は力を用い、大孝は匱しからず、とあります。小孝とは労",
+          "context_position": 25965,
+          "raw_form": "礼記"
+        }
+      ]
+    },
+    {
+      "term": "法華経",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "念処〉という輪に乗って、俗界を高く乗りこえて進みましょう。 『法華経』に髻中の明珠というたとえがあります。全世界を征服し統治する聖",
+          "context_position": 40214,
+          "raw_form": "法華経"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "けにこれを授けたといいます。仏陀もまた、この髻中の珠にあたる『法華経』をいまここに説かれ、かつ舎利弗に向って、あなたは未来に必ず成",
+          "context_position": 40317,
+          "raw_form": "法華経"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "実の教えを開示され、成仏の予言を与えられるに違いありません。『法華経』にはまた、竜女成仏のことが説かれています。仏陀の説法の会座に",
+          "context_position": 40471,
+          "raw_form": "法華経"
+        }
+      ]
+    },
+    {
+      "term": "易経",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "やか、その上容貌が立派で背の高い人物です。中国の代表的な古典『易経』『書経』『詩経』『春秋』『礼記』等の九つの書物、あるいは八卦",
+          "context_position": 2190,
+          "raw_form": "易経"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ょう。昔、漢の元帝の時に五鹿充宗という学者がいて、帝の御前で『易経』について論議することになりましたが、五鹿は帝に気に入られてお",
+          "context_position": 9773,
+          "raw_form": "易経"
+        }
+      ]
+    },
+    {
+      "term": "書経",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "の上容貌が立派で背の高い人物です。中国の代表的な古典『易経』『書経』『詩経』『春秋』『礼記』等の九つの書物、あるいは八卦の説など",
+          "context_position": 2194,
+          "raw_form": "書経"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "なくなるのに興じて婚期が遅れた女性の心を詠っていますし、また『書経』にも尭帝が二人の娘を臣下の舜に嫁がせ二人の娘は幸せに人生を全",
+          "context_position": 11543,
+          "raw_form": "書経"
+        }
+      ]
+    },
+    {
+      "term": "荘子",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "人になったと伝えられる王子喬を探したずねては仲間になる。また『荘子』に誌されているあの鵬の天上のすみかを観てまわったり、淮南王が",
+          "context_position": 18838,
+          "raw_form": "荘子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "すと一日中、一晩中、心は焼けこげ、肝の爛れる思いなのです。 『荘子』の中に、荘周が、水たまりに喘いでいる鮒と対話する話があります",
+          "context_position": 24867,
+          "raw_form": "荘子"
+        }
+      ]
+    },
+    {
+      "term": "列仙伝",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "考えてみれば、宋玉の夢の話と異なるところがありません。 また『列仙伝』には、鄭交甫がある時に二人の神女に出遇い、神女の帯につけてい",
+          "context_position": 33736,
+          "raw_form": "列仙伝"
+        }
+      ]
+    },
+    {
+      "term": "史記",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "上る前に私は死んで魚屋の店頭に並べられてしまいます、と。また『史記』に、呉の季札の話があります。季札は徐の国王に剣を贈ろうと心に",
+          "context_position": 25035,
+          "raw_form": "史記"
+        }
+      ]
+    },
+    {
+      "term": "四食経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ておりました。それを見て乞児は思いました。仏教の典籍を見ると『四食経』に、人間は食物によって生きるものだ、と書かれていますし、仏教",
+          "context_position": 27420,
+          "raw_form": "四食経"
+        }
+      ]
+    },
+    {
+      "term": "春秋",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "背の高い人物です。中国の代表的な古典『易経』『書経』『詩経』『春秋』『礼記』等の九つの書物、あるいは八卦の説などをすべて記憶して",
+          "context_position": 2202,
+          "raw_form": "春秋"
+        }
+      ]
+    },
+    {
+      "term": "梵網経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "れをみると々と心を痛まれ、これを思いやること切でありました。『梵網経』によりますと、仏陀はこの宇宙の百億の世界に、百億の分身の仏陀",
+          "context_position": 41465,
+          "raw_form": "梵網経"
+        }
+      ]
+    },
+    {
+      "term": "楚辞",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "経』も、周時代までの詩である『詩経』も、楚の国の文章を集めた『楚辞』も、これら古典はいずれも、先ず作者の心に感動するものがあって",
+          "context_position": 208,
+          "raw_form": "楚辞"
+        }
+      ]
+    },
+    {
+      "term": "涅槃経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "切って蜋の斧にも似たつまらない意見をうちくだいていきます。 『涅槃経』等に仏の「不思議解脱」について述べています。それは人間の思議",
+          "context_position": 42575,
+          "raw_form": "涅槃経"
+        }
+      ]
+    },
+    {
+      "term": "礼",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "うのはこういう時のことをいったのでありましょう。『詩』を学び『礼』を学ぶ人々にとって先生の本日のおみちびきやみおしえにまさるも",
+          "context_position": 13581,
+          "raw_form": "礼"
+        }
+      ]
+    },
+    {
+      "term": "神仙伝",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "しっかりした意志に変るのを、この目で見ることができました。 『神仙伝』には葛公という、仙術を使う者の話があり、この人の食べていた白",
+          "context_position": 13298,
+          "raw_form": "神仙伝"
+        }
+      ]
+    },
+    {
+      "term": "神異経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "境界なのである。なんと優れた、なんとはるかなことであろう。 『神異経』という道教の書物に、「崑崙山には天に届くほど高い桐樹の柱があ",
+          "context_position": 19092,
+          "raw_form": "神異経"
+        }
+      ]
+    },
+    {
+      "term": "虚空蔵菩薩求聞持法経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ころがある時、一人の仏道修行の僧侶に会いました。この人は私に『虚空蔵菩薩求聞持法経』というお経を示し教えてくれましたが、そこには「もし人がここに",
+          "context_position": 636,
+          "raw_form": "虚空蔵菩薩求聞持法経"
+        }
+      ]
+    },
+    {
+      "term": "詩",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "こと）とかいうのはこういう時のことをいったのでありましょう。『詩』を学び『礼』を学ぶ人々にとって先生の本日のおみちびきやみおし",
+          "context_position": 13575,
+          "raw_form": "詩"
+        }
+      ]
+    },
+    {
+      "term": "道徳経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "作と伝えられる八卦（易の八つのかたち）の説も、老子の著わした『道徳経』も、周時代までの詩である『詩経』も、楚の国の文章を集めた『楚",
+          "context_position": 175,
+          "raw_form": "道徳経"
+        }
+      ]
+    },
+    {
+      "term": "離騒",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "に輝くことでしょう。 昔、淮南王の安が入朝した時に、周王から『離騒』という屈原の作った賦の、注釈書を作るよう命じられましたが、安",
+          "context_position": 10293,
+          "raw_form": "離騒"
+        }
+      ]
+    },
+    {
+      "term": "韓非子",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "によって生きるものだ、と書かれていますし、仏教以外の書物にも『韓非子』に、人民が飢えている時に学問をすすめてみても無駄であり、先ず",
+          "context_position": 27462,
+          "raw_form": "韓非子"
+        }
+      ]
+    }
+  ]
+}

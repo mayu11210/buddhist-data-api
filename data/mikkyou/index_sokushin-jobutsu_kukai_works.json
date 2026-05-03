@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "category": "空海著作・性霊集編纂物（kukai works）",
+  "source_corpus": "sokushin-jobutsu.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 20298,
+  "summary": {
+    "unique_terms": 2,
+    "total_occurrences": 5
+  },
+  "entries": [
+    {
+      "term": "菩提心論",
+      "aliases": [],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "秘密」と言っているのです。 また竜猛菩薩が著したと伝えられる『菩提心論』には、「真言法の中にのみ即身成仏するが故に、これ三摩地の法を",
+          "context_position": 1998,
+          "raw_form": "菩提心論"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "が説法する教えであって、密教に対して顕教といいます。 同じく『菩提心論』の中に次のような文があります。「もし人仏慧を求めて、菩提心に",
+          "context_position": 2159,
+          "raw_form": "菩提心論"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "。 以上に挙げた八つの証文は、『大日経』『金剛頂経』の二経と『菩提心論』という一論書から空海が選んで示したもので、後世これらを「二経",
+          "context_position": 2337,
+          "raw_form": "菩提心論"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "など類似の表現は散見するが、「即身成仏」の四字が見られるのは『菩提心論』のこの第七の証文だけである。〈編者注〉 二 即身成仏の頌 こ",
+          "context_position": 2669,
+          "raw_form": "菩提心論"
+        }
+      ]
+    },
+    {
+      "term": "弁顕密二教論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "『大日経』の住心品に説かれている通りですし、仏陀観については『弁顕密二教論』に詳しく論じてありますので参考にして下さい。 また次に、不空",
+          "context_position": 1022,
+          "raw_form": "弁顕密二教論"
+        }
+      ]
+    }
+  ],
+  "classification_table": {
+    "梵字悉曇字母并びに釈義": "空海著作",
+    "古今文字讃": "空海請来書",
+    "古今篆隷の文体": "空海請来書",
+    "続性霊集補闕鈔": "性霊集編纂物",
+    "大広智の影の讃": "idx12篇名（空海碑文）",
+    "大広智不空三蔵の影の讃": "idx12篇名（空海碑文・括弧前）",
+    "弁顕密二教論": "空海著作",
+    "吽字義": "空海著作",
+    "即身成仏義": "空海著作",
+    "声字実相義": "空海著作",
+    "般若心経秘鍵": "空海著作",
+    "秘蔵宝鑰": "空海著作",
+    "十住心論": "空海著作",
+    "秘密曼荼羅十住心論": "空海著作",
+    "三教指帰": "空海著作",
+    "聾瞽指帰": "空海著作",
+    "御請来目録": "空海著作",
+    "性霊集": "空海関連（弟子真済編）",
+    "遍照発揮性霊集": "空海関連（弟子真済編）",
+    "菩提心論": "空海関連（不空訳・真言宗根本論書）"
+  }
+}

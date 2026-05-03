@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "category": "空海著作・性霊集編纂物（kukai works）",
+  "source_corpus": "dainichikyo-sho-vol1.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 101714,
+  "summary": {
+    "unique_terms": 3,
+    "total_occurrences": 11
+  },
+  "entries": [
+    {
+      "term": "即身成仏義",
+      "aliases": [],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "習慣に由来）、「キャ」は佉（kha）の口蓋化表記である。空海『即身成仏義』「阿字諸法本不生の義とは即ち是れ地大なり」「鑁字本浄の義とは",
+          "context_position": 49900,
+          "raw_form": "即身成仏義"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "力加持：『大日経』の核心的教義の一つで、空海『般若心経秘鍵』『即身成仏義』にも引かれる「三力偈」の根拠〕。すなわち普く「一切智の地（s",
+          "context_position": 56274,
+          "raw_form": "即身成仏義"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "」悟るのではない。「他に従い」ては〔も〕得ない〔自証の境地：『即身成仏義』『弁顕密二教論』『般若心経秘鍵』にも頻出する密教の根本主張〕",
+          "context_position": 58444,
+          "raw_form": "即身成仏義"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "のか」と。答えて曰く、「『実の如く知らざる』が故である」と〔『即身成仏義』の「迷悟我に在り」と同趣旨〕。謂ゆる「愚童凡夫（bāla-p",
+          "context_position": 58594,
+          "raw_form": "即身成仏義"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "でもなく、開曉する者もない〔自心が自心を証する自証の境地──『即身成仏義』『弁顕密二教論』の核心思想〕。  もし「少分の能所（alpa",
+          "context_position": 60277,
+          "raw_form": "即身成仏義"
+        }
+      ]
+    },
+    {
+      "term": "弁顕密二教論",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "い。「他に従い」ては〔も〕得ない〔自証の境地：『即身成仏義』『弁顕密二教論』『般若心経秘鍵』にも頻出する密教の根本主張〕。  問うて曰く",
+          "context_position": 58451,
+          "raw_form": "弁顕密二教論"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "する者もない〔自心が自心を証する自証の境地──『即身成仏義』『弁顕密二教論』の核心思想〕。  もし「少分の能所（alpa-mātra-g",
+          "context_position": 60284,
+          "raw_form": "弁顕密二教論"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "には依るべき何ものもない──華厳・密教共通の根本構造で、空海『弁顕密二教論』の「四種法身」「六大体大」論にも連なる〕。すなわちこの〔自心",
+          "context_position": 61269,
+          "raw_form": "弁顕密二教論"
+        }
+      ]
+    },
+    {
+      "term": "般若心経秘鍵",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "dhi）する〔三力加持：『大日経』の核心的教義の一つで、空海『般若心経秘鍵』『即身成仏義』にも引かれる「三力偈」の根拠〕。すなわち普く「",
+          "context_position": 56266,
+          "raw_form": "般若心経秘鍵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "ては〔も〕得ない〔自証の境地：『即身成仏義』『弁顕密二教論』『般若心経秘鍵』にも頻出する密教の根本主張〕。  問うて曰く、「もし心が即ち",
+          "context_position": 58459,
+          "raw_form": "般若心経秘鍵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "心の本来清浄が顕現したものに他ならない、という重要な譬。空海『般若心経秘鍵』の「能迷能悟、皆是己心」の主張と直接呼応する〕。    【青",
+          "context_position": 64966,
+          "raw_form": "般若心経秘鍵"
+        }
+      ]
+    }
+  ],
+  "classification_table": {
+    "梵字悉曇字母并びに釈義": "空海著作",
+    "古今文字讃": "空海請来書",
+    "古今篆隷の文体": "空海請来書",
+    "続性霊集補闕鈔": "性霊集編纂物",
+    "大広智の影の讃": "idx12篇名（空海碑文）",
+    "大広智不空三蔵の影の讃": "idx12篇名（空海碑文・括弧前）",
+    "弁顕密二教論": "空海著作",
+    "吽字義": "空海著作",
+    "即身成仏義": "空海著作",
+    "声字実相義": "空海著作",
+    "般若心経秘鍵": "空海著作",
+    "秘蔵宝鑰": "空海著作",
+    "十住心論": "空海著作",
+    "秘密曼荼羅十住心論": "空海著作",
+    "三教指帰": "空海著作",
+    "聾瞽指帰": "空海著作",
+    "御請来目録": "空海著作",
+    "性霊集": "空海関連（弟子真済編）",
+    "遍照発揮性霊集": "空海関連（弟子真済編）",
+    "菩提心論": "空海関連（不空訳・真言宗根本論書）"
+  }
+}

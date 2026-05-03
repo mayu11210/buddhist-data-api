@@ -1,0 +1,389 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "hannya-hiken.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 14186,
+  "summary": {
+    "unique_terms": 14,
+    "total_occurrences": 45
+  },
+  "entries": [
+    {
+      "term": "般若心経",
+      "aliases": [
+        "心経"
+      ],
+      "occurrence_count": 21,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "なのです。 （これ以降の一節は、本書の総説というべきもので、『心経』には仏教のあらゆる教えが含まれていて、そのゆえにこの経自体が",
+          "context_position": 1620,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "教的意味を明かすとき 私（空海）は若い弟子を教えるついでに、『心経』の要点をまとめ、経文を五つの部分に分けて解釈をしてみました。",
+          "context_position": 3258,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "第三時教で顕了の（完全な）教えだといいます。これからすれば、『心経』は第二時の未了義の教えなのだから、第三時の華厳とか法相の教え",
+          "context_position": 3525,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ている、といわれるではないですか。これらを考え合わせますと、『心経』の中にあらゆる仏教の教えがすべて含まれているといっても、少し",
+          "context_position": 3922,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "。 また次のような疑問をはさむものがあるかも知れません。もし『心経』にそのような深い意味が含まれているならば、これまでの学匠たち",
+          "context_position": 3997,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "まりこれまでは、密教の深い趣を理解できる人がいなかったので、『心経』の密教的意味が説かれていないのです。しかし、前来の学匠たちが",
+          "context_position": 4217,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "言わなかったのか、私（空海）にはわかりません。もし私がここで『心経』の密教的意味を説くことが、まだ時機ではないと非難する人がある",
+          "context_position": 4326,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "雑部密教の経典として伝わっている『陀羅尼集経』の第三巻には、『心経』の陀羅尼的展開が説かれてありますが、経題はここで私（空海）が",
+          "context_position": 5390,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "しいのである。──訳者注） 八 密教にとっての心経 要するに『般若心経』とは、「般若菩薩の心の内容を説いた経」と理解するべきでありま",
+          "context_position": 5637,
+          "raw_form": "般若心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "は、こうした意味なのであります。 ある人はこう問うでしょう。『心経』は、『大般若経』の心要を略し縮めた経の意である。だから『般若",
+          "context_position": 5792,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "心経』は、『大般若経』の心要を略し縮めた経の意である。だから『般若心経』と『大般若経』とは同じ意味の経典なのだ、と。私（空海）はこう",
+          "context_position": 5823,
+          "raw_form": "般若心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "は同じ意味の経典なのだ、と。私（空海）はこう答えましょう。 『般若心経』と『大般若経』の関係は、一見すれば経題が似ていますが、たとえ",
+          "context_position": 5867,
+          "raw_form": "般若心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "れは竜ではない、蛇だというのはあやまりです。 それと同様に、『般若心経』と『大般若経』は、同じ「般若」の字がついているから同一だ、と",
+          "context_position": 6025,
+          "raw_form": "般若心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の字がついているから同一だ、というのは当たっていないのです。『心経』はいまや密教経典であり曼荼羅に生まれかわっているのです。 九",
+          "context_position": 6076,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "かわっているのです。 九 心経を五つに分かつ 五分判釈 この『心経』は総じて五つの部分に分けられます。 第一は人法総通分、「観自",
+          "context_position": 6128,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "るものではなく、主ではなく賓（客）というべきものなのです。 『心経』のこの識界を説く部分は、まさに法相宗の教理に相当します。 第",
+          "context_position": 8465,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "う。顕教と密教とは趣旨が全くかけ離れているとすれば、いまこの『心経』のような、いわゆる顕教の経典の文中に、密教の深旨が説かれてい",
+          "context_position": 12776,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ないかは、誰のせいでもない、その人の眼力に依るのであります。『心経』に密教的深旨が含まれているというには、見る人がいわゆる密教眼",
+          "context_position": 13007,
+          "raw_form": "心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "一 結語 この深い醍醐味 以上、 私は真言密教の眼をもって、『般若心経』の五分判釈の大略を述べてまいりました。 その結果この経典は一",
+          "context_position": 13488,
+          "raw_form": "般若心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "峨天皇は自ら黄金を筆の先に染め、紺紙を爪掌（つめ）に握って、『般若心経』一巻を書写されたのであります。私（空海）は天皇の範（手本）と",
+          "context_position": 13846,
+          "raw_form": "般若心経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "せん）での釈尊の説法の場に列（つら）なり、親しくこの深い文（『般若心経』）を聞いたことがあります。どうしてその義（意味）に達しないこ",
+          "context_position": 14114,
+          "raw_form": "般若心経"
+        }
+      ]
+    },
+    {
+      "term": "大般若経",
+      "aliases": [],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "意味なのであります。 ある人はこう問うでしょう。『心経』は、『大般若経』の心要を略し縮めた経の意である。だから『般若心経』と『大般若",
+          "context_position": 5798,
+          "raw_form": "大般若経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "般若経』の心要を略し縮めた経の意である。だから『般若心経』と『大般若経』とは同じ意味の経典なのだ、と。私（空海）はこう答えましょう。",
+          "context_position": 5830,
+          "raw_form": "大般若経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "典なのだ、と。私（空海）はこう答えましょう。 『般若心経』と『大般若経』の関係は、一見すれば経題が似ていますが、たとえていえば、蛇が",
+          "context_position": 5874,
+          "raw_form": "大般若経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "、蛇だというのはあやまりです。 それと同様に、『般若心経』と『大般若経』は、同じ「般若」の字がついているから同一だ、というのは当たっ",
+          "context_position": 6032,
+          "raw_form": "大般若経"
+        }
+      ]
+    },
+    {
+      "term": "大日経疏",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "なるに随ってそれを行ずる菩薩（修行者）もまた異なってきます。『大日経疏』ではこれを四種に分類しています。その一字ずつを採って愚・識・",
+          "context_position": 9844,
+          "raw_form": "大日経疏"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の一つが密教です。また、菩薩の分類はいろいろですが、先述した『大日経疏』には、「愚（愚童薩埵、六道を輪廻する凡夫）」、「識（『大日経",
+          "context_position": 10019,
+          "raw_form": "大日経疏"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "日経疏』には、「愚（愚童薩埵、六道を輪廻する凡夫）」、「識（『大日経疏』では有識薩埵、識性は二乗、分に──部分的に──涅槃の性を識知",
+          "context_position": 10051,
+          "raw_form": "大日経疏"
+        }
+      ]
+    },
+    {
+      "term": "理趣釈",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "「色不異空」から「亦復如是」までの部分です。 建立如来とは、『理趣釈』によりますと普賢菩薩の別名であります。「一切平等建立如来とは",
+          "context_position": 7252,
+          "raw_form": "理趣釈"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "是諸法空相」から「不増不減」までがそれに該当します。 前出の『理趣釈』に「一切無戯論如来とは文殊菩薩の異名なり」とありますから、こ",
+          "context_position": 7794,
+          "raw_form": "理趣釈"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "います。 経文の「無智亦無得、以無所得故」の十文字がそれで、『理趣釈』によれば、観自在菩薩は得自性清浄如来の異名で、手に蓮華を執っ",
+          "context_position": 9175,
+          "raw_form": "理趣釈"
+        }
+      ]
+    },
+    {
+      "term": "大日経",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "陀羅尼（総持）を用いて法を説かれるのです。 でありますから、『大日経』などでは、大日如来おんみずから阿字とか奄字などの字義を用いて",
+          "context_position": 12351,
+          "raw_form": "大日経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "い。──訳者注） 『菩提心論』の作者と伝えられる竜猛菩薩も、『大日経』の伝訳者、善無畏三蔵も、さらに『金剛頂経』系統の伝訳者、不空",
+          "context_position": 12551,
+          "raw_form": "大日経"
+        }
+      ]
+    },
+    {
+      "term": "秘鍵",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "説したり説明したりしていない、しかるにいまこのような注釈書（『秘鍵』を指す）を作るのは、如来のお気持に背くことになるのでは、と。",
+          "context_position": 12112,
+          "raw_form": "秘鍵"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "のなせる所であります。ただ、神社に参詣する人々には、ぜひこの『秘鍵』を奉誦していただきたいのです。昔、私は鷲峯山（ぐじゅせん）で",
+          "context_position": 14054,
+          "raw_form": "秘鍵"
+        }
+      ]
+    },
+    {
+      "term": "金剛頂経",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "えられる竜猛菩薩も、『大日経』の伝訳者、善無畏三蔵も、さらに『金剛頂経』系統の伝訳者、不空三蔵も皆同じように陀羅尼を説き、如来の秘密",
+          "context_position": 12571,
+          "raw_form": "金剛頂経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "です。 またこの大日如来の真言や修法の次第、観想の方法などは『金剛頂経』の中に説かれており、これらは秘中の秘というべきものであります",
+          "context_position": 13081,
+          "raw_form": "金剛頂経"
+        }
+      ]
+    },
+    {
+      "term": "陀羅尼集経",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "加えられています。 さらに、雑部密教の経典として伝わっている『陀羅尼集経』の第三巻には、『心経』の陀羅尼的展開が説かれてありますが、経",
+          "context_position": 5376,
+          "raw_form": "陀羅尼集経"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "作って修法したり、真言を誦えたり、手に印を結んだりしたことが『陀羅尼集経』という雑部密教の経典の第三巻に説いてありますが、これらは釈尊",
+          "context_position": 13230,
+          "raw_form": "陀羅尼集経"
+        }
+      ]
+    },
+    {
+      "term": "大日経義釈",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "切平等建立如来とはこれ、普賢菩薩の異名なり」とあります。また『大日経義釈』には、「普賢菩薩は大日如来の円因なり、しこうして仏はこれ円因",
+          "context_position": 7308,
+          "raw_form": "大日経義釈"
+        }
+      ]
+    },
+    {
+      "term": "法華経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "花すらたちまちに散り去るのを見て、煩悩の種子を除くのです。 『法華経』に説かれる三車のたとえでいえば、羊車（声聞乗）鹿車（縁覚乗）",
+          "context_position": 8785,
+          "raw_form": "法華経"
+        }
+      ]
+    },
+    {
+      "term": "般若経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "知れません。法相宗の三時教判からいえば、『阿含経』は初時教、『般若経』は第二時教で、これらはいずれも未了義（不完全）な教えであり、",
+          "context_position": 3433,
+          "raw_form": "般若経"
+        }
+      ]
+    },
+    {
+      "term": "華厳経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "は第二時教で、これらはいずれも未了義（不完全）な教えであり、『華厳経』、『解深密経』などを中心とする唯識教学こそ、第三時教で顕了の",
+          "context_position": 3468,
+          "raw_form": "華厳経"
+        }
+      ]
+    },
+    {
+      "term": "解深密経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "、これらはいずれも未了義（不完全）な教えであり、『華厳経』、『解深密経』などを中心とする唯識教学こそ、第三時教で顕了の（完全な）教え",
+          "context_position": 3474,
+          "raw_form": "解深密経"
+        }
+      ]
+    },
+    {
+      "term": "阿含経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ういう質問をするかも知れません。法相宗の三時教判からいえば、『阿含経』は初時教、『般若経』は第二時教で、これらはいずれも未了義（不",
+          "context_position": 3423,
+          "raw_form": "阿含経"
+        }
+      ]
+    }
+  ]
+}

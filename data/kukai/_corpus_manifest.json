@@ -33,7 +33,16 @@
     "kakikudashi_present": 10,
     "gendaigoyaku_present": 9,
     "genten_present": 8,
-    "with_specialty_sections": 4
+    "with_specialty_sections": 4,
+    "indexed_corpora": {
+      "terms": 9,
+      "citations": 9,
+      "kukai_works": 9,
+      "sanskrit": 1,
+      "kaimyo_jukugo": 1,
+      "persons": 1,
+      "places": 1
+    }
   },
   "files": [
     {
@@ -57,7 +66,21 @@
         "genten": 3605
       },
       "role_complete": false,
-      "notes": "2026-05-03：kakikudashi+genten 完備、gendaigoyaku は docx 提供待ち（候補 A 半完了）。"
+      "notes": "2026-05-03：kakikudashi+genten 完備、gendaigoyaku は docx 提供待ち（候補 A 半完了）。",
+      "index_status": {
+        "terms": {
+          "file": "index_bodaishinron_terms.json",
+          "present": false
+        },
+        "citations": {
+          "file": "index_bodaishinron_citations.json",
+          "present": false
+        },
+        "kukai_works": {
+          "file": "index_bodaishinron_kukai_works.json",
+          "present": false
+        }
+      }
     },
     {
       "filename": "dainichikyo-sho-vol1.json",
@@ -80,7 +103,29 @@
         "genten": 24078
       },
       "role_complete": true,
-      "notes": ""
+      "notes": "",
+      "index_status": {
+        "terms": {
+          "file": "index_dainichikyo-sho-vol1_terms.json",
+          "present": true,
+          "unique_terms": 19,
+          "total_occurrences": 286,
+          "matched_term_count": 14,
+          "kaimyo_suitable_count": 11
+        },
+        "citations": {
+          "file": "index_dainichikyo-sho-vol1_citations.json",
+          "present": true,
+          "unique_terms": 106,
+          "total_occurrences": 179
+        },
+        "kukai_works": {
+          "file": "index_dainichikyo-sho-vol1_kukai_works.json",
+          "present": true,
+          "unique_terms": 3,
+          "total_occurrences": 11
+        }
+      }
     },
     {
       "filename": "goshorai-mokuroku.json",
@@ -157,7 +202,29 @@
         "genten": 2758
       },
       "role_complete": true,
-      "notes": ""
+      "notes": "",
+      "index_status": {
+        "terms": {
+          "file": "index_hannya-hiken_terms.json",
+          "present": true,
+          "unique_terms": 19,
+          "total_occurrences": 105,
+          "matched_term_count": 7,
+          "kaimyo_suitable_count": 11
+        },
+        "citations": {
+          "file": "index_hannya-hiken_citations.json",
+          "present": true,
+          "unique_terms": 14,
+          "total_occurrences": 45
+        },
+        "kukai_works": {
+          "file": "index_hannya-hiken_kukai_works.json",
+          "present": true,
+          "unique_terms": 1,
+          "total_occurrences": 1
+        }
+      }
     },
     {
       "filename": "hizo-houyaku.json",
@@ -180,7 +247,29 @@
         "genten": 17746
       },
       "role_complete": true,
-      "notes": ""
+      "notes": "",
+      "index_status": {
+        "terms": {
+          "file": "index_hizo-houyaku_terms.json",
+          "present": true,
+          "unique_terms": 19,
+          "total_occurrences": 257,
+          "matched_term_count": 13,
+          "kaimyo_suitable_count": 11
+        },
+        "citations": {
+          "file": "index_hizo-houyaku_citations.json",
+          "present": true,
+          "unique_terms": 57,
+          "total_occurrences": 139
+        },
+        "kukai_works": {
+          "file": "index_hizo-houyaku_kukai_works.json",
+          "present": true,
+          "unique_terms": 2,
+          "total_occurrences": 19
+        }
+      }
     },
     {
       "filename": "hizo-kogi-takai.json",
@@ -282,7 +371,29 @@
         "genten": 10135
       },
       "role_complete": true,
-      "notes": "本文完備に加え、専門サブセクションあり（chosakumokuteki / kihon_kyogi / sanshin_setsu / juyona_quotes / gojumondobu / kengyo_mikkyo_hikaku / hoyo_oyo / kamishimo_kaisetsu / nasu_kaisetsu）。"
+      "notes": "本文完備に加え、専門サブセクションあり（chosakumokuteki / kihon_kyogi / sanshin_setsu / juyona_quotes / gojumondobu / kengyo_mikkyo_hikaku / hoyo_oyo / kamishimo_kaisetsu / nasu_kaisetsu）。",
+      "index_status": {
+        "terms": {
+          "file": "index_nikyo-ron_terms.json",
+          "present": true,
+          "unique_terms": 19,
+          "total_occurrences": 360,
+          "matched_term_count": 11,
+          "kaimyo_suitable_count": 11
+        },
+        "citations": {
+          "file": "index_nikyo-ron_citations.json",
+          "present": true,
+          "unique_terms": 51,
+          "total_occurrences": 142
+        },
+        "kukai_works": {
+          "file": "index_nikyo-ron_kukai_works.json",
+          "present": true,
+          "unique_terms": 3,
+          "total_occurrences": 8
+        }
+      }
     },
     {
       "filename": "rishikyo.json",
@@ -329,7 +440,29 @@
         "genten": 0
       },
       "role_complete": true,
-      "notes": "2026-05-03：SAT 範疇外確定（SAT2018 キーワード検索でヒット 0）。genten 不要。"
+      "notes": "2026-05-03：SAT 範疇外確定（SAT2018 キーワード検索でヒット 0）。genten 不要。",
+      "index_status": {
+        "terms": {
+          "file": "index_sankyo-shiki_terms.json",
+          "present": true,
+          "unique_terms": 19,
+          "total_occurrences": 3,
+          "matched_term_count": 2,
+          "kaimyo_suitable_count": 11
+        },
+        "citations": {
+          "file": "index_sankyo-shiki_citations.json",
+          "present": true,
+          "unique_terms": 21,
+          "total_occurrences": 35
+        },
+        "kukai_works": {
+          "file": "index_sankyo-shiki_kukai_works.json",
+          "present": true,
+          "unique_terms": 1,
+          "total_occurrences": 1
+        }
+      }
     },
     {
       "filename": "sanmayakai.json",
@@ -375,7 +508,29 @@
         "genten": 4320
       },
       "role_complete": true,
-      "notes": ""
+      "notes": "",
+      "index_status": {
+        "terms": {
+          "file": "index_shoji-jisso_terms.json",
+          "present": true,
+          "unique_terms": 19,
+          "total_occurrences": 136,
+          "matched_term_count": 10,
+          "kaimyo_suitable_count": 11
+        },
+        "citations": {
+          "file": "index_shoji-jisso_citations.json",
+          "present": true,
+          "unique_terms": 12,
+          "total_occurrences": 27
+        },
+        "kukai_works": {
+          "file": "index_shoji-jisso_kukai_works.json",
+          "present": true,
+          "unique_terms": 1,
+          "total_occurrences": 2
+        }
+      }
     },
     {
       "filename": "shoryoshu.json",
@@ -425,7 +580,59 @@
         "gendaigoyaku_total": 217446
       },
       "role_complete": true,
-      "notes": "性霊集 112 篇の正本。フェーズ 2 完結（2026-04-27）で全 112 篇高品質訳完備。CLAUDE.md 原則 1 で構造変更禁止。"
+      "notes": "性霊集 112 篇の正本。フェーズ 2 完結（2026-04-27）で全 112 篇高品質訳完備。CLAUDE.md 原則 1 で構造変更禁止。",
+      "index_status": {
+        "terms": {
+          "file": "index_shoryoshu_terms.json",
+          "present": true,
+          "unique_terms": 19,
+          "total_occurrences": 544,
+          "kaimyo_suitable_count": 11,
+          "covered_shoryoshu_idx_count": 78
+        },
+        "citations": {
+          "file": "index_shoryoshu_citations.json",
+          "present": true,
+          "unique_terms": 237,
+          "total_occurrences": 1181,
+          "covered_shoryoshu_idx_count": 105
+        },
+        "kukai_works": {
+          "file": "index_shoryoshu_kukai_works.json",
+          "present": true,
+          "unique_terms": 5,
+          "total_occurrences": 5,
+          "covered_shoryoshu_idx_count": 2
+        },
+        "sanskrit": {
+          "file": "index_shoryoshu_sanskrit.json",
+          "present": true,
+          "unique_terms": 0,
+          "total_occurrences": 654,
+          "covered_shoryoshu_idx_count": 66
+        },
+        "kaimyo_jukugo": {
+          "file": "index_shoryoshu_kaimyo.json",
+          "present": true,
+          "unique_terms": 0,
+          "total_occurrences": 1971,
+          "covered_shoryoshu_idx_count": 100
+        },
+        "persons": {
+          "file": "index_shoryoshu_persons.json",
+          "present": true,
+          "unique_terms": 0,
+          "total_occurrences": 1197,
+          "covered_shoryoshu_idx_count": 109
+        },
+        "places": {
+          "file": "index_shoryoshu_places.json",
+          "present": true,
+          "unique_terms": 0,
+          "total_occurrences": 466,
+          "covered_shoryoshu_idx_count": 92
+        }
+      }
     },
     {
       "filename": "sokushin-jobutsu.json",
@@ -448,7 +655,29 @@
         "genten": 4068
       },
       "role_complete": true,
-      "notes": ""
+      "notes": "",
+      "index_status": {
+        "terms": {
+          "file": "index_sokushin-jobutsu_terms.json",
+          "present": true,
+          "unique_terms": 19,
+          "total_occurrences": 361,
+          "matched_term_count": 14,
+          "kaimyo_suitable_count": 11
+        },
+        "citations": {
+          "file": "index_sokushin-jobutsu_citations.json",
+          "present": true,
+          "unique_terms": 17,
+          "total_occurrences": 44
+        },
+        "kukai_works": {
+          "file": "index_sokushin-jobutsu_kukai_works.json",
+          "present": true,
+          "unique_terms": 2,
+          "total_occurrences": 5
+        }
+      }
     },
     {
       "filename": "ujiji.json",
@@ -481,7 +710,60 @@
         "genten": 5628
       },
       "role_complete": true,
-      "notes": "本文完備に加え、専門サブセクションあり（chosaku_gaiyou / kosei / ji_so / ji_gi / unjiji_shishin / bosatsu_rita / juyona_quotes / kenmitsu_hikaku / hoyo_oyo）。"
+      "notes": "本文完備に加え、専門サブセクションあり（chosaku_gaiyou / kosei / ji_so / ji_gi / unjiji_shishin / bosatsu_rita / juyona_quotes / kenmitsu_hikaku / hoyo_oyo）。",
+      "index_status": {
+        "terms": {
+          "file": "index_ujiji_terms.json",
+          "present": true,
+          "unique_terms": 19,
+          "total_occurrences": 170,
+          "matched_term_count": 11,
+          "kaimyo_suitable_count": 11
+        },
+        "citations": {
+          "file": "index_ujiji_citations.json",
+          "present": true,
+          "unique_terms": 14,
+          "total_occurrences": 37
+        },
+        "kukai_works": {
+          "file": "index_ujiji_kukai_works.json",
+          "present": true,
+          "unique_terms": 0,
+          "total_occurrences": 0
+        }
+      }
     }
-  ]
+  ],
+  "index_definitions": {
+    "description": "横断索引化フェーズ B（cross_index_spec.md）の出力索引。各 primary_corpus 著作の gendaigoyaku から抽出した正規化済データを data/mikkyou/index_*.json に置く。",
+    "storage_dir": "data/mikkyou/",
+    "naming_pattern": "index_<corpus_id>_<category>.json",
+    "categories": {
+      "terms": "Tier 1-1 密教教学用語（19 語辞書）",
+      "citations": "Tier 1-2 典故書名（『〜』形式・他者著作）",
+      "kukai_works": "Tier 1-2 派生：空海著作・性霊集編纂物（citations から分離）",
+      "sanskrit": "Tier 2-4 梵語 IAST",
+      "kaimyo_jukugo": "Tier 2-3 戒名向け熟語",
+      "persons": "Tier 3-5 人名",
+      "places": "Tier 3-6 地名"
+    },
+    "g2_status": {
+      "description": "G2（dict 型 8 著作への Tier 1 展開）2026-05-03 完了",
+      "list_corpus_full_index": [
+        "shoryoshu_miyasaka.json"
+      ],
+      "dict_corpus_tier1_index": [
+        "nikyo-ron.json",
+        "ujiji.json",
+        "shoji-jisso.json",
+        "sokushin-jobutsu.json",
+        "hannya-hiken.json",
+        "hizo-houyaku.json",
+        "dainichikyo-sho-vol1.json",
+        "sankyo-shiki.json"
+      ],
+      "pending_dict_corpus_tier2_3": "梵語・戒名熟語・人名・地名は今後段階展開（性霊集スクリプトを dict 型に拡張）"
+    }
+  }
 }

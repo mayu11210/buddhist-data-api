@@ -1,0 +1,878 @@
+{
+  "schema_version": "1.0",
+  "category": "密教教学用語（mikkyo terms）",
+  "source_corpus": "hannya-hiken.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "辞書ベース（19 語）+ 長語優先 substring 走査 + 周辺梵語注記抽出",
+  "dictionary_size": 19,
+  "gendaigoyaku_length": 14186,
+  "summary": {
+    "unique_terms": 19,
+    "total_occurrences": 105,
+    "kaimyo_suitable_count": 11,
+    "matched_term_count": 7
+  },
+  "entries": [
+    {
+      "term": "密教",
+      "term_kana": "",
+      "sanskrit": "guhya-mantra-yāna",
+      "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 40,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "真意を読み解く秘密の鍵） 遍照金剛撰 一 序文 禅定と智慧の密教的開明 文殊菩薩が手に持つ剣は、誤った考え方を断ち切ってくれ",
+          "context_position": 62,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の二菩薩のお心そのものなのです。 しかしこの菩薩の心のうちを密教的に開明することは、菩薩がたがご自身では実施して下さってはい",
+          "context_position": 377,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "さなどは、人それぞれですし、各自の好みの方向もまちまちです。密教にも金剛界と胎蔵界の二つの見方があって、人々の機根（こころざ",
+          "context_position": 1035,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "し）に応じた見方が提供されていますし、他の仏教各種の教えも、密教に比べればまだまだ浅い見方なのですが、馬小屋の馬が、前に横た",
+          "context_position": 1097,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "行と成果）を含んでおりますし、「はらそう」の二字には、顕教と密教のあらゆる教えが含まれているといえましょう。 ３ 生きる力を",
+          "context_position": 2852,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "がぴったり当てはまる経典であります。 五 質疑応答 いまこそ密教的意味を明かすとき 私（空海）は若い弟子を教えるついでに、『",
+          "context_position": 3227,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "みました。この経を解釈した人はこれまで多くおられますが、真言密教の立場から見たものはまだありません。漢訳もいろいろありますが",
+          "context_position": 3317,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ありません。漢訳もいろいろありますが、それらの比較及び顕教と密教の対比などについては後に述べることにいたします。 ある人がこ",
+          "context_position": 3361,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "対して私はこう答えたいと思います。大日如来の説法すなわち真言密教では、一字の中にすべての教えが含まれており、一つの思いの中に",
+          "context_position": 3615,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "は説き、ある時は黙するものなのです、と。 つまりこれまでは、密教の深い趣を理解できる人がいなかったので、『心経』の密教的意味",
+          "context_position": 4195,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "では、密教の深い趣を理解できる人がいなかったので、『心経』の密教的意味が説かれていないのです。しかし、前来の学匠たちがこの深",
+          "context_position": 4222,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "たのか、私（空海）にはわかりません。もし私がここで『心経』の密教的意味を説くことが、まだ時機ではないと非難する人があるなら、",
+          "context_position": 4331,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "なわち、この経題は、大般若菩薩というかたのお心の内容（内証＝密教の法）を一般仏教のわかりやすいことばで（喩）説いておられるの",
+          "context_position": 4872,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "わかりやすいことばで（喩）説いておられるのです。 しかもこの密教の深旨は、すでに釈尊がインドの鷲峯山で、舎利弗（釈尊の弟子、",
+          "context_position": 4913,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "するであろうことを述べた文が加えられています。 さらに、雑部密教の経典として伝わっている『陀羅尼集経』の第三巻には、『心経』",
+          "context_position": 5362,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "た心経は、現行のものと全く等しいのである。──訳者注） 八 密教にとっての心経 要するに『般若心経』とは、「般若菩薩の心の内",
+          "context_position": 5623,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "から同一だ、というのは当たっていないのです。『心経』はいまや密教経典であり曼荼羅に生まれかわっているのです。 九 心経を五つ",
+          "context_position": 6084,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "成仏といい、声聞乗の六十劫、縁覚乗の百劫などさまざまで、真言密教では即身成仏といって、時間を超越してしまうのです。目的達成ま",
+          "context_position": 6830,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ように合計七種に分けられ、前の六種は顕教の行人、最後の一種は密教の行人を意味します。仏教の教えがそれぞれ異なるに随ってそれを",
+          "context_position": 9791,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "種とは、声聞乗、縁覚乗、法相宗、三論宗、天台宗、華厳宗、真言密教の七宗の修行者のことで、前六つは顕教、後の一つが密教です。ま",
+          "context_position": 9967,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "宗、真言密教の七宗の修行者のことで、前六つは顕教、後の一つが密教です。また、菩薩の分類はいろいろですが、先述した『大日経疏』",
+          "context_position": 9993,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "性を識知するが故にかく言う、とある）」、「金（金剛薩埵、真言密教の修行者のこと）」、「智（智薩埵、大乗教の菩薩の総称）」の四",
+          "context_position": 10113,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の「無上咒」は大乗諸教の真言、そして最後の「無等等咒」は真言密教の真言を意味しております。もし一般的に言いますと、この四つの",
+          "context_position": 10937,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "込められています。だから総持というのです。さらに小乗・大乗・密教で用いられる明咒も、広く言えばみな持明であり陀羅尼であり真言",
+          "context_position": 11144,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "行及び成果を含みます。そして第四の「ハラソウギャテイ」は真言密教の行果を含んでいますから、以上でこの部分にもまた小乗、大乗、",
+          "context_position": 11444,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の行果を含んでいますから、以上でこの部分にもまた小乗、大乗、密教のすべてが含まれ尽くしていると解釈できるのです。 最後の「ボ",
+          "context_position": 11476,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "本来の面目に到達しているのであります。 十 質疑応答 心経は密教経典である ある人はこう問うかも知れません。真言陀羅尼という",
+          "context_position": 11998,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "う答えましょう。如来が説かれる教えには二種類あります。顕教と密教の二つです。このうち顕教に合う機根（能力あるいは志向）の人々",
+          "context_position": 12189,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "教では、ある所までしか伝えられない限界があるのです。 一方、密教が理解できるような機根の人々に対しては、一字に千理を含むとい",
+          "context_position": 12285,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "どの字義を用いておられまして、こうした深い趣を含む陀羅尼は、密教の機根の持ち主には大いに役立つのです。 　（一を聞いて十を知",
+          "context_position": 12408,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "者、不空三蔵も皆同じように陀羅尼を説き、如来の秘密語によって密教を解説しています。 したがって、陀羅尼を解説するかしないかは",
+          "context_position": 12612,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "しょう。 また、次のような疑問を持つ人があるでしょう。顕教と密教とは趣旨が全くかけ離れているとすれば、いまこの『心経』のよう",
+          "context_position": 12751,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "れば、いまこの『心経』のような、いわゆる顕教の経典の文中に、密教の深旨が説かれているなどとする解釈は、不可能のはずではないか",
+          "context_position": 12799,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "誰のせいでもない、その人の眼力に依るのであります。『心経』に密教的深旨が含まれているというには、見る人がいわゆる密教眼を持つ",
+          "context_position": 13012,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "心経』に密教的深旨が含まれているというには、見る人がいわゆる密教眼を持つことが大切なのです。 またこの大日如来の真言や修法の",
+          "context_position": 13038,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "かれており、これらは秘中の秘というべきものであります。 真言密教からいえば、釈尊は大日如来の身を変えた姿（応化身）であります",
+          "context_position": 13121,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "誦えたり、手に印を結んだりしたことが『陀羅尼集経』という雑部密教の経典の第三巻に説いてありますが、これらは釈尊の御事跡の中で",
+          "context_position": 13242,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "口に秘密といってもいろいろの程度があるのです。 つまり顕教か密教かの判別は、それを見る人の眼力で決まるものなのであって、こと",
+          "context_position": 13330,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "中にも秘密というべきものもありますし、秘中の極秘ともいうべき密教もある、という具合で、秘密にもいろいろあることも知っておかね",
+          "context_position": 13417,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ばなりません。 十一 結語 この深い醍醐味 以上、 私は真言密教の眼をもって、『般若心経』の五分判釈の大略を述べてまいりまし",
+          "context_position": 13479,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "真言",
+      "term_kana": "",
+      "sanskrit": "mantra",
+      "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "occurrence_count": 30,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "が、この二字には、あらゆる教えが含まれておりまして、それぞれ真言陀羅尼というべきものであります。 さて私たちは、生まれては死",
+          "context_position": 202,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ゆる教えが含まれていて、そのゆえにこの経自体が曼荼羅であり、真言陀羅尼であることを述べる。まさに空海の独壇場である。読者各位",
+          "context_position": 1661,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "してみました。この経を解釈した人はこれまで多くおられますが、真言密教の立場から見たものはまだありません。漢訳もいろいろありま",
+          "context_position": 3315,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "れに対して私はこう答えたいと思います。大日如来の説法すなわち真言密教では、一字の中にすべての教えが含まれており、一つの思いの",
+          "context_position": 3613,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "とがあり、この経は、般若菩薩の心陀羅尼を説いた意義深い心咒（真言陀羅尼）なのであります。般若心を説いた経とは、こうした意味な",
+          "context_position": 5739,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "帰持明分、「故知般若」から「真実不虚」までです。 第五に秘蔵真言分、「羯諦羯諦」から「娑婆訶」までがそれです。 この五つの部",
+          "context_position": 6279,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "三劫成仏といい、声聞乗の六十劫、縁覚乗の百劫などさまざまで、真言密教では即身成仏といって、時間を超越してしまうのです。目的達",
+          "context_position": 6828,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の七種とは、声聞乗、縁覚乗、法相宗、三論宗、天台宗、華厳宗、真言密教の七宗の修行者のことで、前六つは顕教、後の一つが密教です",
+          "context_position": 9965,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "槃の性を識知するが故にかく言う、とある）」、「金（金剛薩埵、真言密教の修行者のこと）」、「智（智薩埵、大乗教の菩薩の総称）」",
+          "context_position": 10111,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "す。経文の「大神咒」「大明咒」「無上咒」「無等等咒」は四種の真言の名称をあらわし、「真実にして虚ならず」は各種の真言の本質を",
+          "context_position": 10801,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "は四種の真言の名称をあらわし、「真実にして虚ならず」は各種の真言の本質を示し、「能く一切の苦を除く」は真言の作用を顕わしてい",
+          "context_position": 10827,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "虚ならず」は各種の真言の本質を示し、「能く一切の苦を除く」は真言の作用を顕わしています。 名称を挙げている中で、初めの「大神",
+          "context_position": 10848,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ています。 名称を挙げている中で、初めの「大神咒」は声聞乗の真言、次の「大明咒」は縁覚乗の真言、第三の「無上咒」は大乗諸教の",
+          "context_position": 10887,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "で、初めの「大神咒」は声聞乗の真言、次の「大明咒」は縁覚乗の真言、第三の「無上咒」は大乗諸教の真言、そして最後の「無等等咒」",
+          "context_position": 10902,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "、次の「大明咒」は縁覚乗の真言、第三の「無上咒」は大乗諸教の真言、そして最後の「無等等咒」は真言密教の真言を意味しております",
+          "context_position": 10919,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "第三の「無上咒」は大乗諸教の真言、そして最後の「無等等咒」は真言密教の真言を意味しております。もし一般的に言いますと、この四",
+          "context_position": 10935,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "上咒」は大乗諸教の真言、そして最後の「無等等咒」は真言密教の真言を意味しております。もし一般的に言いますと、この四つの真言は",
+          "context_position": 10940,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の真言を意味しております。もし一般的に言いますと、この四つの真言はそれぞれが四種の真言を意味し内含していると言えるのですが、",
+          "context_position": 10969,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "す。もし一般的に言いますと、この四つの真言はそれぞれが四種の真言を意味し内含していると言えるのですが、いまは略して単純に四種",
+          "context_position": 10980,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "密教で用いられる明咒も、広く言えばみな持明であり陀羅尼であり真言だといえるのです。 いかなる明咒にも同様にあらゆる教えが内含",
+          "context_position": 11174,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "れぞれの修行者と教えと仏陀が含まれているのです。 第五 秘蔵真言分（仏教のさまざまな教えに真言がある） いよいよ五分判釈の最",
+          "context_position": 11267,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "まれているのです。 第五 秘蔵真言分（仏教のさまざまな教えに真言がある） いよいよ五分判釈の最後の第五秘蔵真言分であります。",
+          "context_position": 11282,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "まざまな教えに真言がある） いよいよ五分判釈の最後の第五秘蔵真言分であります。これをさらに五つに分けて説明いたします。 はじ",
+          "context_position": 11305,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の修行及び成果を含みます。そして第四の「ハラソウギャテイ」は真言密教の行果を含んでいますから、以上でこの部分にもまた小乗、大",
+          "context_position": 11442,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "教えに従って探究するがよいでしょう。以上を頌にまとめます。 真言ダラニとは何と不可思議なものでしょう。これを誦えるだけで、無",
+          "context_position": 11727,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "応答 心経は密教経典である ある人はこう問うかも知れません。真言陀羅尼というものは、如来（仏陀）だけしか用いない秘密のことば",
+          "context_position": 12022,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "いわゆる密教眼を持つことが大切なのです。 またこの大日如来の真言や修法の次第、観想の方法などは『金剛頂経』の中に説かれており",
+          "context_position": 13064,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "に説かれており、これらは秘中の秘というべきものであります。 真言密教からいえば、釈尊は大日如来の身を変えた姿（応化身）であり",
+          "context_position": 13119,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "薩や天人たちのために、仏像を画いたり、壇を作って修法したり、真言を誦えたり、手に印を結んだりしたことが『陀羅尼集経』という雑",
+          "context_position": 13209,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "かねばなりません。 十一 結語 この深い醍醐味 以上、 私は真言密教の眼をもって、『般若心経』の五分判釈の大略を述べてまいり",
+          "context_position": 13477,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大日",
+      "term_kana": "",
+      "sanskrit": "Mahāvairocana",
+      "definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "日"
+      ],
+      "occurrence_count": 23,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "では実施して下さってはいないのです。そこで私（空海）は、仏陀大日如来になりかわってこれを述べてみようと思うのです。どうかこの",
+          "context_position": 427,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "らないのです。 しかしこうしたさまざまな教えがあっても、仏陀大日如来が人々の好みに応じて各種の教えを提供して下さっている、と",
+          "context_position": 1225,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "す。各種の教えが存在するのは、決して無駄ではないのです。仏陀大日如来が人々にさまざまな過程となる教えを示し、人々をより高い立",
+          "context_position": 1295,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "い立場へ次第にいざなっていかれる、と受け止めればよいのです。大日如来が衆生を導く方法は、このようにすべからく深い思いやりの心",
+          "context_position": 1355,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "のは空海であり、その結果としてこれら大乗の四宗は直ちに中央の大日如来の一智一徳を表わすことにつながってくるのである。──訳者",
+          "context_position": 2450,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "いではないか、と。 それに対して私はこう答えたいと思います。大日如来の説法すなわち真言密教では、一字の中にすべての教えが含ま",
+          "context_position": 3602,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "のか、と。 この疑問に対してはこう答えましょう。すぐれた人（大日如来を指す）が人々を救済する場合、相手の機根（志向とか意向）",
+          "context_position": 4076,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "平等建立如来とはこれ、普賢菩薩の異名なり」とあります。また『大日経義釈』には、「普賢菩薩は大日如来の円因なり、しこうして仏は",
+          "context_position": 7309,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の異名なり」とあります。また『大日経義釈』には、「普賢菩薩は大日如来の円因なり、しこうして仏はこれ円因の果なり」とありますし",
+          "context_position": 7324,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "果なり」とありますし、しかも普賢の行願というように、普賢は、大日の菩提心の行願をあらわす尊なのです。そして華厳宗では普賢菩薩",
+          "context_position": 7376,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "るに随ってそれを行ずる菩薩（修行者）もまた異なってきます。『大日経疏』ではこれを四種に分類しています。その一字ずつを採って愚",
+          "context_position": 9845,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "一つが密教です。また、菩薩の分類はいろいろですが、先述した『大日経疏』には、「愚（愚童薩埵、六道を輪廻する凡夫）」、「識（『",
+          "context_position": 10020,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "経疏』には、「愚（愚童薩埵、六道を輪廻する凡夫）」、「識（『大日経疏』では有識薩埵、識性は二乗、分に──部分的に──涅槃の性",
+          "context_position": 10052,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "が含まれている、といえますし、煩悩を持ったままのこの身体で、大日如来の世界に生きることができますし、すべてのものの原点にたど",
+          "context_position": 11827,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "う考えますと、この世のことはあくまで仮の宿の如きもので、法身大日如来の実在を知りさえすれば、自心のいまの状態で、最も確実な悟",
+          "context_position": 11899,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の状態で、最も確実な悟りの境地に居ることがわかるのです。法身大日と共にある自分こそ間違いなく人間本来の面目に到達しているので",
+          "context_position": 11950,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "です。このうち顕教に合う機根（能力あるいは志向）の人々には、大日如来は、詳しい説明や長い解説を用いて教えられ、したがって顕教",
+          "context_position": 12224,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "羅尼（総持）を用いて法を説かれるのです。 でありますから、『大日経』などでは、大日如来おんみずから阿字とか奄字などの字義を用",
+          "context_position": 12352,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "て法を説かれるのです。 でありますから、『大日経』などでは、大日如来おんみずから阿字とか奄字などの字義を用いておられまして、",
+          "context_position": 12361,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "。──訳者注） 『菩提心論』の作者と伝えられる竜猛菩薩も、『大日経』の伝訳者、善無畏三蔵も、さらに『金剛頂経』系統の伝訳者、",
+          "context_position": 12552,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "は説かないで一向に差しつかえないと思われます。いずれの場合も大日如来のお心にかなっているといえましょう。 また、次のような疑",
+          "context_position": 12703,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "、見る人がいわゆる密教眼を持つことが大切なのです。 またこの大日如来の真言や修法の次第、観想の方法などは『金剛頂経』の中に説",
+          "context_position": 13059,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "中の秘というべきものであります。 真言密教からいえば、釈尊は大日如来の身を変えた姿（応化身）でありますが、その釈尊も、かって",
+          "context_position": 13132,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法界",
+      "term_kana": "",
+      "sanskrit": "dharma-dhātu",
+      "definition": "宇宙の真実相。一切法の根本領域。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "界"
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "なった二つのものを即（イコール）で結ぶという意味で、華厳宗の法界縁起の教えが説かれていると考えられますが、そうなれば普賢菩薩",
+          "context_position": 2041,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "華厳宗では普賢菩薩のお心を大切にしていますから、華厳宗でいう法界縁起で円融三法の教理の事事無礙法界の極地を示しているのです。",
+          "context_position": 7429,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ていますから、華厳宗でいう法界縁起で円融三法の教理の事事無礙法界の極地を示しているのです。 「色即是空」という、二つの物を「",
+          "context_position": 7446,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "。 「色即是空」という、二つの物を「即」で結びつける表現は、法界縁起の「一即一切、一切即一」の重重無尽縁起にほかならないわけ",
+          "context_position": 7490,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "同一だという経の文は、事と理とは同一だとする華厳宗の事事無礙法界の法界縁起を指しているのです。 素材である金と、金で造られた",
+          "context_position": 7641,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "という経の文は、事と理とは同一だとする華厳宗の事事無礙法界の法界縁起を指しているのです。 素材である金と、金で造られた獅子の",
+          "context_position": 7644,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "釈の大略を述べてまいりました。 その結果この経典は一字一句が法界に遍満しており、その内容は過去、現在、未来の三世を貫いて妥当",
+          "context_position": 13528,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法身",
+      "term_kana": "",
+      "sanskrit": "dharmakāya",
+      "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "身"
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "無我、法無我の大乗の立場に立ち、三阿僧祇という長時間をかけて法身を証するというのが法相宗です。 心外の法は有にあらず、第八ア",
+          "context_position": 8379,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": " そう考えますと、この世のことはあくまで仮の宿の如きもので、法身大日如来の実在を知りさえすれば、自心のいまの状態で、最も確実",
+          "context_position": 11897,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "いまの状態で、最も確実な悟りの境地に居ることがわかるのです。法身大日と共にある自分こそ間違いなく人間本来の面目に到達している",
+          "context_position": 11948,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "即身成仏",
+      "term_kana": "",
+      "sanskrit": "sa-deha-prāpti-buddhatva",
+      "definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "成",
+        "仏"
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "い、声聞乗の六十劫、縁覚乗の百劫などさまざまで、真言密教では即身成仏といって、時間を超越してしまうのです。目的達成までの時間差も",
+          "context_position": 6834,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "阿字",
+      "term_kana": "",
+      "sanskrit": "a-kāra",
+      "definition": "密教根本字。梵語五十字門の最初の字。本不生を象徴。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "。 でありますから、『大日経』などでは、大日如来おんみずから阿字とか奄字などの字義を用いておられまして、こうした深い趣を含む",
+          "context_position": 12371,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三密",
+      "term_kana": "",
+      "sanskrit": "trīṇi guhyāni",
+      "definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "密"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "三摩地",
+      "term_kana": "",
+      "sanskrit": "samādhi",
+      "definition": "禅定。心を一境に住して散乱を離れた状態。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "即身",
+      "term_kana": "",
+      "sanskrit": "sa-deha",
+      "definition": "即身成仏の略。父母所生の身のまま現生で仏となる。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "大悲",
+      "term_kana": "",
+      "sanskrit": "mahā-karuṇā",
+      "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "大空三昧",
+      "term_kana": "",
+      "sanskrit": "mahā-śūnyatā-samādhi",
+      "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "心王",
+      "term_kana": "",
+      "sanskrit": "citta-rāja",
+      "definition": "八識の根本識。心の主体・統括者。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "智剣",
+      "term_kana": "",
+      "sanskrit": "jñāna-khaḍga",
+      "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "智",
+        "剣"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "本不生",
+      "term_kana": "",
+      "sanskrit": "ādyanutpāda",
+      "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "無縁慈悲",
+      "term_kana": "",
+      "sanskrit": "an-ārambaṇa-karuṇā",
+      "definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "慈",
+        "悲"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "玄機",
+      "term_kana": "",
+      "sanskrit": "—",
+      "definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "玄",
+        "機"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "遮那",
+      "term_kana": "",
+      "sanskrit": "Vairocana",
+      "definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "遮",
+        "那"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "阿字本不生",
+      "term_kana": "",
+      "sanskrit": "ā-di-an-utpāda",
+      "definition": "密教根本教義。阿字（a-kāra）が本来不生（不滅）であることを観じ、万物の本源を悟る。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}
