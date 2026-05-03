@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mayu11210/buddhist-data-api/schemas/kukai_corpus_dict.schema.json",
+  "title": "弘法大師著作・関連著作（dict 型）共通骨格スキーマ",
+  "description": "data/kukai/ 配下の dict 型ファイル（性霊集 shoryoshu_miyasaka.json 以外）に共通する基本骨格を定義する。図書館モデル方針（buddhist-data-api 倉庫設計・2026-05-03）の倉庫原則に従い、専門サブセクション（著作固有の分析データ）は additionalProperties=true で温存する。",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["section", "source"],
+  "properties": {
+    "section": {
+      "type": "string",
+      "description": "著作分類名・著作タイトル（例: 即身成仏義 / 般若心経秘鍵 / 弁顕密二教論）。"
+    },
+    "source": {
+      "type": "string",
+      "description": "出典記述（例: 弘法大師空海著作 / 龍樹菩薩著・真言宗根本論書）。"
+    },
+    "description": {
+      "type": "string",
+      "description": "著作の簡単な説明・成立背景。任意。"
+    },
+    "text": {
+      "type": "string",
+      "description": "kaimyo-app 用 引用集（法話・戒名生成で使う名句 + 故人への応用解説）。setup_kukai.js（一度きり初期化スクリプト・現在 _archive/scripts/ に退避）で seed されたフィールド。本文ではなく、アプリ向けに事前キュレーションされた抜粋であることに注意。"
+    },
+    "kakikudashi": {
+      "type": "string",
+      "description": "書き下し本文（漢文を訓読したもの）。原則 1：取込済の本文は変更しない。"
+    },
+    "gendaigoyaku": {
+      "type": "string",
+      "description": "現代語訳。倉庫原則「補注は豊かに（典故・歴史背景・字義解釈）」「直訳寄り」「密教教学用語は原語維持」に従う。"
+    },
+    "genten": {
+      "type": "string",
+      "description": "漢文原典（主に SAT 大正新脩大蔵経）。性霊集・三教指帰など SAT 範疇外の文集系では空文字または不在。"
+    },
+    "genten_source": {
+      "type": "string",
+      "description": "原典の出典 URL ないし参照記述（例: SAT https://21dzk.l.u-tokyo.ac.jp/SAT/... ）。"
+    }
+  },
+  "$comment": "専門サブセクション（吽字義の ji_so/ji_gi/unjiji_shishin 等、弁顕密二教論の sanshin_setsu/gojumondobu 等、御請来目録の bibliographic_info/honbun/tag 等）は additionalProperties=true で許容する。これらは住職と Cowork が過去に詰めた、その著作固有の分析データであり、倉庫原則「データを限定しない」「メタデータは足し算」に従って温存する。data/kukai/_corpus_manifest.json で各ファイルの専門サブセクション一覧を tracking する。"
+}

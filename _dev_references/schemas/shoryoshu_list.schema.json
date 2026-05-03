@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mayu11210/buddhist-data-api/schemas/shoryoshu_list.schema.json",
+  "title": "性霊集 (shoryoshu_miyasaka.json) リスト型スキーマ",
+  "description": "data/kukai/shoryoshu_miyasaka.json 専用スキーマ。112 篇のフラットなリスト構造で、トップレベルの wrapper オブジェクトを持たない。CLAUDE.md 原則 1：既存 JSON 構造を変更しない（112 entries・ページ構造・篇名・kakikudashi）。本ファイルの状態は data/kukai/_corpus_manifest.json で tracking する。",
+  "type": "array",
+  "minItems": 112,
+  "maxItems": 112,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["巻番号", "篇名", "ページ"],
+    "properties": {
+      "巻番号": {
+        "type": "string",
+        "description": "性霊集の巻名（巻第一〜巻第十）。"
+      },
+      "篇名": {
+        "type": "string",
+        "description": "篇のタイトル。"
+      },
+      "原文題": {
+        "type": "string",
+        "description": "原文での題名（書き下しと表記が異なる場合あり・原則 9 で両方保持）。"
+      },
+      "詩形": {
+        "type": "string",
+        "description": "詩・散文・序など。任意。"
+      },
+      "総字数": {
+        "anyOf": [{"type": "integer"}, {"type": "string"}],
+        "description": "篇の字数。"
+      },
+      "ページ": {
+        "type": "array",
+        "description": "篇内のページ単位の本文配列。2026-04-27 で全 112 篇単一ページ構造に統一済（page_number=null 統一）。",
+        "items": {
+          "type": "object",
+          "required": ["kakikudashi"],
+          "properties": {
+            "page_number": {
+              "anyOf": [{"type": "integer"}, {"type": "null"}],
+              "description": "ページ番号。2026-04-27 で全 112 篇 null に統一済。"
+            },
+            "kakikudashi": {
+              "type": "string",
+              "description": "書き下し本文。出典：高野山 Kindle 本『遍照発揮性霊集』。原則 1 で変更不可（idx=106 の 1099 字復元のみ例外運用済）。"
+            },
+            "gendaigoyaku": {
+              "type": "string",
+              "description": "現代語訳。フェーズ 2 完結（2026-04-27）で全 112 篇高品質訳完備。"
+            }
+          }
+        }
+      },
+      "chu": {
+        "type": "string",
+        "description": "注釈。2026-04-25 全消去・現状停止中（将来候補 K で再開検討）。"
+      }
+    }
+  },
+  "$comment": "性霊集は SAT 大蔵経範疇外（文集系）のため genten/genten_source フィールドは持たない。漢文原文の断片は data/kukai/shoryoshu.json の text_revised フィールドに序文部分のみ保存（補助メタファイル扱い）。"
+}
