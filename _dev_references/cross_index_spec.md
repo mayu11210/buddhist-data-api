@@ -1,7 +1,7 @@
 # 横断索引化フェーズ B 設計書（cross_index_spec.md）
 
 作成日：2026-04-27（フェーズ B 着手セッション）
-版：**v1.5（G2 dict 型 8 著作 Tier 1 索引化完了）**
+版：**v1.6（G2-B dict 型 8 著作 Tier 2-4 sanskrit 索引化完了）**
 
 更新履歴：
 - 2026-04-27 v0.1 ドラフト作成 + 典故書名パイロット抽出（256 種・1187 件）
@@ -11,6 +11,7 @@
 - 2026-04-27 v1.3 昇格：Tier 3-5 人名抽出（81 種・1,197 件・9 分類・109/112 篇）+ Tier 3-6 地名抽出（70 種・466 件・18 分類・92/112 篇）完了
 - 2026-04-27 v1.4 昇格：kaimyo-app 連携 API 設計編（§13 追加）。7 索引上に統合 API レイヤを設計、CHARACTERISTIC_TO_ICHIJI / THEME_EXPANSION / 共起ロジックを確定（候補 D 第 1 セッション）
 - 2026-05-03 v1.5 昇格：**G2 着手**。dict 型 8 著作（弁顕密二教論・吽字義・声字実相義・即身成仏義・般若心経秘鍵・秘蔵宝鑰・大日経疏巻第一・三教指帰）に Tier 1（terms + citations + kukai_works）を展開。`extract_terms_dict.py` / `extract_citations_dict.py` 新設・著作別 7 索引方針確定（§14 追加）
+- 2026-05-04 v1.6 昇格：**G2-B**。dict 型 8 著作に Tier 2-4 sanskrit を展開。`extract_sanskrit_dict.py` 新設。8 著作合計 1,460 canonical / 2,017 occurrences（うち大日経疏巻第一が 1,409 / 1,955 で圧倒的多数）。9 著作合計 1,898 canonical / 2,671 occurrences（改修前比 occ 4.08 倍）。著作間の梵語注記密度の差異が顕在化（弘大全集六由来の既訳 4 著作で sanskrit=0、Cowork 高品質訳の大日経疏で 1,955）。§15 追加
 
 ---
 
@@ -1502,3 +1503,95 @@ G4 ⏭️ L2 字索引の新設
 G5 ⏭️ L3 by_* 汎用 endpoint の整備
 G6 ⏭️ kaimyo-app 暫定ハードコード 3 種の置き換え API
 ```
+
+---
+
+## 15. G2-B dict 型 8 著作 Tier 2-4 sanskrit 索引化（v1.6・2026-05-04）
+
+G2-A（§14）に続く第 2 弾。性霊集に続いて dict 型 8 著作の梵語 IAST を索引化し、横断検索の対象を sanskrit でも 1 → 9 著作に拡張した。
+
+### 15.1 新設スクリプト
+
+`_dev_references/extract_sanskrit_dict.py`（dict 型 IAST 梵語抽出・extract_sanskrit.py の dict 版）
+
+- `--corpus <filename>` または `--corpus all` で実行
+- 正規表現・EXCLUDE_TOKENS（14 ノイズ語）・ALIAS_MAP・canonicalize ロジックは性霊集版と完全互換
+- トップレベル `gendaigoyaku` のみを抽出対象とする（kakikudashi・genten・text は対象外）
+
+### 15.2 G2-B の生成結果（2026-05-04）
+
+| 著作 | gendaigoyaku 字数 | canonical 数 | 延べ件数 | IAST 含有 | ASCII 純粋 | 上位 3 |
+|---|---|---|---|---|---|---|
+| nikyo-ron（弁顕密二教論）| 38,816 | 0 | 0 | 0 | 0 | — |
+| ujiji（吽字義）| 21,863 | 35 | 37 | 13 | 22 | dha=2 / hetu=2 / bandhana=1 |
+| shoji-jisso（声字実相義）| 14,087 | 0 | 0 | 0 | 0 | — |
+| sokushin-jobutsu（即身成仏義）| 20,298 | 9 | 11 | 1 | 8 | bodhi=2 / buddha=2 / anutpāda=1 |
+| hannya-hiken（般若心経秘鍵）| 14,186 | 7 | 14 | 5 | 2 | bhā=2 / buddha=2 / mahā=2 |
+| hizo-houyaku（秘蔵宝鑰）| 75,246 | 0 | 0 | 0 | 0 | — |
+| dainichikyo-sho-vol1（大日経疏巻第一）| 101,714 | **1,409** | **1,955** | **1,144** | **265** | upāya=14 / prapañca=11 / samādhi=10 |
+| sankyo-shiki（三教指帰）| 44,863 | 0 | 0 | 0 | 0 | — |
+| **8 著作合計** | **331,073** | **1,460** | **2,017** | **1,163** | **297** | — |
+
+### 15.3 重要な発見：著作間の梵語注記密度の格差
+
+dict 型 8 著作の sanskrit 索引化で、各著作の現代語訳補注密度の格差が顕在化した：
+
+**Cowork 高品質訳（典故・梵語注記が濃密）**
+- dainichikyo-sho-vol1（大日経疏巻第一）：1,955 件・梵語注記が圧倒的多数（『大日経』疏として大量の Sanskrit 引用）
+- 性霊集 112 篇（参考・改修前から）：654 件
+
+**ujiji・hannya-hiken・sokushin-jobutsu（部分的に Cowork 補注あり）**
+- 11〜37 件・密教字義論（吽字義）等で字源の梵語が直接言及されているケース
+
+**弘大全集六 PDF Gemini OCR 由来の既訳（補注が薄い）**
+- nikyo-ron（弁顕密二教論）：0 件
+- shoji-jisso（声字実相義）：0 件
+- hizo-houyaku（秘蔵宝鑰）：0 件
+- sankyo-shiki（三教指帰）：0 件
+
+これは現代語訳の **品質特性** であり、既訳の限界を反映している。将来 Tier 2-4 を充実させる場合、これら 4 著作の現代語訳を Cowork 高品質モードで再構築する候補（候補 G2-G）も検討余地あり。
+
+### 15.4 横断検索の現状（2026-05-04 時点）
+
+`_corpus_manifest.json` の `summary.indexed_corpora`：
+
+```
+indexed_corpora:
+  terms:         9 / 10 primary_corpus（菩提心論除く）
+  citations:     9 / 10
+  kukai_works:   9 / 10
+  sanskrit:      9 / 10  ← G2-B で 1 → 9 に拡大
+  kaimyo_jukugo: 1 / 10
+  persons:       1 / 10
+  places:        1 / 10
+```
+
+**Tier 1 + sanskrit 全 9 著作完成。** Tier 2-3（kaimyo_jukugo / persons / places）は性霊集のみ。
+
+### 15.5 改修前後の比較（occurrences）
+
+| カテゴリ | 改修前（性霊集のみ）| dict 8 著作追加 | 9 著作合計 | 倍率 |
+|---|---:|---:|---:|---:|
+| sanskrit | 654 | +2,017 | 2,671 | **4.08x** |
+
+dainichikyo-sho-vol1 の 1,955 件が突出して牽引。残り 7 著作分は合計 62 件で、補注密度の品質次第で大きく動く範囲。
+
+### 15.6 残作業（G2 後続）
+
+| サブステップ | 内容 | 工数 |
+|---|---|---|
+| ✅ G2-A | dict 型 8 著作の Tier 1（terms + citations + kukai_works）| 1 セッション（2026-05-03）|
+| ✅ G2-B | dict 型 8 著作の Tier 2-4 sanskrit | 1 セッション（本セッション）|
+| ⏭️ G2-C | dict 型 8 著作の Tier 2-3 kaimyo_jukugo | 1〜2 セッション |
+| ⏭️ G2-D | dict 型 8 著作の Tier 3-5/6 persons / places | 1〜2 セッション |
+| ⏭️ G2-E | 横断集約ファイル（index_<category>_all.json）生成 | 0.5 セッション |
+| ⏭️ G2-F | 菩提心論 gendaigoyaku 取込後の再索引化 | 0.5 セッション |
+| ⏭️ G2-G（新設候補）| 既訳 4 著作（nikyo-ron / shoji-jisso / hizo-houyaku / sankyo-shiki）の Cowork 高品質訳化（梵語注記濃密化）| 著作 1 つあたり 5〜10 セッション |
+
+### 15.7 v1.6 完成度評価
+
+- ✅ **dict 型 sanskrit 索引化フロー確立**：トップレベル gendaigoyaku から IAST 候補を網羅抽出し、`corpus_id` + `context_position` で位置特定
+- ✅ **8 著作 sanskrit 索引完成**：合計 1,460 canonical / 2,017 occurrences（NULL バイト 0 件・JSON 整合 OK）
+- ✅ **重要発見：補注密度の品質格差**：Cowork 高品質訳と弘大全集六 OCR 既訳で sanskrit カバレッジに大差。G2-G 候補として記録
+- ✅ **manifest 統合**：`summary.indexed_corpora.sanskrit` を 1 → 9 に更新
+- ⏭️ 次セッション（G2-C 以降）：kaimyo_jukugo / persons / places の dict 型版抽出

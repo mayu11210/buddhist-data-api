@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "hannya-hiken.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 14186,
+  "summary": {
+    "unique_terms": 7,
+    "unique_canonicals": 7,
+    "total_occurrences": 14,
+    "with_diacritics_count": 5,
+    "ascii_only_count": 2,
+    "multi_form_canonicals": 0
+  },
+  "entries": [
+    {
+      "canonical": "bhā",
+      "representative_form": "bhā",
+      "aliases": [
+        {
+          "form": "bhā",
+          "count": 2
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "はしゃまかはらじゃはらみたかりだそたらん｣ （Buddha bhā mahā prajñā pāramitā daya sūt",
+          "context_position": 4566,
+          "sanskrit_form": "bhā"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "｣は仏陀（Buddha）で円満覚者の意、次の二字は｢はしゃ｣bhāで奥深い趣を説くの意、次の二字は｢まか｣mahāで大・多・勝",
+          "context_position": 4648,
+          "sanskrit_form": "bhā"
+        }
+      ]
+    },
+    {
+      "canonical": "buddha",
+      "representative_form": "Buddha",
+      "aliases": [
+        {
+          "form": "Buddha",
+          "count": 2
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "書けば、｢ぼだはしゃまかはらじゃはらみたかりだそたらん｣ （Buddha bhā mahā prajñā pāramitā daya",
+          "context_position": 4559,
+          "sanskrit_form": "Buddha"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ya sūtr） となりましょう。最初の二字｢ぼだ｣は仏陀（Buddha）で円満覚者の意、次の二字は｢はしゃ｣bhāで奥深い趣を説く",
+          "context_position": 4623,
+          "sanskrit_form": "Buddha"
+        }
+      ]
+    },
+    {
+      "canonical": "daya",
+      "representative_form": "daya",
+      "aliases": [
+        {
+          "form": "daya",
+          "count": 2
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ddha bhā mahā prajñā pāramitā daya sūtr） となりましょう。最初の二字｢ぼだ｣は仏陀（Bu",
+          "context_position": 4591,
+          "sanskrit_form": "daya"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ちなすべきことをなしおえる、という意、次の二字はで｢かりだ｣daya内心の意、次の二字は｢そたらん｣でsūtr経の意であります。",
+          "context_position": 4770,
+          "sanskrit_form": "daya"
+        }
+      ]
+    },
+    {
+      "canonical": "mahā",
+      "representative_form": "mahā",
+      "aliases": [
+        {
+          "form": "mahā",
+          "count": 2
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "かはらじゃはらみたかりだそたらん｣ （Buddha bhā mahā prajñā pāramitā daya sūtr） とな",
+          "context_position": 4570,
+          "sanskrit_form": "mahā"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "字は｢はしゃ｣bhāで奥深い趣を説くの意、次の二字は｢まか｣mahāで大・多・勝の三義を含む。次の二字は｢はらじゃ｣prajñā",
+          "context_position": 4671,
+          "sanskrit_form": "mahā"
+        }
+      ]
+    },
+    {
+      "canonical": "prajñā",
+      "representative_form": "prajñā",
+      "aliases": [
+        {
+          "form": "prajñā",
+          "count": 2
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "はらみたかりだそたらん｣ （Buddha bhā mahā prajñā pāramitā daya sūtr） となりましょう。最",
+          "context_position": 4575,
+          "sanskrit_form": "prajñā"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "か｣mahāで大・多・勝の三義を含む。次の二字は｢はらじゃ｣prajñāで智慧の意、次の三字は｢はらみた｣pāramitāで彼岸に到",
+          "context_position": 4699,
+          "sanskrit_form": "prajñā"
+        }
+      ]
+    },
+    {
+      "canonical": "pāramitā",
+      "representative_form": "pāramitā",
+      "aliases": [
+        {
+          "form": "pāramitā",
+          "count": 2
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "そたらん｣ （Buddha bhā mahā prajñā pāramitā daya sūtr） となりましょう。最初の二字｢ぼだ｣は",
+          "context_position": 4582,
+          "sanskrit_form": "pāramitā"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "は｢はらじゃ｣prajñāで智慧の意、次の三字は｢はらみた｣pāramitāで彼岸に到る、すなわちなすべきことをなしおえる、という意、次",
+          "context_position": 4722,
+          "sanskrit_form": "pāramitā"
+        }
+      ]
+    },
+    {
+      "canonical": "sūtr",
+      "representative_form": "sūtr",
+      "aliases": [
+        {
+          "form": "sūtr",
+          "count": 2
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "bhā mahā prajñā pāramitā daya sūtr） となりましょう。最初の二字｢ぼだ｣は仏陀（Buddha）",
+          "context_position": 4596,
+          "sanskrit_form": "sūtr"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "二字はで｢かりだ｣daya内心の意、次の二字は｢そたらん｣でsūtr経の意であります。 もしこの経題を総括して説けば人・法・喩の",
+          "context_position": 4791,
+          "sanskrit_form": "sūtr"
+        }
+      ]
+    }
+  ]
+}

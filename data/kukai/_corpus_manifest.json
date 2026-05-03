@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-03",
+  "generated_at": "2026-05-04",
   "description": "data/kukai/ 配下の全著作ファイルのメタカタログ（図書館モデルの目録カード相当）。倉庫原則「メタデータは足し算」に従い、原本ファイルを変更せず、本マニフェストで全ファイルの状態を一元管理する。アンダースコア始まりのメタファイル（本ファイル等）はカタログ対象から除外。",
   "design_policy_ref": "kaimyo-app/設計方針メモ_2026-05-03_真言宗教えデータ整理_buddhist-data-api倉庫設計.md",
   "schema_refs": {
@@ -38,7 +38,7 @@
       "terms": 9,
       "citations": 9,
       "kukai_works": 9,
-      "sanskrit": 1,
+      "sanskrit": 9,
       "kaimyo_jukugo": 1,
       "persons": 1,
       "places": 1
@@ -124,6 +124,14 @@
           "present": true,
           "unique_terms": 3,
           "total_occurrences": 11
+        },
+        "sanskrit": {
+          "file": "index_dainichikyo-sho-vol1_sanskrit.json",
+          "present": true,
+          "unique_terms": 1409,
+          "total_occurrences": 1955,
+          "with_diacritics_count": 1144,
+          "ascii_only_count": 265
         }
       }
     },
@@ -223,6 +231,14 @@
           "present": true,
           "unique_terms": 1,
           "total_occurrences": 1
+        },
+        "sanskrit": {
+          "file": "index_hannya-hiken_sanskrit.json",
+          "present": true,
+          "unique_terms": 7,
+          "total_occurrences": 14,
+          "with_diacritics_count": 5,
+          "ascii_only_count": 2
         }
       }
     },
@@ -268,6 +284,14 @@
           "present": true,
           "unique_terms": 2,
           "total_occurrences": 19
+        },
+        "sanskrit": {
+          "file": "index_hizo-houyaku_sanskrit.json",
+          "present": true,
+          "unique_terms": 0,
+          "total_occurrences": 0,
+          "with_diacritics_count": 0,
+          "ascii_only_count": 0
         }
       }
     },
@@ -392,6 +416,14 @@
           "present": true,
           "unique_terms": 3,
           "total_occurrences": 8
+        },
+        "sanskrit": {
+          "file": "index_nikyo-ron_sanskrit.json",
+          "present": true,
+          "unique_terms": 0,
+          "total_occurrences": 0,
+          "with_diacritics_count": 0,
+          "ascii_only_count": 0
         }
       }
     },
@@ -461,6 +493,14 @@
           "present": true,
           "unique_terms": 1,
           "total_occurrences": 1
+        },
+        "sanskrit": {
+          "file": "index_sankyo-shiki_sanskrit.json",
+          "present": true,
+          "unique_terms": 0,
+          "total_occurrences": 0,
+          "with_diacritics_count": 0,
+          "ascii_only_count": 0
         }
       }
     },
@@ -529,6 +569,14 @@
           "present": true,
           "unique_terms": 1,
           "total_occurrences": 2
+        },
+        "sanskrit": {
+          "file": "index_shoji-jisso_sanskrit.json",
+          "present": true,
+          "unique_terms": 0,
+          "total_occurrences": 0,
+          "with_diacritics_count": 0,
+          "ascii_only_count": 0
         }
       }
     },
@@ -676,6 +724,14 @@
           "present": true,
           "unique_terms": 2,
           "total_occurrences": 5
+        },
+        "sanskrit": {
+          "file": "index_sokushin-jobutsu_sanskrit.json",
+          "present": true,
+          "unique_terms": 9,
+          "total_occurrences": 11,
+          "with_diacritics_count": 1,
+          "ascii_only_count": 8
         }
       }
     },
@@ -731,6 +787,14 @@
           "present": true,
           "unique_terms": 0,
           "total_occurrences": 0
+        },
+        "sanskrit": {
+          "file": "index_ujiji_sanskrit.json",
+          "present": true,
+          "unique_terms": 35,
+          "total_occurrences": 37,
+          "with_diacritics_count": 13,
+          "ascii_only_count": 22
         }
       }
     }
@@ -749,7 +813,7 @@
       "places": "Tier 3-6 地名"
     },
     "g2_status": {
-      "description": "G2（dict 型 8 著作への Tier 1 展開）2026-05-03 完了",
+      "description": "G2-A（Tier 1: terms+citations+kukai_works）2026-05-03 完了 / G2-B（Tier 2-4: sanskrit）2026-05-04 完了",
       "list_corpus_full_index": [
         "shoryoshu_miyasaka.json"
       ],

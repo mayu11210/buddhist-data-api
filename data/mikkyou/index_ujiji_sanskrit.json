@@ -1,0 +1,773 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "ujiji.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 21863,
+  "summary": {
+    "unique_terms": 35,
+    "unique_canonicals": 35,
+    "total_occurrences": 37,
+    "with_diacritics_count": 13,
+    "ascii_only_count": 22,
+    "multi_form_canonicals": 1
+  },
+  "entries": [
+    {
+      "canonical": "dha",
+      "representative_form": "dha",
+      "aliases": [
+        {
+          "form": "dha",
+          "count": 2
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "を示します。 すべてのものには本来的には執着なしという真実がdha（執着）の字の字義であれば、汙字の字義もまた同様に無執着を示",
+          "context_position": 7811,
+          "sanskrit_form": "dha"
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "）は得られないものだという真実がdharmadhātuの頭字dhaの字義ですから、汙字の実義もまったく同様に無法界（法界なし）",
+          "context_position": 8121,
+          "sanskrit_form": "dha"
+        }
+      ]
+    },
+    {
+      "canonical": "hetu",
+      "representative_form": "Hetu",
+      "aliases": [
+        {
+          "form": "Hetu",
+          "count": 1
+        },
+        {
+          "form": "hetu",
+          "count": 1
+        }
+      ],
+      "alias_count": 2,
+      "has_diacritics": false,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "に賀字の義というのは、中央の本尊のお身体に相当します。賀字はHetu（因）の最初の字ですから因の義をあらわします。『大日経疏』巻",
+          "context_position": 258,
+          "sanskrit_form": "Hetu"
+        },
+        {
+          "corpus_id": "ujiji",
+          "context": "に諦不可得なのです。 すべてのものについて因不可得というのがhetu（因）の頭字haの字義でありますから、汙字門も同様に因不可得",
+          "context_position": 9030,
+          "sanskrit_form": "hetu"
+        }
+      ]
+    },
+    {
+      "canonical": "bandhana",
+      "representative_form": "bandhana",
+      "aliases": [
+        {
+          "form": "bandhana",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "字の実義です。 すべてのものは縛ることができない、というのがbandhana（縛）の頭字baの字義でありますから、汙字の実義も同様に無縛",
+          "context_position": 8372,
+          "sanskrit_form": "bandhana"
+        }
+      ]
+    },
+    {
+      "canonical": "bha",
+      "representative_form": "bha",
+      "aliases": [
+        {
+          "form": "bha",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "は有るということが得られないというのがbhava（有）の頭字bhaの字義でありますから、汙字の実義も同様に無有（有ること無し）",
+          "context_position": 8456,
+          "sanskrit_form": "bha"
+        }
+      ]
+    },
+    {
+      "canonical": "bhava",
+      "representative_form": "bhava",
+      "aliases": [
+        {
+          "form": "bhava",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "味です。 すべてのものは有るということが得られないというのがbhava（有）の頭字bhaの字義でありますから、汙字の実義も同様に無",
+          "context_position": 8445,
+          "sanskrit_form": "bhava"
+        }
+      ]
+    },
+    {
+      "canonical": "cha",
+      "representative_form": "cha",
+      "aliases": [
+        {
+          "form": "cha",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "すべてのものは無影像であるというのがchāyā（影像）の頭字chaの字義ですから、汙字門も同様に無影像を示しています。 すべて",
+          "context_position": 7427,
+          "sanskrit_form": "cha"
+        }
+      ]
+    },
+    {
+      "canonical": "chāyā",
+      "representative_form": "chāyā",
+      "aliases": [
+        {
+          "form": "chāyā",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "離遷変を示しています。 すべてのものは無影像であるというのがchāyā（影像）の頭字chaの字義ですから、汙字門も同様に無影像を示",
+          "context_position": 7415,
+          "sanskrit_form": "chāyā"
+        }
+      ]
+    },
+    {
+      "canonical": "cyuti",
+      "representative_form": "cyuti",
+      "aliases": [
+        {
+          "form": "cyuti",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "しています。 すべてのものは遷変を超越している、という真実がcyuti（遷変）の頭字であるcaの字義ですから、汙字門も同様に離遷変",
+          "context_position": 7353,
+          "sanskrit_form": "cyuti"
+        }
+      ]
+    },
+    {
+      "canonical": "dharmadhātu",
+      "representative_form": "dharmadhātu",
+      "aliases": [
+        {
+          "form": "dharmadhātu",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "ことについて法界（悟りの世界）は得られないものだという真実がdharmadhātuの頭字dhaの字義ですから、汙字の実義もまったく同様に無法界",
+          "context_position": 8107,
+          "sanskrit_form": "dharmadhātu"
+        }
+      ]
+    },
+    {
+      "canonical": "dāna",
+      "representative_form": "dāna",
+      "aliases": [
+        {
+          "form": "dāna",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "。 すべてのものについて施（ほどこし）は得られないというのがdāna（施）の頭字であるdaの字義ですから、汙字の実義も同様に施し",
+          "context_position": 8025,
+          "sanskrit_form": "dāna"
+        }
+      ]
+    },
+    {
+      "canonical": "gati",
+      "representative_form": "gati",
+      "aliases": [
+        {
+          "form": "gati",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "ます。 すべてのものは行くことをしない（無行）、という真実をgati（行く）のga字は象徴していますから、汙字の実義も同様に無行",
+          "context_position": 7205,
+          "sanskrit_form": "gati"
+        }
+      ]
+    },
+    {
+      "canonical": "gha",
+      "representative_form": "gha",
+      "aliases": [
+        {
+          "form": "gha",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "合わさって成立している）という真実がghana（合成）の頭字ghaの字義ですから、同様に汙字門もまた無一合相を示しています。 ",
+          "context_position": 7297,
+          "sanskrit_form": "gha"
+        }
+      ]
+    },
+    {
+      "canonical": "ghana",
+      "representative_form": "ghana",
+      "aliases": [
+        {
+          "form": "ghana",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "は無一合相（多くのものが合わさって成立している）という真実がghana（合成）の頭字ghaの字義ですから、同様に汙字門もまた無一合",
+          "context_position": 7285,
+          "sanskrit_form": "ghana"
+        }
+      ]
+    },
+    {
+      "canonical": "hetva",
+      "representative_form": "Hetva",
+      "aliases": [
+        {
+          "form": "Hetva",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "ら因の義をあらわします。『大日経疏』巻七の文に「梵には係嚩（Hetva）といいます。すなわちこれは因縁の義です。因縁には六種あると",
+          "context_position": 303,
+          "sanskrit_form": "Hetva"
+        }
+      ]
+    },
+    {
+      "canonical": "jha",
+      "representative_form": "jha",
+      "aliases": [
+        {
+          "form": "jha",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": " すべてのものには無戦敵（敵対するものがいない）という真実がjha（戦敵）の字義ですから、汙字の実義も同様に無戦敵となります。",
+          "context_position": 7552,
+          "sanskrit_form": "jha"
+        }
+      ]
+    },
+    {
+      "canonical": "jāti",
+      "representative_form": "jāti",
+      "aliases": [
+        {
+          "form": "jāti",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "います。 すべてのものは無生（生ずることは無い）という真実がjāti（生）の頭字のjaの字義ですから、汙字門もまた同様に無生を示",
+          "context_position": 7482,
+          "sanskrit_form": "jāti"
+        }
+      ]
+    },
+    {
+      "canonical": "kha",
+      "representative_form": "kha",
+      "aliases": [
+        {
+          "form": "kha",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "べてのものは虚空に等しく無相であるという真実を示しているのがkha（虚空）の字義であるから、汙字門もまた同様に、等虚空無損減を",
+          "context_position": 7138,
+          "sanskrit_form": "kha"
+        }
+      ]
+    },
+    {
+      "canonical": "kārya",
+      "representative_form": "kārya",
+      "aliases": [
+        {
+          "form": "kārya",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "様に損じたり減じたりするわけではない。 すべてのものは作業（kārya）を超越したものだから（kaは離作業を象徴する）汙字門も同様",
+          "context_position": 7060,
+          "sanskrit_form": "kārya"
+        }
+      ]
+    },
+    {
+      "canonical": "lak",
+      "representative_form": "lak",
+      "aliases": [
+        {
+          "form": "lak",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "べてのものは相（すがたかたち）は得られないものだという真実がlak（相）の頭字laの字義でありますから、汙字門も同様に無相（す",
+          "context_position": 8670,
+          "sanskrit_form": "lak"
+        }
+      ]
+    },
+    {
+      "canonical": "manas",
+      "representative_form": "Manas",
+      "aliases": [
+        {
+          "form": "Manas",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "n）といいます。この語を訳して「我」といいます。麼字は吾我（Manas）の最初の文字です。我に二種あり、人我（人間の心中に神から吹",
+          "context_position": 961,
+          "sanskrit_form": "Manas"
+        }
+      ]
+    },
+    {
+      "canonical": "mara",
+      "representative_form": "mara",
+      "aliases": [
+        {
+          "form": "mara",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "てのものは無怨対（怨み対抗することを超えている）だというのがmara（怨対）の頭字の実義ですから、汙字の実義も同様に無怨対を示し",
+          "context_position": 7750,
+          "sanskrit_form": "mara"
+        }
+      ]
+    },
+    {
+      "canonical": "paramārtha",
+      "representative_form": "paramārtha",
+      "aliases": [
+        {
+          "form": "paramārtha",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "第一義（最高の意義）というものは得ることができないというのがparamārtha（第一義）の頭字paの字義でありますから、同様に汙字門も勝義",
+          "context_position": 8204,
+          "sanskrit_form": "paramārtha"
+        }
+      ]
+    },
+    {
+      "canonical": "pha",
+      "representative_form": "pha",
+      "aliases": [
+        {
+          "form": "pha",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "あぶく）のようなものですというのがphena（聚沫）の頭字のphaの字義でありますから、汙字門も同様に無聚沫というのが汙字の実",
+          "context_position": 8312,
+          "sanskrit_form": "pha"
+        }
+      ]
+    },
+    {
+      "canonical": "phena",
+      "representative_form": "phena",
+      "aliases": [
+        {
+          "form": "phena",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "べてのものは堅くなく聚沫（あぶく）のようなものですというのがphena（聚沫）の頭字のphaの字義でありますから、汙字門も同様に無",
+          "context_position": 8299,
+          "sanskrit_form": "phena"
+        }
+      ]
+    },
+    {
+      "canonical": "rajas",
+      "representative_form": "rajas",
+      "aliases": [
+        {
+          "form": "rajas",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "いうのが実義です。 すべてのものについて塵垢不可得というのがrajasの頭字ra字の実義でありますから、同様に汙字の実義も無塵垢と",
+          "context_position": 8592,
+          "sanskrit_form": "rajas"
+        }
+      ]
+    },
+    {
+      "canonical": "satya",
+      "representative_form": "satya",
+      "aliases": [
+        {
+          "form": "satya",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "ものについて諦（あきらかに見ること）は不可得であるというのがsatya（諦）の頭字saの字義でありますから、汙字門も同様に諦不可得",
+          "context_position": 8970,
+          "sanskrit_form": "satya"
+        }
+      ]
+    },
+    {
+      "canonical": "sthāna",
+      "representative_form": "sthāna",
+      "aliases": [
+        {
+          "form": "sthāna",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "ています。 すべてのものの住処というものは不可得だというのがsthāna（住処）の頭字であるtha字の実義ですから、汙字門もまた無住",
+          "context_position": 7946,
+          "sanskrit_form": "sthāna"
+        }
+      ]
+    },
+    {
+      "canonical": "tathatā",
+      "representative_form": "tathatā",
+      "aliases": [
+        {
+          "form": "tathatā",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "します。 すべてのものにおいて如如（真理）不可得だというのがtathatā（如）の頭字であるta字の実義ですから、汙字門も同様に如如不",
+          "context_position": 7874,
+          "sanskrit_form": "tathatā"
+        }
+      ]
+    },
+    {
+      "canonical": "tha",
+      "representative_form": "tha",
+      "aliases": [
+        {
+          "form": "tha",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "いうものは不可得だというのがsthāna（住処）の頭字であるtha字の実義ですから、汙字門もまた無住処というのが汙字の実義です",
+          "context_position": 7962,
+          "sanskrit_form": "tha"
+        }
+      ]
+    },
+    {
+      "canonical": "viapana",
+      "representative_form": "viapana",
+      "aliases": [
+        {
+          "form": "viapana",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "すべてのものは無長養（そだてることを超越している）というのがviapana（長養）のaの実義ですから、汙字門もまた無長養を示しているの",
+          "context_position": 7677,
+          "sanskrit_form": "viapana"
+        }
+      ]
+    },
+    {
+      "canonical": "vāda",
+      "representative_form": "vāda",
+      "aliases": [
+        {
+          "form": "vāda",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "すべてのものは、言葉では言いあらわせない（離言説）というのがvāda（言説）の頭字vaの字義でありますから、汙字門も同様に無言説",
+          "context_position": 8753,
+          "sanskrit_form": "vāda"
+        }
+      ]
+    },
+    {
+      "canonical": "yāna",
+      "representative_form": "yāna",
+      "aliases": [
+        {
+          "form": "yāna",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "ことです。 すべてのものについて乗り物は得られないというのがyāna（乗）の頭字yaの実義でありますから、汙字門も同様に無乗（乗",
+          "context_position": 8522,
+          "sanskrit_form": "yāna"
+        }
+      ]
+    },
+    {
+      "canonical": "ātman",
+      "representative_form": "Ātman",
+      "aliases": [
+        {
+          "form": "Ātman",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "損減であり、汙字の字相です。 四に麼字の義とは、梵語では磨（Ātman）といいます。この語を訳して「我」といいます。麼字は吾我（M",
+          "context_position": 927,
+          "sanskrit_form": "Ātman"
+        }
+      ]
+    },
+    {
+      "canonical": "śānti",
+      "representative_form": "śānti",
+      "aliases": [
+        {
+          "form": "śānti",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "実義なのです。 すべてのものは本来寂して静かであるというのがśānti（本寂）の頭字śaの実義でありますから、汙字門も同様に本来寂",
+          "context_position": 8827,
+          "sanskrit_form": "śānti"
+        }
+      ]
+    },
+    {
+      "canonical": "ūna",
+      "representative_form": "Ūna",
+      "aliases": [
+        {
+          "form": "Ūna",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "ujiji",
+          "context": "れます。これが阿字の字相であります。  三に汙字とは、損減（Ūna）の最初の文字で、これから、すべての物は損減するものだ、とい",
+          "context_position": 749,
+          "sanskrit_form": "Ūna"
+        }
+      ]
+    }
+  ]
+}

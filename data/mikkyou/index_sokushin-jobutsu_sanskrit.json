@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "sokushin-jobutsu.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 20298,
+  "summary": {
+    "unique_terms": 9,
+    "unique_canonicals": 9,
+    "total_occurrences": 11,
+    "with_diacritics_count": 1,
+    "ascii_only_count": 8,
+    "multi_form_canonicals": 0
+  },
+  "entries": [
+    {
+      "canonical": "bodhi",
+      "representative_form": "bodhi",
+      "aliases": [
+        {
+          "form": "bodhi",
+          "count": 2
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "とは同じ意味です。サンスクリット語でもbuddha（仏陀）とbodhi（覚り、菩提）とは同じ語源です。buddhaを覚といいbod",
+          "context_position": 4891,
+          "sanskrit_form": "bodhi"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "dhi（覚り、菩提）とは同じ語源です。buddhaを覚といいbodhiを智といいます。経典にsamyaksambodhiを古い訳で",
+          "context_position": 4923,
+          "sanskrit_form": "bodhi"
+        }
+      ]
+    },
+    {
+      "canonical": "buddha",
+      "representative_form": "buddha",
+      "aliases": [
+        {
+          "form": "buddha",
+          "count": 2
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "といいましょう。智と覚とは同じ意味です。サンスクリット語でもbuddha（仏陀）とbodhi（覚り、菩提）とは同じ語源です。budd",
+          "context_position": 4880,
+          "sanskrit_form": "buddha"
+        },
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ddha（仏陀）とbodhi（覚り、菩提）とは同じ語源です。buddhaを覚といいbodhiを智といいます。経典にsamyaksam",
+          "context_position": 4912,
+          "sanskrit_form": "buddha"
+        }
+      ]
+    },
+    {
+      "canonical": "anutpāda",
+      "representative_form": "anutpāda",
+      "aliases": [
+        {
+          "form": "anutpāda",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "知る」とある文です。 阿字はサンスクリット語（インドの古語）anutpāda（本不生、本来生せず）の初字で、諸法は本来生ぜず、という教理",
+          "context_position": 4221,
+          "sanskrit_form": "anutpāda"
+        }
+      ]
+    },
+    {
+      "canonical": "hetva",
+      "representative_form": "hetva",
+      "aliases": [
+        {
+          "form": "hetva",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "払う、と受けとって、これを火大とするのです。 第四字の訶字はhetva（因業）の訶（中国語ではクハ→ハの音に近い）で、あらゆる因業",
+          "context_position": 4556,
+          "sanskrit_form": "hetva"
+        }
+      ]
+    },
+    {
+      "canonical": "kha",
+      "representative_form": "kha",
+      "aliases": [
+        {
+          "form": "kha",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "とから訶字門は風大を表わす、と受けとめます。 第五字の欠字はkha（虚空）に空点を加えたkhamという字で仏陀の自在であること",
+          "context_position": 4652,
+          "sanskrit_form": "kha"
+        }
+      ]
+    },
+    {
+      "canonical": "kham",
+      "representative_form": "kham",
+      "aliases": [
+        {
+          "form": "kham",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "と受けとめます。 第五字の欠字はkha（虚空）に空点を加えたkhamという字で仏陀の自在であることは虚空のごとしの意から空大の徳",
+          "context_position": 4666,
+          "sanskrit_form": "kham"
+        }
+      ]
+    },
+    {
+      "canonical": "rajas",
+      "representative_form": "rajas",
+      "aliases": [
+        {
+          "form": "rajas",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ろから、この字は水大を指す、と受けとめます。 第三字の囉字はrajas（塵垢）の囉でこの一字によって諸々の塵垢を解脱する、という思",
+          "context_position": 4468,
+          "sanskrit_form": "rajas"
+        }
+      ]
+    },
+    {
+      "canonical": "samyaksambodhi",
+      "representative_form": "samyaksambodhi",
+      "aliases": [
+        {
+          "form": "samyaksambodhi",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "です。buddhaを覚といいbodhiを智といいます。経典にsamyaksambodhiを古い訳では遍知と訳し新訳では等覚と訳しています。このように",
+          "context_position": 4939,
+          "sanskrit_form": "samyaksambodhi"
+        }
+      ]
+    },
+    {
+      "canonical": "vada",
+      "representative_form": "vada",
+      "aliases": [
+        {
+          "form": "vada",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sokushin-jobutsu",
+          "context": "ば、阿字は地大だということもできるのです。 同様に第二の嚩字vada（言説）の嚩で、この一字は離言説、すべての言説によるはからい",
+          "context_position": 4386,
+          "sanskrit_form": "vada"
+        }
+      ]
+    }
+  ]
+}
