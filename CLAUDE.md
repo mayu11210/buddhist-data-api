@@ -717,6 +717,51 @@ git add CLAUDE.md
 
 変更のないファイルに `git add` しても no-op なので害なし。
 
+### commit_push.bat の安全装置（2026-05-04 確立）
+
+**背景**：2026-05-03 G2-A 着手の commit_push.bat 実行で **phantom deletion 事故**が
+発生した。`git add -u`（トラック済ファイルの削除を一括 stage する命令）が、
+Windows ⇔ サンドボックスのファイルシステム同期タイミングで一部既存ファイルを
+「削除されたもの」と誤認し、`data/mikkyou/ri.json` `sa.json` `sanskrit.json` 等の
+辞書ファイル 23 件 + `lib/search.ts` `package.json` 等の他ファイル 7 件、計 30 件
+以上の削除を stage してしまった。さらに index に謎の `./` エントリも混入した。
+最終的に commit 直前に Cowork が異常を検知し、`fix_g2a_commit.bat`（ASCII のみ・
+削除検出 → 中止ガード付き）で復旧したが、commit していたら本番データが消える
+寸前だった。
+
+**対策（2026-05-04 commit_push.bat 修正）**：
+
+1. **`git add -u` を削除**：トラック済ファイルの修正は既存の `git add <dir>/`
+   行（data/kukai/・data/mikkyou/・_dev_references/ 等）でカバーされる。`-u` の
+   役割（削除の自動 stage）は archive 操作の少数ケースでのみ必要だが、それは
+   別途 dedicated な one-shot .bat で `git rm` を明示する運用に変更。
+2. **Step 4.5 SAFETY CHECK 新設**：`git status | findstr /C:"deleted:"` で
+   stage された削除を検出。1 件でも見つかれば `##### DANGER #####` と表示して
+   commit を中止する（phantom deletion safety guard）。
+3. **意図的な削除の運用**：archive 移動など本物の削除が必要な場合は専用の
+   one-shot .bat を作成し、明示的に `git rm <path>` を書いて意図性を担保する。
+
+**新フロー**：
+
+```
+Step 0   Clean stale locks
+Step 1-2 Reset index to HEAD（既存）
+Step 3   Stage target files（dir-level 中心・git add -u は廃止）
+Step 4   Show staged diff (--cached --stat)
+Step 4.5 SAFETY CHECK: deleted: 検出 → 中止
+Step 5   Check commit_message.txt
+Step 6   Commit
+Step 7   Push
+Step 8   Verify
+```
+
+**運用上の注意**：
+- Step 4.5 で「DANGER: deletions are staged. Aborting commit.」が出たら、
+  Cowork に状況を報告すること。phantom deletion か意図的な削除かの切り分けが必要。
+- 意図的な削除は `archive_<name>.bat` のような専用 .bat に分離する。
+- ASCII のみで .bat を書く原則は厳守（cmd.exe Shift-JIS 解釈で日本語が壊れる）。
+
+
 ### `_archive/` フォルダ
 一度きり使ったスクリプトや過去の引き継ぎメモは `_archive/` 以下に隔離：
 - `_archive/scripts/` … 過去の .bat（リセット作業用など）
