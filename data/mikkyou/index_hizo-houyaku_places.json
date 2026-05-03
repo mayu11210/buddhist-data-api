@@ -1,0 +1,789 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "hizo-houyaku.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 75246,
+  "summary": {
+    "unique_terms": 22,
+    "unique_places": 22,
+    "total_occurrences": 60,
+    "by_subcategory": {
+      "capital_japan": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "cosmological_realm": {
+        "unique": 4,
+        "occurrences": 24
+      },
+      "country_china": {
+        "unique": 4,
+        "occurrences": 4
+      },
+      "country_dynasty": {
+        "unique": 7,
+        "occurrences": 21
+      },
+      "country_japan": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "mountain_buddhist": {
+        "unique": 3,
+        "occurrences": 7
+      },
+      "mountain_china": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "river_china": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 8
+        }
+      ],
+      "occurrence_count": 8,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "には天に生まれることを理想として生活し、それによってしばしの安楽といこいを得ているのです。恰度、何もわからぬ赤子が母親の腕の",
+          "context_position": 4954,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "なり、すべてが無相（現象的なものをすべて離れた境地）になって安楽になります。 第八、如実一道心（天台宗の心） 天台の教えを修",
+          "context_position": 5489,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "利益や供養や、生活に役立ついろいろな具に執着して、自分の身を安楽にすることだけにつとめ、三毒とか五慾に身をまかせています。真",
+          "context_position": 9339,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "なわれて出現し、仏前に『法華経』の弘道を誓ったのです。また「安楽行品」によれば、転輪聖王（立派な国王）が、最も大切に秘蔵して",
+          "context_position": 55061,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の象王に乗って出現され守護して下さると説かれました。 また「安楽行品」においては、文殊菩薩が仏滅後の悪世の中での『法華経』を",
+          "context_position": 55818,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "『法華経』を宣布する心構えを仏陀にたずねた時に、仏陀は四種の安楽行を説かれました。それによると、その安楽行とは、菩薩の行処と",
+          "context_position": 55874,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "た時に、仏陀は四種の安楽行を説かれました。それによると、その安楽行とは、菩薩の行処と親近処は、身心ともに安楽な室宅にいるよう",
+          "context_position": 55894,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "れによると、その安楽行とは、菩薩の行処と親近処は、身心ともに安楽な室宅にいるような境地に人々を向かわせる道であることを述べら",
+          "context_position": 55916,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の中。色身があるが欲望のない世界。",
+      "matched_forms": [
+        {
+          "form": "色界",
+          "count": 6
+        }
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "、仏教の『俱舎論』等によりますと、天に三種類あります。欲界、色界、無色界です。はじめに欲界に六天あり、四天王天、忉利天、夜摩",
+          "context_position": 14770,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "忉利天、夜摩天、覩史多天、楽変化天、と他化自在天です。 次の色界に十八あります。これに四種の別があります。初めの初禅に三種あ",
+          "context_position": 14826,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "第三禅にまた三種あり、小浄天と無量浄天と遍浄天とがこれです。色界最上部の第四禅には、無雲天と福生天と広果天と無想天と無煩天と",
+          "context_position": 14939,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "う、諸宗教の人が同じく三学を修行して、欲界を脱出し、その上の色界・無色界に生まれて、彼らなりの空三昧を証って、言語ではあらわ",
+          "context_position": 15956,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "らもまた天上に生まれます。第三は大乗の菩薩です。彼らは欲界と色界で王となる十天王となった後に大乗の菩薩に生まれてくるのですか",
+          "context_position": 17014,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "でもありません。秘密主よ、心というものは、欲界と同性でもなく色界と同性でもなく、無色界と同性なのでもありません。また、天・竜",
+          "context_position": 57174,
+          "matched_form": "色界"
+        }
+      ]
+    },
+    {
+      "canonical": "欲界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最下。欲望が支配する世界。",
+      "matched_forms": [
+        {
+          "form": "欲界",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": " 答う、仏教の『俱舎論』等によりますと、天に三種類あります。欲界、色界、無色界です。はじめに欲界に六天あり、四天王天、忉利天",
+          "context_position": 14767,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ますと、天に三種類あります。欲界、色界、無色界です。はじめに欲界に六天あり、四天王天、忉利天、夜摩天、覩史多天、楽変化天、と",
+          "context_position": 14783,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "は因縁の中道による 問う、諸宗教の人が同じく三学を修行して、欲界を脱出し、その上の色界・無色界に生まれて、彼らなりの空三昧を",
+          "context_position": 15945,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "、これらもまた天上に生まれます。第三は大乗の菩薩です。彼らは欲界と色界で王となる十天王となった後に大乗の菩薩に生まれてくるの",
+          "context_position": 17011,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "、男女ならざるものでもありません。秘密主よ、心というものは、欲界と同性でもなく色界と同性でもなく、無色界と同性なのでもありま",
+          "context_position": 57165,
+          "matched_form": "欲界"
+        }
+      ]
+    },
+    {
+      "canonical": "無色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最上。色身のない世界。",
+      "matched_forms": [
+        {
+          "form": "無色界",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の『俱舎論』等によりますと、天に三種類あります。欲界、色界、無色界です。はじめに欲界に六天あり、四天王天、忉利天、夜摩天、覩史",
+          "context_position": 14773,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "無煩天と無熱天と善見天と善現天と色究竟天とがこれです。 次の無色界に四種あります。空無遍処と識無遍処と無所有処と非想非非想処と",
+          "context_position": 14997,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "宗教の人が同じく三学を修行して、欲界を脱出し、その上の色界・無色界に生まれて、彼らなりの空三昧を証って、言語ではあらわせない、",
+          "context_position": 15959,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "を崇拝することの非を悟れないのです。 六行観などを修行して、無色界に生まれようとしたり、四方から火で身体をあぶり、上から太陽に",
+          "context_position": 17231,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "主よ、心というものは、欲界と同性でもなく色界と同性でもなく、無色界と同性なのでもありません。また、天・竜・夜叉・乾闥婆・阿修羅",
+          "context_position": 57184,
+          "matched_form": "無色界"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "。そしてさらに広く説明しています。 五戒・十善 この地上には須弥山を中心に東西南北四つの大陸が存在します（古代インドの地理観、",
+          "context_position": 11407,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "を中心に東西南北四つの大陸が存在します（古代インドの地理観、須弥山説）。この四大陸に各々王様がおりますが、その王に五種類ありま",
+          "context_position": 11440,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "っても、インド思想では非想非非想処（古代インドの宇宙説である須弥山説の最高処をいう）から中国の道教では仙人の住む世界まで種々あ",
+          "context_position": 12869,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "すに、甚だ深いものといえば大海であり、峻しく高いものといえば須弥山であります。また広大なものといえば虚空であり、久遠なる長い時",
+          "context_position": 60082,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "尽き果てるものであり、広大な虚空といえども限りはあるのです。須弥山の高さも十六万由旬といわれますから限りがありますし、大海の深",
+          "context_position": 60185,
+          "matched_form": "須弥山"
+        }
+      ]
+    },
+    {
+      "canonical": "周",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。文王・武王が建国。",
+      "matched_forms": [
+        {
+          "form": "周",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "嘗めて薬をみつけてくれたのです。また同じく古代のことですが、周の文王の子息であった周公旦は、指南車という羅針盤の役目をする",
+          "context_position": 477,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "れているのは堯帝・舜帝です。また皇后で美しくすぐれているのは周の文王の母ですし、家臣ですぐれていると讃えられるのは、八元〔",
+          "context_position": 24203,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "るのですか。 夏の国が顚覆し、殷の王位が滅びたこと、あるいは周王朝が絶え、秦の始皇帝の嗣が早く死亡したこと、これらは皆、女",
+          "context_position": 35307,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の観智が次第に増ます増大してきますと、それがひろびろと法界に周ねく広がり、その量は虚空と等しくなります。そして巻くも舒ぶる",
+          "context_position": 71473,
+          "matched_form": "周"
+        }
+      ]
+    },
+    {
+      "canonical": "夏",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国伝説的な最古の王朝。禹が建国。",
+      "matched_forms": [
+        {
+          "form": "夏",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "生えて花を咲かせます。寒中の氷もいつまでも氷ではありません。夏になれば溶けて流れていきます。穀物の芽も湿気を待って伸びてき",
+          "context_position": 9522,
+          "matched_form": "夏"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "ていません。どうして僧侶の非法によるなどといえるのですか。 夏の国が顚覆し、殷の王位が滅びたこと、あるいは周王朝が絶え、秦",
+          "context_position": 35284,
+          "matched_form": "夏"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "信じて彼を獄につなぎました。鄒は天を仰いで哭きましたが、時は夏の五月であったのに天はこの非理に対して霜を降らせた、といいま",
+          "context_position": 36119,
+          "matched_form": "夏"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "名にとり立てられてもよいほど立派であった、といいますし、また夏の桀王の暴政のもとでは、民の一人一人が処刑されてもおかしくな",
+          "context_position": 39328,
+          "matched_form": "夏"
+        }
+      ]
+    },
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "殷",
+          "count": 2
+        },
+        {
+          "form": "商",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "凍結しないし、酒も凍らないのです。 歴史を考えてみましても、殷の紂王は暴虐で世は乱れ、国民も上に倣って罪を犯すことが多く、",
+          "context_position": 26378,
+          "matched_form": "殷"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "して僧侶の非法によるなどといえるのですか。 夏の国が顚覆し、殷の王位が滅びたこと、あるいは周王朝が絶え、秦の始皇帝の嗣が早",
+          "context_position": 35292,
+          "matched_form": "殷"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "中国の史実を見ても、晋の戴淵は若い頃、少年たちを子分にして旅商人たちから掠奪して悪事をはたらいていたのですが、たまたま陸機",
+          "context_position": 9606,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "が叶うのである。その天とは、いわゆる自在天・梵天・那羅延天・商羯羅天・自在天子・日天・月天・竜尊等であり、あるいはまた天仙",
+          "context_position": 17682,
+          "matched_form": "商"
+        }
+      ]
+    },
+    {
+      "canonical": "陳",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "南朝の王朝。",
+      "matched_forms": [
+        {
+          "form": "陳",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "うな効用しかありません。真言密教こそ宝の庫を開き、中の秘宝が陳げられて、如来の徳をこの身に体得することができるのです。 ＊",
+          "context_position": 5838,
+          "matched_form": "陳"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "公望呂尚のような偉勲も聞かれず、漢の高祖に仕えた張良の三略や陳平の六奇（三略は張良が黄石公から授かったという兵法の書、いま",
+          "context_position": 29614,
+          "matched_form": "陳"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "から授かったという兵法の書、いまはその兵法の才を指す。六奇は陳平の用いた六つの奇計）など、歴史に伝えられているような功績や",
+          "context_position": 29659,
+          "matched_form": "陳"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "と、法界体性と、四種曼荼羅と四智印等であって、この住心の中に陳べられています。 世界を微塵にしたほど多数の仏部の仏たちは、",
+          "context_position": 67737,
+          "matched_form": "陳"
+        }
+      ]
+    },
+    {
+      "canonical": "漢",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。前漢・後漢。",
+      "matched_forms": [
+        {
+          "form": "漢",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "質で構成され、あらゆるものの当体であることを六大能生という。漢文で「六大能く……を生ず」から主体としての大日を六大能生と表",
+          "context_position": 4430,
+          "matched_form": "漢"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "や、渭水に釣糸を垂れていた太公望呂尚のような偉勲も聞かれず、漢の高祖に仕えた張良の三略や陳平の六奇（三略は張良が黄石公から",
+          "context_position": 29600,
+          "matched_form": "漢"
+        }
+      ]
+    },
+    {
+      "canonical": "秦",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。始皇帝による天下統一。",
+      "matched_forms": [
+        {
+          "form": "秦",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "手な思いつきで言っているのでしょうから、いまよく考え直して、秦の始皇帝の鏡を手にしたつもりであなたの心の誤りを写し出し反省",
+          "context_position": 35110,
+          "matched_form": "秦"
+        },
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "夏の国が顚覆し、殷の王位が滅びたこと、あるいは周王朝が絶え、秦の始皇帝の嗣が早く死亡したこと、これらは皆、女性への愛に溺れ",
+          "context_position": 35314,
+          "matched_form": "秦"
+        }
+      ]
+    },
+    {
+      "canonical": "呉",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋の国。三国時代の呉も。",
+      "matched_forms": [
+        {
+          "form": "呉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "の許に道をたずね、そのことばにはげまされて学問につとめ、後に呉に仕えて忠孝の人として知られるようになりました。 旅人の所持",
+          "context_position": 9827,
+          "matched_form": "呉"
+        }
+      ]
+    },
+    {
+      "canonical": "天台山",
+      "aliases": [],
+      "subcategory": "mountain_china",
+      "definition": "浙江省。天台宗の発祥地。",
+      "matched_forms": [
+        {
+          "form": "天台山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "日如来を理智法身の境界と言っている。 第八住心の主張者 隋の天台山国清寺の智者禅師（天台大師智顗師）はこの住心の教えによって止",
+          "context_position": 59076,
+          "matched_form": "天台山"
+        }
+      ]
+    },
+    {
+      "canonical": "平安",
+      "aliases": [
+        "平安京"
+      ],
+      "subcategory": "capital_japan",
+      "definition": "平安京。京都。",
+      "matched_forms": [
+        {
+          "form": "平安",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "衍論』にいう五つの間違った見方）などは、向うから降伏してきて平安になります。 こうして心が融通し無礙して仏の悟りに入るのです",
+          "context_position": 52553,
+          "matched_form": "平安"
+        }
+      ]
+    },
+    {
+      "canonical": "斉",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋戦国の東方の大国。",
+      "matched_forms": [
+        {
+          "form": "斉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "る四つの道の四摂法によって、利他（他人を利する）のおこないを斉えます。また阿陀那識の深く微細な相を思惟し、外界の事物はすべ",
+          "context_position": 45172,
+          "matched_form": "斉"
+        }
+      ]
+    },
+    {
+      "canonical": "日本",
+      "aliases": [
+        "日域",
+        "本朝",
+        "我朝",
+        "皇朝",
+        "神国"
+      ],
+      "subcategory": "country_japan",
+      "definition": "日本国。",
+      "matched_forms": [
+        {
+          "form": "日本",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "者注）、「下品の五戒を身におこなう者は瞻部洲（インド・中国・日本を含む南の大陸）に生まれ、中品の五戒の者は勝身国（東方の大陸",
+          "context_position": 11270,
+          "matched_form": "日本"
+        }
+      ]
+    },
+    {
+      "canonical": "楚",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋戦国の南方の大国。",
+      "matched_forms": [
+        {
+          "form": "楚",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "す。これでは、夫婦とか親子の関係といっても名ばかりで、恰度、楚の襄王が夢で神女に遇い、それを愛して忘れられなくなった夢のは",
+          "context_position": 6965,
+          "matched_form": "楚"
+        }
+      ]
+    },
+    {
+      "canonical": "渭水",
+      "aliases": [],
+      "subcategory": "river_china",
+      "definition": "長安付近の河川。",
+      "matched_forms": [
+        {
+          "form": "渭水",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "のあることも聞かれません。 鼎を背負って湯王に仕えた伊尹や、渭水に釣糸を垂れていた太公望呂尚のような偉勲も聞かれず、漢の高祖",
+          "context_position": 29572,
+          "matched_form": "渭水"
+        }
+      ]
+    },
+    {
+      "canonical": "燕",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋戦国の北方の国。",
+      "matched_forms": [
+        {
+          "form": "燕",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "た、といいます。 また『淮南子』にこう書いてあります、鄒衍は燕の恵王に事えて忠節を尽くしたのですが、王は讒言を信じて彼を獄",
+          "context_position": 36064,
+          "matched_form": "燕"
+        }
+      ]
+    },
+    {
+      "canonical": "隋",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。唐の前。",
+      "matched_forms": [
+        {
+          "form": "隋",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "、大日如来を理智法身の境界と言っている。 第八住心の主張者 隋の天台山国清寺の智者禅師（天台大師智顗師）はこの住心の教えに",
+          "context_position": 59074,
+          "matched_form": "隋"
+        }
+      ]
+    },
+    {
+      "canonical": "雪山",
+      "aliases": [
+        "ヒマーラヤ",
+        "himālaya"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "ヒマーラヤ山脈。仏典でしばしば言及される聖山。",
+      "matched_forms": [
+        {
+          "form": "雪山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "らないほどなのです。 このようなわけで、『涅槃経』に出ている雪山童子は、餓えた羅刹（鬼）に自分の身体を与える約束をして残りの",
+          "context_position": 30338,
+          "matched_form": "雪山"
+        }
+      ]
+    },
+    {
+      "canonical": "霊鷲山",
+      "aliases": [
+        "霊山",
+        "耆闍崛山",
+        "gṛdhrakūṭa"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "王舎城東北の山。釈迦が法華経などを説いた地。",
+      "matched_forms": [
+        {
+          "form": "霊山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizo-houyaku",
+          "context": "死については全く暗く、まるで狗の目と同じであり、中国の五つの霊山（五嶽）に足をのせて遠くを見通せるはずですが、すっかり方角を",
+          "context_position": 6559,
+          "matched_form": "霊山"
+        }
+      ]
+    }
+  ]
+}

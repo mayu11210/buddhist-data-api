@@ -1,0 +1,706 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "shoji-jisso.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 14087,
+  "summary": {
+    "unique_terms": 7,
+    "unique_persons": 7,
+    "total_occurrences": 82,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 1,
+        "occurrences": 72
+      },
+      "buddhist_deva": {
+        "unique": 2,
+        "occurrences": 4
+      },
+      "buddhist_master_china": {
+        "unique": 2,
+        "occurrences": 2
+      },
+      "buddhist_master_india": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "buddhist_master_japan": {
+        "unique": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日",
+          "count": 37
+        },
+        {
+          "form": "大日如来",
+          "count": 35
+        }
+      ],
+      "occurrence_count": 72,
+      "occurrences": [
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "三に問答を加える。  一 大意  　初に大意を叙べましょう。大日如来の説法は必ず文字によって行なわれます。そして文字はどこにある",
+          "context_position": 76,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "香味触法）が本体となっており、六塵の本体はなにかといえば法身大日如来の身口意の活動であり三密であります。 この法身の平等の三密は",
+          "context_position": 159,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "らゆる場所に行きわたっていてしかも常に変わらぬものなのです。大日如来の所有するあらゆる智慧（法界体性智、大円鏡智、平等性智、妙観",
+          "context_position": 228,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "密教ではこれらすべてが法身なりという立場から四種法身といい、大日如来の相を表わす）はこの世のあらゆる場所に行きわたっており欠落し",
+          "context_position": 339,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "いは、悟っているか迷っているかだけなのです。 あらゆる人間は大日如来と同等の仏性を本来所持しているのですが、残念ながら多くの人々",
+          "context_position": 472,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "真実のことばと真実の文字、そしてそれによって真実の道を伝える大日如来、この関係は、法身大日如来の活動そのものであり、衆生が本来所",
+          "context_position": 715,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "そしてそれによって真実の道を伝える大日如来、この関係は、法身大日如来の活動そのものであり、衆生が本来所有している内心の種々相その",
+          "context_position": 728,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "、衆生が本来所有している内心の種々相そのものといえましょう。大日如来はここでいう「声字分明にして実相あらわる」という真理を説いて",
+          "context_position": 772,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "この方法によって弘まっていくのです。 いま私（空海）は仏陀、大日如来の教えによって声字実相の義を説いてみたいと思いますので、後に",
+          "context_position": 910,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "があります。問う、その経に何と説いているのですか。答う、法身大日如来が次のような偈頌を説いておられます。「等正覚（仏陀）の説かれ",
+          "context_position": 2063,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "となど当然のことでありましょう〉と。もし秘密の解釈をすれば、大日如来の各々の言葉、各々の名前、各々の句にそれぞれ無辺の意味が含ま",
+          "context_position": 2569,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "にわたって常恒にとだえることなく各々の字義を説かれたとしても大日如来の説法はとうてい説き尽くせることはありません。まして凡夫では",
+          "context_position": 2671,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "ではとうてい無理なはなしです。いまここではほんの一例を述べて大日如来の言名の奥深さを示したまでであります。 頌のはじめに等正覚と",
+          "context_position": 2733,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "さを示したまでであります。 頌のはじめに等正覚とあるのは法身大日如来の、あらゆる方面に平等に作用する活動のことです。大日の活動は",
+          "context_position": 2773,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "があり響があります。この世の一切の音響は五大を離れず、つまり大日如来を離れないという意味で、五大は声の本体だといえますし、音響は",
+          "context_position": 4049,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "ないという意味で、五大は声の本体だといえますし、音響はすべて大日如来の活動ということであり、大日の声ということになります。そこで",
+          "context_position": 4086,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "にも無量の差別があっていろいろですが、なんと言っても根源は、大日如来のさとりの内容である海印三昧を示す真言（大海の水の如く一切を",
+          "context_position": 5028,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "すからそれぞれの字であらわします。しかしすべての諸尊の根源は大日如来です。すべての言語も大日より流出し、さまざまに転変していって",
+          "context_position": 5270,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "もいえる多さで存在しているのです。その各々の国にみな遍照尊（大日如来）が沢山の尊の中におられ、すばらしい教えを説いておられるので",
+          "context_position": 11211,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "曼荼羅位品第十三に次のような意味の文があります。 「その時に大日如来は、等至三昧という、身心平等かつ安和の状態に入られました。す",
+          "context_position": 11689,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "、各自の心によって生ずる席を持っておられますがこれらはすべて大日如来の御配慮や願いから生じています。大日如来はこの世界の象徴たる",
+          "context_position": 11992,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "ますがこれらはすべて大日如来の御配慮や願いから生じています。大日如来はこの世界の象徴たる大蓮華王の姿となって出現されますが、如来",
+          "context_position": 12012,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "を示しているのでしょう。二つの意味が考えられます。一つは法身大日如来の自然の本来的に実在する仏身と仏土を示しています。つまり、法",
+          "context_position": 12109,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "薩が各自の願いと如来の願いの縁によって、とあるのがそれです。大日如来は梵語では摩訶昆廬遮那仏陀といいます。大昆廬遮那仏とはすなわ",
+          "context_position": 12231,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "では摩訶昆廬遮那仏陀といいます。大昆廬遮那仏とはすなわち法身大日如来のことです。法身の仏身仏土は、縁に随って生じたものではなくて",
+          "context_position": 12268,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "のなのです。ですから経に「法然あり」というのです。 もし法身大日如来が報身の姿をもって顕現された場合には、これを報身の大日尊と名",
+          "context_position": 12343,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "る」というのです。先に挙げた『大日経』の文に続けて「時にかの大日如来の多くのそなわったお力の中に、一切の障りを起こさない力という",
+          "context_position": 12460,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "を大日尊ということもあるのでしょうか。もちろんその通りです。大日如来の応化身の光明は広くあらゆる場所をくまなく照らしておられます",
+          "context_position": 12648,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "化の大日尊と呼ぶのです。経にも、「釈迦と名づけることもあり、大日如来と名づける時もある」と言っております。先ほどの『大日経』にも",
+          "context_position": 12722,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "すでに部分的にその等流の意味が含まれているからです。経に「（大日如来は）即時に出現する」という文などは、等流身の特色である現われ",
+          "context_position": 12916,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "、もし横（よこ）の意味で考えれば、四種身といっても所詮は法身大日如来一身の変化した仏身にすぎないわけで、そうなれば平等であり、大",
+          "context_position": 13170,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "来一身の変化した仏身にすぎないわけで、そうなれば平等であり、大日如来一仏にすぎないのです。そしてこれらの仏身と仏土に各々法爾と随",
+          "context_position": 13203,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "ります。また『大日経』巻第一、具縁真言品第二に、「法然法爾の大日如来の五大の色をもって衆生の心を染めて、衆生の心を大日如来と同一",
+          "context_position": 13571,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "法爾の大日如来の五大の色をもって衆生の心を染めて、衆生の心を大日如来と同一の浄菩提心の色とする」とありますが法界の味とは色塵のこ",
+          "context_position": 13598,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "ものは何になるのですか。 これらを生ずる主体は五大五色（法身大日如来）であり、生じられるものは三種世間（有情世間、智正覚世間、器",
+          "context_position": 13841,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "なし、声字すなわち実相なり、といえばやはり持業釈です。これは大日経の疏の中にくわしく説いてありますからよく読んでおくとよいで",
+          "context_position": 1652,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "今いかなる経典によってこのような義が成立するのですか。答う、大日経に明らかな証文があります。問う、その経に何と説いているので",
+          "context_position": 2023,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "顕と密の二つがあります。顕教の見方は疏家である善無畏三蔵が『大日経疏』に述べておられる通りです。深秘の解釈の中にもまた重々の",
+          "context_position": 2272,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "帝釈天の異名です。〈諸々の義利成就せり〉というのは、これも『大日経疏』巻七に〈天帝釈は自ら声論を作っておられるが、そこでは一",
+          "context_position": 2430,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "、各々の名前、各々の句にそれぞれ無辺の意味が含まれています。大日以外の諸仏、諸菩薩が無数の身を示現して過去・現在・未来の三世",
+          "context_position": 2609,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "法身大日如来の、あらゆる方面に平等に作用する活動のことです。大日の活動は無量であって量ることなどできません。『即身成仏義』の",
+          "context_position": 2801,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "〈三密加持すれば速疾に顕わる〉の所に述べてある通りです。この大日の活動は、大日の実相（実在）を示しています。また頌の〈真言〉",
+          "context_position": 2866,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "ば速疾に顕わる〉の所に述べてある通りです。この大日の活動は、大日の実相（実在）を示しています。また頌の〈真言〉は声を現わして",
+          "context_position": 2873,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "らかになります。名は字であるといえます。こうしてみますと、『大日経』のこの頌の中に、声字実相の意が示されていることがわかりま",
+          "context_position": 2988,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "実相の意が示されていることがわかります。 もしこれを広げて『大日経』という経典全体について解釈してみますと、この経の中に説か",
+          "context_position": 3032,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "時は声となります。この阿の声は何の名を表わすかというと、法身大日の名字を呼ぶことになりますからこれで声字と考えることができま",
+          "context_position": 3268,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "法本不生（諸法は本来生ぜず、という真理）の意味で、これは法身大日の実相をあらわしています。 以上で経典の証文を知ることができ",
+          "context_position": 3356,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "大は五字、五智、五仏をあらわしています。そうなりますと中央の大日と四方の阿閦・宝生・弥陀・不空成就の五仏のことで、この五仏が",
+          "context_position": 3870,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "いう具合に五智無際智として法界にあまねく行きわたっている法身大日の広がりを示すことになるのです。この五智無際智については、『",
+          "context_position": 3959,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "だといえますし、音響はすべて大日如来の活動ということであり、大日の声ということになります。そこで〈五大に皆響あり〉といったの",
+          "context_position": 4102,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "主たるものはどこに見られますか。『金剛頂経（釈字母品）』や『大日経』（巻五、字輪品）に説かれる字輪字母等がそれです。ここでい",
+          "context_position": 5127,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "字母とは、梵語の阿字ないし呵字等のことで、これらの字は、法身大日の示現するさまざまな姿の諸尊の名字を意味する秘密の呼び名です",
+          "context_position": 5190,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "な姿の諸尊の名字を意味する秘密の呼び名です。天竜鬼なども勿論大日の応化身とみますからそれぞれの字であらわします。しかしすべて",
+          "context_position": 5231,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "ます。しかしすべての諸尊の根源は大日如来です。すべての言語も大日より流出し、さまざまに転変していって、世間に流布している言語",
+          "context_position": 5284,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "いて、青・黄・赤・白の四色としますが、黒色は省いています。『大日経』では五大の色を挙げ第一に黄色、第二に白色、第三に赤色、第",
+          "context_position": 6327,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "その両方、あるいはそのどちらでもないなどの区別もあります。『大日経』住心品に「心は青・黄・赤・白・紅・紫・水精色でもない。明",
+          "context_position": 6579,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "集まって、長短さまざまな形をとっているのも形色です。前掲の『大日経』住心品に「心は長くもなく短くもなく、丸でもなく四角でもあ",
+          "context_position": 6763,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "うなはたらきや活動のさまざまの種類を表色と名づけます。先の『大日経』大日経』に、「心は男でもないし女でもない」とあるのは、心",
+          "context_position": 7047,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "らきや活動のさまざまの種類を表色と名づけます。先の『大日経』大日経』に、「心は男でもないし女でもない」とあるのは、心は表色で",
+          "context_position": 7051,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "のです。これらは顕色と形色との両方の場合と同様です。 また『大日経』住心品にこういいます。 「どのようにすれば自分の心が知れ",
+          "context_position": 7124,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "そなわっているものがあります。これが法身仏の仏身仏土です。『大日経』巻五の入秘密曼荼羅位品第十三に次のような意味の文がありま",
+          "context_position": 11649,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "身大日如来が報身の姿をもって顕現された場合には、これを報身の大日尊と名づけるのでしょうか。もちろんその通りです。その故に「大",
+          "context_position": 12372,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "日尊と名づけるのでしょうか。もちろんその通りです。その故に「大日の信解願力（深い配慮による大きな願い）によって生ずる」という",
+          "context_position": 12403,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "による大きな願い）によって生ずる」というのです。先に挙げた『大日経』の文に続けて「時にかの大日如来の多くのそなわったお力の中",
+          "context_position": 12445,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "文は、報身仏の仏身仏土のことを述べているのです。 さらに法身大日の応化身を大日尊ということもあるのでしょうか。もちろんその通",
+          "context_position": 12612,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "仏身仏土のことを述べているのです。 さらに法身大日の応化身を大日尊ということもあるのでしょうか。もちろんその通りです。大日如",
+          "context_position": 12619,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "ゆる場所をくまなく照らしておられます。ですからこの尊を応化の大日尊と呼ぶのです。経にも、「釈迦と名づけることもあり、大日如来",
+          "context_position": 12694,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "り、大日如来と名づける時もある」と言っております。先ほどの『大日経』にも、「無数の長い間に布施・持戒等の六波羅蜜という六つの",
+          "context_position": 12750,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "し、その功徳によって形成される仏身」と言っており、これは法身大日の応化仏の願いにかなった仏身と仏土について説かれたものです。",
+          "context_position": 12817,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "った仏身と仏土について説かれたものです。 さらにまた等流身も大日尊と呼ぶ場合もありますが、これは大日尊の活動の中にすでに部分",
+          "context_position": 12859,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "す。 さらにまた等流身も大日尊と呼ぶ場合もありますが、これは大日尊の活動の中にすでに部分的にその等流の意味が含まれているから",
+          "context_position": 12877,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "随縁だと理解すれば、衆生は随縁だということになります。また『大日経』巻第一、具縁真言品第二に、「法然法爾の大日如来の五大の色",
+          "context_position": 13548,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈天",
+          "count": 2
+        },
+        {
+          "form": "帝釈",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "真言も、すべて一言一名が合わさり加わって出来ています。内容も帝釈天の声明論のように欠けたること無く、さまざまな意味が含まれてい",
+          "context_position": 2128,
+          "matched_form": "帝釈天"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "す。この中の因陀羅も顕と密の意味があります。顕の意味はこれは帝釈天の異名です。〈諸々の義利成就せり〉というのは、これも『大日経",
+          "context_position": 2400,
+          "matched_form": "帝釈天"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "諸々の義利成就せり〉というのは、これも『大日経疏』巻七に〈天帝釈は自ら声論を作っておられるが、そこでは一言の中に多くの意味が",
+          "context_position": 2440,
+          "matched_form": "帝釈"
+        }
+      ]
+    },
+    {
+      "canonical": "空海",
+      "aliases": [
+        "弘法大師",
+        "遍照金剛",
+        "大遍照金剛"
+      ],
+      "subcategory": "buddhist_master_japan",
+      "definition": "真言宗開祖。性霊集の主たる撰者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "空海",
+          "count": 2
+        },
+        {
+          "form": "弘法大師",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "金剛頂理趣釈経』に十界について説かれています（勝又俊教博士『弘法大師著作全集』第一集の註によれば両経ともに十界の文なし、とある。",
+          "context_position": 4348,
+          "matched_form": "弘法大師"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "すべて例外なくこの方法によって弘まっていくのです。 いま私（空海）は仏陀、大日如来の教えによって声字実相の義を説いてみたいと",
+          "context_position": 903,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "著作全集』第一集の註によれば両経ともに十界の文なし、とある。空海の記入の失とは考えられないのであるいは後世の書写、記録の失か",
+          "context_position": 4382,
+          "matched_form": "空海"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "ています。そうなりますと中央の大日と四方の阿閦・宝生・弥陀・不空成就の五仏のことで、この五仏がそれぞれ四智を所有し、その四智",
+          "context_position": 3885,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "う、この解釈に顕と密の二つがあります。顕教の見方は疏家である善無畏三蔵が『大日経疏』に述べておられる通りです。深秘の解釈の中に",
+          "context_position": 2265,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "れます。ですからこの尊を応化の大日尊と呼ぶのです。経にも、「釈迦と名づけることもあり、大日如来と名づける時もある」と言ってお",
+          "context_position": 12709,
+          "matched_form": "釈迦"
+        }
+      ]
+    },
+    {
+      "canonical": "阿修羅",
+      "aliases": [
+        "asura"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "六道の一・阿修羅道の住人。八部衆。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "阿修羅",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "縁覚界、四に一切声聞界、五に一切天界、六に一切人界、七に一切阿修羅界、八には一切傍生界、九には一切餓鬼界、十には一切捺羅迦界の",
+          "context_position": 4209,
+          "matched_form": "阿修羅"
+        }
+      ]
+    }
+  ]
+}

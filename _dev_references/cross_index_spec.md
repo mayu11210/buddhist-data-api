@@ -1,7 +1,7 @@
 # 横断索引化フェーズ B 設計書（cross_index_spec.md）
 
 作成日：2026-04-27（フェーズ B 着手セッション）
-版：**v1.7（G2-C dict 型 8 著作 Tier 2-3 kaimyo_jukugo 索引化完了）**
+版：**v1.8（G2-D dict 型 8 著作 Tier 3-5/3-6 persons/places 索引化完了 — 全 7 カテゴリ × 9 著作完成）**
 
 更新履歴：
 - 2026-04-27 v0.1 ドラフト作成 + 典故書名パイロット抽出（256 種・1187 件）
@@ -13,6 +13,7 @@
 - 2026-05-03 v1.5 昇格：**G2 着手**。dict 型 8 著作（弁顕密二教論・吽字義・声字実相義・即身成仏義・般若心経秘鍵・秘蔵宝鑰・大日経疏巻第一・三教指帰）に Tier 1（terms + citations + kukai_works）を展開。`extract_terms_dict.py` / `extract_citations_dict.py` 新設・著作別 7 索引方針確定（§14 追加）
 - 2026-05-04 v1.6 昇格：**G2-B**。dict 型 8 著作に Tier 2-4 sanskrit を展開。`extract_sanskrit_dict.py` 新設。8 著作合計 1,460 canonical / 2,017 occurrences（うち大日経疏巻第一が 1,409 / 1,955 で圧倒的多数）。9 著作合計 1,898 canonical / 2,671 occurrences（改修前比 occ 4.08 倍）。著作間の梵語注記密度の差異が顕在化（弘大全集六由来の既訳 4 著作で sanskrit=0、Cowork 高品質訳の大日経疏で 1,955）。§15 追加
 - 2026-05-04 v1.7 昇格：**G2-C**。dict 型 8 著作に Tier 2-3 kaimyo_jukugo を展開。`extract_kaimyo_jukugo_dict.py` 新設（性霊集版の 3 起点合成・スコアリング・ノイズ辞書を完全継承・_tmp_ prefix 廃止して git 追跡対象に）。8 著作合計 234 unique / 2,424 occurrences（うち大日経疏巻第一が 70 / 1,088 で圧倒的多数・seed_sanskrit 29 件で梵語漢訳起点も活発）。9 著作合計 345 unique / 4,395 occurrences（改修前比 occ 2.23 倍）。§16 追加
+- 2026-05-04 v1.8 昇格：**G2-D**。dict 型 8 著作に Tier 3-5 persons + Tier 3-6 places を展開。`extract_persons_dict.py` / `extract_places_dict.py` 新設・共有 seed モジュール `seed_data_persons.py`（95 entries）・`seed_data_places.py`（91 entries）を新設して dict 版と既存 _tmp_ 版の双方が参照可能に。8 著作 persons 合計 157 unique / 1,216 occurrences・places 69 unique / 163 occurrences。**全 7 カテゴリで 9 著作カバレッジ達成**（terms / citations / kukai_works / sanskrit / kaimyo_jukugo / persons / places）。三教指帰の 孔子=14・荘子=6・老子=6 や中国王朝（漢=9・周=6・夏=6・楚=6・殷=5）が儒道仏比較作の特性として顕在化。§17 追加
 
 ---
 
@@ -1720,3 +1721,153 @@ indexed_corpora:
 - ✅ **manifest 統合**：`summary.indexed_corpora.kaimyo_jukugo` を 1 → 9 に更新
 - ✅ **5 カテゴリで 9 著作カバレッジ達成**：terms / citations / kukai_works / sanskrit / kaimyo_jukugo
 - ⏭️ 次セッション（G2-D 以降）：persons / places の dict 型版抽出
+
+---
+
+## 17. G2-D dict 型 8 著作 Tier 3-5/3-6 persons・places 索引化（v1.8・2026-05-04）
+
+G2-A・B・C に続く第 4 弾（最終）。性霊集に続いて dict 型 8 著作の人名・地名を索引化し、横断検索の対象を persons / places でも 1 → 9 著作に拡張。**これにより全 7 カテゴリで 9 著作カバレッジ達成**。
+
+### 17.1 新設ファイル（4 種）
+
+#### 共有 seed モジュール（git 追跡対象・新設）
+
+- `_dev_references/seed_data_persons.py`（95 entries・9 subcategories）
+- `_dev_references/seed_data_places.py`（91 entries・複数 subcategories）
+
+dict 版と既存 _tmp_ 版が共通で利用可能な seed dictionary。「データの単一情報源」原則に基づき重複定義を回避。
+
+#### 抽出スクリプト（git 追跡対象・新設）
+
+- `_dev_references/extract_persons_dict.py`（dict 型 人名抽出・seed_data_persons から import）
+- `_dev_references/extract_places_dict.py`（dict 型 地名抽出・seed_data_places から import）
+
+`_tmp_extract_persons.py` / `_tmp_extract_places.py`（性霊集・list 型）の dict 型版。長表記優先・1 文字人名/王朝名の前後境界条件・dynasty context 判定は完全互換。
+
+### 17.2 G2-D の生成結果（2026-05-04）
+
+#### Persons（人名）
+
+| 著作 | unique | occurrences | 上位 3 |
+|---|---|---|---|
+| nikyo-ron（弁顕密二教論）| 20 | 238 | 空海=80 / 大日如来=76 / 釈迦=21 |
+| ujiji（吽字義）| 11 | 88 | 大日如来=74 / 帝釈天=3 / 不空=2 |
+| shoji-jisso（声字実相義）| 7 | 82 | 大日如来=72 / 帝釈天=3 / 空海=3 |
+| sokushin-jobutsu（即身成仏義）| 11 | 196 | 大日如来=157 / 空海=23 / 不空=5 |
+| hannya-hiken（般若心経秘鍵）| 14 | 88 | 大日如来=23 / 空海=15 / 文殊=9 |
+| hizo-houyaku（秘蔵宝鑰）| 38 | 209 | 大日如来=78 / 釈迦=26 / 普賢=12 |
+| dainichikyo-sho-vol1（大日経疏巻第一）| 26 | 233 | 大日如来=74 / 弥勒=22 / 普賢=14 |
+| sankyo-shiki（三教指帰）| 30 | 82 | 孔子=14 / 釈迦=9 / 老子=6 |
+| **8 著作合計** | **157** | **1,216** | — |
+
+#### Places（地名）
+
+| 著作 | unique | occurrences | 上位 3 |
+|---|---|---|---|
+| nikyo-ron（弁顕密二教論）| 4 | 4 | 周 / 無色界 / 色界 |
+| ujiji（吽字義）| 4 | 8 | 欲界=2 / 無色界=2 / 色界=2 |
+| shoji-jisso（声字実相義）| 3 | 3 | 欲界 / 無色界 / 色界 |
+| sokushin-jobutsu（即身成仏義）| 5 | 12 | 色界=4 / 欲界=3 / 安楽=2 |
+| hannya-hiken（般若心経秘鍵）| 1 | 1 | 安楽=1 |
+| hizo-houyaku（秘蔵宝鑰）| 22 | 60 | 安楽=8 / 色界=6 / 欲界=5 |
+| dainichikyo-sho-vol1（大日経疏巻第一）| 9 | 25 | 色界=5 / 欲界=4 / 無色界=4 |
+| sankyo-shiki（三教指帰）| 21 | 50 | 漢=9 / 周=6 / 夏=6 |
+| **8 著作合計** | **69** | **163** | — |
+
+### 17.3 重要発見：三教指帰の儒道仏比較作の特性が顕在化
+
+三教指帰（24 歳作・儒道仏の対話劇）の persons / places 抽出結果が、その文芸的性格を完全に反映：
+
+**Persons 上位（孔子=14・釈迦=9・老子=6・荘子=6）**：儒（孔子）・道（老子・荘子）・仏（釈迦）の三教代表者がバランスよく登場。
+
+**Places 上位（漢=9・周=6・夏=6・楚=6・殷=5）**：中国王朝・国名が頻出。儒道仏比較を中国の歴史的舞台で展開する作品の性格と整合。
+
+これは sankyo-shiki が他著作（sanskrit=0・kaimyo_jukugo=7 のみ）と異なる文芸的特性を持つことの裏付けでもあり、データベースの「文献特性の自己証明」として機能している。
+
+### 17.4 重要発見：大日如来の中心性
+
+8 著作中 6 著作で「大日如来」（aliases に大日・毘盧遮那・盧遮那・vairocana・mahāvairocana を含む）が最頻出人名：
+
+- nikyo-ron: 76 / sokushin-jobutsu: 157 / shoji-jisso: 72 / hizo-houyaku: 78 / dainichikyo-sho-vol1: 74 / hannya-hiken: 23
+
+「大日如来」は terms の「大日」「遮那」と alias 連携しているため、persons 索引の出現は terms とは独立にカウントされる。両方を統合して見ると密教の本尊としての中心性が圧倒的。
+
+### 17.5 改修前後の比較（occurrences）
+
+| カテゴリ | 改修前（性霊集のみ）| dict 8 著作追加 | 9 著作合計 | 倍率 |
+|---|---:|---:|---:|---:|
+| persons | 1,197 | +1,216 | 2,413 | **2.02x** |
+| places | 466 | +163 | 629 | **1.35x** |
+
+places の倍率が低い（1.35x）のは、dict 型 8 著作が概ね教義論述（諸子百家比較や宇宙論で地名が出る程度）で、地名の頻出する物語性が薄いため。最頻出の三教指帰（50 件）と秘蔵宝鑰（60 件）以外は数件レベル。
+
+### 17.6 横断検索の現状（G2-D 完了時点）
+
+`_corpus_manifest.json` の `summary.indexed_corpora`：
+
+```
+indexed_corpora:
+  terms:         9 / 10 primary_corpus（菩提心論除く）
+  citations:     9 / 10
+  kukai_works:   9 / 10
+  sanskrit:      9 / 10
+  kaimyo_jukugo: 9 / 10
+  persons:       9 / 10  ← G2-D で 1 → 9 に拡大
+  places:        9 / 10  ← G2-D で 1 → 9 に拡大
+```
+
+🎯 **全 7 カテゴリで 9 著作カバレッジ完全達成**。残りは菩提心論（gendaigoyaku 提供待ち）の 1 著作のみ。
+
+### 17.7 G2 全体の累積成果（2026-05-03〜2026-05-04）
+
+| サブステップ | カテゴリ | 8 著作合計 occ | 9 著作合計 occ | 倍率 |
+|---|---|---:|---:|---:|
+| ✅ G2-A | terms | 1,678 | 2,222 | 4.08x |
+| ✅ G2-A | citations | 648 | 1,829 | 1.55x |
+| ✅ G2-A | kukai_works | 47 | 52 | 10.40x |
+| ✅ G2-B | sanskrit | 2,017 | 2,671 | 4.08x |
+| ✅ G2-C | kaimyo_jukugo | 2,424 | 4,395 | 2.23x |
+| ✅ G2-D | persons | 1,216 | 2,413 | 2.02x |
+| ✅ G2-D | places | 163 | 629 | 1.35x |
+| **G2 合計** | — | **8,193** | **14,211** | **2.36x** |
+
+横断索引化で実用 occurrence データが **改修前 6,018 → 改修後 14,211（2.36 倍）** に拡大。kaimyo-app の戒名選定・法話生成・典拠検索 API の素材として 9 著作横断で運用可能になった。
+
+### 17.8 残作業（G2 完了後の派生候補）
+
+| サブステップ | 内容 | 工数 |
+|---|---|---|
+| ✅ G2-A〜D | dict 型 8 著作の Tier 1+2-3+2-4+3-5+3-6 全て完了 | 4 セッション（2026-05-03〜2026-05-04）|
+| ⏭️ G2-E | 横断集約ファイル（index_<category>_all.json）生成 | 0.5 セッション |
+| ⏭️ G2-F | 菩提心論 gendaigoyaku 取込後の再索引化 | 0.5 セッション（並行候補 A 完了後）|
+| ⏭️ G2-G | 既訳 4 著作の Cowork 高品質訳化（梵語注記濃密化）| 各 5〜10 セッション |
+| ⏭️ G3 | 未着手 8 著作（御遺告・秘蔵講義「他界」・十住心論・日本真言哲学・理趣経・三昧耶戒・御請来目録・菩提心論）のロードマップ | 設計 1 セッション |
+| ⏭️ G4 | L2 字索引の新設 | 2〜3 セッション |
+| ⏭️ G5 | L3 by_* 汎用 endpoint の整備 | 3〜4 セッション |
+| ⏭️ G6 | kaimyo-app 暫定ハードコード 3 種の置き換え API（候補 D §13 v1.4 仕様確定済）| 5〜6 セッション |
+
+### 17.9 v1.8 完成度評価
+
+- ✅ **dict 型 persons / places 索引化フロー確立**：seed dictionary を共有モジュール化・長表記優先 + 1 文字境界条件 + dynasty context 判定で誤検知抑止
+- ✅ **8 著作 persons / places 索引完成**：合計 226 unique / 1,379 occurrences（NULL バイト 0 件・JSON 整合 OK）
+- ✅ **重要発見：三教指帰の文芸的特性の自己証明**：persons（孔子・老子・荘子・釈迦）+ places（漢・周・夏・楚・殷）が儒道仏比較作の性格を完全反映
+- ✅ **重要発見：大日如来の中心性**：8 著作中 6 著作で最頻出人名・密教の本尊としての地位を実データで証明
+- ✅ **manifest 統合**：persons / places を 1 → 9 に更新・index_definitions.g2_status を「G2-A〜D 完了」に変更
+- 🎯 **全 7 カテゴリで 9 著作カバレッジ達成**（terms / citations / kukai_works / sanskrit / kaimyo_jukugo / persons / places）
+- 🎯 **G2 全体の累積：occurrences 6,018 → 14,211（2.36 倍）に拡大**・kaimyo-app 連携 API 実装の素材完備
+
+### 17.10 設計方針メモとの対応（最終）
+
+```
+G1 ✅ L1 スキーマ統一（commit c1e9494・2026-05-03）
+G2 ✅ L1 横断索引化（4 セッション完結）
+    G2-A ✅ Tier 1（terms + citations + kukai_works）8 著作（commit d684523）
+    G2-B ✅ Tier 2-4 sanskrit 8 著作（commit 2900292）
+    G2-C ✅ Tier 2-3 kaimyo_jukugo 8 著作（commit c155aac）
+    G2-D ✅ Tier 3-5/3-6 persons/places 8 著作（本コミット予定）
+    G2-E〜G ⏭️ 集約・既訳改善・菩提心論再索引化（任意）
+G3 ⏭️ 未着手 8 著作のロードマップ
+G4 ⏭️ L2 字索引の新設
+G5 ⏭️ L3 by_* 汎用 endpoint の整備
+G6 ⏭️ kaimyo-app 暫定ハードコード 3 種の置き換え API（v1.4 仕様確定済 §13）
+```

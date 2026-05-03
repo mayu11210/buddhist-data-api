@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "nikyo-ron.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 38816,
+  "summary": {
+    "unique_terms": 4,
+    "unique_places": 4,
+    "total_occurrences": 4,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 2,
+        "occurrences": 2
+      },
+      "country_dynasty": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "mountain_buddhist": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "周",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。文王・武王が建国。",
+      "matched_forms": [
+        {
+          "form": "周",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "中国に伝えられ、次第に広まり、後漢の孝明帝によって公認され、周の則天武后に至るまでは、すべて顕教でありました。それが唐代に",
+          "context_position": 4839,
+          "matched_form": "周"
+        }
+      ]
+    },
+    {
+      "canonical": "無色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最上。色身のない世界。",
+      "matched_forms": [
+        {
+          "form": "無色界",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "識、七識、八識などの違いを説いたり、あるいは仏教以外の教えの無色界の次第などを説くのである。大慧よ、これが応化仏の活動であり応",
+          "context_position": 25482,
+          "matched_form": "無色界"
+        }
+      ]
+    },
+    {
+      "canonical": "色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の中。色身があるが欲望のない世界。",
+      "matched_forms": [
+        {
+          "form": "色界",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "して釈迦如来の教え及び得益を表わすなり。） 報身の毗盧遮那、色界頂第四禅、阿迦尼吒天宮において、雲集せる尽虚空遍法界の一切の",
+          "context_position": 29759,
+          "matched_form": "色界"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "、仙、三界主、光、火、鬼主、有、不有、分別、無分別、蘇弥盧（須弥山）、金剛、常、無常、真言、大真言、海、大海、日、月、雲、大雲",
+          "context_position": 20319,
+          "matched_form": "須弥山"
+        }
+      ]
+    }
+  ]
+}

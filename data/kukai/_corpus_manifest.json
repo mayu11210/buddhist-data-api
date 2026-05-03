@@ -40,8 +40,8 @@
       "kukai_works": 9,
       "sanskrit": 9,
       "kaimyo_jukugo": 9,
-      "persons": 1,
-      "places": 1
+      "persons": 9,
+      "places": 9
     }
   },
   "files": [
@@ -140,6 +140,20 @@
           "total_occurrences": 1088,
           "needs_review_count": 27,
           "matched_jukugo_count": 64
+        },
+        "persons": {
+          "file": "index_dainichikyo-sho-vol1_persons.json",
+          "present": true,
+          "unique_terms": 26,
+          "total_occurrences": 233,
+          "subcategory_count": 6
+        },
+        "places": {
+          "file": "index_dainichikyo-sho-vol1_places.json",
+          "present": true,
+          "unique_terms": 9,
+          "total_occurrences": 25,
+          "subcategory_count": 6
         }
       }
     },
@@ -255,6 +269,20 @@
           "total_occurrences": 136,
           "needs_review_count": 4,
           "matched_jukugo_count": 13
+        },
+        "persons": {
+          "file": "index_hannya-hiken_persons.json",
+          "present": true,
+          "unique_terms": 14,
+          "total_occurrences": 88,
+          "subcategory_count": 6
+        },
+        "places": {
+          "file": "index_hannya-hiken_places.json",
+          "present": true,
+          "unique_terms": 1,
+          "total_occurrences": 1,
+          "subcategory_count": 1
         }
       }
     },
@@ -316,6 +344,20 @@
           "total_occurrences": 236,
           "needs_review_count": 20,
           "matched_jukugo_count": 28
+        },
+        "persons": {
+          "file": "index_hizo-houyaku_persons.json",
+          "present": true,
+          "unique_terms": 38,
+          "total_occurrences": 209,
+          "subcategory_count": 8
+        },
+        "places": {
+          "file": "index_hizo-houyaku_places.json",
+          "present": true,
+          "unique_terms": 22,
+          "total_occurrences": 60,
+          "subcategory_count": 8
         }
       }
     },
@@ -456,6 +498,20 @@
           "total_occurrences": 310,
           "needs_review_count": 21,
           "matched_jukugo_count": 33
+        },
+        "persons": {
+          "file": "index_nikyo-ron_persons.json",
+          "present": true,
+          "unique_terms": 20,
+          "total_occurrences": 238,
+          "subcategory_count": 5
+        },
+        "places": {
+          "file": "index_nikyo-ron_places.json",
+          "present": true,
+          "unique_terms": 4,
+          "total_occurrences": 4,
+          "subcategory_count": 3
         }
       }
     },
@@ -541,6 +597,20 @@
           "total_occurrences": 7,
           "needs_review_count": 3,
           "matched_jukugo_count": 5
+        },
+        "persons": {
+          "file": "index_sankyo-shiki_persons.json",
+          "present": true,
+          "unique_terms": 30,
+          "total_occurrences": 82,
+          "subcategory_count": 6
+        },
+        "places": {
+          "file": "index_sankyo-shiki_places.json",
+          "present": true,
+          "unique_terms": 21,
+          "total_occurrences": 50,
+          "subcategory_count": 8
         }
       }
     },
@@ -625,6 +695,20 @@
           "total_occurrences": 137,
           "needs_review_count": 5,
           "matched_jukugo_count": 12
+        },
+        "persons": {
+          "file": "index_shoji-jisso_persons.json",
+          "present": true,
+          "unique_terms": 7,
+          "total_occurrences": 82,
+          "subcategory_count": 5
+        },
+        "places": {
+          "file": "index_shoji-jisso_places.json",
+          "present": true,
+          "unique_terms": 3,
+          "total_occurrences": 3,
+          "subcategory_count": 1
         }
       }
     },
@@ -788,6 +872,20 @@
           "total_occurrences": 333,
           "needs_review_count": 9,
           "matched_jukugo_count": 18
+        },
+        "persons": {
+          "file": "index_sokushin-jobutsu_persons.json",
+          "present": true,
+          "unique_terms": 11,
+          "total_occurrences": 196,
+          "subcategory_count": 5
+        },
+        "places": {
+          "file": "index_sokushin-jobutsu_places.json",
+          "present": true,
+          "unique_terms": 5,
+          "total_occurrences": 12,
+          "subcategory_count": 2
         }
       }
     },
@@ -859,6 +957,20 @@
           "total_occurrences": 177,
           "needs_review_count": 11,
           "matched_jukugo_count": 20
+        },
+        "persons": {
+          "file": "index_ujiji_persons.json",
+          "present": true,
+          "unique_terms": 11,
+          "total_occurrences": 88,
+          "subcategory_count": 4
+        },
+        "places": {
+          "file": "index_ujiji_places.json",
+          "present": true,
+          "unique_terms": 4,
+          "total_occurrences": 8,
+          "subcategory_count": 2
         }
       }
     }
@@ -877,7 +989,7 @@
       "places": "Tier 3-6 地名"
     },
     "g2_status": {
-      "description": "G2-A（Tier 1: terms+citations+kukai_works）2026-05-03 完了 / G2-B（Tier 2-4: sanskrit）2026-05-04 完了 / G2-C（Tier 2-3: kaimyo_jukugo）2026-05-04 完了",
+      "description": "G2-A〜D 完了：dict 型 8 著作の Tier 1+2-3+2-4+3-5+3-6 索引を全て展開（terms / citations / kukai_works / sanskrit / kaimyo_jukugo / persons / places の 7 カテゴリ × 9 著作）",
       "list_corpus_full_index": [
         "shoryoshu_miyasaka.json"
       ],

@@ -1,0 +1,905 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "hannya-hiken.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 14186,
+  "summary": {
+    "unique_terms": 14,
+    "unique_persons": 14,
+    "total_occurrences": 88,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 5,
+        "occurrences": 54
+      },
+      "buddhist_deva": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "buddhist_master_china": {
+        "unique": 4,
+        "occurrences": 5
+      },
+      "buddhist_master_india": {
+        "unique": 2,
+        "occurrences": 11
+      },
+      "buddhist_master_japan": {
+        "unique": 1,
+        "occurrences": 15
+      },
+      "japanese_emperor": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日如来",
+          "count": 15
+        },
+        {
+          "form": "大日",
+          "count": 8
+        }
+      ],
+      "occurrence_count": 23,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "では実施して下さってはいないのです。そこで私（空海）は、仏陀大日如来になりかわってこれを述べてみようと思うのです。どうかこの私の",
+          "context_position": 427,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "らないのです。 しかしこうしたさまざまな教えがあっても、仏陀大日如来が人々の好みに応じて各種の教えを提供して下さっている、と考え",
+          "context_position": 1225,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "す。各種の教えが存在するのは、決して無駄ではないのです。仏陀大日如来が人々にさまざまな過程となる教えを示し、人々をより高い立場へ",
+          "context_position": 1295,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "い立場へ次第にいざなっていかれる、と受け止めればよいのです。大日如来が衆生を導く方法は、このようにすべからく深い思いやりの心をも",
+          "context_position": 1355,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "のは空海であり、その結果としてこれら大乗の四宗は直ちに中央の大日如来の一智一徳を表わすことにつながってくるのである。──訳者注）",
+          "context_position": 2450,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "いではないか、と。 それに対して私はこう答えたいと思います。大日如来の説法すなわち真言密教では、一字の中にすべての教えが含まれて",
+          "context_position": 3602,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "のか、と。 この疑問に対してはこう答えましょう。すぐれた人（大日如来を指す）が人々を救済する場合、相手の機根（志向とか意向）をよ",
+          "context_position": 4076,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の異名なり」とあります。また『大日経義釈』には、「普賢菩薩は大日如来の円因なり、しこうして仏はこれ円因の果なり」とありますし、し",
+          "context_position": 7324,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "が含まれている、といえますし、煩悩を持ったままのこの身体で、大日如来の世界に生きることができますし、すべてのものの原点にたどり着",
+          "context_position": 11827,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "う考えますと、この世のことはあくまで仮の宿の如きもので、法身大日如来の実在を知りさえすれば、自心のいまの状態で、最も確実な悟りの",
+          "context_position": 11899,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "です。このうち顕教に合う機根（能力あるいは志向）の人々には、大日如来は、詳しい説明や長い解説を用いて教えられ、したがって顕教では",
+          "context_position": 12224,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "て法を説かれるのです。 でありますから、『大日経』などでは、大日如来おんみずから阿字とか奄字などの字義を用いておられまして、こう",
+          "context_position": 12361,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "は説かないで一向に差しつかえないと思われます。いずれの場合も大日如来のお心にかなっているといえましょう。 また、次のような疑問を",
+          "context_position": 12703,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "、見る人がいわゆる密教眼を持つことが大切なのです。 またこの大日如来の真言や修法の次第、観想の方法などは『金剛頂経』の中に説かれ",
+          "context_position": 13059,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "中の秘というべきものであります。 真言密教からいえば、釈尊は大日如来の身を変えた姿（応化身）でありますが、その釈尊も、かってジェ",
+          "context_position": 13132,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "平等建立如来とはこれ、普賢菩薩の異名なり」とあります。また『大日経義釈』には、「普賢菩薩は大日如来の円因なり、しこうして仏は",
+          "context_position": 7309,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "果なり」とありますし、しかも普賢の行願というように、普賢は、大日の菩提心の行願をあらわす尊なのです。そして華厳宗では普賢菩薩",
+          "context_position": 7376,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "るに随ってそれを行ずる菩薩（修行者）もまた異なってきます。『大日経疏』ではこれを四種に分類しています。その一字ずつを採って愚",
+          "context_position": 9845,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "一つが密教です。また、菩薩の分類はいろいろですが、先述した『大日経疏』には、「愚（愚童薩埵、六道を輪廻する凡夫）」、「識（『",
+          "context_position": 10020,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "経疏』には、「愚（愚童薩埵、六道を輪廻する凡夫）」、「識（『大日経疏』では有識薩埵、識性は二乗、分に──部分的に──涅槃の性",
+          "context_position": 10052,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の状態で、最も確実な悟りの境地に居ることがわかるのです。法身大日と共にある自分こそ間違いなく人間本来の面目に到達しているので",
+          "context_position": 11950,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "羅尼（総持）を用いて法を説かれるのです。 でありますから、『大日経』などでは、大日如来おんみずから阿字とか奄字などの字義を用",
+          "context_position": 12352,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "。──訳者注） 『菩提心論』の作者と伝えられる竜猛菩薩も、『大日経』の伝訳者、善無畏三蔵も、さらに『金剛頂経』系統の伝訳者、",
+          "context_position": 12552,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "空海",
+      "aliases": [
+        "弘法大師",
+        "遍照金剛",
+        "大遍照金剛"
+      ],
+      "subcategory": "buddhist_master_japan",
+      "definition": "真言宗開祖。性霊集の主たる撰者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "空海",
+          "count": 14
+        },
+        {
+          "form": "遍照金剛",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 15,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "経秘鍵 般若心経秘鍵 （般若心経の真意を読み解く秘密の鍵） 遍照金剛撰 一 序文 禅定と智慧の密教的開明 文殊菩薩が手に持つ剣は",
+          "context_position": 45,
+          "matched_form": "遍照金剛"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "薩がたがご自身では実施して下さってはいないのです。そこで私（空海）は、仏陀大日如来になりかわってこれを述べてみようと思うので",
+          "context_position": 420,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の経自体が曼荼羅であり、真言陀羅尼であることを述べる。まさに空海の独壇場である。読者各位も十分に心を広く持って空海の真意を理",
+          "context_position": 1679,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "る。まさに空海の独壇場である。読者各位も十分に心を広く持って空海の真意を理解して頂きたい。──訳者注） １ 華厳・三論・法相",
+          "context_position": 1704,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "観音という胎蔵曼荼羅における中台八葉院の四菩薩に配当したのは空海であり、その結果としてこれら大乗の四宗は直ちに中央の大日如来",
+          "context_position": 2422,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ります。 五 質疑応答 いまこそ密教的意味を明かすとき 私（空海）は若い弟子を教えるついでに、『心経』の要点をまとめ、経文を",
+          "context_position": 3241,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "なかったのか、言うべき時でなかったから言わなかったのか、私（空海）にはわかりません。もし私がここで『心経』の密教的意味を説く",
+          "context_position": 4307,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "訳の諸本について述べましょう。第一に羅什三蔵の訳で、いま私（空海）が使っている本です。次に唐の玄奘訳のものには、題に「仏説摩",
+          "context_position": 5111,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "『心経』の陀羅尼的展開が説かれてありますが、経題はここで私（空海）が用いている羅什三蔵の訳本と同一であります。 （現在わが国",
+          "context_position": 5420,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "舎利弗」といったりで、現行のものと大きく異なっている。恐らく空海の時代には、現行のものが羅什訳として用いられていたのであろう",
+          "context_position": 5553,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "時代には、現行のものが羅什訳として用いられていたのであろう。空海が用いていた心経は、現行のものと全く等しいのである。──訳者",
+          "context_position": 5586,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "『般若心経』と『大般若経』とは同じ意味の経典なのだ、と。私（空海）はこう答えましょう。 『般若心経』と『大般若経』の関係は、",
+          "context_position": 5853,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "は、如来のお気持に背くことになるのでは、と。 この疑問に私（空海）はこう答えましょう。如来が説かれる教えには二種類あります。",
+          "context_position": 12154,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "め）に握って、『般若心経』一巻を書写されたのであります。私（空海）は天皇の範（手本）として講読の撰述を任され、経の旨（むね）",
+          "context_position": 13869,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "味）に達しないことがありましょうか、まくのみ。  入唐沙門・空海、上表す。  ──了──",
+          "context_position": 14172,
+          "matched_form": "空海"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 9
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "く秘密の鍵） 遍照金剛撰 一 序文 禅定と智慧の密教的開明 文殊菩薩が手に持つ剣は、誤った考え方を断ち切ってくれますし、般若",
+          "context_position": 68,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "い智慧を養うことなのです。すなわち、禅定と智慧は、先に挙げた文殊・般若の二菩薩のお心そのものなのです。 しかしこの菩薩の心の",
+          "context_position": 342,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "、不一不異、不来不去の八不中道の三論宗の教理に相当するから、文殊菩薩はこれを御自身の八不観だと知って大笑いして喜ばれます。 ",
+          "context_position": 2171,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "です。 （以上、華厳・三論・法相・天台のめざす境地を、普賢・文殊・弥勒・観音という胎蔵曼荼羅における中台八葉院の四菩薩に配当",
+          "context_position": 2386,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "がそれに該当します。 前出の『理趣釈』に「一切無戯論如来とは文殊菩薩の異名なり」とありますから、これは文殊菩薩の境地だといえ",
+          "context_position": 7810,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "一切無戯論如来とは文殊菩薩の異名なり」とありますから、これは文殊菩薩の境地だといえます。経文の「不生不滅、不垢不浄、不増不減",
+          "context_position": 7831,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ます。経文の「不生不滅、不垢不浄、不増不減」の六不の部分は、文殊菩薩の利剣によって八不中道を得る、という三論宗の教えそのもの",
+          "context_position": 7872,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ることによって、さまざまの間違った見解を絶ち切る、というのが文殊の悟りの境地です。 これこそ、相待空の域をはるかに超えた絶待",
+          "context_position": 7979,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "はこの重大さに気づかないでいるのです。 そうではありますが、文殊、般若の二菩薩は、この経のそうした深い意義をよく説いてくれて",
+          "context_position": 13642,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 9
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "宗の法界縁起の教えが説かれていると考えられますが、そうなれば普賢菩薩はご自心の境界である華厳の教理だと知って、あごを開いて笑",
+          "context_position": 2069,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "れるのです。 （以上、華厳・三論・法相・天台のめざす境地を、普賢・文殊・弥勒・観音という胎蔵曼荼羅における中台八葉院の四菩薩",
+          "context_position": 2383,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "如是」までの部分です。 建立如来とは、『理趣釈』によりますと普賢菩薩の別名であります。「一切平等建立如来とはこれ、普賢菩薩の",
+          "context_position": 7263,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ますと普賢菩薩の別名であります。「一切平等建立如来とはこれ、普賢菩薩の異名なり」とあります。また『大日経義釈』には、「普賢菩",
+          "context_position": 7290,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "、普賢菩薩の異名なり」とあります。また『大日経義釈』には、「普賢菩薩は大日如来の円因なり、しこうして仏はこれ円因の果なり」と",
+          "context_position": 7319,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "因なり、しこうして仏はこれ円因の果なり」とありますし、しかも普賢の行願というように、普賢は、大日の菩提心の行願をあらわす尊な",
+          "context_position": 7360,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "れ円因の果なり」とありますし、しかも普賢の行願というように、普賢は、大日の菩提心の行願をあらわす尊なのです。そして華厳宗では",
+          "context_position": 7372,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "は、大日の菩提心の行願をあらわす尊なのです。そして華厳宗では普賢菩薩のお心を大切にしていますから、華厳宗でいう法界縁起で円融",
+          "context_position": 7404,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "この部分は、華厳宗の極地が説かれており、それはとりもなおさず普賢菩薩の内証であり、建立如来の内証であるわけです。これを頌であ",
+          "context_position": 7554,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "観音",
+      "aliases": [
+        "観世音",
+        "観自在",
+        "avalokiteśvara",
+        "Avalokiteśvara"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "慈悲を司る菩薩。",
+      "sanskrit_canonical": "avalokiteśvara",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "観自在",
+          "count": 6
+        },
+        {
+          "form": "観世音",
+          "count": 2
+        },
+        {
+          "form": "観音",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "境智不二、会三帰一の天台法華宗の境地が説かれていると知って、観世音菩薩が大喜びされるのです。 （以上、華厳・三論・法相・天台の",
+          "context_position": 2343,
+          "matched_form": "観世音"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "奘訳とほとんど同一である。むしろ羅什訳は、「観自在菩薩」を「観世音菩薩」といったり、「五蘊」を「五陰」、「舎利子」を「舎利弗」",
+          "context_position": 5494,
+          "matched_form": "観世音"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "訳者注） １ 華厳・三論・法相・天台のこころ 経のはじめの「観自在菩薩」（Ａ）は七宗で代表される仏教の各宗の修行者の総称であり",
+          "context_position": 1751,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ている心経は、玄奘訳とほとんど同一である。むしろ羅什訳は、「観自在菩薩」を「観世音菩薩」といったり、「五蘊」を「五陰」、「舎利",
+          "context_position": 5486,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "経』は総じて五つの部分に分けられます。 第一は人法総通分、「観自在」から「度一切苦厄」までです。 第二に分別諸乗分、「色不異空",
+          "context_position": 6160,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "おります。因・行・証・入・時とおぼえて下さい。 経の冒頭の「観自在菩薩が」というのは、あらゆる教えの修行者すべての総称であり、",
+          "context_position": 6445,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "いうのは、アーリヤヴァロキティ・ボウディサットヴァ、すなわち観自在菩薩の悟りの境界を示しています。 経文の「無智亦無得、以無所",
+          "context_position": 9130,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "智亦無得、以無所得故」の十文字がそれで、『理趣釈』によれば、観自在菩薩は得自性清浄如来の異名で、手に蓮華を執って一切衆生の身中",
+          "context_position": 9185,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "上、華厳・三論・法相・天台のめざす境地を、普賢・文殊・弥勒・観音という胎蔵曼荼羅における中台八葉院の四菩薩に配当したのは空海",
+          "context_position": 2392,
+          "matched_form": "観音"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈尊",
+          "count": 7
+        }
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "（喩）説いておられるのです。 しかもこの密教の深旨は、すでに釈尊がインドの鷲峯山で、舎利弗（釈尊の弟子、シャーリプトラの母親",
+          "context_position": 4923,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "かもこの密教の深旨は、すでに釈尊がインドの鷲峯山で、舎利弗（釈尊の弟子、シャーリプトラの母親は、おうむのように美しかったとい",
+          "context_position": 4939,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "といわれる教えです。 　次の「無苦集滅道」の一句五字は、仏陀釈尊の声を聞いて、因縁の法を覚るという声聞乗の教えを説いています",
+          "context_position": 8872,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "らは秘中の秘というべきものであります。 真言密教からいえば、釈尊は大日如来の身を変えた姿（応化身）でありますが、その釈尊も、",
+          "context_position": 13129,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "ば、釈尊は大日如来の身を変えた姿（応化身）でありますが、その釈尊も、かってジェータ林におられた時に、諸菩薩や天人たちのために",
+          "context_position": 13157,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "経』という雑部密教の経典の第三巻に説いてありますが、これらは釈尊の御事跡の中では秘密に属すべきことがらでありましょう。このよ",
+          "context_position": 13265,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "奉誦していただきたいのです。昔、私は鷲峯山（ぐじゅせん）での釈尊の説法の場に列（つら）なり、親しくこの深い文（『般若心経』）",
+          "context_position": 14089,
+          "matched_form": "釈尊"
+        }
+      ]
+    },
+    {
+      "canonical": "弥勒",
+      "aliases": [
+        "弥勒菩薩",
+        "慈氏",
+        "maitreya",
+        "Maitreya"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "未来仏。兜率天で待機。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "弥勒菩薩",
+          "count": 3
+        },
+        {
+          "form": "弥勒",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の部分は、八識を説く唯識学の法相宗が説かれてある、と知れば、弥勒菩薩は、わが内証が説かれていると知って手を拍って喜ばれます。 さ",
+          "context_position": 2255,
+          "matched_form": "弥勒菩薩"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "です。 第三に「相」というのは、摩訶梅多羅冒地薩怛嚩すなわち弥勒菩薩の心境です。経文の「是故空中無色」から「無意識界」までがこれ",
+          "context_position": 8101,
+          "matched_form": "弥勒菩薩"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の「是故空中無色」から「無意識界」までがこれに相当します。 弥勒菩薩の大慈悲のお心は、人々の苦しみを解消し、安楽な気持を与えるこ",
+          "context_position": 8143,
+          "matched_form": "弥勒菩薩"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": " （以上、華厳・三論・法相・天台のめざす境地を、普賢・文殊・弥勒・観音という胎蔵曼荼羅における中台八葉院の四菩薩に配当したの",
+          "context_position": 2389,
+          "matched_form": "弥勒"
+        }
+      ]
+    },
+    {
+      "canonical": "舎利弗",
+      "aliases": [
+        "舎利子",
+        "śāriputra",
+        "Śāriputra"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。智慧第一。",
+      "sanskrit_canonical": "śāriputra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "舎利弗",
+          "count": 3
+        },
+        {
+          "form": "舎利子",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "す。 しかもこの密教の深旨は、すでに釈尊がインドの鷲峯山で、舎利弗（釈尊の弟子、シャーリプトラの母親は、おうむのように美しかっ",
+          "context_position": 4935,
+          "matched_form": "舎利弗"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "プトラの母親は、おうむのように美しかったといわれるところから舎利弗は鶖子といわれた。──訳者注）等のために説かれたのであります",
+          "context_position": 4979,
+          "matched_form": "舎利弗"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "「観世音菩薩」といったり、「五蘊」を「五陰」、「舎利子」を「舎利弗」といったりで、現行のものと大きく異なっている。恐らく空海の",
+          "context_position": 5523,
+          "matched_form": "舎利弗"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "自在菩薩」を「観世音菩薩」といったり、「五蘊」を「五陰」、「舎利子」を「舎利弗」といったりで、現行のものと大きく異なっている。",
+          "context_position": 5517,
+          "matched_form": "舎利子"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈天",
+          "count": 1
+        },
+        {
+          "form": "帝釈",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の並び方の中に、万象があらわれて、尽きることがありませんし、帝釈天の宮殿をとりまく珠玉の網には、重々帝網といわれるように一つの",
+          "context_position": 3802,
+          "matched_form": "帝釈天"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "われるように一つの珠にすべての珠が映え合って映るといいます。帝釈の声論という論書には、インドの伝説で、あらゆることが書かれ、",
+          "context_position": 3856,
+          "matched_form": "帝釈"
+        }
+      ]
+    },
+    {
+      "canonical": "玄奘",
+      "aliases": [
+        "三蔵法師",
+        "玄奘三蔵"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "唐代の訳経僧。西天取経の主役。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "玄奘",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "に羅什三蔵の訳で、いま私（空海）が使っている本です。次に唐の玄奘訳のものには、題に「仏説摩訶」の四字がありません。また「五蘊",
+          "context_position": 5128,
+          "matched_form": "玄奘"
+        },
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "の訳本と同一であります。 （現在わが国で読まれている心経は、玄奘訳とほとんど同一である。むしろ羅什訳は、「観自在菩薩」を「観",
+          "context_position": 5463,
+          "matched_form": "玄奘"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空三蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "経』の伝訳者、善無畏三蔵も、さらに『金剛頂経』系統の伝訳者、不空三蔵も皆同じように陀羅尼を説き、如来の秘密語によって密教を解説し",
+          "context_position": 12584,
+          "matched_form": "不空三蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "吉蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "三論宗の大成者。嘉祥大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "吉蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "、この心境を「一」と名づけたのであります。 三論宗の嘉祥大師吉蔵のいう三法輪でいえば、枝葉の三乗教を合わせて根本の一仏乗に帰",
+          "context_position": 9346,
+          "matched_form": "吉蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "菩提心論』の作者と伝えられる竜猛菩薩も、『大日経』の伝訳者、善無畏三蔵も、さらに『金剛頂経』系統の伝訳者、不空三蔵も皆同じよう",
+          "context_position": 12561,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "嵯峨天皇",
+      "aliases": [
+        "嵯峨帝"
+      ],
+      "subcategory": "japanese_emperor",
+      "definition": "空海の主たる帰依者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "嵯峨天皇",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hannya-hiken",
+          "context": "九年（818年）の春、天下に疫病が大流行いたしました。ここに嵯峨天皇は自ら黄金を筆の先に染め、紺紙を爪掌（つめ）に握って、『般若",
+          "context_position": 13815,
+          "matched_form": "嵯峨天皇"
+        }
+      ]
+    }
+  ]
+}

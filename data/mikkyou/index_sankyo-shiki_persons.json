@@ -1,0 +1,1135 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "sankyo-shiki.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 44863,
+  "summary": {
+    "unique_terms": 30,
+    "unique_persons": 30,
+    "total_occurrences": 82,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 3,
+        "occurrences": 7
+      },
+      "buddhist_deva": {
+        "unique": 3,
+        "occurrences": 3
+      },
+      "buddhist_master_india": {
+        "unique": 4,
+        "occurrences": 16
+      },
+      "buddhist_master_japan": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "chinese_classical": {
+        "unique": 10,
+        "occurrences": 37
+      },
+      "chinese_legend": {
+        "unique": 9,
+        "occurrences": 17
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "孔子",
+      "aliases": [],
+      "subcategory": "chinese_classical",
+      "definition": "儒家の祖。春秋時代魯国。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "孔子",
+          "count": 14
+        }
+      ],
+      "occurrence_count": 14,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "場合でも教えの網は三種類あるのです。釈尊の教え、老子の教え、孔子の教えの三種です。教えに浅い深いの差はありますが、いずれも聖",
+          "context_position": 1553,
+          "matched_form": "孔子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "活を送るの要綱は、けだしこのようなものといえましょう。聖人の孔子さまも言っておられます。「耕すときは餒その中に在り、学ぶとき",
+          "context_position": 12918,
+          "matched_form": "孔子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "だから赤松子や王子喬は仙人となって長寿を得たのに項槖は七歳で孔子の師となった早熟の者であったが長生きできなかったし、顔回は三",
+          "context_position": 15761,
+          "matched_form": "孔子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "を食べたり、雪を掃き捨てて肱を枕として眠るような毎日でした。孔子の孫の伋（子思）はかつて衛の国にいた時にきわめて貧しく、着て",
+          "context_position": 21772,
+          "matched_form": "孔子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "が、いまの乞児の生活もそれとほとんど変らないほどでした。また孔子は弟子の顔回について、「疏食（粗末な食物）をくらい、水を飲み",
+          "context_position": 21874,
+          "matched_form": "孔子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "すが、乞児が貧しい暮しの中で求道の生活を楽しんでいる様子は、孔子のことばと同じようでした。 乞児の山の中での住居は実に簡素な",
+          "context_position": 21967,
+          "matched_form": "孔子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "べたといわれ、また田子方は温かい狐のかわごろもを貧しい子思（孔子の孫）に贈ろうとしたといわれますが、いまの乞児は何曾の食事な",
+          "context_position": 22451,
+          "matched_form": "孔子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "たところで、妻子と比べられようか。妻子以上のものはいない。 孔子の弟子の季路（子路）は若い頃、家が貧しく、両親と暮して粗末な",
+          "context_position": 23174,
+          "matched_form": "孔子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "詠われる美しい風習の教えは 周の国の昔語りに過ぎません あの孔子のような聖人ですら 落ちつくひまも無く諸国をめぐり 黙止して",
+          "context_position": 25728,
+          "matched_form": "孔子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "、二人とも大きな不孝を犯していることになりましょう。しかし、孔子は泰伯を評して「至徳の人」と呼んでいますし、薩埵王子は後に「",
+          "context_position": 26348,
+          "matched_form": "孔子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "深い真理を受け入れるだけの能力が育っていないのを見て、儒童は孔子に生まれかわり、迦葉は老子に生まれかわって、二人に儒教と道教",
+          "context_position": 29907,
+          "matched_form": "孔子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "かな境涯についておはなしいたしましょう。しかしこれは、周公も孔子も述べていないことですし、老子も荘子も演べていないことです。",
+          "context_position": 37100,
+          "matched_form": "孔子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "のようであります。疑いはすっかり氷解いたしました。あの周公・孔子の説く儒教や、老子・荘子の説く道教は、仏教と比べると、何と一",
+          "context_position": 43951,
+          "matched_form": "孔子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "臣・父子・夫婦の〈三綱〉、仁・義・礼・智・信の〈五常〉の道は孔子によって述べられました。これを習う者は槐林へ通います。 変転",
+          "context_position": 44366,
+          "matched_form": "孔子"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈尊",
+          "count": 8
+        },
+        {
+          "form": "釈迦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "、食べたいだけ食べる生活に浸っていて、かつて苦行林で、釈尊（釈迦の敬称）が一日にわずか一粒の麻子を食べて苦行を続けられたこと",
+          "context_position": 6040,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "です。ですから、人を導く場合でも教えの網は三種類あるのです。釈尊の教え、老子の教え、孔子の教えの三種です。教えに浅い深いの差",
+          "context_position": 1541,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "も夜も、食べたいだけ食べる生活に浸っていて、かつて苦行林で、釈尊（釈迦の敬称）が一日にわずか一粒の麻子を食べて苦行を続けられ",
+          "context_position": 6037,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "うことができて、永い迷いから目が覚めたのです」 仏教の開祖、釈尊について 「では、これから私たちの祖である釈尊についておはな",
+          "context_position": 31115,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": " 仏教の開祖、釈尊について 「では、これから私たちの祖である釈尊についておはなしいたしましょう。仏陀の本願は、すべての衆生を",
+          "context_position": 31138,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "な悟りの世界を知らずにいたのです。 こういうわけで、慈悲深い釈尊は、世を去られる日に、仏縁が無かった人々のために、仏陀の後継",
+          "context_position": 31427,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "者たちは、仏の遺教を伝える檄文を諸方の国々にわかちまわして、釈尊は涅槃されたが後の世に弥勒菩薩が成仏されて、この世界は再び光",
+          "context_position": 31649,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "匹敵するような高価なくび飾りをつけていましたが、竜女はこれを釈尊にさしあげました。釈尊がこれをお受けになるやいなや、直ちに竜",
+          "context_position": 40549,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "び飾りをつけていましたが、竜女はこれを釈尊にさしあげました。釈尊がこれをお受けになるやいなや、直ちに竜女という女児は変身して",
+          "context_position": 40560,
+          "matched_form": "釈尊"
+        }
+      ]
+    },
+    {
+      "canonical": "老子",
+      "aliases": [
+        "李耳"
+      ],
+      "subcategory": "chinese_classical",
+      "definition": "道家の祖。『老子（道徳経）』の著者と伝承される。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "老子",
+          "count": 6
+        }
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "の皇帝伏羲氏の作と伝えられる八卦（易の八つのかたち）の説も、老子の著わした『道徳経』も、周時代までの詩である『詩経』も、楚の",
+          "context_position": 168,
+          "matched_form": "老子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ら、人を導く場合でも教えの網は三種類あるのです。釈尊の教え、老子の教え、孔子の教えの三種です。教えに浅い深いの差はありますが",
+          "context_position": 1547,
+          "matched_form": "老子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "能力が育っていないのを見て、儒童は孔子に生まれかわり、迦葉は老子に生まれかわって、二人に儒教と道教を説かせ、天地・陰陽につい",
+          "context_position": 29920,
+          "matched_form": "老子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ましょう。しかしこれは、周公も孔子も述べていないことですし、老子も荘子も演べていないことです。しかも私がおはなしする大乗仏教",
+          "context_position": 37115,
+          "matched_form": "老子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "疑いはすっかり氷解いたしました。あの周公・孔子の説く儒教や、老子・荘子の説く道教は、仏教と比べると、何と一面的であり、うわべ",
+          "context_position": 43960,
+          "matched_form": "老子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "れました。これを習う者は槐林へ通います。 変転を説く道教は、老子によって授けられました。これを伝える者は道教の寺院の道観へ臨",
+          "context_position": 44405,
+          "matched_form": "老子"
+        }
+      ]
+    },
+    {
+      "canonical": "荘子",
+      "aliases": [
+        "荘周"
+      ],
+      "subcategory": "chinese_classical",
+      "definition": "戦国時代の道家。『荘子』の著者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "荘子",
+          "count": 4
+        },
+        {
+          "form": "荘周",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "になったと伝えられる王子喬を探したずねては仲間になる。また『荘子』に誌されているあの鵬の天上のすみかを観てまわったり、淮南王",
+          "context_position": 18839,
+          "matched_form": "荘子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "と一日中、一晩中、心は焼けこげ、肝の爛れる思いなのです。 『荘子』の中に、荘周が、水たまりに喘いでいる鮒と対話する話がありま",
+          "context_position": 24868,
+          "matched_form": "荘子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "う。しかしこれは、周公も孔子も述べていないことですし、老子も荘子も演べていないことです。しかも私がおはなしする大乗仏教の教え",
+          "context_position": 37118,
+          "matched_form": "荘子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "すっかり氷解いたしました。あの周公・孔子の説く儒教や、老子・荘子の説く道教は、仏教と比べると、何と一面的であり、うわべの教え",
+          "context_position": 43963,
+          "matched_form": "荘子"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "中、心は焼けこげ、肝の爛れる思いなのです。 『荘子』の中に、荘周が、水たまりに喘いでいる鮒と対話する話があります。 いま水が",
+          "context_position": 24875,
+          "matched_form": "荘周"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "苦しいから、何とか水を都合して助けて下さい、という鮒に対して荘周は、よろしい、いずれ楚の国から運河を作って沢山の水を送ってや",
+          "context_position": 24940,
+          "matched_form": "荘周"
+        }
+      ]
+    },
+    {
+      "canonical": "弥勒",
+      "aliases": [
+        "弥勒菩薩",
+        "慈氏",
+        "maitreya",
+        "Maitreya"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "未来仏。兜率天で待機。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "弥勒菩薩",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "、世を去られる日に、仏縁が無かった人々のために、仏陀の後継者弥勒菩薩及び旧くから徳を慕われている文殊菩薩たちに、ねんごろに後事を",
+          "context_position": 31460,
+          "matched_form": "弥勒菩薩"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "れている文殊菩薩たちに、ねんごろに後事を托されました。そして弥勒菩薩に対しては、仏の王国の次代の後継者であることを宣言して印璽を",
+          "context_position": 31504,
+          "matched_form": "弥勒菩薩"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "檄文を諸方の国々にわかちまわして、釈尊は涅槃されたが後の世に弥勒菩薩が成仏されて、この世界は再び光に満たされる、ということを衆庶",
+          "context_position": 31662,
+          "matched_form": "弥勒菩薩"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "馬に秣かい、車に脂さして、旅装束を調え、日も夜もかまわずに、弥勒菩薩の住んでおられる兜率天の聖域へ向って道を進めている次第です。",
+          "context_position": 31779,
+          "matched_form": "弥勒菩薩"
+        }
+      ]
+    },
+    {
+      "canonical": "黄帝",
+      "aliases": [],
+      "subcategory": "chinese_legend",
+      "definition": "三皇五帝の一。中華文明の祖と伝承される。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "黄帝",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "道教を伝うるには人を選ぶべし 隠士は答えていいました。「太上黄帝の秘録である道教の教えは、ことば一つとっても凡人には理解でき",
+          "context_position": 14337,
+          "matched_form": "黄帝"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "教の教えは、ことば一つとっても凡人には理解できないのだ。天尊黄帝の隠密な術なのだから、妄りに説き知らせることなどどうしてでき",
+          "context_position": 14376,
+          "matched_form": "黄帝"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "るありさまを要ねたりする。また太古に竜に乗って昇天したという黄帝軒轅氏を訪問して交友し、後に仙人になったと伝えられる王子喬を",
+          "context_position": 18791,
+          "matched_form": "黄帝"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "としたものではないでしょうか。中国古代の聖帝として名の高い、黄帝、尭帝・伏羲氏たちでさえも、この仏陀の境涯にくらべればまだほ",
+          "context_position": 41097,
+          "matched_form": "黄帝"
+        }
+      ]
+    },
+    {
+      "canonical": "周公",
+      "aliases": [
+        "周公旦"
+      ],
+      "subcategory": "chinese_legend",
+      "definition": "周王朝の摂政。礼制の整備者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "周公",
+          "count": 2
+        },
+        {
+          "form": "周公旦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "であろう。こういうことをするのが忠というものであって、伊尹・周公旦・箕子・比干といった人々は、けだしその代表的な人物というべき",
+          "context_position": 24319,
+          "matched_form": "周公旦"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "の安らかな境涯についておはなしいたしましょう。しかしこれは、周公も孔子も述べていないことですし、老子も荘子も演べていないこと",
+          "context_position": 37097,
+          "matched_form": "周公"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "った時のようであります。疑いはすっかり氷解いたしました。あの周公・孔子の説く儒教や、老子・荘子の説く道教は、仏教と比べると、",
+          "context_position": 43948,
+          "matched_form": "周公"
+        }
+      ]
+    },
+    {
+      "canonical": "堯",
+      "aliases": [
+        "尭",
+        "帝堯"
+      ],
+      "subcategory": "chinese_legend",
+      "definition": "五帝の一。聖王の代表。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "尭",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "興じて婚期が遅れた女性の心を詠っていますし、また『書経』にも尭帝が二人の娘を臣下の舜に嫁がせ二人の娘は幸せに人生を全うした",
+          "context_position": 11549,
+          "matched_form": "尭"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ものではないでしょうか。中国古代の聖帝として名の高い、黄帝、尭帝・伏羲氏たちでさえも、この仏陀の境涯にくらべればまだほど遠",
+          "context_position": 41100,
+          "matched_form": "尭"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "を分ち与え、正しい見方と生き方とを与えるのです。太古に中国の尭帝の世が善く治まったために、人々はそれがだれのお蔭であること",
+          "context_position": 42882,
+          "matched_form": "尭"
+        }
+      ]
+    },
+    {
+      "canonical": "舎利弗",
+      "aliases": [
+        "舎利子",
+        "śāriputra",
+        "Śāriputra"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。智慧第一。",
+      "sanskrit_canonical": "śāriputra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "舎利弗",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "また、この髻中の珠にあたる『法華経』をいまここに説かれ、かつ舎利弗に向って、あなたは未来に必ず成仏して華光如来と成るであろう、",
+          "context_position": 40334,
+          "matched_form": "舎利弗"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "て華光如来と成るであろう、との予言を与えられました。その時に舎利弗は深く感激し未曾有なことだと受け止めたのです。私たちも必ずや",
+          "context_position": 40384,
+          "matched_form": "舎利弗"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "感激し未曾有なことだと受け止めたのです。私たちも必ずや、あの舎利弗のように、髻中の明珠にも比すべき、真実の教えを開示され、成仏",
+          "context_position": 40420,
+          "matched_form": "舎利弗"
+        }
+      ]
+    },
+    {
+      "canonical": "迦葉",
+      "aliases": [
+        "摩訶迦葉",
+        "kāśyapa",
+        "Kāśyapa"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子の筆頭。頭陀第一。",
+      "sanskrit_canonical": "kāśyapa",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "迦葉",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "似た仏陀の教えを学んでごらんなさい。ある書物によれば、儒童と迦葉の二人は仏弟子ですが、人々がまだ未開の時代に、仏陀はこの二人",
+          "context_position": 29825,
+          "matched_form": "迦葉"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "だけの能力が育っていないのを見て、儒童は孔子に生まれかわり、迦葉は老子に生まれかわって、二人に儒教と道教を説かせ、天地・陰陽",
+          "context_position": 29917,
+          "matched_form": "迦葉"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "教え遺されました。そこで仏の王国の大臣ともいうべき文殊菩薩や迦葉尊者たちは、仏の遺教を伝える檄文を諸方の国々にわかちまわして",
+          "context_position": 31616,
+          "matched_form": "迦葉"
+        }
+      ]
+    },
+    {
+      "canonical": "司馬相如",
+      "aliases": [],
+      "subcategory": "chinese_classical",
+      "definition": "前漢の文人。賦の名手。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "司馬相如",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ことはありませんし、南楚の人である屈原や西蜀の人である揚雄、司馬相如のような文学に明るい人々のようにもなれましょう。 さらに書道",
+          "context_position": 8417,
+          "matched_form": "司馬相如"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ていくでしょう。玲々と鈴をふるわせるように響く文章は、孫綽や司馬相如の文章すらはるかにしのいで、まさに多くの玉を連ねたように鳴り",
+          "context_position": 10165,
+          "matched_form": "司馬相如"
+        }
+      ]
+    },
+    {
+      "canonical": "宋玉",
+      "aliases": [],
+      "subcategory": "chinese_classical",
+      "definition": "戦国時代楚の文人。屈原の弟子と伝承。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "宋玉",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "体のあらゆる竅から沸きあがってきます。 「神女賦」には、楚の宋玉が夢の中で麗しい神女に遇い、深く魅せられ、忘れることができな",
+          "context_position": 33642,
+          "matched_form": "宋玉"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "いますが、綢り合い愛し合った妻子との深い縁も、考えてみれば、宋玉の夢の話と異なるところがありません。 また『列仙伝』には、鄭",
+          "context_position": 33713,
+          "matched_form": "宋玉"
+        }
+      ]
+    },
+    {
+      "canonical": "屈原",
+      "aliases": [],
+      "subcategory": "chinese_classical",
+      "definition": "戦国時代楚の詩人。『離騒』作者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "屈原",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ぐれた人物にだってなれないことはありませんし、南楚の人である屈原や西蜀の人である揚雄、司馬相如のような文学に明るい人々のよう",
+          "context_position": 8404,
+          "matched_form": "屈原"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ょう。 昔、淮南王の安が入朝した時に、周王から『離騒』という屈原の作った賦の、注釈書を作るよう命じられましたが、安は、朝早く",
+          "context_position": 10300,
+          "matched_form": "屈原"
+        }
+      ]
+    },
+    {
+      "canonical": "揚雄",
+      "aliases": [
+        "楊雄"
+      ],
+      "subcategory": "chinese_classical",
+      "definition": "前漢末の文人・思想家。『太玄経』『法言』。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "揚雄",
+          "count": 1
+        },
+        {
+          "form": "楊雄",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "れないことはありませんし、南楚の人である屈原や西蜀の人である揚雄、司馬相如のような文学に明るい人々のようにもなれましょう。 ",
+          "context_position": 8414,
+          "matched_form": "揚雄"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ありましょうし、曄々として黄金のひびくような美しいことばは、楊雄や班固などの美辞をしのいで、多くの華を貫いてつないだように輝",
+          "context_position": 10233,
+          "matched_form": "楊雄"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "々のために、仏陀の後継者弥勒菩薩及び旧くから徳を慕われている文殊菩薩たちに、ねんごろに後事を托されました。そして弥勒菩薩に対",
+          "context_position": 31478,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "るようにと教え遺されました。そこで仏の王国の大臣ともいうべき文殊菩薩や迦葉尊者たちは、仏の遺教を伝える檄文を諸方の国々にわか",
+          "context_position": 31611,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "文王",
+      "aliases": [
+        "周文王"
+      ],
+      "subcategory": "chinese_legend",
+      "definition": "周の始祖（武王の父）。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "文王",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "すから、角を扣いて仕官の運動などする必要もありませんし、周の文王のような聖天子の車があなたを求めて来るのですから、鋏を弾いて",
+          "context_position": 10757,
+          "matched_form": "文王"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "を察してあげる、このようなことを孝というのである。舜帝や周の文王はこれらを実行して帝位にのぼったのであり、自分を奴隷として身",
+          "context_position": 24028,
+          "matched_form": "文王"
+        }
+      ]
+    },
+    {
+      "canonical": "空海",
+      "aliases": [
+        "弘法大師",
+        "遍照金剛",
+        "大遍照金剛"
+      ],
+      "subcategory": "buddhist_master_japan",
+      "definition": "真言宗開祖。性霊集の主たる撰者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "空海",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "どうしてもいまここで私の志を文章にして述べたいのです。 私・空海の略歴 私は十五歳で母の兄弟である阿刀大足氏について学びまし",
+          "context_position": 369,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "望まず、むしろ世俗を超えた仏法に身を投ずる決意である、という空海青年の内心を示した結句である）。 以上",
+          "context_position": 44842,
+          "matched_form": "空海"
+        }
+      ]
+    },
+    {
+      "canonical": "伯夷",
+      "aliases": [],
+      "subcategory": "chinese_legend",
+      "definition": "殷末の高士。叔斉とともに首陽山で餓死。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "伯夷",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "れるでしょうし、また廉潔に身を処そうとするならば努力次第で、伯夷・叔斉の兄弟や、許由のような、徹底した廉潔の士の仲間入りがで",
+          "context_position": 8975,
+          "matched_form": "伯夷"
+        }
+      ]
+    },
+    {
+      "canonical": "叔斉",
+      "aliases": [],
+      "subcategory": "chinese_legend",
+      "definition": "殷末の高士。伯夷の弟。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "叔斉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "しょうし、また廉潔に身を処そうとするならば努力次第で、伯夷・叔斉の兄弟や、許由のような、徹底した廉潔の士の仲間入りができるの",
+          "context_position": 8978,
+          "matched_form": "叔斉"
+        }
+      ]
+    },
+    {
+      "canonical": "夜叉",
+      "aliases": [
+        "yakṣa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "八部衆の一。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "夜叉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ありさまです。 このおびただしい数の聴聞衆の中には、天・竜・夜叉などの八部衆（説法の座に列席して仏法を護るという鬼神たち）も",
+          "context_position": 42071,
+          "matched_form": "夜叉"
+        }
+      ]
+    },
+    {
+      "canonical": "孟子",
+      "aliases": [],
+      "subcategory": "chinese_classical",
+      "definition": "戦国時代の儒家。性善説。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "孟子",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "たが世俗の成功を追わずに清廉潔白に慎しみ深く身を保つならば、孟子の母のような台孝威のように有名になれるでしょうし、また廉潔に",
+          "context_position": 8926,
+          "matched_form": "孟子"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈天",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "の境涯にくらべればまだほど遠いですし、インドの転輪聖王でも、帝釈天や梵天たちの神々でも、仏陀に向えばまるで問題になりません。天",
+          "context_position": 41147,
+          "matched_form": "帝釈天"
+        }
+      ]
+    },
+    {
+      "canonical": "梵天",
+      "aliases": [
+        "brahmā",
+        "Brahmā"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "色界初禅天の主。",
+      "sanskrit_canonical": "brahmā",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "梵天",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "くらべればまだほど遠いですし、インドの転輪聖王でも、帝釈天や梵天たちの神々でも、仏陀に向えばまるで問題になりません。天魔や外",
+          "context_position": 41151,
+          "matched_form": "梵天"
+        }
+      ]
+    },
+    {
+      "canonical": "王羲之",
+      "aliases": [
+        "王逸少"
+      ],
+      "subcategory": "chinese_classical",
+      "definition": "東晋の書家。書聖。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "王羲之",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "くまっているような雄渾な文字も書けるようになり、鍾繇・張芝・王羲之の父子・欧陽詢の父子などのような古来からの名筆家と肩を並べる",
+          "context_position": 8521,
+          "matched_form": "王羲之"
+        }
+      ]
+    },
+    {
+      "canonical": "目連",
+      "aliases": [
+        "目犍連",
+        "摩訶目犍連",
+        "maudgalyāyana"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。神通第一。",
+      "sanskrit_canonical": "maudgalyāyana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "目連",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ば、目前の小事にこだわる必要がどうしてありましょうか。羅卜（目連尊者）が、餓鬼道に陥ちた亡き母の苦しみを救済した話や、那舎長",
+          "context_position": 26460,
+          "matched_form": "目連"
+        }
+      ]
+    },
+    {
+      "canonical": "舜",
+      "aliases": [
+        "帝舜"
+      ],
+      "subcategory": "chinese_legend",
+      "definition": "五帝の一。聖王の代表。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "舜",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "の心を詠っていますし、また『書経』にも尭帝が二人の娘を臣下の舜に嫁がせ二人の娘は幸せに人生を全うしたことを賞でて書き残して",
+          "context_position": 11560,
+          "matched_form": "舜"
+        }
+      ]
+    },
+    {
+      "canonical": "葉公",
+      "aliases": [],
+      "subcategory": "chinese_legend",
+      "definition": "葉公好龍の故事の主人公。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "葉公",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "なた方も、この鏡を見るように正確に観察してごらんなさい。また葉公という人は竜を好み、絵にかいたり彫刻したりして竜を尊んでいま",
+          "context_position": 29631,
+          "matched_form": "葉公"
+        }
+      ]
+    },
+    {
+      "canonical": "虚空蔵",
+      "aliases": [
+        "虚空蔵菩薩",
+        "ākāśagarbha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧と福徳を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "虚空蔵菩薩",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ろがある時、一人の仏道修行の僧侶に会いました。この人は私に『虚空蔵菩薩求聞持法経』というお経を示し教えてくれましたが、そこには「も",
+          "context_position": 637,
+          "matched_form": "虚空蔵菩薩"
+        }
+      ]
+    },
+    {
+      "canonical": "許由",
+      "aliases": [],
+      "subcategory": "chinese_legend",
+      "definition": "上古の隠者。堯の譲位を辞退。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "許由",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "廉潔に身を処そうとするならば努力次第で、伯夷・叔斉の兄弟や、許由のような、徹底した廉潔の士の仲間入りができるのです。 またも",
+          "context_position": 8985,
+          "matched_form": "許由"
+        }
+      ]
+    },
+    {
+      "canonical": "韓非",
+      "aliases": [
+        "韓非子"
+      ],
+      "subcategory": "chinese_classical",
+      "definition": "戦国時代の法家。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "韓非子",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "よって生きるものだ、と書かれていますし、仏教以外の書物にも『韓非子』に、人民が飢えている時に学問をすすめてみても無駄であり、先",
+          "context_position": 27463,
+          "matched_form": "韓非子"
+        }
+      ]
+    }
+  ]
+}

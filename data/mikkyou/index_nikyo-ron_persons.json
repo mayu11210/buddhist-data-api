@@ -1,0 +1,1929 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "nikyo-ron.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 38816,
+  "summary": {
+    "unique_terms": 20,
+    "unique_persons": 20,
+    "total_occurrences": 238,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 6,
+        "occurrences": 93
+      },
+      "buddhist_deva": {
+        "unique": 2,
+        "occurrences": 4
+      },
+      "buddhist_master_china": {
+        "unique": 7,
+        "occurrences": 25
+      },
+      "buddhist_master_india": {
+        "unique": 4,
+        "occurrences": 36
+      },
+      "buddhist_master_japan": {
+        "unique": 1,
+        "occurrences": 80
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "空海",
+      "aliases": [
+        "弘法大師",
+        "遍照金剛",
+        "大遍照金剛"
+      ],
+      "subcategory": "buddhist_master_japan",
+      "definition": "真言宗開祖。性霊集の主たる撰者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "空海",
+          "count": 79
+        },
+        {
+          "form": "弘法大師",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 80,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ものなのであります。『瓔珞経』によりますと（勝又俊教博士編『弘法大師著作全集』第一巻の注によれば『瓔珞経』には以下の文は無く、慈",
+          "context_position": 26702,
+          "matched_form": "弘法大師"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "いっても、経典や論書によって種々の意味がありますが、いま私（空海）は仏陀を三つの身に分類したいと考えます。そして教えとしては",
+          "context_position": 69,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": " （冒頭のこの一文はまことに重要な意味を持っている。ここから空海が仏身を三種に分けて考察していることがわかる。つまり三身説を",
+          "context_position": 339,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "仏果報身であり、種々の如来もすべて報身仏なのである。ところで空海はそういう一般の三身説、法身が理仏だと定めている三身説には全",
+          "context_position": 665,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "、法身が理仏だと定めている三身説には全く興味が無いのである。空海の目指す法身は、真言教主大日如来に相当する仏身であり、色身（",
+          "context_position": 708,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "あり説法する、れっきとした脈々といきづく存在なのである。この空海の意図する法身にぴったりと合致するのが『金光明最勝王経』（義",
+          "context_position": 773,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "りと合致するのが『金光明最勝王経』（義浄訳十巻本）であった。空海が『二教論』の冒頭に、「それ仏に三身あり」と言った三身とは、",
+          "context_position": 816,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "を基にしたものであり、その法身を真言教主大日に結びつけたのは空海なのである。『金光明経』は大乗経典であって、密教については一",
+          "context_position": 890,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "密教については一言も述べていない。ただ、そこに説かれる法身を空海が応用して、空海独自の三身説に造り変えたのがこの文なのである",
+          "context_position": 944,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "言も述べていない。ただ、そこに説かれる法身を空海が応用して、空海独自の三身説に造り変えたのがこの文なのである。──訳者注） ",
+          "context_position": 952,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "説法されるのであります。これが密教の教えなのです。 （ここで空海は、法・応・化の三身とは別の、唯識教学で発展してきた自性・自",
+          "context_position": 1516,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "後に自受用・他受用に分けられて四身説となった。 この部分での空海の最も大切な工夫は、自性身と自受用身とをまとめて、「自性・自",
+          "context_position": 1715,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "受用身を応身に、変化身を化身に配当している。これを整理すれば空海の三身説は、この配当によって真言教主大日如来は、法身であり、",
+          "context_position": 1812,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "の大日如来をとりかこんでいる諸仏・諸尊なのである。この見方は空海の独創であり、『金光明最勝王経』や唯識教学の仏身観を応用して",
+          "context_position": 1957,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "あり、『金光明最勝王経』や唯識教学の仏身観を応用して形成した空海の三身説と呼ぶべきものであり、『弁顕密二教論』の冒頭でこれを",
+          "context_position": 1993,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "一体どういう理由なのか、と問われましょう。 これに対して私（空海）は答えます。この書は必ず役に立つのです。だから著作したので",
+          "context_position": 3351,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "るから、明とか無明とかのものさしでははかれないのです。 私（空海）が喩釈していいますと、ここにあげた五重の問答は、きわめて意",
+          "context_position": 7664,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "は明らかにしていない。まことに不可解な論書なのである。しかし空海は『釈論』を読み、この価値こそ直ちに真言密教のことであり大日",
+          "context_position": 8069,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "あり大日如来のことを指している、と読み取ったのである。そして空海は、密教を学ぶ学生が重視しなければならぬ書物の一覧目録（『三",
+          "context_position": 8127,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "論』一巻及び『釈摩訶衍論』十巻を挙げているほどなのである。 空海かぞえ五十七歳（天長七年）の作と推定される『秘蔵宝鑰』では、",
+          "context_position": 8206,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "るわけではないので一向に差しつかえないのです。 （以上の文を空海が）喩釈して申しますと、この『釈論』で述べる「不二摩訶衍」と",
+          "context_position": 9843,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "かしそこに説かれる絶対の価値、不二摩訶衍とか円円海徳の仏を、空海は直ちに、華厳の教主すら遠く及ばない真言教主だと見抜いたので",
+          "context_position": 10103,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "華厳の教主すら遠く及ばない真言教主だと見抜いたのである。この空海の慧眼に注目していただきたい。──訳者注）  三）華厳五教章",
+          "context_position": 10140,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "一乗教を三つに分類している。図に示せば次のようになる。   空海は十住心思想を構築するにあたって、この『五教章』の表現を応用",
+          "context_position": 10622,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "客観的にことばで表現することはできません」。 （以上の諸文を空海が）喩釈して申しますと、『十地経論』や『華厳五教章』で述べて",
+          "context_position": 11901,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "そのまま述べられたことばだといえるのである。 以上の文を私・空海が喩釈して申しますと、要するに天台大師の主張は、三諦の教えで",
+          "context_position": 13776,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "報身仏とか法身仏として記を与えることなどしないのである」。（空海が）喩釈していいますと、この『楞伽経』の文によりますと、『法",
+          "context_position": 14455,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "示している。つまり法身に説法のあることを示す数少ない経典で、空海はこの経を高く評価しており、本書冒頭の顕密の二教の相違を明示",
+          "context_position": 14716,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "明示する経論の一つとして挙げているのである。 次にもう一点、空海の主張は、法身の説法は真言密教だけであり、その法身は大日如来",
+          "context_position": 14776,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "とばを超えたところ、ことばではとうてい表わせない境地。） （空海が）喩釈しますと、この文章でいう勝義勝義、廃詮談旨、聖智内証",
+          "context_position": 15681,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "〉の作った、有名な『中論〈頌〉』であるところから本文のように空海が引用したのである）の「観涅槃品」に仏教批判の偈があり、そこ",
+          "context_position": 16960,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "指し示すことこそ、この『般若燈論』の趣旨なのである」と。 （空海が）喩釈していいます。いまここに挙げた『大智度論』や『般若燈",
+          "context_position": 18604,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "できる、というより深い説明がふさわしいのである」。 （ここで空海が）喩釈していいますと、初めに記した初重の真俗二諦は通常の通",
+          "context_position": 19429,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "には真俗二諦の説きかたが逆になる、というのである。この論法を空海は、大乗諸教を超える密教に当てはめて、一般大乗の見方もより深",
+          "context_position": 19824,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "後の一・一識心だけが認識してその境界となれるのである」。 （空海が）喩釈して申します。言語とか心量をはっきり区別して、この言",
+          "context_position": 21841,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "慧ある諸師方よ、ここをよく読んで自分の誤りを正しなさい。 （空海はこの『釈論』の一文に真言密教と顕教の違いが明示されている、",
+          "context_position": 21983,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "、心に大日如来を観ずる修行〉につとめる心。──訳者注） 　（空海が）喩釈して申します。この『菩提心論』は龍樹菩薩が著作された",
+          "context_position": 22391,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "段には密教特有の阿字観、月輪観等の観法が詳細に説かれており、空海はこの部分をそっくり『秘蔵宝鑰』の第十、秘密荘厳心の説明に当",
+          "context_position": 22804,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "手菩薩には甚深微妙なる総持門を受持させることにする」と。 （空海が）喩釈していいます。いまのこの経文によれば、仏陀は五味を五",
+          "context_position": 24338,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "りであることが説明がいらないほど明らかなのです。  （ここで空海が『大乗理趣六波羅蜜多経』を長文で引用したのは、この大乗経典",
+          "context_position": 24545,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "せて総持門（陀羅尼門）を受持させる、と述べているためである。空海は、この経の説相は、密教を示唆している、と受け取ったのである",
+          "context_position": 24726,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "の教えである大乗仏教の、この上無き教えを説くであろう」。 （空海が）喩釈していいます。ここで「わが乗たる内証智」というのは、",
+          "context_position": 24996,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "りの内容そのものの境地をそのまま説いたものではない」と。 （空海が）喩釈して申しますと、いまこの経によれば、法身・報身・応化",
+          "context_position": 25769,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "」。 　（ここで「顕教」という用語について注意すべきである。空海以前で密教と対比して顕教の語を用いているのは、この経典のこの",
+          "context_position": 26195,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "已後、広大甚深不思議の法を受得して、二乗十地を超越す」。 （空海が）喩釈して申します。顕教でいうところの「ほとけの悟りの境地",
+          "context_position": 26584,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "文は無く、慈恩大師基窺著の『大乗法苑義林章』にこの文があり、空海はこれに依っていると思われる）、毗盧遮那は理法身、盧遮那は智",
+          "context_position": 26760,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "、これは中国での展開ではないかと推測される。それはともかく、空海にとっては、法身に智のはたらきがある、という考え方はまことに",
+          "context_position": 26995,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "先入観ができてしまって、ためにならないからである。したがって空海の喩釈のみにとどめたいと思う。読者各位にはぜひ御理解をいただ",
+          "context_position": 27276,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "に配当して、「五智五仏」という仏陀観を形成した。この考え方は空海以前に形成されており、不空訳経典に見えるところから、恵果の師",
+          "context_position": 27740,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "属するものであって、ここに真言密教の真骨頂がある、というのが空海の考え方である。──訳者注）  （十四─三）分別聖位経 　（",
+          "context_position": 28109,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "段も不読段であるから、注は最少限にし原文を書き下すにとどめ、空海の喩釈に耳を傾けることにする）また『分別聖位経』にこういいま",
+          "context_position": 28173,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "者は大いに注意しなければならない。──訳者注） （ここからは空海の考えである）ここに挙げた経文はすべて自性・自受用仏・理智法",
+          "context_position": 28815,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "。五智三十七等の不共の仏の法門を満足す。 （以下のカッコ内は空海の注、これは宗の大意を幖す。）  しかも如来の変化身は、閻浮",
+          "context_position": 29472,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "如来の変化身」、「報身毗盧遮那」、「自受用仏」である。経文に空海は自註をつけてそれぞれ「釈迦如来」、「他受用身」、「自性・自",
+          "context_position": 30598,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "、「自性・自受用身」としている。『分別聖位経』の三身の分類は空海の三身とは必ずしも一致しているとは思われないが空海は自身の三",
+          "context_position": 30654,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "身の分類は空海の三身とは必ずしも一致しているとは思われないが空海は自身の三身説に合わせて註を加えているのである。したがって『",
+          "context_position": 30679,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "て註を加えているのである。したがって『分別聖位経』の分類は、空海以前の密教経典でのめずらしい例である。空海はいまだ十分とはい",
+          "context_position": 30722,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "聖位経』の分類は、空海以前の密教経典でのめずらしい例である。空海はいまだ十分とはいえない経の三身を頭に置きながら、『金光明経",
+          "context_position": 30743,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "される恐れがある、と考えたためであろう。──訳者注）   （空海が）喩釈して申しますと、この経には仏の三身にそれぞれ説法があ",
+          "context_position": 30924,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "しにとどめる）「一時薄伽梵、金剛界遍照如来（以下のカッコ内は空海の注である。──これは惣句をもって諸尊の徳を歎ず）、五智所成",
+          "context_position": 31226,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "べし、怪しむことなかれ、怪しむことなかれ）」と。 （この段の空海の注は、真言密教の立場からの意をとったもので注自体が意味深い",
+          "context_position": 32983,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "代語に置き換えてもはじまらないので、書き下しにとどめ、処々の空海の注に注目しながら読んでいただきたい。──訳者注） 「一時薄",
+          "context_position": 33811,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "、加持のゆえに、身・語・意平等句の法門なり（以下のカッコ内は空海の注、念のため──これは自性身の説法を明かす）。 時に彼の菩",
+          "context_position": 34020,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "入真言門住心品第一の文で経の冒頭の一節である。重要なことは、空海がこの文を四つに分け、順に自性・受用・変化・等流の四身に配当",
+          "context_position": 34429,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "受用に分けられ、その自受用身の性格をめぐって議論されている。空海はこの自受用身を自性身と合体させて、「自性・自受用身」なる仏",
+          "context_position": 34622,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "れを法身大日如来に配当したことはすでに述べたが、この工夫は、空海以外の仏教学者のだれも考え及ばなかった説で、空海の密教学の深",
+          "context_position": 34691,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "この工夫は、空海以外の仏教学者のだれも考え及ばなかった説で、空海の密教学の深さを証明しているのである。 さてこの四種身を用い",
+          "context_position": 34715,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "の『金剛頂経』にある。『大日経』には説かれていないのである。空海はこれら四種身、ないし四種法身を『大日経』にも配当し『大日経",
+          "context_position": 34833,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "一の仏身説であることをも示しているのがこの一段である。 次に空海の注の中に、「横と竪の四種法身あり」というのは、横とは四種身",
+          "context_position": 34914,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "、他の三身は周辺の尊であり顕教の教主であるという見方である。空海には常に横竪の二義が思索に含まれていて、この工夫によって、顕",
+          "context_position": 35042,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ても無意味のように思われるので書き下し文にとどめたい。ただし空海の注は十分心して読むべきであり、逆にこの注によって『大日経』",
+          "context_position": 35192,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "流遍して、もろもろの刹土において仏事を勤作するがごとし（以下空海の注、念のため。この文は、大日尊の三身、もろもろの世界に遍じ",
+          "context_position": 35539,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "三身おのおの不同なり。まさにこれを知るべし）」。 （この段を空海が引用した理由は、法身大日如来は理念的な仏身〈理仏〉ではなく",
+          "context_position": 35636,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "説かれた経の中にしばしば「秘密蔵」等真言密教の用語がみられ、空海は秘密にも多種多様の秘密のあることを喩釈している。──訳者注",
+          "context_position": 36147,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "で説法される。法を聴く人々も虚空に満ちるほど無量無辺である（空海の注、これは法性身の法を聴く人々も、常の人ではなくて同じく法",
+          "context_position": 36401,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "見えるし心が不浄ならば仏を見ることはできないのだ」と。  （空海は『大智度論』で法身が脈々と生きづく仏身でしかも説法をしてい",
+          "context_position": 36973,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "には密教や大日如来などの名称はどこにも書かれていない。そこで空海は『大智度論』を密教を説く証拠として挙げてはいるが、密教に言",
+          "context_position": 37088,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "しいかな古賢、醍醐を嘗めざることを」と嘆じているのである。 空海が『大智度論』の法身を高く評価していることについて後の法・報",
+          "context_position": 37164,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "あり真理そのものという意味が固定化しており、そうした仏身観は空海は一切取り上げていないことは勿論である。──訳者注） また『",
+          "context_position": 37393,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "切の天人たちは理解もできないし、知ることもできない」と。 （空海が）喩釈して申しますと、これまで挙げてきた経論の文は、顕教と",
+          "context_position": 37540,
+          "matched_form": "空海"
+        }
+      ]
+    },
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日如来",
+          "count": 37
+        },
+        {
+          "form": "大日",
+          "count": 23
+        },
+        {
+          "form": "盧遮那",
+          "count": 16
+        }
+      ],
+      "occurrence_count": 76,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "身説には全く興味が無いのである。空海の目指す法身は、真言教主大日如来に相当する仏身であり、色身（肉身）あり説法する、れっきとした",
+          "context_position": 722,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "三身は、「自受用仏・他受用仏・変化仏」で、下からいいますと、大日如来の変化身は十地以前の菩薩及び声聞乗、縁覚乗という小乗教の人々",
+          "context_position": 1335,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "教え（天台とか華厳）を説く仏身、そして自性・自受用仏は、法身大日如来としてマンダラの中央に座し、まわりをとり巻く諸尊と共に自身の",
+          "context_position": 1441,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "る。これを整理すれば空海の三身説は、この配当によって真言教主大日如来は、法身であり、自性・自受用身であり、マンダラの中央に座す仏",
+          "context_position": 1832,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "・変化身であり化身と呼ばれるもろもろの仏身であり、マンダラの大日如来をとりかこんでいる諸仏・諸尊なのである。この見方は空海の独創",
+          "context_position": 1928,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "） ここでいう三密門とは身体とことばと心、身口意の三方面から大日如来と私たち衆生とが一体であるという教えで、法身大日如来のお心そ",
+          "context_position": 2070,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "方面から大日如来と私たち衆生とが一体であるという教えで、法身大日如来のお心そのものの世界であります。したがって一般の仏教でいえば",
+          "context_position": 2096,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "な証拠をこれから述べることにいたします。真言密教に入門して、大日如来に出会おうと思う人々は、ぜひその深い趣旨を読み取ってほしいと",
+          "context_position": 2509,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "まして、どうして、尽きることのない多くの功徳を内容とする法身大日如来との一体感を保つことができましょうか。究極の美味である醍醐を",
+          "context_position": 2734,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "空海は『釈論』を読み、この価値こそ直ちに真言密教のことであり大日如来のことを指している、と読み取ったのである。そして空海は、密教",
+          "context_position": 8099,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "か、「円円海徳の諸仏」という仏こそ、真言密教の教主、自性法身大日如来のことで、この教えは真言密教のことを指しているのです。この教",
+          "context_position": 9905,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "点、空海の主張は、法身の説法は真言密教だけであり、その法身は大日如来だけである、という。他の顕教は、法身以外の応身・化身・報身・",
+          "context_position": 14804,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "）ではとうてい説くことができないのであり、自性法身・真言教主大日如来だけが唯一人、如義言説をもって、顕教では「かけ離れていて近づ",
+          "context_position": 15948,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "の願いを自身の願いとしてその実現に怒める心、三摩地心とは仏・大日如来と一体となることをめざして三密行〈手に印契を結び、口に真言を",
+          "context_position": 22325,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ることをめざして三密行〈手に印契を結び、口に真言を誦え、心に大日如来を観ずる修行〉につとめる心。──訳者注） 　（空海が）喩釈し",
+          "context_position": 22364,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "のことです。また「これ三摩地の法を説く」というのは自性法身・大日如来の説かれる真言密教の三摩地門（大日如来と一体になる修行法）の",
+          "context_position": 22611,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "」というのは自性法身・大日如来の説かれる真言密教の三摩地門（大日如来と一体になる修行法）のことであります。『金剛頂経』の大本十万",
+          "context_position": 22630,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "数）の所集の福徳智慧を集得して、すなわち仏家に生在すとなす（大日如来と同体となる）。わずかに曼荼羅を見る時はすなわち金剛界の種子",
+          "context_position": 26495,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "し、人の心では押しはかれない」という境界こそ、真言密教でいう大日如来のお心そのものなのであります。『瓔珞経』によりますと（勝又俊",
+          "context_position": 26663,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ある、という考え方はまことに好ましいのであり、法身説法、法身大日如来への大切な論証と受け取っているのである。なお、この経文以下の",
+          "context_position": 27043,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "教ではこの四智にさらに法界体性智という一智を加えて五智とし、大日如来をとりまく四仏〈金剛界の五仏〉に配当して、「五智五仏」という",
+          "context_position": 27691,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "という見方が出来上がったのであり、あらゆる生命体の当体をなす大日如来の実在することから考えればすべては法身となるのであり、これも",
+          "context_position": 27918,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "に置くことであり、こうすることによって私たち普通の人間も法身大日如来と密接な関係にあることを実感できるのである。こうした心の実感",
+          "context_position": 28037,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "い、という確固たる立場に立っている。大乗の諸如来も真言密教の大日如来も、神話の神ではない。限り無く高い人格なのである。大日如来と",
+          "context_position": 28539,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "の大日如来も、神話の神ではない。限り無く高い人格なのである。大日如来という仏陀も、あくまで人間釈尊から出発し、釈尊の八十年のご生",
+          "context_position": 28568,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "場からの意をとったもので注自体が意味深い。ここに説かれている大日如来以下三十七尊の出現、五智五仏が無限に広がって法界に遍じ、その",
+          "context_position": 33025,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "こに参考までに金剛界三十七尊を一応図示しておこう。  中央の大日如来、その四方に金剛薩埵、金剛宝菩薩、金剛法菩薩、金剛業菩薩──",
+          "context_position": 33155,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "も五智五仏の当体となっている。すなわちこの世界の現象はすべて大日如来の仏作仏業──仏の活動──にほかならないのであり、その活動は",
+          "context_position": 33559,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "と合体させて、「自性・自受用身」なる仏身を設定し、これを法身大日如来に配当したことはすでに述べたが、この工夫は、空海以外の仏教学",
+          "context_position": 34665,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "竪の四種法身あり」というのは、横とは四種身すべてが法身であり大日如来と諸尊すべてが同体であるとする見方であり、竪というのは四種身",
+          "context_position": 34955,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "方であり、竪というのは四種身のうち、自性法身がマンダラ中央の大日如来であり、他の三身は周辺の尊であり顕教の教主であるという見方で",
+          "context_position": 35005,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "にこれを知るべし）」。 （この段を空海が引用した理由は、法身大日如来は理念的な仏身〈理仏〉ではなくて、脈々と現に生存している生命",
+          "context_position": 35649,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "であって、かつて釈尊が広く活動され人々を救済されたと同様に、大日如来も限り無く高い人格を所有され、人々を広く救済しているのである",
+          "context_position": 35716,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "をしているという表現に強い共感を覚え、この仏身こそ真言密教の大日如来を意味するのだ、と理解した。しかし『大智度論』には密教や大日",
+          "context_position": 37031,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "如来を意味するのだ、と理解した。しかし『大智度論』には密教や大日如来などの名称はどこにも書かれていない。そこで空海は『大智度論』",
+          "context_position": 37063,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "菩薩や十地の菩薩ですら見えず聴こえずの境地であります。これは大日如来のほうで、相手に不足と見て重要なところを説かないのです。これ",
+          "context_position": 38590,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "秘密といっているのは最も深い最終の帰着点を指しているのです。大日如来以外の仏身が陀羅尼門を説き秘密蔵を説くといっても法身大日の説",
+          "context_position": 38688,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "のは、この経典のこの部分だけである。──訳者注） 　「もし毗盧遮那仏・自受用身所説の内証、自覚聖智の法、及び大普賢金剛薩埵・他",
+          "context_position": 26247,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "林章』にこの文があり、空海はこれに依っていると思われる）、毗盧遮那は理法身、盧遮那は智法身、釈迦を化身という仏身の分類をしてお",
+          "context_position": 26779,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "あり、空海はこれに依っていると思われる）、毗盧遮那は理法身、盧遮那は智法身、釈迦を化身という仏身の分類をしておりますが、この『",
+          "context_position": 26787,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "の分類をしておりますが、この『金剛頂五秘密経』の述べている毗盧遮那仏・自受用身によって示される密教の内容、つまり法身が自らの悟",
+          "context_position": 26835,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "これは略して釈迦如来の教え及び得益を表わすなり。） 報身の毗盧遮那、色界頂第四禅、阿迦尼吒天宮において、雲集せる尽虚空遍法界の",
+          "context_position": 29755,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "灌頂の職位を受く。彼等の菩薩おのおの三密門を説いて、もって毗盧遮那及び一切如来に献じて、すなわち加持教勅を請す。毗盧遮那仏のの",
+          "context_position": 29931,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "って毗盧遮那及び一切如来に献じて、すなわち加持教勅を請す。毗盧遮那仏ののたまわく、汝等将来、無量の世界において、最上乗者のため",
+          "context_position": 29958,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "。彼のもろもろの菩薩、如来の勅を受け已って、仏足を頂礼し、毗盧遮那を囲繞し已って、おのおのの本方本位に還って、五輪と成って、本",
+          "context_position": 30043,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "を成ぜしむ。なお金剛の沮壌すべからざるが如し。これすなわち毗盧遮那の聖衆集会なり。すなわち現証窣都婆塔となる。一一の菩薩、一一",
+          "context_position": 30202,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "に分けて説いている。その三種とは、「如来の変化身」、「報身毗盧遮那」、「自受用仏」である。経文に空海は自註をつけてそれぞれ「釈",
+          "context_position": 30580,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "誤りを正すべきである。──訳者注）  （二）大日経  『大毗盧遮那経（『大日経』）』にいわく、 （この『大日経』の一段は不読段",
+          "context_position": 33734,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "彼の菩薩には普賢を上首とし、諸執金剛には秘密主を上首とす。毗盧遮那如来加持のゆえに、身無尽荘厳蔵を奮迅示現し、かくの如く語・意",
+          "context_position": 34079,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "荘厳蔵を奮迅示現したもう（これは受用身の説法を明かす）。 毗盧遮那の身あるいは語、あるいは意より生ずるにあらず。一切処に起滅辺",
+          "context_position": 34147,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "は意より生ずるにあらず。一切処に起滅辺際不可得なり。しかも毗盧遮那の一切の身業、一切の語業、一切の意業、一切処、一切時に、有情",
+          "context_position": 34191,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "の意味が確定するように思える。──訳者注）    「その時毗盧遮那世尊、執金剛秘密主に告げたまわく、もし大覚世尊の大智灌頂地に",
+          "context_position": 35254,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ます。「仏が秘密主に告げていわれた。善男子よ、この陀羅尼は毗盧遮那世尊が色究竟天において、帝釈天及び多くの諸天のためにすでに広",
+          "context_position": 35901,
+          "matched_form": "盧遮那"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "光明最勝王経』の三身を基にしたものであり、その法身を真言教主大日に結びつけたのは空海なのである。『金光明経』は大乗経典であっ",
+          "context_position": 880,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "秘密儀軌』、『金剛峯楼閣一切瑜伽瑜祇経』、『分別聖位経』、『大日経』『楞伽経』、『金剛頂大教王経』、『菩提心論』『大智度論』",
+          "context_position": 5372,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ら密教への展開を示すものである。 密教で忘れてならないのは、大日を中心とした五智五仏のマンダラを自らの心に置くことであり、こ",
+          "context_position": 27985,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "に反省して自らの誤りを正すべきである。──訳者注）  （二）大日経  『大毗盧遮那経（『大日経』）』にいわく、 （この『大日",
+          "context_position": 33726,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "きである。──訳者注）  （二）大日経  『大毗盧遮那経（『大日経』）』にいわく、 （この『大日経』の一段は不読段ではないが",
+          "context_position": 33740,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "大日経  『大毗盧遮那経（『大日経』）』にいわく、 （この『大日経』の一段は不読段ではないが、いまさら経文を現代語に置き換え",
+          "context_position": 33756,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "竪横の二義を具す。文勢知んぬべし）」。    （この一段は『大日経』入真言門住心品第一の文で経の冒頭の一節である。重要なこと",
+          "context_position": 34395,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "であるとする「四種法身」の語も不空訳の『金剛頂経』にある。『大日経』には説かれていないのである。空海はこれら四種身、ないし四",
+          "context_position": 34815,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "かれていないのである。空海はこれら四種身、ないし四種法身を『大日経』にも配当し『大日経』と『金剛頂経』という両部大経ともに同",
+          "context_position": 34852,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "。空海はこれら四種身、ないし四種法身を『大日経』にも配当し『大日経』と『金剛頂経』という両部大経ともに同一の仏身説であること",
+          "context_position": 34862,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "説くことを可能にしているのである。） またいわく、 （同じ『大日経』百字果相応品第二十からの引用。これも不読段ではないけれど",
+          "context_position": 35121,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "だし空海の注は十分心して読むべきであり、逆にこの注によって『大日経』の意味が確定するように思える。──訳者注）    「その",
+          "context_position": 35220,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "て仏事を勤作するがごとし（以下空海の注、念のため。この文は、大日尊の三身、もろもろの世界に遍じて仏事をなすことまた釈迦の三身",
+          "context_position": 35554,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "事をなすことまた釈迦の三身の如くなることを明かす。釈迦の三身大日の三身おのおの不同なり。まさにこれを知るべし）」。 （この段",
+          "context_position": 35603,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "々を広く救済しているのであることを示すためである。では釈尊と大日の関係は、といえば密教からいえば釈尊は大日の応化としての仏身",
+          "context_position": 35766,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "である。では釈尊と大日の関係は、といえば密教からいえば釈尊は大日の応化としての仏身であるから、おのずから法身と化身との差があ",
+          "context_position": 35787,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "に略してこの陀羅尼門を説くのである」と。  （この経は元来、大日を中心とした集会と釈迦仏を中心とした集会を対比して説くのだが",
+          "context_position": 36015,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "集会と釈迦仏を中心とした集会を対比して説くのだが、この段も、大日が真言密教の陀羅尼門を説かれ、いままた釈迦如来も同様に陀羅尼",
+          "context_position": 36053,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "するべきです。 　 （三密という用語は密教で重要なもので法身大日の活動を表わす。この経に「仏に三密あり」というのは、「法身大",
+          "context_position": 37675,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "日の活動を表わす。この経に「仏に三密あり」というのは、「法身大日に活動あり」、「法身は限り無く高い人格を備えている」という意",
+          "context_position": 37706,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "句に比べて秘密教だといいます。いろいろ秘密教がある中で、法身大日の説く教えこそ最も奥深い教えということができます。これに対し",
+          "context_position": 38243,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "受用身 （巻頭の解説を参照してください。──訳者注） は法身大日の悟りそのものは説けませんし、その内証は一般大乗の等覚位の菩",
+          "context_position": 38529,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "大日如来以外の仏身が陀羅尼門を説き秘密蔵を説くといっても法身大日の説に比べれば権教（劣った教え）であって真実のすぐれた教えと",
+          "context_position": 38718,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈尊",
+          "count": 11
+        },
+        {
+          "form": "釈迦",
+          "count": 9
+        },
+        {
+          "form": "釈迦牟尼",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 21,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "表示する門なり。一切衆生をして皆歓喜することを得せしむ。いま釈迦牟尼世尊の、無尽の虚空界に流遍して、もろもろの刹土において仏事を",
+          "context_position": 35494,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "華厳一乗教義分斉章』の巻第一に次のような文があります。「いま釈迦仏の海印三昧〈悟りのお心〉である一乗教（皆が仏になることをめ",
+          "context_position": 10227,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "に依っていると思われる）、毗盧遮那は理法身、盧遮那は智法身、釈迦を化身という仏身の分類をしておりますが、この『金剛頂五秘密経",
+          "context_position": 26795,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "養すれば、人天勝妙の果報及び涅槃の因を感受す。（これは略して釈迦如来の教え及び得益を表わすなり。） 報身の毗盧遮那、色界頂第",
+          "context_position": 29731,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "那」、「自受用仏」である。経文に空海は自註をつけてそれぞれ「釈迦如来」、「他受用身」、「自性・自受用身」としている。『分別聖",
+          "context_position": 30612,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "文は、大日尊の三身、もろもろの世界に遍じて仏事をなすことまた釈迦の三身の如くなることを明かす。釈迦の三身大日の三身おのおの不",
+          "context_position": 35581,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "に遍じて仏事をなすことまた釈迦の三身の如くなることを明かす。釈迦の三身大日の三身おのおの不同なり。まさにこれを知るべし）」。",
+          "context_position": 35598,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "説くのである」と。  （この経は元来、大日を中心とした集会と釈迦仏を中心とした集会を対比して説くのだが、この段も、大日が真言",
+          "context_position": 36026,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "のだが、この段も、大日が真言密教の陀羅尼門を説かれ、いままた釈迦如来も同様に陀羅尼門を説かれる、という。後に挙げる『密迹金剛",
+          "context_position": 36074,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "尼門を説かれる、という。後に挙げる『密迹金剛経』も同様だが、釈迦が説かれた経の中にしばしば「秘密蔵」等真言密教の用語がみられ",
+          "context_position": 36114,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "神話と混同されてしまう恐れがあるからであろう。仏教においては釈尊の叡智によって無我論（非我とも）や中道が説かれ、神話の神を信",
+          "context_position": 28457,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "り無く高い人格なのである。大日如来という仏陀も、あくまで人間釈尊から出発し、釈尊の八十年のご生涯を宇宙大に拡大した人格である",
+          "context_position": 28585,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "のである。大日如来という仏陀も、あくまで人間釈尊から出発し、釈尊の八十年のご生涯を宇宙大に拡大した人格である。多くの人々はこ",
+          "context_position": 28593,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "や創造神話にとらわれずに、限りなく高い人格に帰依するという、釈尊の金字塔を無視してしまっては、どうにもならない。後学の者は大",
+          "context_position": 28756,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ではなくて、脈々と現に生存している生命体なのであって、かつて釈尊が広く活動され人々を救済されたと同様に、大日如来も限り無く高",
+          "context_position": 35694,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "れ、人々を広く救済しているのであることを示すためである。では釈尊と大日の関係は、といえば密教からいえば釈尊は大日の応化として",
+          "context_position": 35763,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "すためである。では釈尊と大日の関係は、といえば密教からいえば釈尊は大日の応化としての仏身であるから、おのずから法身と化身との",
+          "context_position": 35784,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "である。法性身は永遠なる仏陀、父母生身は父母から生まれた仏陀釈尊である。この法性身は、十方虚空に行きわたる大きさで質も量もと",
+          "context_position": 36268,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "て苦しんでいる人々を救済してくれるのは第二の生身の仏である。釈尊のような生身の仏が順次に説法される方法は普通の人間の場合と同",
+          "context_position": 36578,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "の他の仏身が説かれたものを顕教というのならば、どういうわけで釈尊が説かれた経の中に「秘密蔵」とかの密教の用語が見えるのであろ",
+          "context_position": 37836,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "の中に「秘密蔵」とかの密教の用語が見えるのであろうか、また、釈尊が「陀羅尼門」を説かれたなどとあるのは、どう考えたらよいので",
+          "context_position": 37874,
+          "matched_form": "釈尊"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 12
+        }
+      ],
+      "occurrence_count": 12,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "入り、第六代・玄宗、第八代・代宗の時代になりますと、金剛智・不空の二人が出て、密教がさかんに信仰されるようになりました。しか",
+          "context_position": 4900,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "でもなく、非非不生滅でもない。解脱を得れば、諸法は空でもなく不空でもない。空とか不空とかの一辺にこだわり執着した誤った見方を",
+          "context_position": 16430,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "でもない。解脱を得れば、諸法は空でもなく不空でもない。空とか不空とかの一辺にこだわり執着した誤った見方を捨て去っていけるのだ",
+          "context_position": 16440,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "して、真実のことばというものは、実の空でありながらさればとて不空でもある。空でありながら実でもあり、また不実であるともいえる",
+          "context_position": 21356,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ると思います。 （十四─一）五秘密経  『金剛頂五秘密経』（不空訳『金剛頂瑜伽金剛薩埵五秘密修行念誦儀軌』、略して『五秘密儀",
+          "context_position": 25937,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "いう仏陀観を形成した。この考え方は空海以前に形成されており、不空訳経典に見えるところから、恵果の師である不空が、努力したもの",
+          "context_position": 27753,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "形成されており、不空訳経典に見えるところから、恵果の師である不空が、努力したものと考えられる。次に四種法身というのは、これも",
+          "context_position": 27775,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "この一段は『分別聖位経』の序文に相当するところで、経の訳者の不空が書き加えたとも考えられる。ここに「真言陀羅尼宗」という語が",
+          "context_position": 30366,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "。 西方の阿弥陀如来、四方に法・利・因・語の四菩薩。 北方の不空成就如来、四方に業・護・牙・拳の四菩薩、以上四方の四菩薩を合",
+          "context_position": 33291,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "唯識教学で発達してきた仏身説である。これに等流身を加えたのは不空であるとする近年の学説もある。受用身はのちに自受用と他受用に",
+          "context_position": 34563,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ある。 さてこの四種身を用いているのは『金剛頂経』系統の特に不空訳のものであり、これら四種身すべてが法身であるとする「四種法",
+          "context_position": 34763,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "あり、これら四種身すべてが法身であるとする「四種法身」の語も不空訳の『金剛頂経』にある。『大日経』には説かれていないのである",
+          "context_position": 34800,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "龍樹",
+      "aliases": [
+        "龍猛",
+        "nāgārjuna",
+        "Nāgārjuna"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "中観派の祖。空海から見て付法第三祖（龍猛）。",
+      "sanskrit_canonical": "nāgārjuna",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "龍樹",
+          "count": 7
+        },
+        {
+          "form": "龍猛",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 12,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "の密教経典がそれを示しております。 （七─一）大智度論 　（龍樹菩薩の著と伝えられる）『大智度論』の巻第五に次のような文があ",
+          "context_position": 16057,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "世紀初頭の清弁〈分別明菩薩〉であるが、注釈される偈文は龍猛〈龍樹〉の作った、有名な『中論〈頌〉』であるところから本文のように",
+          "context_position": 16928,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "この点をよくよく考えるべきであります。  （八）大智度論 　龍樹菩薩の『大智度論』の巻第三十八に次のように言います。「仏法の",
+          "context_position": 18867,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "身によって法を説いているのである」と。 （九）釈摩訶衍論 　龍樹菩薩の『釈摩訶衍論』（前出）に次のように説かれています。 「",
+          "context_position": 20574,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "─訳者注） 　（空海が）喩釈して申します。この『菩提心論』は龍樹菩薩が著作された多くの論書の中でも、密教にとって最も重要なも",
+          "context_position": 22413,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "人物が出て私の教えを説いてくれる、というのは、インドにおいて龍樹菩薩という高僧が出世するであろう。有・無の辺見を離れ、人々を",
+          "context_position": 24925,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ことを指しているのです。如来も明言しているではないですか、「龍樹という菩薩が出て密教を説き明かしてくれる」と。智慧ある人々よ",
+          "context_position": 25067,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "（因分可説）悟りの内容までは説けない（果分不可説）」とあり、龍猛師の『釈摩訶衍論』には同じく「仏の悟りの内容はことばでは説明",
+          "context_position": 4503,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "せてもらいましょう。 第二節 引証喩釈 （一）釈摩訶衍論 　龍猛菩薩の作と伝えられる『釈摩訶衍論』に次に挙げる五重の問答があ",
+          "context_position": 5608,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "できないが、十分に思慮をはたらかすべきと思います。 （ここで龍猛造と伝えられる『釈摩訶衍論』について一言しておこう。この書物",
+          "context_position": 7770,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "、仏法に入る最初の関門なのである」。 （七─二）般若燈論  龍猛菩薩の偈を分別明菩薩が釈した『般若燈論』（本書の著者は六世紀",
+          "context_position": 16868,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "者は六世紀初頭の清弁〈分別明菩薩〉であるが、注釈される偈文は龍猛〈龍樹〉の作った、有名な『中論〈頌〉』であるところから本文の",
+          "context_position": 16925,
+          "matched_form": "龍猛"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 11
+        }
+      ],
+      "occurrence_count": 11,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ません」と述べているのはまさにこのことなのです。 縁起因分は普賢菩薩のお心に相当するのですがこれは当然ことばで表現できるので",
+          "context_position": 10552,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "い、あるいは因の方面から教えを論ずる分野で、これは華厳宗では普賢菩薩のお心のありかただと考えています」と。 初めの十仏の自境",
+          "context_position": 10937,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "　「もし毗盧遮那仏・自受用身所説の内証、自覚聖智の法、及び大普賢金剛薩埵・他受用身の智によらば、すなわち現生において曼荼羅阿",
+          "context_position": 26272,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "闍梨に遇逢い曼荼羅に入ることを得て羯磨を具足することを為し、普賢三摩地（普賢菩薩の心）をもって金剛薩埵を引入してその身中に入",
+          "context_position": 26334,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "曼荼羅に入ることを得て羯磨を具足することを為し、普賢三摩地（普賢菩薩の心）をもって金剛薩埵を引入してその身中に入る。加持の威",
+          "context_position": 26340,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "耶（これはすなわち妙観察智）、自覚本初（平等性智）、大菩提心普賢満月（大円鏡智）、不壌金剛光明心殿の中において（いわく不壌金",
+          "context_position": 31486,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "に金剛智慧の一乗を演説したもう）。   この甚深秘密の心地、普賢自性常住法身をもってもろもろの菩薩を摂す（これは自性法身の、",
+          "context_position": 32314,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "の成就する所なり（いわく上に称する所は、恒沙の諸尊におのおの普賢行願の方便を具す）。五智の光照、常に三世に住するをもって、暫",
+          "context_position": 32600,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "かくの如きを上首として十仏刹微塵数等の持金剛衆と俱なり。及び普賢菩薩、妙吉祥菩薩乃至諸大菩薩、前後に囲繞して、しかも法を演説",
+          "context_position": 33938,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "念のため──これは自性身の説法を明かす）。 時に彼の菩薩には普賢を上首とし、諸執金剛には秘密主を上首とす。毗盧遮那如来加持の",
+          "context_position": 34055,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "を宣説したもう（これは変化身の説法を明かす）。 また執金剛、普賢・蓮華手菩薩等の像藐を現じて、普く十方において真言道の清浄句",
+          "context_position": 34266,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "智顗",
+      "aliases": [
+        "天台大師",
+        "智者大師"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "天台宗の実質的開祖。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "天台大師",
+          "count": 4
+        },
+        {
+          "form": "智顗",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ある人はこの点をよく考えてみてください。 （四）摩訶止観 　天台大師智顗の著作『摩訶止観』の巻第三にいわく、「この三諦の理、天台",
+          "context_position": 12153,
+          "matched_form": "天台大師"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "る三通りの見方であり、この三つが円融無礙である、とするのが、天台大師のめざした悟りであるといえる。では『摩訶止観』に話を戻そう。",
+          "context_position": 12607,
+          "matched_form": "天台大師"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "のである。 以上の文を私・空海が喩釈して申しますと、要するに天台大師の主張は、三諦の教えであり、自身の心中に、即空・即仮・即中の",
+          "context_position": 13793,
+          "matched_form": "天台大師"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "人々は十分注意してかからねばなりません。 （五）入楞伽経 （天台大師が根本所依としている『法華経』の教主について一言述べます）『",
+          "context_position": 14070,
+          "matched_form": "天台大師"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "この点をよく考えてみてください。 （四）摩訶止観 　天台大師智顗の著作『摩訶止観』の巻第三にいわく、「この三諦の理、天台宗の",
+          "context_position": 12157,
+          "matched_form": "智顗"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈天",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "の、仏のお心の内容そのものなどがこれに相当します。この境界は帝釈天の珠網のたとえでも説明できませんし、微細な一毛孔の中に三千大",
+          "context_position": 11093,
+          "matched_form": "帝釈天"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "する様子を紹介したのである。──訳者注） 「すなわち私は、 帝釈天、梵王、大自在天、自然、地、寂静、涅槃、天、阿蘇羅（阿修羅）",
+          "context_position": 20230,
+          "matched_form": "帝釈天"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "れた。善男子よ、この陀羅尼は毗盧遮那世尊が色究竟天において、帝釈天及び多くの諸天のためにすでに広くお説きになった教えである。そ",
+          "context_position": 35916,
+          "matched_form": "帝釈天"
+        }
+      ]
+    },
+    {
+      "canonical": "吉蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "三論宗の大成者。嘉祥大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "吉蔵",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "経である、という「或る者」とは、筆者の調査によれば嘉祥大師・吉蔵に違いない。吉蔵の著『法華玄論』『法華義疏』『法華遊意』で、",
+          "context_position": 14902,
+          "matched_form": "吉蔵"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "「或る者」とは、筆者の調査によれば嘉祥大師・吉蔵に違いない。吉蔵の著『法華玄論』『法華義疏』『法華遊意』で、いずれにも『法華",
+          "context_position": 14910,
+          "matched_form": "吉蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "弥勒",
+      "aliases": [
+        "弥勒菩薩",
+        "慈氏",
+        "maitreya",
+        "Maitreya"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "未来仏。兜率天で待機。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "弥勒",
+          "count": 1
+        },
+        {
+          "form": "慈氏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "る法身をすみやかに証得することができる」。 「また次に慈氏（弥勒）菩薩よ、私が入滅したのちには、阿難には経蔵を、鄔波離には律",
+          "context_position": 24243,
+          "matched_form": "弥勒"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "標である法身をすみやかに証得することができる」。 「また次に慈氏（弥勒）菩薩よ、私が入滅したのちには、阿難には経蔵を、鄔波離",
+          "context_position": 24240,
+          "matched_form": "慈氏"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊師利",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "している。──訳者注） 『菩提場経』に次の文があります。 「文殊師利菩薩が如来にたずねていう、世尊はどれだけのお姿をもって説法さ",
+          "context_position": 19982,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "性、実際、実際性、法界、実、無二、有相、等々と名づけられる。文殊師利よ、私はこの世界において、ここに挙げたほかにも五阿僧祇百千と",
+          "context_position": 20436,
+          "matched_form": "文殊師利"
+        }
+      ]
+    },
+    {
+      "canonical": "法蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第三祖。賢首大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "法蔵",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ていただきたい。──訳者注）  三）華厳五教章 次に賢首大師法蔵の著作『華厳五教章』、詳しくは『華厳一乗教義分斉章』の巻第一",
+          "context_position": 10179,
+          "matched_form": "法蔵"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "い場合には、仏陀は彼のために陀羅尼蔵を説くのである。 この五法蔵はそれぞれ順に、乳・酪・生蘇・熟蘇・醍醐にたとえられる。経は",
+          "context_position": 24051,
+          "matched_form": "法蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "金剛智",
+      "aliases": [
+        "vajrabodhi",
+        "Vajrabodhi"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第五祖。金剛界の伝持。",
+      "sanskrit_canonical": "vajrabodhi",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "金剛智",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "が唐代に入り、第六代・玄宗、第八代・代宗の時代になりますと、金剛智・不空の二人が出て、密教がさかんに信仰されるようになりました",
+          "context_position": 4896,
+          "matched_form": "金剛智"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "徳なり。一・一の仏印におのおの四徳を具す。自受用ゆえに常恒に金剛智慧の一乗を演説したもう）。   この甚深秘密の心地、普賢自性",
+          "context_position": 32285,
+          "matched_form": "金剛智"
+        }
+      ]
+    },
+    {
+      "canonical": "阿難",
+      "aliases": [
+        "阿難陀",
+        "ānanda",
+        "Ānanda"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。多聞第一。",
+      "sanskrit_canonical": "ānanda",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "阿難陀",
+          "count": 1
+        },
+        {
+          "form": "阿難",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "々を、あるいは矯正し、あるいは純化し、成熟させてくれる。特に阿難陀等の仏弟子の耳に聞かせ、そのすべてを覚え込ませる教えである。",
+          "context_position": 23363,
+          "matched_form": "阿難陀"
+        },
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "る」。 「また次に慈氏（弥勒）菩薩よ、私が入滅したのちには、阿難には経蔵を、鄔波離には律蔵を、迦多衍那には論蔵を、曼殊室利に",
+          "context_position": 24261,
+          "matched_form": "阿難"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "の深い部分であり、一切に通じてさまたげるもの無き境地であり、不動であり、退くことのない無生法忍の境界と名づけるところである。",
+          "context_position": 16532,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "ことができましょう。  （法身を理と智の二面に開く考え方は、善無畏訳の『三種悉地破地獄儀軌』などに見られ、これは中国での展開で",
+          "context_position": 26943,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "恵果",
+      "aliases": [
+        "恵果阿闍梨",
+        "恵果和尚"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第七祖。空海の師。青龍寺の大徳。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "恵果",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "方は空海以前に形成されており、不空訳経典に見えるところから、恵果の師である不空が、努力したものと考えられる。次に四種法身とい",
+          "context_position": 27768,
+          "matched_form": "恵果"
+        }
+      ]
+    },
+    {
+      "canonical": "舎利弗",
+      "aliases": [
+        "舎利子",
+        "śāriputra",
+        "Śāriputra"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。智慧第一。",
+      "sanskrit_canonical": "śāriputra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "舎利弗",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "と。 また『金剛三昧経』巻第六には次のように説かれます。 「舎利弗の申すには、すべての教えは言葉と文章で表わされますが、教えに",
+          "context_position": 20997,
+          "matched_form": "舎利弗"
+        }
+      ]
+    },
+    {
+      "canonical": "阿修羅",
+      "aliases": [
+        "asura"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "六道の一・阿修羅道の住人。八部衆。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "阿修羅",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": " 帝釈天、梵王、大自在天、自然、地、寂静、涅槃、天、阿蘇羅（阿修羅）、空、勝、義、不実、三摩地、悲者、慈、水天、龍、薬叉、仙、",
+          "context_position": 20259,
+          "matched_form": "阿修羅"
+        }
+      ]
+    },
+    {
+      "canonical": "阿弥陀",
+      "aliases": [
+        "阿弥陀如来",
+        "amitābha",
+        "Amitābha",
+        "amitāyus"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "西方極楽浄土の教主。",
+      "sanskrit_canonical": "amitābha",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "阿弥陀如来",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "nikyo-ron",
+          "context": "薩。 南方の宝生如来、四方に宝・光・幢・笑の四菩薩。 西方の阿弥陀如来、四方に法・利・因・語の四菩薩。 北方の不空成就如来、四方に",
+          "context_position": 33266,
+          "matched_form": "阿弥陀如来"
+        }
+      ]
+    }
+  ]
+}

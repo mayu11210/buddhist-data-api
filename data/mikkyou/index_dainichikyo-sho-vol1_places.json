@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol1.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 101714,
+  "summary": {
+    "unique_terms": 9,
+    "unique_places": 9,
+    "total_occurrences": 25,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 4,
+        "occurrences": 14
+      },
+      "country_dynasty": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_india": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_japan": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "mountain_buddhist": {
+        "unique": 1,
+        "occurrences": 4
+      },
+      "mountain_japan": {
+        "unique": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の中。色身があるが欲望のない世界。",
+      "matched_forms": [
+        {
+          "form": "色界",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "の謂い）に随って、この宮に非ざるは無い。ただ独り三界（欲界・色界・無色界）の上（外）に局在するものではない（応化の身は遍一切",
+          "context_position": 8033,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "は邪道を行じ、苦因（苦しみの因たる業）を修習し、三界（欲界・色界・無色界）に恋著（れんじゃく：愛執）し、堅執して捨てない。そ",
+          "context_position": 23147,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "ねしめた。目連は上は梵宮（ぼんぐう：brahma-loka、色界の梵天宮）に至って、なお如来を覩るに、目前に対するが如しであ",
+          "context_position": 27373,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "-dhātu）と同性（sama-svabhāva）にあらず、色界（rūpa-dhātu）と同性にあらず、無色界（ārūpya",
+          "context_position": 67051,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "ātma-svabhāva）はすなわち欲界に同じ」、或いは「色界・無色界に同じ」、乃至「非想処（naiva-saṃjñā-n",
+          "context_position": 67320,
+          "matched_form": "色界"
+        }
+      ]
+    },
+    {
+      "canonical": "欲界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最下。欲望が支配する世界。",
+      "matched_forms": [
+        {
+          "form": "欲界",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "の至処の謂い）に随って、この宮に非ざるは無い。ただ独り三界（欲界・色界・無色界）の上（外）に局在するものではない（応化の身は",
+          "context_position": 8030,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "ず、心は邪道を行じ、苦因（苦しみの因たる業）を修習し、三界（欲界・色界・無色界）に恋著（れんじゃく：愛執）し、堅執して捨てな",
+          "context_position": 23144,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "ず——八功徳水・真陀摩尼譬】  経に──「次に秘密主よ、心は欲界（kāma-dhātu）と同性（sama-svabhāva）",
+          "context_position": 67014,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "alpa）は、「我性（ātma-svabhāva）はすなわち欲界に同じ」、或いは「色界・無色界に同じ」、乃至「非想処（nai",
+          "context_position": 67309,
+          "matched_form": "欲界"
+        }
+      ]
+    },
+    {
+      "canonical": "無色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最上。色身のない世界。",
+      "matched_forms": [
+        {
+          "form": "無色界",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "）に随って、この宮に非ざるは無い。ただ独り三界（欲界・色界・無色界）の上（外）に局在するものではない（応化の身は遍一切処に現じ",
+          "context_position": 8036,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "を行じ、苦因（苦しみの因たる業）を修習し、三界（欲界・色界・無色界）に恋著（れんじゃく：愛執）し、堅執して捨てない。それ故にこ",
+          "context_position": 23150,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "va）にあらず、色界（rūpa-dhātu）と同性にあらず、無色界（ārūpya-dhātu）と同性にあらず、天（deva）・",
+          "context_position": 67073,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "a-svabhāva）はすなわち欲界に同じ」、或いは「色界・無色界に同じ」、乃至「非想処（naiva-saṃjñā-nāsaṃ",
+          "context_position": 67323,
+          "matched_form": "無色界"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 2
+        },
+        {
+          "form": "sumeru",
+          "count": 1
+        },
+        {
+          "form": "meru",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "しゅう：集める）すること、一々に皆須弥山王（しゅみせんおう：sumeru-rāja）の如きにして、神力をもって同時に声を起こして（天",
+          "context_position": 27887,
+          "matched_form": "sumeru"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "げて世界に充満すること、皆な「須弥山王（しゅみせんおう：Sumeru-rāja）」の如くであっても、次第にこれを燒けども「怯弱（",
+          "context_position": 47010,
+          "matched_form": "meru"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "く：天界の鼓）を聚集（じゅしゅう：集める）すること、一々に皆須弥山王（しゅみせんおう：sumeru-rāja）の如きにして、神",
+          "context_position": 27874,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "が、仮使（よしんば）薪を積みあげて世界に充満すること、皆な「須弥山王（しゅみせんおう：Sumeru-rāja）」の如くであって",
+          "context_position": 46995,
+          "matched_form": "須弥山"
+        }
+      ]
+    },
+    {
+      "canonical": "高野山",
+      "aliases": [],
+      "subcategory": "mountain_japan",
+      "definition": "紀伊。空海開創の真言密教の根本道場。",
+      "matched_forms": [
+        {
+          "form": "高野山",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "（書き下し本文は前版〜2026-05-02 まで「他心」とし高野山 Kindle 本由来の OCR 誤読のままだったが、Tai",
+          "context_position": 680,
+          "matched_form": "高野山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "。書き下し本文は前版〜2026-05-02 まで「索多」とし高野山 Kindle 本由来の OCR 口偏脱落のままだったが、T",
+          "context_position": 22369,
+          "matched_form": "高野山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "書き下し本文は前版〜2026-05-02 まで「羅尾多」とし高野山 Kindle 本由来の OCR 口偏付加のままだったが、T",
+          "context_position": 82020,
+          "matched_form": "高野山"
+        }
+      ]
+    },
+    {
+      "canonical": "日本",
+      "aliases": [
+        "日域",
+        "本朝",
+        "我朝",
+        "皇朝",
+        "神国"
+      ],
+      "subcategory": "country_japan",
+      "definition": "日本国。",
+      "matched_forms": [
+        {
+          "form": "日本",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "道句法」における五字門の発起なり。「ア・バ・ラ・カ・キャ」の日本語仮名表記は真言宗伝統表記であり、「カ」は訶（ha）の真言宗",
+          "context_position": 49824,
+          "matched_form": "日本"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "宗伝統表記であり、「カ」は訶（ha）の真言宗独自カナ化（古代日本語の音韻習慣に由来）、「キャ」は佉（kha）の口蓋化表記であ",
+          "context_position": 49864,
+          "matched_form": "日本"
+        }
+      ]
+    },
+    {
+      "canonical": "周",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。文王・武王が建国。",
+      "matched_forms": [
+        {
+          "form": "周",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "ぎて、皆如来を見るに、座を起たずして法を演説したもう。乃至、周（あまね）く十方を極め、その神通勢力を尽くしたけれども、（量",
+          "context_position": 27595,
+          "matched_form": "周"
+        }
+      ]
+    },
+    {
+      "canonical": "天竺",
+      "aliases": [
+        "印度",
+        "身毒"
+      ],
+      "subcategory": "country_india",
+      "definition": "インドの古称。",
+      "matched_forms": [
+        {
+          "form": "印度",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "夜に各々初・中・後の分がある。乃至、三十時（一日を三十分する印度古代の時間区分）等、刹那（せつな：kṣaṇa、最短時間）も住",
+          "context_position": 24463,
+          "matched_form": "印度"
+        }
+      ]
+    },
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol1",
+          "context": "hā-bodhitṛ）」と名づける。  一切諸仏はかくの如き安楽の性（しょう：sukha-svabhāva）を得て、直（ただ",
+          "context_position": 36515,
+          "matched_form": "安楽"
+        }
+      ]
+    }
+  ]
+}

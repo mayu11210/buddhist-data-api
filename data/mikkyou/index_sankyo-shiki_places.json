@@ -1,0 +1,714 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "sankyo-shiki.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 44863,
+  "summary": {
+    "unique_terms": 21,
+    "unique_places": 21,
+    "total_occurrences": 50,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_china": {
+        "unique": 4,
+        "occurrences": 9
+      },
+      "country_dynasty": {
+        "unique": 6,
+        "occurrences": 30
+      },
+      "country_japan": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "mountain_buddhist": {
+        "unique": 2,
+        "occurrences": 2
+      },
+      "mountain_china": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "mythological": {
+        "unique": 2,
+        "occurrences": 2
+      },
+      "province_japan": {
+        "unique": 4,
+        "occurrences": 4
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "漢",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。前漢・後漢。",
+      "matched_forms": [
+        {
+          "form": "漢",
+          "count": 9
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "て無いのであります。 夏の国や殷の国が滅亡したこと、周の国や漢の国が隆んになったこと、これらは先人の残してくれた善い亀鑑で",
+          "context_position": 5355,
+          "matched_form": "漢"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "て学問にはげめば、経書の類にも熟達していくことでしょう。昔、漢の元帝の時に五鹿充宗という学者がいて、帝の御前で『易経』につ",
+          "context_position": 9748,
+          "matched_form": "漢"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "そくなると「われ帰りなん」の詩をうたって帰っていきます。昔、漢の陳遵は大勢の客をもてなして酒宴を張りましたが、客の帰るのを",
+          "context_position": 12502,
+          "matched_form": "漢"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "る」 これを聞いて兎角公たち三名は話し合いました。「その昔、漢の武帝は長生の術（長いきの術）を好んで仙人の道に入りたいと願",
+          "context_position": 14788,
+          "matched_form": "漢"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "みよう。 その前に一言はなしておきたい。その昔、秦の始皇帝や漢の武帝は、心では仙人の道にあこがれてはいたが、現実の生活はま",
+          "context_position": 16005,
+          "matched_form": "漢"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "大にして語られている。何と大間違いをしていることか。 欒太は漢の武帝に仕えた方士（仙術をおこなう者）で楽通侯に封ぜられたが",
+          "context_position": 16546,
+          "matched_form": "漢"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "足して熱心に修行している様子は、それ以上でありました。また、漢の高祖の代に、人をあなどり軽んずる高祖の態度を嫌って商山に隠",
+          "context_position": 22626,
+          "matched_form": "漢"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "て、もっと大きな忠孝のあることに気づいていないのです。 昔、漢の時代に于公は裁判官となって公平に平かに罪を断じて陰徳を積ん",
+          "context_position": 26790,
+          "matched_form": "漢"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ところ、果して彼の子と孫とが大臣に任ぜられたといいます。また漢の厳延年は郡司となり、苛酷な刑罰を科したので、東海からたずね",
+          "context_position": 26885,
+          "matched_form": "漢"
+        }
+      ]
+    },
+    {
+      "canonical": "周",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。文王・武王が建国。",
+      "matched_forms": [
+        {
+          "form": "周",
+          "count": 6
+        }
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "のは決して無いのであります。 夏の国や殷の国が滅亡したこと、周の国や漢の国が隆んになったこと、これらは先人の残してくれた善",
+          "context_position": 5351,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "いだように輝くことでしょう。 昔、淮南王の安が入朝した時に、周王から『離騒』という屈原の作った賦の、注釈書を作るよう命じら",
+          "context_position": 10289,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "は、朝早く詔を受けるやすぐに仕事にかかり、昼食までに完成して周王に奉進したといいます。また後漢の時代に、太子射の催した宴会",
+          "context_position": 10357,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "のですから、角を扣いて仕官の運動などする必要もありませんし、周の文王のような聖天子の車があなたを求めて来るのですから、鋏を",
+          "context_position": 10755,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "の心を察してあげる、このようなことを孝というのである。舜帝や周の文王はこれらを実行して帝位にのぼったのであり、自分を奴隷と",
+          "context_position": 24026,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ではありません 『詩経』の雅頌に詠われる美しい風習の教えは 周の国の昔語りに過ぎません あの孔子のような聖人ですら 落ちつ",
+          "context_position": 25712,
+          "matched_form": "周"
+        }
+      ]
+    },
+    {
+      "canonical": "夏",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国伝説的な最古の王朝。禹が建国。",
+      "matched_forms": [
+        {
+          "form": "夏",
+          "count": 6
+        }
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "いて道理に達する人などというものは決して無いのであります。 夏の国や殷の国が滅亡したこと、周の国や漢の国が隆んになったこと",
+          "context_position": 5336,
+          "matched_form": "夏"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "う激しさも及ばないほどです。あなたが酔ってわめき続けるさまは夏の蟬のやかましさと同じです。あなたは、酒類は草の露ほども飲む",
+          "context_position": 5935,
+          "matched_form": "夏"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "かしい美人の場合にはなおさらです。まるで盛りのついた春の馬や夏の犬のように、本能のままの迷い心が胸の中に燃えています。古く",
+          "context_position": 6171,
+          "matched_form": "夏"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "い幔幕を張ったようで、いまさら幃帳を張る必要もないほどです。夏が来れば心を開き、えりもとを大きく開いて、山に向って吹いてく",
+          "context_position": 22086,
+          "matched_form": "夏"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "から出入りする場合も親の顔を見て挨拶する。そして冬は温かく、夏は涼しいように気くばりをする。晩には床をのべ、朝には安否をた",
+          "context_position": 23955,
+          "matched_form": "夏"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "は、昼となく夜となく燔え続け、 鬱蓊と茂る百八の煩悩の藪は、夏といわず冬といわず茂りに繁っています。 風に吹き上げられた埃",
+          "context_position": 32932,
+          "matched_form": "夏"
+        }
+      ]
+    },
+    {
+      "canonical": "楚",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋戦国の南方の大国。",
+      "matched_forms": [
+        {
+          "form": "楚",
+          "count": 6
+        }
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "老子の著わした『道徳経』も、周時代までの詩である『詩経』も、楚の国の文章を集めた『楚辞』も、これら古典はいずれも、先ず作者",
+          "context_position": 198,
+          "matched_form": "楚"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "とはないでしょう」 善きものへ向う生活 「私はこう思います。楚の国に伝わる「和氏の璧」が輝かしい宝石となったのは、よく砥い",
+          "context_position": 4826,
+          "matched_form": "楚"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "れたところまで米の運搬をしてはたらいていたが、親の死後に南の楚の国に登用されて数万石の禄高の身分にまでなった。しかしその時",
+          "context_position": 23246,
+          "matched_form": "楚"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "て斉の国に仕えて少禄を受けながら欣々と親を養っていたが、後に楚の国にかかえられて高い官位につき、大変な出世をしたが、すでに",
+          "context_position": 23353,
+          "matched_form": "楚"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "合して助けて下さい、という鮒に対して荘周は、よろしい、いずれ楚の国から運河を作って沢山の水を送ってやろう、と答えますと、鮒",
+          "context_position": 24952,
+          "matched_form": "楚"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "が身体のあらゆる竅から沸きあがってきます。 「神女賦」には、楚の宋玉が夢の中で麗しい神女に遇い、深く魅せられ、忘れることが",
+          "context_position": 33640,
+          "matched_form": "楚"
+        }
+      ]
+    },
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "殷",
+          "count": 3
+        },
+        {
+          "form": "商",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "に達する人などというものは決して無いのであります。 夏の国や殷の国が滅亡したこと、周の国や漢の国が隆んになったこと、これら",
+          "context_position": 5340,
+          "matched_form": "殷"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "しみ、自分の肝を取り出して王の肝を体内に納めた話、また比干が殷の紂王を諫めて、胸を割いて殺された話など、忠節をつくした模範",
+          "context_position": 8231,
+          "matched_form": "殷"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "千日の酔いから醒めて墓場から掘り出されたといいますし、また、殷の高宗は父の喪に遇って三年の間、ものをいわなかったと伝えられ",
+          "context_position": 36502,
+          "matched_form": "殷"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "たまわりました。これではじめてよくわかりました。塩づけの魚を商う店にはそのにおいがしみついて抜けないように、世間の生活の中",
+          "context_position": 20290,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "また、漢の高祖の代に、人をあなどり軽んずる高祖の態度を嫌って商山に隠れ住んだ四人の隠者があり「四皓の老（四人の白髪の老人）",
+          "context_position": 22653,
+          "matched_form": "商"
+        }
+      ]
+    },
+    {
+      "canonical": "秦",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。始皇帝による天下統一。",
+      "matched_forms": [
+        {
+          "form": "秦",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "部分を示してみよう。 その前に一言はなしておきたい。その昔、秦の始皇帝や漢の武帝は、心では仙人の道にあこがれてはいたが、現",
+          "context_position": 15999,
+          "matched_form": "秦"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "私が、仏法の基本について簡単におはなしいたしましょう。 昔、秦の始皇帝は人の心の虚偽や離叛を見抜いてうつし出す不思議な鏡を",
+          "context_position": 29549,
+          "matched_form": "秦"
+        },
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "とでしょう。ああ、何と痛ましいことでしょう。 昔、孟嘗君は、秦の国に囚われた時に、奇計を用いて狗盗の部下を使って牢から脱出",
+          "context_position": 35830,
+          "matched_form": "秦"
+        }
+      ]
+    },
+    {
+      "canonical": "兜率",
+      "aliases": [
+        "兜率天",
+        "tuṣita"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "欲界第四天。弥勒菩薩の住所。",
+      "matched_forms": [
+        {
+          "form": "兜率天",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "、旅装束を調え、日も夜もかまわずに、弥勒菩薩の住んでおられる兜率天の聖域へ向って道を進めている次第です。けれども仏道修行をはじ",
+          "context_position": 31791,
+          "matched_form": "兜率天"
+        }
+      ]
+    },
+    {
+      "canonical": "呉",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋の国。三国時代の呉も。",
+      "matched_forms": [
+        {
+          "form": "呉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "死んで魚屋の店頭に並べられてしまいます、と。また『史記』に、呉の季札の話があります。季札は徐の国王に剣を贈ろうと心にきめて",
+          "context_position": 25041,
+          "matched_form": "呉"
+        }
+      ]
+    },
+    {
+      "canonical": "土佐",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "高知県の旧国。",
+      "matched_forms": [
+        {
+          "form": "土佐",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "した。郷土の四国へ帰って阿波の大滝嶽によじ登って修行したり、土佐の室戸岬に行って修行し念誦しました。山中で一人修行して大声で",
+          "context_position": 835,
+          "matched_form": "土佐"
+        }
+      ]
+    },
+    {
+      "canonical": "大和",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "奈良県。",
+      "matched_forms": [
+        {
+          "form": "大和",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "って鉛に代え、頭の骨を曝して研に用いて自分の全身全霊をもって大和尚の慈しみ深い誨を心に刻みつけましょう。この教えをもって私た",
+          "context_position": 44068,
+          "matched_form": "大和"
+        }
+      ]
+    },
+    {
+      "canonical": "崑崙",
+      "aliases": [
+        "崑崙山"
+      ],
+      "subcategory": "mountain_china",
+      "definition": "中国西方の霊山。神仙の住所。",
+      "matched_forms": [
+        {
+          "form": "崑崙山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "んとはるかなことであろう。 『神異経』という道教の書物に、「崑崙山には天に届くほど高い桐樹の柱があって、その頂上に希有という大",
+          "context_position": 19108,
+          "matched_form": "崑崙山"
+        }
+      ]
+    },
+    {
+      "canonical": "斉",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋戦国の東方の大国。",
+      "matched_forms": [
+        {
+          "form": "斉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "いことを常に深く悲んでいたという。同じく曾参（曾子）もかつて斉の国に仕えて少禄を受けながら欣々と親を養っていたが、後に楚の",
+          "context_position": 23324,
+          "matched_form": "斉"
+        }
+      ]
+    },
+    {
+      "canonical": "方丈",
+      "aliases": [],
+      "subcategory": "mythological",
+      "definition": "東海の仙島。蓬莱・瀛洲と並ぶ。",
+      "matched_forms": [
+        {
+          "form": "方丈",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "なれるのだ。そして朝が来れば、神仙たちの遊ぶ三つの嶼（蓬萊、方丈、瀛州という三つの神山）に建てられた銀製の御殿に遊んで終日ゆ",
+          "context_position": 15456,
+          "matched_form": "方丈"
+        }
+      ]
+    },
+    {
+      "canonical": "日本",
+      "aliases": [
+        "日域",
+        "本朝",
+        "我朝",
+        "皇朝",
+        "神国"
+      ],
+      "subcategory": "country_japan",
+      "definition": "日本国。",
+      "matched_forms": [
+        {
+          "form": "日本",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "ましょうか。けれども現在のところ私はしばらく南閻浮提の陽谷（日本）、天皇の統治のもと、玉藻よる所の島（讃岐）豫樟の大木が太陽",
+          "context_position": 30678,
+          "matched_form": "日本"
+        }
+      ]
+    },
+    {
+      "canonical": "蓬莱",
+      "aliases": [
+        "蓬萊"
+      ],
+      "subcategory": "mythological",
+      "definition": "東海の仙島。",
+      "matched_forms": [
+        {
+          "form": "蓬萊",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "仲間になれるのだ。そして朝が来れば、神仙たちの遊ぶ三つの嶼（蓬萊、方丈、瀛州という三つの神山）に建てられた銀製の御殿に遊んで",
+          "context_position": 15453,
+          "matched_form": "蓬萊"
+        }
+      ]
+    },
+    {
+      "canonical": "蜀",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "三国時代の蜀。または春秋蜀。",
+      "matched_forms": [
+        {
+          "form": "蜀",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "璧」が輝かしい宝石となったのは、よく砥いで磨いたためであり、蜀の国で生産する錦が美しいのは、江の水でくり返し濯いあげている",
+          "context_position": 4867,
+          "matched_form": "蜀"
+        }
+      ]
+    },
+    {
+      "canonical": "讃岐",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "香川県の旧国。空海生地。",
+      "matched_forms": [
+        {
+          "form": "讃岐",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "く南閻浮提の陽谷（日本）、天皇の統治のもと、玉藻よる所の島（讃岐）豫樟の大木が太陽を蔽す所の浦（多度郡）に幻のように寓住して",
+          "context_position": 30699,
+          "matched_form": "讃岐"
+        }
+      ]
+    },
+    {
+      "canonical": "阿波",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "徳島県の旧国。",
+      "matched_forms": [
+        {
+          "form": "阿波",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "し続けたように絶え間なく努力してみました。郷土の四国へ帰って阿波の大滝嶽によじ登って修行したり、土佐の室戸岬に行って修行し念",
+          "context_position": 817,
+          "matched_form": "阿波"
+        }
+      ]
+    },
+    {
+      "canonical": "霊鷲山",
+      "aliases": [
+        "霊山",
+        "耆闍崛山",
+        "gṛdhrakūṭa"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "王舎城東北の山。釈迦が法華経などを説いた地。",
+      "matched_forms": [
+        {
+          "form": "霊山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "を大切に育ててくれました。その骨おりを考えれば五岳（中国の五霊山）のように高く、その恩を思えば四瀆（中国の四大河）よりもさら",
+          "context_position": 24529,
+          "matched_form": "霊山"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "三千世界を引き抜いて他の宇宙にまで投げとばしたり、あの巨大な須弥山を少しも削らないで、そのまま小さな芥子粒の中へ入れてしまいま",
+          "context_position": 42708,
+          "matched_form": "須弥山"
+        }
+      ]
+    },
+    {
+      "canonical": "魏",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "三国時代の魏。曹操の国。",
+      "matched_forms": [
+        {
+          "form": "魏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "sankyo-shiki",
+          "context": "が戔々と積まれて、あなたの庭に倉が立つほどになるでしょう。 魏の文侯のような名君があなたを賢人と認めて、門前まで来て敬礼す",
+          "context_position": 10688,
+          "matched_form": "魏"
+        }
+      ]
+    }
+  ]
+}

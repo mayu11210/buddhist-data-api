@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "shoji-jisso.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-03",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 14087,
+  "summary": {
+    "unique_terms": 3,
+    "unique_places": 3,
+    "total_occurrences": 3,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "欲界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最下。欲望が支配する世界。",
+      "matched_forms": [
+        {
+          "form": "欲界",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "界は、法然自然の存在となります。この世のあらゆる世界、三界（欲界、色界、無色界）六道（地獄、餓鬼、畜生、修羅、人、天）のそれ",
+          "context_position": 13464,
+          "matched_form": "欲界"
+        }
+      ]
+    },
+    {
+      "canonical": "無色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最上。色身のない世界。",
+      "matched_forms": [
+        {
+          "form": "無色界",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "然の存在となります。この世のあらゆる世界、三界（欲界、色界、無色界）六道（地獄、餓鬼、畜生、修羅、人、天）のそれぞれの身と土と",
+          "context_position": 13470,
+          "matched_form": "無色界"
+        }
+      ]
+    },
+    {
+      "canonical": "色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の中。色身があるが欲望のない世界。",
+      "matched_forms": [
+        {
+          "form": "色界",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "shoji-jisso",
+          "context": "法然自然の存在となります。この世のあらゆる世界、三界（欲界、色界、無色界）六道（地獄、餓鬼、畜生、修羅、人、天）のそれぞれの",
+          "context_position": 13467,
+          "matched_form": "色界"
+        }
+      ]
+    }
+  ]
+}
