@@ -1,7 +1,7 @@
 # 横断索引化フェーズ B 設計書（cross_index_spec.md）
 
 作成日：2026-04-27（フェーズ B 着手セッション）
-版：**v1.8（G2-D dict 型 8 著作 Tier 3-5/3-6 persons/places 索引化完了 — 全 7 カテゴリ × 9 著作完成）**
+版：**v1.9（G2-E 横断集約ファイル 7 種完成 — 全 7 カテゴリ × 9 著作の cross-corpus search 基盤）**
 
 更新履歴：
 - 2026-04-27 v0.1 ドラフト作成 + 典故書名パイロット抽出（256 種・1187 件）
@@ -14,6 +14,7 @@
 - 2026-05-04 v1.6 昇格：**G2-B**。dict 型 8 著作に Tier 2-4 sanskrit を展開。`extract_sanskrit_dict.py` 新設。8 著作合計 1,460 canonical / 2,017 occurrences（うち大日経疏巻第一が 1,409 / 1,955 で圧倒的多数）。9 著作合計 1,898 canonical / 2,671 occurrences（改修前比 occ 4.08 倍）。著作間の梵語注記密度の差異が顕在化（弘大全集六由来の既訳 4 著作で sanskrit=0、Cowork 高品質訳の大日経疏で 1,955）。§15 追加
 - 2026-05-04 v1.7 昇格：**G2-C**。dict 型 8 著作に Tier 2-3 kaimyo_jukugo を展開。`extract_kaimyo_jukugo_dict.py` 新設（性霊集版の 3 起点合成・スコアリング・ノイズ辞書を完全継承・_tmp_ prefix 廃止して git 追跡対象に）。8 著作合計 234 unique / 2,424 occurrences（うち大日経疏巻第一が 70 / 1,088 で圧倒的多数・seed_sanskrit 29 件で梵語漢訳起点も活発）。9 著作合計 345 unique / 4,395 occurrences（改修前比 occ 2.23 倍）。§16 追加
 - 2026-05-04 v1.8 昇格：**G2-D**。dict 型 8 著作に Tier 3-5 persons + Tier 3-6 places を展開。`extract_persons_dict.py` / `extract_places_dict.py` 新設・共有 seed モジュール `seed_data_persons.py`（95 entries）・`seed_data_places.py`（91 entries）を新設して dict 版と既存 _tmp_ 版の双方が参照可能に。8 著作 persons 合計 157 unique / 1,216 occurrences・places 69 unique / 163 occurrences。**全 7 カテゴリで 9 著作カバレッジ達成**（terms / citations / kukai_works / sanskrit / kaimyo_jukugo / persons / places）。三教指帰の 孔子=14・荘子=6・老子=6 や中国王朝（漢=9・周=6・夏=6・楚=6・殷=5）が儒道仏比較作の特性として顕在化。§17 追加
+- 2026-05-04 v1.9 昇格：**G2-E**。横断集約ファイル 7 種を新設（`aggregate_indices.py` 新設）。性霊集 + dict 型 8 著作 = 9 著作の per-corpus index を集約し、`data/mikkyou/index_<category>_all.json` 7 ファイルとして cross-corpus search 基盤を完成。全 7 カテゴリ合計 unique_terms=2,454・total_occurrences=14,211（per-corpus 正本との整合 ✅）。最頻出は persons 大日如来=689 (8 著作)・kaimyo_jukugo 大日=576 (8 著作)・terms 大日=576 (8 著作)・terms 真言=281 (9 著作・全著作出現の唯一)。§18 追加
 
 ---
 
@@ -1871,3 +1872,146 @@ G4 ⏭️ L2 字索引の新設
 G5 ⏭️ L3 by_* 汎用 endpoint の整備
 G6 ⏭️ kaimyo-app 暫定ハードコード 3 種の置き換え API（v1.4 仕様確定済 §13）
 ```
+
+---
+
+## 18. G2-E 横断集約ファイル 7 種生成（v1.9・2026-05-04）
+
+G2-A〜D（§14〜17）で性霊集 + dict 型 8 著作 = 9 著作の per-corpus index が全 7 カテゴリで完成。本セッション（G2-E）はこれを横断集約し、kaimyo-app 等の上流アプリが「全著作横断のサマリ検索」を高速に実行できる基盤を整備。
+
+### 18.1 新設スクリプト
+
+`_dev_references/aggregate_indices.py`（横断集約 generator）
+
+- 9 著作 × 7 カテゴリの per-corpus index ファイルを読み込み、term/canonical/jukugo 別に集約
+- 各 entry は `<term_key>` + `total_occurrence_count` + `covered_corpora_count` + `covered_corpora` + `by_corpus`（corpus_id → count）+ category 別共通メタを保持
+- per-corpus の詳細 occurrences は元ファイルが正本のため集約には含めず、ファイルサイズ圧縮を優先
+- `python3 _dev_references/aggregate_indices.py` で 7 ファイル一括生成
+
+### 18.2 集約スキーマ（v1.0）
+
+```jsonc
+{
+  "schema_version": "1.0",
+  "category": "terms",
+  "category_description": "密教教学用語（19 語辞書ベース）",
+  "aggregate_type": "cross_corpus",
+  "generated_at": "2026-05-04",
+  "source_corpora": ["shoryoshu_miyasaka", "nikyo-ron", ...],  // 9 著作
+  "corpora_count": 9,
+  "corpora_with_data": 9,  // 実データのあった著作数（菩提心論等の空ファイルは含まれない）
+  "term_key": "term",
+  "note": "詳細 occurrences は per-corpus index に格納...",
+  "summary": {
+    "unique_terms_total": 19,
+    "total_occurrences": 2222,
+    "terms_in_multiple_corpora": 16,
+    "max_corpus_coverage": 9,
+    "by_corpus": {
+      "shoryoshu_miyasaka": {"unique": 19, "occurrences": 544, "present": true},
+      "nikyo-ron":          {"unique": 19, "occurrences": 360, "present": true},
+      ...
+    }
+  },
+  "entries": [
+    {
+      "term": "真言",
+      "total_occurrence_count": 281,
+      "covered_corpora_count": 9,
+      "covered_corpora": ["dainichikyo-sho-vol1", "hannya-hiken", "hizo-houyaku", ...],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 44, "nikyo-ron": 44, "ujiji": 13, "shoji-jisso": 16,
+        "sokushin-jobutsu": 34, "hannya-hiken": 30, "hizo-houyaku": 40,
+        "dainichikyo-sho-vol1": 58, "sankyo-shiki": 2
+      },
+      "metadata": {
+        "sanskrit": "mantra",
+        "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": ["真", "言"]
+      }
+    }
+  ]
+}
+```
+
+### 18.3 生成結果（2026-05-04）
+
+| カテゴリ | 集約ファイル | unique | total_occ | multi-corpora | max_cov | 上位 3 |
+|---|---|---|---|---|---|---|
+| terms | `index_terms_all.json` | 19 | 2,222 | 16 | **9/9** | 大日=576 / 密教=373 / **真言=281（全 9 著作）**|
+| citations | `index_citations_all.json` | 407 | 1,829 | 62 | 8/9 | 法華経=116 / 荘子=107 / 大日経=100 |
+| kukai_works | `index_kukai_works_all.json` | 12 | 52 | 3 | 4/9 | 菩提心論=24 / 即身成仏義=7 / 弁顕密二教論=5 |
+| sanskrit | `index_sanskrit_all.json` | 1,743 | 2,671 | 141 | 4/9 | buddha=20 / bodhi=19 / sattva=17 |
+| kaimyo_jukugo | `index_kaimyo_jukugo_all.json` | 114 | 4,395 | 74 | **9/9** | 大日=576 / 金剛=344 / 如来=303 |
+| persons | `index_persons_all.json` | 88 | 2,413 | 55 | **9/9** | 大日如来=689 / 空海=340 / **釈迦=165（全 9 著作）**|
+| places | `index_places_all.json` | 71 | 629 | 33 | 7/9 | 日本=64 / 漢=30 / 須弥山=29 |
+| **合計** | — | **2,454** | **14,211** | **384** | — | — |
+
+### 18.4 重要発見
+
+**全 9 著作で出現する term：唯一性**
+- terms「真言」（281 件）：mantra・密教修行の中心。9 著作すべてで出現する唯一の密教教学用語
+- persons「釈迦」（165 件）：仏教そのものの開祖。9 著作すべてで出現する唯一の人名
+- これらが「最も普遍的に空海と密教を貫く語」として実データで証明された
+
+**「真言」と「大日」の二大柱**
+- terms / kaimyo_jukugo の両カテゴリで「大日=576・真言=281」が上位 2 位を占める
+- kaimyo-app の戒名選定アルゴリズムにおいて、これらは最優先候補として確定
+
+**citations の特異性**
+- 「法華経」（8 著作・116 件）と「大日経」（8 著作・100 件）は密教の中心経典
+- 「荘子」（4 著作・107 件）は性霊集中心（密教論述ではほぼ言及なし）
+- データベースが「密教教義中心」と「漢学教養中心」の二系統を保持していることが裏付けられる
+
+**sanskrit の集約効果**
+- 1,743 unique（per-corpus 合計 1,898 から重複除去で 155 件統合）
+- 「buddha」「bodhi」「sattva」が複数著作で参照される基本概念
+
+### 18.5 実用性（kaimyo-app 連携への土台）
+
+集約ファイルにより以下のクエリが O(1) で実現可能：
+
+1. **「真言」は何著作に何回出現？** → entries[0] を見るだけで `9 著作・281 件・全 by_corpus 内訳` 即取得
+2. **全 9 著作に出現する戒名候補語は？** → `entries.filter(e => e.covered_corpora_count == 9)` で「真言」「釈迦」が即座に得られる
+3. **A 著作と B 著作の共通梵語は？** → entries の by_corpus を交差させればよい
+4. **「大日如来」の典故著作別件数？** → metadata + by_corpus で著作横断の出現分布が即時提示
+
+これらは v1.4 §13 で設計済の kaimyo-app API の `/api/term/:term` などで活用される。集約データのおかげで、kaimyo-app は per-corpus 7×9=63 ファイルを順次走査する必要がなく、9 著作×7 カテゴリ = 7 集約ファイルだけメモリにロードすれば全機能を提供できる。
+
+### 18.6 manifest 統合
+
+`_corpus_manifest.json` に top-level の `aggregate_indices` セクションを新設：
+
+```jsonc
+"aggregate_indices": {
+  "description": "G2-E（2026-05-04）：9 著作横断の集約 index。per-corpus index が正本で、本ブロックは横断検索の高速化用。",
+  "storage_dir": "data/mikkyou/",
+  "naming_pattern": "index_<category>_all.json",
+  "source_corpora": [9 corpora],
+  "corpora_count": 9,
+  "files": {7 categories × {file, present, unique_terms_total, total_occurrences, ...}}
+}
+```
+
+### 18.7 残作業（G2 完結後）
+
+| サブステップ | 内容 | 工数 |
+|---|---|---|
+| ✅ G2-A〜D | dict 型 8 著作の 7 カテゴリ展開 | 4 セッション |
+| ✅ G2-E | 横断集約 7 ファイル生成 | 0.5 セッション（本セッション）|
+| ⏭️ G2-F | 菩提心論 gendaigoyaku 取込後の再索引化 + aggregate 再生成 | 0.5 セッション |
+| ⏭️ G2-G | 既訳 4 著作の Cowork 高品質訳化 | 各 5〜10 セッション |
+| ⏭️ G3 | 未着手 8 著作のロードマップ | 設計 1 セッション |
+| ⏭️ G4 | L2 字索引の新設 | 2〜3 セッション |
+| ⏭️ G5 | L3 by_* 汎用 endpoint の整備 | 3〜4 セッション |
+| ⏭️ G6 | kaimyo-app 暫定ハードコード 3 種の置き換え API（v1.4 §13 仕様確定済）| 5〜6 セッション |
+
+### 18.8 v1.9 完成度評価
+
+- ✅ **横断集約 7 ファイル完成**：全 9 著作 × 7 カテゴリのサマリ集約・total 14,211 occurrences の単一ファイル即時参照
+- ✅ **集約スキーマ確定**：term + by_corpus + covered_corpora + metadata の v1.0 構造
+- ✅ **データ整合性検証 OK**：per-corpus 合計 14,211 と aggregate の total が完全一致
+- ✅ **kaimyo-app 連携 API の素材完備**：v1.4 §13 で設計済の 9 endpoints が全 9 著作横断で動作可能になった
+- 🎯 **G2 全体（A〜E）完結**：性霊集だけだった索引基盤を 9 著作横断 + 集約まで拡張完了
+- ⏭️ 次セッション（G2-F〜G3〜G6）：派生タスク・新著作展開・API 実装フェーズへ

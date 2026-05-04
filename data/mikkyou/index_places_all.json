@@ -1,0 +1,1362 @@
+{
+  "schema_version": "1.0",
+  "category": "places",
+  "category_description": "地名（寺院・山・国・王朝・聖地・宇宙論界）",
+  "aggregate_type": "cross_corpus",
+  "generated_at": "2026-05-03",
+  "source_corpora": [
+    "shoryoshu_miyasaka",
+    "nikyo-ron",
+    "ujiji",
+    "shoji-jisso",
+    "sokushin-jobutsu",
+    "hannya-hiken",
+    "hizo-houyaku",
+    "dainichikyo-sho-vol1",
+    "sankyo-shiki"
+  ],
+  "corpora_count": 9,
+  "corpora_with_data": 9,
+  "missing_corpora": [],
+  "term_key": "canonical",
+  "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
+  "summary": {
+    "unique_terms_total": 71,
+    "total_occurrences": 629,
+    "terms_in_multiple_corpora": 33,
+    "max_corpus_coverage": 7,
+    "by_corpus": {
+      "shoryoshu_miyasaka": {
+        "unique": 70,
+        "occurrences": 466,
+        "present": true
+      },
+      "nikyo-ron": {
+        "unique": 4,
+        "occurrences": 4,
+        "present": true
+      },
+      "ujiji": {
+        "unique": 4,
+        "occurrences": 8,
+        "present": true
+      },
+      "shoji-jisso": {
+        "unique": 3,
+        "occurrences": 3,
+        "present": true
+      },
+      "sokushin-jobutsu": {
+        "unique": 5,
+        "occurrences": 12,
+        "present": true
+      },
+      "hannya-hiken": {
+        "unique": 1,
+        "occurrences": 1,
+        "present": true
+      },
+      "hizo-houyaku": {
+        "unique": 22,
+        "occurrences": 60,
+        "present": true
+      },
+      "dainichikyo-sho-vol1": {
+        "unique": 9,
+        "occurrences": 25,
+        "present": true
+      },
+      "sankyo-shiki": {
+        "unique": 21,
+        "occurrences": 50,
+        "present": true
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "日本",
+      "total_occurrence_count": 64,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 60,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 2,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "country_japan",
+        "definition": "日本国。",
+        "aliases": [
+          "日域",
+          "本朝",
+          "我朝",
+          "皇朝",
+          "神国"
+        ]
+      }
+    },
+    {
+      "canonical": "漢",
+      "total_occurrence_count": 30,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 19,
+        "hizo-houyaku": 2,
+        "sankyo-shiki": 9
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国王朝。前漢・後漢。"
+      }
+    },
+    {
+      "canonical": "須弥山",
+      "total_occurrence_count": 29,
+      "covered_corpora_count": 7,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 15,
+        "nikyo-ron": 1,
+        "ujiji": 2,
+        "sokushin-jobutsu": 1,
+        "hizo-houyaku": 5,
+        "dainichikyo-sho-vol1": 4,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "mountain_buddhist",
+        "definition": "仏教世界観の中心の山。",
+        "aliases": [
+          "須弥",
+          "sumeru",
+          "meru"
+        ]
+      }
+    },
+    {
+      "canonical": "周",
+      "total_occurrence_count": 28,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 16,
+        "nikyo-ron": 1,
+        "hizo-houyaku": 4,
+        "dainichikyo-sho-vol1": 1,
+        "sankyo-shiki": 6
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国古代王朝。文王・武王が建国。"
+      }
+    },
+    {
+      "canonical": "殷",
+      "total_occurrence_count": 25,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 16,
+        "hizo-houyaku": 4,
+        "sankyo-shiki": 5
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国古代王朝。湯王が建国。",
+        "aliases": [
+          "商"
+        ]
+      }
+    },
+    {
+      "canonical": "色界",
+      "total_occurrence_count": 24,
+      "covered_corpora_count": 7,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "nikyo-ron": 1,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 4,
+        "hizo-houyaku": 6,
+        "dainichikyo-sho-vol1": 5
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "三界の中。色身があるが欲望のない世界。"
+      }
+    },
+    {
+      "canonical": "無色界",
+      "total_occurrence_count": 23,
+      "covered_corpora_count": 7,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8,
+        "nikyo-ron": 1,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 2,
+        "hizo-houyaku": 5,
+        "dainichikyo-sho-vol1": 4
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "三界の最上。色身のない世界。"
+      }
+    },
+    {
+      "canonical": "長安",
+      "total_occurrence_count": 22,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 22
+      },
+      "metadata": {
+        "subcategory": "capital_china",
+        "definition": "唐の都。陝西省西安。"
+      }
+    },
+    {
+      "canonical": "欲界",
+      "total_occurrence_count": 20,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 3,
+        "hizo-houyaku": 5,
+        "dainichikyo-sho-vol1": 4
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "三界の最下。欲望が支配する世界。"
+      }
+    },
+    {
+      "canonical": "安楽",
+      "total_occurrence_count": 19,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "sokushin-jobutsu": 2,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 8,
+        "dainichikyo-sho-vol1": 1
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "極楽浄土の異称。",
+        "aliases": [
+          "安楽国"
+        ]
+      }
+    },
+    {
+      "canonical": "夏",
+      "total_occurrence_count": 17,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "hizo-houyaku": 4,
+        "sankyo-shiki": 6
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国伝説的な最古の王朝。禹が建国。"
+      }
+    },
+    {
+      "canonical": "陳",
+      "total_occurrence_count": 17,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 13,
+        "hizo-houyaku": 4
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "南朝の王朝。"
+      }
+    },
+    {
+      "canonical": "秦",
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 10,
+        "hizo-houyaku": 2,
+        "sankyo-shiki": 3
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国王朝。始皇帝による天下統一。"
+      }
+    },
+    {
+      "canonical": "霊鷲山",
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 13,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "mountain_buddhist",
+        "definition": "王舎城東北の山。釈迦が法華経などを説いた地。",
+        "aliases": [
+          "霊山",
+          "耆闍崛山",
+          "gṛdhrakūṭa"
+        ]
+      }
+    },
+    {
+      "canonical": "楚",
+      "total_occurrence_count": 14,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 6
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "春秋戦国の南方の大国。"
+      }
+    },
+    {
+      "canonical": "震旦",
+      "total_occurrence_count": 13,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 13
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "中国の異称。",
+        "aliases": [
+          "支那",
+          "神州",
+          "唐土",
+          "中華",
+          "華夏"
+        ]
+      }
+    },
+    {
+      "canonical": "大和",
+      "total_occurrence_count": 11,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 10,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "province_japan",
+        "definition": "奈良県。"
+      }
+    },
+    {
+      "canonical": "雪山",
+      "total_occurrence_count": 11,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 10,
+        "hizo-houyaku": 1
+      },
+      "metadata": {
+        "subcategory": "mountain_buddhist",
+        "definition": "ヒマーラヤ山脈。仏典でしばしば言及される聖山。",
+        "aliases": [
+          "ヒマーラヤ",
+          "himālaya"
+        ]
+      }
+    },
+    {
+      "canonical": "青龍寺",
+      "total_occurrence_count": 11,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 11
+      },
+      "metadata": {
+        "subcategory": "temple_china",
+        "definition": "長安にあった密教の中心寺院。恵果阿闍梨の住所。"
+      }
+    },
+    {
+      "canonical": "高野山",
+      "total_occurrence_count": 10,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "dainichikyo-sho-vol1": 3
+      },
+      "metadata": {
+        "subcategory": "mountain_japan",
+        "definition": "紀伊。空海開創の真言密教の根本道場。"
+      }
+    },
+    {
+      "canonical": "平安",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8,
+        "hizo-houyaku": 1
+      },
+      "metadata": {
+        "subcategory": "capital_japan",
+        "definition": "平安京。京都。",
+        "aliases": [
+          "平安京"
+        ]
+      }
+    },
+    {
+      "canonical": "極楽",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 9
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "阿弥陀如来の西方浄土。"
+      }
+    },
+    {
+      "canonical": "神護寺",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 9
+      },
+      "metadata": {
+        "subcategory": "temple_japan",
+        "definition": "高雄山。空海の主要拠点の一つ。"
+      }
+    },
+    {
+      "canonical": "天竺",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "dainichikyo-sho-vol1": 1
+      },
+      "metadata": {
+        "subcategory": "country_india",
+        "definition": "インドの古称。",
+        "aliases": [
+          "印度",
+          "身毒"
+        ]
+      }
+    },
+    {
+      "canonical": "平城",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8
+      },
+      "metadata": {
+        "subcategory": "capital_japan",
+        "definition": "平城京。奈良。",
+        "aliases": [
+          "平城京"
+        ]
+      }
+    },
+    {
+      "canonical": "東寺",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8
+      },
+      "metadata": {
+        "subcategory": "temple_japan",
+        "definition": "京都。空海に下賜された真言宗根本道場。",
+        "aliases": [
+          "教王護国寺"
+        ]
+      }
+    },
+    {
+      "canonical": "梁",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "南朝の王朝。"
+      }
+    },
+    {
+      "canonical": "兜率",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "欲界第四天。弥勒菩薩の住所。",
+        "aliases": [
+          "兜率天",
+          "tuṣita"
+        ]
+      }
+    },
+    {
+      "canonical": "崑崙",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "mountain_china",
+        "definition": "中国西方の霊山。神仙の住所。",
+        "aliases": [
+          "崑崙山"
+        ]
+      }
+    },
+    {
+      "canonical": "伊予",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7
+      },
+      "metadata": {
+        "subcategory": "province_japan",
+        "definition": "愛媛県の旧国。"
+      }
+    },
+    {
+      "canonical": "西寺",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7
+      },
+      "metadata": {
+        "subcategory": "temple_japan",
+        "definition": "京都。東寺と並立する官寺。"
+      }
+    },
+    {
+      "canonical": "蓬莱",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "mythological",
+        "definition": "東海の仙島。",
+        "aliases": [
+          "蓬萊"
+        ]
+      }
+    },
+    {
+      "canonical": "奈良",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6
+      },
+      "metadata": {
+        "subcategory": "capital_japan",
+        "definition": "奈良の都。"
+      }
+    },
+    {
+      "canonical": "洛陽",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6
+      },
+      "metadata": {
+        "subcategory": "capital_china",
+        "definition": "中国古都。漢魏隋唐の副都。"
+      }
+    },
+    {
+      "canonical": "神泉苑",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6
+      },
+      "metadata": {
+        "subcategory": "sacred_site_japan",
+        "definition": "平安京の禁苑。空海の祈雨儀礼の地。"
+      }
+    },
+    {
+      "canonical": "越",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "春秋の国。"
+      }
+    },
+    {
+      "canonical": "長江",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6
+      },
+      "metadata": {
+        "subcategory": "river_china",
+        "definition": "中国南部の大河。",
+        "aliases": [
+          "揚子江"
+        ]
+      }
+    },
+    {
+      "canonical": "斉",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "春秋戦国の東方の大国。"
+      }
+    },
+    {
+      "canonical": "天台山",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "hizo-houyaku": 1
+      },
+      "metadata": {
+        "subcategory": "mountain_china",
+        "definition": "浙江省。天台宗の発祥地。"
+      }
+    },
+    {
+      "canonical": "西域",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5
+      },
+      "metadata": {
+        "subcategory": "country_western_region",
+        "definition": "中国西方諸国の総称。"
+      }
+    },
+    {
+      "canonical": "高雄山寺",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5
+      },
+      "metadata": {
+        "subcategory": "temple_japan",
+        "definition": "神護寺の旧称。"
+      }
+    },
+    {
+      "canonical": "方丈",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "mythological",
+        "definition": "東海の仙島。蓬莱・瀛洲と並ぶ。"
+      }
+    },
+    {
+      "canonical": "渭水",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "hizo-houyaku": 1
+      },
+      "metadata": {
+        "subcategory": "river_china",
+        "definition": "長安付近の河川。"
+      }
+    },
+    {
+      "canonical": "燕",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "hizo-houyaku": 1
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "春秋戦国の北方の国。"
+      }
+    },
+    {
+      "canonical": "元興寺",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4
+      },
+      "metadata": {
+        "subcategory": "temple_japan",
+        "definition": "奈良の南都七大寺の一。"
+      }
+    },
+    {
+      "canonical": "呉",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "春秋の国。三国時代の呉も。"
+      }
+    },
+    {
+      "canonical": "魏",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "三国時代の魏。曹操の国。"
+      }
+    },
+    {
+      "canonical": "五台山",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      },
+      "metadata": {
+        "subcategory": "mountain_china",
+        "definition": "山西省。文殊菩薩の聖地。",
+        "aliases": [
+          "清涼山"
+        ]
+      }
+    },
+    {
+      "canonical": "南都",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      },
+      "metadata": {
+        "subcategory": "capital_japan",
+        "definition": "奈良。北嶺（比叡山）に対する呼称。"
+      }
+    },
+    {
+      "canonical": "大慈恩寺",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      },
+      "metadata": {
+        "subcategory": "temple_china",
+        "definition": "長安。玄奘の住所。",
+        "aliases": [
+          "慈恩寺"
+        ]
+      }
+    },
+    {
+      "canonical": "祇園精舎",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      },
+      "metadata": {
+        "subcategory": "sacred_site_indian",
+        "definition": "舎衛国に建立された釈迦説法の地。"
+      }
+    },
+    {
+      "canonical": "紀伊",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      },
+      "metadata": {
+        "subcategory": "province_japan",
+        "definition": "和歌山県・三重県南部の旧国。",
+        "aliases": [
+          "紀州"
+        ]
+      }
+    },
+    {
+      "canonical": "黄河",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      },
+      "metadata": {
+        "subcategory": "river_china",
+        "definition": "中国北部の大河。"
+      }
+    },
+    {
+      "canonical": "土佐",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "province_japan",
+        "definition": "高知県の旧国。"
+      }
+    },
+    {
+      "canonical": "讃岐",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "province_japan",
+        "definition": "香川県の旧国。空海生地。"
+      }
+    },
+    {
+      "canonical": "阿波",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "province_japan",
+        "definition": "徳島県の旧国。"
+      }
+    },
+    {
+      "canonical": "隋",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "hizo-houyaku": 1
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国王朝。唐の前。"
+      }
+    },
+    {
+      "canonical": "大興善寺",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "temple_china",
+        "definition": "長安。不空三蔵の住所。密教伝来の中心。"
+      }
+    },
+    {
+      "canonical": "廬山",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "mountain_china",
+        "definition": "江西省。中国の名山。",
+        "aliases": [
+          "盧山"
+        ]
+      }
+    },
+    {
+      "canonical": "東大寺",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "temple_japan",
+        "definition": "奈良。華厳宗大本山。"
+      }
+    },
+    {
+      "canonical": "興福寺",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "temple_japan",
+        "definition": "奈良。法相宗大本山。"
+      }
+    },
+    {
+      "canonical": "陸奥",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "province_japan",
+        "definition": "東北地方の旧国。"
+      }
+    },
+    {
+      "canonical": "魯",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "春秋の国。孔子の出身地。"
+      }
+    },
+    {
+      "canonical": "中天竺",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "subcategory": "country_india",
+        "definition": "中インド。"
+      }
+    },
+    {
+      "canonical": "于闐",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "subcategory": "country_western_region",
+        "definition": "西域の王国。コータン。"
+      }
+    },
+    {
+      "canonical": "吉野",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "subcategory": "mountain_japan",
+        "definition": "大和。山岳信仰の聖地。",
+        "aliases": [
+          "吉野山"
+        ]
+      }
+    },
+    {
+      "canonical": "山城",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "subcategory": "province_japan",
+        "definition": "京都南部の旧国。"
+      }
+    },
+    {
+      "canonical": "播磨",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "subcategory": "province_japan",
+        "definition": "兵庫県南西部の旧国。"
+      }
+    },
+    {
+      "canonical": "比叡山",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "subcategory": "mountain_japan",
+        "definition": "近江・山城。最澄開創の天台宗根本道場。",
+        "aliases": [
+          "叡山",
+          "北嶺"
+        ]
+      }
+    },
+    {
+      "canonical": "舎衛城",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "subcategory": "sacred_site_indian",
+        "definition": "コーサラ国の都。釈迦の主要説法地。",
+        "aliases": [
+          "舎衛国",
+          "舎衛"
+        ]
+      }
+    },
+    {
+      "canonical": "蜀",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sankyo-shiki"
+      ],
+      "by_corpus": {
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "三国時代の蜀。または春秋蜀。"
+      }
+    }
+  ]
+}

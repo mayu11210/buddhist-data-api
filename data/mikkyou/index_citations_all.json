@@ -1,0 +1,4799 @@
+{
+  "schema_version": "1.0",
+  "category": "citations",
+  "category_description": "典故書名（『〜』形式・他者著作）",
+  "aggregate_type": "cross_corpus",
+  "generated_at": "2026-05-03",
+  "source_corpora": [
+    "shoryoshu_miyasaka",
+    "nikyo-ron",
+    "ujiji",
+    "shoji-jisso",
+    "sokushin-jobutsu",
+    "hannya-hiken",
+    "hizo-houyaku",
+    "dainichikyo-sho-vol1",
+    "sankyo-shiki"
+  ],
+  "corpora_count": 9,
+  "corpora_with_data": 9,
+  "missing_corpora": [],
+  "term_key": "term",
+  "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
+  "summary": {
+    "unique_terms_total": 407,
+    "total_occurrences": 1829,
+    "terms_in_multiple_corpora": 62,
+    "max_corpus_coverage": 8,
+    "by_corpus": {
+      "shoryoshu_miyasaka": {
+        "unique": 237,
+        "occurrences": 1181,
+        "present": true
+      },
+      "nikyo-ron": {
+        "unique": 51,
+        "occurrences": 142,
+        "present": true
+      },
+      "ujiji": {
+        "unique": 14,
+        "occurrences": 37,
+        "present": true
+      },
+      "shoji-jisso": {
+        "unique": 12,
+        "occurrences": 27,
+        "present": true
+      },
+      "sokushin-jobutsu": {
+        "unique": 17,
+        "occurrences": 44,
+        "present": true
+      },
+      "hannya-hiken": {
+        "unique": 14,
+        "occurrences": 45,
+        "present": true
+      },
+      "hizo-houyaku": {
+        "unique": 57,
+        "occurrences": 139,
+        "present": true
+      },
+      "dainichikyo-sho-vol1": {
+        "unique": 106,
+        "occurrences": 179,
+        "present": true
+      },
+      "sankyo-shiki": {
+        "unique": 21,
+        "occurrences": 35,
+        "present": true
+      }
+    }
+  },
+  "entries": [
+    {
+      "term": "法華経",
+      "total_occurrence_count": 116,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 71,
+        "nikyo-ron": 7,
+        "ujiji": 3,
+        "shoji-jisso": 1,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 24,
+        "dainichikyo-sho-vol1": 6,
+        "sankyo-shiki": 3
+      }
+    },
+    {
+      "term": "荘子",
+      "total_occurrence_count": 107,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 103,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 1,
+        "sankyo-shiki": 2
+      }
+    },
+    {
+      "term": "大日経",
+      "total_occurrence_count": 100,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 15,
+        "nikyo-ron": 9,
+        "ujiji": 4,
+        "shoji-jisso": 12,
+        "sokushin-jobutsu": 21,
+        "hannya-hiken": 2,
+        "hizo-houyaku": 26,
+        "dainichikyo-sho-vol1": 11
+      }
+    },
+    {
+      "term": "詩経",
+      "total_occurrence_count": 90,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 82,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 7
+      }
+    },
+    {
+      "term": "大智度論",
+      "total_occurrence_count": 76,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 30,
+        "nikyo-ron": 13,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "hizo-houyaku": 5,
+        "dainichikyo-sho-vol1": 25
+      }
+    },
+    {
+      "term": "論語",
+      "total_occurrence_count": 67,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 67
+      }
+    },
+    {
+      "term": "書経",
+      "total_occurrence_count": 62,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 60,
+        "sankyo-shiki": 2
+      }
+    },
+    {
+      "term": "涅槃経",
+      "total_occurrence_count": 58,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 48,
+        "nikyo-ron": 1,
+        "hizo-houyaku": 2,
+        "dainichikyo-sho-vol1": 6,
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "礼記",
+      "total_occurrence_count": 44,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 39,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 4
+      }
+    },
+    {
+      "term": "易経",
+      "total_occurrence_count": 35,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 33,
+        "sankyo-shiki": 2
+      }
+    },
+    {
+      "term": "華厳経",
+      "total_occurrence_count": 34,
+      "covered_corpora_count": 7,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 14,
+        "nikyo-ron": 2,
+        "ujiji": 2,
+        "shoji-jisso": 2,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 9,
+        "dainichikyo-sho-vol1": 4
+      }
+    },
+    {
+      "term": "大日経疏",
+      "total_occurrence_count": 31,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "ujiji": 12,
+        "shoji-jisso": 2,
+        "hannya-hiken": 3,
+        "hizo-houyaku": 6,
+        "dainichikyo-sho-vol1": 4
+      }
+    },
+    {
+      "term": "般若心経",
+      "total_occurrence_count": 27,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "hannya-hiken": 21,
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "淮南子",
+      "total_occurrence_count": 27,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 26,
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "老子",
+      "total_occurrence_count": 27,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 25,
+        "hizo-houyaku": 2
+      }
+    },
+    {
+      "term": "金剛頂経",
+      "total_occurrence_count": 26,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "nikyo-ron": 7,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 5,
+        "hannya-hiken": 2,
+        "hizo-houyaku": 3,
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "漢書",
+      "total_occurrence_count": 25,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 24,
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "釈摩訶衍論",
+      "total_occurrence_count": 23,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 10,
+        "ujiji": 1,
+        "shoji-jisso": 2,
+        "hizo-houyaku": 10
+      }
+    },
+    {
+      "term": "中論",
+      "total_occurrence_count": 20,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 12,
+        "nikyo-ron": 1,
+        "ujiji": 2,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 4
+      }
+    },
+    {
+      "term": "楚辞",
+      "total_occurrence_count": 19,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 18,
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "楞伽経",
+      "total_occurrence_count": 17,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "nikyo-ron": 12,
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "史記",
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 14,
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "山海経",
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 15
+      }
+    },
+    {
+      "term": "大般若経",
+      "total_occurrence_count": 14,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "sokushin-jobutsu": 1,
+        "hannya-hiken": 4,
+        "dainichikyo-sho-vol1": 2
+      }
+    },
+    {
+      "term": "釈論",
+      "total_occurrence_count": 13,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 10,
+        "dainichikyo-sho-vol1": 3
+      }
+    },
+    {
+      "term": "孟子",
+      "total_occurrence_count": 13,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 13
+      }
+    },
+    {
+      "term": "左伝",
+      "total_occurrence_count": 13,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 13
+      }
+    },
+    {
+      "term": "理趣経",
+      "total_occurrence_count": 13,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 13
+      }
+    },
+    {
+      "term": "荀子",
+      "total_occurrence_count": 12,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 12
+      }
+    },
+    {
+      "term": "金剛経",
+      "total_occurrence_count": 12,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 12
+      }
+    },
+    {
+      "term": "金剛般若経",
+      "total_occurrence_count": 10,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 3
+      }
+    },
+    {
+      "term": "仁王経",
+      "total_occurrence_count": 10,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 9,
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "瑜伽師地論",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "ujiji": 2,
+        "shoji-jisso": 2,
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "大乗起信論",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "nikyo-ron": 3,
+        "dainichikyo-sho-vol1": 3
+      }
+    },
+    {
+      "term": "梵網経",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "摩訶止観",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "nikyo-ron": 2
+      }
+    },
+    {
+      "term": "後漢書",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 9
+      }
+    },
+    {
+      "term": "理趣釈",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hannya-hiken",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "ujiji": 1,
+        "sokushin-jobutsu": 1,
+        "hannya-hiken": 3
+      }
+    },
+    {
+      "term": "金光明経",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "nikyo-ron": 3
+      }
+    },
+    {
+      "term": "倶舎論",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8
+      }
+    },
+    {
+      "term": "分別聖位経",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 7
+      }
+    },
+    {
+      "term": "古事記",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7
+      }
+    },
+    {
+      "term": "晋書",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7
+      }
+    },
+    {
+      "term": "守護国界主陀羅尼経",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "nikyo-ron": 1,
+        "ujiji": 3,
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "般若経",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "nikyo-ron": 1,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "十地経論",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "nikyo-ron": 5
+      }
+    },
+    {
+      "term": "摩訶般若波羅蜜経",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "dainichikyo-sho-vol1": 5
+      }
+    },
+    {
+      "term": "孔子家語",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6
+      }
+    },
+    {
+      "term": "心地観経",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6
+      }
+    },
+    {
+      "term": "性霊集",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6
+      }
+    },
+    {
+      "term": "爾雅",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6
+      }
+    },
+    {
+      "term": "高僧伝",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6
+      }
+    },
+    {
+      "term": "大品般若経",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 2
+      }
+    },
+    {
+      "term": "般若燈論",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "nikyo-ron": 4
+      }
+    },
+    {
+      "term": "金光明最勝王経",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "nikyo-ron": 3
+      }
+    },
+    {
+      "term": "韓非子",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "中庸",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5
+      }
+    },
+    {
+      "term": "周礼",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5
+      }
+    },
+    {
+      "term": "増一阿含経",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5
+      }
+    },
+    {
+      "term": "春秋左氏伝",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5
+      }
+    },
+    {
+      "term": "春秋",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "五教章",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "nikyo-ron": 3
+      }
+    },
+    {
+      "term": "列仙伝",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "列子",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "孝経",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "阿含経",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hannya-hiken",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "hannya-hiken": 1
+      }
+    },
+    {
+      "term": "一切智智",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 4
+      }
+    },
+    {
+      "term": "初学記",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4
+      }
+    },
+    {
+      "term": "十住心論",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4
+      }
+    },
+    {
+      "term": "古詩十九首",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4
+      }
+    },
+    {
+      "term": "楞厳経",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4
+      }
+    },
+    {
+      "term": "漢武故事",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4
+      }
+    },
+    {
+      "term": "無量寿経",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4
+      }
+    },
+    {
+      "term": "説苑",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4
+      }
+    },
+    {
+      "term": "勝鬘経",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "礼",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "神仙伝",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "華厳五教章",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "nikyo-ron",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 2,
+        "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "詩",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "起信論",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "nikyo-ron": 2
+      }
+    },
+    {
+      "term": "世説新語",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      }
+    },
+    {
+      "term": "中阿含経",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      }
+    },
+    {
+      "term": "呂氏春秋",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      }
+    },
+    {
+      "term": "大毘盧遮那経",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 3
+      }
+    },
+    {
+      "term": "守護国界経",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 3
+      }
+    },
+    {
+      "term": "日本書紀",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      }
+    },
+    {
+      "term": "毘盧遮那三摩地法",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "sokushin-jobutsu": 3
+      }
+    },
+    {
+      "term": "浄飯王般涅槃経",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      }
+    },
+    {
+      "term": "説文解字",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      }
+    },
+    {
+      "term": "阿弥陀経",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      }
+    },
+    {
+      "term": "高士伝",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      }
+    },
+    {
+      "term": "五秘密儀軌",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "nikyo-ron",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1,
+        "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "俱舎論",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "ujiji": 1,
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "十二門論",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "周易",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "弘法大師著作全集",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "nikyo-ron",
+        "shoji-jisso"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1,
+        "shoji-jisso": 1
+      }
+    },
+    {
+      "term": "摂大乗論",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "華厳",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "shoji-jisso",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "shoji-jisso": 1
+      }
+    },
+    {
+      "term": "道徳経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "金剛峯楼閣一切瑜伽瑜祇経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "nikyo-ron",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1,
+        "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "金剛頂五秘密儀軌",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "nikyo-ron",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1,
+        "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "金剛頂瑜祇経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1,
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "一切時処念誦成仏儀軌",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "sokushin-jobutsu": 2
+      }
+    },
+    {
+      "term": "三国志",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "付法蔵因縁伝",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "十洲記",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "古今書人優劣評",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "四分律",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "国語",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "大乗法苑義林章",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 2
+      }
+    },
+    {
+      "term": "大乗理趣六波羅蜜多経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 2
+      }
+    },
+    {
+      "term": "大唐西域記",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "密迹金剛経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 2
+      }
+    },
+    {
+      "term": "摩訶僧祇律",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "撃壌歌",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "斉民要術",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "新序",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "春秋左伝",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "景徳伝灯録",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "書",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "最勝王経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "有",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 2
+      }
+    },
+    {
+      "term": "本性清浄",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 2
+      }
+    },
+    {
+      "term": "東観漢記",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "楽",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "無相",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 2
+      }
+    },
+    {
+      "term": "瓔珞経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 2
+      }
+    },
+    {
+      "term": "百論",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "盂蘭盆経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "神農本草経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "秘鍵",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hannya-hiken"
+      ],
+      "by_corpus": {
+        "hannya-hiken": 2
+      }
+    },
+    {
+      "term": "自らの心",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 2
+      }
+    },
+    {
+      "term": "菩提心",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 2
+      }
+    },
+    {
+      "term": "観無量寿経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "説文",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "請来目録",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "酉陽雑俎",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "金剛頂五秘密経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 2
+      }
+    },
+    {
+      "term": "阿育王経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "陀羅尼集経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hannya-hiken"
+      ],
+      "by_corpus": {
+        "hannya-hiken": 2
+      }
+    },
+    {
+      "term": "韓詩外伝",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "黄帝内経太素",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "一切智の道",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "一切智人",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "一味",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "七略",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "三学録",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "三略",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "三種悉地破地獄儀軌",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "不建立の無浄",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "不空羂索神変真言経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "世説",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "両中間",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "中本起経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "中論〈頌〉",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "九辨",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "二十四孝",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "二十論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "二教論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "五経通義",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "五行志",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "五運暦年記",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "仁王般若陀羅尼釈",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "ujiji"
+      ],
+      "by_corpus": {
+        "ujiji": 1
+      }
+    },
+    {
+      "term": "今昔物語",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "仏性論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "仏所行讃",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "仏昇忉利天為母説法経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "仏母明王経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "仏説譬喩経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "仏遺教経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "信",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "修行本起経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "儀礼",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "入楞伽経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoji-jisso"
+      ],
+      "by_corpus": {
+        "shoji-jisso": 1
+      }
+    },
+    {
+      "term": "公羊伝",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "六韜",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "典論論文",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "内に在らず",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "円覚経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "出曜経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "分流華厳経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "列女伝",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "北史",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "十一面神咒心経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "十不二門",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "十二門〔論〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "十住毘婆沙論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "十八会指帰",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "十六国春秋",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "十地論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "十誦律",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "南斉書",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "南風歌",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "博物志",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "即身成仏義",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "厭足",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "厳浄",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "古今楽録",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "古詩",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "可覚",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "名声",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "呉越春秋",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "唯識三十頌",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "善い哉、善い哉",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "善い哉、金剛手よ。汝、能く吾にかくの如き義を問う",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "四十二章経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "四十華厳経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "四諦",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "四食経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sankyo-shiki"
+      ],
+      "by_corpus": {
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "地等の変化",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "地蔵十輪経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "地蔵菩薩本願経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "坐禅三昧経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "声",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "外に在らず",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "大〕智度〔論〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "大乗印仏経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "大乗本生心地観経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "大乗玄論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "大乗義章",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "大悲",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "大方広仏華厳経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "大日経義釈",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hannya-hiken"
+      ],
+      "by_corpus": {
+        "hannya-hiken": 1
+      }
+    },
+    {
+      "term": "大智度〕釈論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "大本華厳契経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "大毘婆沙論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "大毘盧遮那",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "大毘盧遮那成佛經疏",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "大涅槃経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "大荒経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "大荘厳経論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "大荘厳論経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "大迦葉本経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "太平御覧",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "太玄",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "太素",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "如去",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "如実説",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "如意輪菩薩観門義注秘釈",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "ujiji"
+      ],
+      "by_corpus": {
+        "ujiji": 1
+      }
+    },
+    {
+      "term": "如来",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "如来の解脱味",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "妙方便",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "妙果",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "孔雀明王経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "孝子伝",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "守護経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "宝性論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "実の如く知らざる",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "実の如く自ら知らざる",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "実の如く自心を知る",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "実性",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "家語",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "小法",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "少分",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "尚書",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "帰命阿闍梨",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "常相・無常相",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "建立の浄",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "微妙",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "徳",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "心は不可得",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "急就章",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "恵果阿闍梨碑",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "悲喜",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "成唯識論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "成就妙法蓮華経王瑜伽観智儀軌",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "成就妙法蓮華経瑜伽観智儀軌",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "戦国策",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "所求",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "抱朴子",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "摩登伽経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "摩訶般若経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "文殊師利讃仏法身礼経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "文選",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "新論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "方便",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "方言",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "春秋繁露",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "時間",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "晏子春秋",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "景徳伝燈録",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "曇一律師の碑銘",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "有去相・無去相",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "有名声",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "有徳",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "有漏相・無漏相",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "有為相・無為相",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "有相・無相",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "有辺相・無辺相",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "有部毘奈耶雑事",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "未来星宿劫千仏名経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "本草",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "本草綱目",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "朱子全書",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "梁の武帝の草書の評",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "歴代法宝記",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "毛詩",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "法苑珠林",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "法華",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "法華伝",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "法華玄論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "法華義疏",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "法華遊意",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "法華験記",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "洛神賦",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "清浄",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "渇飲",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "漢書芸文志",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "無常経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "無所得",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "無明",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "無智",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "無相の菩提心",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "無量乗",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "無量無数不可思議",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "玉篇",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "王右軍が蘭亭の碑",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "王法正論経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "現在賢劫千仏名経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "瑜伽の我",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "甘露の門",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "生死に輪廻",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "生滅相・不生滅相",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "界",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "百喩経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "直信",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "真言宗教義の根本論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "破",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "神異経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sankyo-shiki"
+      ],
+      "by_corpus": {
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "禅源諸詮集都序",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "秘蔵金剛頂経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "穆天子伝",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "空相・不空相",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "端身",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "第一甚深の法",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "答賓戯",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "管子",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "維摩経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "綱目",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "能",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "能入",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "能求",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "臨済録",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "自覚の慧",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "般若",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "般若心経秘鍵",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "芸文類聚",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "荊楚歳時記",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "菩提場経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "菩薩瓔珞経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "華厳一乗教義分斉章",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "華厳五教止観",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "華厳法界観",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "華厳経探玄記",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "華厳経旨帰",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "薄伽婆",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "薩般若の慧",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "薩遮尼乾子経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "薬師瑠璃光如来本願功徳経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "虚空の相",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "虚空蔵菩薩求聞持法経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sankyo-shiki"
+      ],
+      "by_corpus": {
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "行者の自心",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "西京雑記",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "覚者",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "解深密経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hannya-hiken"
+      ],
+      "by_corpus": {
+        "hannya-hiken": 1
+      }
+    },
+    {
+      "term": "解知の者",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "訳経図記",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "詩格",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "語義",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "請観音経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "諸観",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "賢愚因縁経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "賢愚経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "踊躍",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "遊仙詩",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "遊天台山賦",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "遍照発揮性霊集",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "過去荘厳劫千仏名経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "達磨多羅禅経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "金剛三昧経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "金剛頂",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "金剛頂一切如来真実摂大乗現証大教王経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "金剛頂一切瑜祇経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "金剛頂一字頂輪王瑜伽一切時処念誦成仏儀軌",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "金剛頂分別聖位経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "金剛頂大教王経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "金剛頂理趣釈経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoji-jisso"
+      ],
+      "by_corpus": {
+        "shoji-jisso": 1
+      }
+    },
+    {
+      "term": "金剛頂瑜伽修習毘盧遮那三摩地法",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "金剛頂瑜伽真実大教王経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "金剛頂瑜伽金剛薩埵五秘密修行念誦儀軌",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "金剛頂発阿耨多羅三藐三菩提心論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "金剛頂経十八会指帰",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "金剛頂経義決",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "開曉の者",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "阿含",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "阿毘達磨大毘婆沙論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "隋書",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "雑宝蔵経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "雑阿含経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "離騒",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sankyo-shiki"
+      ],
+      "by_corpus": {
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "非声",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "風俗通",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "風賦",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "首楞厳経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "高唐賦",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "黄石公三略",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    }
+  ]
+}

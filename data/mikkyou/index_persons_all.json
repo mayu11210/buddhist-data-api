@@ -1,0 +1,1942 @@
+{
+  "schema_version": "1.0",
+  "category": "persons",
+  "category_description": "人名（仏教祖師・諸尊・諸子百家・天皇・貴族）",
+  "aggregate_type": "cross_corpus",
+  "generated_at": "2026-05-03",
+  "source_corpora": [
+    "shoryoshu_miyasaka",
+    "nikyo-ron",
+    "ujiji",
+    "shoji-jisso",
+    "sokushin-jobutsu",
+    "hannya-hiken",
+    "hizo-houyaku",
+    "dainichikyo-sho-vol1",
+    "sankyo-shiki"
+  ],
+  "corpora_count": 9,
+  "corpora_with_data": 9,
+  "missing_corpora": [],
+  "term_key": "canonical",
+  "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
+  "summary": {
+    "unique_terms_total": 88,
+    "total_occurrences": 2413,
+    "terms_in_multiple_corpora": 55,
+    "max_corpus_coverage": 9,
+    "by_corpus": {
+      "shoryoshu_miyasaka": {
+        "unique": 81,
+        "occurrences": 1197,
+        "present": true
+      },
+      "nikyo-ron": {
+        "unique": 20,
+        "occurrences": 238,
+        "present": true
+      },
+      "ujiji": {
+        "unique": 11,
+        "occurrences": 88,
+        "present": true
+      },
+      "shoji-jisso": {
+        "unique": 7,
+        "occurrences": 82,
+        "present": true
+      },
+      "sokushin-jobutsu": {
+        "unique": 11,
+        "occurrences": 196,
+        "present": true
+      },
+      "hannya-hiken": {
+        "unique": 14,
+        "occurrences": 88,
+        "present": true
+      },
+      "hizo-houyaku": {
+        "unique": 38,
+        "occurrences": 209,
+        "present": true
+      },
+      "dainichikyo-sho-vol1": {
+        "unique": 26,
+        "occurrences": 233,
+        "present": true
+      },
+      "sankyo-shiki": {
+        "unique": 30,
+        "occurrences": 82,
+        "present": true
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "total_occurrence_count": 689,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 135,
+        "nikyo-ron": 76,
+        "ujiji": 74,
+        "shoji-jisso": 72,
+        "sokushin-jobutsu": 157,
+        "hannya-hiken": 23,
+        "hizo-houyaku": 78,
+        "dainichikyo-sho-vol1": 74
+      },
+      "metadata": {
+        "subcategory": "buddhist_buddha_bodhisattva",
+        "definition": "密教の本尊。法身仏。",
+        "aliases": [
+          "大日",
+          "毘盧遮那",
+          "盧遮那",
+          "mahāvairocana",
+          "Mahāvairocana",
+          "vairocana",
+          "Vairocana"
+        ],
+        "sanskrit_canonical": "vairocana"
+      }
+    },
+    {
+      "canonical": "空海",
+      "total_occurrence_count": 340,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 202,
+        "nikyo-ron": 80,
+        "shoji-jisso": 3,
+        "sokushin-jobutsu": 23,
+        "hannya-hiken": 15,
+        "hizo-houyaku": 10,
+        "dainichikyo-sho-vol1": 5,
+        "sankyo-shiki": 2
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_japan",
+        "definition": "真言宗開祖。性霊集の主たる撰者。",
+        "aliases": [
+          "弘法大師",
+          "遍照金剛",
+          "大遍照金剛"
+        ]
+      }
+    },
+    {
+      "canonical": "釈迦",
+      "total_occurrence_count": 165,
+      "covered_corpora_count": 9,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 89,
+        "nikyo-ron": 21,
+        "ujiji": 1,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 2,
+        "hannya-hiken": 7,
+        "hizo-houyaku": 26,
+        "dainichikyo-sho-vol1": 9,
+        "sankyo-shiki": 9
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_india",
+        "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+        "aliases": [
+          "釈尊",
+          "釈迦牟尼",
+          "能仁",
+          "śākyamuni",
+          "Śākyamuni"
+        ],
+        "sanskrit_canonical": "śākyamuni"
+      }
+    },
+    {
+      "canonical": "荘子",
+      "total_occurrence_count": 113,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 105,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 1,
+        "sankyo-shiki": 6
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "戦国時代の道家。『荘子』の著者。",
+        "aliases": [
+          "荘周"
+        ]
+      }
+    },
+    {
+      "canonical": "普賢",
+      "total_occurrence_count": 63,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 15,
+        "nikyo-ron": 11,
+        "sokushin-jobutsu": 2,
+        "hannya-hiken": 9,
+        "hizo-houyaku": 12,
+        "dainichikyo-sho-vol1": 14
+      },
+      "metadata": {
+        "subcategory": "buddhist_buddha_bodhisattva",
+        "definition": "行を司る菩薩。",
+        "aliases": [
+          "samantabhadra",
+          "Samantabhadra"
+        ]
+      }
+    },
+    {
+      "canonical": "観音",
+      "total_occurrence_count": 61,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 45,
+        "hannya-hiken": 9,
+        "hizo-houyaku": 5,
+        "dainichikyo-sho-vol1": 2
+      },
+      "metadata": {
+        "subcategory": "buddhist_buddha_bodhisattva",
+        "definition": "慈悲を司る菩薩。",
+        "aliases": [
+          "観世音",
+          "観自在",
+          "avalokiteśvara",
+          "Avalokiteśvara"
+        ],
+        "sanskrit_canonical": "avalokiteśvara"
+      }
+    },
+    {
+      "canonical": "不空",
+      "total_occurrence_count": 60,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 32,
+        "nikyo-ron": 12,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 5,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 4,
+        "dainichikyo-sho-vol1": 3
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+        "aliases": [
+          "不空三蔵",
+          "大弁正三蔵",
+          "amoghavajra",
+          "Amoghavajra"
+        ],
+        "sanskrit_canonical": "amoghavajra"
+      }
+    },
+    {
+      "canonical": "孔子",
+      "total_occurrence_count": 56,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 32,
+        "hizo-houyaku": 10,
+        "sankyo-shiki": 14
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "儒家の祖。春秋時代魯国。"
+      }
+    },
+    {
+      "canonical": "龍樹",
+      "total_occurrence_count": 45,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 20,
+        "nikyo-ron": 12,
+        "dainichikyo-sho-vol1": 13
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_india",
+        "definition": "中観派の祖。空海から見て付法第三祖（龍猛）。",
+        "aliases": [
+          "龍猛",
+          "nāgārjuna",
+          "Nāgārjuna"
+        ],
+        "sanskrit_canonical": "nāgārjuna"
+      }
+    },
+    {
+      "canonical": "弥勒",
+      "total_occurrence_count": 43,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 10,
+        "nikyo-ron": 2,
+        "hannya-hiken": 4,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 22,
+        "sankyo-shiki": 4
+      },
+      "metadata": {
+        "subcategory": "buddhist_buddha_bodhisattva",
+        "definition": "未来仏。兜率天で待機。",
+        "aliases": [
+          "弥勒菩薩",
+          "慈氏",
+          "maitreya",
+          "Maitreya"
+        ]
+      }
+    },
+    {
+      "canonical": "文殊",
+      "total_occurrence_count": 40,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 16,
+        "nikyo-ron": 2,
+        "hannya-hiken": 9,
+        "hizo-houyaku": 2,
+        "dainichikyo-sho-vol1": 9,
+        "sankyo-shiki": 2
+      },
+      "metadata": {
+        "subcategory": "buddhist_buddha_bodhisattva",
+        "definition": "智慧を司る菩薩。",
+        "aliases": [
+          "文殊師利",
+          "mañjuśrī",
+          "Mañjuśrī"
+        ],
+        "sanskrit_canonical": "mañjuśrī"
+      }
+    },
+    {
+      "canonical": "老子",
+      "total_occurrence_count": 39,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 28,
+        "hizo-houyaku": 5,
+        "sankyo-shiki": 6
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "道家の祖。『老子（道徳経）』の著者と伝承される。",
+        "aliases": [
+          "李耳"
+        ]
+      }
+    },
+    {
+      "canonical": "恵果",
+      "total_occurrence_count": 39,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 38,
+        "nikyo-ron": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "密教付法第七祖。空海の師。青龍寺の大徳。",
+        "aliases": [
+          "恵果阿闍梨",
+          "恵果和尚"
+        ]
+      }
+    },
+    {
+      "canonical": "帝釈天",
+      "total_occurrence_count": 38,
+      "covered_corpora_count": 9,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 9,
+        "nikyo-ron": 3,
+        "ujiji": 3,
+        "shoji-jisso": 3,
+        "sokushin-jobutsu": 2,
+        "hannya-hiken": 2,
+        "hizo-houyaku": 7,
+        "dainichikyo-sho-vol1": 8,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_deva",
+        "definition": "忉利天の主。仏法守護神。",
+        "aliases": [
+          "帝釈",
+          "śakra",
+          "indra"
+        ]
+      }
+    },
+    {
+      "canonical": "嵯峨天皇",
+      "total_occurrence_count": 31,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hannya-hiken",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 30,
+        "hannya-hiken": 1
+      },
+      "metadata": {
+        "subcategory": "japanese_emperor",
+        "definition": "空海の主たる帰依者。",
+        "aliases": [
+          "嵯峨帝"
+        ]
+      }
+    },
+    {
+      "canonical": "淳和天皇",
+      "total_occurrence_count": 24,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 23,
+        "hizo-houyaku": 1
+      },
+      "metadata": {
+        "subcategory": "japanese_emperor",
+        "definition": "嵯峨天皇の弟。空海の支援者。",
+        "aliases": [
+          "淳和帝"
+        ]
+      }
+    },
+    {
+      "canonical": "夜叉",
+      "total_occurrence_count": 23,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "ujiji": 1,
+        "hizo-houyaku": 3,
+        "dainichikyo-sho-vol1": 11,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_deva",
+        "definition": "八部衆の一。",
+        "aliases": [
+          "yakṣa"
+        ]
+      }
+    },
+    {
+      "canonical": "梵天",
+      "total_occurrence_count": 22,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8,
+        "ujiji": 1,
+        "hizo-houyaku": 8,
+        "dainichikyo-sho-vol1": 4,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_deva",
+        "definition": "色界初禅天の主。",
+        "aliases": [
+          "brahmā",
+          "Brahmā"
+        ],
+        "sanskrit_canonical": "brahmā"
+      }
+    },
+    {
+      "canonical": "黄帝",
+      "total_occurrence_count": 22,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 18,
+        "sankyo-shiki": 4
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "三皇五帝の一。中華文明の祖と伝承される。"
+      }
+    },
+    {
+      "canonical": "不動",
+      "total_occurrence_count": 20,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8,
+        "nikyo-ron": 1,
+        "ujiji": 1,
+        "sokushin-jobutsu": 1,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 8
+      },
+      "metadata": {
+        "subcategory": "buddhist_buddha_bodhisattva",
+        "definition": "五大明王の主尊。",
+        "aliases": [
+          "不動明王",
+          "acala",
+          "acalanātha"
+        ]
+      }
+    },
+    {
+      "canonical": "王羲之",
+      "total_occurrence_count": 20,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 18,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "東晋の書家。書聖。",
+        "aliases": [
+          "王逸少"
+        ]
+      }
+    },
+    {
+      "canonical": "堯",
+      "total_occurrence_count": 19,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 15,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 3
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "五帝の一。聖王の代表。",
+        "aliases": [
+          "尭",
+          "帝堯"
+        ]
+      }
+    },
+    {
+      "canonical": "阿修羅",
+      "total_occurrence_count": 18,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "nikyo-ron": 1,
+        "ujiji": 1,
+        "shoji-jisso": 1,
+        "hizo-houyaku": 2,
+        "dainichikyo-sho-vol1": 6
+      },
+      "metadata": {
+        "subcategory": "buddhist_deva",
+        "definition": "六道の一・阿修羅道の住人。八部衆。",
+        "aliases": [
+          "asura"
+        ]
+      }
+    },
+    {
+      "canonical": "金剛智",
+      "total_occurrence_count": 18,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 10,
+        "nikyo-ron": 2,
+        "sokushin-jobutsu": 1,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 4
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "密教付法第五祖。金剛界の伝持。",
+        "aliases": [
+          "vajrabodhi",
+          "Vajrabodhi"
+        ],
+        "sanskrit_canonical": "vajrabodhi"
+      }
+    },
+    {
+      "canonical": "迦葉",
+      "total_occurrence_count": 17,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "hizo-houyaku": 2,
+        "dainichikyo-sho-vol1": 7,
+        "sankyo-shiki": 3
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_india",
+        "definition": "釈迦十大弟子の筆頭。頭陀第一。",
+        "aliases": [
+          "摩訶迦葉",
+          "kāśyapa",
+          "Kāśyapa"
+        ],
+        "sanskrit_canonical": "kāśyapa"
+      }
+    },
+    {
+      "canonical": "舜",
+      "total_occurrence_count": 17,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 15,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "五帝の一。聖王の代表。",
+        "aliases": [
+          "帝舜"
+        ]
+      }
+    },
+    {
+      "canonical": "舎利弗",
+      "total_occurrence_count": 16,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "nikyo-ron": 1,
+        "hannya-hiken": 4,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 6,
+        "sankyo-shiki": 3
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_india",
+        "definition": "釈迦十大弟子。智慧第一。",
+        "aliases": [
+          "舎利子",
+          "śāriputra",
+          "Śāriputra"
+        ],
+        "sanskrit_canonical": "śāriputra"
+      }
+    },
+    {
+      "canonical": "阿弥陀",
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 11,
+        "nikyo-ron": 1,
+        "sokushin-jobutsu": 1,
+        "hizo-houyaku": 2
+      },
+      "metadata": {
+        "subcategory": "buddhist_buddha_bodhisattva",
+        "definition": "西方極楽浄土の教主。",
+        "aliases": [
+          "阿弥陀如来",
+          "amitābha",
+          "Amitābha",
+          "amitāyus"
+        ],
+        "sanskrit_canonical": "amitābha"
+      }
+    },
+    {
+      "canonical": "孟子",
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 14,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "戦国時代の儒家。性善説。"
+      }
+    },
+    {
+      "canonical": "羅刹",
+      "total_occurrence_count": 14,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 11,
+        "hizo-houyaku": 2,
+        "dainichikyo-sho-vol1": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_deva",
+        "definition": "悪鬼神。",
+        "aliases": [
+          "rākṣasa"
+        ]
+      }
+    },
+    {
+      "canonical": "阿難",
+      "total_occurrence_count": 14,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "nikyo-ron": 2,
+        "dainichikyo-sho-vol1": 5
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_india",
+        "definition": "釈迦十大弟子。多聞第一。",
+        "aliases": [
+          "阿難陀",
+          "ānanda",
+          "Ānanda"
+        ],
+        "sanskrit_canonical": "ānanda"
+      }
+    },
+    {
+      "canonical": "最澄",
+      "total_occurrence_count": 14,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 14
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_japan",
+        "definition": "日本天台宗開祖。比叡山。",
+        "aliases": [
+          "伝教大師"
+        ]
+      }
+    },
+    {
+      "canonical": "桓武天皇",
+      "total_occurrence_count": 14,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 14
+      },
+      "metadata": {
+        "subcategory": "japanese_emperor",
+        "definition": "平安遷都の天皇。空海・最澄入唐の発令者。",
+        "aliases": [
+          "桓武帝"
+        ]
+      }
+    },
+    {
+      "canonical": "善無畏",
+      "total_occurrence_count": 13,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "nikyo-ron": 1,
+        "shoji-jisso": 1,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 4
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+        "aliases": [
+          "śubhakarasiṃha",
+          "Śubhakarasiṃha"
+        ]
+      }
+    },
+    {
+      "canonical": "文王",
+      "total_occurrence_count": 12,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8,
+        "hizo-houyaku": 2,
+        "sankyo-shiki": 2
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "周の始祖（武王の父）。",
+        "aliases": [
+          "周文王"
+        ]
+      }
+    },
+    {
+      "canonical": "目連",
+      "total_occurrence_count": 12,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "dainichikyo-sho-vol1": 9,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_india",
+        "definition": "釈迦十大弟子。神通第一。",
+        "aliases": [
+          "目犍連",
+          "摩訶目犍連",
+          "maudgalyāyana"
+        ],
+        "sanskrit_canonical": "maudgalyāyana"
+      }
+    },
+    {
+      "canonical": "薬師",
+      "total_occurrence_count": 12,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 11,
+        "sokushin-jobutsu": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_buddha_bodhisattva",
+        "definition": "東方瑠璃光浄土の教主。医王。",
+        "aliases": [
+          "薬師如来",
+          "bhaiṣajyaguru"
+        ]
+      }
+    },
+    {
+      "canonical": "荀子",
+      "total_occurrence_count": 12,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 12
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "戦国時代の儒家。性悪説。"
+      }
+    },
+    {
+      "canonical": "智顗",
+      "total_occurrence_count": 11,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "nikyo-ron": 5,
+        "hizo-houyaku": 3
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "天台宗の実質的開祖。",
+        "aliases": [
+          "天台大師",
+          "智者大師"
+        ]
+      }
+    },
+    {
+      "canonical": "達磨",
+      "total_occurrence_count": 11,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 10,
+        "dainichikyo-sho-vol1": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "中国禅宗の初祖。インドより渡来。",
+        "aliases": [
+          "菩提達磨",
+          "bodhidharma",
+          "Bodhidharma"
+        ]
+      }
+    },
+    {
+      "canonical": "湯王",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6,
+        "hizo-houyaku": 3
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "殷の始祖。",
+        "aliases": [
+          "成湯"
+        ]
+      }
+    },
+    {
+      "canonical": "法蔵",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "nikyo-ron": 2,
+        "sokushin-jobutsu": 1,
+        "hizo-houyaku": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "華厳宗第三祖。賢首大師。"
+      }
+    },
+    {
+      "canonical": "迦楼羅",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6,
+        "ujiji": 1,
+        "hizo-houyaku": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_deva",
+        "definition": "八部衆。金翅鳥。",
+        "aliases": [
+          "garuḍa"
+        ]
+      }
+    },
+    {
+      "canonical": "勤操",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_japan",
+        "definition": "三論宗・元興寺の僧。空海得度の師ともされる。"
+      }
+    },
+    {
+      "canonical": "泰範",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_japan",
+        "definition": "空海十大弟子。最澄門下より転派。"
+      }
+    },
+    {
+      "canonical": "緊那羅",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "ujiji": 1,
+        "hizo-houyaku": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_deva",
+        "definition": "八部衆。歌神。",
+        "aliases": [
+          "kiṃnara",
+          "kinnara"
+        ]
+      }
+    },
+    {
+      "canonical": "宋玉",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "sankyo-shiki": 2
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "戦国時代楚の文人。屈原の弟子と伝承。"
+      }
+    },
+    {
+      "canonical": "虚空蔵",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "ujiji": 2,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_buddha_bodhisattva",
+        "definition": "智慧と福徳を司る菩薩。",
+        "aliases": [
+          "虚空蔵菩薩",
+          "ākāśagarbha"
+        ]
+      }
+    },
+    {
+      "canonical": "周公",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "sankyo-shiki"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 3,
+        "sankyo-shiki": 3
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "周王朝の摂政。礼制の整備者。",
+        "aliases": [
+          "周公旦"
+        ]
+      }
+    },
+    {
+      "canonical": "太公望",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "hizo-houyaku": 2
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "周文王・武王の軍師。",
+        "aliases": [
+          "呂尚",
+          "姜尚"
+        ]
+      }
+    },
+    {
+      "canonical": "揚雄",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "sankyo-shiki": 2
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "前漢末の文人・思想家。『太玄経』『法言』。",
+        "aliases": [
+          "楊雄"
+        ]
+      }
+    },
+    {
+      "canonical": "葉公",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "葉公好龍の故事の主人公。"
+      }
+    },
+    {
+      "canonical": "許由",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "上古の隠者。堯の譲位を辞退。"
+      }
+    },
+    {
+      "canonical": "鑑真",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_japan",
+        "definition": "唐より渡来の律僧。日本律宗の祖。",
+        "aliases": [
+          "鑒真"
+        ]
+      }
+    },
+    {
+      "canonical": "湛然",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "hizo-houyaku": 2,
+        "dainichikyo-sho-vol1": 2
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "天台宗中興の祖。妙楽大師。"
+      }
+    },
+    {
+      "canonical": "列子",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "hizo-houyaku": 1
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "戦国時代の道家。『列子』の伝承的著者。"
+      }
+    },
+    {
+      "canonical": "地蔵",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "hizo-houyaku": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_buddha_bodhisattva",
+        "definition": "六道衆生を救済する菩薩。",
+        "aliases": [
+          "地蔵菩薩",
+          "kṣitigarbha"
+        ]
+      }
+    },
+    {
+      "canonical": "玄奘",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hannya-hiken",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "hannya-hiken": 2
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "唐代の訳経僧。西天取経の主役。",
+        "aliases": [
+          "三蔵法師",
+          "玄奘三蔵"
+        ]
+      }
+    },
+    {
+      "canonical": "韓非",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "戦国時代の法家。",
+        "aliases": [
+          "韓非子"
+        ]
+      }
+    },
+    {
+      "canonical": "吉蔵",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 2,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "三論宗の大成者。嘉祥大師。"
+      }
+    },
+    {
+      "canonical": "智泉",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_japan",
+        "definition": "空海十大弟子。"
+      }
+    },
+    {
+      "canonical": "禹",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "夏の始祖。治水の聖王。",
+        "aliases": [
+          "夏禹"
+        ]
+      }
+    },
+    {
+      "canonical": "伯夷",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "殷末の高士。叔斉とともに首陽山で餓死。"
+      }
+    },
+    {
+      "canonical": "優波離",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 3
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_india",
+        "definition": "釈迦十大弟子。持律第一。",
+        "aliases": [
+          "upāli",
+          "Upāli"
+        ]
+      }
+    },
+    {
+      "canonical": "慧可",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "禅宗第二祖。達磨の法嗣。"
+      }
+    },
+    {
+      "canonical": "武王",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "周王朝建国者。",
+        "aliases": [
+          "周武王"
+        ]
+      }
+    },
+    {
+      "canonical": "羅睺羅",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_india",
+        "definition": "釈迦十大弟子。釈迦の実子。密行第一。",
+        "aliases": [
+          "rāhula",
+          "Rāhula"
+        ]
+      }
+    },
+    {
+      "canonical": "郭璞",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "東晋の文人・卜筮家。『遊仙詩』。"
+      }
+    },
+    {
+      "canonical": "龍智",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_india",
+        "definition": "密教付法第四祖。龍樹の弟子。",
+        "aliases": [
+          "nāgabodhi",
+          "Nāgabodhi"
+        ]
+      }
+    },
+    {
+      "canonical": "伯牙",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "伯牙絶弦の故事。鍾子期と知音。"
+      }
+    },
+    {
+      "canonical": "光仁天皇",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "japanese_emperor",
+        "definition": "桓武天皇の父。"
+      }
+    },
+    {
+      "canonical": "勢至",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "buddhist_buddha_bodhisattva",
+        "definition": "阿弥陀三尊の右脇侍。",
+        "aliases": [
+          "勢至菩薩",
+          "mahāsthāmaprāpta"
+        ]
+      }
+    },
+    {
+      "canonical": "司馬相如",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sankyo-shiki"
+      ],
+      "by_corpus": {
+        "sankyo-shiki": 2
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "前漢の文人。賦の名手。"
+      }
+    },
+    {
+      "canonical": "富楼那",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 2
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_india",
+        "definition": "釈迦十大弟子。説法第一。",
+        "aliases": [
+          "pūrṇa",
+          "Pūrṇa"
+        ]
+      }
+    },
+    {
+      "canonical": "屈原",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sankyo-shiki"
+      ],
+      "by_corpus": {
+        "sankyo-shiki": 2
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "戦国時代楚の詩人。『離騒』作者。"
+      }
+    },
+    {
+      "canonical": "巣父",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "上古の隠者。許由と並ぶ高士。"
+      }
+    },
+    {
+      "canonical": "橘逸勢",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "japanese_aristocrat",
+        "definition": "空海とともに入唐。三筆の一人。"
+      }
+    },
+    {
+      "canonical": "真済",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_japan",
+        "definition": "空海十大弟子。性霊集の編者。"
+      }
+    },
+    {
+      "canonical": "聖徳太子",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_japan",
+        "definition": "飛鳥時代の皇族・仏教興隆の祖。"
+      }
+    },
+    {
+      "canonical": "鍾子期",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "伯牙の知音。"
+      }
+    },
+    {
+      "canonical": "陶淵明",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "東晋の隠逸詩人。",
+        "aliases": [
+          "陶潜"
+        ]
+      }
+    },
+    {
+      "canonical": "叔斉",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sankyo-shiki"
+      ],
+      "by_corpus": {
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "subcategory": "chinese_legend",
+        "definition": "殷末の高士。伯夷の弟。"
+      }
+    },
+    {
+      "canonical": "司馬遷",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "前漢の史官。『史記』の著者。"
+      }
+    },
+    {
+      "canonical": "実恵",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_japan",
+        "definition": "空海十大弟子。東寺第二長者。",
+        "aliases": [
+          "檜尾僧都"
+        ]
+      }
+    },
+    {
+      "canonical": "平城天皇",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "subcategory": "japanese_emperor",
+        "definition": "桓武天皇の長男。"
+      }
+    },
+    {
+      "canonical": "張旭",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "唐代の草書家。草聖。"
+      }
+    },
+    {
+      "canonical": "杲隣",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_japan",
+        "definition": "空海十大弟子。",
+        "aliases": [
+          "杲鄰"
+        ]
+      }
+    },
+    {
+      "canonical": "阮籍",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "subcategory": "chinese_classical",
+        "definition": "魏晋の竹林七賢。"
+      }
+    }
+  ]
+}

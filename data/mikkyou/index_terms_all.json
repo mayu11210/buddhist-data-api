@@ -1,0 +1,587 @@
+{
+  "schema_version": "1.0",
+  "category": "terms",
+  "category_description": "密教教学用語（19 語辞書ベース）",
+  "aggregate_type": "cross_corpus",
+  "generated_at": "2026-05-03",
+  "source_corpora": [
+    "shoryoshu_miyasaka",
+    "nikyo-ron",
+    "ujiji",
+    "shoji-jisso",
+    "sokushin-jobutsu",
+    "hannya-hiken",
+    "hizo-houyaku",
+    "dainichikyo-sho-vol1",
+    "sankyo-shiki"
+  ],
+  "corpora_count": 9,
+  "corpora_with_data": 9,
+  "missing_corpora": [],
+  "term_key": "term",
+  "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
+  "summary": {
+    "unique_terms_total": 19,
+    "total_occurrences": 2222,
+    "terms_in_multiple_corpora": 16,
+    "max_corpus_coverage": 9,
+    "by_corpus": {
+      "shoryoshu_miyasaka": {
+        "unique": 19,
+        "occurrences": 544,
+        "present": true
+      },
+      "nikyo-ron": {
+        "unique": 19,
+        "occurrences": 360,
+        "present": true
+      },
+      "ujiji": {
+        "unique": 19,
+        "occurrences": 170,
+        "present": true
+      },
+      "shoji-jisso": {
+        "unique": 19,
+        "occurrences": 136,
+        "present": true
+      },
+      "sokushin-jobutsu": {
+        "unique": 19,
+        "occurrences": 361,
+        "present": true
+      },
+      "hannya-hiken": {
+        "unique": 19,
+        "occurrences": 105,
+        "present": true
+      },
+      "hizo-houyaku": {
+        "unique": 19,
+        "occurrences": 257,
+        "present": true
+      },
+      "dainichikyo-sho-vol1": {
+        "unique": 19,
+        "occurrences": 286,
+        "present": true
+      },
+      "sankyo-shiki": {
+        "unique": 19,
+        "occurrences": 3,
+        "present": true
+      }
+    }
+  },
+  "entries": [
+    {
+      "term": "大日",
+      "total_occurrence_count": 576,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 111,
+        "nikyo-ron": 60,
+        "ujiji": 74,
+        "shoji-jisso": 72,
+        "sokushin-jobutsu": 153,
+        "hannya-hiken": 23,
+        "hizo-houyaku": 62,
+        "dainichikyo-sho-vol1": 21
+      },
+      "metadata": {
+        "sanskrit": "Mahāvairocana",
+        "definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "大",
+          "日"
+        ]
+      }
+    },
+    {
+      "term": "密教",
+      "total_occurrence_count": 373,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 125,
+        "nikyo-ron": 92,
+        "ujiji": 14,
+        "shoji-jisso": 4,
+        "sokushin-jobutsu": 42,
+        "hannya-hiken": 40,
+        "hizo-houyaku": 36,
+        "dainichikyo-sho-vol1": 20
+      },
+      "metadata": {
+        "sanskrit": "guhya-mantra-yāna",
+        "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
+      "term": "真言",
+      "total_occurrence_count": 281,
+      "covered_corpora_count": 9,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 44,
+        "nikyo-ron": 44,
+        "ujiji": 13,
+        "shoji-jisso": 16,
+        "sokushin-jobutsu": 34,
+        "hannya-hiken": 30,
+        "hizo-houyaku": 40,
+        "dainichikyo-sho-vol1": 58,
+        "sankyo-shiki": 2
+      },
+      "metadata": {
+        "sanskrit": "mantra",
+        "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "真",
+          "言"
+        ]
+      }
+    },
+    {
+      "term": "法身",
+      "total_occurrence_count": 270,
+      "covered_corpora_count": 9,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 45,
+        "nikyo-ron": 101,
+        "ujiji": 11,
+        "shoji-jisso": 24,
+        "sokushin-jobutsu": 54,
+        "hannya-hiken": 3,
+        "hizo-houyaku": 25,
+        "dainichikyo-sho-vol1": 6,
+        "sankyo-shiki": 1
+      },
+      "metadata": {
+        "sanskrit": "dharmakāya",
+        "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "法",
+          "身"
+        ]
+      }
+    },
+    {
+      "term": "法界",
+      "total_occurrence_count": 186,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 68,
+        "nikyo-ron": 15,
+        "ujiji": 16,
+        "shoji-jisso": 7,
+        "sokushin-jobutsu": 14,
+        "hannya-hiken": 7,
+        "hizo-houyaku": 25,
+        "dainichikyo-sho-vol1": 34
+      },
+      "metadata": {
+        "sanskrit": "dharma-dhātu",
+        "definition": "宇宙の真実相。一切法の根本領域。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "法",
+          "界"
+        ]
+      }
+    },
+    {
+      "term": "三密",
+      "total_occurrence_count": 101,
+      "covered_corpora_count": 7,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 46,
+        "nikyo-ron": 15,
+        "ujiji": 4,
+        "shoji-jisso": 4,
+        "sokushin-jobutsu": 16,
+        "hizo-houyaku": 4,
+        "dainichikyo-sho-vol1": 12
+      },
+      "metadata": {
+        "sanskrit": "trīṇi guhyāni",
+        "definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "密"
+        ]
+      }
+    },
+    {
+      "term": "遮那",
+      "total_occurrence_count": 98,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 18,
+        "nikyo-ron": 16,
+        "shoji-jisso": 2,
+        "sokushin-jobutsu": 4,
+        "hizo-houyaku": 16,
+        "dainichikyo-sho-vol1": 42
+      },
+      "metadata": {
+        "sanskrit": "Vairocana",
+        "definition": "毘盧遮那の略。大日如来。光明遍照。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "遮",
+          "那"
+        ]
+      }
+    },
+    {
+      "term": "阿字",
+      "total_occurrence_count": 78,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 11,
+        "nikyo-ron": 1,
+        "ujiji": 28,
+        "shoji-jisso": 4,
+        "sokushin-jobutsu": 6,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 14,
+        "dainichikyo-sho-vol1": 13
+      },
+      "metadata": {
+        "sanskrit": "a-kāra",
+        "definition": "密教根本字。梵語五十字門の最初の字。本不生を象徴。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
+      "term": "大悲",
+      "total_occurrence_count": 77,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 26,
+        "nikyo-ron": 2,
+        "ujiji": 2,
+        "hizo-houyaku": 9,
+        "dainichikyo-sho-vol1": 38
+      },
+      "metadata": {
+        "sanskrit": "mahā-karuṇā",
+        "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "大",
+          "悲"
+        ]
+      }
+    },
+    {
+      "term": "即身成仏",
+      "total_occurrence_count": 42,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "nikyo-ron": 4,
+        "shoji-jisso": 2,
+        "sokushin-jobutsu": 13,
+        "hannya-hiken": 1,
+        "dainichikyo-sho-vol1": 15
+      },
+      "metadata": {
+        "sanskrit": "sa-deha-prāpti-buddhatva",
+        "definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "成",
+          "仏"
+        ]
+      }
+    },
+    {
+      "term": "本不生",
+      "total_occurrence_count": 38,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 12,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 5,
+        "hizo-houyaku": 6,
+        "dainichikyo-sho-vol1": 14
+      },
+      "metadata": {
+        "sanskrit": "ādyanutpāda",
+        "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
+      "term": "三摩地",
+      "total_occurrence_count": 32,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "nikyo-ron": 10,
+        "ujiji": 1,
+        "sokushin-jobutsu": 5,
+        "hizo-houyaku": 13
+      },
+      "metadata": {
+        "sanskrit": "samādhi",
+        "definition": "禅定。心を一境に住して散乱を離れた状態。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
+      "term": "心王",
+      "total_occurrence_count": 30,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 9,
+        "sokushin-jobutsu": 8,
+        "hizo-houyaku": 6,
+        "dainichikyo-sho-vol1": 7
+      },
+      "metadata": {
+        "sanskrit": "citta-rāja",
+        "definition": "八識の根本識。心の主体・統括者。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
+      "term": "阿字本不生",
+      "total_occurrence_count": 18,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8,
+        "ujiji": 4,
+        "sokushin-jobutsu": 1,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 4
+      },
+      "metadata": {
+        "sanskrit": "ā-di-an-utpāda",
+        "definition": "密教根本教義。阿字（a-kāra）が本来不生（不滅）であることを観じ、万物の本源を悟る。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
+      "term": "即身",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "sokushin-jobutsu": 6,
+        "dainichikyo-sho-vol1": 2
+      },
+      "metadata": {
+        "sanskrit": "sa-deha",
+        "definition": "即身成仏の略。父母所生の身のまま現生で仏となる。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
+      "term": "玄機",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5
+      },
+      "metadata": {
+        "sanskrit": "—",
+        "definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "玄",
+          "機"
+        ]
+      }
+    },
+    {
+      "term": "大空三昧",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "ujiji": 3
+      },
+      "metadata": {
+        "sanskrit": "mahā-śūnyatā-samādhi",
+        "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
+      "term": "智剣",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4
+      },
+      "metadata": {
+        "sanskrit": "jñāna-khaḍga",
+        "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "智",
+          "剣"
+        ]
+      }
+    },
+    {
+      "term": "無縁慈悲",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "sanskrit": "an-ārambaṇa-karuṇā",
+        "definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "慈",
+          "悲"
+        ]
+      }
+    }
+  ]
+}

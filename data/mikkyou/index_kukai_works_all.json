@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "category": "kukai_works",
+  "category_description": "空海著作・性霊集編纂物（自著言及）",
+  "aggregate_type": "cross_corpus",
+  "generated_at": "2026-05-03",
+  "source_corpora": [
+    "shoryoshu_miyasaka",
+    "nikyo-ron",
+    "ujiji",
+    "shoji-jisso",
+    "sokushin-jobutsu",
+    "hannya-hiken",
+    "hizo-houyaku",
+    "dainichikyo-sho-vol1",
+    "sankyo-shiki"
+  ],
+  "corpora_count": 9,
+  "corpora_with_data": 9,
+  "missing_corpora": [],
+  "term_key": "term",
+  "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
+  "summary": {
+    "unique_terms_total": 12,
+    "total_occurrences": 52,
+    "terms_in_multiple_corpora": 3,
+    "max_corpus_coverage": 4,
+    "by_corpus": {
+      "shoryoshu_miyasaka": {
+        "unique": 5,
+        "occurrences": 5,
+        "present": true
+      },
+      "nikyo-ron": {
+        "unique": 3,
+        "occurrences": 8,
+        "present": true
+      },
+      "ujiji": {
+        "unique": 0,
+        "occurrences": 0,
+        "present": true
+      },
+      "shoji-jisso": {
+        "unique": 1,
+        "occurrences": 2,
+        "present": true
+      },
+      "sokushin-jobutsu": {
+        "unique": 2,
+        "occurrences": 5,
+        "present": true
+      },
+      "hannya-hiken": {
+        "unique": 1,
+        "occurrences": 1,
+        "present": true
+      },
+      "hizo-houyaku": {
+        "unique": 2,
+        "occurrences": 19,
+        "present": true
+      },
+      "dainichikyo-sho-vol1": {
+        "unique": 3,
+        "occurrences": 11,
+        "present": true
+      },
+      "sankyo-shiki": {
+        "unique": 1,
+        "occurrences": 1,
+        "present": true
+      }
+    }
+  },
+  "entries": [
+    {
+      "term": "菩提心論",
+      "total_occurrence_count": 24,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 5,
+        "sokushin-jobutsu": 4,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 14
+      }
+    },
+    {
+      "term": "即身成仏義",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "shoji-jisso"
+      ],
+      "by_corpus": {
+        "shoji-jisso": 2,
+        "dainichikyo-sho-vol1": 5
+      }
+    },
+    {
+      "term": "弁顕密二教論",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "nikyo-ron",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1,
+        "sokushin-jobutsu": 1,
+        "dainichikyo-sho-vol1": 3
+      }
+    },
+    {
+      "term": "十住心論",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hizo-houyaku"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 5
+      }
+    },
+    {
+      "term": "般若心経秘鍵",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 3
+      }
+    },
+    {
+      "term": "秘蔵宝鑰",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 2
+      }
+    },
+    {
+      "term": "三教指帰",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "sankyo-shiki"
+      ],
+      "by_corpus": {
+        "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "古今文字讃",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "古今篆隷の文体",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "大広智の影の讃",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "梵字悉曇字母并びに釈義",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "続性霊集補闕鈔",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1
+      }
+    }
+  ]
+}
