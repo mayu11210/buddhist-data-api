@@ -3,8 +3,8 @@
 """
 横断索引化 G2-E：横断集約ファイル生成
 
-性霊集（list 型）と dict 型 8 著作の per-corpus index ファイル
-（data/mikkyou/index_<corpus>_<category>.json）から、9 著作横断の
+性霊集（list 型）と dict 型 9 著作の per-corpus index ファイル
+（data/mikkyou/index_<corpus>_<category>.json）から、10 著作横断の
 集約 index を生成する。
 
 出力（7 ファイル）：
@@ -38,7 +38,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 MIKKYOU = ROOT / 'data' / 'mikkyou'
 
-# ====== 9 著作（性霊集 + dict 8）======
+# ====== 10 著作（性霊集 + dict 9・2026-05-04 候補 D で bodaishinron 追加）======
 ALL_CORPORA = [
     'shoryoshu_miyasaka',
     'nikyo-ron',
@@ -49,6 +49,7 @@ ALL_CORPORA = [
     'hizo-houyaku',
     'dainichikyo-sho-vol1',
     'sankyo-shiki',
+    'bodaishinron',  # 2026-05-04 追加（候補 D・9 著作目の dict 型）
 ]
 
 

@@ -3,7 +3,7 @@
   "category": "persons",
   "category_description": "人名（仏教祖師・諸尊・諸子百家・天皇・貴族）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-05-03",
+  "generated_at": "2026-05-04",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -13,16 +13,17 @@
     "hannya-hiken",
     "hizo-houyaku",
     "dainichikyo-sho-vol1",
-    "sankyo-shiki"
+    "sankyo-shiki",
+    "bodaishinron"
   ],
-  "corpora_count": 9,
-  "corpora_with_data": 9,
+  "corpora_count": 10,
+  "corpora_with_data": 10,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 88,
-    "total_occurrences": 2413,
+    "total_occurrences": 2434,
     "terms_in_multiple_corpora": 55,
     "max_corpus_coverage": 9,
     "by_corpus": {
@@ -70,15 +71,21 @@
         "unique": 30,
         "occurrences": 82,
         "present": true
+      },
+      "bodaishinron": {
+        "unique": 5,
+        "occurrences": 21,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "canonical": "大日如来",
-      "total_occurrence_count": 689,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 699,
+      "covered_corpora_count": 9,
       "covered_corpora": [
+        "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
@@ -96,7 +103,8 @@
         "sokushin-jobutsu": 157,
         "hannya-hiken": 23,
         "hizo-houyaku": 78,
-        "dainichikyo-sho-vol1": 74
+        "dainichikyo-sho-vol1": 74,
+        "bodaishinron": 10
       },
       "metadata": {
         "subcategory": "buddhist_buddha_bodhisattva",
@@ -212,9 +220,10 @@
     },
     {
       "canonical": "普賢",
-      "total_occurrence_count": 63,
-      "covered_corpora_count": 6,
+      "total_occurrence_count": 69,
+      "covered_corpora_count": 7,
       "covered_corpora": [
+        "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
@@ -228,7 +237,8 @@
         "sokushin-jobutsu": 2,
         "hannya-hiken": 9,
         "hizo-houyaku": 12,
-        "dainichikyo-sho-vol1": 14
+        "dainichikyo-sho-vol1": 14,
+        "bodaishinron": 6
       },
       "metadata": {
         "subcategory": "buddhist_buddha_bodhisattva",
@@ -237,6 +247,44 @@
           "samantabhadra",
           "Samantabhadra"
         ]
+      }
+    },
+    {
+      "canonical": "不空",
+      "total_occurrence_count": 62,
+      "covered_corpora_count": 9,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 32,
+        "nikyo-ron": 12,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 5,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 4,
+        "dainichikyo-sho-vol1": 3,
+        "bodaishinron": 2
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+        "aliases": [
+          "不空三蔵",
+          "大弁正三蔵",
+          "amoghavajra",
+          "Amoghavajra"
+        ],
+        "sanskrit_canonical": "amoghavajra"
       }
     },
     {
@@ -265,42 +313,6 @@
           "Avalokiteśvara"
         ],
         "sanskrit_canonical": "avalokiteśvara"
-      }
-    },
-    {
-      "canonical": "不空",
-      "total_occurrence_count": 60,
-      "covered_corpora_count": 8,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hannya-hiken",
-        "hizo-houyaku",
-        "nikyo-ron",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 32,
-        "nikyo-ron": 12,
-        "ujiji": 2,
-        "shoji-jisso": 1,
-        "sokushin-jobutsu": 5,
-        "hannya-hiken": 1,
-        "hizo-houyaku": 4,
-        "dainichikyo-sho-vol1": 3
-      },
-      "metadata": {
-        "subcategory": "buddhist_master_china",
-        "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
-        "aliases": [
-          "不空三蔵",
-          "大弁正三蔵",
-          "amoghavajra",
-          "Amoghavajra"
-        ],
-        "sanskrit_canonical": "amoghavajra"
       }
     },
     {
@@ -652,6 +664,36 @@
       }
     },
     {
+      "canonical": "金剛智",
+      "total_occurrence_count": 19,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 10,
+        "nikyo-ron": 2,
+        "sokushin-jobutsu": 1,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 4,
+        "bodaishinron": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "密教付法第五祖。金剛界の伝持。",
+        "aliases": [
+          "vajrabodhi",
+          "Vajrabodhi"
+        ],
+        "sanskrit_canonical": "vajrabodhi"
+      }
+    },
+    {
       "canonical": "堯",
       "total_occurrence_count": 19,
       "covered_corpora_count": 3,
@@ -703,31 +745,33 @@
       }
     },
     {
-      "canonical": "金剛智",
-      "total_occurrence_count": 18,
+      "canonical": "阿弥陀",
+      "total_occurrence_count": 17,
       "covered_corpora_count": 5,
       "covered_corpora": [
-        "dainichikyo-sho-vol1",
+        "bodaishinron",
         "hizo-houyaku",
         "nikyo-ron",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 10,
-        "nikyo-ron": 2,
+        "shoryoshu_miyasaka": 11,
+        "nikyo-ron": 1,
         "sokushin-jobutsu": 1,
-        "hizo-houyaku": 1,
-        "dainichikyo-sho-vol1": 4
+        "hizo-houyaku": 2,
+        "bodaishinron": 2
       },
       "metadata": {
-        "subcategory": "buddhist_master_china",
-        "definition": "密教付法第五祖。金剛界の伝持。",
+        "subcategory": "buddhist_buddha_bodhisattva",
+        "definition": "西方極楽浄土の教主。",
         "aliases": [
-          "vajrabodhi",
-          "Vajrabodhi"
+          "阿弥陀如来",
+          "amitābha",
+          "Amitābha",
+          "amitāyus"
         ],
-        "sanskrit_canonical": "vajrabodhi"
+        "sanskrit_canonical": "amitābha"
       }
     },
     {
@@ -808,34 +852,6 @@
           "Śāriputra"
         ],
         "sanskrit_canonical": "śāriputra"
-      }
-    },
-    {
-      "canonical": "阿弥陀",
-      "total_occurrence_count": 15,
-      "covered_corpora_count": 4,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "nikyo-ron",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 11,
-        "nikyo-ron": 1,
-        "sokushin-jobutsu": 1,
-        "hizo-houyaku": 2
-      },
-      "metadata": {
-        "subcategory": "buddhist_buddha_bodhisattva",
-        "definition": "西方極楽浄土の教主。",
-        "aliases": [
-          "阿弥陀如来",
-          "amitābha",
-          "Amitābha",
-          "amitāyus"
-        ],
-        "sanskrit_canonical": "amitābha"
       }
     },
     {

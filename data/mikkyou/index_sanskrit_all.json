@@ -3,7 +3,7 @@
   "category": "sanskrit",
   "category_description": "梵語 IAST",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-05-03",
+  "generated_at": "2026-05-04",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -13,10 +13,11 @@
     "hannya-hiken",
     "hizo-houyaku",
     "dainichikyo-sho-vol1",
-    "sankyo-shiki"
+    "sankyo-shiki",
+    "bodaishinron"
   ],
-  "corpora_count": 9,
-  "corpora_with_data": 9,
+  "corpora_count": 10,
+  "corpora_with_data": 10,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
@@ -67,6 +68,11 @@
         "present": true
       },
       "sankyo-shiki": {
+        "unique": 0,
+        "occurrences": 0,
+        "present": true
+      },
+      "bodaishinron": {
         "unique": 0,
         "occurrences": 0,
         "present": true

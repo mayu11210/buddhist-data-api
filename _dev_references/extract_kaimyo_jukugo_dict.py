@@ -53,6 +53,7 @@ DICT_CORPUS_LIST = [
     'hizo-houyaku.json',
     'dainichikyo-sho-vol1.json',
     'sankyo-shiki.json',
+    'bodaishinron.json',  # 2026-05-04 追加（候補 D・9 著作目）
 ]
 
 # ====== 戒名適合一字辞書（性霊集版と完全同期）======

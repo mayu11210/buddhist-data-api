@@ -3,7 +3,7 @@
   "category": "citations",
   "category_description": "典故書名（『〜』形式・他者著作）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-05-03",
+  "generated_at": "2026-05-04",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -13,18 +13,19 @@
     "hannya-hiken",
     "hizo-houyaku",
     "dainichikyo-sho-vol1",
-    "sankyo-shiki"
+    "sankyo-shiki",
+    "bodaishinron"
   ],
-  "corpora_count": 9,
-  "corpora_with_data": 9,
+  "corpora_count": 10,
+  "corpora_with_data": 10,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 407,
-    "total_occurrences": 1829,
-    "terms_in_multiple_corpora": 62,
-    "max_corpus_coverage": 8,
+    "unique_terms_total": 410,
+    "total_occurrences": 1847,
+    "terms_in_multiple_corpora": 63,
+    "max_corpus_coverage": 9,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 237,
@@ -70,15 +71,21 @@
         "unique": 21,
         "occurrences": 35,
         "present": true
+      },
+      "bodaishinron": {
+        "unique": 10,
+        "occurrences": 18,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "term": "法華経",
-      "total_occurrence_count": 116,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 117,
+      "covered_corpora_count": 9,
       "covered_corpora": [
+        "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
@@ -96,7 +103,8 @@
         "hannya-hiken": 1,
         "hizo-houyaku": 24,
         "dainichikyo-sho-vol1": 6,
-        "sankyo-shiki": 3
+        "sankyo-shiki": 3,
+        "bodaishinron": 1
       }
     },
     {
@@ -118,9 +126,10 @@
     },
     {
       "term": "大日経",
-      "total_occurrence_count": 100,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 105,
+      "covered_corpora_count": 9,
       "covered_corpora": [
+        "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
@@ -138,7 +147,8 @@
         "sokushin-jobutsu": 21,
         "hannya-hiken": 2,
         "hizo-houyaku": 26,
-        "dainichikyo-sho-vol1": 11
+        "dainichikyo-sho-vol1": 11,
+        "bodaishinron": 5
       }
     },
     {
@@ -203,9 +213,10 @@
     },
     {
       "term": "涅槃経",
-      "total_occurrence_count": 58,
-      "covered_corpora_count": 5,
+      "total_occurrence_count": 60,
+      "covered_corpora_count": 6,
       "covered_corpora": [
+        "bodaishinron",
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
         "nikyo-ron",
@@ -217,7 +228,8 @@
         "nikyo-ron": 1,
         "hizo-houyaku": 2,
         "dainichikyo-sho-vol1": 6,
-        "sankyo-shiki": 1
+        "sankyo-shiki": 1,
+        "bodaishinron": 2
       }
     },
     {
@@ -236,23 +248,11 @@
       }
     },
     {
-      "term": "易経",
-      "total_occurrence_count": 35,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 33,
-        "sankyo-shiki": 2
-      }
-    },
-    {
       "term": "華厳経",
-      "total_occurrence_count": 34,
-      "covered_corpora_count": 7,
+      "total_occurrence_count": 37,
+      "covered_corpora_count": 8,
       "covered_corpora": [
+        "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
@@ -268,14 +268,29 @@
         "shoji-jisso": 2,
         "hannya-hiken": 1,
         "hizo-houyaku": 9,
-        "dainichikyo-sho-vol1": 4
+        "dainichikyo-sho-vol1": 4,
+        "bodaishinron": 3
+      }
+    },
+    {
+      "term": "易経",
+      "total_occurrence_count": 35,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 33,
+        "sankyo-shiki": 2
       }
     },
     {
       "term": "大日経疏",
-      "total_occurrence_count": 31,
-      "covered_corpora_count": 6,
+      "total_occurrence_count": 32,
+      "covered_corpora_count": 7,
       "covered_corpora": [
+        "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
@@ -289,7 +304,35 @@
         "shoji-jisso": 2,
         "hannya-hiken": 3,
         "hizo-houyaku": 6,
-        "dainichikyo-sho-vol1": 4
+        "dainichikyo-sho-vol1": 4,
+        "bodaishinron": 1
+      }
+    },
+    {
+      "term": "金剛頂経",
+      "total_occurrence_count": 28,
+      "covered_corpora_count": 9,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "nikyo-ron": 7,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 5,
+        "hannya-hiken": 2,
+        "hizo-houyaku": 3,
+        "dainichikyo-sho-vol1": 1,
+        "bodaishinron": 2
       }
     },
     {
@@ -331,31 +374,6 @@
       "by_corpus": {
         "shoryoshu_miyasaka": 25,
         "hizo-houyaku": 2
-      }
-    },
-    {
-      "term": "金剛頂経",
-      "total_occurrence_count": 26,
-      "covered_corpora_count": 8,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hannya-hiken",
-        "hizo-houyaku",
-        "nikyo-ron",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 5,
-        "nikyo-ron": 7,
-        "ujiji": 2,
-        "shoji-jisso": 1,
-        "sokushin-jobutsu": 5,
-        "hannya-hiken": 2,
-        "hizo-houyaku": 3,
-        "dainichikyo-sho-vol1": 1
       }
     },
     {
@@ -1412,6 +1430,19 @@
       "by_corpus": {
         "nikyo-ron": 1,
         "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "金剛頂一切如来真実摂大乗現証大教王経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "bodaishinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "bodaishinron": 1
       }
     },
     {
@@ -3300,6 +3331,17 @@
       }
     },
     {
+      "term": "摩訶般若波羅蜜多経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "bodaishinron"
+      ],
+      "by_corpus": {
+        "bodaishinron": 1
+      }
+    },
+    {
       "term": "摩訶般若経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3770,6 +3812,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "無量寿観経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "bodaishinron"
+      ],
+      "by_corpus": {
+        "bodaishinron": 1
       }
     },
     {
@@ -4521,17 +4574,6 @@
       }
     },
     {
-      "term": "金剛頂一切如来真実摂大乗現証大教王経",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1
-      }
-    },
-    {
       "term": "金剛頂一切瑜祇経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4606,6 +4648,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "金剛頂瑜伽経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "bodaishinron"
+      ],
+      "by_corpus": {
+        "bodaishinron": 1
       }
     },
     {

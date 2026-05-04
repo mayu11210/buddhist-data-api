@@ -1,0 +1,282 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "bodaishinron.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-04",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 11605,
+  "summary": {
+    "unique_terms": 5,
+    "unique_persons": 5,
+    "total_occurrences": 21,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 3,
+        "occurrences": 18
+      },
+      "buddhist_master_china": {
+        "unique": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日",
+          "count": 6
+        },
+        {
+          "form": "大日如来",
+          "count": 2
+        },
+        {
+          "form": "毘盧遮那",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 10,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "名づける。なぜかというと、曼荼羅になみいる諸尊は、みな中央の大日如来の仏身にほかならないからである。もしある人が、官職を得ようと",
+          "context_position": 519,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "生きとし生けるものの世界そのままが）秘密の荘厳をもつところの大日如来の国土となる。そうすれば、居ながらにしてよくすべての仏の救済",
+          "context_position": 11365,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "それが羯磨部の智慧であるから）また転法輪智と名づける。中央の毘盧遮那仏は法界体性智（真理の世界そのものを本体とする智慧）を成就す",
+          "context_position": 7328,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "の真理の身体をさとり、真理の世界の本体をさとる智慧を得て、大毘盧遮那仏の自性身・受用身・変化身・等流身を成就する。真言行の実践者",
+          "context_position": 10718,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "の存在は捨てさられる。それは、自らの本性がないからである。『大日経』住心品の一節に、「もろもろの存在するものは、相がない、す",
+          "context_position": 4477,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "　だから最無上のさとりを求める心と名づけることができる 　『大日経』住心品に、「（仏の絶対の智慧に喩える大樹を生長させるには",
+          "context_position": 5995,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "のは本来生じたものではない、という意味を表わしている。 　『大日経疏』巻十四によって阿字を解釈すれば、そこには五つの意味がこ",
+          "context_position": 8442,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "賢菩薩のすべての救済の願いとその実践を完成する。 　だから『大日経』成就悉地品には、「このような真実の心は、かつて の仏がす",
+          "context_position": 10071,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "らよろしくこの真理をわきまえて修行すべきである。 　だから『大日経』悉地出現品にいう、「（実践者の）修行のすぐれた成果は、（",
+          "context_position": 10798,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "地が実現し、ここに本尊の身体を完成することができる。だから『大日経』供養次第法に、「もし、真言行の実践者が、財を施すことなど",
+          "context_position": 11058,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 6
+        }
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "さとりを得ることができるのであろうか。それには、あるがままに普賢大菩提心〔普賢菩薩がその徳を司る、人びとが本来具有している清",
+          "context_position": 6252,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "とができるのであろうか。それには、あるがままに普賢大菩提心〔普賢菩薩がその徳を司る、人びとが本来具有している清らかなさとりを",
+          "context_position": 6259,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "　そのわけは、すべての生きとし生けるものは、ことごとく本来、普賢菩薩の心の大いなる菩提を求める心を有しているからである。自分",
+          "context_position": 6792,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "ように堅固な身体を完成する。 　その円かで明るい当体こそが、普賢菩薩の身体であり、またこれは普賢菩薩の心でもある。それは十方",
+          "context_position": 9685,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "その円かで明るい当体こそが、普賢菩薩の身体であり、またこれは普賢菩薩の心でもある。それは十方の諸仏と同じことである。つまり過",
+          "context_position": 9701,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "に現われてくる。そして、これらのいずれもが本尊の身体を得て、普賢菩薩のすべての救済の願いとその実践を完成する。 　だから『大",
+          "context_position": 10040,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "（それが蓮華部の智慧であるから）また蓮華智と名づける。北方の不空成就仏は成所作智（すべての人びとを利益するための実践を完成す",
+          "context_position": 7253,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "すなわち金剛法・金剛利・金剛因・金剛語を四菩薩とする。北方の不空成就仏に四菩薩を摂める。すなわち金剛業・金剛護・金剛牙・金剛",
+          "context_position": 7673,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "阿弥陀",
+      "aliases": [
+        "阿弥陀如来",
+        "amitābha",
+        "Amitābha",
+        "amitāyus"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "西方極楽浄土の教主。",
+      "sanskrit_canonical": "amitābha",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "阿弥陀",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "、（それが宝部の智慧であるから）また灌頂智と名づける。西方の阿弥陀仏は妙観察智（すべての対象をさわりなく観察する智慧）を成就す",
+          "context_position": 7186,
+          "matched_form": "阿弥陀"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "すなわち金剛宝・金剛光・金剛幢・金剛笑を四菩薩とする。西方の阿弥陀仏に四菩薩を摂める。すなわち金剛法・金剛利・金剛因・金剛語を",
+          "context_position": 7630,
+          "matched_form": "阿弥陀"
+        }
+      ]
+    },
+    {
+      "canonical": "金剛智",
+      "aliases": [
+        "vajrabodhi",
+        "Vajrabodhi"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第五祖。金剛界の伝持。",
+      "sanskrit_canonical": "vajrabodhi",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "金剛智",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "し出す智慧）を成就するので、（それが金剛部の智慧であるから）金剛智と名づける。南方の宝生仏は平等性智（すべてのものの平等をさと",
+          "context_position": 7112,
+          "matched_form": "金剛智"
+        }
+      ]
+    }
+  ]
+}

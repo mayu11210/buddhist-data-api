@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "bodaishinron.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-04",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 11605,
+  "summary": {
+    "unique_terms": 0,
+    "unique_canonicals": 0,
+    "total_occurrences": 0,
+    "with_diacritics_count": 0,
+    "ascii_only_count": 0,
+    "multi_form_canonicals": 0
+  },
+  "entries": []
+}

@@ -37,7 +37,7 @@ OUTPUT_DIR = ROOT / 'data' / 'mikkyou'
 
 # ====== dict 型 primary_corpus 著作（manifest と整合）======
 # extract_terms_dict.py の対象（性霊集はリスト型のため別途 extract_terms.py）。
-# 菩提心論は kakikudashi のみで gendaigoyaku 待ちのため対象外。
+# 菩提心論は 2026-05-04 に gendaigoyaku 11,605 字反映完了し、9 著作目として取込。
 DICT_CORPUS_LIST = [
     'nikyo-ron.json',
     'ujiji.json',
@@ -47,6 +47,7 @@ DICT_CORPUS_LIST = [
     'hizo-houyaku.json',
     'dainichikyo-sho-vol1.json',
     'sankyo-shiki.json',
+    'bodaishinron.json',  # 2026-05-04 追加（候補 D・9 著作目）
 ]
 
 # ====== 19 語辞書（extract_terms.py と完全同期）======

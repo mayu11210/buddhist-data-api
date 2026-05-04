@@ -1,0 +1,815 @@
+{
+  "schema_version": "1.2",
+  "category": "戒名向け熟語索引",
+  "source_corpus": "bodaishinron.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-04",
+  "extraction_strategy": "起点 1（密教教学用語の戒名適合 11 語）+ 起点 2（梵語の漢訳対応）+ 起点 3（補注内 2 字漢語熟語のホワイトリスト抽出）",
+  "scoring_rule": "kaimyo_score = freq(log10×12, 上限25) + doctrinal(seed_terms=30 / seed_sanskrit=20 / paren_doctrinal=10) + ichiji(KAIMYO_ICHIJI 含字数 × 8, 上限16) + aesthetic(美字構成・最大4)",
+  "review_policy": "needs_human_review=true の語は kaimyo-app 連携前に専門家校閲を要する",
+  "dictionary_sizes": {
+    "kaimyo_ichiji": 85,
+    "sanskrit_to_kaimyo_jukugo": 51,
+    "doctrinal_2char_whitelist": 151,
+    "kaimyo_noise": 140
+  },
+  "gendaigoyaku_length": 11605,
+  "summary": {
+    "unique_terms": 23,
+    "unique_jukugo": 23,
+    "total_occurrences": 59,
+    "seed_terms_count": 11,
+    "seed_sanskrit_count": 0,
+    "paren_doctrinal_count": 12,
+    "needs_review_count": 10,
+    "matched_jukugo_count": 17
+  },
+  "entries": [
+    {
+      "jukugo": "真言",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "seed_sanskrit": "mantra",
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "kaimyo_score": 62.45,
+      "freq_score": 14.45,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 15,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "となるまでひとときたりとも忘れてはいけないのである。 　ただ真言の教えによってのみ、この身そのままに仏となることができるので",
+          "context_position": 1041,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "な低い教えによるさとりを得させてはいけないのである。いまや、真言行を実践する者は、つぎのことを知らなくてはいけない。すべての",
+          "context_position": 1457,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "りに体得することができるのである」と。 　いわゆる安楽とは、真言行の実践者は、すでにすべての人びとは、究極には成仏するのであ",
+          "context_position": 1780,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "愚かで道理に暗い者であった場合には、無理やりに導くことなく、真言行の実践者は、たくみな手立てをもってさとりの世界にいざなうべ",
+          "context_position": 2045,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "の五官による感覚的欲望〔五欲〕によってつきうごかされている。真言行を実践する者は、それを真実に厭い、捨て去らなければならない",
+          "context_position": 2281,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "を得る、または、天上界に生まれることを最終の目的としている。真言行 の実践者は、彼らのありさまをよくよく観察すべきである。も",
+          "context_position": 2408,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "無余涅槃）におもむくのを究極の目的としているのである。  　真言行の実践者は、まさに（二乗の人びとの執われを）深く観察すべ ",
+          "context_position": 2930,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "めるところの法教の趣旨に順序次第があるからである。 　いま、真言行の実践者は、以上のように観察すべきである。また、衆生界（す",
+          "context_position": 3752,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "ある。  　第三にすぐれた瞑想の境地〔三摩地〕を説くならば、真言行の実践者は、このようにあらゆる教えのなかでもっとも勝れた真",
+          "context_position": 6118,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "薩などの聖者たちを招くのがそれである。二つには語密で、秘密に真言をとなえ、文句を深く完全に明らかにして誤りがないようにするの",
+          "context_position": 9447,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "然、厭い離れるべきであり、これに依ってはいけない。 　いま、真言行の実践者は、すでに人執と法執との二執のさらに上の極めて微細",
+          "context_position": 10450,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "て、大毘盧遮那仏の自性身・受用身・変化身・等流身を成就する。真言行の実践者でまだとさとりを得ない者は、だからよろしくこの真理",
+          "context_position": 10745,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "のさとりをひらかれたのであった」と。 　そこで、およそ、今の真言行の実践者も、もし心を決めて教えのとおりに修行すれば、居なが",
+          "context_position": 10990,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "完成することができる。だから『大日経』供養次第法に、「もし、真言行の実践者が、財を施すことなどによって人々を利益する力がない",
+          "context_position": 11073,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "らを利し他を利益する）功徳を内に包みこんでいるから、もし、（真言行の実践者が）修行して成果を得、さとりの世界を実現するならば",
+          "context_position": 11268,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "智慧",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "智",
+        "慧"
+      ],
+      "kaimyo_score": 42.5,
+      "freq_score": 12.5,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 10,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "ることができる 　『大日経』住心品に、「（仏の絶対の智慧に喩える大樹を生長させるには）菩提を求める心を種子〔因〕とし、大いなる",
+          "context_position": 6005,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "表わしている。まず東方の阿閦仏は大円鏡智（すべてのものの相をありのままに現わし出す智慧）を成就するので、（それが金剛部の智慧であ",
+          "context_position": 7064,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "のままに現わし出す智慧）を成就するので、（それが金剛部の智慧であるから）金剛智と名づける。南方の宝生仏は平等性智",
+          "context_position": 7096,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "金剛智と名づける。南方の宝生仏は平等性智（すべてのものの平等をさとる智慧）を成就するので、（それが宝部の智慧である",
+          "context_position": 7132,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "ものの平等をさとる智慧）を成就するので、（それが宝部の智慧であるから）また灌頂智と名づける。西方の阿弥陀仏は妙",
+          "context_position": 7157,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "頂智と名づける。西方の阿弥陀仏は妙観察智（すべての対象をさわりなく観察する智慧）を成就するので、（それが蓮華部の智慧であ",
+          "context_position": 7195,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "さわりなく観察する智慧）を成就するので、（それが蓮華部の智慧であるから）また蓮華智と名づける。北方の不空成就仏は",
+          "context_position": 7223,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "智と名づける。北方の不空成就仏は成所作智（すべての人びとを利益するための実践を完成する智慧）を成就するので、（それが羯磨部の智慧であ",
+          "context_position": 7263,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "めの実践を完成する智慧）を成就するので、（それが羯磨部の智慧であるから）また転法輪智と名づける。中央の毘盧遮那仏",
+          "context_position": 7297,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "と名づける。中央の毘盧遮那仏は法界体性智（真理の世界そのものを本体とする智慧）を成就するから、それを根本智とする。 　",
+          "context_position": 7339,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "大日",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "seed_sanskrit": "Mahāvairocana",
+      "kaimyo_chars": [
+        "大"
+      ],
+      "kaimyo_score": 49.45,
+      "freq_score": 11.45,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 8,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "名づける。なぜかというと、曼荼羅になみいる諸尊は、みな中央の大日如来の仏身にほかならないからである。もしある人が、官職を得よ",
+          "context_position": 519,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "の存在は捨てさられる。それは、自らの本性がないからである。『大日経』住心品の一節に、「もろもろの存在するものは、相がない、す",
+          "context_position": 4477,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "　だから最無上のさとりを求める心と名づけることができる 　『大日経』住心品に、「（仏の絶対の智慧に喩える大樹を生長させるには",
+          "context_position": 5995,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "のは本来生じたものではない、という意味を表わしている。 　『大日経疏』巻十四によって阿字を解釈すれば、そこには五つの意味がこ",
+          "context_position": 8442,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "賢菩薩のすべての救済の願いとその実践を完成する。 　だから『大日経』成就悉地品には、「このような真実の心は、かつて の仏がす",
+          "context_position": 10071,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "らよろしくこの真理をわきまえて修行すべきである。 　だから『大日経』悉地出現品にいう、「（実践者の）修行のすぐれた成果は、（",
+          "context_position": 10798,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "地が実現し、ここに本尊の身体を完成することができる。だから『大日経』供養次第法に、「もし、真言行の実践者が、財を施すことなど",
+          "context_position": 11058,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "生きとし生けるものの世界そのままが）秘密の荘厳をもつところの大日如来の国土となる。そうすれば、居ながらにしてよくすべての仏の",
+          "context_position": 11365,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "菩提",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 22.14,
+      "freq_score": 10.14,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "い〔行願〕・すぐれた瞑想の境地〔三摩地〕（の三種菩提心）をもって戒めとした。この心を仏となるまで",
+          "context_position": 988,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "れた教えの意義、三にはすぐれた瞑想の境地（という順序によって、菩提を求める心の深い世界を解説してゆこう）。  　初めに、人びとを救うすぐれた行為",
+          "context_position": 1178,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "い。以上のような理由から、十方の諸仏は、（菩提を求める心の）勝れた教えの意義と、（菩提を求める心の）",
+          "context_position": 4809,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "（菩提を求める心の）勝れた教えの意義と、（菩提を求める心の）人びとを救うためのすぐれた行為と願いとを",
+          "context_position": 4829,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "菩提を完成することとの二つは別々ではない（このような二つの心のうち、最初に菩提を求める心を起こすことが困難なのである）。 　自らの救いを得るまえに他の人を救お",
+          "context_position": 5760,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "することができる。 　その菩提を求める心（あるいは菩提の心）を讃嘆していう、 　もし人が仏の智慧を得",
+          "context_position": 11427,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "真理",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "真",
+        "理"
+      ],
+      "kaimyo_score": 35.22,
+      "freq_score": 7.22,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "）の人のうち、声聞は苦・集・滅・道の四諦（四つの真理）の教えに執われ、縁覚は十二因縁（生存を構",
+          "context_position": 2690,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "なえた者こそ、よく真理の輪〔法輪〕を転じ（すなわち真理の教えを説いて）、自らと他者とを利益するはたらきをなすこ",
+          "context_position": 4890,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "と名づける。中央の毘盧遮那仏は法界体性智（真理の世界そのものを本体とする智慧）を成就するから、それを根本智とする。 　",
+          "context_position": 7339,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "三密",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "seed_sanskrit": "trīṇi guhyāni",
+      "kaimyo_chars": [
+        "密"
+      ],
+      "kaimyo_score": 43.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "そ瑜伽（瞑想）の観想をくりかえし実践する人は、まさにつぶさに三密（身・語・意の秘密の三つのはたらき）の行を実践し、五つの相の",
+          "context_position": 9330,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "を順に経て仏身を自己の身の上に完成させるべきである。いわゆる三密とは、一つには身密で、手に印を結んで仏・菩薩などの聖者たちを",
+          "context_position": 9394,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法界",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "宇宙の真実相。一切法の根本領域。",
+      "seed_sanskrit": "dharma-dhātu",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 43.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "の智慧であるから）また転法輪智と名づける。中央の毘盧遮那仏は法界体性智（真理の世界そのものを本体とする智慧）を成就するから、",
+          "context_position": 7334,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "る母である。さらに、その四菩薩を出生した四仏は、中央の究極の法界体性智から流出したものである。 　四方の四仏（如来）にそれぞ",
+          "context_position": 7496,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "遮那",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "seed_sanskrit": "Vairocana",
+      "kaimyo_chars": [],
+      "kaimyo_score": 35.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "が羯磨部の智慧であるから）また転法輪智と名づける。中央の毘盧遮那仏は法界体性智（真理の世界そのものを本体とする智慧）を成就す",
+          "context_position": 7330,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "理の身体をさとり、真理の世界の本体をさとる智慧を得て、大毘盧遮那仏の自性身・受用身・変化身・等流身を成就する。真言行の実践者",
+          "context_position": 10720,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "修行",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 15.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "ることができるのであり、また、菩薩の十地（十の修行段階）という深い境界すら超越するのである。 　",
+          "context_position": 3948,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "』に説くとおりである、「一切義成就菩薩が（長い修行の後に）初めて金剛座に坐し、この上なくすぐれたさ",
+          "context_position": 10884,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "菩薩",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 15.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "起こすことができる。本性が定まっていない（菩薩となる可能性をもっている）人びとであれば、長い時間の限定にかかわり",
+          "context_position": 3233,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "bodaishinron",
+          "context": "らの救いを得るまえに他の人を救おうとする（菩薩の誓いによって）　このゆえに私は最初に菩提を求める心を起",
+          "context_position": 5823,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "本性",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "本",
+        "性"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "・意の六根が空であること〕から無性自性空（実体的自我の存在も、すべての存在するものの構成要素もともに空であるから執著すべきものはなにもないが、そのこともまた自体の本性は空であること）にいたる十六の空の意義を説いている。すべ",
+          "context_position": 7883,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "真如",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "真",
+        "如"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "ぎに、諸仏の慈しみとあわれみは、絶対真理（真如）の世界からそのはたらきが起こったものであ",
+          "context_position": 4306,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "蓮華",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "蓮",
+        "華"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "さわりなく観察する智慧）を成就するので、（それが蓮華部の智慧であるから）また蓮華智と名づける。北方の不空成就仏は",
+          "context_position": 7223,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "金剛",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "金",
+        "剛"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "のままに現わし出す智慧）を成就するので、（それが金剛部の智慧であるから）金剛智と名づける。南方の宝生仏は平等性智",
+          "context_position": 7096,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "如来",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "如"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "智から流出したものである。 　四方の四仏（如来）にそれぞれ四菩薩を摂めている。まず東方の",
+          "context_position": 7520,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "阿字",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "阿"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "よって人々を利益する力がないなら（、ただ（月輪観・阿字観の）法に住してひたすらに菩提を求める心を観察",
+          "context_position": 11111,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "三摩",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 13.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "bodaishinron",
+          "context": "が仏の智慧を得ようとして　菩提を求める心（の三摩地）を体得することができれば 　父母から生ま",
+          "context_position": 11470,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "大悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "seed_sanskrit": "mahā-karuṇā",
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "kaimyo_score": 50.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "無縁慈悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "seed_sanskrit": "an-ārambaṇa-karuṇā",
+      "kaimyo_chars": [
+        "無",
+        "慈",
+        "悲"
+      ],
+      "kaimyo_score": 46.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "法身",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "seed_sanskrit": "dharmakāya",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 40.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "即身成仏",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "seed_sanskrit": "sa-deha-prāpti-buddhatva",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "智剣",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "seed_sanskrit": "jñāna-khaḍga",
+      "kaimyo_chars": [
+        "智"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "玄機",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "seed_sanskrit": "—",
+      "kaimyo_chars": [
+        "玄"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

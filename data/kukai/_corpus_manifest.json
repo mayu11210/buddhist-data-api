@@ -35,13 +35,13 @@
     "genten_present": 8,
     "with_specialty_sections": 4,
     "indexed_corpora": {
-      "terms": 9,
-      "citations": 9,
-      "kukai_works": 9,
-      "sanskrit": 9,
-      "kaimyo_jukugo": 9,
-      "persons": 9,
-      "places": 9
+      "terms": 10,
+      "citations": 10,
+      "kukai_works": 10,
+      "sanskrit": 10,
+      "kaimyo_jukugo": 10,
+      "persons": 10,
+      "places": 10
     }
   },
   "files": [
@@ -66,19 +66,57 @@
         "genten": 3605
       },
       "role_complete": true,
-      "notes": "2026-05-04：kakikudashi+gendaigoyaku+genten 完備（弘大全集六 PDF スクショ 22 枚 OCR 受領・倒置 1 件修正済）。",
+      "notes": "2026-05-04：kakikudashi+gendaigoyaku+genten 完備（弘大全集六 PDF スクショ 22 枚 OCR 受領・倒置 1 件修正済）。同日、候補 D（横断索引化）で 9 著作目として全 7 カテゴリ index 生成。",
       "index_status": {
         "terms": {
           "file": "index_bodaishinron_terms.json",
-          "present": false
+          "present": true,
+          "unique_terms": 19,
+          "total_occurrences": 59,
+          "matched_term_count": 8,
+          "kaimyo_suitable_count": 11
         },
         "citations": {
           "file": "index_bodaishinron_citations.json",
-          "present": false
+          "present": true,
+          "unique_terms": 10,
+          "total_occurrences": 18
         },
         "kukai_works": {
           "file": "index_bodaishinron_kukai_works.json",
-          "present": false
+          "present": true,
+          "unique_terms": 0,
+          "total_occurrences": 0
+        },
+        "sanskrit": {
+          "file": "index_bodaishinron_sanskrit.json",
+          "present": true,
+          "unique_terms": 0,
+          "total_occurrences": 0,
+          "with_diacritics_count": 0,
+          "ascii_only_count": 0
+        },
+        "kaimyo_jukugo": {
+          "file": "index_bodaishinron_kaimyo.json",
+          "present": true,
+          "unique_terms": 23,
+          "total_occurrences": 59,
+          "needs_review_count": 10,
+          "matched_jukugo_count": 17
+        },
+        "persons": {
+          "file": "index_bodaishinron_persons.json",
+          "present": true,
+          "unique_terms": 5,
+          "total_occurrences": 21,
+          "subcategory_count": 0
+        },
+        "places": {
+          "file": "index_bodaishinron_places.json",
+          "present": true,
+          "unique_terms": 5,
+          "total_occurrences": 10,
+          "subcategory_count": 0
         }
       }
     },
@@ -1007,7 +1045,7 @@
     }
   },
   "aggregate_indices": {
-    "description": "G2-E（2026-05-04）：性霊集 + dict 型 8 著作 = 9 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。",
+    "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。",
     "storage_dir": "data/mikkyou/",
     "naming_pattern": "index_<category>_all.json",
     "source_corpora": [
@@ -1019,32 +1057,33 @@
       "hannya-hiken",
       "hizo-houyaku",
       "dainichikyo-sho-vol1",
-      "sankyo-shiki"
+      "sankyo-shiki",
+      "bodaishinron"
     ],
-    "corpora_count": 9,
+    "corpora_count": 10,
     "files": {
       "terms": {
         "file": "index_terms_all.json",
         "present": true,
-        "corpora_with_data": 9,
+        "corpora_with_data": 10,
         "unique_terms_total": 19,
-        "total_occurrences": 2222,
+        "total_occurrences": 2281,
         "terms_in_multiple_corpora": 16,
-        "max_corpus_coverage": 9
+        "max_corpus_coverage": 10
       },
       "citations": {
         "file": "index_citations_all.json",
         "present": true,
-        "corpora_with_data": 9,
-        "unique_terms_total": 407,
-        "total_occurrences": 1829,
-        "terms_in_multiple_corpora": 62,
-        "max_corpus_coverage": 8
+        "corpora_with_data": 10,
+        "unique_terms_total": 410,
+        "total_occurrences": 1847,
+        "terms_in_multiple_corpora": 63,
+        "max_corpus_coverage": 9
       },
       "kukai_works": {
         "file": "index_kukai_works_all.json",
         "present": true,
-        "corpora_with_data": 9,
+        "corpora_with_data": 10,
         "unique_terms_total": 12,
         "total_occurrences": 52,
         "terms_in_multiple_corpora": 3,
@@ -1053,7 +1092,7 @@
       "sanskrit": {
         "file": "index_sanskrit_all.json",
         "present": true,
-        "corpora_with_data": 9,
+        "corpora_with_data": 10,
         "unique_terms_total": 1743,
         "total_occurrences": 2671,
         "terms_in_multiple_corpora": 141,
@@ -1062,29 +1101,29 @@
       "kaimyo_jukugo": {
         "file": "index_kaimyo_jukugo_all.json",
         "present": true,
-        "corpora_with_data": 9,
+        "corpora_with_data": 10,
         "unique_terms_total": 114,
-        "total_occurrences": 4395,
+        "total_occurrences": 4454,
         "terms_in_multiple_corpora": 74,
-        "max_corpus_coverage": 9
+        "max_corpus_coverage": 10
       },
       "persons": {
         "file": "index_persons_all.json",
         "present": true,
-        "corpora_with_data": 9,
+        "corpora_with_data": 10,
         "unique_terms_total": 88,
-        "total_occurrences": 2413,
+        "total_occurrences": 2434,
         "terms_in_multiple_corpora": 55,
         "max_corpus_coverage": 9
       },
       "places": {
         "file": "index_places_all.json",
         "present": true,
-        "corpora_with_data": 9,
+        "corpora_with_data": 10,
         "unique_terms_total": 71,
-        "total_occurrences": 629,
+        "total_occurrences": 639,
         "terms_in_multiple_corpora": 33,
-        "max_corpus_coverage": 7
+        "max_corpus_coverage": 8
       }
     }
   }

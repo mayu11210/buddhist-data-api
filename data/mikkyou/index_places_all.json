@@ -3,7 +3,7 @@
   "category": "places",
   "category_description": "地名（寺院・山・国・王朝・聖地・宇宙論界）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-05-03",
+  "generated_at": "2026-05-04",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -13,18 +13,19 @@
     "hannya-hiken",
     "hizo-houyaku",
     "dainichikyo-sho-vol1",
-    "sankyo-shiki"
+    "sankyo-shiki",
+    "bodaishinron"
   ],
-  "corpora_count": 9,
-  "corpora_with_data": 9,
+  "corpora_count": 10,
+  "corpora_with_data": 10,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 71,
-    "total_occurrences": 629,
+    "total_occurrences": 639,
     "terms_in_multiple_corpora": 33,
-    "max_corpus_coverage": 7,
+    "max_corpus_coverage": 8,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -70,6 +71,11 @@
         "unique": 21,
         "occurrences": 50,
         "present": true
+      },
+      "bodaishinron": {
+        "unique": 5,
+        "occurrences": 10,
+        "present": true
       }
     }
   },
@@ -103,6 +109,40 @@
       }
     },
     {
+      "canonical": "須弥山",
+      "total_occurrence_count": 30,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 15,
+        "nikyo-ron": 1,
+        "ujiji": 2,
+        "sokushin-jobutsu": 1,
+        "hizo-houyaku": 5,
+        "dainichikyo-sho-vol1": 4,
+        "sankyo-shiki": 1,
+        "bodaishinron": 1
+      },
+      "metadata": {
+        "subcategory": "mountain_buddhist",
+        "definition": "仏教世界観の中心の山。",
+        "aliases": [
+          "須弥",
+          "sumeru",
+          "meru"
+        ]
+      }
+    },
+    {
       "canonical": "漢",
       "total_occurrence_count": 30,
       "covered_corpora_count": 3,
@@ -119,38 +159,6 @@
       "metadata": {
         "subcategory": "country_dynasty",
         "definition": "中国王朝。前漢・後漢。"
-      }
-    },
-    {
-      "canonical": "須弥山",
-      "total_occurrence_count": 29,
-      "covered_corpora_count": 7,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "nikyo-ron",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 15,
-        "nikyo-ron": 1,
-        "ujiji": 2,
-        "sokushin-jobutsu": 1,
-        "hizo-houyaku": 5,
-        "dainichikyo-sho-vol1": 4,
-        "sankyo-shiki": 1
-      },
-      "metadata": {
-        "subcategory": "mountain_buddhist",
-        "definition": "仏教世界観の中心の山。",
-        "aliases": [
-          "須弥",
-          "sumeru",
-          "meru"
-        ]
       }
     },
     {
@@ -177,6 +185,64 @@
       }
     },
     {
+      "canonical": "色界",
+      "total_occurrence_count": 26,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "nikyo-ron": 1,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 4,
+        "hizo-houyaku": 6,
+        "dainichikyo-sho-vol1": 5,
+        "bodaishinron": 2
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "三界の中。色身があるが欲望のない世界。"
+      }
+    },
+    {
+      "canonical": "無色界",
+      "total_occurrence_count": 25,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8,
+        "nikyo-ron": 1,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 2,
+        "hizo-houyaku": 5,
+        "dainichikyo-sho-vol1": 4,
+        "bodaishinron": 2
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "三界の最上。色身のない世界。"
+      }
+    },
+    {
       "canonical": "殷",
       "total_occurrence_count": 25,
       "covered_corpora_count": 3,
@@ -199,13 +265,13 @@
       }
     },
     {
-      "canonical": "色界",
-      "total_occurrence_count": 24,
+      "canonical": "欲界",
+      "total_occurrence_count": 22,
       "covered_corpora_count": 7,
       "covered_corpora": [
+        "bodaishinron",
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
-        "nikyo-ron",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
@@ -213,43 +279,44 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 5,
-        "nikyo-ron": 1,
         "ujiji": 2,
         "shoji-jisso": 1,
-        "sokushin-jobutsu": 4,
-        "hizo-houyaku": 6,
-        "dainichikyo-sho-vol1": 5
+        "sokushin-jobutsu": 3,
+        "hizo-houyaku": 5,
+        "dainichikyo-sho-vol1": 4,
+        "bodaishinron": 2
       },
       "metadata": {
         "subcategory": "cosmological_realm",
-        "definition": "三界の中。色身があるが欲望のない世界。"
+        "definition": "三界の最下。欲望が支配する世界。"
       }
     },
     {
-      "canonical": "無色界",
-      "total_occurrence_count": 23,
-      "covered_corpora_count": 7,
+      "canonical": "安楽",
+      "total_occurrence_count": 22,
+      "covered_corpora_count": 6,
       "covered_corpora": [
+        "bodaishinron",
         "dainichikyo-sho-vol1",
+        "hannya-hiken",
         "hizo-houyaku",
-        "nikyo-ron",
-        "shoji-jisso",
         "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji"
+        "sokushin-jobutsu"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 8,
-        "nikyo-ron": 1,
-        "ujiji": 2,
-        "shoji-jisso": 1,
+        "shoryoshu_miyasaka": 7,
         "sokushin-jobutsu": 2,
-        "hizo-houyaku": 5,
-        "dainichikyo-sho-vol1": 4
+        "hannya-hiken": 1,
+        "hizo-houyaku": 8,
+        "dainichikyo-sho-vol1": 1,
+        "bodaishinron": 3
       },
       "metadata": {
         "subcategory": "cosmological_realm",
-        "definition": "三界の最上。色身のない世界。"
+        "definition": "極楽浄土の異称。",
+        "aliases": [
+          "安楽国"
+        ]
       }
     },
     {
@@ -265,57 +332,6 @@
       "metadata": {
         "subcategory": "capital_china",
         "definition": "唐の都。陝西省西安。"
-      }
-    },
-    {
-      "canonical": "欲界",
-      "total_occurrence_count": 20,
-      "covered_corpora_count": 6,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 5,
-        "ujiji": 2,
-        "shoji-jisso": 1,
-        "sokushin-jobutsu": 3,
-        "hizo-houyaku": 5,
-        "dainichikyo-sho-vol1": 4
-      },
-      "metadata": {
-        "subcategory": "cosmological_realm",
-        "definition": "三界の最下。欲望が支配する世界。"
-      }
-    },
-    {
-      "canonical": "安楽",
-      "total_occurrence_count": 19,
-      "covered_corpora_count": 5,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hannya-hiken",
-        "hizo-houyaku",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "sokushin-jobutsu": 2,
-        "hannya-hiken": 1,
-        "hizo-houyaku": 8,
-        "dainichikyo-sho-vol1": 1
-      },
-      "metadata": {
-        "subcategory": "cosmological_realm",
-        "definition": "極楽浄土の異称。",
-        "aliases": [
-          "安楽国"
-        ]
       }
     },
     {
