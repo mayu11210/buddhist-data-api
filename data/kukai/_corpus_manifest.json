@@ -29,9 +29,9 @@
       "specialty_meta": 1,
       "excerpt_stub": 6
     },
-    "role_complete_files": 10,
+    "role_complete_files": 11,
     "kakikudashi_present": 10,
-    "gendaigoyaku_present": 9,
+    "gendaigoyaku_present": 10,
     "genten_present": 8,
     "with_specialty_sections": 4,
     "indexed_corpora": {
@@ -55,18 +55,18 @@
       "data_status": {
         "kaimyo_excerpt": true,
         "kakikudashi": true,
-        "gendaigoyaku": false,
+        "gendaigoyaku": true,
         "genten": true,
         "specialty_sections": []
       },
       "char_counts": {
         "text": 449,
         "kakikudashi": 5951,
-        "gendaigoyaku": 0,
+        "gendaigoyaku": 11605,
         "genten": 3605
       },
-      "role_complete": false,
-      "notes": "2026-05-03：kakikudashi+genten 完備、gendaigoyaku は docx 提供待ち（候補 A 半完了）。",
+      "role_complete": true,
+      "notes": "2026-05-04：kakikudashi+gendaigoyaku+genten 完備（弘大全集六 PDF スクショ 22 枚 OCR 受領・倒置 1 件修正済）。",
       "index_status": {
         "terms": {
           "file": "index_bodaishinron_terms.json",
