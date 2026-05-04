@@ -17,6 +17,13 @@ node_modules/
 
 # .bat スクリプト（リポジトリ直下の作業用ツール）
 /*.bat
+# ただし以下のヘルパー bat は git 管理対象（2026-05-04 追加）
+# commit_push.bat：メイン commit/push 運用ヘルパー
+# commit_push_minimal.bat：phantom deletion 退避用 minimal stage 版
+# fix_index_force.bat：.git/index 強制再構築用
+!/commit_push.bat
+!/commit_push_minimal.bat
+!/fix_index_force.bat
 
 # コミットメッセージ（毎回書き換える一時ファイル）
 /commit_message*.txt
