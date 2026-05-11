@@ -198,6 +198,24 @@ retrofit 7 で +1,202 bytes〔2,589,594 → 2,590,796 bytes〕。retrofit 6〔+1
 
 本 retrofit では新規ファイル追加〔outputs 配下のスクリプト 3 件・バックアップ 3 件・引き継ぎメモ 1 件〕と既存ファイル更新〔motifs.json・CLAUDE.md・motifs_index_design.md〕のみで、削除はなし。commit_push.bat の Step 4.5 SAFETY CHECK〔deleted 検出 → 中止ガード〕は発動しない見込み。
 
+### (d-9) commit_message.txt 更新漏れと訂正コミットの経緯
+
+retrofit 7 の本体 commit〔`2d0d728`〕の commit message が、retrofit 6 の commit_message.txt の内容〔「retrofit 6 完走：大日経三句法門連動 retrofit〔新規 sg07 + 連動 anchor m713〕」〕のまま push された。Phase D で commit_message.txt を retrofit 7 用に書き換える手順を組み込んでいなかったことが原因。
+
+経緯：
+
+- 2d0d728：実体は retrofit 7 の変更〔handoff_2026-05-11_retrofit7_complete.md・outputs/CLAUDE_md_backup_pre_retrofit7.md・motifs_index_design_backup_pre_retrofit7.md・retrofit 7 適用後の motifs.json/CLAUDE.md/motifs_index_design.md〕を含むが、commit message が retrofit 6 のもの。データ整合性は問題なし。
+- ケンシン裁定で選択肢 A〔追加 commit で訂正メモを残す〕を採用。履歴改変〔amend + force push〕は回避。
+- 訂正コミット：commit_message.txt を「[訂正] retrofit 7 完走：般若心経 色即是空連動 retrofit〔前 commit 2d0d728 のメッセージ誤り訂正・実体は retrofit 7〕」で書き換え、本 handoff §(d-9) を追記して push。
+
+再発防止策（次セッション以降のケンシン判断に委ねる選択肢）：
+
+- CLAUDE.md の retrofit セッション運用手順 Phase D に「commit_message.txt を当該 retrofit 用に書き換える」を必須項目として明文化
+- commit_push.bat の Step 5 で commit_message.txt の冒頭行が「今回作業の内容」と整合しているか軽い目視確認を実施
+- handoff 作成時のテンプレに「commit_message.txt 更新確認」のチェック項目を追加
+
+本訂正コミットで git log の見た目上の不整合を明示的に解消した。retrofit 8 以降では Phase D の commit_message.txt 更新を必須化する。
+
 ---
 
 ## 関連リンク
