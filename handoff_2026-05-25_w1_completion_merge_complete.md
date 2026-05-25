@@ -125,13 +125,15 @@ sw158 の核心句整合性〔sw148/sw154 と揃えるか否か〕は schema 0.3
 
 ## (c) 残作業〔次セッション以降〕
 
-### 選択肢 A：W1 buddhist-shoryoshu-workshop repo の凍結 ★最優先
+### 選択肢 A：W1 buddhist-shoryoshu-workshop repo の凍結 ★完了〔2026-05-25〕
 
 workshop_protocol §10(5) に従い、本マージで役割を完了した W1 repo を凍結する：
 
 - (a) GitHub.com 上で `mayu11210/buddhist-shoryoshu-workshop` を archive（read-only）化。
 - (b) ローカル `C:\Users\user\buddhist-shoryoshu-workshop\` は保全（消去しない）。R12〜R66 のラウンド履歴・引き継ぎメモ群は参照可能なまま残す。
 - (c) 再開する場合は新 workshop を立ち上げる方針〔§10(5)〕。
+
+**【2026-05-25 完了】** GitHub.com 上で `mayu11210/buddhist-shoryoshu-workshop` の archive（read-only）化を実施・完了。リポジトリページに「このリポジトリは、2026年5月25日に所有者によってアーカイブされました。現在は読み取り専用です。」のバナー表示を確認済。ローカル `C:\Users\user\buddhist-shoryoshu-workshop\` は無改変で保全。再開時は新 workshop を立ち上げる方針を維持。本選択肢 A はクローズ。残作業は選択肢 B〔retrofit 28 以降〕／C〔kaimyo-app 連携〕。
 
 ### 選択肢 B：本体側 retrofit セッションの継続
 
@@ -217,4 +219,4 @@ sw124〜sw1553（1430 件）を本体 m745〜m2174 として統合。本体は t
 
 ---
 
-最終更新：2026-05-25〔Phase 4 W1 完走マージセッション完了・W1 buddhist-shoryoshu-workshop（性霊集 残篇）の sw124〜sw1553 1430 件を本体 m745〜m2174 に統合・本体 total_motifs 2200 達成・整合性検証 Phase B 全 pass ＋ 独立再検証 全 pass・schema 0.2 維持・性霊集 全 112 篇 motif 抽出完了〕
+最終更新：2026-05-25〔Phase 4 W1 完走マージセッション完了・W1 buddhist-shoryoshu-workshop（性霊集 残篇）の sw124〜sw1553 1430 件を本体 m745〜m2174 に統合・本体 total_motifs 2200 達成・整合性検証 Phase B 全 pass ＋ 独立再検証 全 pass・schema 0.2 維持・性霊集 全 112 篇 motif 抽出完了〕／追記 2026-05-25：選択肢 A〔W1 repo 凍結〕完了 — GitHub 上で buddhist-shoryoshu-workshop を archive 化済・ローカル repo は無改変で保全・本選択肢 A クローズ。
