@@ -3,7 +3,7 @@
   "category": "sanskrit",
   "category_description": "梵語 IAST",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-05-04",
+  "generated_at": "2026-05-31",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -14,16 +14,17 @@
     "hizo-houyaku",
     "dainichikyo-sho-vol1",
     "sankyo-shiki",
-    "bodaishinron"
+    "bodaishinron",
+    "jujushinron"
   ],
-  "corpora_count": 10,
-  "corpora_with_data": 10,
+  "corpora_count": 11,
+  "corpora_with_data": 11,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 1743,
-    "total_occurrences": 2671,
+    "total_occurrences": 2672,
     "terms_in_multiple_corpora": 141,
     "max_corpus_coverage": 4,
     "by_corpus": {
@@ -75,6 +76,11 @@
       "bodaishinron": {
         "unique": 0,
         "occurrences": 0,
+        "present": true
+      },
+      "jujushinron": {
+        "unique": 1,
+        "occurrences": 1,
         "present": true
       }
     }
@@ -879,6 +885,24 @@
       }
     },
     {
+      "canonical": "dhyāna",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "dainichikyo-sho-vol1": 3,
+        "jujushinron": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
       "canonical": "dāna",
       "total_occurrence_count": 5,
       "covered_corpora_count": 3,
@@ -1208,22 +1232,6 @@
       },
       "metadata": {
         "has_diacritics": false
-      }
-    },
-    {
-      "canonical": "dhyāna",
-      "total_occurrence_count": 4,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "dainichikyo-sho-vol1": 3
-      },
-      "metadata": {
-        "has_diacritics": true
       }
     },
     {

@@ -3,7 +3,7 @@
   "category": "terms",
   "category_description": "密教教学用語（19 語辞書ベース）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-05-04",
+  "generated_at": "2026-05-31",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -14,18 +14,19 @@
     "hizo-houyaku",
     "dainichikyo-sho-vol1",
     "sankyo-shiki",
-    "bodaishinron"
+    "bodaishinron",
+    "jujushinron"
   ],
-  "corpora_count": 10,
-  "corpora_with_data": 10,
+  "corpora_count": 11,
+  "corpora_with_data": 11,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 19,
-    "total_occurrences": 2281,
+    "total_occurrences": 2820,
     "terms_in_multiple_corpora": 16,
-    "max_corpus_coverage": 10,
+    "max_corpus_coverage": 11,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 19,
@@ -76,19 +77,25 @@
         "unique": 19,
         "occurrences": 59,
         "present": true
+      },
+      "jujushinron": {
+        "unique": 19,
+        "occurrences": 539,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "term": "大日",
-      "total_occurrence_count": 584,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 666,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
         "shoryoshu_miyasaka",
@@ -104,7 +111,8 @@
         "hannya-hiken": 23,
         "hizo-houyaku": 62,
         "dainichikyo-sho-vol1": 21,
-        "bodaishinron": 8
+        "bodaishinron": 8,
+        "jujushinron": 82
       },
       "metadata": {
         "sanskrit": "Mahāvairocana",
@@ -117,46 +125,15 @@
       }
     },
     {
-      "term": "密教",
-      "total_occurrence_count": 379,
-      "covered_corpora_count": 9,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "hannya-hiken",
-        "hizo-houyaku",
-        "nikyo-ron",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 125,
-        "nikyo-ron": 92,
-        "ujiji": 14,
-        "shoji-jisso": 4,
-        "sokushin-jobutsu": 42,
-        "hannya-hiken": 40,
-        "hizo-houyaku": 36,
-        "dainichikyo-sho-vol1": 20,
-        "bodaishinron": 6
-      },
-      "metadata": {
-        "sanskrit": "guhya-mantra-yāna",
-        "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
-        "kaimyo_suitable": false
-      }
-    },
-    {
       "term": "真言",
-      "total_occurrence_count": 296,
-      "covered_corpora_count": 10,
+      "total_occurrence_count": 454,
+      "covered_corpora_count": 11,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "sankyo-shiki",
         "shoji-jisso",
@@ -174,7 +151,8 @@
         "hizo-houyaku": 40,
         "dainichikyo-sho-vol1": 58,
         "sankyo-shiki": 2,
-        "bodaishinron": 15
+        "bodaishinron": 15,
+        "jujushinron": 158
       },
       "metadata": {
         "sanskrit": "mantra",
@@ -187,13 +165,48 @@
       }
     },
     {
+      "term": "密教",
+      "total_occurrence_count": 398,
+      "covered_corpora_count": 10,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "jujushinron",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 125,
+        "nikyo-ron": 92,
+        "ujiji": 14,
+        "shoji-jisso": 4,
+        "sokushin-jobutsu": 42,
+        "hannya-hiken": 40,
+        "hizo-houyaku": 36,
+        "dainichikyo-sho-vol1": 20,
+        "bodaishinron": 6,
+        "jujushinron": 19
+      },
+      "metadata": {
+        "sanskrit": "guhya-mantra-yāna",
+        "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
       "term": "法身",
-      "total_occurrence_count": 270,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 316,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "sankyo-shiki",
         "shoji-jisso",
@@ -210,7 +223,8 @@
         "hannya-hiken": 3,
         "hizo-houyaku": 25,
         "dainichikyo-sho-vol1": 6,
-        "sankyo-shiki": 1
+        "sankyo-shiki": 1,
+        "jujushinron": 46
       },
       "metadata": {
         "sanskrit": "dharmakāya",
@@ -224,13 +238,14 @@
     },
     {
       "term": "法界",
-      "total_occurrence_count": 188,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 277,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
         "shoryoshu_miyasaka",
@@ -246,7 +261,8 @@
         "hannya-hiken": 7,
         "hizo-houyaku": 25,
         "dainichikyo-sho-vol1": 34,
-        "bodaishinron": 2
+        "bodaishinron": 2,
+        "jujushinron": 89
       },
       "metadata": {
         "sanskrit": "dharma-dhātu",
@@ -259,13 +275,48 @@
       }
     },
     {
-      "term": "三密",
-      "total_occurrence_count": 103,
+      "term": "遮那",
+      "total_occurrence_count": 130,
       "covered_corpora_count": 8,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
+        "jujushinron",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 18,
+        "nikyo-ron": 16,
+        "shoji-jisso": 2,
+        "sokushin-jobutsu": 4,
+        "hizo-houyaku": 16,
+        "dainichikyo-sho-vol1": 42,
+        "bodaishinron": 2,
+        "jujushinron": 30
+      },
+      "metadata": {
+        "sanskrit": "Vairocana",
+        "definition": "毘盧遮那の略。大日如来。光明遍照。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "遮",
+          "那"
+        ]
+      }
+    },
+    {
+      "term": "三密",
+      "total_occurrence_count": 119,
+      "covered_corpora_count": 9,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
         "shoryoshu_miyasaka",
@@ -280,7 +331,8 @@
         "sokushin-jobutsu": 16,
         "hizo-houyaku": 4,
         "dainichikyo-sho-vol1": 12,
-        "bodaishinron": 2
+        "bodaishinron": 2,
+        "jujushinron": 16
       },
       "metadata": {
         "sanskrit": "trīṇi guhyāni",
@@ -292,46 +344,45 @@
       }
     },
     {
-      "term": "遮那",
-      "total_occurrence_count": 100,
-      "covered_corpora_count": 7,
+      "term": "大悲",
+      "total_occurrence_count": 103,
+      "covered_corpora_count": 6,
       "covered_corpora": [
-        "bodaishinron",
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
-        "shoji-jisso",
         "shoryoshu_miyasaka",
-        "sokushin-jobutsu"
+        "ujiji"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 18,
-        "nikyo-ron": 16,
-        "shoji-jisso": 2,
-        "sokushin-jobutsu": 4,
-        "hizo-houyaku": 16,
-        "dainichikyo-sho-vol1": 42,
-        "bodaishinron": 2
+        "shoryoshu_miyasaka": 26,
+        "nikyo-ron": 2,
+        "ujiji": 2,
+        "hizo-houyaku": 9,
+        "dainichikyo-sho-vol1": 38,
+        "jujushinron": 26
       },
       "metadata": {
-        "sanskrit": "Vairocana",
-        "definition": "毘盧遮那の略。大日如来。光明遍照。",
+        "sanskrit": "mahā-karuṇā",
+        "definition": "仏の大いなる慈悲。一切衆生を救う心。",
         "kaimyo_suitable": true,
         "kaimyo_chars": [
-          "遮",
-          "那"
+          "大",
+          "悲"
         ]
       }
     },
     {
       "term": "阿字",
-      "total_occurrence_count": 92,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 100,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
         "shoryoshu_miyasaka",
@@ -347,7 +398,8 @@
         "hannya-hiken": 1,
         "hizo-houyaku": 14,
         "dainichikyo-sho-vol1": 13,
-        "bodaishinron": 14
+        "bodaishinron": 14,
+        "jujushinron": 8
       },
       "metadata": {
         "sanskrit": "a-kāra",
@@ -356,40 +408,13 @@
       }
     },
     {
-      "term": "大悲",
-      "total_occurrence_count": 77,
-      "covered_corpora_count": 5,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "nikyo-ron",
-        "shoryoshu_miyasaka",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 26,
-        "nikyo-ron": 2,
-        "ujiji": 2,
-        "hizo-houyaku": 9,
-        "dainichikyo-sho-vol1": 38
-      },
-      "metadata": {
-        "sanskrit": "mahā-karuṇā",
-        "definition": "仏の大いなる慈悲。一切衆生を救う心。",
-        "kaimyo_suitable": true,
-        "kaimyo_chars": [
-          "大",
-          "悲"
-        ]
-      }
-    },
-    {
       "term": "三摩地",
-      "total_occurrence_count": 42,
-      "covered_corpora_count": 6,
+      "total_occurrence_count": 76,
+      "covered_corpora_count": 7,
       "covered_corpora": [
         "bodaishinron",
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
@@ -401,11 +426,62 @@
         "ujiji": 1,
         "sokushin-jobutsu": 5,
         "hizo-houyaku": 13,
-        "bodaishinron": 10
+        "bodaishinron": 10,
+        "jujushinron": 34
       },
       "metadata": {
         "sanskrit": "samādhi",
         "definition": "禅定。心を一境に住して散乱を離れた状態。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
+      "term": "本不生",
+      "total_occurrence_count": 49,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "jujushinron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 12,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 5,
+        "hizo-houyaku": 6,
+        "dainichikyo-sho-vol1": 14,
+        "jujushinron": 11
+      },
+      "metadata": {
+        "sanskrit": "ādyanutpāda",
+        "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
+      "term": "心王",
+      "total_occurrence_count": 48,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "jujushinron",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 9,
+        "sokushin-jobutsu": 8,
+        "hizo-houyaku": 6,
+        "dainichikyo-sho-vol1": 7,
+        "jujushinron": 18
+      },
+      "metadata": {
+        "sanskrit": "citta-rāja",
+        "definition": "八識の根本識。心の主体・統括者。",
         "kaimyo_suitable": false
       }
     },
@@ -440,58 +516,13 @@
       }
     },
     {
-      "term": "本不生",
-      "total_occurrence_count": 38,
-      "covered_corpora_count": 5,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 12,
-        "shoji-jisso": 1,
-        "sokushin-jobutsu": 5,
-        "hizo-houyaku": 6,
-        "dainichikyo-sho-vol1": 14
-      },
-      "metadata": {
-        "sanskrit": "ādyanutpāda",
-        "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
-        "kaimyo_suitable": false
-      }
-    },
-    {
-      "term": "心王",
-      "total_occurrence_count": 30,
-      "covered_corpora_count": 4,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 9,
-        "sokushin-jobutsu": 8,
-        "hizo-houyaku": 6,
-        "dainichikyo-sho-vol1": 7
-      },
-      "metadata": {
-        "sanskrit": "citta-rāja",
-        "definition": "八識の根本識。心の主体・統括者。",
-        "kaimyo_suitable": false
-      }
-    },
-    {
       "term": "阿字本不生",
-      "total_occurrence_count": 18,
-      "covered_corpora_count": 5,
+      "total_occurrence_count": 19,
+      "covered_corpora_count": 6,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
+        "jujushinron",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
         "ujiji"
@@ -501,7 +532,8 @@
         "ujiji": 4,
         "sokushin-jobutsu": 1,
         "hizo-houyaku": 1,
-        "dainichikyo-sho-vol1": 4
+        "dainichikyo-sho-vol1": 4,
+        "jujushinron": 1
       },
       "metadata": {
         "sanskrit": "ā-di-an-utpāda",
@@ -528,6 +560,26 @@
       }
     },
     {
+      "term": "大空三昧",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "jujushinron",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "ujiji": 3,
+        "jujushinron": 1
+      },
+      "metadata": {
+        "sanskrit": "mahā-śūnyatā-samādhi",
+        "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
       "term": "玄機",
       "total_occurrence_count": 5,
       "covered_corpora_count": 1,
@@ -545,24 +597,6 @@
           "玄",
           "機"
         ]
-      }
-    },
-    {
-      "term": "大空三昧",
-      "total_occurrence_count": 4,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "shoryoshu_miyasaka",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "ujiji": 3
-      },
-      "metadata": {
-        "sanskrit": "mahā-śūnyatā-samādhi",
-        "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
-        "kaimyo_suitable": false
       }
     },
     {

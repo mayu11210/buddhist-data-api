@@ -1,0 +1,4058 @@
+{
+  "schema_version": "1.2",
+  "category": "戒名向け熟語索引",
+  "source_corpus": "jujushinron.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-31",
+  "extraction_strategy": "起点 1（密教教学用語の戒名適合 11 語）+ 起点 2（梵語の漢訳対応）+ 起点 3（補注内 2 字漢語熟語のホワイトリスト抽出）",
+  "scoring_rule": "kaimyo_score = freq(log10×12, 上限25) + doctrinal(seed_terms=30 / seed_sanskrit=20 / paren_doctrinal=10) + ichiji(KAIMYO_ICHIJI 含字数 × 8, 上限16) + aesthetic(美字構成・最大4)",
+  "review_policy": "needs_human_review=true の語は kaimyo-app 連携前に専門家校閲を要する",
+  "dictionary_sizes": {
+    "kaimyo_ichiji": 85,
+    "sanskrit_to_kaimyo_jukugo": 51,
+    "doctrinal_2char_whitelist": 151,
+    "kaimyo_noise": 140
+  },
+  "gendaigoyaku_length": 292975,
+  "summary": {
+    "unique_terms": 38,
+    "unique_jukugo": 38,
+    "total_occurrences": 552,
+    "seed_terms_count": 11,
+    "seed_sanskrit_count": 1,
+    "paren_doctrinal_count": 26,
+    "needs_review_count": 23,
+    "matched_jukugo_count": 34
+  },
+  "entries": [
+    {
+      "jukugo": "真言",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "seed_sanskrit": "mantra",
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "kaimyo_score": 73.0,
+      "freq_score": 25.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 158,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "性と、舸遮吒多婆懋（カ・シャ・タ・タ・バ・マ／智慧を表す六字真言）の慧（え）と、咿汙哩嚧翳（イ・ウ・リ・ロ・エ／等持を表す五",
+          "context_position": 111,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の慧（え）と、咿汙哩嚧翳（イ・ウ・リ・ロ・エ／等持を表す五字真言）の等持（とうじ／三摩地）と、制体（さい／帝釈杵）・幢（はた",
+          "context_position": 144,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "・アビダルマ）と般若（般若波羅蜜・智慧の蔵）と総持（陀羅尼・真言）等の蔵である。かくのごとくの五蔵は、譬えば牛から得らるる五",
+          "context_position": 1263,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "）とがこれである。醍醐が一切の病を治するごとく、総持（陀羅尼真言）の妙薬もまたよく一切の重罪を消し、速やかに無明の株杌（しゅ",
+          "context_position": 1534,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "てて色（しき／色境）を愛す。もしよく明らかに密号名字（密教の真言・名称）を察し、深く荘厳秘蔵（密教の荘厳秘密蔵）を開けば、す",
+          "context_position": 3600,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "のあと）のごとし。      『大毘盧遮那経』（『大日経』入真言門住心品）にいわく、秘密主（金剛手菩薩）、仏に問うてもうさく",
+          "context_position": 4460,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "まえり。ゆえに経の初品を名づけて住心と曰う。今この経に依りて真言行者の住心の次第を顕わす。顕密二教の差別もまたこの中にあり。",
+          "context_position": 4799,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "には秘密荘厳住心（ひみつしょうごんじゅうしん／秘密荘厳の心・真言密教）  異生羝羊住心（いしょうていようじゅうしん）第一  ",
+          "context_position": 5305,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "し〕、福を修め、斎戒をたもち、戒を学び、陀羅尼業の潅頂法門〔真言密教の潅頂によって受ける法門〕を受けることができない。四無量",
+          "context_position": 71910,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ためだ」として、一心に日・月・星等を供養し、大いに呪〔じゅ・真言・陀羅尼〕を誦じ、茅草〔ぼうそう・茅を敷いて〕安置する。いわ",
+          "context_position": 99440,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、これまで説いてきたとおりだ。深秘の意味とは、このあとに説く真言の教え〔真言門〕である。いわゆる嬰童無畏住心とは、すなわち天",
+          "context_position": 119961,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "いてきたとおりだ。深秘の意味とは、このあとに説く真言の教え〔真言門〕である。いわゆる嬰童無畏住心とは、すなわち天乗のことだ。",
+          "context_position": 119967,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の海に沈みこんで〔生死に沈淪〕、解脱は得られない。だが、もし真言の真実の意味〔真言の実義〕を理解すれば、天であれ、人であれ、",
+          "context_position": 120050,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "生死に沈淪〕、解脱は得られない。だが、もし真言の真実の意味〔真言の実義〕を理解すれば、天であれ、人であれ、鬼や畜生〔鬼畜〕で",
+          "context_position": 120059,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る」という意味だ。『大日経』には、もろもろの天・人・鬼などの真言があり、その数は無量である。これらの真言は、五つの字〔五字〕",
+          "context_position": 120230,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ろの天・人・鬼などの真言があり、その数は無量である。これらの真言は、五つの字〔五字〕を根本とする。その五字の真言はこうである",
+          "context_position": 120250,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。これらの真言は、五つの字〔五字〕を根本とする。その五字の真言はこうである。──  　〔タン・カン・ハン・カン・エン／五大",
+          "context_position": 120274,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ろもろの世間の神々〔世天〕に通じる、あまねく明るく照らす心の真言〔普明の心真言〕がある。──  　〔ロキャ・ロキャ・キャラヤ",
+          "context_position": 120475,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "神々〔世天〕に通じる、あまねく明るく照らす心の真言〔普明の心真言〕がある。──  　〔ロキャ・ロキャ・キャラヤ。サラバ・デイ",
+          "context_position": 120482,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "カ〕  くわしく説けば、三界のなかの二十八種の天に、それぞれ真言がある。簡略にまとめれば、みなこの一つの真言におさまる。外金",
+          "context_position": 120608,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の天に、それぞれ真言がある。簡略にまとめれば、みなこの一つの真言におさまる。外金剛部〔げこんごうぶ・密教の最も外側を守る神々",
+          "context_position": 120630,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の類と八つの部〔五類八部〕にすべておさまる。  〔この普明心真言の語義を解く。〕「嚧迦嚧迦〔ロキャ・ロキャ〕」とは「世間」の",
+          "context_position": 120705,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "そなえている。もし衆生がこの意味を理解できれば、世間の神々の真言〔世天の真言〕と大日如来の真言〔大日の真言〕とは、まったく違",
+          "context_position": 121920,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。もし衆生がこの意味を理解できれば、世間の神々の真言〔世天の真言〕と大日如来の真言〔大日の真言〕とは、まったく違いがない〔無",
+          "context_position": 121926,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "味を理解できれば、世間の神々の真言〔世天の真言〕と大日如来の真言〔大日の真言〕とは、まったく違いがない〔無二無別〕。もし深秘",
+          "context_position": 121935,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "れば、世間の神々の真言〔世天の真言〕と大日如来の真言〔大日の真言〕とは、まったく違いがない〔無二無別〕。もし深秘の意味を理解",
+          "context_position": 121941,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "らゆる無量の教え〔法教〕は、ことごとく、この一つの「ロ」字の真言におさまりきる。この一字を唱えれば、すなわちあらゆる人・天の",
+          "context_position": 122089,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "観音〕菩薩などの姿〔像貌〕を現し、あまねく十方〔全世界〕で、真言の道の句の教え〔真言道句の法〕を説き示される。いわゆる、初め",
+          "context_position": 122662,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "像貌〕を現し、あまねく十方〔全世界〕で、真言の道の句の教え〔真言道句の法〕を説き示される。いわゆる、初めて悟りを求める心を起",
+          "context_position": 122672,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "びるしゃな・大日如来〕は、もろもろの仏・菩薩・天龍・鬼などの真言とその印〔真言の印〕を説き終えて、秘密主〔金剛薩埵〕に告げて",
+          "context_position": 122841,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "日如来〕は、もろもろの仏・菩薩・天龍・鬼などの真言とその印〔真言の印〕を説き終えて、秘密主〔金剛薩埵〕に告げて言われた。──",
+          "context_position": 122848,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "出す数々の言葉〔舌根所転の言説〕も、よく知るべきだ。すべてが真言なのである。」  唯蘊無我住心（ゆいうんむがじゅうしん）第四",
+          "context_position": 123046,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。  　比喩として、こう言おう。  　『大日経』に、声聞の真言がある。真言にいう。  　「醯覩鉢羅者也毘伽多羯囉末底梨惹多",
+          "context_position": 146217,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "喩として、こう言おう。  　『大日経』に、声聞の真言がある。真言にいう。  　「醯覩鉢羅者也毘伽多羯囉末底梨惹多吽〔ケイトハ",
+          "context_position": 146223,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "それ嫌うこと〔厭怖生死〕が極めて切実だからである。  　この真言は、法身の仏〔法仏如来〕が大いなる慈悲の願力によって、有情〔",
+          "context_position": 146784,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕に到達することを、究極のゴール〔究竟〕としているのだ。  真言を行ずる者〔真言行者〕は、よくよく次のように観じなければなら",
+          "context_position": 159907,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "を、究極のゴール〔究竟〕としているのだ。  真言を行ずる者〔真言行者〕は、よくよく次のように観じなければならない。——二乗の",
+          "context_position": 159915,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "である。  では、秘密の意味とは何か。『大日経』には、縁覚の真言〔縁覚の真言〕がある。この一字の真言のうちに、縁覚乗のいっさ",
+          "context_position": 161281,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "では、秘密の意味とは何か。『大日経』には、縁覚の真言〔縁覚の真言〕がある。この一字の真言のうちに、縁覚乗のいっさいの教え〔一",
+          "context_position": 161287,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。『大日経』には、縁覚の真言〔縁覚の真言〕がある。この一字の真言のうちに、縁覚乗のいっさいの教え〔一切の縁覚乗の法〕を、こと",
+          "context_position": 161299,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "教え〔一切の縁覚乗の法〕を、ことごとく摂め尽くしている。その真言にこう説かれている。——    （ナウマクサンマンダボダナン",
+          "context_position": 161345,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "あまねき諸仏に帰命したてまつる。バク。最後の一字バクが縁覚の真言の核心〕  この「嚩字門〔バじもん・バの一字が開く門〕」は、",
+          "context_position": 161411,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "救われるべき〔得度すべき〕衆生がいれば、〔仏は〕すぐさまこの真言の法を誦え持たせて〔誦持〕、衆生を法界の胎蔵〔法界胎蔵・万徳",
+          "context_position": 161567,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "一つのことばや名に、はかり知れない意味がそなわっているのが、真言の深秘のあり方である。まず浅略の意味を明らかにし、次に深秘の",
+          "context_position": 163901,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "みを生み出す三昧〔普遍大慈発生三昧〕に住して、みずからの心の真言〔自心の真言〕を説かれた。  （アジタンジャヤ・サラバサトバ",
+          "context_position": 208764,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "三昧〔普遍大慈発生三昧〕に住して、みずからの心の真言〔自心の真言〕を説かれた。  （アジタンジャヤ・サラバサトバ・シャヤ・ト",
+          "context_position": 208770,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "勝にして、いっさいの衆生の心性をことごとく知る、の意の弥勒の真言）  これを解き明かしていう。「阿誓単闍耶〔アジタンジャヤ〕",
+          "context_position": 208838,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の行と同じくなり、すみやかに大慈三昧をさとる。  この一つの真言には、唯識・法相のすべての教えの門〔法相の法門〕がことごとく",
+          "context_position": 209624,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "門〔法相の法門〕がことごとく摂め込まれている。もしこの一つの真言を誦するならば、弥勒菩薩がさとり、説かれたいっさいの教えを、",
+          "context_position": 209672,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ついては、以上に説いたとおりである。深秘の意味とは、次に説く真言密教の意味がそれである。  　すなわち「覚心不生住心の法門」",
+          "context_position": 226258,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "文殊師利菩薩は、仏の加持神力によって三昧に入り、自らが証した真言〔自証の真言〕を説いた。  　（ケイ・ケイ・クマラキャ・ビボ",
+          "context_position": 226367,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "は、仏の加持神力によって三昧に入り、自らが証した真言〔自証の真言〕を説いた。  　（ケイ・ケイ・クマラキャ・ビボキチ・ハタシ",
+          "context_position": 226373,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "魔〔煩悩魔・蘊魔・死魔・天子魔〕とその眷属のことである。この真言は「魔〔マ〕」という字を体〔本体〕とする。これはすなわち大空",
+          "context_position": 226616,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ハラチゼン〕」とは、かつて立てた誓願のことである。  　この真言の浅略の意味はこうである──解脱の道に住する童子に呼びかけて",
+          "context_position": 226893,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "意味〕はこのとおりである。  　深秘の意味はこうである。この真言の深い本体は「マ〔魔〕」の一字にある。この一字が大空〔だいく",
+          "context_position": 227382,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "が示す無量の教えと意義のすべては、残らず文殊師利菩薩の一字の真言──「マ」の一字──に収め尽くされているのである。もしこの一",
+          "context_position": 228929,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "この境地こそ究極の理と智の真理身〔究竟の理智法身〕であるが、真言の教え〔真言門〕から見れば、これはまだ初めの門〔初門〕にすぎ",
+          "context_position": 232963,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "究極の理と智の真理身〔究竟の理智法身〕であるが、真言の教え〔真言門〕から見れば、これはまだ初めの門〔初門〕にすぎない。大日世",
+          "context_position": 232969,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "てきたとおりである。奥深い意味〔深秘の義〕とは、これから説く真言門の意味〔真言門の義〕にほかならない。  つまり、一道無為住",
+          "context_position": 241027,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ある。奥深い意味〔深秘の義〕とは、これから説く真言門の意味〔真言門の義〕にほかならない。  つまり、一道無為住心で説かれる教",
+          "context_position": 241034,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ねく一切を観ずる三昧〔普観三昧〕にとどまって、みずからの心の真言〔自心の真言〕を説いて言われた。  （サラバタタギャタ・バロ",
+          "context_position": 241505,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ずる三昧〔普観三昧〕にとどまって、みずからの心の真言〔自心の真言〕を説いて言われた。  （サラバタタギャタ・バロキテイ・キャ",
+          "context_position": 241511,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、すみやかに本来清浄・一道無為の理をさとるのである。  この真言は、初めの（サ）字を本体とする。「薩〔サ〕」字は、あらゆるも",
+          "context_position": 242040,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "をうちに含むようなものである。だから観自在菩薩は、この一字を真言とするのである。  この菩薩を、また「得自性清浄如来〔=自性",
+          "context_position": 242458,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "構成された曼荼羅〕である。それらはことごとく、（サ）の一字の真言のうちに摂め尽くされている。  天台の智者禅師〔=天台智顗〕",
+          "context_position": 242845,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "脱を得て、観音菩薩とまったく同じ境地〔等同〕になる。もしこの真言の秘められた意味〔密義〕を得るなら、いっさいの教え〔一切の法",
+          "context_position": 243330,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "想による観の智慧〔瑜伽の観智〕である。瑜伽の観智とは、本尊や真言・印〔本尊及び真言印等〕を観じ念じることである。四つには、法",
+          "context_position": 243816,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "瑜伽の観智〕である。瑜伽の観智とは、本尊や真言・印〔本尊及び真言印等〕を観じ念じることである。四つには、法に従って法を行ずる",
+          "context_position": 243825,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "もし『妙法蓮華経』を修め持とうとする者は、男であれ女であれ、真言の行〔真言行〕にもとづいて、ひそかに菩薩の道を行ずべきである",
+          "context_position": 243997,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "蓮華経』を修め持とうとする者は、男であれ女であれ、真言の行〔真言行〕にもとづいて、ひそかに菩薩の道を行ずべきである。まずは大",
+          "context_position": 244002,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "する〕ことはむずかしい。一つ一つの印の結び方〔印契〕や儀軌・真言は、必ず潅頂の阿闍梨のもとで、みずから直に受け、その正否を見",
+          "context_position": 244376,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "教〕からみれば究極の果〔極果〕であるが、後の秘密の心〔秘心・真言密教〕からみればまだ初めの心〔初心〕である。「初めて心を発し",
+          "context_position": 245822,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "が盛んに開いたようなものである。もし後の二つの心〔後の二心・真言密教の二段階〕からみれば、その果がふたたび種となる〔果復て種",
+          "context_position": 249731,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕と一道無為心〔第八〕の二つの住心を指す。「後の二心」とは、真言門の根本〔第九〕と究極〔第十〕の二つの心を示す。〕  　また",
+          "context_position": 249860,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "すべきである。」──これより後に、身を完成させる五つの段階の真言〔五相成身の真言〕を説く。この五つの段階の真言の加持〔加持〕",
+          "context_position": 250460,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "──これより後に、身を完成させる五つの段階の真言〔五相成身の真言〕を説く。この五つの段階の真言の加持〔加持〕によって、大日如",
+          "context_position": 250468,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る五つの段階の真言〔五相成身の真言〕を説く。この五つの段階の真言の加持〔加持〕によって、大日如来の身となることができるのであ",
+          "context_position": 250483,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "仏の境界を荘厳する三昧〔仏境界荘厳三昧〕に住して、自らの心の真言〔自心の真言〕を説いた。  　〔サンマンタドギャタ・ビランジ",
+          "context_position": 262732,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "厳する三昧〔仏境界荘厳三昧〕に住して、自らの心の真言〔自心の真言〕を説いた。  　〔サンマンタドギャタ・ビランジャダラマチリ",
+          "context_position": 262738,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "・ビランジャダラマチリシャタマカマカ〕  　顕句義〔顕句義・真言の語句の表向きの意味の解釈〕にこう言う。「最初の句は『普〔普",
+          "context_position": 262789,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "を抽擲して勇進の勢〔勇進の勢〕を作し、大楽金剛不空三昧耶の心真言〔大楽金剛不空三昧耶心真言〕を説いて言う。  　〔ウン〕  ",
+          "context_position": 264389,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "勢〕を作し、大楽金剛不空三昧耶の心真言〔大楽金剛不空三昧耶心真言〕を説いて言う。  　〔ウン〕  　経の釈にこう言う。「この",
+          "context_position": 264402,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "もって至極の理〔至極の理・究極の真理〕とする。しかしいまこの真言の法教〔真言法教〕は、ウン字をもっていっさいの真如等の所依〔",
+          "context_position": 265099,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "理〔至極の理・究極の真理〕とする。しかしいまこの真言の法教〔真言法教〕は、ウン字をもっていっさいの真如等の所依〔所依・依りど",
+          "context_position": 265105,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。真如はすなわち所生の法〔所生の法・生み出される法〕であり、真言はすなわち能生の法〔能生の法・生み出す法〕である。真如の法体",
+          "context_position": 265173,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "羅尼がある。名を守護国界主〔しゅごこっかいしゅ〕という。この真言は、毘盧遮那仏〔大日如来〕が色究竟天〔しきくっきょうてん・色",
+          "context_position": 267759,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "して他のもろもろの法門はいうまでもない。よく知るべきである。真言は一切の法の母であり、一切の法の帰り着くところ〔帰趣〕である",
+          "context_position": 268724,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の秘密〔語密〕、金剛の部はそのまま心の秘密〔心密〕である。「真言」とは、ひとまず言葉の秘密〔語密〕の面からつけた名である。詳",
+          "context_position": 272711,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "のことば〔秘密語〕」と名づける。  ひとまず言葉の秘密である真言の教え〔語密の真言法教〕について、文字による曼荼羅の心〔法曼",
+          "context_position": 272819,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "」と名づける。  ひとまず言葉の秘密である真言の教え〔語密の真言法教〕について、文字による曼荼羅の心〔法曼荼羅心〕を示すと、",
+          "context_position": 272828,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る曼荼羅の心〔法曼荼羅心〕を示すと、経にこう説かれている。「真言の教え〔真言法教〕とは何か。すなわち——  （ア）字の門は、",
+          "context_position": 272872,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔法曼荼羅心〕を示すと、経にこう説かれている。「真言の教え〔真言法教〕とは何か。すなわち——  （ア）字の門は、あらゆるもの",
+          "context_position": 272878,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "第二・第五の巻で説かれる種子〔種子字〕や字の輪〔字輪〕などの真言がこれである。「加持」とは、はたらきとふるまいの身〔事業威儀",
+          "context_position": 276025,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕にとどまって、みずからの心と取り巻きたち〔自心及び眷属〕の真言を説いた。このように、普賢菩薩は、仏の境地を飾る三昧〔仏境界",
+          "context_position": 276514,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "処・一切時〕に、生きとし生けるものの世界〔有情界〕において、真言の道の句の法〔真言道句の法〕をのべ説きなさる。また、金剛をた",
+          "context_position": 279606,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "きとし生けるものの世界〔有情界〕において、真言の道の句の法〔真言道句の法〕をのべ説きなさる。また、金剛をたもつ者〔執金剛〕・",
+          "context_position": 279615,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "音菩薩〕などのすがた〔像貌〕を現して、あまねく十方において、真言の道の清らかな句の法〔真言道清浄句の法〕をのべ説きなさる。い",
+          "context_position": 279693,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕を現して、あまねく十方において、真言の道の清らかな句の法〔真言道清浄句の法〕をのべ説きなさる。いわゆる、はじめてさとりを求",
+          "context_position": 279706,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の語〕から、あまねくいっさいの音声を現す。このような音声は、真言でないものはない。一つにひとしくなった心〔一平等の心〕から、",
+          "context_position": 280621,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "量〕は、すでに知ることができた。では、いま伝えられているこの真言の教え〔真言教法〕は、いったい誰が作ったのか。  答えていお",
+          "context_position": 285098,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "に知ることができた。では、いま伝えられているこの真言の教え〔真言教法〕は、いったい誰が作ったのか。  答えていおう。『大日経",
+          "context_position": 285104,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "も、四天王〔四王〕も――このような者たちの誰一人として、この真言を作ることはできない。  なぜそう言えるのか。それは、大日世",
+          "context_position": 285249,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "るのか。仏が秘密主〔金剛薩埵〕に告げて、こう言われた。「この真言のすがた〔真言の相〕は、いっさいの仏が作ったものでもなく〔一",
+          "context_position": 285346,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "密主〔金剛薩埵〕に告げて、こう言われた。「この真言のすがた〔真言の相〕は、いっさいの仏が作ったものでもなく〔一切諸仏の所作に",
+          "context_position": 285353,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "つづけている〔法爾として是の如く住す〕。すなわち、もろもろの真言は、おのずからそうである〔法爾〕からである」と。  解釈して",
+          "context_position": 285560,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "きつめれば、ことごとく等しい〔畢竟じて等しき〕。だから、この真言のすがたは、その音も文字も〔声字〕すべて常住であり〔常〕、つ",
+          "context_position": 285640,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ことば〔真実語〕と呼ぶことができようか。  だからこそ、この真言は、仏がみずから作ったのでもなく、他の誰かに作らせたのでもな",
+          "context_position": 285925,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "それを喜んで認めることはない〔随喜し玉わず〕。それゆえ、この真言のすがたは――仏がこの世にあらわれても、あるいはあらわれなく",
+          "context_position": 286007,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "わち、大いなる慈悲の曼荼羅〔大悲曼荼羅〕に説かれるいっさいの真言と、その一つ一つの真言のすがたとは、すべておのずからそうある",
+          "context_position": 286228,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "荼羅〔大悲曼荼羅〕に説かれるいっさいの真言と、その一つ一つの真言のすがたとは、すべておのずからそうある〔皆法爾〕のである。 ",
+          "context_position": 286239,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ことは、すでに知ることができた。  もしそうであるなら、この真言は、いったい誰が伝えたのか。  答えていおう。はじめの大日如",
+          "context_position": 286354,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "由来〔付法伝来〕は、これで知ることができた。では、最初にこの真言がどのように説かれたのか〔最初の説相〕。『大日経』にこう説か",
+          "context_position": 286617,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "言葉〔種々の諸趣の音声〕を用い、仏の力を加え持って〔加持〕、真言の道を説かれる」と。  解釈していおう。この一段の意味はこう",
+          "context_position": 286816,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の世にあらわれ、人びとを救い導く〔衆生を利益〕。  いまこの真言の秘密である身と口と意の三つ〔真言秘密の身口意〕は、そのまま",
+          "context_position": 287007,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "衆生を利益〕。  いまこの真言の秘密である身と口と意の三つ〔真言秘密の身口意〕は、そのまま、法そのものである仏〔法仏〕にひと",
+          "context_position": 287024,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、欠けたり減ったりすること〔缺減〕がない。ただ、人びとがこの真言の本体とすがた〔真言の体相〕を、ありのままにさとれない〔実の",
+          "context_position": 287224,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ること〔缺減〕がない。ただ、人びとがこの真言の本体とすがた〔真言の体相〕を、ありのままにさとれない〔実の如く覚らざる〕がゆえ",
+          "context_position": 287234,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "わしや土地のことば〔種々の文句方言〕を用い、自在に加持して、真言の道を説かれる。それは、人びとの感応という縁〔機感の因縁〕に",
+          "context_position": 287779,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "とらせている〔衆生に示悟す〕のである。  もし修行者が、この真言の十のたとえ〔十喩〕のなかに、みだりに、つくりだされては滅び",
+          "context_position": 287991,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "具体的なことを指し示してこう言われた。  「秘密主よ、如来の真言の道とはどういうことか。それは、この書き写された文字〔書写の",
+          "context_position": 288243,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ぞれまことの意味〔実義〕がそなわっている。だからこそ如来は、真言のまことの意味〔真言の実義〕をもって、それらに加持をほどこさ",
+          "context_position": 288348,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "義〕がそなわっている。だからこそ如来は、真言のまことの意味〔真言の実義〕をもって、それらに加持をほどこされるのである。もし、",
+          "context_position": 288358,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "れはものごとを取りちがえる過ち〔傾倒〕に落ちてしまい、もはや真言とは言えない。  加持がほどこされる相手〔所加持の処〕は、す",
+          "context_position": 288563,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "それぞれの種類に応じ、その素質のとおりに〔其の種類の如く〕、真言の教えを開き示される」と。  これはつまり、こういうことであ",
+          "context_position": 289043,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "とく成しとげられる。  それゆえ、この一つ一つの功徳もまた、真言のすがた〔真言の相〕と同じである。すなわち、真理の本性のまま",
+          "context_position": 289285,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "れる。  それゆえ、この一つ一つの功徳もまた、真言のすがた〔真言の相〕と同じである。すなわち、真理の本性のままにおのずからそ",
+          "context_position": 289292,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "かが作りあげたもの〔造作の所成〕ではないのである。  では、真言の教え〔真言教法〕とは何か。それはこうである。すなわち、（ア",
+          "context_position": 289366,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "たもの〔造作の所成〕ではないのである。  では、真言の教え〔真言教法〕とは何か。それはこうである。すなわち、（アアーカキャガ",
+          "context_position": 289372,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "童子〕でも、みなことごとく口にとなえ習っている〔誦習〕。この真言の教えと、どんなちがいがあるのか。  ——答う。いま世間で習",
+          "context_position": 290251,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "類のことば〔四種の言語〕を言いあらわすだけで、真理にかなった真言〔如義の真言〕を得ることがない。ことばの意味〔義語〕を知らな",
+          "context_position": 290471,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "四種の言語〕を言いあらわすだけで、真理にかなった真言〔如義の真言〕を得ることがない。ことばの意味〔義語〕を知らなければ、それ",
+          "context_position": 290477,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "う意味〔法身の義〕がある。これがすなわち大日如来のたねとなる真言〔種子真言〕である。この五つの変化〔五転〕は、そのまま五人の",
+          "context_position": 290946,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "身の義〕がある。これがすなわち大日如来のたねとなる真言〔種子真言〕である。この五つの変化〔五転〕は、そのまま五人の仏〔五仏〕",
+          "context_position": 290951,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の五つの変化〔五転〕は、そのまま五人の仏〔五仏〕のたねとなる真言〔種子真言〕である。上を求めていく道〔求上門〕の側からいえば",
+          "context_position": 290989,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "化〔五転〕は、そのまま五人の仏〔五仏〕のたねとなる真言〔種子真言〕である。上を求めていく道〔求上門〕の側からいえば、原因とな",
+          "context_position": 290994,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "意味を説きつくそうとしても、その時のほうが尽きてしまっても、真言のまことの意味〔真言の実義〕は説きつくせない。これがすなわち",
+          "context_position": 291328,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "しても、その時のほうが尽きてしまっても、真言のまことの意味〔真言の実義〕は説きつくせない。これがすなわち、ありのままに字の意",
+          "context_position": 291338,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "たものを「顕教」と名づけるという。だが、釈迦の説のなかにも「真言」や「秘密」という名がある。これはどうちがうのか。  ——答",
+          "context_position": 291460,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "名がある。これはどうちがうのか。  ——答う。釈迦が説かれた真言は、多くの名や句〔多名句〕のなかから選び分けて〔簡んで〕、「",
+          "context_position": 291501,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "選び分けて〔簡んで〕、「秘」という名を得ているのである。その真言の意味も、また聞く者の素質の度合い〔機根量〕に応じたものであ",
+          "context_position": 291551,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の大秘密〕であると説く。秘密ということには、大と小とがある。真言ということにも、また大と小とがある。だから『菩提場経』にこう",
+          "context_position": 291958,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "大と小とがある。だから『菩提場経』にこう説かれている。「私を真言と名づけ、また大真言と名づける」と。はじめにいう「真言」とは",
+          "context_position": 292000,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ら『菩提場経』にこう説かれている。「私を真言と名づけ、また大真言と名づける」と。はじめにいう「真言」とは、人びとに応じて姿を",
+          "context_position": 292010,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "「私を真言と名づけ、また大真言と名づける」と。はじめにいう「真言」とは、人びとに応じて姿を変えた仏〔応化身〕が説いた真言であ",
+          "context_position": 292027,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "う「真言」とは、人びとに応じて姿を変えた仏〔応化身〕が説いた真言である。つぎにいう「大真言」とは、究極の真理そのものの身〔究",
+          "context_position": 292055,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "じて姿を変えた仏〔応化身〕が説いた真言である。つぎにいう「大真言」とは、究極の真理そのものの身〔究竟法身〕が説いた真言である",
+          "context_position": 292068,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "う「大真言」とは、究極の真理そのものの身〔究竟法身〕が説いた真言である。  ——問う。真言と大真言とは、どうちがうのか。  ",
+          "context_position": 292095,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "理そのものの身〔究竟法身〕が説いた真言である。  ——問う。真言と大真言とは、どうちがうのか。  ——答う。たとえば、大乗と",
+          "context_position": 292108,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "のの身〔究竟法身〕が説いた真言である。  ——問う。真言と大真言とは、どうちがうのか。  ——答う。たとえば、大乗と小乗との",
+          "context_position": 292112,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "くと、世間の神々〔世天〕から如来にいたるまで、それぞれが説く真言には、みな（ア）字がある。これがすなわち「（ア）字はもともと",
+          "context_position": 292258,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "れないほどの「生じていない〔不生〕」がある。  世間の呪術の真言は、寒さや熱さなどの病を除くという点〔寒熱等の病を除くに約す",
+          "context_position": 292376,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "じていない〔不生〕」と説く。 世間を護る四天王〔護世四王〕の真言は、流行り病〔疫癘〕などが起こらないという点〔不起〕で「生じ",
+          "context_position": 292442,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "という点〔不起〕で「生じていない」と説く。 帝釈天〔帝釈〕の真言は、十種の悪い行い〔十不善〕による災いや横死〔災横〕が起こら",
+          "context_position": 292492,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "災横〕が起こらないという点で意味を明かす。 梵天王〔梵王〕の真言は、欲のおこり〔欲覚〕が起こらないという点で「生じていない」",
+          "context_position": 292547,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ないという点で「生じていない」と説く。 大自在天〔大自在〕の真言、声聞の真言は、煩悩を尽くして二度と生じない智慧〔尽無生智〕",
+          "context_position": 292594,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "で「生じていない」と説く。 大自在天〔大自在〕の真言、声聞の真言は、煩悩を尽くして二度と生じない智慧〔尽無生智〕という点で「",
+          "context_position": 292600,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "い智慧〔尽無生智〕という点で「生じていない」と説く。 縁覚の真言は、十二の因縁〔十二因縁〕が起こらないという点で「生じていな",
+          "context_position": 292647,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "こらないという点で「生じていない」と説く。 もろもろの菩薩の真言は、それぞれが達しさとった内容〔所通達〕に応じて「生じていな",
+          "context_position": 292694,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法界",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "宇宙の真実相。一切法の根本領域。",
+      "seed_sanskrit": "dharma-dhātu",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 61.45,
+      "freq_score": 23.45,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 89,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "・風・空の五大を表す大日如来の五字明）の、最極にして大秘なる法界体性と、舸遮吒多婆懋（カ・シャ・タ・タ・バ・マ／智慧を表す六",
+          "context_position": 78,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "味を理解すれば、この一字の門から、そのまま真理そのものの身〔法界身〕を悟るのである。  だから経〔大日経〕にこう説く。──「",
+          "context_position": 122176,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ことができなくなる。残るのは、清浄な無為の、垢を離れた真如の法界〔真如法界〕だけである──と。  　もしこの文によるなら、す",
+          "context_position": 144936,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "なくなる。残るのは、清浄な無為の、垢を離れた真如の法界〔真如法界〕だけである──と。  　もしこの文によるなら、すべての阿羅",
+          "context_position": 144941,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ば、この門から大悲の蔵〔大悲蔵〕に入らせる。これはすなわち「法界の一つの門・法身の一つの徳〔法界の一門法身の一徳〕」である。",
+          "context_position": 146898,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "に入らせる。これはすなわち「法界の一つの門・法身の一つの徳〔法界の一門法身の一徳〕」である。もしこの意を会得するなら、声聞乗",
+          "context_position": 146914,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕。六つには、ものごとの本性の領域・虚空の領域・衆生の領域〔法界・虚空界・衆生界〕をさとり明らめる段階〔覚了法界虚空界衆生界",
+          "context_position": 150594,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "衆生の領域〔法界・虚空界・衆生界〕をさとり明らめる段階〔覚了法界虚空界衆生界地〕。七つには、迷いの消えた寂滅をさとる段階〔証",
+          "context_position": 150618,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、〔仏は〕すぐさまこの真言の法を誦え持たせて〔誦持〕、衆生を法界の胎蔵〔法界胎蔵・万徳をはらみ育てる胎蔵の世界〕に入らせてく",
+          "context_position": 161586,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ぐさまこの真言の法を誦え持たせて〔誦持〕、衆生を法界の胎蔵〔法界胎蔵・万徳をはらみ育てる胎蔵の世界〕に入らせてくださる。これ",
+          "context_position": 161592,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "台〕に、手をこまねいたまま静かに坐し〔垂拱〕、全宇宙の宮殿〔法界の殿〕で、何ごとも為さぬ無為の境地にある。  三大阿僧祇劫〔",
+          "context_position": 162845,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、すなわち三乗〕を授ける。  この教えは、全宇宙の生きもの〔法界の有情〕を救いの対象として縁ずるがゆえに「他縁」という。声聞",
+          "context_position": 163559,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "うという大いなる誓い〔平等の大誓〕を起こして、全宇宙の衆生〔法界衆生〕のために菩薩の道を行ずることである。さらには、成仏の縁",
+          "context_position": 164373,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "て学ぶことである。すなわち、衆生の世界〔衆生界〕・法の世界〔法界〕・物の世界〔世界〕・地の段階〔地〕・欲の種類〔欲〕などを観",
+          "context_position": 167341,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。この善根をもってあまねく衆生を摂め取り、如来の智慧に入り、法界にあまねく充ち満ちる。  第五、無尽功徳蔵廻向〔尽きることの",
+          "context_position": 172987,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "し、一切の智慧〔薩婆若・サルヴァジュニャ〕に向かい、あまねく法界に入るのみである。  第六、随順堅固一切善根廻向〔あらゆる善",
+          "context_position": 173192,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "で前と同じ。この善根をもって衆生界を尽くして平等正覚を成じ、法界に広くあまねく行きわたる。  第九、無著無縛解脱廻向〔執着な",
+          "context_position": 173752,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "悟らせ、大いなる智慧を得て、仏の境界に住させる。  第十、等法界無量廻向〔法界と等しく、量り知れないものにめぐらし向ける行〕",
+          "context_position": 173951,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る智慧を得て、仏の境界に住させる。  第十、等法界無量廻向〔法界と等しく、量り知れないものにめぐらし向ける行〕とは何か。この",
+          "context_position": 173958,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "このような行を修めて、あまねく衆生のために一切の智慧を成じ、法界に充ち満ちる。  次に、第二の加行位〔修行をさらに加えて深め",
+          "context_position": 174127,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "家に生まれ〔如来の家に生ず〕、初歓喜地〔極喜地〕に住し、よく法界〔あらゆる存在の世界〕に通達して諸々の平等を得、常に諸仏の大",
+          "context_position": 178389,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "修行しなければならない。すなわち、衆生界〔しゅじょうかい〕・法界・世界・虚空界・識界・欲界・色界・無色界・広大信解界〔こうだ",
+          "context_position": 185401,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "り、よく衆生・声聞・独覚・一切菩薩の波羅蜜の行を受け入れる。法界の中において、どのような問いや難題も、この菩薩を屈服させるこ",
+          "context_position": 194501,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "善根から生まれ起こったものであり、つねに光明を放ってあまねく法界を照らす。どの天処もこれを有することができない。毘瑠璃〔ヴァ",
+          "context_position": 195970,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "き、あらゆる光明および言葉の声〔言音〕は、あまねくすべて十方法界に満ちわたる。一切の世界がことごとく震動し、悪趣〔地獄・餓鬼",
+          "context_position": 196315,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "増益する〔増益一切智神通〕』と名づける。あまねく虚空を尽くし法界を遍く照らし終わって、この菩薩の会上に来たり至り、周匝し右繞",
+          "context_position": 196955,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "功徳を含み容れているからである。  清らかな真理の世界〔清浄法界〕と、四つの智慧のはたらき〔四智心品／大円鏡智・平等性智・妙",
+          "context_position": 197480,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "な性質〔白法の性〕であるからであり、清らかな真理の世界〔清浄法界〕は生じることも滅することも遠く離れて〔生滅を遠離〕、きわめ",
+          "context_position": 197818,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "方〕、きわめて巧みな手だて〔巧便〕であるから、この二つ〔清浄法界と四智心品〕はともに利益をもたらす相〔順益の相〕をそなえ、不",
+          "context_position": 197923,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。  これはまた常住である。尽きるときがないからである。清浄法界は生もなく滅もなく、その本性に変化〔変易〕がないので、常住で",
+          "context_position": 198007,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ると説く。四つの智慧のはたらきも、そのよりどころ〔所依／清浄法界〕が常住であるから、また絶え尽きることがないので、常住である",
+          "context_position": 198070,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "た安楽である。悩み苦しめるもの〔逼悩〕がないからである。清浄法界はもろもろのありさまが静まりかえっている〔衆相寂静〕ので、安",
+          "context_position": 198185,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "名づけるのである。  だからこの法身は、五つの法〔五法／清浄法界と四智〕をその本性とする。清らかな真理の世界〔浄法界〕だけを",
+          "context_position": 198615,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "法／清浄法界と四智〕をその本性とする。清らかな真理の世界〔浄法界〕だけを単独で法身と名づけるのではない。よりどころの転換の二",
+          "context_position": 198641,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "身〕とは、もろもろの如来のまことに清らかな真理の世界〔真浄の法界〕である。受用身と変化身とがひとしくよりどころとするもの〔平",
+          "context_position": 198768,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "を語る、ただ一つのまことの真理の世界〔非安立の廃詮談旨・一真法界〕である。  また、四種の本体〔四種体〕でもって、もろもろの",
+          "context_position": 206166,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "どういうことか。そもそも、一つの心〔一心〕には、十の世界〔十法界・地獄から仏までの十の境涯〕がそなわっている。その一つひとつ",
+          "context_position": 234233,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の世界に、さらに十の世界がそなわるから、あわせて百の世界〔百法界〕となる。さらに、一つの世界には三十種のあり方〔三十種の世間",
+          "context_position": 234295,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕である。「いっさいの界・入は、そのまま一つの真理の世界〔一法界〕である」と言えば、それは絶対の真理〔真諦〕である。「一つで",
+          "context_position": 236449,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "い、これを「三昧」と名づける、と。ここでいう「一つの処」とは法界〔ほっかい・真理の世界〕のことである。止観〔しかん・心を静め",
+          "context_position": 238513,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕のことである。止観〔しかん・心を静め真理を観ずる行〕はその法界によくとどまって動かない。さきの四つの修行〔四行〕を手がかり",
+          "context_position": 238556,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ひとつの職分〔法王の一職〕であり、真理の世界へのひとつの門〔法界の一門〕である。百字輪のうちのひとつの（サ）字から流れ出たも",
+          "context_position": 243120,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "くこの一字のうちに含まれている。もし、この門から真理の世界〔法界〕に入るべき衆生がいるなら、観音はその身をあらわして、この教",
+          "context_position": 243220,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "さね、むなしく身も心も費やすばかりで、真理の世界に証り入る〔法界に証入する〕ことはできないのである。  それゆえ『法華の儀軌",
+          "context_position": 243479,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、蓮華蔵世界〔華蔵・蓮華蔵世界〕を束ねて我が家とし、全宇宙の法界〔法界〕を包みこんで我が国とする。七つの場所に座をしつらえ〔",
+          "context_position": 246208,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "蔵世界〔華蔵・蓮華蔵世界〕を束ねて我が家とし、全宇宙の法界〔法界〕を包みこんで我が国とする。七つの場所に座をしつらえ〔七処に",
+          "context_position": 246211,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "じめをたずね終わりをきわめると、『真如という根本の真理〔真如法界〕は、自らの本性に固執せず縁にしたがってはたらく〔不守自性随",
+          "context_position": 247210,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "」  　また杜順和尚〔杜順・華厳宗の初祖〕の『華厳三昧〔華厳法界観門〕』に言う。「ただし、法界縁起は迷える者には階みがたい。",
+          "context_position": 255427,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "厳宗の初祖〕の『華厳三昧〔華厳法界観門〕』に言う。「ただし、法界縁起は迷える者には階みがたい。もし先に垢れた心〔垢心〕を洗い",
+          "context_position": 255442,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "などの諸法が縁にしたがうのを見ることができるならば、そのまま法界縁起〔法界縁起〕である。必ずしもさらに前もっての方便〔修行の",
+          "context_position": 255706,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "が縁にしたがうのを見ることができるならば、そのまま法界縁起〔法界縁起〕である。必ずしもさらに前もっての方便〔修行の手段〕を必",
+          "context_position": 255711,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "るべきである。  問う。色などの諸法を見て、ただちに大縁起の法界〔大縁起法界〕に入ることができるのはなぜか。答える。色などの",
+          "context_position": 255890,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。  問う。色などの諸法を見て、ただちに大縁起の法界〔大縁起法界〕に入ることができるのはなぜか。答える。色などの諸事は、もと",
+          "context_position": 255896,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "眼・耳などの対象〔眼耳等の事〕を見るだけで、そのままただちに法界縁起〔法界縁起〕のただなかに入ることができる。なぜか。それら",
+          "context_position": 256076,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の対象〔眼耳等の事〕を見るだけで、そのままただちに法界縁起〔法界縁起〕のただなかに入ることができる。なぜか。それらはすべて、",
+          "context_position": 256081,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "まり〔一際〕となる。だから、ものごとを見るとそのまま、大縁起法界〔大縁起法界〕のただなかに入ることになる。  　問う。すでに",
+          "context_position": 256307,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "となる。だから、ものごとを見るとそのまま、大縁起法界〔大縁起法界〕のただなかに入ることになる。  　問う。すでに「空と有とは",
+          "context_position": 256313,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕」と言うのなら、どうしてさらに「眼・耳などを見ればすなわち法界に入る」とも言うのか。答える。もし空と有とをこのように正しく",
+          "context_position": 256399,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の見方をする心〔妄見の心〕が尽き果てて、はじめて道理に順じて法界に入ることができる。なぜか。縁起の法界〔縁起法界〕は、見るこ",
+          "context_position": 256474,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、はじめて道理に順じて法界に入ることができる。なぜか。縁起の法界〔縁起法界〕は、見ることと情念とをすべて離れ〔見を離れ情を亡",
+          "context_position": 256493,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "道理に順じて法界に入ることができる。なぜか。縁起の法界〔縁起法界〕は、見ることと情念とをすべて離れ〔見を離れ情を亡して〕、万",
+          "context_position": 256498,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ある。  　問う。このように見終えた。どのような方便によって法界に入ることができるのか。答える。「入る方便〔入方便〕」とは、",
+          "context_position": 258722,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "摩儞闍多〕とは『法から生まれること〔法生〕』であり、すなわち法界の体性〔法界の体性〕から生ずることをいう。マカマカ〔摩訶摩訶",
+          "context_position": 262934,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "は『法から生まれること〔法生〕』であり、すなわち法界の体性〔法界の体性〕から生ずることをいう。マカマカ〔摩訶摩訶〕のうち上の",
+          "context_position": 262940,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "り、仏は善逝にしてさとりを成ずることをいう。しかしこの平等の法界には行くこともなく到ることもない〔無行無到〕。どうして来去が",
+          "context_position": 263179,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ができない。このような諸仏は皆ことごとく平等平等にして虚空・法界に遍満すると言えども、それでも本と末はそれぞれに差別がある。",
+          "context_position": 270497,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕がとらえられないからであり、 （ダ）字の門は、真理の世界〔法界〕がとらえられないからであり、 （ハ）字の門は、最高の真理〔",
+          "context_position": 273501,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "門〕である。その本性のままに、種類に応じて真理の世界〔随類の法界〕を示し表し、すべての衆生に喜びを得させる」と。  また、こ",
+          "context_position": 274690,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "来の加持による広大な金剛の真理の世界の宮殿〔如来加持広大金剛法界宮〕にとどまっておられた。すべての金剛を持つ者たち〔持金剛者",
+          "context_position": 275303,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "来の加持による広大な金剛の真理の世界の宮殿〔如来加持広大金剛法界宮〕」とは、すなわち五仏の別の呼び名〔五仏の異名〕である。「",
+          "context_position": 275725,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "幢、「広大」を開敷〔開敷華王〕、「金剛」を弥陀〔阿弥陀〕、「法界宮」を天鼓〔天鼓雷音〕と、順に配する。  さらにつぎに、「如",
+          "context_position": 275800,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "かれる秘密のしるし〔密印〕と目じるし〔標識〕がこれである。「法界」とは、すなわち文字による曼荼羅の身〔達磨曼荼羅身〕である。",
+          "context_position": 275963,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "とは、それぞれの身の大きさ〔身量〕が、虚空や真理の世界〔虚空法界〕とひとしいことを明かす。それゆえ、あとの文にこう説かれてい",
+          "context_position": 276138,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "なく〔無始無終〕、それぞれが、みずからの真理の世界の三昧〔自法界三昧〕に安らかにとどまっている。それゆえ、あとの文にこう説か",
+          "context_position": 276325,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "そのとき、世尊である大日如来は、広大な真理の世界の加持〔広大法界加持〕によって、まさにそのとき、真理の世界をはらむ三昧〔法界",
+          "context_position": 276393,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "法界加持〕によって、まさにそのとき、真理の世界をはらむ三昧〔法界胎蔵三昧〕にとどまって、仏との誓いに入る法〔入仏三昧耶〕を説",
+          "context_position": 276423,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "は、五つの部〔五部〕の諸尊が手にたもつ、真理の世界のしるし〔法界の幖幟・ひょうじ〕である。一鈷・三鈷・五鈷〔独鈷・三鈷・五鈷",
+          "context_position": 277322,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "本尊と同じにすることができれば、この一つの門から真理の世界〔法界〕に入ることができる。これがすなわち、あまねく真理の世界の門",
+          "context_position": 278481,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "に入ることができる。これがすなわち、あまねく真理の世界の門〔法界門〕に入ることである。  次に経にこう説かれている。「また、",
+          "context_position": 278514,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ある。加持のはたらきによって、それぞれ真理の世界の一つの門〔法界の一門〕から現れ出て、一人の善知識〔よき導き手〕の身となるこ",
+          "context_position": 278955,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "かなった者たち〔当機衆〕を導いて、ともに真理の世界の曼荼羅〔法界曼荼羅〕に入る。これは、はじめて教えの門に入る〔初入法門〕、",
+          "context_position": 280202,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "とげる智〔成所作智〕、五つには真理の世界そのものをさとる智〔法界体性智〕である。これらはすなわち五つの方角に配される仏〔五方",
+          "context_position": 281091,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "本性としてそなわる徳の、真理の世界そのものをさとる智〔性徳の法界体性智〕を明かしたものである。  経はつづける。「自在なる大",
+          "context_position": 281416,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "多い数〕の微細な金剛をあらわし出して、虚空と真理の世界〔虚空法界〕にあまねくみちわたる。修行の諸段階にある菩薩たち〔諸地の菩",
+          "context_position": 282610,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "いこと〔清浄不染〕」——清らかな真理の世界の身のしるし〔清浄法界身の印〕。「さまざまなはたらき〔種々の業用〕」——なすべき事",
+          "context_position": 283249,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、いっさいの世界はもとからずっと、つねに真理そのものの世界〔法界〕であった、とはっきり知った〔了知〕。そしてただちに、大いな",
+          "context_position": 287504,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "に、ふたたびこの世にあらわれ、この不思議な真理の世界〔不思議法界〕を用いて、さまざまな道〔種々の道〕を説き分け、さまざまな乗",
+          "context_position": 287662,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔自願智力〕と、いっさいの真理の世界に加持をめぐらす力〔一切法界加持力〕とをもって、人びとそれぞれの種類に応じ、その素質のと",
+          "context_position": 288998,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "つ一つのありのままのすがた〔実相〕は、真理の世界のすみずみ〔法界〕にゆきわたり、あらゆる尊い仏たち〔一切諸尊〕の瞑想の門〔三",
+          "context_position": 289689,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大日",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "seed_sanskrit": "Mahāvairocana",
+      "kaimyo_chars": [
+        "大"
+      ],
+      "kaimyo_score": 61.03,
+      "freq_score": 23.03,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 82,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "呴缺（ア・ビ・ラ・ウン・ケン／地・水・火・風・空の五大を表す大日如来の五字明）の、最極にして大秘なる法界体性と、舸遮吒多婆懋",
+          "context_position": 58,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "虚空に遍じ、重重無礙にして刹（国土）の微塵をも越えたり。天（大日如来）の恩詔を奉りて秘義を述べ、群眠（衆生の眠り＝迷い）の自",
+          "context_position": 519,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "識を最終転依した如来）・大毘盧遮那（マハーヴァイローチャナ／大日如来）・自性法身の住処なり。もし衆生ありて輪王（転輪聖王）の",
+          "context_position": 4240,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "量）と勇鋭ありて前の諸の住宮を楽（ねが）わざるには、すなわち大日所乗の一体速疾神通の宝輅（一即多・速疾成仏の宝の車）を許して",
+          "context_position": 4317,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "は、後（このあと）のごとし。      『大毘盧遮那経』（『大日経』入真言門住心品）にいわく、秘密主（金剛手菩薩）、仏に問う",
+          "context_position": 4455,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "もってか因となし、いかんが根となし、いかんが究竟とする、と。大日尊答えたまわく、菩提心を因となし、大悲を根となし、方便を究竟",
+          "context_position": 4614,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "わく、菩提心を因となし、大悲を根となし、方便を究竟となす（『大日経』住心品 三句法門）。秘密主よ、いかんが菩提とならば、いわ",
+          "context_position": 4651,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "けて「愚かな牡羊〔愚童羝羊〕」というのである。  それゆえ、大日世尊〔大日如来〕は秘密主〔ひみつしゅ・金剛薩埵〕に告げて言わ",
+          "context_position": 6845,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "な牡羊〔愚童羝羊〕」というのである。  それゆえ、大日世尊〔大日如来〕は秘密主〔ひみつしゅ・金剛薩埵〕に告げて言われた。「秘",
+          "context_position": 6850,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "と。  ここから注釈に入る。善無畏三蔵〔ぜんむいさんぞう・『大日経疏』を伝えた人〕はこう釈している。これより以下に説く十種の",
+          "context_position": 7073,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "に迷って、生死をめぐりめぐる〔輪転す〕。  注釈していう。『大日経』にこう説かれている。「また時〔という原理〕があると数える",
+          "context_position": 44249,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔位次〕も、次々につらなって起こってくるのである。  だから大日如来〔大日尊〕はこう説かれる。──「さらにまた秘密主〔金剛薩",
+          "context_position": 53283,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、次々につらなって起こってくるのである。  だから大日如来〔大日尊〕はこう説かれる。──「さらにまた秘密主〔金剛薩埵〕よ、愚",
+          "context_position": 53288,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "れが第六の『成果〔じょうか・実を結ぶ段階〕』である。」  〔大日経の〕注釈〔疏〕にこう説く。──世間には遠い昔から代々受けつ",
+          "context_position": 53821,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "とから、『種子心〔しゅじしん〕』と名づけるのである。  経〔大日経〕に「さらにこれをもとにして、六斎日に父母・男女・親戚に施",
+          "context_position": 54283,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ら脱した〔脱縛〕ことにちなんで立てられている。  だから経〔大日経〕にこう説かれている。──  「さらにまた秘密主〔金剛薩埵",
+          "context_position": 91872,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "三宝〕に帰依することを明かした一段である。）  これを註釈〔大日経疏〕はこう説く。──  「『さらにまた秘密主よ、その人が戒",
+          "context_position": 92286,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、これと同じである。だから『受用種子』というのだ。」  経〔大日経〕にこう説く。──「秘密主よ、この心のままに生死を流転する",
+          "context_position": 92771,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "を『世間の三昧道〔世間三昧道〕』と名づける」と。これを註釈〔大日経疏〕はこう説く。──「あらゆる世間の禅定〔世間三昧〕は、要",
+          "context_position": 94651,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "どう・幼子のような心の段階〕の心のありようである。だから経〔大日経〕に「戒を守って天に生まれること〔護戒生天〕は第七の受用の",
+          "context_position": 101195,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "まま秘密の仏の乗りもの〔秘密仏乗〕なのである。  だから経〔大日経〕にこう説く。──「われはすなわち天龍鬼など……」と。これ",
+          "context_position": 120140,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "れはすなわち天龍鬼など……」と。これは、「われとは、すなわち大日如来〔遮那・毘盧遮那仏〕である」という意味だ。『大日経』には",
+          "context_position": 120184,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "すなわち大日如来〔遮那・毘盧遮那仏〕である」という意味だ。『大日経』には、もろもろの天・人・鬼などの真言があり、その数は無量",
+          "context_position": 120210,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "そなえていないわけではない。これがすなわち、法身〔ほっしん・大日如来そのもの〕がさまざまに現した姿〔普現色身〕である。そして",
+          "context_position": 121824,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "生がこの意味を理解できれば、世間の神々の真言〔世天の真言〕と大日如来の真言〔大日の真言〕とは、まったく違いがない〔無二無別〕",
+          "context_position": 121930,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "解できれば、世間の神々の真言〔世天の真言〕と大日如来の真言〔大日の真言〕とは、まったく違いがない〔無二無別〕。もし深秘の意味",
+          "context_position": 121938,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "まま真理そのものの身〔法界身〕を悟るのである。  だから経〔大日経〕にこう説く。──「世尊〔大日如来〕は、すべてを知る智慧〔",
+          "context_position": 122195,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "悟るのである。  だから経〔大日経〕にこう説く。──「世尊〔大日如来〕は、すべてを知る智慧〔一切智智〕を得て、無量の衆生のた",
+          "context_position": 122211,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "部のことである。  さらに、大毘盧遮那如来〔だいびるしゃな・大日如来〕は、もろもろの仏・菩薩・天龍・鬼などの真言とその印〔真",
+          "context_position": 122817,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "  　第二に、この段階を経典の言葉でおさえよう〔教を摂す〕。大日如来〔大日尊〕は秘密主〔金剛薩埵〕に告げて、こう仰せになった",
+          "context_position": 124154,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "に、この段階を経典の言葉でおさえよう〔教を摂す〕。大日如来〔大日尊〕は秘密主〔金剛薩埵〕に告げて、こう仰せになった。「世間に",
+          "context_position": 124159,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔唯蘊無我〕』とはっきり理解する〔解了〕のである。」これを『大日経疏』が解き明かしてこう言う。──もろもろの外道などは「我」",
+          "context_position": 124284,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "のである。  　第三に、この段階の禅定〔三昧〕を明かそう。『大日経』にこう言う。「またさらに、秘密主よ、声聞のともがら〔声聞",
+          "context_position": 124641,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "車〔羊車〕」にあたる。  　比喩として、こう言おう。  　『大日経』に、声聞の真言がある。真言にいう。  　「醯覩鉢羅者也毘",
+          "context_position": 146208,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "にすでに説いたとおりである。  では、秘密の意味とは何か。『大日経』には、縁覚の真言〔縁覚の真言〕がある。この一字の真言のう",
+          "context_position": 161271,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "胎蔵の世界〕に入らせてくださる。これもまた、法身の仏〔法仏・大日如来〕のひとつの現れであり、はかりしれない徳〔万徳〕のうちの",
+          "context_position": 161636,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "を明らかにし、次に深秘の意味を明かそう。  まず浅略の意味。大日如来〔大日尊〕が、秘密主〔金剛薩埵〕に告げて説かれた。「さら",
+          "context_position": 163951,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "し、次に深秘の意味を明かそう。  まず浅略の意味。大日如来〔大日尊〕が、秘密主〔金剛薩埵〕に告げて説かれた。「さらにまた秘密",
+          "context_position": 163956,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "城〔乾闥婆城〕のようなものだと知るからである」。  これを『大日経疏』が解き明かして言う。「これはつまり、第二の段階として、",
+          "context_position": 164200,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、 　安楽であり、解脱の身であり、 　大牟尼〔大いなる聖者・大日如来・釈迦牟尼〕というを法と名づける。  この頌の意味はこう",
+          "context_position": 197204,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "三昧は、いわゆる大いなる慈しみの三昧〔大慈三昧〕であり、また大日如来の四つの行〔四行〕の一つでもある。いっさいの如来の大いな",
+          "context_position": 208646,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "った教え〔南宗・三論宗〕のかなめ〔綱領〕である。  　そこで大日如来〔大日尊〕は、秘密主〔金剛薩埵〕に告げて、こう仰せになっ",
+          "context_position": 211370,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "南宗・三論宗〕のかなめ〔綱領〕である。  　そこで大日如来〔大日尊〕は、秘密主〔金剛薩埵〕に告げて、こう仰せになった。「秘密",
+          "context_position": 211375,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ることができない〔前後際不可得〕からである。」  　これを『大日経疏』が解き明かして、こう言う。「心主」とはすなわち心の王〔",
+          "context_position": 211548,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "文殊師利菩薩の三摩地〔さんまじ・禅定〕の門にほかならない。『大日経』にこう言う。「そのとき文殊師利菩薩は、仏の加持神力によっ",
+          "context_position": 226322,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "れだけの理由があるのである。この大いなる智慧〔大慧〕は、また大日如来の万の功徳〔万徳〕のうちの一つでもある。だから善無畏三蔵",
+          "context_position": 229174,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "蔵〔ぜんむいさんぞう〕はこう言っている。「文殊師利菩薩とは、大日如来の智慧のことである。大日如来を離れて、別に智慧があるわけ",
+          "context_position": 229235,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "言っている。「文殊師利菩薩とは、大日如来の智慧のことである。大日如来を離れて、別に智慧があるわけではない。」  秘密曼荼羅十",
+          "context_position": 229249,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "自心を知る〕を名づけて、さとり〔菩提〕とよぶ。  それゆえ、大日如来〔大日尊〕は秘密主〔ひみつしゅ・金剛薩埵〕に告げて言われ",
+          "context_position": 231134,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕を名づけて、さとり〔菩提〕とよぶ。  それゆえ、大日如来〔大日尊〕は秘密主〔ひみつしゅ・金剛薩埵〕に告げて言われた——  ",
+          "context_position": 231139,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "こで「仏の道」というのは、金剛界の宮殿〔金剛界宮〕にまします大日曼荼羅の仏〔大日曼荼羅の仏〕を指す。さまざまな顕教〔顕教〕に",
+          "context_position": 232896,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "いうのは、金剛界の宮殿〔金剛界宮〕にまします大日曼荼羅の仏〔大日曼荼羅の仏〕を指す。さまざまな顕教〔顕教〕にとっては、この境",
+          "context_position": 232904,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔真言門〕から見れば、これはまだ初めの門〔初門〕にすぎない。大日世尊も竜猛菩薩〔りゅうみょう・竜樹〕も、ともにこのことをはっ",
+          "context_position": 232998,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "とをはっきりと説いておられる。疑ってはならない。  また、『大日経』の下の文ではこう説かれている。「いわゆる空の本性〔空性〕",
+          "context_position": 233056,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "法身〕を明らかにしたものである。  善無畏三蔵〔ぜんむい・『大日経』を漢訳した密教の祖師〕はこう説いている。修行者がこの心に",
+          "context_position": 233293,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の道理をさとった仏を、また常寂光土の毘盧遮那仏〔びるしゃな・大日如来〕と名づける。  隋〔大隋〕の天台山国清寺の智者禅師〔智",
+          "context_position": 233661,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ち、華厳三昧〔華厳三昧〕のおおよその趣旨である。  　そこで大日如来〔大日如来〕は秘密主〔金剛薩埵〕に告げて仰せになった。「",
+          "context_position": 246903,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "昧〔華厳三昧〕のおおよその趣旨である。  　そこで大日如来〔大日如来〕は秘密主〔金剛薩埵〕に告げて仰せになった。「いわゆる空",
+          "context_position": 246908,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "み〔金剛際・密教の究極〕へと進むこと──これを明かすには、『大日経』および『金剛頂経』などによれば、こう言う。──そのとき世",
+          "context_position": 249970,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の真言〕を説く。この五つの段階の真言の加持〔加持〕によって、大日如来の身となることができるのである。このような明らかな証しは",
+          "context_position": 250497,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "りへの入り口〕である。また、大毘盧遮那如来〔大毘盧遮那如来・大日如来〕の菩提心の一つの門でもある。だから善無畏三蔵〔善無畏三",
+          "context_position": 262539,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "国界主〔しゅごこっかいしゅ〕という。この真言は、毘盧遮那仏〔大日如来〕が色究竟天〔しきくっきょうてん・色界の最高天〕において",
+          "context_position": 267769,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "行をしたが、無上正等覚〔阿耨多羅三藐三菩提〕を得て毘盧遮那〔大日如来〕となることができなかった。菩提樹の下に坐したとき、もろ",
+          "context_position": 268264,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "『釈摩訶衍論〔釈大衍〕』では十の認識〔十識〕を説き、王たる『大日経〔大日経王〕』では、はかりしれない心の認識〔無量の心識〕と",
+          "context_position": 272318,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "衍論〔釈大衍〕』では十の認識〔十識〕を説き、王たる『大日経〔大日経王〕』では、はかりしれない心の認識〔無量の心識〕と、はかり",
+          "context_position": 272322,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。まして、ほかの身〔余身〕はなおさらである。  いまこの『大日経』には、このようなはかりしれない四種曼荼羅の身〔四種曼荼羅",
+          "context_position": 275124,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "た心の王なる如来〔大秘密究竟心王如来〕、すなわち大毘盧遮那〔大日如来〕の五つの智と四つのしるし〔五智四印〕、そしてその心のは",
+          "context_position": 275427,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "は、すなわち五仏の別の呼び名〔五仏の異名〕である。「如来」を大日、「加持」を宝幢、「広大」を開敷〔開敷華王〕、「金剛」を弥陀",
+          "context_position": 275761,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "それゆえ、あとの文にこう説かれている。「そのとき、世尊である大日如来は、広大な真理の世界の加持〔広大法界加持〕によって、まさ",
+          "context_position": 276373,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "おともとするのである。いま、心王である毘盧遮那〔びるしゃな・大日如来〕が、おのずからのさとり〔自然覚〕を成就なさる。そのとき",
+          "context_position": 276941,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "去・現在・未来の三つの時〔三時〕を越えた如来の日〔如来の日・大日〕が、加持のはたらきのゆえに、身と語と意とがひとしく一つにな",
+          "context_position": 279212,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "伽梵・バガヴァット〕にして金剛界の遍照如来〔金剛界遍照如来・大日如来〕は」と。——これについて空海はこう注する。この一句は、",
+          "context_position": 280842,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔真言教法〕は、いったい誰が作ったのか。  答えていおう。『大日経』によれば、こうである。もろもろの仏も、菩薩も、声聞も、縁",
+          "context_position": 285133,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の真言を作ることはできない。  なぜそう言えるのか。それは、大日世尊がはっきりとそう説いておられるからである。では、どのよう",
+          "context_position": 285278,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の真言は、いったい誰が伝えたのか。  答えていおう。はじめの大日如来〔大日尊〕から、青龍寺の阿闍梨にいたるまで、七代にわたる",
+          "context_position": 286383,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "いったい誰が伝えたのか。  答えていおう。はじめの大日如来〔大日尊〕から、青龍寺の阿闍梨にいたるまで、七代にわたる大阿闍梨〔",
+          "context_position": 286388,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "おられる。その法号を順にいえば、摩訶毘盧遮那究竟大阿闍梨耶〔大日如来〕・金剛薩埵大阿闍梨耶・龍猛菩薩大阿闍梨耶〔りゅうみょう",
+          "context_position": 286460,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "は、最初にこの真言がどのように説かれたのか〔最初の説相〕。『大日経』にこう説かれている。  「秘密主よ、正しく完全なさとりを",
+          "context_position": 286640,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "毘盧遮那如来の十万のうたからなる経〔大毘盧遮那十万頌の経・『大日経』の根本〕と、金剛頂の瑜伽の十万のうたからなる経〔金剛頂瑜",
+          "context_position": 289820,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "経には、いずれも四十二の字〔四十二字〕が説かれている。この『大日経』の四十九の字〔四十九字〕と、どんなちがいがあるのか。  ",
+          "context_position": 290023,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "真理そのものの身という意味〔法身の義〕がある。これがすなわち大日如来のたねとなる真言〔種子真言〕である。この五つの変化〔五転",
+          "context_position": 290936,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "な秘密〔小秘〕であって、究極の説〔究竟の説〕ではない。  『大日経』は、もっともすぐれた大乗の句〔勝上大乗句〕、すなわち心が",
+          "context_position": 291855,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "禅定",
+      "source_tag": "seed_sanskrit",
+      "sanskrit_origins": [
+        "dhyāna"
+      ],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 41.51,
+      "freq_score": 21.51,
+      "doctrinal_score": 20.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 61,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "ね、あるいは酒を僧たち〔衆僧〕や、戒を保つ人〔持戒の人〕や、禅定を修める者に与えて、その心を濁し乱れさせる〔濁乱せしむ〕者は",
+          "context_position": 19746,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "て、むさぼり・怒り・おろかさ〔貪欲瞋痴〕をいまだ断たぬまま、禅定を修め学び、世俗の神通〔世俗通〕を得て、ある因縁のために怒り",
+          "context_position": 26681,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ぼん〕と人〔人〕と勝れた者〔勝〕と数え、〔我は〕つねに不動の禅定にあるとする説〔常定を計す〕、 　〔音は元から〕現れているの",
+          "context_position": 44079,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "て得られると説く真我〕」とは、こういうことである。すなわち、禅定〔定〕を学ぶ者が、この内なる心と相応する道理〔内心相応の理〕",
+          "context_position": 45194,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "いることもあり、具わっていないこともある。あるいは散〔さん・禅定によらない散漫な修行〕の場合もあり、定〔じょう・禅定による修",
+          "context_position": 62982,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔さん・禅定によらない散漫な修行〕の場合もあり、定〔じょう・禅定による修行〕の場合もある。いずれにせよ三界〔さんがい・欲界・",
+          "context_position": 63008,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "いう結果は、前世の悪い行い〔前の因〕を償い終えて生じ、四つの禅定の天〔四禅・色界の四段階〕の楽しみという報いは、いまのよい縁",
+          "context_position": 91606,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "」と。これを註釈〔大日経疏〕はこう説く。──「あらゆる世間の禅定〔世間三昧〕は、要するに、行きつくところまで行きつけば〔究竟",
+          "context_position": 94672,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、正しい因縁の道理〔正因縁の義〕を理解しないまま、もろもろの禅定を修めて悟ったつもりになると、必ず自分の心に執着して、それを",
+          "context_position": 94898,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "一つの法すら心に入れないまま〔一法も心に入ること無し〕、空の禅定〔空定〕を悟る。これこそ世間の究極の理〔世間究極の理〕だと思",
+          "context_position": 95163,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "うとしながら、かえって三つの悪い境涯〔三途〕に堕ちてしまう。禅定のなかでさまざまな世間のすぐれた智慧〔世間の勝智〕を発し、五",
+          "context_position": 95256,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る〔統収〕のである。」  （これは、もろもろの外道の世間的な禅定〔世間の三昧〕を示した一段である。）  外道〔げどう・仏教以",
+          "context_position": 95419,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "と、倶非〔ともに非ず〕との常を主張する。 静慮〔じょうりょ・禅定〕と天眼〔てんげん〕とにより実に常なりと計す。 無繋〔むけい",
+          "context_position": 95773,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ょう・有想でも無想でもない常〕だと、それぞれ主張する。静慮〔禅定〕によって宿住智〔しゅくじゅうち・過去世を知る智〕を起こし、",
+          "context_position": 97251,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "へん〕等を計する」論者とは、こういうことだ。もろもろの静慮〔禅定〕に依止〔えじ・よりどころ〕するがゆえに、その世間において「",
+          "context_position": 97918,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "を扱う者〕の者たちが、このような計を作すのである。  次に、禅定の修行〔修定〕について明かす。「定〔じょう〕」とは、梵語では",
+          "context_position": 99517,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "─「世俗の無間道と解脱道においては、それぞれ下の地〔より低い禅定の段階〕と上の地〔より高い段階〕を縁じ、下地については粗く・",
+          "context_position": 100905,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "じ、上地については静かで・妙なる・離れたと観ずる。それぞれの禅定の境地の近分〔きんぶん・手前の段階〕において下地の染汚〔けが",
+          "context_position": 100977,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "九の解脱道〔最後の解脱を確認する心〕が現れるとき、必ず根本の禅定〔根本定〕に入る。受け取る体験〔受〕に違いがないからだ。」色",
+          "context_position": 101047,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "れている。──他化自在天の上、初禅〔しょぜん・色界の初段階の禅定の天〕の下に、魔波旬〔まはじゅん・悪魔の主〕の宮殿がある。そ",
+          "context_position": 107087,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ける。 　下の有漏の粗さなど三つを厭い、 　三の五支〔ごし・禅定の支分〕の静らかさなど三つを欣う。 　身の長は十六・三十二・",
+          "context_position": 107813,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "に起こり現れようとするとき、その勢力が能く前進して、そこでの禅定〔定〕を引き起こさせる。もし下の地〔欲界〕の煩悩をまだ離れて",
+          "context_position": 109368,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕、下の地の生きとし生けるもの〔有情〕が自然と上の地の静慮〔禅定〕を起こすことができる。この位においては、もろもろの善法がす",
+          "context_position": 109521,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "縁〔因力と業力〕と法爾力とによる。もし欲界に生まれながら上の禅定〔上定〕を起こすときには、それぞれに応じて知るべし。さらに教",
+          "context_position": 109633,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "那であれば、寿量もまた同じく一万六千劫である。  まず色界の禅定天〔静慮天・じょうりょてん〕の名を一覧する。以下、その名に即",
+          "context_position": 110064,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "順に詳しく説き明かしていく。  初静慮〔しょじょうりょ・第一禅定の段階〕には三つの天がある。梵衆天〔ぼんしゅてん〕・梵輔天〔",
+          "context_position": 110128,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕などがここに生まれるには、初静慮の近分〔こんぶん・前段階の禅定〕によって、世俗の無間道〔むけんどう・煩悩を断つ智慧の働き〕",
+          "context_position": 110634,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、中間定〔ちゅうかんじょう・根本定と次の段階の間にある特殊な禅定〕を獲得したことによって、色界の中で最初に生まれ、そのために",
+          "context_position": 111472,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "なありさまである。大梵天と梵輔天とは寿量・身量・言葉を離れた禅定の状態〔無尋〕・感受のあり方など、すべてにわたって異なってい",
+          "context_position": 111677,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "のなかに高くすぐれた場所がある。凡夫の外道〔異生外道〕が後の禅定、すなわち第四静慮に依って、その無想〔むそう・想のない状態〕",
+          "context_position": 114871,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ある。すでに上の二界〔色界・無色界〕に生きているものが無色の禅定〔無色定〕を起こすのは、因と業の力によるのであって、おのずか",
+          "context_position": 117481,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "と立っていた」とある。そして大乗の唯識論などでは、無色界に、禅定の力で現す物質〔定果の色〕は有るが、業の報いとしての物質〔業",
+          "context_position": 118335,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕は無い、と認める。だから『瑜伽論』巻五十三に「無色界には、禅定の境地としての物質〔定境の色〕が有って、あらゆるものを変じう",
+          "context_position": 118414,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "勢いが尽きればまた下へ堕ちてくる。仏教以外の修行者〔外道〕の禅定〔三昧〕は、迷いの存在〔有〕を尽くそうとしても、結局はまたそ",
+          "context_position": 123282,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "「唯蘊無我住心」と名づけるのである。  　第三に、この段階の禅定〔三昧〕を明かそう。『大日経』にこう言う。「またさらに、秘密",
+          "context_position": 124628,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "迷いに随わない修行の因〔不随順修行の因〕を得る。これを声聞の禅定の道〔声聞の三昧道〕と名づける。」──これは『阿毘曇（アビダ",
+          "context_position": 124793,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "縁のあるものに立脚する境地〔住有縁地〕」と名づける。これらの禅定を方便とするから、その心をやすらかに静まらせる〔恬然として静",
+          "context_position": 124950,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "なさまざまな「迷いに随わない修行〔不随順の行〕」は、かならず禅定〔三昧〕を因とするので、「迷いに随わない修行の因〔不随順修行",
+          "context_position": 125744,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ない修行の因〔不随順修行の因〕を得る」と言うのである。声聞の禅定は、さらにもろもろの部派の異なる説〔諸部の異説〕によってさま",
+          "context_position": 125794,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "・非想非非想処〕を断つ第九のさえぎりのない金剛のように堅固な禅定〔第九の無間金剛喩定〕にいたり、煩悩の尽きた智慧〔尽智〕が生",
+          "context_position": 129281,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "きる。  不浄観が依りどころとする境地〔所依地〕は、広く十の禅定の地〔十地〕に依る。すなわち、四静慮〔ししょうりょ・四禅〕・",
+          "context_position": 135656,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "なわち、四静慮〔ししょうりょ・四禅〕・四近分〔しごんぶん・各禅定に入る手前の境地〕・中間定〔ちゅうかんじょう〕・欲界〔よっか",
+          "context_position": 135699,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ちゅうかんじょう〕の六つである。欲界の中には等引〔とうびき・禅定に等しく引き入れられる状態〕が欠けているから〔等引無きが故に",
+          "context_position": 139372,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "界では恚〔怒り〕を除いて三十一種ある。なぜかといえば、色界は禅定の境地〔定地〕であって、心がみな柔らかく穏やかであり〔軟滑〕",
+          "context_position": 141040,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、声聞の行を表す。「伊〔イ〕」の音があるのは、すなわち声聞の禅定〔三昧〕を表す。次の「覩〔ト〕」の字には「多〔タ〕」の音があ",
+          "context_position": 146359,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "にょ・ありのままの真実〕」を表す。「鄔〔ウ〕」の音があるのは禅定〔三昧〕を表す。次に「鉢〔ハ〕」の字がある。これは声聞が見る",
+          "context_position": 146441,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "はすなわち煩悩である。「伊〔イ〕」の音があるのは、縛りのない禅定〔無縛三昧〕を表す。「掲多〔ガタ〕」とは「離れること〕」であ",
+          "context_position": 146672,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "漏・うろ〕四つの完成行〔四波羅蜜〕を修める。ただし、ここから禅定と智慧〔般若〕という、いっさいを知る智〔種智〕の因となるもの",
+          "context_position": 155304,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "がこの煗などの善根を起こすことは、方便の段階においては諸々の禅定〔静慮〕に通じてはいるが、第四禅〔第四禅定〕に依ってはじめて",
+          "context_position": 175782,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "階においては諸々の禅定〔静慮〕に通じてはいるが、第四禅〔第四禅定〕に依ってはじめて円満に成し遂げることができる。最もすぐれた",
+          "context_position": 175803,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "して炎天〔えんてん・夜摩天〕の王となり、十万の法門を修め、四禅定〔しぜんじょう〕をもって一切衆生を教化する」。  『華厳経』",
+          "context_position": 183948,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "正語・正業・正命・正精進・正念・正定などという〔八正道〕と、禅定の根力覚道〔三十七道品〕を修める。四摂法のうちでは同事〔どう",
+          "context_position": 185741,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ない。四摂法を行ずる。十度のうちでは禅波羅蜜〔ぜんはらみた・禅定の完成〕がとくに多い。多くの場合、兜率天〔とそつてん〕の王と",
+          "context_position": 187230,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ゆえに〔難勝〕と名づける。静慮波羅蜜多〔じょうりょはらみた・禅定の完成〕を行ずる。すなわち安住静慮〔あんじゅうじょうりょ・安",
+          "context_position": 187421,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ち「覚心不生住心の法門」は、文殊師利菩薩の三摩地〔さんまじ・禅定〕の門にほかならない。『大日経』にこう言う。「そのとき文殊師",
+          "context_position": 226308,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "持させる。」これは、般若の教えが文殊師利菩薩の本三昧〔本来の禅定〕から流れ出たものであることを示している。  　龍樹〔りゅう",
+          "context_position": 228398,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "は、それが「調直定〔ちょうじきじょう・心を調えまっすぐにする禅定〕」だからである。『智度論』〔大論〕にはこういう。——よく心",
+          "context_position": 238437,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "りで経を説き開く〔八会に経を開く〕。あの海のように万象を映す禅定〔海印定・海印三昧〕に入って、ものごとの本性がまどかに溶けあ",
+          "context_position": 246284,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の釈尊〕は、いっさいの如来の呼び覚ましによって、形のない身の禅定〔無色身三昧〕から立ちあがり、いっさいの如来を礼拝して申しあ",
+          "context_position": 250276,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "と観ずる心の段階〕」は、普賢菩薩が証した三摩地門〔三摩地門・禅定による悟りへの入り口〕である。また、大毘盧遮那如来〔大毘盧遮",
+          "context_position": 262503,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "智のしるし〔智印〕である。いま、この菩薩は、意味のうえで定〔禅定〕と慧〔智慧〕とをかね、さらに慈悲をもかねている。だから別に",
+          "context_position": 278762,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法身",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "seed_sanskrit": "dharmakāya",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 60.07,
+      "freq_score": 20.07,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 46,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "夫（だいじょうぶ）に帰命したてまつる。かくのごとくの自他の四法身（自性法身・受用法身・変化法身・等流法身）は、法爾として円満",
+          "context_position": 402,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ょうぶ）に帰命したてまつる。かくのごとくの自他の四法身（自性法身・受用法身・変化法身・等流法身）は、法爾として円満具足するわ",
+          "context_position": 407,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "帰命したてまつる。かくのごとくの自他の四法身（自性法身・受用法身・変化法身・等流法身）は、法爾として円満具足するわが三密（身",
+          "context_position": 412,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "まつる。かくのごとくの自他の四法身（自性法身・受用法身・変化法身・等流法身）は、法爾として円満具足するわが三密（身・口・意の",
+          "context_position": 417,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "くのごとくの自他の四法身（自性法身・受用法身・変化法身・等流法身）は、法爾として円満具足するわが三密（身・口・意の三秘密）で",
+          "context_position": 422,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "如来）・大毘盧遮那（マハーヴァイローチャナ／大日如来）・自性法身の住処なり。もし衆生ありて輪王（転輪聖王）の種性に生まれ、大",
+          "context_position": 4248,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "は、どんな相をもそなえていないわけではない。これがすなわち、法身〔ほっしん・大日如来そのもの〕がさまざまに現した姿〔普現色身",
+          "context_position": 121816,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "こと〔厭怖生死〕が極めて切実だからである。  　この真言は、法身の仏〔法仏如来〕が大いなる慈悲の願力によって、有情〔生きとし",
+          "context_position": 146788,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "悲の蔵〔大悲蔵〕に入らせる。これはすなわち「法界の一つの門・法身の一つの徳〔法界の一門法身の一徳〕」である。もしこの意を会得",
+          "context_position": 146906,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。これはすなわち「法界の一つの門・法身の一つの徳〔法界の一門法身の一徳〕」である。もしこの意を会得するなら、声聞乗はすなわち",
+          "context_position": 146919,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "徳をはらみ育てる胎蔵の世界〕に入らせてくださる。これもまた、法身の仏〔法仏・大日如来〕のひとつの現れであり、はかりしれない徳",
+          "context_position": 161628,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "になれる者となれぬ者の別〔成否〕がある。仏の三つの身〔三身／法身・報身・応身〕は、常住なるものと、滅び去るものとに分かれる。",
+          "context_position": 163414,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "う水を含み、虚空のような粗重〔麁重・根深い障りの塊〕を覆い、法身〔法の身〕に充満させるがゆえに、智波羅蜜多〔智慧の完成〕を修",
+          "context_position": 194705,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "煩悩障・所知障の二つのさわり〔二障〕を永く離れているので、「法身」とも名づける。はかり知れない力〔力〕や、おそれなき確信〔無",
+          "context_position": 198490,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "意味あいから、総じて「身」と名づけるのである。  だからこの法身は、五つの法〔五法／清浄法界と四智〕をその本性とする。清らか",
+          "context_position": 198601,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕をその本性とする。清らかな真理の世界〔浄法界〕だけを単独で法身と名づけるのではない。よりどころの転換の二つの果〔二転依の果",
+          "context_position": 198650,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ではない。よりどころの転換の二つの果〔二転依の果〕をみなこの法身に含めるからである。  このような法身に、三つのすがたの別〔",
+          "context_position": 198688,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "二転依の果〕をみなこの法身に含めるからである。  このような法身に、三つのすがたの別〔三相の別〕がある。第一に自性身〔自性身",
+          "context_position": 198707,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ち五法であるから、さとられる真理〔所証の真理〕とは、すなわち法身である。四つの智慧のさとり〔四智の菩提〕は、すなわち報身であ",
+          "context_position": 199515,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "て二諦を立てるのである。また、二種の智慧〔二慧〕は三世の仏の法身の父母にあたる。究極の真理〔第一義〕があることによって般若〔",
+          "context_position": 223413,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "子に呼びかけて、かつて立てた誓願を思い起こさせる。一切諸仏の法身成仏〔法として成し遂げた仏の悟り〕は、身・口・意の三密〔秘密",
+          "context_position": 226948,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "まうのである。大意はこのとおりである。この童子はすでに久しく法身として成仏している。だからこそ（その大悲に）呼びかけて本願を",
+          "context_position": 227095,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "もない〔非青非黄〕」などの言葉は、すべて、真理そのものの身〔法身真如〕であり、ただ一筋の、つくり出されることのない真理〔一道",
+          "context_position": 232760,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "教〕にとっては、この境地こそ究極の理と智の真理身〔究竟の理智法身〕であるが、真言の教え〔真言門〕から見れば、これはまだ初めの",
+          "context_position": 232955,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "き〔六根〕を離れている」と。これもまた、真理そのものの身〔理法身〕を明らかにしたものである。  善無畏三蔵〔ぜんむい・『大日",
+          "context_position": 233263,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "十〕の二つの心を示す。〕  　また、「極無自性心」が、真如・法身が呼び覚ます縁の力〔真如法身驚覚の縁力〕を受けて、さらに金剛",
+          "context_position": 249905,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "　また、「極無自性心」が、真如・法身が呼び覚ます縁の力〔真如法身驚覚の縁力〕を受けて、さらに金剛のきわみ〔金剛際・密教の究極",
+          "context_position": 249919,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "数もなく辺際もない 　あの一切の場所に自在に遍ずる 　如来の法身は不思議なり 　相もなく形もなく比べるものもなし 　色相を示",
+          "context_position": 262273,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "らも離れず、その三つを薫じて一つのさとり〔一覚〕となし、一大法身という果をかざる。それゆえ「因熏習鏡」と名づける。三種世間と",
+          "context_position": 267250,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "王が、善悪・白黒を心のままに自在に扱うようなものである。また法身の意義でもある。第二の字とはすなわち報身の意義である。第三の",
+          "context_position": 268068,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "きた者はいない。」と。今これらの文によれば、唵字〔オン字〕は法身である。法身はすなわち真如である。真如法身はことごとく皆、唵",
+          "context_position": 268650,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "い。」と。今これらの文によれば、唵字〔オン字〕は法身である。法身はすなわち真如である。真如法身はことごとく皆、唵字の一声から",
+          "context_position": 268656,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、唵字〔オン字〕は法身である。法身はすなわち真如である。真如法身はことごとく皆、唵字の一声から出てくる。まして他のもろもろの",
+          "context_position": 268671,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "のである。  つづいて経はこう説く。「五つの智からなる四種の法身〔五智所成の四種法身〕によって」と。——空海はこう注する。五",
+          "context_position": 280937,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "て経はこう説く。「五つの智からなる四種の法身〔五智所成の四種法身〕によって」と。——空海はこう注する。五つの智〔五智〕とは、",
+          "context_position": 280947,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "仏〕であって、順に東・南・西・北・中に配して理解せよ。四種の法身〔四種法身〕とは、一つには仏それ自体の身〔自性身〕、二つには",
+          "context_position": 281154,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "て、順に東・南・西・北・中に配して理解せよ。四種の法身〔四種法身〕とは、一つには仏それ自体の身〔自性身〕、二つには自他に法楽",
+          "context_position": 281159,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "見聞きすることができない。いわゆる、仏みずからがさとる境地〔法身自証の境界〕である。これはまた、なすべき事をなしとげる智〔成",
+          "context_position": 282017,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "るし〔本三摩地の標識〕を手に持つ。これらはみな、すでに微細な法身であり、秘密の心の境地の十段の位〔微細の法身秘密心地の十地〕",
+          "context_position": 282409,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "な、すでに微細な法身であり、秘密の心の境地の十段の位〔微細の法身秘密心地の十地〕をはるかに超えた、身と語と心の金剛である」と",
+          "context_position": 282431,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "海はこう注する。これは、三十七尊〔三十七尊〕という根本の自性法身の、内の眷属の智を明かしたものである。  経はつづける。「そ",
+          "context_position": 282497,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "めて深く秘密の心の境地であり、普賢のように本性として常住する法身〔甚深秘密心地普賢自性常住の法身〕によって、もろもろの菩薩を",
+          "context_position": 283647,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "賢のように本性として常住する法身〔甚深秘密心地普賢自性常住の法身〕によって、もろもろの菩薩を摂め取られる」と。——空海はこう",
+          "context_position": 283663,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の菩薩を摂め取られる」と。——空海はこう注する。これは、自性法身がみずからの眷属を摂め取ることを明かしている。また、ひろくは",
+          "context_position": 283705,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "かれないという意味〔不二の義〕、真理そのものの身という意味〔法身の義〕がある。これがすなわち大日如来のたねとなる真言〔種子真",
+          "context_position": 290920,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ある。つぎにいう「大真言」とは、究極の真理そのものの身〔究竟法身〕が説いた真言である。  ——問う。真言と大真言とは、どうち",
+          "context_position": 292088,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "遮那",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "seed_sanskrit": "Vairocana",
+      "kaimyo_chars": [],
+      "kaimyo_score": 47.9,
+      "freq_score": 17.9,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 30,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "（心王＝心の王者としての阿賴耶識を最終転依した如来）・大毘盧遮那（マハーヴァイローチャナ／大日如来）・自性法身の住処なり。も",
+          "context_position": 4225,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "に列ぬることは、後（このあと）のごとし。      『大毘盧遮那経』（『大日経』入真言門住心品）にいわく、秘密主（金剛手菩薩",
+          "context_position": 4449,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ち天龍鬼など……」と。これは、「われとは、すなわち大日如来〔遮那・毘盧遮那仏〕である」という意味だ。『大日経』には、もろもろ",
+          "context_position": 120189,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ど……」と。これは、「われとは、すなわち大日如来〔遮那・毘盧遮那仏〕である」という意味だ。『大日経』には、もろもろの天・人・",
+          "context_position": 120194,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、八部の天や鬼など、外金剛部のことである。  さらに、大毘盧遮那如来〔だいびるしゃな・大日如来〕は、もろもろの仏・菩薩・天龍",
+          "context_position": 122804,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "のである。そして、この道理をさとった仏を、また常寂光土の毘盧遮那仏〔びるしゃな・大日如来〕と名づける。  隋〔大隋〕の天台山",
+          "context_position": 233651,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "仏など華厳の十の数法〕もまた我が心であるとさとる。  　毘盧遮那仏〔盧舎那仏〕がはじめて成道されたとき、その第二週目〔第二七",
+          "context_position": 246067,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。修行する人は、この譬えに準じて法を思い描くとよい。  「盧遮那仏〔盧遮那仏・毘盧遮那仏〕の過去の行は 　仏の世界の海〔仏刹",
+          "context_position": 262190,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "人は、この譬えに準じて法を思い描くとよい。  「盧遮那仏〔盧遮那仏・毘盧遮那仏〕の過去の行は 　仏の世界の海〔仏刹海〕をこと",
+          "context_position": 262195,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "えに準じて法を思い描くとよい。  「盧遮那仏〔盧遮那仏・毘盧遮那仏〕の過去の行は 　仏の世界の海〔仏刹海〕をことごとく清浄な",
+          "context_position": 262201,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "しめて現れないところがない 　一切の仏刹の微塵のなかに 　盧遮那は自在の力を現し 　大きな誓いの仏の海〔弘誓仏海〕に音声を震",
+          "context_position": 262353,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "門〔三摩地門・禅定による悟りへの入り口〕である。また、大毘盧遮那如来〔大毘盧遮那如来・大日如来〕の菩提心の一つの門でもある。",
+          "context_position": 262526,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "定による悟りへの入り口〕である。また、大毘盧遮那如来〔大毘盧遮那如来・大日如来〕の菩提心の一つの門でもある。だから善無畏三蔵",
+          "context_position": 262534,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "名を守護国界主〔しゅごこっかいしゅ〕という。この真言は、毘盧遮那仏〔大日如来〕が色究竟天〔しきくっきょうてん・色界の最高天〕",
+          "context_position": 267765,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "無辺であるから、一切の陀羅尼の筆頭となる。すなわちこれが毘盧遮那仏の真の身体〔真身〕である。わたし〔釈尊〕は無量無数の劫のあ",
+          "context_position": 268172,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "年の苦行をしたが、無上正等覚〔阿耨多羅三藐三菩提〕を得て毘盧遮那〔大日如来〕となることができなかった。菩提樹の下に坐したとき",
+          "context_position": 268261,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "わまった心の王なる如来〔大秘密究竟心王如来〕、すなわち大毘盧遮那〔大日如来〕の五つの智と四つのしるし〔五智四印〕、そしてその",
+          "context_position": 275424,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "たらき〔心数〕を、おともとするのである。いま、心王である毘盧遮那〔びるしゃな・大日如来〕が、おのずからのさとり〔自然覚〕を成",
+          "context_position": 276932,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "」から「秘密主」など、塵の数ほどの金剛に及ぶまでは、みな毘盧遮那如来がみずから内にさとった智のしるし〔内証の智印〕である。い",
+          "context_position": 278043,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "集まり会した者の数をあらわすのである。  ところで、この毘盧遮那がみずから内にさとった徳〔内証の徳〕は、加持のはたらきによっ",
+          "context_position": 278249,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "かねている。だから別に名を受けるのである。これもやはり、毘盧遮那がみずから内にさとった功徳〔内証の功徳〕である。金剛をたもつ",
+          "context_position": 278813,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "もろもろの金剛をたもつ者〔執金剛〕は秘密主を上首として、毘盧遮那如来の加持のはたらきのゆえに、身のつきせぬ荘厳のくら〔身無尽",
+          "context_position": 279317,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "無尽荘厳蔵〕をふるい起こして示し現しなさる。  これは、毘盧遮那仏の身、あるいは語、あるいは意から生じるのではない。あらゆる",
+          "context_position": 279434,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "するきわ〔起滅辺際〕はとらえられない。そうでありながら、毘盧遮那のいっさいの身のはたらき〔身業〕、いっさいの語のはたらき〔語",
+          "context_position": 279509,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "上首〔筆頭〕であるもろもろの尊い方々〔仁者〕は、すなわち毘盧遮那のさまざまな智の身〔差別智身〕である。このような境地において",
+          "context_position": 280069,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "七葉の大阿闍梨耶〕がおられる。その法号を順にいえば、摩訶毘盧遮那究竟大阿闍梨耶〔大日如来〕・金剛薩埵大阿闍梨耶・龍猛菩薩大阿",
+          "context_position": 286450,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "根量〕に応じて、顕教と密教とを開き示される。密教とは、大毘盧遮那如来の十万のうたからなる経〔大毘盧遮那十万頌の経・『大日経』",
+          "context_position": 289792,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "れる。密教とは、大毘盧遮那如来の十万のうたからなる経〔大毘盧遮那十万頌の経・『大日経』の根本〕と、金剛頂の瑜伽の十万のうたか",
+          "context_position": 289811,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "解する〕を、真理に自在な王の菩薩〔法自在王菩薩〕、また大毘盧遮那仏と呼ぶ。残りの一つ一つの字の意味も、また同じである。もろも",
+          "context_position": 291198,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る〔実の如く字義を知る〕ということである。  ——問う。毘盧遮那如来が説かれたものを「秘密」と名づけ、釈迦が説かれたものを「",
+          "context_position": 291403,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "seed_sanskrit": "mahā-karuṇā",
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "kaimyo_score": 67.18,
+      "freq_score": 17.18,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 26,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "かんが究竟とする、と。大日尊答えたまわく、菩提心を因となし、大悲を根となし、方便を究竟となす（『大日経』住心品 三句法門）。",
+          "context_position": 4633,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "三つの世界〔三界〕をおそれ、人々を救おうとする大いなる慈悲〔大悲〕を欠いている。みずから道理を悟るのではなく、他人から（仏の",
+          "context_position": 126053,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "衆生の中に、この法によって道に入るべき者があれば、この門から大悲の蔵〔大悲蔵〕に入らせる。これはすなわち「法界の一つの門・法",
+          "context_position": 146875,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、この法によって道に入るべき者があれば、この門から大悲の蔵〔大悲蔵〕に入らせる。これはすなわち「法界の一つの門・法身の一つの",
+          "context_position": 146880,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "いて、言葉を用いない〔言語を用いず〕。ただし、大いなる慈悲〔大悲〕が欠けていて、人を救う巧みな手だて〔方便〕をそなえない。ひ",
+          "context_position": 147759,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ら覚悟す〕がゆえに、また大いなる慈悲と人を救う巧みな手だて〔大悲と方便〕とをそなえないがゆえに、ただ奥深い縁起の道理〔甚深縁",
+          "context_position": 150316,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の乗りものに入らせる。この、対象を選ばぬ大いなる慈悲〔無縁の大悲〕に着目するがゆえに「他縁乗」と名づけるのである。  また「",
+          "context_position": 164524,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "言葉を温かく和やかに語ること〔発言和悦〕などによって、菩薩の大悲〔だいひ〕をますます育て大きくしようとすることである。  第",
+          "context_position": 167162,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "れゆえ、これらをそのまま五つの怖畏に配せよ」。  この菩薩は大悲を筆頭として〔大悲を首として〕、広大な志と楽いをもち、何もの",
+          "context_position": 180623,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "のまま五つの怖畏に配せよ」。  この菩薩は大悲を筆頭として〔大悲を首として〕、広大な志と楽いをもち、何ものにも破られることが",
+          "context_position": 180632,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ことができる」。  この菩薩は、大いなる慈悲を先頭に立てて〔大悲を首とする〕、世間の生と滅〔生滅〕を観じる。すなわち、業を田",
+          "context_position": 188541,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、もろもろの仏に随って法の輪を転じ、大いなる慈悲の本願の力〔大悲本願力〕を捨てまいとすることで、第九の善慧地に入ることができ",
+          "context_position": 192566,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "行の助けとなる法〕を集め、大いなる福徳と智慧を増し広め、広く大悲を行じ、世界の差別を知り、衆生の世界という深い林〔衆生界の稠",
+          "context_position": 193948,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "仏弟子よ、この地の菩薩は、みずからの願の力〔自願力〕によって大悲の雲を起こし、大いなる法の雷〔大法の雷〕を轟かせ、神通〔通〕",
+          "context_position": 194144,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、すなわち報身である。受用身と変化身とは、大いなる慈悲の力〔大悲力〕によって他者を利するもの〔利他〕であり、汚れのない原因と",
+          "context_position": 199568,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の童子はすでに久しく法身として成仏している。だからこそ（その大悲に）呼びかけて本願を思い起こさせ、衆生を度することを促すので",
+          "context_position": 227115,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "あるいは「普現如来〔ふげんにょらい〕」とも言われる方である。大悲加持力をもって童子の身を示しているのである。顕の意味〔浅略の",
+          "context_position": 227320,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "次の句〔キャロダマヤ〕は、その本体〔体〕をあらわす。いわゆる大悲〔=大いなる慈悲〕を本体とするのである。たとえば、金でできた",
+          "context_position": 241737,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "と呼ばれるのと同じである。この菩薩もまさにそのとおりで、ただ大悲だけを本体としている。「囉囉囉〔ラララ〕」というのは——「囉",
+          "context_position": 241832,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "言行〕にもとづいて、ひそかに菩薩の道を行ずべきである。まずは大悲胎蔵大曼荼羅〔=胎蔵界の大曼荼羅〕に入り、あわせて護摩の道場",
+          "context_position": 244033,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "からである。因とは因縁〔因縁〕のことであり、菩提心を因とし、大悲の万の行〔大悲万行〕を縁として、三密の方便〔三密方便・身・語",
+          "context_position": 263698,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "とは因縁〔因縁〕のことであり、菩提心を因とし、大悲の万の行〔大悲万行〕を縁として、三密の方便〔三密方便・身・語・意の三密によ",
+          "context_position": 263705,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "証への入り方の方便〔菩提因行証入方便〕となる。中間はすなわち大悲の句に摂められる。この五字はすなわち五仏五智〔五仏五智〕であ",
+          "context_position": 263873,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。  経はつづける。「もろもろの大いなる慈悲の行いと誓い〔大悲の行願〕によって、いのちあるものに、福と智のたくわえ〔福智資",
+          "context_position": 284144,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "同じ道を歩む〔衆聖は道同〕。すなわち、大いなる慈悲の曼荼羅〔大悲曼荼羅〕に説かれるいっさいの真言と、その一つ一つの真言のすが",
+          "context_position": 286212,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "とはっきり知った〔了知〕。そしてただちに、大いなる慈悲の心〔大悲心〕をおこされた。「人びとは、仏の道からほんのわずかしか離れ",
+          "context_position": 287542,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "三密",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "seed_sanskrit": "trīṇi guhyāni",
+      "kaimyo_chars": [
+        "密"
+      ],
+      "kaimyo_score": 52.77,
+      "freq_score": 14.77,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 16,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "受用法身・変化法身・等流法身）は、法爾として円満具足するわが三密（身・口・意の三秘密）であり、天珠（帝釈天の宝網に懸かる摩尼",
+          "context_position": 440,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "楼）幻化の行宮（仮の宮殿）にすぎぬ。未だ三秘密（身・口・意の三密）・五相成身（通達菩提心・修菩提心・成金剛心・証金剛身・仏身",
+          "context_position": 2667,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "諸仏の法身成仏〔法として成し遂げた仏の悟り〕は、身・口・意の三密〔秘密の体〕に入り込んでおり、いかなる心ある者〔有心〕もそこ",
+          "context_position": 226975,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "であり、菩提心を因とし、大悲の万の行〔大悲万行〕を縁として、三密の方便〔三密方便・身・語・意の三密による修行〕を修行し、娑羅",
+          "context_position": 263716,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "心を因とし、大悲の万の行〔大悲万行〕を縁として、三密の方便〔三密方便・身・語・意の三密による修行〕を修行し、娑羅樹王の万の徳",
+          "context_position": 263722,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "行〔大悲万行〕を縁として、三密の方便〔三密方便・身・語・意の三密による修行〕を修行し、娑羅樹王の万の徳の花と果〔娑羅樹王の万",
+          "context_position": 263733,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "離辺〕の意味でもある。これはつまり、身・口・意の三つの秘密〔三密〕が、あの五つの極端やあらゆる否定〔五辺百非〕を離れて、ただ",
+          "context_position": 281892,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "事をなしとげる智〔成所作智〕でもある。三つの秘密のはたらき〔三密の業用〕は、みなここから生じる。以上の五つの句は、まとめて住",
+          "context_position": 282069,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ことがない」と。——空海はこう注する。三世とは、三つの秘密〔三密〕のことである。こわれない〔不壊〕とは、金剛をあらわす。化〔",
+          "context_position": 282976,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "は、はたらき〔業用〕のことである。つまり、つねに金剛のような三密のはたらきによって、過去・現在・未来の三世にわたり、自分にも",
+          "context_position": 283041,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "空海はこう注する。密〔密〕とは、金剛のような三つの秘密〔金剛三密〕である。華〔華〕とは、ひらき咲くさとりの花〔開敷覚華〕であ",
+          "context_position": 283883,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ガンジス河の砂の数ほどの仏の徳〔恒沙の仏徳〕と、塵の数ほどの三密〔塵数の三密〕によって、身とその国土〔身土〕をおごそかに飾る",
+          "context_position": 283977,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "砂の数ほどの仏の徳〔恒沙の仏徳〕と、塵の数ほどの三密〔塵数の三密〕によって、身とその国土〔身土〕をおごそかに飾る。これを曼荼",
+          "context_position": 283983,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "のしるし〔智印〕がそなわる。三世とは、三つの秘密と三つの身〔三密三身〕である。しばらくも休むことがない、とは、このようなもろ",
+          "context_position": 284455,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、あまねくゆきわたること〔普遍〕である。つまり、五大からなる三密の智のしるし〔五大所成の三密の智印〕は、その数がはかりしれな",
+          "context_position": 284633,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "遍〕である。つまり、五大からなる三密の智のしるし〔五大所成の三密の智印〕は、その数がはかりしれない。身も心も、智も、三種の世",
+          "context_position": 284647,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "如来",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "如"
+      ],
+      "kaimyo_score": 27.34,
+      "freq_score": 9.34,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "住心論 巻第一 序      婀尾羅呴缺（ア・ビ・ラ・ウン・ケン／地・水・火・風・空の五大を表す大日如来の五字明）の、最極にして大秘なる法界体性と、舸遮吒",
+          "context_position": 30,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "礙にして刹（国土）の微塵をも越えたり。天（大日如来）の恩詔を奉りて秘義を述べ、群眠（衆生の眠",
+          "context_position": 518,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "りては、これすなわち最極究竟・心王の如来（心王＝心の王者としての阿賴耶識を最終転依した如来）・大毘盧遮那（マハーヴァイローチャナ／大",
+          "context_position": 4195,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "阿賴耶識を最終転依した如来）・大毘盧遮那（マハーヴァイローチャナ／大日如来）・自性法身の住処なり。もし衆生ありて輪王",
+          "context_position": 4227,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "もうさく、世尊よ、いかんが如来応供正遍知（如来の十号）はこの一切智智（仏の一切智）を得たまえる",
+          "context_position": 4508,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "菩薩",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 19.34,
+      "freq_score": 9.34,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "四重（殺・盗・婬・妄の四波羅夷罪）と八重（菩薩戒の八重禁）と五逆（殺父・殺母・殺阿羅漢・出仏身血・",
+          "context_position": 1438,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "には縁覚宮（縁覚乗の境地）、八には菩薩宮（菩薩乗の境地）、九には一道無為宮（一乗清浄無為の境地）",
+          "context_position": 1693,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "所乗（乗りもの）に遅疾あり。牛・羊等の車（法華経 火宅譬の羊車＝声聞乗・鹿車＝縁覚乗・牛車＝菩薩乗）は紆曲に逐（したが）ってゆるやかに進み、",
+          "context_position": 1925,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "自在・安楽・無為なり。ゆえに如来は大牛車（菩薩乗）・小牛車（権教仏乗）の二乗を与えてその帰",
+          "context_position": 2396,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "のれに在れば執着なくして到る。有疾の菩薩（病める菩薩・『維摩経』維摩居士示疾の典故）・迷方の狂子（道に迷える狂児）は、慎まず",
+          "context_position": 4103,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "真理",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "真",
+        "理"
+      ],
+      "kaimyo_score": 35.22,
+      "freq_score": 7.22,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "、ひとしく対象の道理〔境理〕のほうを「諦（真理）」だと考えている。いまの立場〔三論〕は、",
+          "context_position": 213172,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "誤りだ」というのなら、どうしてそれを「諦（真理）」と呼ぶのか。答える。『中論』の論文がみ",
+          "context_position": 213777,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "がない。他の立場は道理〔理〕をもって「諦（真理）」とし、いまの立場は教え〔教〕をもって「",
+          "context_position": 219285,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "智慧",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "智",
+        "慧"
+      ],
+      "kaimyo_score": 35.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "極にして大秘なる法界体性と、舸遮吒多婆懋（カ・シャ・タ・タ・バ・マ／智慧を表す六字真言）の慧（え）と、咿汙哩嚧翳（イ・ウ・リ・ロ",
+          "context_position": 90,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ナヤ）と阿毘達磨（論・アビダルマ）と般若（般若波羅蜜・智慧の蔵）と総持（陀羅尼・真言）等の蔵である。かく",
+          "context_position": 1243,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "清浄",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "清",
+        "浄"
+      ],
+      "kaimyo_score": 35.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "菩薩宮（菩薩乗の境地）、九には一道無為宮（一乗清浄無為の境地）、十には秘密漫荼羅金剛界宮（密教の究極境",
+          "context_position": 1710,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "生を覚る心・三論宗） 八には一道無為住心（いちどうむいじゅうしん／一道清浄無為の心・天台宗） 九には極無自性住心（ごくむじしょうじゅ",
+          "context_position": 5208,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "金剛",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "金",
+        "剛"
+      ],
+      "kaimyo_score": 33.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "の渤（ぼつ／鳴り響き）と、薩・宝・法・業（金剛界四波羅蜜の四菩薩）・内外の供（内供四菩薩と外供四菩薩）と、",
+          "context_position": 260,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "大日経』入真言門住心品）にいわく、秘密主（金剛手菩薩）、仏に問うてもうさく、世尊よ、いかんが如",
+          "context_position": 4475,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "仏果",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 23.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "の安息地）に息（やす）ましむ。菩薩・権仏（権教の仏果）の二宮は、また未だ究極の金剛界（密教の究",
+          "context_position": 2316,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。光宅師〔こうたくし〕は言う。「この二つ（真諦と仏果）はともに名を絶さない。真諦には真如〔しん",
+          "context_position": 218167,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "菩提",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 17.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "未だ三秘密（身・口・意の三密）・五相成身（通達菩提心・修菩提心・成金剛心・証金剛身・仏身円満の密教成仏次第）・四種曼荼（大・三摩耶・法・羯磨の四種曼",
+          "context_position": 2675,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、と。また問うてもうさく、菩提に発趣する（菩提に向かって進む）時、心の所住の処の相続（連続）の次第にい",
+          "context_position": 4716,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "三摩",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 15.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "・リ・ロ・エ／等持を表す五字真言）の等持（とうじ／三摩地）と、制体（さい／帝釈杵）・幢（はたぼこ）",
+          "context_position": 150,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "剛身・仏身円満の密教成仏次第）・四種曼荼（大・三摩耶・法・羯磨の四種曼荼羅）・究竟真実の金剛心殿に入らず。かの人天よ",
+          "context_position": 2714,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "修行",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 15.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "門の性〕である。この道をいだく者を「沙門（修行者）」と呼ぶ。よく努めはげんで煩悩をやめさせ",
+          "context_position": 128840,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "「摩訶衍〔まかえん・大乗〕」と名づける。（以上を天台宗の修行のすがた〔修行の相〕とするのである。）  さて、この一道無為住心には、二とおり",
+          "context_position": 240878,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "般若",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 15.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "ナヤ）と阿毘達磨（論・アビダルマ）と般若（般若波羅蜜・智慧の蔵）と総持（陀羅尼・真言）等の蔵である。かく",
+          "context_position": 1243,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "・熟酥の両酥と醍醐とを順次にこれに配せよ（経＝乳、律＝酪、論＝生酥、般若＝熟酥、総持＝醍醐）。前の四蔵の薬はただ軽病を治するのみにし",
+          "context_position": 1351,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "慈悲",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "慈",
+        "悲"
+      ],
+      "kaimyo_score": 33.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "槃経』『大智度論』典故）。このゆえに大慈（仏の大いなる慈悲）はこの無量乗（さまざまな乗物＝教法）を説",
+          "context_position": 3847,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "仏智",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "仏",
+        "智"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "乗（さまざまな乗物＝教法）を説いて一切智（仏智）に入れしめたまう。もし竪（縦）に論ずれば",
+          "context_position": 3882,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "如実",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "如",
+        "実"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "為住心（いちどうむいじゅうしん）第八  （「ありのままに自分の心を知る心〔如実知自心〕」とも、「対象を立てない空のさとりの心〔空性無境心〕」とも名づける。）  さて、儒教の祖である孔子〔孔宣〕が中",
+          "context_position": 229317,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "本性",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "本",
+        "性"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "の自心に迷えるを驚覚せしめ、平等に本四曼（四種曼荼羅の本性）の、入我我入（仏我に入り我仏に入る加持の",
+          "context_position": 569,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "正法",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "正",
+        "法"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "して、八つの種類〔八類〕を明らかにする。（ただし、さきの二つの経〔『起世経』『正法念処経』〕と『瑜伽論』と『正理論』とでは、多くの違いがある。これより以下は、ただ『正法念処経』に依る。）  餓鬼をうたう嗢陀南〔うだなん・うた〕",
+          "context_position": 22165,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "蓮華",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "蓮",
+        "華"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "さい／帝釈杵）・幢（はたぼこ）・光・水生（蓮華）・貝（法螺貝）と、五鈷（ごこ）・刀・蓮華",
+          "context_position": 184,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "三宝",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "宝"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "する、第八の『嬰童心』と名づける。」  （これは、戒を守って外道の三宝〔外の三宝〕に帰依することを明かした一段である。）  これを註釈〔大日経疏〕はこう説く。─",
+          "context_position": 92238,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "仏陀",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "等の文がこれである。心病を治する術は大聖（仏陀）よく説きたまえり、その経はすなわち五蔵（",
+          "context_position": 1151,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "宝珠",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "宝"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "じ）を嘗（な）めるのみで、誰か龍宮の摩尼（マニ／如意宝珠＝龍樹が龍宮で大乗経典を得たとする伝承の譬）を獲ん。浅より深に至り、近より遠に至るま",
+          "context_position": 2536,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "心王",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "心"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "りては、これすなわち最極究竟・心王の如来（心王＝心の王者としての阿賴耶識を最終転依した如来）・大毘盧遮那（マハーヴァイローチャナ／大",
+          "context_position": 4195,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "教法",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "えに大慈（仏の大いなる慈悲）はこの無量乗（さまざまな乗物＝教法）を説いて一切智（仏智）に入れしめたまう。",
+          "context_position": 3863,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "法門",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "となし、大悲を根となし、方便を究竟となす（『大日経』住心品 三句法門）。秘密主よ、いかんが菩提とならば、いわく",
+          "context_position": 4649,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "聖王",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "聖"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "・自性法身の住処なり。もし衆生ありて輪王（転輪聖王）の種性に生まれ、大度（大いなる器量）と勇",
+          "context_position": 4265,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "一乗",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 13.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "菩薩宮（菩薩乗の境地）、九には一道無為宮（一乗清浄無為の境地）、十には秘密漫荼羅金剛界宮（密教の究極境",
+          "context_position": 1710,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "三昧",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [],
+      "kaimyo_score": 13.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "すべて統べくくる〔統収〕のである。」  （これは、もろもろの外道の世間的な禅定〔世間の三昧〕を示した一段である。）  外道〔げどう・仏教以外の教え〕には、",
+          "context_position": 95402,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "無縁慈悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "seed_sanskrit": "an-ārambaṇa-karuṇā",
+      "kaimyo_chars": [
+        "無",
+        "慈",
+        "悲"
+      ],
+      "kaimyo_score": 46.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "即身成仏",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "seed_sanskrit": "sa-deha-prāpti-buddhatva",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "智剣",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "seed_sanskrit": "jñāna-khaḍga",
+      "kaimyo_chars": [
+        "智"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "玄機",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "seed_sanskrit": "—",
+      "kaimyo_chars": [
+        "玄"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "category": "places",
   "category_description": "地名（寺院・山・国・王朝・聖地・宇宙論界）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-05-04",
+  "generated_at": "2026-05-31",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -14,18 +14,19 @@
     "hizo-houyaku",
     "dainichikyo-sho-vol1",
     "sankyo-shiki",
-    "bodaishinron"
+    "bodaishinron",
+    "jujushinron"
   ],
-  "corpora_count": 10,
-  "corpora_with_data": 10,
+  "corpora_count": 11,
+  "corpora_with_data": 11,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 71,
-    "total_occurrences": 639,
-    "terms_in_multiple_corpora": 33,
-    "max_corpus_coverage": 8,
+    "unique_terms_total": 72,
+    "total_occurrences": 876,
+    "terms_in_multiple_corpora": 36,
+    "max_corpus_coverage": 9,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -76,10 +77,106 @@
         "unique": 5,
         "occurrences": 10,
         "present": true
+      },
+      "jujushinron": {
+        "unique": 20,
+        "occurrences": 237,
+        "present": true
       }
     }
   },
   "entries": [
+    {
+      "canonical": "欲界",
+      "total_occurrence_count": 92,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "jujushinron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 3,
+        "hizo-houyaku": 5,
+        "dainichikyo-sho-vol1": 4,
+        "bodaishinron": 2,
+        "jujushinron": 70
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "三界の最下。欲望が支配する世界。"
+      }
+    },
+    {
+      "canonical": "色界",
+      "total_occurrence_count": 80,
+      "covered_corpora_count": 9,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "jujushinron",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "nikyo-ron": 1,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 4,
+        "hizo-houyaku": 6,
+        "dainichikyo-sho-vol1": 5,
+        "bodaishinron": 2,
+        "jujushinron": 54
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "三界の中。色身があるが欲望のない世界。"
+      }
+    },
+    {
+      "canonical": "無色界",
+      "total_occurrence_count": 68,
+      "covered_corpora_count": 9,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "jujushinron",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8,
+        "nikyo-ron": 1,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 2,
+        "hizo-houyaku": 5,
+        "dainichikyo-sho-vol1": 4,
+        "bodaishinron": 2,
+        "jujushinron": 43
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "三界の最上。色身のない世界。"
+      }
+    },
     {
       "canonical": "日本",
       "total_occurrence_count": 64,
@@ -110,12 +207,13 @@
     },
     {
       "canonical": "須弥山",
-      "total_occurrence_count": 30,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 50,
+      "covered_corpora_count": 9,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "sankyo-shiki",
         "shoryoshu_miyasaka",
@@ -130,7 +228,8 @@
         "hizo-houyaku": 5,
         "dainichikyo-sho-vol1": 4,
         "sankyo-shiki": 1,
-        "bodaishinron": 1
+        "bodaishinron": 1,
+        "jujushinron": 20
       },
       "metadata": {
         "subcategory": "mountain_buddhist",
@@ -139,6 +238,85 @@
           "須弥",
           "sumeru",
           "meru"
+        ]
+      }
+    },
+    {
+      "canonical": "安楽",
+      "total_occurrence_count": 38,
+      "covered_corpora_count": 7,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "jujushinron",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "sokushin-jobutsu": 2,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 8,
+        "dainichikyo-sho-vol1": 1,
+        "bodaishinron": 3,
+        "jujushinron": 16
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "極楽浄土の異称。",
+        "aliases": [
+          "安楽国"
+        ]
+      }
+    },
+    {
+      "canonical": "周",
+      "total_occurrence_count": 30,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "jujushinron",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 16,
+        "nikyo-ron": 1,
+        "hizo-houyaku": 4,
+        "dainichikyo-sho-vol1": 1,
+        "sankyo-shiki": 6,
+        "jujushinron": 2
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国古代王朝。文王・武王が建国。"
+      }
+    },
+    {
+      "canonical": "殷",
+      "total_occurrence_count": 30,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "jujushinron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 16,
+        "hizo-houyaku": 4,
+        "sankyo-shiki": 5,
+        "jujushinron": 5
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国古代王朝。湯王が建国。",
+        "aliases": [
+          "商"
         ]
       }
     },
@@ -162,164 +340,6 @@
       }
     },
     {
-      "canonical": "周",
-      "total_occurrence_count": 28,
-      "covered_corpora_count": 5,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "nikyo-ron",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 16,
-        "nikyo-ron": 1,
-        "hizo-houyaku": 4,
-        "dainichikyo-sho-vol1": 1,
-        "sankyo-shiki": 6
-      },
-      "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "中国古代王朝。文王・武王が建国。"
-      }
-    },
-    {
-      "canonical": "色界",
-      "total_occurrence_count": 26,
-      "covered_corpora_count": 8,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "nikyo-ron",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 5,
-        "nikyo-ron": 1,
-        "ujiji": 2,
-        "shoji-jisso": 1,
-        "sokushin-jobutsu": 4,
-        "hizo-houyaku": 6,
-        "dainichikyo-sho-vol1": 5,
-        "bodaishinron": 2
-      },
-      "metadata": {
-        "subcategory": "cosmological_realm",
-        "definition": "三界の中。色身があるが欲望のない世界。"
-      }
-    },
-    {
-      "canonical": "無色界",
-      "total_occurrence_count": 25,
-      "covered_corpora_count": 8,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "nikyo-ron",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 8,
-        "nikyo-ron": 1,
-        "ujiji": 2,
-        "shoji-jisso": 1,
-        "sokushin-jobutsu": 2,
-        "hizo-houyaku": 5,
-        "dainichikyo-sho-vol1": 4,
-        "bodaishinron": 2
-      },
-      "metadata": {
-        "subcategory": "cosmological_realm",
-        "definition": "三界の最上。色身のない世界。"
-      }
-    },
-    {
-      "canonical": "殷",
-      "total_occurrence_count": 25,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 16,
-        "hizo-houyaku": 4,
-        "sankyo-shiki": 5
-      },
-      "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "中国古代王朝。湯王が建国。",
-        "aliases": [
-          "商"
-        ]
-      }
-    },
-    {
-      "canonical": "欲界",
-      "total_occurrence_count": 22,
-      "covered_corpora_count": 7,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 5,
-        "ujiji": 2,
-        "shoji-jisso": 1,
-        "sokushin-jobutsu": 3,
-        "hizo-houyaku": 5,
-        "dainichikyo-sho-vol1": 4,
-        "bodaishinron": 2
-      },
-      "metadata": {
-        "subcategory": "cosmological_realm",
-        "definition": "三界の最下。欲望が支配する世界。"
-      }
-    },
-    {
-      "canonical": "安楽",
-      "total_occurrence_count": 22,
-      "covered_corpora_count": 6,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "hannya-hiken",
-        "hizo-houyaku",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "sokushin-jobutsu": 2,
-        "hannya-hiken": 1,
-        "hizo-houyaku": 8,
-        "dainichikyo-sho-vol1": 1,
-        "bodaishinron": 3
-      },
-      "metadata": {
-        "subcategory": "cosmological_realm",
-        "definition": "極楽浄土の異称。",
-        "aliases": [
-          "安楽国"
-        ]
-      }
-    },
-    {
       "canonical": "長安",
       "total_occurrence_count": 22,
       "covered_corpora_count": 1,
@@ -336,17 +356,19 @@
     },
     {
       "canonical": "夏",
-      "total_occurrence_count": 17,
-      "covered_corpora_count": 3,
+      "total_occurrence_count": 19,
+      "covered_corpora_count": 4,
       "covered_corpora": [
         "hizo-houyaku",
+        "jujushinron",
         "sankyo-shiki",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 7,
         "hizo-houyaku": 4,
-        "sankyo-shiki": 6
+        "sankyo-shiki": 6,
+        "jujushinron": 2
       },
       "metadata": {
         "subcategory": "country_dynasty",
@@ -355,15 +377,17 @@
     },
     {
       "canonical": "陳",
-      "total_occurrence_count": 17,
-      "covered_corpora_count": 2,
+      "total_occurrence_count": 19,
+      "covered_corpora_count": 3,
       "covered_corpora": [
         "hizo-houyaku",
+        "jujushinron",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 13,
-        "hizo-houyaku": 4
+        "hizo-houyaku": 4,
+        "jujushinron": 2
       },
       "metadata": {
         "subcategory": "country_dynasty",
@@ -372,21 +396,46 @@
     },
     {
       "canonical": "秦",
-      "total_occurrence_count": 15,
-      "covered_corpora_count": 3,
+      "total_occurrence_count": 16,
+      "covered_corpora_count": 4,
       "covered_corpora": [
         "hizo-houyaku",
+        "jujushinron",
         "sankyo-shiki",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 10,
         "hizo-houyaku": 2,
-        "sankyo-shiki": 3
+        "sankyo-shiki": 3,
+        "jujushinron": 1
       },
       "metadata": {
         "subcategory": "country_dynasty",
         "definition": "中国王朝。始皇帝による天下統一。"
+      }
+    },
+    {
+      "canonical": "雪山",
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 10,
+        "hizo-houyaku": 1,
+        "jujushinron": 4
+      },
+      "metadata": {
+        "subcategory": "mountain_buddhist",
+        "definition": "ヒマーラヤ山脈。仏典でしばしば言及される聖山。",
+        "aliases": [
+          "ヒマーラヤ",
+          "himālaya"
+        ]
       }
     },
     {
@@ -434,13 +483,15 @@
     },
     {
       "canonical": "震旦",
-      "total_occurrence_count": 13,
-      "covered_corpora_count": 1,
+      "total_occurrence_count": 14,
+      "covered_corpora_count": 2,
       "covered_corpora": [
+        "jujushinron",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 13
+        "shoryoshu_miyasaka": 13,
+        "jujushinron": 1
       },
       "metadata": {
         "subcategory": "country_china",
@@ -451,6 +502,69 @@
           "唐土",
           "中華",
           "華夏"
+        ]
+      }
+    },
+    {
+      "canonical": "青龍寺",
+      "total_occurrence_count": 13,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 11,
+        "jujushinron": 2
+      },
+      "metadata": {
+        "subcategory": "temple_china",
+        "definition": "長安にあった密教の中心寺院。恵果阿闍梨の住所。"
+      }
+    },
+    {
+      "canonical": "天竺",
+      "total_occurrence_count": 12,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "dainichikyo-sho-vol1": 1,
+        "jujushinron": 4
+      },
+      "metadata": {
+        "subcategory": "country_india",
+        "definition": "インドの古称。",
+        "aliases": [
+          "印度",
+          "身毒"
+        ]
+      }
+    },
+    {
+      "canonical": "兜率",
+      "total_occurrence_count": 11,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "jujushinron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6,
+        "sankyo-shiki": 1,
+        "jujushinron": 4
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "欲界第四天。弥勒菩薩の住所。",
+        "aliases": [
+          "兜率天",
+          "tuṣita"
         ]
       }
     },
@@ -469,42 +583,6 @@
       "metadata": {
         "subcategory": "province_japan",
         "definition": "奈良県。"
-      }
-    },
-    {
-      "canonical": "雪山",
-      "total_occurrence_count": 11,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 10,
-        "hizo-houyaku": 1
-      },
-      "metadata": {
-        "subcategory": "mountain_buddhist",
-        "definition": "ヒマーラヤ山脈。仏典でしばしば言及される聖山。",
-        "aliases": [
-          "ヒマーラヤ",
-          "himālaya"
-        ]
-      }
-    },
-    {
-      "canonical": "青龍寺",
-      "total_occurrence_count": 11,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 11
-      },
-      "metadata": {
-        "subcategory": "temple_china",
-        "definition": "長安にあった密教の中心寺院。恵果阿闍梨の住所。"
       }
     },
     {
@@ -575,27 +653,6 @@
       }
     },
     {
-      "canonical": "天竺",
-      "total_occurrence_count": 8,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "dainichikyo-sho-vol1": 1
-      },
-      "metadata": {
-        "subcategory": "country_india",
-        "definition": "インドの古称。",
-        "aliases": [
-          "印度",
-          "身毒"
-        ]
-      }
-    },
-    {
       "canonical": "平城",
       "total_occurrence_count": 8,
       "covered_corpora_count": 1,
@@ -647,27 +704,6 @@
       }
     },
     {
-      "canonical": "兜率",
-      "total_occurrence_count": 7,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 6,
-        "sankyo-shiki": 1
-      },
-      "metadata": {
-        "subcategory": "cosmological_realm",
-        "definition": "欲界第四天。弥勒菩薩の住所。",
-        "aliases": [
-          "兜率天",
-          "tuṣita"
-        ]
-      }
-    },
-    {
       "canonical": "崑崙",
       "total_occurrence_count": 7,
       "covered_corpora_count": 2,
@@ -715,6 +751,25 @@
       "metadata": {
         "subcategory": "temple_japan",
         "definition": "京都。東寺と並立する官寺。"
+      }
+    },
+    {
+      "canonical": "天台山",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "hizo-houyaku": 1,
+        "jujushinron": 1
+      },
+      "metadata": {
+        "subcategory": "mountain_china",
+        "definition": "浙江省。天台宗の発祥地。"
       }
     },
     {
@@ -835,20 +890,22 @@
       }
     },
     {
-      "canonical": "天台山",
+      "canonical": "阿波",
       "total_occurrence_count": 5,
-      "covered_corpora_count": 2,
+      "covered_corpora_count": 3,
       "covered_corpora": [
-        "hizo-houyaku",
+        "jujushinron",
+        "sankyo-shiki",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 4,
-        "hizo-houyaku": 1
+        "shoryoshu_miyasaka": 1,
+        "sankyo-shiki": 1,
+        "jujushinron": 3
       },
       "metadata": {
-        "subcategory": "mountain_china",
-        "definition": "浙江省。天台宗の発祥地。"
+        "subcategory": "province_japan",
+        "definition": "徳島県の旧国。"
       }
     },
     {
@@ -964,6 +1021,45 @@
       "metadata": {
         "subcategory": "country_china",
         "definition": "春秋の国。三国時代の呉も。"
+      }
+    },
+    {
+      "canonical": "隋",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "hizo-houyaku": 1,
+        "jujushinron": 1
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国王朝。唐の前。"
+      }
+    },
+    {
+      "canonical": "廬山",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "jujushinron": 1
+      },
+      "metadata": {
+        "subcategory": "mountain_china",
+        "definition": "江西省。中国の名山。",
+        "aliases": [
+          "盧山"
+        ]
       }
     },
     {
@@ -1117,40 +1213,6 @@
       }
     },
     {
-      "canonical": "阿波",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "sankyo-shiki": 1
-      },
-      "metadata": {
-        "subcategory": "province_japan",
-        "definition": "徳島県の旧国。"
-      }
-    },
-    {
-      "canonical": "隋",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "hizo-houyaku": 1
-      },
-      "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "中国王朝。唐の前。"
-      }
-    },
-    {
       "canonical": "大興善寺",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -1163,24 +1225,6 @@
       "metadata": {
         "subcategory": "temple_china",
         "definition": "長安。不空三蔵の住所。密教伝来の中心。"
-      }
-    },
-    {
-      "canonical": "廬山",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 2
-      },
-      "metadata": {
-        "subcategory": "mountain_china",
-        "definition": "江西省。中国の名山。",
-        "aliases": [
-          "盧山"
-        ]
       }
     },
     {
@@ -1372,6 +1416,25 @@
       "metadata": {
         "subcategory": "country_china",
         "definition": "三国時代の蜀。または春秋蜀。"
+      }
+    },
+    {
+      "canonical": "迦毘羅",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      },
+      "metadata": {
+        "subcategory": "sacred_site_indian",
+        "definition": "釈迦族の都。釈迦生誕地。",
+        "aliases": [
+          "迦毘羅城",
+          "kapilavastu"
+        ]
       }
     }
   ]

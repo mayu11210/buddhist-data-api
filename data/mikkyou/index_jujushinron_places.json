@@ -1,0 +1,1834 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "jujushinron.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-31",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 292975,
+  "summary": {
+    "unique_terms": 20,
+    "unique_places": 20,
+    "total_occurrences": 237,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 5,
+        "occurrences": 187
+      },
+      "country_china": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_dynasty": {
+        "unique": 6,
+        "occurrences": 13
+      },
+      "country_india": {
+        "unique": 1,
+        "occurrences": 4
+      },
+      "mountain_buddhist": {
+        "unique": 2,
+        "occurrences": 24
+      },
+      "mountain_china": {
+        "unique": 2,
+        "occurrences": 2
+      },
+      "province_japan": {
+        "unique": 1,
+        "occurrences": 3
+      },
+      "sacred_site_indian": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "temple_china": {
+        "unique": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "欲界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最下。欲望が支配する世界。",
+      "matched_forms": [
+        {
+          "form": "欲界",
+          "count": 70
+        }
+      ],
+      "occurrence_count": 70,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "に、心は邪な道を歩み、苦しみの因〔苦因〕ばかりを重ね、三界〔欲界・色界・無色界〕に執着〔恋著〕して、かたく握って捨てない。そ",
+          "context_position": 7559,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ときには、地がおのずから開いて閉じる。彼らは命を終えると必ず欲界の天〔欲天〕に生まれる。死体を道に運んでも悲しみ泣く者はいな",
+          "context_position": 15151,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の境涯〔五趣・地獄餓鬼畜生人天〕を明らかにする。五趣は三界〔欲界・色界・無色界〕にまたがっている。  『正理論』はこう説く。",
+          "context_position": 15865,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、天の一部分とがある。天の一部分とは、六欲天〔ろくよくてん・欲界の六つの天〕のことである。世界という器〔器世界〕とそこに住む",
+          "context_position": 15960,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "という器〔器世界〕とそこに住む生きもの〔有情〕とを合わせて「欲界」と名づける。この欲界には、合わせて二十の場所〔二十処〕があ",
+          "context_position": 16007,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "こに住む生きもの〔有情〕とを合わせて「欲界」と名づける。この欲界には、合わせて二十の場所〔二十処〕がある。地獄と大陸〔洲〕の",
+          "context_position": 16018,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "器世界〕についていえば、下は風の層〔風輪〕に至るまで、これが欲界の範囲〔摂〕である。  三界のなかに五つの境涯があるという点",
+          "context_position": 16232,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。  三界のなかに五つの境涯があるという点を説くなら、ただ欲界にだけ四つの境涯〔四趣〕がすべてそろい、三界にはそれぞれ天の",
+          "context_position": 16272,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "は、大海のなかに住む羅睺阿修羅王〔らごあしゅらおう〕である。欲界のなかで身を大きくも小さくも変じ〔身を大小に化す〕、思いのま",
+          "context_position": 29900,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "・禅定による修行〕の場合もある。いずれにせよ三界〔さんがい・欲界・色界・無色界〕に生まれる因となる。かの経に説くように。  ",
+          "context_position": 63037,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "し〕であるとは、静慮と尋〔じん・粗い思惟〕とに依るという。 欲界〔よっかい〕の人と天と、色界〔しきかい〕の静慮の天と、 無色",
+          "context_position": 96041,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "論者とは、七事断滅〔しちじだんめつ〕を計する者たちである。「欲界〔よっかい〕の人と天、色界〔しきかい〕の四静慮の粗い四大の色",
+          "context_position": 98427,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "「世俗の無間道〔むけんどう・煩悩を断つ瞬間の心〕では、総じて欲界の粗く〔麁〕、苦しく〔苦〕、障りある〔障〕という三つのうちど",
+          "context_position": 100124,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "述べる。  天には二十八種あり、大きく三つに分けられる。一に欲界〔よくかい〕の天、二に色界〔しきかい〕の天、三に無色界〔むし",
+          "context_position": 101353,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔そうじゅ・全体のうた〕  欲・色・無色の三界の天のうち、 欲界には六天、色界には十八天、 無色界の天には四種ある。 魔波旬",
+          "context_position": 101435,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "八天、 無色界の天には四種ある。 魔波旬天〔まはじゅんてん・欲界の頂に住む魔王〕は欲界の頂点に在る。 日・月・星などの天〔遊",
+          "context_position": 101477,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "四種ある。 魔波旬天〔まはじゅんてん・欲界の頂に住む魔王〕は欲界の頂点に在る。 日・月・星などの天〔遊空天〕は 四天王天に統",
+          "context_position": 101488,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "天〔遊空天〕は 四天王天に統括され、風に乗って廻転する。  欲界九天の因の頌〔じゅ〕（四天王天のうちに日・月・星の三天を分け",
+          "context_position": 101536,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "・他化自在天〔たけじざいてん〕に生まれる。 このような九種の欲界の天は、 いずれも三×三、十善の行業から生まれてくる。  六",
+          "context_position": 101776,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "化楽・他化自在〕の寿命も 重ねて倍増していくと知るべきだ。 欲界の六天の天人はいずれも染まった心〔染心・性的欲求〕をもつ。 ",
+          "context_position": 102137,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "を成じ、 他化自在天は互いに見つめ合うだけで婬を成じる。  欲界の六天の海を去る数量の伽陀〔がだ・うた〕  四天王天は海面か",
+          "context_position": 102308,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "十四万由旬、 他化自在天は百二十八万由旬、 このような六つの欲界天は 海を去ること、一つずつ倍になっている。 はじめの二天〔",
+          "context_position": 102441,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ん〕、 後の四天は雲を大地として住む〔空居天〕。  はじめに欲界の六天を示す。一は四天王天、二は忉利天（以上の二つを地居天と",
+          "context_position": 102520,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "自在に転じていく。「他化〔他を化す〕」と呼ばれる所以である。欲界の最頂に位置する天〔欲界頂〕である。もし迷いのなかに生きる人",
+          "context_position": 106822,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔他を化す〕」と呼ばれる所以である。欲界の最頂に位置する天〔欲界頂〕である。もし迷いのなかに生きる人々が、上の上品の十善を修",
+          "context_position": 106834,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "とで、二つずつ倍になっていく数である〔初後二二倍数〕。  　欲界の四天〔忉利天・夜摩天・都支多天・化楽天・他化自在天〕と、 ",
+          "context_position": 109042,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "く前進して、そこでの禅定〔定〕を引き起こさせる。もし下の地〔欲界〕の煩悩をまだ離れていなければ、必ず上の地には生まれることが",
+          "context_position": 109388,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "起こすときには、上の二縁〔因力と業力〕と法爾力とによる。もし欲界に生まれながら上の禅定〔上定〕を起こすときには、それぞれに応",
+          "context_position": 109622,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、世俗の無間道〔むけんどう・煩悩を断つ智慧の働き〕においては欲界の煩悩〔有漏〕を対象に、粗さ・苦しさ・障りという三つの特徴〔",
+          "context_position": 110671,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "して喜び求める修行をする。こうして離生喜楽〔りしょうきらく・欲界を離れて生じる喜びと楽しみ〕の下品〔かほん・下の段階〕に相応",
+          "context_position": 110854,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "は、初静慮の世俗道〔せぞくどう・世間的な修行の道〕によって、欲界の煩悩のうち粗さ・苦しさ・障りという三つのいずれかを観察して",
+          "context_position": 111162,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "まれるには、第二静慮の近分によって、世俗の無間道において下の欲界の煩悩のうち粗さという三つの特徴〔麁の三〕のいずれかを観察し",
+          "context_position": 111955,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "まれるには、第二静慮の近分によって、世俗の無間道において下の欲界の煩悩のうち粗さという三つのいずれかを観察して厭い離れ、解脱",
+          "context_position": 112307,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。地は宝雲でできている。凡夫などがここに生まれるには、下の欲界の煩悩を厭い離れ、粗さ・苦しさ・障りという三つのいずれかを観",
+          "context_position": 112953,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。地は宝雲でできている。凡夫などがここに生まれるには、下の欲界の煩悩を厭い離れ、粗さという三つのいずれかを観察し、第三禅の",
+          "context_position": 113292,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。地は宝雲でできている。凡夫などがここに生まれるには、下の欲界の煩悩を厭い離れ、第三禅の五支の静慮を求める。離喜楽定の上品",
+          "context_position": 113602,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。凡夫などがここに生まれるには、第四静慮の近分によって、下の欲界の煩悩を厭い離れ、粗さという三つのいずれかを観察する。第四禅",
+          "context_position": 114300,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。凡夫などがここに生まれるには、第四静慮の近分によって、下の欲界の煩悩を厭い離れ、粗さという三つのいずれかを観察する。第四禅",
+          "context_position": 114590,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "と同じである。しかしここが問題で、その天から没した後には必ず欲界〔よっかい〕に生まれ、五趣〔ごしゅ・地獄・餓鬼・畜生・人・天",
+          "context_position": 115036,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の大災害〔三災・火水風〕によっても壊されないからである。もし欲界に生まれている者が無色定を起こすときは、この二つに加えて、教",
+          "context_position": 117578,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "界すべてを対象とする〔三界を縁ず〕ものである。中品の忍とは、欲界・色界・無色界の聖なる真理の観じかたをしだいに減らし簡略にし",
+          "context_position": 128490,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "たをしだいに減らし簡略にしていって、ついに二念だけ、すなわち欲界の苦諦の対象〔欲の苦諦の境〕にまで縮めるものである。上品の忍",
+          "context_position": 128539,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔せだいいっぽう・世間で最高の位〕」とは、上品の忍と同じく、欲界の苦の一つの観じかただけ、ただ一瞬である。同類の原因〔同類因",
+          "context_position": 128682,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "悩を息む〕からである。「須陀洹〔しゅだおん・預流果〕」とは、欲界の苦という聖なる真理の対象を観じて、煩悩のない智慧の忍〔無漏",
+          "context_position": 128902,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "入った果）」と名づける。「斯陀含〔しだごん・一来果〕」とは、欲界の修行で断つべき迷い〔修惑〕を、一つから六つまで断ったもので",
+          "context_position": 129002,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "で「一来果」と名づける。「阿那含〔あなごん・不還果〕」とは、欲界の九段階の迷い〔欲の九品〕を断ったもので、この種類に七つあり",
+          "context_position": 129114,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "界に進むものに五つ、無色界に進むものに四つある。かならずもう欲界に還ってこない〔還来せず〕ので「不還果」と名づける。「阿羅漢",
+          "context_position": 129178,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ぶん・各禅定に入る手前の境地〕・中間定〔ちゅうかんじょう〕・欲界〔よっかい〕の十地である。その対象〔所縁〕は、ただ欲界で見る",
+          "context_position": 135725,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "う〕・欲界〔よっかい〕の十地である。その対象〔所縁〕は、ただ欲界で見ることのできる色や形〔顕形〕だけを対象とする。このことか",
+          "context_position": 135752,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕を具える。中品ではしだいに減らして簡略にしていく。上品では欲界の苦諦だけを観ずる。世第一法と隣接するからである。  　「世",
+          "context_position": 138876,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。この法もまた智慧をもってその自性とする。上品の忍と同じく、欲界の苦諦を縁じて一つの観じかた〔一行相〕を修する。ただ一刹那だ",
+          "context_position": 139020,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "至定〔みしじょう〕と中間定〔ちゅうかんじょう〕の六つである。欲界の中には等引〔とうびき・禅定に等しく引き入れられる状態〕が欠",
+          "context_position": 139358,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "しく引き入れられる状態〕が欠けているから〔等引無きが故に〕、欲界では起こせない。無色界にも生じない。煗等の四善根には「見道の",
+          "context_position": 139406,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "眷属〔けんどうのけんぞく〕」がないからである。また無色界には欲界を縁じることがない。だから見道もない。見道においては欲界の苦",
+          "context_position": 139468,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "には欲界を縁じることがない。だから見道もない。見道においては欲界の苦をまず遍知すべきだからであり、欲界の集をまず断ずべきだか",
+          "context_position": 139496,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "もない。見道においては欲界の苦をまず遍知すべきだからであり、欲界の集をまず断ずべきだからである。  　この四善根は煩悩を伴う",
+          "context_position": 139515,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "象に迷って起こる四種の煩悩は、貪・恚・慢・無明である。  　欲界では以上をまとめると三十六種ある。色界では恚〔怒り〕を除いて",
+          "context_position": 140990,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "無色界もそのとおりで三十一種ある。事象に迷う煩悩〔修惑〕は、欲界には四種を具える。色界・無色界の上二界にはそれぞれ三種あり、",
+          "context_position": 141141,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "諦〕の十六の観行を修していく。それがしだいに略されて、ついに欲界の苦〔苦諦〕だけを観ずるまでに縮まる。次に、世第一法の一刹那",
+          "context_position": 142030,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ろの利根の者が転じて「見至〔けんじ〕」と名づけられる。  　欲界の修行で断つべき迷い〔修惑〕には九品ある。色界の初禅には九品",
+          "context_position": 142834,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "上の上品などの失〔煩悩〕はすでに消えているからである。  　欲界の修惑九品の中で、未至定〔みちじょう〕に依って初めの一品から",
+          "context_position": 143153,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "とは、ただ下品の三品の迷いだけが残っているからである。  　欲界の迷い〔欲界の惑〕の七品・八品を断じた者を「阿那含向〔あなご",
+          "context_position": 143389,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "品の三品の迷いだけが残っているからである。  　欲界の迷い〔欲界の惑〕の七品・八品を断じた者を「阿那含向〔あなごんこう・不還",
+          "context_position": 143395,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "還果〕」を証する。漢訳では「不還〔ふかん〕」という。必ずもう欲界に還ってきて生まれることがないからである。また「五下結断〔ご",
+          "context_position": 143504,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "有漏心の所厭に非ず〕からである。それゆえ、まず不還果に至って欲界の惑を尽くし、そののちに無漏の道によって独覚の果を成じるので",
+          "context_position": 159532,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "れた依り所〔最勝の依〕に托して見道に入るがゆえである。また、欲界の善い境涯の身〔欲界の善趣の身〕に依ってのみ起こされる。その",
+          "context_position": 175863,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕に托して見道に入るがゆえである。また、欲界の善い境涯の身〔欲界の善趣の身〕に依ってのみ起こされる。その他の身は、智慧と厭離",
+          "context_position": 175873,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔極欣〕であるから上の二つの界〔色界・無色界〕でもない。ただ欲界の人間と天においてのみ、仏が世に出現して現観〔修行の現前の観",
+          "context_position": 176010,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "なわち、衆生界〔しゅじょうかい〕・法界・世界・虚空界・識界・欲界・色界・無色界・広大信解界〔こうだいしんげかい〕・大心信解界",
+          "context_position": 185414,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "男女いずれでもない者でもない〔不男女に非ず〕。秘密主よ、心は欲界とも色界とも無色界とも同じ性質〔同性〕ではない。天・竜・夜叉",
+          "context_position": 231793,
+          "matched_form": "欲界"
+        }
+      ]
+    },
+    {
+      "canonical": "色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の中。色身があるが欲望のない世界。",
+      "matched_forms": [
+        {
+          "form": "色界",
+          "count": 54
+        }
+      ],
+      "occurrence_count": 54,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "は邪な道を歩み、苦しみの因〔苦因〕ばかりを重ね、三界〔欲界・色界・無色界〕に執着〔恋著〕して、かたく握って捨てない。そこから",
+          "context_position": 7562,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔五趣・地獄餓鬼畜生人天〕を明らかにする。五趣は三界〔欲界・色界・無色界〕にまたがっている。  『正理論』はこう説く。地獄〔",
+          "context_position": 15868,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "による修行〕の場合もある。いずれにせよ三界〔さんがい・欲界・色界・無色界〕に生まれる因となる。かの経に説くように。  『華厳",
+          "context_position": 63040,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の悪い行い〔前の因〕を償い終えて生じ、四つの禅定の天〔四禅・色界の四段階〕の楽しみという報いは、いまのよい縁〔今の縁〕に感じ",
+          "context_position": 91614,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ん・粗い思惟〕とに依るという。 欲界〔よっかい〕の人と天と、色界〔しきかい〕の静慮の天と、 無色界〔むしきかい〕の細なる色〔",
+          "context_position": 96055,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "だんめつ〕を計する者たちである。「欲界〔よっかい〕の人と天、色界〔しきかい〕の四静慮の粗い四大の色〔しきみ〕は、病のようであ",
+          "context_position": 98440,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "のことである。  地に繋がれた定〔地繋〕には八つある。四禅〔色界四静慮〕と四空〔無色界四処〕である。界に繋がれた定〔界繋〕に",
+          "context_position": 99931,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "空〔無色界四処〕である。界に繋がれた定〔界繋〕には二つある。色界の定と無色界の定とである。差別は数多くあるが、ここでは凡夫〔",
+          "context_position": 99969,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "定〔根本定〕に入る。受け取る体験〔受〕に違いがないからだ。」色界の四静慮だけが、十四種の変化させる心〔能化の十四心〕をもつ。",
+          "context_position": 101078,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "あり、大きく三つに分けられる。一に欲界〔よくかい〕の天、二に色界〔しきかい〕の天、三に無色界〔むしきかい〕の天である。  三",
+          "context_position": 101366,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "体のうた〕  欲・色・無色の三界の天のうち、 欲界には六天、色界には十八天、 無色界の天には四種ある。 魔波旬天〔まはじゅん",
+          "context_position": 101442,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "経』にこう説かれている。──他化自在天の上、初禅〔しょぜん・色界の初段階の禅定の天〕の下に、魔波旬〔まはじゅん・悪魔の主〕の",
+          "context_position": 107080,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "て統括されるため、改めて別に立てることはしない。  第二に、色界〔しきかい〕について明かす。  色界四禅十八天の伽陀〔がだ・",
+          "context_position": 107220,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "とはしない。  第二に、色界〔しきかい〕について明かす。  色界四禅十八天の伽陀〔がだ・偈の詩〕  　色界の十八の諸天は、す",
+          "context_position": 107238,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ついて明かす。  色界四禅十八天の伽陀〔がだ・偈の詩〕  　色界の十八の諸天は、すべて三種の因縁によって生まれる。 　梵衆天",
+          "context_position": 107259,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕と大梵天〔だいぼんてん〕と、 　この三天を初禅〔しょぜん・色界第一禅〕と名づける。 　宝雲を地とし、天女〔てんにょ〕はいな",
+          "context_position": 107339,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "と名づける。 　宝雲を地とし、天女〔てんにょ〕はいない。 　色界の天のなかには昼と夜の区別がない。 　身の丈は半踰繕那・一踰",
+          "context_position": 107375,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "う〕・一劫・一劫半である。  　第二静慮〔だいにじょうりょ・色界第二禅〕──少光天〔しょうこうてん〕・無量光天〔むりょうこう",
+          "context_position": 107460,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "逸であるかないかによる。  　第三静慮〔だいさんじょうりょ・色界第三禅〕──少浄天〔しょうじょうてん〕・無量浄天〔むりょうじ",
+          "context_position": 107720,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "・六十四踰繕那の量である。  　第四静慮〔だいしじょうりょ・色界第四禅〕──無雲天〔むうんてん〕・福生天〔ふくしょうてん〕・",
+          "context_position": 107874,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、および定とが、 　次のように二禅と四禅との四支をなす。  色界十八天の海を去る量の伽陀〔がだ〕  　二百五十六万〔踰繕那〕",
+          "context_position": 108386,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "四天〔忉利天・夜摩天・都支多天・化楽天・他化自在天〕と、 　色界の初禅・二禅・三禅の諸天とは宝雲を地としているが、 　四禅の",
+          "context_position": 109075,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "それがない。  『正理論』の第八十巻にこう説かれている。──色界に生まれる者には、三つの縁があるからである。一には因力〔いん",
+          "context_position": 109140,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。二には業力〔ごうりき〕による。これは、以前にすでに上の地〔色界のより上の段階〕の生を感じさせるべき順後受業〔じゅんごじゅご",
+          "context_position": 109265,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ろの善法がすべて法爾力によって盛んに増大するからである。  色界に生まれて住みながら静慮を起こすときには、上の二縁〔因力と業",
+          "context_position": 109577,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ことである。  『倶舎論』の第十一巻にこう説かれている。──色界の天衆は、初めて生まれるとき、身の量がまとまり整って〔身量周",
+          "context_position": 109794,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "葉は中インド〔中印度〕の語と同じである。またこうも説く。──色界の天のなかには昼と夜の区別はない。ただ劫の数〔劫数〕によって",
+          "context_position": 109905,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "千踰繕那であれば、寿量もまた同じく一万六千劫である。  まず色界の禅定天〔静慮天・じょうりょてん〕の名を一覧する。以下、その",
+          "context_position": 110061,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "本定と次の段階の間にある特殊な禅定〕を獲得したことによって、色界の中で最初に生まれ、そのために最後に没する」と。身の丈は一踰",
+          "context_position": 111487,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "。色究竟天とはどういう天か。『正理論』にこう説かれている。「色界の有色の世界において、これをさらに超えることができるものはも",
+          "context_position": 116525,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "十五の心を経て究竟〔くきょう・最高の境地〕に生まれる。これが色界〔しきかい〕の頂点である。この上には物質的な形あるものがない",
+          "context_position": 116755,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "くるように。  『正理論〔順正理論〕』巻八十にこう説く。──色界・無色界に生まれるには、おおむね二つの縁がある。一つは因の力",
+          "context_position": 117384,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕による。くわしくは前に引いたとおりである。すでに上の二界〔色界・無色界〕に生きているものが無色の禅定〔無色定〕を起こすのは",
+          "context_position": 117462,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "小乗で説が分かれる。『起世経』には「阿迦尼吒天〔あかにった・色界最上の色究竟天〕の上に、さらに諸天があり、空無辺処などと名づ",
+          "context_position": 117711,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "う。『阿含経』には「舎利弗〔しゃりほつ〕が涅槃に入ったとき、色界・無色界の天が空中で、春の細かい雨のように涙を流した。波闍波",
+          "context_position": 118229,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "た。波闍波提〔はじゃはだい・釈尊の養母〕が涅槃に入ったとき、色界・無色界の天が仏のかたわらにずらりと立っていた」とある。そし",
+          "context_position": 118286,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の色〕が有って、あらゆるものを変じうる」とあり、巻五十四に「色界・無色界の天が、身を万億に変じて、ともに毛先〔毛端〕に立った",
+          "context_position": 118458,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ば以上のとおりである。もし「物質は無い」というなら、無色界は色界・無色界の二界のうちにあってよいし、「物質が有る」と認めるな",
+          "context_position": 118619,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "界のうちにあってよいし、「物質が有る」と認めるなら、無色界が色界の上に在ることを、なんで妨げよう。  無色界のなかの天の境地",
+          "context_position": 118657,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "てを対象とする〔三界を縁ず〕ものである。中品の忍とは、欲界・色界・無色界の聖なる真理の観じかたをしだいに減らし簡略にしていっ",
+          "context_position": 128493,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "九段階の迷い〔欲の九品〕を断ったもので、この種類に七つあり、色界に進むものに五つ、無色界に進むものに四つある。かならずもう欲",
+          "context_position": 129147,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "である。  　この四善根は煩悩を伴うもの〔有漏〕であるから、色界の五蘊の異熟〔いじゅく・業の果報として受けるもの〕を感得する",
+          "context_position": 139559,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。だから『涅槃経』にこう言う。「この法の報として得るものは色界の五蘊である。」ただし「助け満たす因〔助満の因〕」として円満",
+          "context_position": 139626,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "慢・無明である。  　欲界では以上をまとめると三十六種ある。色界では恚〔怒り〕を除いて三十一種ある。なぜかといえば、色界は禅",
+          "context_position": 141009,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。色界では恚〔怒り〕を除いて三十一種ある。なぜかといえば、色界は禅定の境地〔定地〕であって、心がみな柔らかく穏やかであり〔",
+          "context_position": 141037,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "十一種ある。事象に迷う煩悩〔修惑〕は、欲界には四種を具える。色界・無色界の上二界にはそれぞれ三種あり、恚を除いて〔計六種〕あ",
+          "context_position": 141152,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "られる。  　欲界の修行で断つべき迷い〔修惑〕には九品ある。色界の初禅には九品ある。乃至、非想（非想非非想処）にも九品ある。",
+          "context_position": 142857,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "慧〔ぎょうえ〕、七には楽定〔ぎょうじょう〕である。楽慧とは、色界の浄居天〔じょうごてん〕に生まれることであり、五那含〔ごなご",
+          "context_position": 143659,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "とであり、五那含〔ごなごん・五種の不還果〕がある。楽定とは、色界の迷いを断じて無色界に生まれることであり、これを「上流〔じょ",
+          "context_position": 143709,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "れることであり、これを「上流〔じょうる〕」という。  　かの色界の迷いの初品を断じてから、非想非非想処の第九品の「さえぎりの",
+          "context_position": 143754,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ではない。はなはだしく喜ぶ身〔極欣〕であるから上の二つの界〔色界・無色界〕でもない。ただ欲界の人間と天においてのみ、仏が世に",
+          "context_position": 175996,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、衆生界〔しゅじょうかい〕・法界・世界・虚空界・識界・欲界・色界・無色界・広大信解界〔こうだいしんげかい〕・大心信解界〔だい",
+          "context_position": 185417,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "れでもない者でもない〔不男女に非ず〕。秘密主よ、心は欲界とも色界とも無色界とも同じ性質〔同性〕ではない。天・竜・夜叉・乾闥婆",
+          "context_position": 231797,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "言は、毘盧遮那仏〔大日如来〕が色究竟天〔しきくっきょうてん・色界の最高天〕において、帝釈天〔インドラ〕およびもろもろの天衆の",
+          "context_position": 267790,
+          "matched_form": "色界"
+        }
+      ]
+    },
+    {
+      "canonical": "無色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最上。色身のない世界。",
+      "matched_forms": [
+        {
+          "form": "無色界",
+          "count": 43
+        }
+      ],
+      "occurrence_count": 43,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "道を歩み、苦しみの因〔苦因〕ばかりを重ね、三界〔欲界・色界・無色界〕に執着〔恋著〕して、かたく握って捨てない。そこからこの名が",
+          "context_position": 7565,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "・地獄餓鬼畜生人天〕を明らかにする。五趣は三界〔欲界・色界・無色界〕にまたがっている。  『正理論』はこう説く。地獄〔那落迦〕",
+          "context_position": 15871,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "修行〕の場合もある。いずれにせよ三界〔さんがい・欲界・色界・無色界〕に生まれる因となる。かの経に説くように。  『華厳経』に説",
+          "context_position": 63043,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "欲界〔よっかい〕の人と天と、色界〔しきかい〕の静慮の天と、 無色界〔むしきかい〕の細なる色〔しきみ〕とは、断滅〔だんめつ〕して",
+          "context_position": 96071,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "病のようであり、矢のようなものだ。四無色処〔しむしきしょ・四無色界〕の細なる色は、癰〔よう・化膿した腫れ物〕のようなものだ。も",
+          "context_position": 98496,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "に繋がれた定〔地繋〕には八つある。四禅〔色界四静慮〕と四空〔無色界四処〕である。界に繋がれた定〔界繋〕には二つある。色界の定と",
+          "context_position": 99941,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "四処〕である。界に繋がれた定〔界繋〕には二つある。色界の定と無色界の定とである。差別は数多くあるが、ここでは凡夫〔異生〕の場合",
+          "context_position": 99974,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "・下の三品の因に従って、それぞれ三つの天処に生まれる。」  無色界〔むしきかい〕の定は、処〔住処〕の別によって四つある。『倶舎",
+          "context_position": 100822,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の四静慮だけが、十四種の変化させる心〔能化の十四心〕をもつ。無色界の定には定はあるが神通力〔通〕がないからである。  次に、三",
+          "context_position": 101110,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。一に欲界〔よくかい〕の天、二に色界〔しきかい〕の天、三に無色界〔むしきかい〕の天である。  三界の諸天の総頌〔そうじゅ・全",
+          "context_position": 101379,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "色・無色の三界の天のうち、 欲界には六天、色界には十八天、 無色界の天には四種ある。 魔波旬天〔まはじゅんてん・欲界の頂に住む",
+          "context_position": 101451,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "的な形あるものがない〔上には色無き〕からである。  第三に、無色界〔むしきかい・物質をもたない最上の世界〕について明かす。（以",
+          "context_position": 116807,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "明かす。（以下も、ただ凡夫〔異生〕の場合のみを述べる。）  無色界の天をうたう偈〔伽陀・がた〕  　空無辺処と識無辺処と無所有",
+          "context_position": 116864,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "識・無所・非非想〕── 　この四つの境地〔四処〕を、まとめて無色界と名づける。 　空・識・無所有の三処へは、それぞれの入り口の",
+          "context_position": 116939,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "うに。  『正理論〔順正理論〕』巻八十にこう説く。──色界・無色界に生まれるには、おおむね二つの縁がある。一つは因の力〔因力〕",
+          "context_position": 117387,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。くわしくは前に引いたとおりである。すでに上の二界〔色界・無色界〕に生きているものが無色の禅定〔無色定〕を起こすのは、因と業",
+          "context_position": 117465,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "えの力〔教力〕にもよる。これも上に準じて知るべきである。  無色界がどこに在るのか〔所居〕、また物質〔色〕が有るのか無いのかに",
+          "context_position": 117640,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "」とある。また『正理論』の引く経部師〔けいぶし〕の説では、「無色界には、心などが連続して相続するだけで、それを支える別のよりど",
+          "context_position": 117775,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "よりどころ〔別の依〕はない」という。上座部〔じょうざぶ〕は「無色界では、心と心のはたらき〔心所〕とが互いに支えあう。ちょうど三",
+          "context_position": 117835,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "うなものだ」という。『倶舎論』の引く説一切有部〔一切有〕は「無色界には、そもそも場所〔処〕がない。無色の法には方角や場所〔方所",
+          "context_position": 117921,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕とに支えられて相続できる」と説く。大衆部〔だいしゅぶ〕は「無色界にも、微細な物質の身〔細の色身〕がある」という。『阿含経』に",
+          "context_position": 118174,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "阿含経』には「舎利弗〔しゃりほつ〕が涅槃に入ったとき、色界・無色界の天が空中で、春の細かい雨のように涙を流した。波闍波提〔はじ",
+          "context_position": 118232,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "闍波提〔はじゃはだい・釈尊の養母〕が涅槃に入ったとき、色界・無色界の天が仏のかたわらにずらりと立っていた」とある。そして大乗の",
+          "context_position": 118289,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "らにずらりと立っていた」とある。そして大乗の唯識論などでは、無色界に、禅定の力で現す物質〔定果の色〕は有るが、業の報いとしての",
+          "context_position": 118330,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "質〔通果の色〕は無い、と認める。だから『瑜伽論』巻五十三に「無色界には、禅定の境地としての物質〔定境の色〕が有って、あらゆるも",
+          "context_position": 118408,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "が有って、あらゆるものを変じうる」とあり、巻五十四に「色界・無色界の天が、身を万億に変じて、ともに毛先〔毛端〕に立った」とある",
+          "context_position": 118461,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "に毛先〔毛端〕に立った」とある。『華厳経』には「菩薩の鼻は、無色界の宮殿の香りをかぐ」とあり、『仁王経』には「無色界の諸天がま",
+          "context_position": 118509,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "薩の鼻は、無色界の宮殿の香りをかぐ」とあり、『仁王経』には「無色界の諸天がまき散らす華は須弥山ほどもあり、香りは車輪ほどもある",
+          "context_position": 118534,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "しく引けば以上のとおりである。もし「物質は無い」というなら、無色界は色界・無色界の二界のうちにあってよいし、「物質が有る」と認",
+          "context_position": 118615,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "のとおりである。もし「物質は無い」というなら、無色界は色界・無色界の二界のうちにあってよいし、「物質が有る」と認めるなら、無色",
+          "context_position": 118622,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "色界の二界のうちにあってよいし、「物質が有る」と認めるなら、無色界が色界の上に在ることを、なんで妨げよう。  無色界のなかの天",
+          "context_position": 118653,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "めるなら、無色界が色界の上に在ることを、なんで妨げよう。  無色界のなかの天の境地〔天処〕には、四つある。一つは空無辺処天、二",
+          "context_position": 118678,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "象とする〔三界を縁ず〕ものである。中品の忍とは、欲界・色界・無色界の聖なる真理の観じかたをしだいに減らし簡略にしていって、つい",
+          "context_position": 128496,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕を断ったもので、この種類に七つあり、色界に進むものに五つ、無色界に進むものに四つある。かならずもう欲界に還ってこない〔還来せ",
+          "context_position": 129158,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "態〕が欠けているから〔等引無きが故に〕、欲界では起こせない。無色界にも生じない。煗等の四善根には「見道の眷属〔けんどうのけんぞ",
+          "context_position": 139416,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "は「見道の眷属〔けんどうのけんぞく〕」がないからである。また無色界には欲界を縁じることがない。だから見道もない。見道においては",
+          "context_position": 139463,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "うな出来事〔違情の事〕がない。だから恚を起こさないのである。無色界もそのとおりで三十一種ある。事象に迷う煩悩〔修惑〕は、欲界に",
+          "context_position": 141111,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ある。事象に迷う煩悩〔修惑〕は、欲界には四種を具える。色界・無色界の上二界にはそれぞれ三種あり、恚を除いて〔計六種〕ある。した",
+          "context_position": 141155,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ごなごん・五種の不還果〕がある。楽定とは、色界の迷いを断じて無色界に生まれることであり、これを「上流〔じょうる〕」という。  ",
+          "context_position": 143718,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "まだ凡夫である位〔凡夫位〕のうちに、無所有処〔むしょうしょ・無色界の第三天〕より下のもろもろの迷い〔無所有処已下の諸惑〕を、先",
+          "context_position": 154835,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "い。はなはだしく喜ぶ身〔極欣〕であるから上の二つの界〔色界・無色界〕でもない。ただ欲界の人間と天においてのみ、仏が世に出現して",
+          "context_position": 175999,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "界〔しゅじょうかい〕・法界・世界・虚空界・識界・欲界・色界・無色界・広大信解界〔こうだいしんげかい〕・大心信解界〔だいしんしん",
+          "context_position": 185420,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "い者でもない〔不男女に非ず〕。秘密主よ、心は欲界とも色界とも無色界とも同じ性質〔同性〕ではない。天・竜・夜叉・乾闥婆〔けんだつ",
+          "context_position": 231801,
+          "matched_form": "無色界"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 20
+        }
+      ],
+      "occurrence_count": 20,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "九つの山と八つの海をうたう頌〔九山八海の頌〕—— 　妙高山〔須弥山〕は〔水上に〕十六万〔由旬〕、 　持双山・持軸山〔双・軸〕が",
+          "context_position": 10172,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "な山があり、山と山の間に八つの海があることをいう。妙高山王〔須弥山〕が中央にあってとどまり、残りの八つの山がそのまわりをぐるり",
+          "context_position": 10437,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "および鬼〔餓鬼〕・畜生などの住む所である。このように、一つの須弥山・一つの日月・一つの四洲などを一つの単位〔一数〕として、千あ",
+          "context_position": 15422,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の蓮華〕の、一枚の花びらにあたる。一枚の花びらの中に、百億の須弥山と百億の日月と百億の四天下〔四洲〕がある。このように千枚の花",
+          "context_position": 15616,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "く生まれては老いていく。  注釈していう。『起世経』にいう。須弥山〔しゅみせん〕の東に千由旬を過ぎて、大海の下に鞞摩質多羅阿修",
+          "context_position": 29470,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "よろいかぶと〕とし、その光明はきらきらと輝いて〔晃昱〕、身は須弥山のようである。珠宝の光明は青・黄・赤・黒である。心は大いに高",
+          "context_position": 30016,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "尊くおごそかで〔威徳尊厳〕、よく耐え忍ぶこと〔忍辱〕　大地や須弥山のようである。   その性質は鋭くはげしく〔猛厲〕、すばやく",
+          "context_position": 81415,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "がたく深い心〔探心〕は海のよう、苦楽によって動かされないこと須弥山王のようで、風も揺るがすことができない。もろもろのすぐれた宝",
+          "context_position": 90653,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "層級について明かす。  『倶舎論』にこう説かれている。──「須弥山〔すみせん・蘇迷慮山〕には四つの層級がある。水際〔みなきわ〕",
+          "context_position": 102740,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "』にこう説かれている。──「日・月・もろもろの星〔衆星〕は、須弥山〔妙高山〕の中腹〔なかば〕の高さに位置し、風に依って住する。",
+          "context_position": 103434,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "じょうりき・積み重ねた業の力〕によって、共に風を引き起こし、須弥山〔妙高山〕を周って虚空中を旋回し、日などを運び持って落下しな",
+          "context_position": 103513,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "に住む者〕ならば日月などの宮に住み、地居天〔じごてん〕ならば須弥山の層級に住む。七金山の上にも天の住処があり、それは四天王の管",
+          "context_position": 103845,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、四大王天について。  『起世経』にこう説かれている。──「須弥山〔妙高山〕の中腹の東面には、提頭頼吒天王〔だいずらいたてんの",
+          "context_position": 103948,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "そのなかに生まれる。  『倶舎論』にこう説かれている。──「須弥山〔蘇迷盧山〕の第四層級は、海を去ること四万千由旬の高さにあり",
+          "context_position": 104317,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "三十三天の諸天は、宇宙の中心にそびえる大山〔蘇迷盧・すみれ／須弥山〕の頂に住んでいる。その頂上の四面はそれぞれ八十千踰繕那の広",
+          "context_position": 104827,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "をかぐ」とあり、『仁王経』には「無色界の諸天がまき散らす華は須弥山ほどもあり、香りは車輪ほどもある」とある。論師たちの説の違い",
+          "context_position": 118548,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "いえば大海〔麽嚧・まろ、大海の意〕、けわしく高いものといえば須弥山〔蘇迷・須弥山〕、広く大きいものといえば虚空、はてしなく久し",
+          "context_position": 244696,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "嚧・まろ、大海の意〕、けわしく高いものといえば須弥山〔蘇迷・須弥山〕、広く大きいものといえば虚空、はてしなく久しいものといえば",
+          "context_position": 244703,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "しかし、その芥子も尽き岩もすり減り、虚空でさえ量りつくせる。須弥山は高さ十六万由旬、大海は深さ八億由旬と数えられる。ところが、",
+          "context_position": 244801,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "のごとの本性がまどかに溶けあうこと〔法性の円融〕を観じ、あの須弥山王〔山王〕のような最高の素質の者〔の機根〕を照らして、心と仏",
+          "context_position": 246332,
+          "matched_form": "須弥山"
+        }
+      ]
+    },
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 16
+        }
+      ],
+      "occurrence_count": 16,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "らずというといえども、前の諸の住処に比すればまたこれ大自在・安楽・無為なり。ゆえに如来は大牛車（菩薩乗）・小牛車（権教仏乗）",
+          "context_position": 2379,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "寧で、寿命が長遠である。だからこそ、あらゆる利益を獲て現世の安楽〔現世安楽〕を得るのである。そのとき優填王〔ウデーナ王〕は、",
+          "context_position": 80381,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "が長遠である。だからこそ、あらゆる利益を獲て現世の安楽〔現世安楽〕を得るのである。そのとき優填王〔ウデーナ王〕は、仏の説かれ",
+          "context_position": 80386,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "求める。事をなすのに武器を用いず、法によって治め導いて天下は安楽である。外には敵国のおそれがなく、内には陰謀のおそれがない。",
+          "context_position": 89466,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕を得て大きな名声〔大名聞〕を得、身も心も安らかになる〔身心安楽〕。さらに善き徳を増し広げ〔賢善を増広〕、命を終えて天に生ま",
+          "context_position": 92511,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "生を救い護り〔救護〕、潤い益させ〔饒益〕、安らかに楽にする〔安楽〕ためのものとすることである。二つ目は自ら利する行いであり、",
+          "context_position": 167711,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "な精進〕・摂善精進〔善を集める精進〕・利楽精進〔衆生を利益し安楽にする精進〕の三つである。微細煩悩現行障〔みさいぼんのうげん",
+          "context_position": 186040,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〕であり、 　不思議であり、善であり、常なるものであり、 　安楽であり、解脱の身であり、 　大牟尼〔大いなる聖者・大日如来・",
+          "context_position": 197177,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "自性常には非ず〕。原因から生ずるものだからである。これはまた安楽である。悩み苦しめるもの〔逼悩〕がないからである。清浄法界は",
+          "context_position": 198156,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "界はもろもろのありさまが静まりかえっている〔衆相寂静〕ので、安楽と名づける。四つの智慧のはたらきも、悩みや害を永く離れている",
+          "context_position": 198216,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ける。四つの智慧のはたらきも、悩みや害を永く離れているので、安楽と名づける。  声聞・縁覚の二乗が得るよりどころの転換の果〔",
+          "context_position": 198251,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "さに応じて、神通を現し法を説いて、それぞれにもろもろの利益と安楽〔利楽〕を得させられる。  さて、仏の三身はすなわち五法であ",
+          "context_position": 199458,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "論〕』にもいう。「これはすなわち無漏の境界〔無漏界〕であり、安楽であり、解脱の身であり、不思議であり、善であり、常である。大",
+          "context_position": 204346,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "楽〔喜楽〕の意であり、すなわち大いなる安らぎと適いの悦び〔大安楽適悦〕の意である。」  　『金剛頂経』では「大安楽金剛薩埵〔",
+          "context_position": 264114,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "の悦び〔大安楽適悦〕の意である。」  　『金剛頂経』では「大安楽金剛薩埵〔大安楽金剛薩埵〕」と名づける。だから経にこう言う。",
+          "context_position": 264139,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "悦〕の意である。」  　『金剛頂経』では「大安楽金剛薩埵〔大安楽金剛薩埵〕」と名づける。だから経にこう言う。「そのとき薄伽梵",
+          "context_position": 264147,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "商",
+          "count": 3
+        },
+        {
+          "form": "殷",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "さん獲ること〔多獲〕を手柄とする。網を解いて生き物を逃がす〔殷の湯王の〕仁〔解網の仁〕を顧みず、どうして罪人を見て泣いた〔",
+          "context_position": 6390,
+          "matched_form": "殷"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "、万物に先立って形をとった。  『論語』にはこう言う。──「殷は夏の礼に因る。損益するところは知るべし」と。〔馬融〔ばゆう",
+          "context_position": 58629,
+          "matched_form": "殷"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。発は「現れる」の意。〕しるしとして五声をなす。〔白の声は商〔しょう〕、青の声は角〔かく〕、黒の声は羽〔う〕、赤の声は徴",
+          "context_position": 60062,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": " 〔ここから、帰依の対象となる世間の神々を一つ一つ挙げる。〕商羯羅〔しょうから・シャンカラ〕は、自在天〔摩醯首羅・マヘーシ",
+          "context_position": 93745,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "下、すなわち得叉迦〔とくしゃか〕龍・和修吉〔わしゅきつ〕龍・商佉〔しょうきゃ〕龍・羯句擿剣〔かくくちゃっけん〕龍・大蓮華〔",
+          "context_position": 94013,
+          "matched_form": "商"
+        }
+      ]
+    },
+    {
+      "canonical": "兜率",
+      "aliases": [
+        "兜率天",
+        "tuṣita"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "欲界第四天。弥勒菩薩の住所。",
+      "matched_forms": [
+        {
+          "form": "兜率天",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔濁乱せしむ〕者は、号叫地獄に堕ちる。都史多天〔としたてん・兜率天〕の四千年を、その地獄の一昼夜とする。この昼夜を積み重ねて月",
+          "context_position": 19799,
+          "matched_form": "兜率天"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "質〔不可壊性〕がそれである。  第七日目に、都率天〔都史天・兜率天〕の、あらゆる宝で飾り立てられた御殿〔一切の妙宝所荘厳殿〕に",
+          "context_position": 171780,
+          "matched_form": "兜率天"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "じ〕である。『仁王経』にいう。「菩薩が百億の仏国の中に住して兜率天〔とそつてん〕の王となり、百億の法門を修め、道品〔どうほん・",
+          "context_position": 185258,
+          "matched_form": "兜率天"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "波羅蜜〔ぜんはらみた・禅定の完成〕がとくに多い。多くの場合、兜率天〔とそつてん〕の王となる。  『唯識論』にいう。「第五の極難",
+          "context_position": 187249,
+          "matched_form": "兜率天"
+        }
+      ]
+    },
+    {
+      "canonical": "天竺",
+      "aliases": [
+        "印度",
+        "身毒"
+      ],
+      "subcategory": "country_india",
+      "definition": "インドの古称。",
+      "matched_forms": [
+        {
+          "form": "天竺",
+          "count": 2
+        },
+        {
+          "form": "印度",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "り〕のことばかりを思い、ほかには何も知らない。そこでインド〔天竺〕の言い回しとして、善悪の因果を知らない愚かな凡夫のたぐいを",
+          "context_position": 8410,
+          "matched_form": "天竺"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "朝〔この国〕に現在伝わっている数はこのとおりである。インド〔天竺〕に存在するものははるかに多いが、その要旨はこれを出ない。こ",
+          "context_position": 146130,
+          "matched_form": "天竺"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "いじゅうしん／嬰児が母に抱かれて畏れざるごとき心・道教および印度六派哲学の段階） 四には唯蘊無我住心（ゆいうんむがじゅうしん",
+          "context_position": 5028,
+          "matched_form": "印度"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "なる言葉〔聖言・梵語〕を語る。つまり、その言葉は中インド〔中印度〕の語と同じである。またこうも説く。──色界の天のなかには昼",
+          "context_position": 109883,
+          "matched_form": "印度"
+        }
+      ]
+    },
+    {
+      "canonical": "雪山",
+      "aliases": [
+        "ヒマーラヤ",
+        "himālaya"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "ヒマーラヤ山脈。仏典でしばしば言及される聖山。",
+      "matched_forms": [
+        {
+          "form": "雪山",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "中インド〔中印土〕の北に九つの黒い山〔黒山〕があり、その北に雪山〔ヒマラヤ〕がある。雪山の北に香酔山〔こうすいせん〕があり、",
+          "context_position": 13101,
+          "matched_form": "雪山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "九つの黒い山〔黒山〕があり、その北に雪山〔ヒマラヤ〕がある。雪山の北に香酔山〔こうすいせん〕があり、雪山の北・香酔山の南に無",
+          "context_position": 13113,
+          "matched_form": "雪山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "〔ヒマラヤ〕がある。雪山の北に香酔山〔こうすいせん〕があり、雪山の北・香酔山の南に無熱悩池〔むねつのうち〕がある。縦横は五十",
+          "context_position": 13133,
+          "matched_form": "雪山"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "派は四つある。一切有部〔いっさいうぶ〕・多聞部〔たもんぶ〕・雪山部〔せっさんぶ〕・飲光部〔おんこうぶ〕である。〕  第三に、",
+          "context_position": 130226,
+          "matched_form": "雪山"
+        }
+      ]
+    },
+    {
+      "canonical": "阿波",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "徳島県の旧国。",
+      "matched_forms": [
+        {
+          "form": "阿波",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "息念（呼吸を念ずる観法）」というのは、アーナ・アパーナ〔阿那阿波那・出入息〕のことである。すなわち、吸う息を心にとどめ〔息入",
+          "context_position": 127303,
+          "matched_form": "阿波"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "う言う。「持息念」とはすなわち、経典のなかに説かれている阿那阿波那念〔アーナ・アパーナ念〕のことである。「阿那〔阿那・アーナ",
+          "context_position": 136083,
+          "matched_form": "阿波"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "は、外の空気を引いて身体に入れるというはたらきを意味する。「阿波那〔あはな〕」とは吐く息を心にとどめること〔持息出〕である。",
+          "context_position": 136185,
+          "matched_form": "阿波"
+        }
+      ]
+    },
+    {
+      "canonical": "周",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。文王・武王が建国。",
+      "matched_forms": [
+        {
+          "form": "周",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "ある。つねに自分でおびえおののき〔驚恐〕、あるいは相手の夫や周りの人〔夫主辺人〕に知られて、そのときに罰〔殃〕を受け、刀や",
+          "context_position": 35235,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "ねた業の力〕によって、共に風を引き起こし、須弥山〔妙高山〕を周って虚空中を旋回し、日などを運び持って落下しないようにしてい",
+          "context_position": 103522,
+          "matched_form": "周"
+        }
+      ]
+    },
+    {
+      "canonical": "夏",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国伝説的な最古の王朝。禹が建国。",
+      "matched_forms": [
+        {
+          "form": "夏",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "物に先立って形をとった。  『論語』にはこう言う。──「殷は夏の礼に因る。損益するところは知るべし」と。〔馬融〔ばゆう〕が",
+          "context_position": 58631,
+          "matched_form": "夏"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "る。そして、ただ世間にあるありとあらゆる草木が、春には生え、夏には茂り、秋には衰え、冬には落ちるのを見るだけで、ものの移ろ",
+          "context_position": 154050,
+          "matched_form": "夏"
+        }
+      ]
+    },
+    {
+      "canonical": "陳",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "南朝の王朝。",
+      "matched_forms": [
+        {
+          "form": "陳",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "くる。〔甘い味は百穀から生ずる。五行以下はみな箕子〔きし〕が陳べたことである。〕」  正義〔せいぎ・経典注釈〕にはこう言う",
+          "context_position": 59441,
+          "matched_form": "陳"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "正義〔せいぎ・経典注釈〕にはこう言う。──「これ以下は箕子の陳べたところである。第一にその名の順序〔名次〕を言い、第二にそ",
+          "context_position": 59484,
+          "matched_form": "陳"
+        }
+      ]
+    },
+    {
+      "canonical": "青龍寺",
+      "aliases": [],
+      "subcategory": "temple_china",
+      "definition": "長安にあった密教の中心寺院。恵果阿闍梨の住所。",
+      "matched_forms": [
+        {
+          "form": "青龍寺",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "えたのか。  答えていおう。はじめの大日如来〔大日尊〕から、青龍寺の阿闍梨にいたるまで、七代にわたる大阿闍梨〔七葉の大阿闍梨耶",
+          "context_position": 286395,
+          "matched_form": "青龍寺"
+        },
+        {
+          "corpus_id": "jujushinron",
+          "context": "うみょう・龍樹〕・龍智菩薩・金剛智三蔵・大広智三蔵〔不空〕・青龍寺の恵果阿闍梨である。このような大阿闍梨たちが、次々と受け継ぎ",
+          "context_position": 286518,
+          "matched_form": "青龍寺"
+        }
+      ]
+    },
+    {
+      "canonical": "天台山",
+      "aliases": [],
+      "subcategory": "mountain_china",
+      "definition": "浙江省。天台宗の発祥地。",
+      "matched_forms": [
+        {
+          "form": "天台山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "盧遮那仏〔びるしゃな・大日如来〕と名づける。  隋〔大隋〕の天台山国清寺の智者禅師〔智顗・天台大師〕は、この門〔一道無為の門〕",
+          "context_position": 233680,
+          "matched_form": "天台山"
+        }
+      ]
+    },
+    {
+      "canonical": "廬山",
+      "aliases": [
+        "盧山"
+      ],
+      "subcategory": "mountain_china",
+      "definition": "江西省。中国の名山。",
+      "matched_forms": [
+        {
+          "form": "盧山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "まれる。  『倶舎論』にこう説かれている。──「須弥山〔蘇迷盧山〕の第四層級は、海を去ること四万千由旬の高さにあり、側面に二",
+          "context_position": 104323,
+          "matched_form": "盧山"
+        }
+      ]
+    },
+    {
+      "canonical": "秦",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。始皇帝による天下統一。",
+      "matched_forms": [
+        {
+          "form": "秦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "った。唐の三蔵玄奘法師がこれら諸論を訳して大唐に伝えた。また秦の姚興の時代に、鳩摩羅什〔くまらじゅう〕三蔵が青目〔せいもく",
+          "context_position": 228664,
+          "matched_form": "秦"
+        }
+      ]
+    },
+    {
+      "canonical": "迦毘羅",
+      "aliases": [
+        "迦毘羅城",
+        "kapilavastu"
+      ],
+      "subcategory": "sacred_site_indian",
+      "definition": "釈迦族の都。釈迦生誕地。",
+      "matched_forms": [
+        {
+          "form": "迦毘羅",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "。すべての菩薩はみなここに登って覚りを成じる。釈迦牟尼仏は、迦毘羅衛国〔かびらえこく〕に生まれることを示して三乗の法を説き、拘",
+          "context_position": 12945,
+          "matched_form": "迦毘羅"
+        }
+      ]
+    },
+    {
+      "canonical": "隋",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。唐の前。",
+      "matched_forms": [
+        {
+          "form": "隋",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "常寂光土の毘盧遮那仏〔びるしゃな・大日如来〕と名づける。  隋〔大隋〕の天台山国清寺の智者禅師〔智顗・天台大師〕は、この門",
+          "context_position": 233674,
+          "matched_form": "隋"
+        }
+      ]
+    },
+    {
+      "canonical": "震旦",
+      "aliases": [
+        "支那",
+        "神州",
+        "唐土",
+        "中華",
+        "華夏"
+      ],
+      "subcategory": "country_china",
+      "definition": "中国の異称。",
+      "matched_forms": [
+        {
+          "form": "震旦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "とも名づける。）  さて、儒教の祖である孔子〔孔宣〕が中国〔震旦〕にあらわれて、仁・義・礼・智・信の五つの徳〔五常〕を天下〔",
+          "context_position": 229397,
+          "matched_form": "震旦"
+        }
+      ]
+    }
+  ]
+}

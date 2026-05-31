@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "jujushinron.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-05-31",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 292975,
+  "summary": {
+    "unique_terms": 1,
+    "unique_canonicals": 1,
+    "total_occurrences": 1,
+    "with_diacritics_count": 1,
+    "ascii_only_count": 0,
+    "multi_form_canonicals": 0
+  },
+  "entries": [
+    {
+      "canonical": "dhyāna",
+      "representative_form": "dhyāna",
+      "aliases": [
+        {
+          "form": "dhyāna",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "jujushinron",
+          "context": "ついて明かす。「定〔じょう〕」とは、梵語では「禅那〔ぜんな・dhyāna〕」という。旧訳では「思惟修〔しゆいしゅ〕」または「功徳林〔",
+          "context_position": 99557,
+          "sanskrit_form": "dhyāna"
+        }
+      ]
+    }
+  ]
+}

@@ -44,6 +44,7 @@ DICT_CORPUS_LIST = [
     'dainichikyo-sho-vol1.json',
     'sankyo-shiki.json',
     'bodaishinron.json',  # 2026-05-04 追加（候補 D・9 著作目）
+    'jujushinron.json',  # 2026-05-31 追加（十住心論マージ・10 著作目）
 ]
 
 # ====== 抽出パターン ======

@@ -3,7 +3,7 @@
   "category": "citations",
   "category_description": "典故書名（『〜』形式・他者著作）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-05-04",
+  "generated_at": "2026-05-31",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -14,18 +14,19 @@
     "hizo-houyaku",
     "dainichikyo-sho-vol1",
     "sankyo-shiki",
-    "bodaishinron"
+    "bodaishinron",
+    "jujushinron"
   ],
-  "corpora_count": 10,
-  "corpora_with_data": 10,
+  "corpora_count": 11,
+  "corpora_with_data": 11,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 410,
-    "total_occurrences": 1847,
-    "terms_in_multiple_corpora": 63,
-    "max_corpus_coverage": 9,
+    "unique_terms_total": 545,
+    "total_occurrences": 2350,
+    "terms_in_multiple_corpora": 84,
+    "max_corpus_coverage": 10,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 237,
@@ -76,19 +77,25 @@
         "unique": 10,
         "occurrences": 18,
         "present": true
+      },
+      "jujushinron": {
+        "unique": 179,
+        "occurrences": 503,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "term": "法華経",
-      "total_occurrence_count": 117,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 133,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "sankyo-shiki",
         "shoji-jisso",
@@ -104,7 +111,37 @@
         "hizo-houyaku": 24,
         "dainichikyo-sho-vol1": 6,
         "sankyo-shiki": 3,
-        "bodaishinron": 1
+        "bodaishinron": 1,
+        "jujushinron": 16
+      }
+    },
+    {
+      "term": "大日経",
+      "total_occurrence_count": 122,
+      "covered_corpora_count": 10,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "jujushinron",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 15,
+        "nikyo-ron": 9,
+        "ujiji": 4,
+        "shoji-jisso": 12,
+        "sokushin-jobutsu": 21,
+        "hannya-hiken": 2,
+        "hizo-houyaku": 26,
+        "dainichikyo-sho-vol1": 11,
+        "bodaishinron": 5,
+        "jujushinron": 17
       }
     },
     {
@@ -125,30 +162,26 @@
       }
     },
     {
-      "term": "大日経",
-      "total_occurrence_count": 105,
-      "covered_corpora_count": 9,
+      "term": "大智度論",
+      "total_occurrence_count": 94,
+      "covered_corpora_count": 7,
       "covered_corpora": [
-        "bodaishinron",
         "dainichikyo-sho-vol1",
-        "hannya-hiken",
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
         "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
         "ujiji"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 15,
-        "nikyo-ron": 9,
-        "ujiji": 4,
-        "shoji-jisso": 12,
-        "sokushin-jobutsu": 21,
-        "hannya-hiken": 2,
-        "hizo-houyaku": 26,
-        "dainichikyo-sho-vol1": 11,
-        "bodaishinron": 5
+        "shoryoshu_miyasaka": 30,
+        "nikyo-ron": 13,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "hizo-houyaku": 5,
+        "dainichikyo-sho-vol1": 25,
+        "jujushinron": 18
       }
     },
     {
@@ -167,35 +200,66 @@
       }
     },
     {
-      "term": "大智度論",
-      "total_occurrence_count": 76,
-      "covered_corpora_count": 6,
+      "term": "華厳経",
+      "total_occurrence_count": 81,
+      "covered_corpora_count": 9,
       "covered_corpora": [
+        "bodaishinron",
         "dainichikyo-sho-vol1",
+        "hannya-hiken",
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "ujiji"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 30,
-        "nikyo-ron": 13,
+        "shoryoshu_miyasaka": 14,
+        "nikyo-ron": 2,
         "ujiji": 2,
-        "shoji-jisso": 1,
-        "hizo-houyaku": 5,
-        "dainichikyo-sho-vol1": 25
+        "shoji-jisso": 2,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 9,
+        "dainichikyo-sho-vol1": 4,
+        "bodaishinron": 3,
+        "jujushinron": 44
+      }
+    },
+    {
+      "term": "涅槃経",
+      "total_occurrence_count": 71,
+      "covered_corpora_count": 7,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "jujushinron",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 48,
+        "nikyo-ron": 1,
+        "hizo-houyaku": 2,
+        "dainichikyo-sho-vol1": 6,
+        "sankyo-shiki": 1,
+        "bodaishinron": 2,
+        "jujushinron": 11
       }
     },
     {
       "term": "論語",
-      "total_occurrence_count": 67,
-      "covered_corpora_count": 1,
+      "total_occurrence_count": 68,
+      "covered_corpora_count": 2,
       "covered_corpora": [
+        "jujushinron",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 67
+        "shoryoshu_miyasaka": 67,
+        "jujushinron": 1
       }
     },
     {
@@ -212,24 +276,16 @@
       }
     },
     {
-      "term": "涅槃経",
-      "total_occurrence_count": 60,
-      "covered_corpora_count": 6,
+      "term": "倶舎論",
+      "total_occurrence_count": 46,
+      "covered_corpora_count": 2,
       "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "nikyo-ron",
-        "sankyo-shiki",
+        "jujushinron",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 48,
-        "nikyo-ron": 1,
-        "hizo-houyaku": 2,
-        "dainichikyo-sho-vol1": 6,
-        "sankyo-shiki": 1,
-        "bodaishinron": 2
+        "shoryoshu_miyasaka": 8,
+        "jujushinron": 38
       }
     },
     {
@@ -248,52 +304,15 @@
       }
     },
     {
-      "term": "華厳経",
-      "total_occurrence_count": 37,
+      "term": "大日経疏",
+      "total_occurrence_count": 36,
       "covered_corpora_count": 8,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
-        "nikyo-ron",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 14,
-        "nikyo-ron": 2,
-        "ujiji": 2,
-        "shoji-jisso": 2,
-        "hannya-hiken": 1,
-        "hizo-houyaku": 9,
-        "dainichikyo-sho-vol1": 4,
-        "bodaishinron": 3
-      }
-    },
-    {
-      "term": "易経",
-      "total_occurrence_count": 35,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 33,
-        "sankyo-shiki": 2
-      }
-    },
-    {
-      "term": "大日経疏",
-      "total_occurrence_count": 32,
-      "covered_corpora_count": 7,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "hannya-hiken",
-        "hizo-houyaku",
+        "jujushinron",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "ujiji"
@@ -305,18 +324,35 @@
         "hannya-hiken": 3,
         "hizo-houyaku": 6,
         "dainichikyo-sho-vol1": 4,
-        "bodaishinron": 1
+        "bodaishinron": 1,
+        "jujushinron": 4
+      }
+    },
+    {
+      "term": "易経",
+      "total_occurrence_count": 36,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "jujushinron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 33,
+        "sankyo-shiki": 2,
+        "jujushinron": 1
       }
     },
     {
       "term": "金剛頂経",
-      "total_occurrence_count": 28,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 34,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
         "shoryoshu_miyasaka",
@@ -332,7 +368,70 @@
         "hannya-hiken": 2,
         "hizo-houyaku": 3,
         "dainichikyo-sho-vol1": 1,
-        "bodaishinron": 2
+        "bodaishinron": 2,
+        "jujushinron": 6
+      }
+    },
+    {
+      "term": "中論",
+      "total_occurrence_count": 33,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "jujushinron",
+        "nikyo-ron",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 12,
+        "nikyo-ron": 1,
+        "ujiji": 2,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 4,
+        "jujushinron": 13
+      }
+    },
+    {
+      "term": "正理論",
+      "total_occurrence_count": 32,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 32
+      }
+    },
+    {
+      "term": "仁王経",
+      "total_occurrence_count": 28,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 9,
+        "hizo-houyaku": 1,
+        "jujushinron": 18
+      }
+    },
+    {
+      "term": "淮南子",
+      "total_occurrence_count": 28,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 26,
+        "hizo-houyaku": 1,
+        "jujushinron": 1
       }
     },
     {
@@ -348,19 +447,6 @@
         "shoryoshu_miyasaka": 5,
         "hannya-hiken": 21,
         "dainichikyo-sho-vol1": 1
-      }
-    },
-    {
-      "term": "淮南子",
-      "total_occurrence_count": 27,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 26,
-        "hizo-houyaku": 1
       }
     },
     {
@@ -391,10 +477,11 @@
     },
     {
       "term": "釈摩訶衍論",
-      "total_occurrence_count": 23,
-      "covered_corpora_count": 4,
+      "total_occurrence_count": 24,
+      "covered_corpora_count": 5,
       "covered_corpora": [
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
         "ujiji"
@@ -403,26 +490,55 @@
         "nikyo-ron": 10,
         "ujiji": 1,
         "shoji-jisso": 2,
-        "hizo-houyaku": 10
+        "hizo-houyaku": 10,
+        "jujushinron": 1
       }
     },
     {
-      "term": "中論",
-      "total_occurrence_count": 20,
+      "term": "瑜伽師地論",
+      "total_occurrence_count": 23,
       "covered_corpora_count": 5,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "nikyo-ron",
+        "jujushinron",
+        "shoji-jisso",
         "shoryoshu_miyasaka",
         "ujiji"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 12,
-        "nikyo-ron": 1,
+        "shoryoshu_miyasaka": 4,
         "ujiji": 2,
-        "hizo-houyaku": 1,
-        "dainichikyo-sho-vol1": 4
+        "shoji-jisso": 2,
+        "dainichikyo-sho-vol1": 1,
+        "jujushinron": 14
+      }
+    },
+    {
+      "term": "楞伽経",
+      "total_occurrence_count": 20,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "jujushinron",
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "nikyo-ron": 12,
+        "dainichikyo-sho-vol1": 1,
+        "jujushinron": 3
+      }
+    },
+    {
+      "term": "起世経",
+      "total_occurrence_count": 20,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 20
       }
     },
     {
@@ -439,18 +555,48 @@
       }
     },
     {
-      "term": "楞伽経",
-      "total_occurrence_count": 17,
-      "covered_corpora_count": 3,
+      "term": "唯識論",
+      "total_occurrence_count": 19,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 19
+      }
+    },
+    {
+      "term": "大般若経",
+      "total_occurrence_count": 16,
+      "covered_corpora_count": 5,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "jujushinron",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "sokushin-jobutsu": 1,
+        "hannya-hiken": 4,
+        "dainichikyo-sho-vol1": 2,
+        "jujushinron": 2
+      }
+    },
+    {
+      "term": "金光明経",
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "jujushinron",
         "nikyo-ron",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 4,
-        "nikyo-ron": 12,
-        "dainichikyo-sho-vol1": 1
+        "shoryoshu_miyasaka": 5,
+        "nikyo-ron": 3,
+        "jujushinron": 7
       }
     },
     {
@@ -478,20 +624,40 @@
       }
     },
     {
-      "term": "大般若経",
-      "total_occurrence_count": 14,
-      "covered_corpora_count": 4,
+      "term": "正法念処経",
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 1,
       "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hannya-hiken",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu"
+        "jujushinron"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "sokushin-jobutsu": 1,
-        "hannya-hiken": 4,
-        "dainichikyo-sho-vol1": 2
+        "jujushinron": 15
+      }
+    },
+    {
+      "term": "左伝",
+      "total_occurrence_count": 14,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 13,
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "荀子",
+      "total_occurrence_count": 13,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 12,
+        "jujushinron": 1
       }
     },
     {
@@ -519,17 +685,6 @@
       }
     },
     {
-      "term": "左伝",
-      "total_occurrence_count": 13,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 13
-      }
-    },
-    {
       "term": "理趣経",
       "total_occurrence_count": 13,
       "covered_corpora_count": 1,
@@ -538,17 +693,6 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 13
-      }
-    },
-    {
-      "term": "荀子",
-      "total_occurrence_count": 12,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 12
       }
     },
     {
@@ -578,33 +722,14 @@
       }
     },
     {
-      "term": "仁王経",
+      "term": "地持論",
       "total_occurrence_count": 10,
-      "covered_corpora_count": 2,
+      "covered_corpora_count": 1,
       "covered_corpora": [
-        "hizo-houyaku",
-        "shoryoshu_miyasaka"
+        "jujushinron"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 9,
-        "hizo-houyaku": 1
-      }
-    },
-    {
-      "term": "瑜伽師地論",
-      "total_occurrence_count": 9,
-      "covered_corpora_count": 4,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 4,
-        "ujiji": 2,
-        "shoji-jisso": 2,
-        "dainichikyo-sho-vol1": 1
+        "jujushinron": 10
       }
     },
     {
@@ -662,6 +787,25 @@
       }
     },
     {
+      "term": "般若経",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "hannya-hiken",
+        "hizo-houyaku",
+        "jujushinron",
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "nikyo-ron": 1,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 1,
+        "jujushinron": 2
+      }
+    },
+    {
       "term": "理趣釈",
       "total_occurrence_count": 8,
       "covered_corpora_count": 4,
@@ -679,27 +823,37 @@
       }
     },
     {
-      "term": "金光明経",
-      "total_occurrence_count": 8,
-      "covered_corpora_count": 2,
+      "term": "守護国界主陀羅尼経",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 5,
       "covered_corpora": [
+        "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
-        "shoryoshu_miyasaka"
+        "shoryoshu_miyasaka",
+        "ujiji"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 5,
-        "nikyo-ron": 3
+        "shoryoshu_miyasaka": 1,
+        "nikyo-ron": 1,
+        "ujiji": 3,
+        "hizo-houyaku": 1,
+        "jujushinron": 1
       }
     },
     {
-      "term": "倶舎論",
-      "total_occurrence_count": 8,
-      "covered_corpora_count": 1,
+      "term": "勝鬘経",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 3,
       "covered_corpora": [
+        "hizo-houyaku",
+        "jujushinron",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 8
+        "shoryoshu_miyasaka": 2,
+        "hizo-houyaku": 1,
+        "jujushinron": 4
       }
     },
     {
@@ -733,40 +887,6 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 7
-      }
-    },
-    {
-      "term": "守護国界主陀羅尼経",
-      "total_occurrence_count": 6,
-      "covered_corpora_count": 4,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "nikyo-ron",
-        "shoryoshu_miyasaka",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "nikyo-ron": 1,
-        "ujiji": 3,
-        "hizo-houyaku": 1
-      }
-    },
-    {
-      "term": "般若経",
-      "total_occurrence_count": 6,
-      "covered_corpora_count": 4,
-      "covered_corpora": [
-        "hannya-hiken",
-        "hizo-houyaku",
-        "nikyo-ron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 3,
-        "nikyo-ron": 1,
-        "hannya-hiken": 1,
-        "hizo-houyaku": 1
       }
     },
     {
@@ -851,6 +971,21 @@
       }
     },
     {
+      "term": "十二門論",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "dainichikyo-sho-vol1": 1,
+        "jujushinron": 3
+      }
+    },
+    {
       "term": "大品般若経",
       "total_occurrence_count": 5,
       "covered_corpora_count": 3,
@@ -863,6 +998,47 @@
         "shoryoshu_miyasaka": 2,
         "hizo-houyaku": 1,
         "dainichikyo-sho-vol1": 2
+      }
+    },
+    {
+      "term": "阿含経",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hannya-hiken",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "hannya-hiken": 1,
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "瓔珞経",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "jujushinron",
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 2,
+        "jujushinron": 3
+      }
+    },
+    {
+      "term": "百論",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "jujushinron": 3
       }
     },
     {
@@ -949,6 +1125,21 @@
       }
     },
     {
+      "term": "摂大乗論",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "dainichikyo-sho-vol1": 1,
+        "jujushinron": 2
+      }
+    },
+    {
       "term": "春秋",
       "total_occurrence_count": 4,
       "covered_corpora_count": 3,
@@ -961,6 +1152,21 @@
         "shoryoshu_miyasaka": 2,
         "hizo-houyaku": 1,
         "sankyo-shiki": 1
+      }
+    },
+    {
+      "term": "起信論",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "jujushinron",
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "nikyo-ron": 2,
+        "jujushinron": 1
       }
     },
     {
@@ -1003,6 +1209,32 @@
       }
     },
     {
+      "term": "呂氏春秋",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "大毘盧遮那経",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 3,
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "孝経",
       "total_occurrence_count": 4,
       "covered_corpora_count": 2,
@@ -1016,16 +1248,55 @@
       }
     },
     {
-      "term": "阿含経",
+      "term": "守護国界経",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 3,
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "成唯識論",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "jujushinron",
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1,
+        "jujushinron": 3
+      }
+    },
+    {
+      "term": "解深密経",
       "total_occurrence_count": 4,
       "covered_corpora_count": 2,
       "covered_corpora": [
         "hannya-hiken",
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "hannya-hiken": 1,
+        "jujushinron": 3
+      }
+    },
+    {
+      "term": "雑宝蔵経",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "jujushinron",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 3,
-        "hannya-hiken": 1
+        "shoryoshu_miyasaka": 1,
+        "jujushinron": 3
       }
     },
     {
@@ -1084,6 +1355,17 @@
       }
     },
     {
+      "term": "正法念経",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 4
+      }
+    },
+    {
       "term": "漢武故事",
       "total_occurrence_count": 4,
       "covered_corpora_count": 1,
@@ -1117,16 +1399,16 @@
       }
     },
     {
-      "term": "勝鬘経",
+      "term": "十住毘婆沙論",
       "total_occurrence_count": 3,
       "covered_corpora_count": 2,
       "covered_corpora": [
         "hizo-houyaku",
-        "shoryoshu_miyasaka"
+        "jujushinron"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 2,
-        "hizo-houyaku": 1
+        "hizo-houyaku": 1,
+        "jujushinron": 2
       }
     },
     {
@@ -1156,6 +1438,32 @@
       }
     },
     {
+      "term": "神農本草経",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "維摩経",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "jujushinron": 2
+      }
+    },
+    {
       "term": "華厳五教章",
       "total_occurrence_count": 3,
       "covered_corpora_count": 2,
@@ -1182,19 +1490,6 @@
       }
     },
     {
-      "term": "起信論",
-      "total_occurrence_count": 3,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "nikyo-ron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "nikyo-ron": 2
-      }
-    },
-    {
       "term": "世説新語",
       "total_occurrence_count": 3,
       "covered_corpora_count": 1,
@@ -1217,36 +1512,36 @@
       }
     },
     {
-      "term": "呂氏春秋",
+      "term": "二諦義",
       "total_occurrence_count": 3,
       "covered_corpora_count": 1,
       "covered_corpora": [
-        "shoryoshu_miyasaka"
+        "jujushinron"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 3
+        "jujushinron": 3
       }
     },
     {
-      "term": "大毘盧遮那経",
+      "term": "仏地経",
       "total_occurrence_count": 3,
       "covered_corpora_count": 1,
       "covered_corpora": [
-        "hizo-houyaku"
+        "jujushinron"
       ],
       "by_corpus": {
-        "hizo-houyaku": 3
+        "jujushinron": 3
       }
     },
     {
-      "term": "守護国界経",
+      "term": "婆娑論",
       "total_occurrence_count": 3,
       "covered_corpora_count": 1,
       "covered_corpora": [
-        "hizo-houyaku"
+        "jujushinron"
       ],
       "by_corpus": {
-        "hizo-houyaku": 3
+        "jujushinron": 3
       }
     },
     {
@@ -1329,6 +1624,19 @@
       }
     },
     {
+      "term": "仏性論",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1,
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "俱舎論",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
@@ -1339,19 +1647,6 @@
       "by_corpus": {
         "ujiji": 1,
         "hizo-houyaku": 1
-      }
-    },
-    {
-      "term": "十二門論",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "dainichikyo-sho-vol1": 1
       }
     },
     {
@@ -1368,6 +1663,32 @@
       }
     },
     {
+      "term": "宝性論",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1,
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "尚書",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "弘法大師著作全集",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
@@ -1381,16 +1702,42 @@
       }
     },
     {
-      "term": "摂大乗論",
+      "term": "本草",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
       "covered_corpora": [
-        "dainichikyo-sho-vol1",
+        "jujushinron",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1,
-        "dainichikyo-sho-vol1": 1
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "王法正論経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1,
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "菩提場経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "jujushinron",
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 1,
+        "jujushinron": 1
       }
     },
     {
@@ -1494,6 +1841,17 @@
       }
     },
     {
+      "term": "他なるもの",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 2
+      }
+    },
+    {
       "term": "付法蔵因縁伝",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -1505,6 +1863,17 @@
       }
     },
     {
+      "term": "十住論",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 2
+      }
+    },
+    {
       "term": "十洲記",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -1513,6 +1882,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "受用種子",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 2
       }
     },
     {
@@ -1549,6 +1929,17 @@
       }
     },
     {
+      "term": "大乗同性経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 2
+      }
+    },
+    {
       "term": "大乗法苑義林章",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -1582,6 +1973,17 @@
       }
     },
     {
+      "term": "如来功徳荘厳経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 2
+      }
+    },
+    {
       "term": "密迹金剛経",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -1612,6 +2014,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "文句",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 2
       }
     },
     {
@@ -1725,6 +2138,28 @@
       }
     },
     {
+      "term": "止観",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 2
+      }
+    },
+    {
+      "term": "正理論〔順正理論〕",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 2
+      }
+    },
+    {
       "term": "無相",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -1736,40 +2171,7 @@
       }
     },
     {
-      "term": "瓔珞経",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "nikyo-ron"
-      ],
-      "by_corpus": {
-        "nikyo-ron": 2
-      }
-    },
-    {
-      "term": "百論",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 2
-      }
-    },
-    {
       "term": "盂蘭盆経",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 2
-      }
-    },
-    {
-      "term": "神農本草経",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
       "covered_corpora": [
@@ -1912,6 +2314,94 @@
       }
     },
     {
+      "term": "きわめて本性のない心〔極無自性心〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "すでに受職位の境界を得た〔已得受職位の境界〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "それは神我から生じるのだ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "ただ五蘊があるだけで我はない〔唯蘊無我〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "もろもろの識を離れて実に色などの対象がある",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "一切",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "一切の種の智と一切智智とを得る受職の位〔受職位〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "一切智の勝職位を受ける〔受一切智勝職位〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "一切智の道",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -1934,6 +2424,28 @@
       }
     },
     {
+      "term": "一切智神通を増益する〔増益一切智神通〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "一切清浄",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "一味",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -1953,6 +2465,39 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "三十唯識〔唯識三十頌〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "三十頌",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "三十頌〔唯識三十頌〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -1989,6 +2534,17 @@
       }
     },
     {
+      "term": "三論玄〔さんろんげん〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "不建立の無浄",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2022,6 +2578,17 @@
       }
     },
     {
+      "term": "世間の三昧道〔世間三昧道〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "両中間",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2041,6 +2608,28 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "中観",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "中観論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -2154,14 +2743,14 @@
       }
     },
     {
-      "term": "仏性論",
+      "term": "仏性義",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
-        "hizo-houyaku"
+        "jujushinron"
       ],
       "by_corpus": {
-        "hizo-houyaku": 1
+        "jujushinron": 1
       }
     },
     {
@@ -2220,6 +2809,39 @@
       }
     },
     {
+      "term": "他",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "何かをとらえようとする偏った病〔有所得の辺病〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "何もとらえない正しい観察〔無所得の正観〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "信",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2239,6 +2861,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "倶舎論〔くしゃろん〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -2272,6 +2905,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "六波羅蜜経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -2352,6 +2996,17 @@
       }
     },
     {
+      "term": "初めて法の光に出あう道〔初法明道〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "北史",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2396,17 +3051,6 @@
       }
     },
     {
-      "term": "十住毘婆沙論",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "hizo-houyaku"
-      ],
-      "by_corpus": {
-        "hizo-houyaku": 1
-      }
-    },
-    {
       "term": "十八会指帰",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2429,6 +3073,17 @@
       }
     },
     {
+      "term": "十地経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "十地論",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2448,6 +3103,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "十誦律〔じゅうじゅりつ〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -2495,6 +3161,28 @@
       }
     },
     {
+      "term": "厚厳経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "厚嚴経〔大乗密厳経〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "厭足",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2514,6 +3202,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "去る",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -2550,6 +3249,17 @@
       }
     },
     {
+      "term": "同性経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "名声",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2583,6 +3293,17 @@
       }
     },
     {
+      "term": "唯識論〔成唯識論〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "善い哉、善い哉",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2605,6 +3326,17 @@
       }
     },
     {
+      "term": "善生経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "四十二章経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2624,6 +3356,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "四教義",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -2693,6 +3436,17 @@
       }
     },
     {
+      "term": "塵垢を離れること〔離塵垢〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "声",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2715,6 +3469,17 @@
       }
     },
     {
+      "term": "大",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "大〕智度〔論〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2723,6 +3488,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "大のなかの大",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -2770,6 +3546,17 @@
       }
     },
     {
+      "term": "大品般若経〔大品〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "大悲",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2792,6 +3579,17 @@
       }
     },
     {
+      "term": "大日経〔大日経王〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "大日経義釈",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2811,6 +3609,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "大智論〔智度論〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -2869,6 +3678,28 @@
       }
     },
     {
+      "term": "大空",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "大素",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "大荒経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2910,6 +3741,28 @@
       ],
       "by_corpus": {
         "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "天に生まれたい",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "天地本起経〔てんちほんききょう〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -3023,6 +3876,39 @@
       }
     },
     {
+      "term": "妙法蓮華経王",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "婆沙論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "嬰童心",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "孔雀明王経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3045,6 +3931,17 @@
       }
     },
     {
+      "term": "守護国界主陀羅尼経〔守護国経〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "守護経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3056,14 +3953,25 @@
       }
     },
     {
-      "term": "宝性論",
+      "term": "宗輪論",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
-        "hizo-houyaku"
+        "jujushinron"
       ],
       "by_corpus": {
-        "hizo-houyaku": 1
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "宗輪論疏",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -3122,6 +4030,28 @@
       }
     },
     {
+      "term": "対法論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "対法論〔大乗阿毘達磨雑集論〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "小法",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3144,14 +4074,14 @@
       }
     },
     {
-      "term": "尚書",
+      "term": "左伝〔さでん〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
-        "shoryoshu_miyasaka"
+        "jujushinron"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 1
+        "jujushinron": 1
       }
     },
     {
@@ -3177,6 +4107,17 @@
       }
     },
     {
+      "term": "広百論釈",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "建立の浄",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3185,6 +4126,28 @@
       ],
       "by_corpus": {
         "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "弁中辺論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "往く",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -3254,14 +4217,25 @@
       }
     },
     {
-      "term": "成唯識論",
+      "term": "成実論",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
-        "nikyo-ron"
+        "jujushinron"
       ],
       "by_corpus": {
-        "nikyo-ron": 1
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "成実論〔成論〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -3284,6 +4258,50 @@
       ],
       "by_corpus": {
         "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "成果〔じょうか・実を結ぶ段階〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "我〔が〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "我有〔自分の所有〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "戒消災経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -3331,6 +4349,17 @@
       }
     },
     {
+      "term": "摩耶経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "摩訶般若波羅蜜多経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3353,6 +4382,28 @@
       }
     },
     {
+      "term": "敷華〔ふけ・花ひらく段階〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "文殊問経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "文殊師利讃仏法身礼経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3372,6 +4423,28 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "斎法経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "新華厳疏",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -3408,6 +4481,17 @@
       }
     },
     {
+      "term": "施設足論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "春秋繁露",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3441,6 +4525,17 @@
       }
     },
     {
+      "term": "普〔普く〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "景徳伝燈録",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3452,6 +4547,17 @@
       }
     },
     {
+      "term": "智度論〔ちどろん〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "曇一律師の碑銘",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3460,6 +4566,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "書伝〔しょでん〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -3562,17 +4679,6 @@
       }
     },
     {
-      "term": "本草",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1
-      }
-    },
-    {
       "term": "本草綱目",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3595,6 +4701,17 @@
       }
     },
     {
+      "term": "果実を味わう心〔受用果の心〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "梁の武帝の草書の評",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3603,6 +4720,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "極無自性心",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -3617,6 +4745,28 @@
       }
     },
     {
+      "term": "毘婆沙論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "毘尼母経〔びにもきょう〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "毛詩",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3625,6 +4775,28 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "決択分〔瑜伽師地論決択分〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "法から生まれること〔法生〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -3639,6 +4811,17 @@
       }
     },
     {
+      "term": "法苑義林章",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "法華",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3650,6 +4833,17 @@
       }
     },
     {
+      "term": "法華の儀軌経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "法華伝",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3658,6 +4852,17 @@
       ],
       "by_corpus": {
         "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "法華玄文〔=法華玄義〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -3749,6 +4954,39 @@
       }
     },
     {
+      "term": "潅頂経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "潅頂経〔かんじょうきょう〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "無",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "無常経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3804,6 +5042,17 @@
       }
     },
     {
+      "term": "無相論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "無量乗",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3837,6 +5086,39 @@
       }
     },
     {
+      "term": "無量義経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "牙種〔がしゅ・芽の段階〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "玄義",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "玉篇",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3859,17 +5141,6 @@
       }
     },
     {
-      "term": "王法正論経",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "hizo-houyaku"
-      ],
-      "by_corpus": {
-        "hizo-houyaku": 1
-      }
-    },
-    {
       "term": "現在賢劫千仏名経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3889,6 +5160,17 @@
       ],
       "by_corpus": {
         "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "瑜伽論〔ゆがろん〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -3933,6 +5215,28 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "疱種",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "疱種〔ほうしゅ・つぼみの段階〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -4002,6 +5306,17 @@
       }
     },
     {
+      "term": "禅門",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "秘蔵金剛頂経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4013,6 +5328,17 @@
       }
     },
     {
+      "term": "種子心〔しゅじしん〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "穆天子伝",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4021,6 +5347,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "空三昧〔くうざんまい〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -4090,14 +5427,25 @@
       }
     },
     {
-      "term": "維摩経",
+      "term": "維摩経〔浄名経〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
-        "shoryoshu_miyasaka"
+        "jujushinron"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 1
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "維摩経〔無垢称経〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -4156,6 +5504,17 @@
       }
     },
     {
+      "term": "自分はこれを捨て、戒を守って生きよう",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "自覚の慧",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4189,6 +5548,28 @@
       }
     },
     {
+      "term": "般若灯論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "般若論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "芸文類聚",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4211,17 +5592,6 @@
       }
     },
     {
-      "term": "菩提場経",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "nikyo-ron"
-      ],
-      "by_corpus": {
-        "nikyo-ron": 1
-      }
-    },
-    {
       "term": "菩薩瓔珞経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4241,6 +5611,17 @@
       ],
       "by_corpus": {
         "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "華厳三昧〔華厳法界観門〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -4288,6 +5669,39 @@
       }
     },
     {
+      "term": "華種〔けしゅ・花の段階〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "葉種〔ようしゅ・葉の段階〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "蔵",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "薄伽婆",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4296,6 +5710,28 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "薩婆多論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "薩婆多論〔さっばただろん〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -4354,6 +5790,17 @@
       }
     },
     {
+      "term": "行",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "行者の自心",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4387,14 +5834,25 @@
       }
     },
     {
-      "term": "解深密経",
+      "term": "観仏三昧経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
-        "hannya-hiken"
+        "jujushinron"
       ],
       "by_corpus": {
-        "hannya-hiken": 1
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "観心論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -4406,6 +5864,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "言葉で説かない〔無言説〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -4486,6 +5955,17 @@
       }
     },
     {
+      "term": "起世経〔きせきょう〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "踊躍",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4549,6 +6029,28 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "遺教経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "釈摩訶衍論〔釈大衍〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -4706,6 +6208,28 @@
       }
     },
     {
+      "term": "金師子章",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "金師子章〔金師子章・金の獅子の比喩で華厳を説く書〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "開曉の者",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4728,6 +6252,17 @@
       }
     },
     {
+      "term": "阿毘曇",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
       "term": "阿毘達磨大毘婆沙論",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4739,18 +6274,18 @@
       }
     },
     {
-      "term": "隋書",
+      "term": "阿毘達磨経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
-        "shoryoshu_miyasaka"
+        "jujushinron"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 1
+        "jujushinron": 1
       }
     },
     {
-      "term": "雑宝蔵経",
+      "term": "隋書",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
@@ -4791,6 +6326,39 @@
       ],
       "by_corpus": {
         "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "順中論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "順正理論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
+      }
+    },
+    {
+      "term": "顕揚論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
@@ -4835,6 +6403,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "黄帝内経素問",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {

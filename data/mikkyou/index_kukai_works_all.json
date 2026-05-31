@@ -3,7 +3,7 @@
   "category": "kukai_works",
   "category_description": "空海著作・性霊集編纂物（自著言及）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-05-04",
+  "generated_at": "2026-05-31",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -14,18 +14,19 @@
     "hizo-houyaku",
     "dainichikyo-sho-vol1",
     "sankyo-shiki",
-    "bodaishinron"
+    "bodaishinron",
+    "jujushinron"
   ],
-  "corpora_count": 10,
-  "corpora_with_data": 10,
+  "corpora_count": 11,
+  "corpora_with_data": 11,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 12,
-    "total_occurrences": 52,
+    "unique_terms_total": 13,
+    "total_occurrences": 55,
     "terms_in_multiple_corpora": 3,
-    "max_corpus_coverage": 4,
+    "max_corpus_coverage": 5,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 5,
@@ -76,17 +77,23 @@
         "unique": 0,
         "occurrences": 0,
         "present": true
+      },
+      "jujushinron": {
+        "unique": 2,
+        "occurrences": 3,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "term": "菩提心論",
-      "total_occurrence_count": 24,
-      "covered_corpora_count": 4,
+      "total_occurrence_count": 26,
+      "covered_corpora_count": 5,
       "covered_corpora": [
         "hannya-hiken",
         "hizo-houyaku",
+        "jujushinron",
         "nikyo-ron",
         "sokushin-jobutsu"
       ],
@@ -94,7 +101,8 @@
         "nikyo-ron": 5,
         "sokushin-jobutsu": 4,
         "hannya-hiken": 1,
-        "hizo-houyaku": 14
+        "hizo-houyaku": 14,
+        "jujushinron": 2
       }
     },
     {
@@ -211,6 +219,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "秘密曼荼羅十住心論",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1
       }
     },
     {
