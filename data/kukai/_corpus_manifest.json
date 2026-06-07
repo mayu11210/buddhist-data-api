@@ -1,1184 +1,1231 @@
 {
-  "schema_version": "1.0",
-  "generated_at": "2026-05-31",
-  "description": "data/kukai/ 配下の全著作ファイルのメタカタログ（図書館モデルの目録カード相当）。倉庫原則「メタデータは足し算」に従い、原本ファイルを変更せず、本マニフェストで全ファイルの状態を一元管理する。アンダースコア始まりのメタファイル（本ファイル等）はカタログ対象から除外。",
-  "design_policy_ref": "kaimyo-app/設計方針メモ_2026-05-03_真言宗教えデータ整理_buddhist-data-api倉庫設計.md",
-  "schema_refs": {
-    "kukai_corpus_dict": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-    "shoryoshu_list": "_dev_references/schemas/shoryoshu_list.schema.json"
+ "schema_version": "1.0",
+ "generated_at": "2026-06-07",
+ "description": "data/kukai/ 配下の全著作ファイルのメタカタログ（図書館モデルの目録カード相当）。倉庫原則「メタデータは足し算」に従い、原本ファイルを変更せず、本マニフェストで全ファイルの状態を一元管理する。アンダースコア始まりのメタファイル（本ファイル等）はカタログ対象から除外。",
+ "design_policy_ref": "kaimyo-app/設計方針メモ_2026-05-03_真言宗教えデータ整理_buddhist-data-api倉庫設計.md",
+ "schema_refs": {
+  "kukai_corpus_dict": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+  "shoryoshu_list": "_dev_references/schemas/shoryoshu_list.schema.json"
+ },
+ "role_definitions": {
+  "primary_corpus": "本格的な原典コーパス（kakikudashi+gendaigoyaku[+genten] が L1 倉庫の正本）",
+  "auxiliary_meta": "補助メタファイル（編集凡例・序文断片など主役本文の補助）",
+  "specialty_meta": "専門メタ型（書誌情報・分類タグなどに重きを置いた構造化ファイル・本文取込は将来）",
+  "excerpt_stub": "未着手スタブ（kaimyo-app 引用集 text のみ・本格取込は将来）"
+ },
+ "data_status_keys": {
+  "kaimyo_excerpt": "text フィールドに kaimyo-app 用引用集を持つか（setup_kukai.js で seed された 12 著作の seed 抜粋）",
+  "kakikudashi": "書き下し本文を持つか",
+  "gendaigoyaku": "現代語訳を持つか",
+  "genten": "漢文原典（主に SAT 大蔵経）を持つか",
+  "genten_unavailable_reason": "genten が無い妥当な理由（SAT 範疇外など）。これがある場合は genten=false でも primary_corpus 完備扱い",
+  "specialty_sections": "その著作固有の専門サブセクション名のリスト（吽字義 ji_gi 等。倉庫原則「データを限定しない」で温存）"
+ },
+ "summary": {
+  "total_files": 19,
+  "role_breakdown": {
+   "primary_corpus": 12,
+   "auxiliary_meta": 1,
+   "specialty_meta": 1,
+   "excerpt_stub": 5
   },
-  "role_definitions": {
-    "primary_corpus": "本格的な原典コーパス（kakikudashi+gendaigoyaku[+genten] が L1 倉庫の正本）",
-    "auxiliary_meta": "補助メタファイル（編集凡例・序文断片など主役本文の補助）",
-    "specialty_meta": "専門メタ型（書誌情報・分類タグなどに重きを置いた構造化ファイル・本文取込は将来）",
-    "excerpt_stub": "未着手スタブ（kaimyo-app 引用集 text のみ・本格取込は将来）"
-  },
-  "data_status_keys": {
-    "kaimyo_excerpt": "text フィールドに kaimyo-app 用引用集を持つか（setup_kukai.js で seed された 12 著作の seed 抜粋）",
-    "kakikudashi": "書き下し本文を持つか",
-    "gendaigoyaku": "現代語訳を持つか",
-    "genten": "漢文原典（主に SAT 大蔵経）を持つか",
-    "genten_unavailable_reason": "genten が無い妥当な理由（SAT 範疇外など）。これがある場合は genten=false でも primary_corpus 完備扱い",
-    "specialty_sections": "その著作固有の専門サブセクション名のリスト（吽字義 ji_gi 等。倉庫原則「データを限定しない」で温存）"
-  },
-  "summary": {
-    "total_files": 18,
-    "role_breakdown": {
-      "primary_corpus": 11,
-      "auxiliary_meta": 1,
-      "specialty_meta": 1,
-      "excerpt_stub": 5
-    },
-    "role_complete_files": 12,
-    "kakikudashi_present": 11,
-    "gendaigoyaku_present": 11,
-    "genten_present": 9,
-    "with_specialty_sections": 4,
-    "indexed_corpora": {
-      "terms": 11,
-      "citations": 11,
-      "kukai_works": 11,
-      "sanskrit": 11,
-      "kaimyo_jukugo": 11,
-      "persons": 11,
-      "places": 11
-    }
-  },
-  "files": [
-    {
-      "filename": "bodaishinron.json",
-      "title": "菩提心論",
-      "taisho_ref": "T1665 / vol.32, p.572b-574c",
-      "role": "primary_corpus",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": true,
-        "gendaigoyaku": true,
-        "genten": true,
-        "specialty_sections": []
-      },
-      "char_counts": {
-        "text": 449,
-        "kakikudashi": 5951,
-        "gendaigoyaku": 11605,
-        "genten": 3605
-      },
-      "role_complete": true,
-      "notes": "2026-05-04：kakikudashi+gendaigoyaku+genten 完備（弘大全集六 PDF スクショ 22 枚 OCR 受領・倒置 1 件修正済）。同日、候補 D（横断索引化）で 9 著作目として全 7 カテゴリ index 生成。",
-      "index_status": {
-        "terms": {
-          "file": "index_bodaishinron_terms.json",
-          "present": true,
-          "unique_terms": 19,
-          "total_occurrences": 59,
-          "matched_term_count": 8,
-          "kaimyo_suitable_count": 11
-        },
-        "citations": {
-          "file": "index_bodaishinron_citations.json",
-          "present": true,
-          "unique_terms": 10,
-          "total_occurrences": 18
-        },
-        "kukai_works": {
-          "file": "index_bodaishinron_kukai_works.json",
-          "present": true,
-          "unique_terms": 0,
-          "total_occurrences": 0
-        },
-        "sanskrit": {
-          "file": "index_bodaishinron_sanskrit.json",
-          "present": true,
-          "unique_terms": 0,
-          "total_occurrences": 0,
-          "with_diacritics_count": 0,
-          "ascii_only_count": 0
-        },
-        "kaimyo_jukugo": {
-          "file": "index_bodaishinron_kaimyo.json",
-          "present": true,
-          "unique_terms": 23,
-          "total_occurrences": 59,
-          "needs_review_count": 10,
-          "matched_jukugo_count": 17
-        },
-        "persons": {
-          "file": "index_bodaishinron_persons.json",
-          "present": true,
-          "unique_terms": 5,
-          "total_occurrences": 21,
-          "subcategory_count": 0
-        },
-        "places": {
-          "file": "index_bodaishinron_places.json",
-          "present": true,
-          "unique_terms": 5,
-          "total_occurrences": 10,
-          "subcategory_count": 0
-        }
-      }
-    },
-    {
-      "filename": "dainichikyo-sho-vol1.json",
-      "title": "大日経疏巻第一",
-      "taisho_ref": "T1796 / vol.39",
-      "role": "primary_corpus",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": false,
-        "kakikudashi": true,
-        "gendaigoyaku": true,
-        "genten": true,
-        "specialty_sections": []
-      },
-      "char_counts": {
-        "text": 0,
-        "kakikudashi": 43295,
-        "gendaigoyaku": 101714,
-        "genten": 24078
-      },
-      "role_complete": true,
-      "notes": "",
-      "index_status": {
-        "terms": {
-          "file": "index_dainichikyo-sho-vol1_terms.json",
-          "present": true,
-          "unique_terms": 19,
-          "total_occurrences": 286,
-          "matched_term_count": 14,
-          "kaimyo_suitable_count": 11
-        },
-        "citations": {
-          "file": "index_dainichikyo-sho-vol1_citations.json",
-          "present": true,
-          "unique_terms": 106,
-          "total_occurrences": 179
-        },
-        "kukai_works": {
-          "file": "index_dainichikyo-sho-vol1_kukai_works.json",
-          "present": true,
-          "unique_terms": 3,
-          "total_occurrences": 11
-        },
-        "sanskrit": {
-          "file": "index_dainichikyo-sho-vol1_sanskrit.json",
-          "present": true,
-          "unique_terms": 1409,
-          "total_occurrences": 1955,
-          "with_diacritics_count": 1144,
-          "ascii_only_count": 265
-        },
-        "kaimyo_jukugo": {
-          "file": "index_dainichikyo-sho-vol1_kaimyo.json",
-          "present": true,
-          "unique_terms": 70,
-          "total_occurrences": 1088,
-          "needs_review_count": 27,
-          "matched_jukugo_count": 64
-        },
-        "persons": {
-          "file": "index_dainichikyo-sho-vol1_persons.json",
-          "present": true,
-          "unique_terms": 26,
-          "total_occurrences": 233,
-          "subcategory_count": 6
-        },
-        "places": {
-          "file": "index_dainichikyo-sho-vol1_places.json",
-          "present": true,
-          "unique_terms": 9,
-          "total_occurrences": 25,
-          "subcategory_count": 6
-        }
-      }
-    },
-    {
-      "filename": "goshorai-mokuroku.json",
-      "title": "御請来目録",
-      "taisho_ref": "T2161 / vol.55",
-      "role": "specialty_meta",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": false,
-        "kakikudashi": false,
-        "gendaigoyaku": false,
-        "genten": false,
-        "specialty_sections": [
-          "bibliographic_info",
-          "honbun",
-          "last_updated",
-          "overlap_with_shoryoshu",
-          "seirai_butsuji_gaiyou",
-          "status_note",
-          "tag"
-        ]
-      },
-      "char_counts": {
-        "text": 0,
-        "kakikudashi": 0,
-        "gendaigoyaku": 0,
-        "genten": 0
-      },
-      "role_complete": false,
-      "notes": "専門メタ型（bibliographic_info / overlap_with_shoryoshu / seirai_butsuji_gaiyou / honbun / tag / last_updated / status_note）。本文 kakikudashi/gendaigoyaku は未取込。"
-    },
-    {
-      "filename": "goyuigo.json",
-      "title": "御遺告",
-      "taisho_ref": "未調査",
-      "role": "excerpt_stub",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": false,
-        "gendaigoyaku": false,
-        "genten": false,
-        "specialty_sections": []
-      },
-      "char_counts": {
-        "text": 2871,
-        "kakikudashi": 0,
-        "gendaigoyaku": 0,
-        "genten": 0
-      },
-      "role_complete": false,
-      "notes": "未着手スタブ。text のみ（kaimyo-app 引用集）。本格取込は将来。"
-    },
-    {
-      "filename": "hannya-hiken.json",
-      "title": "般若心経秘鍵",
-      "taisho_ref": "T2203A / vol.57",
-      "role": "primary_corpus",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": true,
-        "gendaigoyaku": true,
-        "genten": true,
-        "specialty_sections": []
-      },
-      "char_counts": {
-        "text": 2592,
-        "kakikudashi": 4330,
-        "gendaigoyaku": 14186,
-        "genten": 2758
-      },
-      "role_complete": true,
-      "notes": "",
-      "index_status": {
-        "terms": {
-          "file": "index_hannya-hiken_terms.json",
-          "present": true,
-          "unique_terms": 19,
-          "total_occurrences": 105,
-          "matched_term_count": 7,
-          "kaimyo_suitable_count": 11
-        },
-        "citations": {
-          "file": "index_hannya-hiken_citations.json",
-          "present": true,
-          "unique_terms": 14,
-          "total_occurrences": 45
-        },
-        "kukai_works": {
-          "file": "index_hannya-hiken_kukai_works.json",
-          "present": true,
-          "unique_terms": 1,
-          "total_occurrences": 1
-        },
-        "sanskrit": {
-          "file": "index_hannya-hiken_sanskrit.json",
-          "present": true,
-          "unique_terms": 7,
-          "total_occurrences": 14,
-          "with_diacritics_count": 5,
-          "ascii_only_count": 2
-        },
-        "kaimyo_jukugo": {
-          "file": "index_hannya-hiken_kaimyo.json",
-          "present": true,
-          "unique_terms": 19,
-          "total_occurrences": 136,
-          "needs_review_count": 4,
-          "matched_jukugo_count": 13
-        },
-        "persons": {
-          "file": "index_hannya-hiken_persons.json",
-          "present": true,
-          "unique_terms": 14,
-          "total_occurrences": 88,
-          "subcategory_count": 6
-        },
-        "places": {
-          "file": "index_hannya-hiken_places.json",
-          "present": true,
-          "unique_terms": 1,
-          "total_occurrences": 1,
-          "subcategory_count": 1
-        }
-      }
-    },
-    {
-      "filename": "hizo-houyaku.json",
-      "title": "秘蔵宝鑰",
-      "taisho_ref": "T2426 / vol.77",
-      "role": "primary_corpus",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": true,
-        "gendaigoyaku": true,
-        "genten": true,
-        "specialty_sections": []
-      },
-      "char_counts": {
-        "text": 2466,
-        "kakikudashi": 32460,
-        "gendaigoyaku": 75246,
-        "genten": 17746
-      },
-      "role_complete": true,
-      "notes": "",
-      "index_status": {
-        "terms": {
-          "file": "index_hizo-houyaku_terms.json",
-          "present": true,
-          "unique_terms": 19,
-          "total_occurrences": 257,
-          "matched_term_count": 13,
-          "kaimyo_suitable_count": 11
-        },
-        "citations": {
-          "file": "index_hizo-houyaku_citations.json",
-          "present": true,
-          "unique_terms": 57,
-          "total_occurrences": 139
-        },
-        "kukai_works": {
-          "file": "index_hizo-houyaku_kukai_works.json",
-          "present": true,
-          "unique_terms": 2,
-          "total_occurrences": 19
-        },
-        "sanskrit": {
-          "file": "index_hizo-houyaku_sanskrit.json",
-          "present": true,
-          "unique_terms": 0,
-          "total_occurrences": 0,
-          "with_diacritics_count": 0,
-          "ascii_only_count": 0
-        },
-        "kaimyo_jukugo": {
-          "file": "index_hizo-houyaku_kaimyo.json",
-          "present": true,
-          "unique_terms": 32,
-          "total_occurrences": 236,
-          "needs_review_count": 20,
-          "matched_jukugo_count": 28
-        },
-        "persons": {
-          "file": "index_hizo-houyaku_persons.json",
-          "present": true,
-          "unique_terms": 38,
-          "total_occurrences": 209,
-          "subcategory_count": 8
-        },
-        "places": {
-          "file": "index_hizo-houyaku_places.json",
-          "present": true,
-          "unique_terms": 22,
-          "total_occurrences": 60,
-          "subcategory_count": 8
-        }
-      }
-    },
-    {
-      "filename": "hizo-kogi-takai.json",
-      "title": "秘蔵講義「他界」",
-      "taisho_ref": "未調査",
-      "role": "excerpt_stub",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": false,
-        "gendaigoyaku": false,
-        "genten": false,
-        "specialty_sections": []
-      },
-      "char_counts": {
-        "text": 3900,
-        "kakikudashi": 0,
-        "gendaigoyaku": 0,
-        "genten": 0
-      },
-      "role_complete": false,
-      "notes": "未着手スタブ。text のみ（kaimyo-app 引用集）。本格取込は将来。"
-    },
-    {
-      "filename": "jujushinron.json",
-      "title": "十住心論",
-      "taisho_ref": "T2425 / vol.77",
-      "role": "primary_corpus",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": true,
-        "gendaigoyaku": true,
-        "genten": true,
-        "specialty_sections": []
-      },
-      "char_counts": {
-        "text": 330,
-        "kakikudashi": 159666,
-        "gendaigoyaku": 292975,
-        "genten": 91904
-      },
-      "role_complete": true,
-      "notes": "2026-05-31：W3（buddhist-jujushinron-workshop）完走分を中間マージ。excerpt_stub → primary_corpus 昇格（kakikudashi 159,666字・gendaigoyaku 全10巻 新訳調 292,975字・genten SAT T2425 91,904字）。同日、十住心論マージで 11 著作目として全 7 カテゴリ横断索引を生成（候補 D と同手順）。preamble / *_by_volume / intake_log はW3取込時の付随構造として温存。",
-      "index_status": {
-        "terms": {
-          "file": "index_jujushinron_terms.json",
-          "present": true,
-          "unique_terms": 19,
-          "total_occurrences": 539,
-          "matched_term_count": 14,
-          "kaimyo_suitable_count": 11
-        },
-        "citations": {
-          "file": "index_jujushinron_citations.json",
-          "present": true,
-          "unique_terms": 179,
-          "total_occurrences": 503
-        },
-        "kukai_works": {
-          "file": "index_jujushinron_kukai_works.json",
-          "present": true,
-          "unique_terms": 2,
-          "total_occurrences": 3
-        },
-        "sanskrit": {
-          "file": "index_jujushinron_sanskrit.json",
-          "present": true,
-          "unique_terms": 1,
-          "total_occurrences": 1,
-          "with_diacritics_count": 1,
-          "ascii_only_count": 0
-        },
-        "kaimyo_jukugo": {
-          "file": "index_jujushinron_kaimyo.json",
-          "present": true,
-          "unique_terms": 38,
-          "total_occurrences": 552,
-          "needs_review_count": 23,
-          "matched_jukugo_count": 34
-        },
-        "persons": {
-          "file": "index_jujushinron_persons.json",
-          "present": true,
-          "unique_terms": 38,
-          "total_occurrences": 403,
-          "subcategory_count": 7
-        },
-        "places": {
-          "file": "index_jujushinron_places.json",
-          "present": true,
-          "unique_terms": 20,
-          "total_occurrences": 237,
-          "subcategory_count": 9
-        }
-      }
-    },
-    {
-      "filename": "nihon-shingon-tetsugaku.json",
-      "title": "日本真言哲学",
-      "taisho_ref": "未調査",
-      "role": "excerpt_stub",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": false,
-        "gendaigoyaku": false,
-        "genten": false,
-        "specialty_sections": []
-      },
-      "char_counts": {
-        "text": 2855,
-        "kakikudashi": 0,
-        "gendaigoyaku": 0,
-        "genten": 0
-      },
-      "role_complete": false,
-      "notes": "未着手スタブ。text のみ（kaimyo-app 引用集）。本格取込は将来。"
-    },
-    {
-      "filename": "nikyo-ron.json",
-      "title": "弁顕密二教論",
-      "taisho_ref": "T2427 / vol.77",
-      "role": "primary_corpus",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": true,
-        "gendaigoyaku": true,
-        "genten": true,
-        "specialty_sections": [
-          "chosakumokuteki",
-          "gojumondobu",
-          "hoyo_oyo",
-          "juyona_quotes",
-          "kamishimo_kaisetsu",
-          "kengyo_mikkyo_hikaku",
-          "kihon_kyogi",
-          "nasu_kaisetsu",
-          "sanshin_setsu"
-        ]
-      },
-      "char_counts": {
-        "text": 392,
-        "kakikudashi": 18677,
-        "gendaigoyaku": 38816,
-        "genten": 10135
-      },
-      "role_complete": true,
-      "notes": "本文完備に加え、専門サブセクションあり（chosakumokuteki / kihon_kyogi / sanshin_setsu / juyona_quotes / gojumondobu / kengyo_mikkyo_hikaku / hoyo_oyo / kamishimo_kaisetsu / nasu_kaisetsu）。",
-      "index_status": {
-        "terms": {
-          "file": "index_nikyo-ron_terms.json",
-          "present": true,
-          "unique_terms": 19,
-          "total_occurrences": 360,
-          "matched_term_count": 11,
-          "kaimyo_suitable_count": 11
-        },
-        "citations": {
-          "file": "index_nikyo-ron_citations.json",
-          "present": true,
-          "unique_terms": 51,
-          "total_occurrences": 142
-        },
-        "kukai_works": {
-          "file": "index_nikyo-ron_kukai_works.json",
-          "present": true,
-          "unique_terms": 3,
-          "total_occurrences": 8
-        },
-        "sanskrit": {
-          "file": "index_nikyo-ron_sanskrit.json",
-          "present": true,
-          "unique_terms": 0,
-          "total_occurrences": 0,
-          "with_diacritics_count": 0,
-          "ascii_only_count": 0
-        },
-        "kaimyo_jukugo": {
-          "file": "index_nikyo-ron_kaimyo.json",
-          "present": true,
-          "unique_terms": 36,
-          "total_occurrences": 310,
-          "needs_review_count": 21,
-          "matched_jukugo_count": 33
-        },
-        "persons": {
-          "file": "index_nikyo-ron_persons.json",
-          "present": true,
-          "unique_terms": 20,
-          "total_occurrences": 238,
-          "subcategory_count": 5
-        },
-        "places": {
-          "file": "index_nikyo-ron_places.json",
-          "present": true,
-          "unique_terms": 4,
-          "total_occurrences": 4,
-          "subcategory_count": 3
-        }
-      }
-    },
-    {
-      "filename": "rishikyo.json",
-      "title": "理趣経・理趣釈",
-      "taisho_ref": "未調査",
-      "role": "excerpt_stub",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": false,
-        "gendaigoyaku": false,
-        "genten": false,
-        "specialty_sections": []
-      },
-      "char_counts": {
-        "text": 326,
-        "kakikudashi": 0,
-        "gendaigoyaku": 0,
-        "genten": 0
-      },
-      "role_complete": false,
-      "notes": "未着手スタブ。text のみ（kaimyo-app 引用集）。本格取込は将来。"
-    },
-    {
-      "filename": "sankyo-shiki.json",
-      "title": "三教指帰",
-      "taisho_ref": "SAT 範疇外（文集系）",
-      "role": "primary_corpus",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": true,
-        "gendaigoyaku": true,
-        "genten": false,
-        "specialty_sections": [],
-        "genten_unavailable_reason": "SAT 範疇外（文集系）"
-      },
-      "char_counts": {
-        "text": 2353,
-        "kakikudashi": 19773,
-        "gendaigoyaku": 44863,
-        "genten": 0
-      },
-      "role_complete": true,
-      "notes": "2026-05-03：SAT 範疇外確定（SAT2018 キーワード検索でヒット 0）。genten 不要。",
-      "index_status": {
-        "terms": {
-          "file": "index_sankyo-shiki_terms.json",
-          "present": true,
-          "unique_terms": 19,
-          "total_occurrences": 3,
-          "matched_term_count": 2,
-          "kaimyo_suitable_count": 11
-        },
-        "citations": {
-          "file": "index_sankyo-shiki_citations.json",
-          "present": true,
-          "unique_terms": 21,
-          "total_occurrences": 35
-        },
-        "kukai_works": {
-          "file": "index_sankyo-shiki_kukai_works.json",
-          "present": true,
-          "unique_terms": 1,
-          "total_occurrences": 1
-        },
-        "sanskrit": {
-          "file": "index_sankyo-shiki_sanskrit.json",
-          "present": true,
-          "unique_terms": 0,
-          "total_occurrences": 0,
-          "with_diacritics_count": 0,
-          "ascii_only_count": 0
-        },
-        "kaimyo_jukugo": {
-          "file": "index_sankyo-shiki_kaimyo.json",
-          "present": true,
-          "unique_terms": 14,
-          "total_occurrences": 7,
-          "needs_review_count": 3,
-          "matched_jukugo_count": 5
-        },
-        "persons": {
-          "file": "index_sankyo-shiki_persons.json",
-          "present": true,
-          "unique_terms": 30,
-          "total_occurrences": 82,
-          "subcategory_count": 6
-        },
-        "places": {
-          "file": "index_sankyo-shiki_places.json",
-          "present": true,
-          "unique_terms": 21,
-          "total_occurrences": 50,
-          "subcategory_count": 8
-        }
-      }
-    },
-    {
-      "filename": "sanmayakai.json",
-      "title": "三昧耶戒",
-      "taisho_ref": "未調査",
-      "role": "excerpt_stub",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": false,
-        "gendaigoyaku": false,
-        "genten": false,
-        "specialty_sections": []
-      },
-      "char_counts": {
-        "text": 2381,
-        "kakikudashi": 0,
-        "gendaigoyaku": 0,
-        "genten": 0
-      },
-      "role_complete": false,
-      "notes": "未着手スタブ。text のみ（kaimyo-app 引用集）。本格取込は将来。"
-    },
-    {
-      "filename": "shoji-jisso.json",
-      "title": "声字実相義",
-      "taisho_ref": "T2429 / vol.77",
-      "role": "primary_corpus",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": true,
-        "gendaigoyaku": true,
-        "genten": true,
-        "specialty_sections": []
-      },
-      "char_counts": {
-        "text": 2685,
-        "kakikudashi": 6513,
-        "gendaigoyaku": 14087,
-        "genten": 4320
-      },
-      "role_complete": true,
-      "notes": "",
-      "index_status": {
-        "terms": {
-          "file": "index_shoji-jisso_terms.json",
-          "present": true,
-          "unique_terms": 19,
-          "total_occurrences": 136,
-          "matched_term_count": 10,
-          "kaimyo_suitable_count": 11
-        },
-        "citations": {
-          "file": "index_shoji-jisso_citations.json",
-          "present": true,
-          "unique_terms": 12,
-          "total_occurrences": 27
-        },
-        "kukai_works": {
-          "file": "index_shoji-jisso_kukai_works.json",
-          "present": true,
-          "unique_terms": 1,
-          "total_occurrences": 2
-        },
-        "sanskrit": {
-          "file": "index_shoji-jisso_sanskrit.json",
-          "present": true,
-          "unique_terms": 0,
-          "total_occurrences": 0,
-          "with_diacritics_count": 0,
-          "ascii_only_count": 0
-        },
-        "kaimyo_jukugo": {
-          "file": "index_shoji-jisso_kaimyo.json",
-          "present": true,
-          "unique_terms": 16,
-          "total_occurrences": 137,
-          "needs_review_count": 5,
-          "matched_jukugo_count": 12
-        },
-        "persons": {
-          "file": "index_shoji-jisso_persons.json",
-          "present": true,
-          "unique_terms": 7,
-          "total_occurrences": 82,
-          "subcategory_count": 5
-        },
-        "places": {
-          "file": "index_shoji-jisso_places.json",
-          "present": true,
-          "unique_terms": 3,
-          "total_occurrences": 3,
-          "subcategory_count": 1
-        }
-      }
-    },
-    {
-      "filename": "shoryoshu.json",
-      "title": "性霊集 補助メタファイル",
-      "taisho_ref": "SAT 範疇外（文集系）",
-      "role": "auxiliary_meta",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": false,
-        "gendaigoyaku": false,
-        "genten": false,
-        "specialty_sections": [
-          "editorial_note",
-          "text_revised"
-        ],
-        "genten_unavailable_reason": "SAT 範疇外（文集系）"
-      },
-      "char_counts": {
-        "text": 203467,
-        "kakikudashi": 0,
-        "gendaigoyaku": 0,
-        "genten": 0
-      },
-      "role_complete": true,
-      "notes": "性霊集 補助メタファイル。setup_kukai.js（_archive/scripts/ に退避済）で seed された text に加え、editorial_note（高野山 Kindle 本の編集凡例 389 字）と text_revised（性霊集の漢文序文断片 911 字）を保持。性霊集は SAT 範疇外のため、text_revised の漢文序文は現時点で唯一の漢文原文断片として貴重。archive せず温存。"
-    },
-    {
-      "filename": "shoryoshu_miyasaka.json",
-      "title": "性霊集（遍照発揮性霊集・112 篇）",
-      "taisho_ref": "SAT 範疇外（文集系）",
-      "role": "primary_corpus",
-      "type": "list",
-      "schema_ref": "_dev_references/schemas/shoryoshu_list.schema.json",
-      "entries_count": 112,
-      "data_status": {
-        "kaimyo_excerpt": false,
-        "kakikudashi": true,
-        "gendaigoyaku": true,
-        "genten": false,
-        "genten_unavailable_reason": "SAT 範疇外（文集系）",
-        "specialty_sections": []
-      },
-      "char_counts": {
-        "kakikudashi_total": 84686,
-        "gendaigoyaku_total": 217446
-      },
-      "role_complete": true,
-      "notes": "性霊集 112 篇の正本。フェーズ 2 完結（2026-04-27）で全 112 篇高品質訳完備。CLAUDE.md 原則 1 で構造変更禁止。",
-      "index_status": {
-        "terms": {
-          "file": "index_shoryoshu_terms.json",
-          "present": true,
-          "unique_terms": 19,
-          "total_occurrences": 544,
-          "kaimyo_suitable_count": 11,
-          "covered_shoryoshu_idx_count": 78
-        },
-        "citations": {
-          "file": "index_shoryoshu_citations.json",
-          "present": true,
-          "unique_terms": 237,
-          "total_occurrences": 1181,
-          "covered_shoryoshu_idx_count": 105
-        },
-        "kukai_works": {
-          "file": "index_shoryoshu_kukai_works.json",
-          "present": true,
-          "unique_terms": 5,
-          "total_occurrences": 5,
-          "covered_shoryoshu_idx_count": 2
-        },
-        "sanskrit": {
-          "file": "index_shoryoshu_sanskrit.json",
-          "present": true,
-          "unique_terms": 0,
-          "total_occurrences": 654,
-          "covered_shoryoshu_idx_count": 66
-        },
-        "kaimyo_jukugo": {
-          "file": "index_shoryoshu_kaimyo.json",
-          "present": true,
-          "unique_terms": 0,
-          "total_occurrences": 1971,
-          "covered_shoryoshu_idx_count": 100
-        },
-        "persons": {
-          "file": "index_shoryoshu_persons.json",
-          "present": true,
-          "unique_terms": 0,
-          "total_occurrences": 1197,
-          "covered_shoryoshu_idx_count": 109
-        },
-        "places": {
-          "file": "index_shoryoshu_places.json",
-          "present": true,
-          "unique_terms": 0,
-          "total_occurrences": 466,
-          "covered_shoryoshu_idx_count": 92
-        }
-      }
-    },
-    {
-      "filename": "sokushin-jobutsu.json",
-      "title": "即身成仏義",
-      "taisho_ref": "T2428 / vol.77",
-      "role": "primary_corpus",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": true,
-        "gendaigoyaku": true,
-        "genten": true,
-        "specialty_sections": []
-      },
-      "char_counts": {
-        "text": 289,
-        "kakikudashi": 7205,
-        "gendaigoyaku": 20298,
-        "genten": 4068
-      },
-      "role_complete": true,
-      "notes": "",
-      "index_status": {
-        "terms": {
-          "file": "index_sokushin-jobutsu_terms.json",
-          "present": true,
-          "unique_terms": 19,
-          "total_occurrences": 361,
-          "matched_term_count": 14,
-          "kaimyo_suitable_count": 11
-        },
-        "citations": {
-          "file": "index_sokushin-jobutsu_citations.json",
-          "present": true,
-          "unique_terms": 17,
-          "total_occurrences": 44
-        },
-        "kukai_works": {
-          "file": "index_sokushin-jobutsu_kukai_works.json",
-          "present": true,
-          "unique_terms": 2,
-          "total_occurrences": 5
-        },
-        "sanskrit": {
-          "file": "index_sokushin-jobutsu_sanskrit.json",
-          "present": true,
-          "unique_terms": 9,
-          "total_occurrences": 11,
-          "with_diacritics_count": 1,
-          "ascii_only_count": 8
-        },
-        "kaimyo_jukugo": {
-          "file": "index_sokushin-jobutsu_kaimyo.json",
-          "present": true,
-          "unique_terms": 22,
-          "total_occurrences": 333,
-          "needs_review_count": 9,
-          "matched_jukugo_count": 18
-        },
-        "persons": {
-          "file": "index_sokushin-jobutsu_persons.json",
-          "present": true,
-          "unique_terms": 11,
-          "total_occurrences": 196,
-          "subcategory_count": 5
-        },
-        "places": {
-          "file": "index_sokushin-jobutsu_places.json",
-          "present": true,
-          "unique_terms": 5,
-          "total_occurrences": 12,
-          "subcategory_count": 2
-        }
-      }
-    },
-    {
-      "filename": "ujiji.json",
-      "title": "吽字義",
-      "taisho_ref": "T2430 / vol.77",
-      "role": "primary_corpus",
-      "type": "dict",
-      "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
-      "data_status": {
-        "kaimyo_excerpt": true,
-        "kakikudashi": true,
-        "gendaigoyaku": true,
-        "genten": true,
-        "specialty_sections": [
-          "bosatsu_rita",
-          "chosaku_gaiyou",
-          "hoyo_oyo",
-          "ji_gi",
-          "ji_so",
-          "juyona_quotes",
-          "kenmitsu_hikaku",
-          "kosei",
-          "unjiji_shishin"
-        ]
-      },
-      "char_counts": {
-        "text": 418,
-        "kakikudashi": 10328,
-        "gendaigoyaku": 21863,
-        "genten": 5628
-      },
-      "role_complete": true,
-      "notes": "本文完備に加え、専門サブセクションあり（chosaku_gaiyou / kosei / ji_so / ji_gi / unjiji_shishin / bosatsu_rita / juyona_quotes / kenmitsu_hikaku / hoyo_oyo）。",
-      "index_status": {
-        "terms": {
-          "file": "index_ujiji_terms.json",
-          "present": true,
-          "unique_terms": 19,
-          "total_occurrences": 170,
-          "matched_term_count": 11,
-          "kaimyo_suitable_count": 11
-        },
-        "citations": {
-          "file": "index_ujiji_citations.json",
-          "present": true,
-          "unique_terms": 14,
-          "total_occurrences": 37
-        },
-        "kukai_works": {
-          "file": "index_ujiji_kukai_works.json",
-          "present": true,
-          "unique_terms": 0,
-          "total_occurrences": 0
-        },
-        "sanskrit": {
-          "file": "index_ujiji_sanskrit.json",
-          "present": true,
-          "unique_terms": 35,
-          "total_occurrences": 37,
-          "with_diacritics_count": 13,
-          "ascii_only_count": 22
-        },
-        "kaimyo_jukugo": {
-          "file": "index_ujiji_kaimyo.json",
-          "present": true,
-          "unique_terms": 25,
-          "total_occurrences": 177,
-          "needs_review_count": 11,
-          "matched_jukugo_count": 20
-        },
-        "persons": {
-          "file": "index_ujiji_persons.json",
-          "present": true,
-          "unique_terms": 11,
-          "total_occurrences": 88,
-          "subcategory_count": 4
-        },
-        "places": {
-          "file": "index_ujiji_places.json",
-          "present": true,
-          "unique_terms": 4,
-          "total_occurrences": 8,
-          "subcategory_count": 2
-        }
-      }
-    }
-  ],
-  "index_definitions": {
-    "description": "横断索引化フェーズ B（cross_index_spec.md）の出力索引。各 primary_corpus 著作の gendaigoyaku から抽出した正規化済データを data/mikkyou/index_*.json に置く。",
-    "storage_dir": "data/mikkyou/",
-    "naming_pattern": "index_<corpus_id>_<category>.json",
-    "categories": {
-      "terms": "Tier 1-1 密教教学用語（19 語辞書）",
-      "citations": "Tier 1-2 典故書名（『〜』形式・他者著作）",
-      "kukai_works": "Tier 1-2 派生：空海著作・性霊集編纂物（citations から分離）",
-      "sanskrit": "Tier 2-4 梵語 IAST",
-      "kaimyo_jukugo": "Tier 2-3 戒名向け熟語",
-      "persons": "Tier 3-5 人名",
-      "places": "Tier 3-6 地名"
-    },
-    "g2_status": {
-      "description": "G2-A〜D 完了（dict 型 8 著作の Tier 1+2-3+2-4+3-5+3-6 全 7 カテゴリ）+ G2-E 完了（横断集約 7 ファイル生成） + 2026-05-31 十住心論マージで jujushinron を 11 著作目として全 7 カテゴリ索引化。",
-      "list_corpus_full_index": [
-        "shoryoshu_miyasaka.json"
-      ],
-      "dict_corpus_tier1_index": [
-        "nikyo-ron.json",
-        "ujiji.json",
-        "shoji-jisso.json",
-        "sokushin-jobutsu.json",
-        "hannya-hiken.json",
-        "hizo-houyaku.json",
-        "dainichikyo-sho-vol1.json",
-        "sankyo-shiki.json",
-        "jujushinron.json"
-      ],
-      "pending_dict_corpus_tier2_3": "梵語・戒名熟語・人名・地名は今後段階展開（性霊集スクリプトを dict 型に拡張）"
-    }
-  },
-  "aggregate_indices": {
-    "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。",
-    "storage_dir": "data/mikkyou/",
-    "naming_pattern": "index_<category>_all.json",
-    "source_corpora": [
-      "shoryoshu_miyasaka",
-      "nikyo-ron",
-      "ujiji",
-      "shoji-jisso",
-      "sokushin-jobutsu",
-      "hannya-hiken",
-      "hizo-houyaku",
-      "dainichikyo-sho-vol1",
-      "sankyo-shiki",
-      "bodaishinron",
-      "jujushinron"
-    ],
-    "corpora_count": 11,
-    "files": {
-      "terms": {
-        "file": "index_terms_all.json",
-        "present": true,
-        "corpora_with_data": 11,
-        "unique_terms_total": 19,
-        "total_occurrences": 2820,
-        "terms_in_multiple_corpora": 16,
-        "max_corpus_coverage": 11
-      },
-      "citations": {
-        "file": "index_citations_all.json",
-        "present": true,
-        "corpora_with_data": 11,
-        "unique_terms_total": 545,
-        "total_occurrences": 2350,
-        "terms_in_multiple_corpora": 84,
-        "max_corpus_coverage": 10
-      },
-      "kukai_works": {
-        "file": "index_kukai_works_all.json",
-        "present": true,
-        "corpora_with_data": 11,
-        "unique_terms_total": 13,
-        "total_occurrences": 55,
-        "terms_in_multiple_corpora": 3,
-        "max_corpus_coverage": 5
-      },
-      "sanskrit": {
-        "file": "index_sanskrit_all.json",
-        "present": true,
-        "corpora_with_data": 11,
-        "unique_terms_total": 1743,
-        "total_occurrences": 2672,
-        "terms_in_multiple_corpora": 141,
-        "max_corpus_coverage": 4
-      },
-      "kaimyo_jukugo": {
-        "file": "index_kaimyo_jukugo_all.json",
-        "present": true,
-        "corpora_with_data": 11,
-        "unique_terms_total": 114,
-        "total_occurrences": 5006,
-        "terms_in_multiple_corpora": 76,
-        "max_corpus_coverage": 11
-      },
-      "persons": {
-        "file": "index_persons_all.json",
-        "present": true,
-        "corpora_with_data": 11,
-        "unique_terms_total": 90,
-        "total_occurrences": 2837,
-        "terms_in_multiple_corpora": 58,
-        "max_corpus_coverage": 10
-      },
-      "places": {
-        "file": "index_places_all.json",
-        "present": true,
-        "corpora_with_data": 11,
-        "unique_terms_total": 72,
-        "total_occurrences": 876,
-        "terms_in_multiple_corpora": 36,
-        "max_corpus_coverage": 9
-      }
-    }
+  "role_complete_files": 13,
+  "kakikudashi_present": 12,
+  "gendaigoyaku_present": 12,
+  "genten_present": 9,
+  "with_specialty_sections": 4,
+  "indexed_corpora": {
+   "terms": 11,
+   "citations": 11,
+   "kukai_works": 11,
+   "sanskrit": 11,
+   "kaimyo_jukugo": 11,
+   "persons": 11,
+   "places": 11
   }
+ },
+ "files": [
+  {
+   "filename": "bodaishinron.json",
+   "title": "菩提心論",
+   "taisho_ref": "T1665 / vol.32, p.572b-574c",
+   "role": "primary_corpus",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": true,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "text": 449,
+    "kakikudashi": 5951,
+    "gendaigoyaku": 11605,
+    "genten": 3605
+   },
+   "role_complete": true,
+   "notes": "2026-05-04：kakikudashi+gendaigoyaku+genten 完備（弘大全集六 PDF スクショ 22 枚 OCR 受領・倒置 1 件修正済）。同日、候補 D（横断索引化）で 9 著作目として全 7 カテゴリ index 生成。",
+   "index_status": {
+    "terms": {
+     "file": "index_bodaishinron_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 59,
+     "matched_term_count": 8,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_bodaishinron_citations.json",
+     "present": true,
+     "unique_terms": 10,
+     "total_occurrences": 18
+    },
+    "kukai_works": {
+     "file": "index_bodaishinron_kukai_works.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0
+    },
+    "sanskrit": {
+     "file": "index_bodaishinron_sanskrit.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0,
+     "with_diacritics_count": 0,
+     "ascii_only_count": 0
+    },
+    "kaimyo_jukugo": {
+     "file": "index_bodaishinron_kaimyo.json",
+     "present": true,
+     "unique_terms": 23,
+     "total_occurrences": 59,
+     "needs_review_count": 10,
+     "matched_jukugo_count": 17
+    },
+    "persons": {
+     "file": "index_bodaishinron_persons.json",
+     "present": true,
+     "unique_terms": 5,
+     "total_occurrences": 21,
+     "subcategory_count": 0
+    },
+    "places": {
+     "file": "index_bodaishinron_places.json",
+     "present": true,
+     "unique_terms": 5,
+     "total_occurrences": 10,
+     "subcategory_count": 0
+    }
+   }
+  },
+  {
+   "filename": "dainichikyo-sho-vol1.json",
+   "title": "大日経疏巻第一",
+   "taisho_ref": "T1796 / vol.39",
+   "role": "primary_corpus",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": false,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": true,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "text": 0,
+    "kakikudashi": 43295,
+    "gendaigoyaku": 101714,
+    "genten": 24078
+   },
+   "role_complete": true,
+   "notes": "",
+   "index_status": {
+    "terms": {
+     "file": "index_dainichikyo-sho-vol1_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 286,
+     "matched_term_count": 14,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_dainichikyo-sho-vol1_citations.json",
+     "present": true,
+     "unique_terms": 106,
+     "total_occurrences": 179
+    },
+    "kukai_works": {
+     "file": "index_dainichikyo-sho-vol1_kukai_works.json",
+     "present": true,
+     "unique_terms": 3,
+     "total_occurrences": 11
+    },
+    "sanskrit": {
+     "file": "index_dainichikyo-sho-vol1_sanskrit.json",
+     "present": true,
+     "unique_terms": 1409,
+     "total_occurrences": 1955,
+     "with_diacritics_count": 1144,
+     "ascii_only_count": 265
+    },
+    "kaimyo_jukugo": {
+     "file": "index_dainichikyo-sho-vol1_kaimyo.json",
+     "present": true,
+     "unique_terms": 70,
+     "total_occurrences": 1088,
+     "needs_review_count": 27,
+     "matched_jukugo_count": 64
+    },
+    "persons": {
+     "file": "index_dainichikyo-sho-vol1_persons.json",
+     "present": true,
+     "unique_terms": 26,
+     "total_occurrences": 233,
+     "subcategory_count": 6
+    },
+    "places": {
+     "file": "index_dainichikyo-sho-vol1_places.json",
+     "present": true,
+     "unique_terms": 9,
+     "total_occurrences": 25,
+     "subcategory_count": 6
+    }
+   }
+  },
+  {
+   "filename": "goshorai-mokuroku.json",
+   "title": "御請来目録",
+   "taisho_ref": "T2161 / vol.55",
+   "role": "specialty_meta",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": false,
+    "kakikudashi": false,
+    "gendaigoyaku": false,
+    "genten": false,
+    "specialty_sections": [
+     "bibliographic_info",
+     "honbun",
+     "last_updated",
+     "overlap_with_shoryoshu",
+     "seirai_butsuji_gaiyou",
+     "status_note",
+     "tag"
+    ]
+   },
+   "char_counts": {
+    "text": 0,
+    "kakikudashi": 0,
+    "gendaigoyaku": 0,
+    "genten": 0
+   },
+   "role_complete": false,
+   "notes": "専門メタ型（bibliographic_info / overlap_with_shoryoshu / seirai_butsuji_gaiyou / honbun / tag / last_updated / status_note）。本文 kakikudashi/gendaigoyaku は未取込。"
+  },
+  {
+   "filename": "goyuigo.json",
+   "title": "御遺告",
+   "taisho_ref": "未調査",
+   "role": "excerpt_stub",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": false,
+    "gendaigoyaku": false,
+    "genten": false,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "text": 2871,
+    "kakikudashi": 0,
+    "gendaigoyaku": 0,
+    "genten": 0
+   },
+   "role_complete": false,
+   "notes": "未着手スタブ。text のみ（kaimyo-app 引用集）。本格取込は将来。"
+  },
+  {
+   "filename": "hannya-hiken.json",
+   "title": "般若心経秘鍵",
+   "taisho_ref": "T2203A / vol.57",
+   "role": "primary_corpus",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": true,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "text": 2592,
+    "kakikudashi": 4330,
+    "gendaigoyaku": 14186,
+    "genten": 2758
+   },
+   "role_complete": true,
+   "notes": "",
+   "index_status": {
+    "terms": {
+     "file": "index_hannya-hiken_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 105,
+     "matched_term_count": 7,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_hannya-hiken_citations.json",
+     "present": true,
+     "unique_terms": 14,
+     "total_occurrences": 45
+    },
+    "kukai_works": {
+     "file": "index_hannya-hiken_kukai_works.json",
+     "present": true,
+     "unique_terms": 1,
+     "total_occurrences": 1
+    },
+    "sanskrit": {
+     "file": "index_hannya-hiken_sanskrit.json",
+     "present": true,
+     "unique_terms": 7,
+     "total_occurrences": 14,
+     "with_diacritics_count": 5,
+     "ascii_only_count": 2
+    },
+    "kaimyo_jukugo": {
+     "file": "index_hannya-hiken_kaimyo.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 136,
+     "needs_review_count": 4,
+     "matched_jukugo_count": 13
+    },
+    "persons": {
+     "file": "index_hannya-hiken_persons.json",
+     "present": true,
+     "unique_terms": 14,
+     "total_occurrences": 88,
+     "subcategory_count": 6
+    },
+    "places": {
+     "file": "index_hannya-hiken_places.json",
+     "present": true,
+     "unique_terms": 1,
+     "total_occurrences": 1,
+     "subcategory_count": 1
+    }
+   }
+  },
+  {
+   "filename": "hizo-houyaku.json",
+   "title": "秘蔵宝鑰",
+   "taisho_ref": "T2426 / vol.77",
+   "role": "primary_corpus",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": true,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "text": 2466,
+    "kakikudashi": 32460,
+    "gendaigoyaku": 75246,
+    "genten": 17746
+   },
+   "role_complete": true,
+   "notes": "",
+   "index_status": {
+    "terms": {
+     "file": "index_hizo-houyaku_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 257,
+     "matched_term_count": 13,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_hizo-houyaku_citations.json",
+     "present": true,
+     "unique_terms": 57,
+     "total_occurrences": 139
+    },
+    "kukai_works": {
+     "file": "index_hizo-houyaku_kukai_works.json",
+     "present": true,
+     "unique_terms": 2,
+     "total_occurrences": 19
+    },
+    "sanskrit": {
+     "file": "index_hizo-houyaku_sanskrit.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0,
+     "with_diacritics_count": 0,
+     "ascii_only_count": 0
+    },
+    "kaimyo_jukugo": {
+     "file": "index_hizo-houyaku_kaimyo.json",
+     "present": true,
+     "unique_terms": 32,
+     "total_occurrences": 236,
+     "needs_review_count": 20,
+     "matched_jukugo_count": 28
+    },
+    "persons": {
+     "file": "index_hizo-houyaku_persons.json",
+     "present": true,
+     "unique_terms": 38,
+     "total_occurrences": 209,
+     "subcategory_count": 8
+    },
+    "places": {
+     "file": "index_hizo-houyaku_places.json",
+     "present": true,
+     "unique_terms": 22,
+     "total_occurrences": 60,
+     "subcategory_count": 8
+    }
+   }
+  },
+  {
+   "filename": "hizo-kogi-takai.json",
+   "title": "秘蔵講義「他界」",
+   "taisho_ref": "未調査",
+   "role": "excerpt_stub",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": false,
+    "gendaigoyaku": false,
+    "genten": false,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "text": 3900,
+    "kakikudashi": 0,
+    "gendaigoyaku": 0,
+    "genten": 0
+   },
+   "role_complete": false,
+   "notes": "未着手スタブ。text のみ（kaimyo-app 引用集）。本格取込は将来。"
+  },
+  {
+   "filename": "jujushinron.json",
+   "title": "十住心論",
+   "taisho_ref": "T2425 / vol.77",
+   "role": "primary_corpus",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": true,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "text": 330,
+    "kakikudashi": 159666,
+    "gendaigoyaku": 292975,
+    "genten": 91904
+   },
+   "role_complete": true,
+   "notes": "2026-05-31：W3（buddhist-jujushinron-workshop）完走分を中間マージ。excerpt_stub → primary_corpus 昇格（kakikudashi 159,666字・gendaigoyaku 全10巻 新訳調 292,975字・genten SAT T2425 91,904字）。同日、十住心論マージで 11 著作目として全 7 カテゴリ横断索引を生成（候補 D と同手順）。preamble / *_by_volume / intake_log はW3取込時の付随構造として温存。",
+   "index_status": {
+    "terms": {
+     "file": "index_jujushinron_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 539,
+     "matched_term_count": 14,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_jujushinron_citations.json",
+     "present": true,
+     "unique_terms": 179,
+     "total_occurrences": 503
+    },
+    "kukai_works": {
+     "file": "index_jujushinron_kukai_works.json",
+     "present": true,
+     "unique_terms": 2,
+     "total_occurrences": 3
+    },
+    "sanskrit": {
+     "file": "index_jujushinron_sanskrit.json",
+     "present": true,
+     "unique_terms": 1,
+     "total_occurrences": 1,
+     "with_diacritics_count": 1,
+     "ascii_only_count": 0
+    },
+    "kaimyo_jukugo": {
+     "file": "index_jujushinron_kaimyo.json",
+     "present": true,
+     "unique_terms": 38,
+     "total_occurrences": 552,
+     "needs_review_count": 23,
+     "matched_jukugo_count": 34
+    },
+    "persons": {
+     "file": "index_jujushinron_persons.json",
+     "present": true,
+     "unique_terms": 38,
+     "total_occurrences": 403,
+     "subcategory_count": 7
+    },
+    "places": {
+     "file": "index_jujushinron_places.json",
+     "present": true,
+     "unique_terms": 20,
+     "total_occurrences": 237,
+     "subcategory_count": 9
+    }
+   }
+  },
+  {
+   "filename": "nihon-shingon-tetsugaku.json",
+   "title": "日本真言哲学",
+   "taisho_ref": "未調査",
+   "role": "excerpt_stub",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": false,
+    "gendaigoyaku": false,
+    "genten": false,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "text": 2855,
+    "kakikudashi": 0,
+    "gendaigoyaku": 0,
+    "genten": 0
+   },
+   "role_complete": false,
+   "notes": "未着手スタブ。text のみ（kaimyo-app 引用集）。本格取込は将来。"
+  },
+  {
+   "filename": "nikyo-ron.json",
+   "title": "弁顕密二教論",
+   "taisho_ref": "T2427 / vol.77",
+   "role": "primary_corpus",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": true,
+    "specialty_sections": [
+     "chosakumokuteki",
+     "gojumondobu",
+     "hoyo_oyo",
+     "juyona_quotes",
+     "kamishimo_kaisetsu",
+     "kengyo_mikkyo_hikaku",
+     "kihon_kyogi",
+     "nasu_kaisetsu",
+     "sanshin_setsu"
+    ]
+   },
+   "char_counts": {
+    "text": 392,
+    "kakikudashi": 18677,
+    "gendaigoyaku": 38816,
+    "genten": 10135
+   },
+   "role_complete": true,
+   "notes": "本文完備に加え、専門サブセクションあり（chosakumokuteki / kihon_kyogi / sanshin_setsu / juyona_quotes / gojumondobu / kengyo_mikkyo_hikaku / hoyo_oyo / kamishimo_kaisetsu / nasu_kaisetsu）。",
+   "index_status": {
+    "terms": {
+     "file": "index_nikyo-ron_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 360,
+     "matched_term_count": 11,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_nikyo-ron_citations.json",
+     "present": true,
+     "unique_terms": 51,
+     "total_occurrences": 142
+    },
+    "kukai_works": {
+     "file": "index_nikyo-ron_kukai_works.json",
+     "present": true,
+     "unique_terms": 3,
+     "total_occurrences": 8
+    },
+    "sanskrit": {
+     "file": "index_nikyo-ron_sanskrit.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0,
+     "with_diacritics_count": 0,
+     "ascii_only_count": 0
+    },
+    "kaimyo_jukugo": {
+     "file": "index_nikyo-ron_kaimyo.json",
+     "present": true,
+     "unique_terms": 36,
+     "total_occurrences": 310,
+     "needs_review_count": 21,
+     "matched_jukugo_count": 33
+    },
+    "persons": {
+     "file": "index_nikyo-ron_persons.json",
+     "present": true,
+     "unique_terms": 20,
+     "total_occurrences": 238,
+     "subcategory_count": 5
+    },
+    "places": {
+     "file": "index_nikyo-ron_places.json",
+     "present": true,
+     "unique_terms": 4,
+     "total_occurrences": 4,
+     "subcategory_count": 3
+    }
+   }
+  },
+  {
+   "filename": "rishikyo.json",
+   "title": "理趣経・理趣釈",
+   "taisho_ref": "未調査",
+   "role": "excerpt_stub",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": false,
+    "gendaigoyaku": false,
+    "genten": false,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "text": 326,
+    "kakikudashi": 0,
+    "gendaigoyaku": 0,
+    "genten": 0
+   },
+   "role_complete": false,
+   "notes": "未着手スタブ。text のみ（kaimyo-app 引用集）。本格取込は将来。"
+  },
+  {
+   "filename": "sankyo-shiki.json",
+   "title": "三教指帰",
+   "taisho_ref": "SAT 範疇外（文集系）",
+   "role": "primary_corpus",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": false,
+    "specialty_sections": [],
+    "genten_unavailable_reason": "SAT 範疇外（文集系）"
+   },
+   "char_counts": {
+    "text": 2353,
+    "kakikudashi": 19773,
+    "gendaigoyaku": 44863,
+    "genten": 0
+   },
+   "role_complete": true,
+   "notes": "2026-05-03：SAT 範疇外確定（SAT2018 キーワード検索でヒット 0）。genten 不要。",
+   "index_status": {
+    "terms": {
+     "file": "index_sankyo-shiki_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 3,
+     "matched_term_count": 2,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_sankyo-shiki_citations.json",
+     "present": true,
+     "unique_terms": 21,
+     "total_occurrences": 35
+    },
+    "kukai_works": {
+     "file": "index_sankyo-shiki_kukai_works.json",
+     "present": true,
+     "unique_terms": 1,
+     "total_occurrences": 1
+    },
+    "sanskrit": {
+     "file": "index_sankyo-shiki_sanskrit.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0,
+     "with_diacritics_count": 0,
+     "ascii_only_count": 0
+    },
+    "kaimyo_jukugo": {
+     "file": "index_sankyo-shiki_kaimyo.json",
+     "present": true,
+     "unique_terms": 14,
+     "total_occurrences": 7,
+     "needs_review_count": 3,
+     "matched_jukugo_count": 5
+    },
+    "persons": {
+     "file": "index_sankyo-shiki_persons.json",
+     "present": true,
+     "unique_terms": 30,
+     "total_occurrences": 82,
+     "subcategory_count": 6
+    },
+    "places": {
+     "file": "index_sankyo-shiki_places.json",
+     "present": true,
+     "unique_terms": 21,
+     "total_occurrences": 50,
+     "subcategory_count": 8
+    }
+   }
+  },
+  {
+   "filename": "sanmayakai.json",
+   "title": "三昧耶戒",
+   "taisho_ref": "未調査",
+   "role": "excerpt_stub",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": false,
+    "gendaigoyaku": false,
+    "genten": false,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "text": 2381,
+    "kakikudashi": 0,
+    "gendaigoyaku": 0,
+    "genten": 0
+   },
+   "role_complete": false,
+   "notes": "未着手スタブ。text のみ（kaimyo-app 引用集）。本格取込は将来。"
+  },
+  {
+   "filename": "shoji-jisso.json",
+   "title": "声字実相義",
+   "taisho_ref": "T2429 / vol.77",
+   "role": "primary_corpus",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": true,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "text": 2685,
+    "kakikudashi": 6513,
+    "gendaigoyaku": 14087,
+    "genten": 4320
+   },
+   "role_complete": true,
+   "notes": "",
+   "index_status": {
+    "terms": {
+     "file": "index_shoji-jisso_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 136,
+     "matched_term_count": 10,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_shoji-jisso_citations.json",
+     "present": true,
+     "unique_terms": 12,
+     "total_occurrences": 27
+    },
+    "kukai_works": {
+     "file": "index_shoji-jisso_kukai_works.json",
+     "present": true,
+     "unique_terms": 1,
+     "total_occurrences": 2
+    },
+    "sanskrit": {
+     "file": "index_shoji-jisso_sanskrit.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0,
+     "with_diacritics_count": 0,
+     "ascii_only_count": 0
+    },
+    "kaimyo_jukugo": {
+     "file": "index_shoji-jisso_kaimyo.json",
+     "present": true,
+     "unique_terms": 16,
+     "total_occurrences": 137,
+     "needs_review_count": 5,
+     "matched_jukugo_count": 12
+    },
+    "persons": {
+     "file": "index_shoji-jisso_persons.json",
+     "present": true,
+     "unique_terms": 7,
+     "total_occurrences": 82,
+     "subcategory_count": 5
+    },
+    "places": {
+     "file": "index_shoji-jisso_places.json",
+     "present": true,
+     "unique_terms": 3,
+     "total_occurrences": 3,
+     "subcategory_count": 1
+    }
+   }
+  },
+  {
+   "filename": "shoryoshu.json",
+   "title": "性霊集 補助メタファイル",
+   "taisho_ref": "SAT 範疇外（文集系）",
+   "role": "auxiliary_meta",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": false,
+    "gendaigoyaku": false,
+    "genten": false,
+    "specialty_sections": [
+     "editorial_note",
+     "text_revised"
+    ],
+    "genten_unavailable_reason": "SAT 範疇外（文集系）"
+   },
+   "char_counts": {
+    "text": 203467,
+    "kakikudashi": 0,
+    "gendaigoyaku": 0,
+    "genten": 0
+   },
+   "role_complete": true,
+   "notes": "性霊集 補助メタファイル。setup_kukai.js（_archive/scripts/ に退避済）で seed された text に加え、editorial_note（高野山 Kindle 本の編集凡例 389 字）と text_revised（性霊集の漢文序文断片 911 字）を保持。性霊集は SAT 範疇外のため、text_revised の漢文序文は現時点で唯一の漢文原文断片として貴重。archive せず温存。"
+  },
+  {
+   "filename": "shoryoshu_miyasaka.json",
+   "title": "性霊集（遍照発揮性霊集・112 篇）",
+   "taisho_ref": "SAT 範疇外（文集系）",
+   "role": "primary_corpus",
+   "type": "list",
+   "schema_ref": "_dev_references/schemas/shoryoshu_list.schema.json",
+   "entries_count": 112,
+   "data_status": {
+    "kaimyo_excerpt": false,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": false,
+    "genten_unavailable_reason": "SAT 範疇外（文集系）",
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "kakikudashi_total": 84686,
+    "gendaigoyaku_total": 217446
+   },
+   "role_complete": true,
+   "notes": "性霊集 112 篇の正本。フェーズ 2 完結（2026-04-27）で全 112 篇高品質訳完備。CLAUDE.md 原則 1 で構造変更禁止。",
+   "index_status": {
+    "terms": {
+     "file": "index_shoryoshu_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 544,
+     "kaimyo_suitable_count": 11,
+     "covered_shoryoshu_idx_count": 78
+    },
+    "citations": {
+     "file": "index_shoryoshu_citations.json",
+     "present": true,
+     "unique_terms": 237,
+     "total_occurrences": 1181,
+     "covered_shoryoshu_idx_count": 105
+    },
+    "kukai_works": {
+     "file": "index_shoryoshu_kukai_works.json",
+     "present": true,
+     "unique_terms": 5,
+     "total_occurrences": 5,
+     "covered_shoryoshu_idx_count": 2
+    },
+    "sanskrit": {
+     "file": "index_shoryoshu_sanskrit.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 654,
+     "covered_shoryoshu_idx_count": 66
+    },
+    "kaimyo_jukugo": {
+     "file": "index_shoryoshu_kaimyo.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 1971,
+     "covered_shoryoshu_idx_count": 100
+    },
+    "persons": {
+     "file": "index_shoryoshu_persons.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 1197,
+     "covered_shoryoshu_idx_count": 109
+    },
+    "places": {
+     "file": "index_shoryoshu_places.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 466,
+     "covered_shoryoshu_idx_count": 92
+    }
+   }
+  },
+  {
+   "filename": "sokushin-jobutsu.json",
+   "title": "即身成仏義",
+   "taisho_ref": "T2428 / vol.77",
+   "role": "primary_corpus",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": true,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "text": 289,
+    "kakikudashi": 7205,
+    "gendaigoyaku": 20298,
+    "genten": 4068
+   },
+   "role_complete": true,
+   "notes": "",
+   "index_status": {
+    "terms": {
+     "file": "index_sokushin-jobutsu_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 361,
+     "matched_term_count": 14,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_sokushin-jobutsu_citations.json",
+     "present": true,
+     "unique_terms": 17,
+     "total_occurrences": 44
+    },
+    "kukai_works": {
+     "file": "index_sokushin-jobutsu_kukai_works.json",
+     "present": true,
+     "unique_terms": 2,
+     "total_occurrences": 5
+    },
+    "sanskrit": {
+     "file": "index_sokushin-jobutsu_sanskrit.json",
+     "present": true,
+     "unique_terms": 9,
+     "total_occurrences": 11,
+     "with_diacritics_count": 1,
+     "ascii_only_count": 8
+    },
+    "kaimyo_jukugo": {
+     "file": "index_sokushin-jobutsu_kaimyo.json",
+     "present": true,
+     "unique_terms": 22,
+     "total_occurrences": 333,
+     "needs_review_count": 9,
+     "matched_jukugo_count": 18
+    },
+    "persons": {
+     "file": "index_sokushin-jobutsu_persons.json",
+     "present": true,
+     "unique_terms": 11,
+     "total_occurrences": 196,
+     "subcategory_count": 5
+    },
+    "places": {
+     "file": "index_sokushin-jobutsu_places.json",
+     "present": true,
+     "unique_terms": 5,
+     "total_occurrences": 12,
+     "subcategory_count": 2
+    }
+   }
+  },
+  {
+   "filename": "ujiji.json",
+   "title": "吽字義",
+   "taisho_ref": "T2430 / vol.77",
+   "role": "primary_corpus",
+   "type": "dict",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "data_status": {
+    "kaimyo_excerpt": true,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": true,
+    "specialty_sections": [
+     "bosatsu_rita",
+     "chosaku_gaiyou",
+     "hoyo_oyo",
+     "ji_gi",
+     "ji_so",
+     "juyona_quotes",
+     "kenmitsu_hikaku",
+     "kosei",
+     "unjiji_shishin"
+    ]
+   },
+   "char_counts": {
+    "text": 418,
+    "kakikudashi": 10328,
+    "gendaigoyaku": 21863,
+    "genten": 5628
+   },
+   "role_complete": true,
+   "notes": "本文完備に加え、専門サブセクションあり（chosaku_gaiyou / kosei / ji_so / ji_gi / unjiji_shishin / bosatsu_rita / juyona_quotes / kenmitsu_hikaku / hoyo_oyo）。",
+   "index_status": {
+    "terms": {
+     "file": "index_ujiji_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 170,
+     "matched_term_count": 11,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_ujiji_citations.json",
+     "present": true,
+     "unique_terms": 14,
+     "total_occurrences": 37
+    },
+    "kukai_works": {
+     "file": "index_ujiji_kukai_works.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0
+    },
+    "sanskrit": {
+     "file": "index_ujiji_sanskrit.json",
+     "present": true,
+     "unique_terms": 35,
+     "total_occurrences": 37,
+     "with_diacritics_count": 13,
+     "ascii_only_count": 22
+    },
+    "kaimyo_jukugo": {
+     "file": "index_ujiji_kaimyo.json",
+     "present": true,
+     "unique_terms": 25,
+     "total_occurrences": 177,
+     "needs_review_count": 11,
+     "matched_jukugo_count": 20
+    },
+    "persons": {
+     "file": "index_ujiji_persons.json",
+     "present": true,
+     "unique_terms": 11,
+     "total_occurrences": 88,
+     "subcategory_count": 4
+    },
+    "places": {
+     "file": "index_ujiji_places.json",
+     "present": true,
+     "unique_terms": 4,
+     "total_occurrences": 8,
+     "subcategory_count": 2
+    }
+   }
+  },
+  {
+   "filename": "bodaishinron-kouyou.json",
+   "title": "菩提心論講要（浄厳）",
+   "taisho_ref": "（注釈書・大正蔵外）",
+   "role": "primary_corpus",
+   "type": "dict_paragraphs",
+   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json（拡張：paragraphs[] を追加）",
+   "data_status": {
+    "kaimyo_excerpt": false,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": false,
+    "genten_unavailable_reason": "注釈書・書き下しのみ底本（漢文原典は未収録）。ユーザー提供 doc『菩提心論講要』浄厳より取込。",
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "text": 96,
+    "kakikudashi": 16816,
+    "gendaigoyaku": 26920,
+    "paragraphs": 146
+   },
+   "role_complete": true,
+   "notes": "2026-06-07：浄厳『菩提心論講要』を取込。菩提心論（T1665）の注釈書（題号釈：浅略釈十対・深秘釈八門・第二の十義・第三の十義、および本文逐語訓釈）。書き下し全 146 段落を段落単位で収録し、各段落に現代語訳を付与（butten-yasashii-yaku 訳文体・本文平易＋原語割注）。漢文原典は未収録。横断索引は未生成。base_text=菩提心論。",
+   "index_status": {
+    "terms": {
+     "present": false
+    },
+    "citations": {
+     "present": false
+    },
+    "kukai_works": {
+     "present": false
+    },
+    "sanskrit": {
+     "present": false
+    },
+    "kaimyo_jukugo": {
+     "present": false
+    },
+    "persons": {
+     "present": false
+    },
+    "places": {
+     "present": false
+    }
+   }
+  }
+ ],
+ "index_definitions": {
+  "description": "横断索引化フェーズ B（cross_index_spec.md）の出力索引。各 primary_corpus 著作の gendaigoyaku から抽出した正規化済データを data/mikkyou/index_*.json に置く。",
+  "storage_dir": "data/mikkyou/",
+  "naming_pattern": "index_<corpus_id>_<category>.json",
+  "categories": {
+   "terms": "Tier 1-1 密教教学用語（19 語辞書）",
+   "citations": "Tier 1-2 典故書名（『〜』形式・他者著作）",
+   "kukai_works": "Tier 1-2 派生：空海著作・性霊集編纂物（citations から分離）",
+   "sanskrit": "Tier 2-4 梵語 IAST",
+   "kaimyo_jukugo": "Tier 2-3 戒名向け熟語",
+   "persons": "Tier 3-5 人名",
+   "places": "Tier 3-6 地名"
+  },
+  "g2_status": {
+   "description": "G2-A〜D 完了（dict 型 8 著作の Tier 1+2-3+2-4+3-5+3-6 全 7 カテゴリ）+ G2-E 完了（横断集約 7 ファイル生成） + 2026-05-31 十住心論マージで jujushinron を 11 著作目として全 7 カテゴリ索引化。",
+   "list_corpus_full_index": [
+    "shoryoshu_miyasaka.json"
+   ],
+   "dict_corpus_tier1_index": [
+    "nikyo-ron.json",
+    "ujiji.json",
+    "shoji-jisso.json",
+    "sokushin-jobutsu.json",
+    "hannya-hiken.json",
+    "hizo-houyaku.json",
+    "dainichikyo-sho-vol1.json",
+    "sankyo-shiki.json",
+    "jujushinron.json"
+   ],
+   "pending_dict_corpus_tier2_3": "梵語・戒名熟語・人名・地名は今後段階展開（性霊集スクリプトを dict 型に拡張）"
+  }
+ },
+ "aggregate_indices": {
+  "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。",
+  "storage_dir": "data/mikkyou/",
+  "naming_pattern": "index_<category>_all.json",
+  "source_corpora": [
+   "shoryoshu_miyasaka",
+   "nikyo-ron",
+   "ujiji",
+   "shoji-jisso",
+   "sokushin-jobutsu",
+   "hannya-hiken",
+   "hizo-houyaku",
+   "dainichikyo-sho-vol1",
+   "sankyo-shiki",
+   "bodaishinron",
+   "jujushinron"
+  ],
+  "corpora_count": 11,
+  "files": {
+   "terms": {
+    "file": "index_terms_all.json",
+    "present": true,
+    "corpora_with_data": 11,
+    "unique_terms_total": 19,
+    "total_occurrences": 2820,
+    "terms_in_multiple_corpora": 16,
+    "max_corpus_coverage": 11
+   },
+   "citations": {
+    "file": "index_citations_all.json",
+    "present": true,
+    "corpora_with_data": 11,
+    "unique_terms_total": 545,
+    "total_occurrences": 2350,
+    "terms_in_multiple_corpora": 84,
+    "max_corpus_coverage": 10
+   },
+   "kukai_works": {
+    "file": "index_kukai_works_all.json",
+    "present": true,
+    "corpora_with_data": 11,
+    "unique_terms_total": 13,
+    "total_occurrences": 55,
+    "terms_in_multiple_corpora": 3,
+    "max_corpus_coverage": 5
+   },
+   "sanskrit": {
+    "file": "index_sanskrit_all.json",
+    "present": true,
+    "corpora_with_data": 11,
+    "unique_terms_total": 1743,
+    "total_occurrences": 2672,
+    "terms_in_multiple_corpora": 141,
+    "max_corpus_coverage": 4
+   },
+   "kaimyo_jukugo": {
+    "file": "index_kaimyo_jukugo_all.json",
+    "present": true,
+    "corpora_with_data": 11,
+    "unique_terms_total": 114,
+    "total_occurrences": 5006,
+    "terms_in_multiple_corpora": 76,
+    "max_corpus_coverage": 11
+   },
+   "persons": {
+    "file": "index_persons_all.json",
+    "present": true,
+    "corpora_with_data": 11,
+    "unique_terms_total": 90,
+    "total_occurrences": 2837,
+    "terms_in_multiple_corpora": 58,
+    "max_corpus_coverage": 10
+   },
+   "places": {
+    "file": "index_places_all.json",
+    "present": true,
+    "corpora_with_data": 11,
+    "unique_terms_total": 72,
+    "total_occurrences": 876,
+    "terms_in_multiple_corpora": 36,
+    "max_corpus_coverage": 9
+   }
+  }
+ }
 }
