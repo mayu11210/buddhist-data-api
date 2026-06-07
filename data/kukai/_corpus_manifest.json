@@ -118,6 +118,11 @@
      "total_occurrences": 10,
      "subcategory_count": 0
     }
+   },
+   "relations": {
+    "commentaries": [
+     "bodaishinron-kouyou.json"
+    ]
    }
   },
   {
@@ -1086,7 +1091,7 @@
     "paragraphs": 146
    },
    "role_complete": true,
-   "notes": "2026-06-07：浄厳『菩提心論講要』を取込。菩提心論（T1665）の注釈書（題号釈：浅略釈十対・深秘釈八門・第二の十義・第三の十義、および本文逐語訓釈）。書き下し全 146 段落を段落単位で収録し、各段落に現代語訳を付与（butten-yasashii-yaku 訳文体・本文平易＋原語割注）。漢文原典は未収録。横断索引は未生成。base_text=菩提心論。",
+   "notes": "2026-06-07：浄厳『菩提心論講要』を取込。菩提心論（T1665）の注釈書。書き下し全146段落を段落単位で収録し各段落に現代語訳を付与（butten-yasashii-yaku 訳文体）。漢文原典は未収録。各段落に section（科段）、top-level に outline（9 科段）と base_text_ref（commentary_of: bodaishinron.json）を保持。bodaishinron.json 側にも commentaries で逆リンク。横断索引は未生成。",
    "index_status": {
     "terms": {
      "present": false
@@ -1109,6 +1114,9 @@
     "places": {
      "present": false
     }
+   },
+   "relations": {
+    "commentary_of": "bodaishinron.json"
    }
   }
  ],
