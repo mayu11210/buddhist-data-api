@@ -1,6 +1,6 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-06-07",
+ "generated_at": "2026-06-09",
  "description": "data/kukai/ 配下の全著作ファイルのメタカタログ（図書館モデルの目録カード相当）。倉庫原則「メタデータは足し算」に従い、原本ファイルを変更せず、本マニフェストで全ファイルの状態を一元管理する。アンダースコア始まりのメタファイル（本ファイル等）はカタログ対象から除外。",
  "design_policy_ref": "kaimyo-app/設計方針メモ_2026-05-03_真言宗教えデータ整理_buddhist-data-api倉庫設計.md",
  "schema_refs": {
@@ -1200,12 +1200,12 @@
     "specialty_sections": []
    },
    "char_counts": {
-    "kakikudashi": 106271,
-    "gendaigoyaku": 44809,
+    "kakikudashi": 107166,
+    "gendaigoyaku": 54949,
     "paragraphs": 896
    },
    "role_complete": true,
-   "notes": "書き下しデータ化スキルで取込。段落単位 kakikudashi＋gendaigoyaku、outline／base_text_ref 付き。"
+   "notes": "書き下しデータ化スキルで取込。段落単位 kakikudashi＋gendaigoyaku、outline／base_text_ref 付き。現代語訳は巻ごとに段階付与：目次＋巻第一（〜k137）に続き、2026-06-09 巻第二（普通真言蔵品第四＋尾題、k138〜k379／真言は原音写を保持し割注で尊名・意味を付す）を訳了。累計 379/896 段（巻第三〜第七は未訳）。"
   }
  ],
  "index_definitions": {
