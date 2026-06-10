@@ -32,7 +32,7 @@
   "role_complete_files": 13,
   "kakikudashi_present": 12,
   "gendaigoyaku_present": 12,
-  "genten_present": 9,
+  "genten_present": 10,
   "with_specialty_sections": 4,
   "indexed_corpora": {
    "terms": 11,
@@ -1188,24 +1188,24 @@
   {
    "filename": "dainichikyo.json",
    "title": "大毘盧遮那成仏神変加持経（大日経）",
-   "taisho_ref": "（注釈書・書き下し取込）",
+   "taisho_ref": "T848 / vol.18, p.1-55（CBETA 取込）",
    "role": "primary_corpus",
    "type": "dict_paragraphs",
    "data_status": {
     "kaimyo_excerpt": false,
     "kakikudashi": true,
     "gendaigoyaku": true,
-    "genten": false,
-    "genten_unavailable_reason": "漢文原典は未収録（書き下し文のみ）。底本：ユーザー提供 doc『大毘盧遮那成仏神変加持経』。",
+    "genten": true,
     "specialty_sections": []
    },
    "char_counts": {
     "kakikudashi": 107166,
     "gendaigoyaku": 181749,
-    "paragraphs": 896
+    "paragraphs": 896,
+    "genten": 64901
    },
    "role_complete": true,
-   "notes": "書き下しデータ化スキルで取込。段落単位 kakikudashi＋gendaigoyaku、outline／base_text_ref 付き。現代語訳は巻ごとに段階付与し、2026-06-10 巻第七（供養法五品、k779〜k896）の訳了をもって全7巻・896段の現代語訳が完結。本経三十一品（巻一〜六）＋供養法五品（巻七）。真言・字輪は原音写を保持し割注で意味を付す。"
+   "notes": "書き下しデータ化スキルで取込。段落単位 kakikudashi＋gendaigoyaku、outline／base_text_ref 付き。現代語訳は巻ごとに段階付与し、2026-06-10 巻第七（供養法五品、k779〜k896）の訳了をもって全7巻・896段の現代語訳が完結。本経三十一品（巻一〜六）＋供養法五品（巻七）。真言・字輪は原音写を保持し割注で意味を付す。 ★ 2026-06-10：漢文原典 genten を追加。CBETA Online（大正蔵 T0848）より全7巻を抽出し、校勘・割注・版権を除いた清掃標点本文 64,901 字を top-level genten／genten_source に格納（書き下し896段とは別管理）。"
   }
  ],
  "index_definitions": {
