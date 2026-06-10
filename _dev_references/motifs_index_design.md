@@ -1529,3 +1529,26 @@ kaimyo-app 側に既に実装済の硬さ選択 UI（commit `d79d5a1`・柔/中/
 
 - 2026-05-04 初版（本メモ）：ケンシン Cowork 設計議論を畳み込んで作成。倉庫設計原則の更新（「完全な倉庫」モード）、タグ軸 9＋6＋成句例外の体系、書き下しルール、idx=72 試行抽出 8 素材＋成句 6 件の参考例を含む。
 - 2026-05-05 §3 改訂：kaimyo-app 諷誦文 縦割り 初段スライス完走（2026-05-04）の知見を反映し、`text_gendai_gabun`（雅文体訳）フィールドをオプションで追加。`text_kakikudashi`・`text_gendaigoyaku`（学習者向け）・`text_genten` の 3 フィールド体系から 4 フィールド体系へ拡張。雅文体訳の文体規定（やまと言葉優先・補注非埋込・対句畳語呼びかけ保持・雅文体活用形・現代口語回避・情緒優先・朗誦適性）を確立。m01 試案 A を範例として確定。成句（`成句:famous`）には雅文体訳を作らない方針も明文化（儀礼朗誦の伝統尊重）。kakikudashi が既に雅文体形の場合（m06 等）は未設定で OK・kaimyo-app 側のフォールバック規則で対応。motifs.json schema_version 0.1 → 0.2。
+
+
+### 補注 EE：stale メタデータ一括是正の運用（2026-06-11 retrofit 31 で確立）
+
+**経緯**：retrofit 30 handoff の残作業指定（sg01〜sg26 旧表記・成句_七件 stale・sg01-sg07 stale キー）を受けた、メタデータのみの是正 retrofit。motif 本体・タグ・total_motifs（2391）は一切不変。
+
+**是正内容（4 件）**：
+
+- **top-level description の現況化**：旧「schema 0.2・2200 motifs＝m01〜m2174＋成句 sg01〜sg26」（2026-05-25 W1 完走マージ時点の記述）→「2391 motifs＝m1〜m2364＋成句 sg01〜sg27」に更新し、秘蔵記 motif 抽出完了（12 著作目）と retrofit 30 反映・連動軸二十三系統並立を明記。
+- **stats.篇別内訳「成句_七件」→「成句_二十七件」**：retrofit 6 sg07 新設時から放置されていた stale エントリを sg01〜sg27・件数 27 に更新（famous_phrases=27 と整合・キー位置保持）。
+- **stats.motifs_without_gendai_gabun_intentional の「sg01-sg07」キー →「sg01-sg27」**：実測で sg 全 27 件が gabun 未設定であることを確認のうえキーのみ是正（値の説明文「成句は儀礼朗誦の伝統で漢文成句のまま使うため雅文体訳を作らない」は温存・キー位置保持）。
+- **同辞書への jujushinron_m2175-m2274 エントリ補完**：gabun 意図的未設定の実測 218 件＝m06（1）＋成句 sg01〜sg27（27）＋十住心論 m2175-m2274（100）＋秘蔵記 m2275-m2364（90）のうち、十住心論 100 件のみ辞書に記載がなかった被覆漏れを補完。intentional 辞書の被覆が 218/218 で完全到達。
+
+**温存（履歴記述の保護原則）**：
+
+- **stats.description**（2026-05-25 Phase 4 W1 完走マージセッションの日付付きナラティブ・「成句 sg01〜sg26」を含む）：当時として正確な履歴記述のため温存（ケンシン裁定 2026-06-11・schema_history と同じ扱い）。
+- **schema_history 内の旧表記**（「sg01〜sg06」等）：各エントリ作成時点の正確な記録のため全件温存。
+
+**運用上の論点**：
+
+- **現況系フィールドと履歴系フィールドの弁別**：description・stats.篇別内訳・stats.motifs_without_gendai_gabun_intentional・famous_phrases 等は「現在の倉庫の姿」を表す現況系フィールドであり、データ拡張時に同期更新が必要。一方 schema_history・stats.description（日付冠ナラティブ）は履歴系であり遡及是正しない。今後の retrofit／マージで sg-id や motif 範囲が拡張された際は、現況系フィールドの同期更新を Phase C のチェック項目として意識すること。
+- **メタデータ是正 retrofit の系譜**：retrofit 9（anchor 自己参照タグ補完）・retrofit 29（引用形式是正）に続く整合性保守型 retrofit の第三例。新規 sg-id なし・タグ不変・メタデータのみの変更は本 retrofit が初例。
+- **schema_history origin**：`origin: retrofit_31:stale_metadata_fix`。schema 0.2 維持。
