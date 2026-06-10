@@ -22,7 +22,7 @@
   "specialty_sections": "その著作固有の専門サブセクション名のリスト（吽字義 ji_gi 等。倉庫原則「データを限定しない」で温存）"
  },
  "summary": {
-  "total_files": 23,
+  "total_files": 24,
   "role_breakdown": {
    "primary_corpus": 12,
    "auxiliary_meta": 1,
@@ -1206,6 +1206,28 @@
    },
    "role_complete": true,
    "notes": "書き下しデータ化スキルで取込。段落単位 kakikudashi＋gendaigoyaku、outline／base_text_ref 付き。現代語訳は巻ごとに段階付与し、2026-06-10 巻第七（供養法五品、k779〜k896）の訳了をもって全7巻・896段の現代語訳が完結。本経三十一品（巻一〜六）＋供養法五品（巻七）。真言・字輪は原音写を保持し割注で意味を付す。 ★ 2026-06-10：漢文原典 genten を追加。CBETA Online（大正蔵 T0848）より全7巻を抽出し、校勘・割注・版権を除いた清掃標点本文 64,901 字を top-level genten／genten_source に格納（書き下し896段とは別管理）。"
+  },
+  {
+   "filename": "hizoki.json",
+   "title": "秘蔵記",
+   "taisho_ref": "大正蔵 図像部 第一巻（CBETA/SAT 範疇外）",
+   "role": "primary_corpus",
+   "type": "dict_paragraphs",
+   "data_status": {
+    "kaimyo_excerpt": false,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": false,
+    "genten_unavailable_reason": "大正蔵 図像部 所収（CBETA/SAT 範疇外）",
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "kakikudashi": 24311,
+    "gendaigoyaku": 31540,
+    "paragraphs": 129
+   },
+   "role_complete": true,
+   "notes": "書き下しデータ化スキルで取込。段落単位 kakikudashi＋gendaigoyaku、outline（便宜的な主題区分）付き。伝・空海撰の雑記体口決書。底本：ユーザー提供 doc 書き下し。"
   }
  ],
  "index_definitions": {
