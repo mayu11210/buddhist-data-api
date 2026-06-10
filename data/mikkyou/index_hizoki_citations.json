@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "hizoki.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-10",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 31677,
+  "summary": {
+    "unique_terms": 6,
+    "total_occurrences": 10
+  },
+  "entries": [
+    {
+      "term": "守護国界経",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "延、般若蔵は文殊、秘密蔵は普賢〔がそれぞれ結集した〕。これは『守護国界経』の説くところである。また顕教の中には、こう説かれている。仏の",
+          "context_position": 26310,
+          "raw_form": "守護国界経"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "囲山のあいだで諸経を結集させた、と。これは総じての説であり、『守護国界経』の説は、別しての説なのである。 問う。法身・応身・化身・等流",
+          "context_position": 26401,
+          "raw_form": "守護国界経"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "」の一句は、三種の常住の世間に配するのである。 廻向陀羅尼〔『守護国界経』の第一巻にある〕。 唵・娑麽囉娑麽囉・微麽曩・娑囉・摩訶摩訶",
+          "context_position": 31442,
+          "raw_form": "守護国界経"
+        }
+      ]
+    },
+    {
+      "term": "毘盧遮那経",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "それゆえこの一字に三身の義があり、仏身と仏性とをあらわす。 『毘盧遮那経』〔大日経〕は五字の真言を宗とする。もし観想の境界の中に、界会",
+          "context_position": 12959,
+          "raw_form": "毘盧遮那経"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "て加持し、阿祇爾〔漢の地では護摩という〕を行うべきである。 『毘盧遮那経』〔大日経〕では、阿字を毘盧遮那の種子とし、吽字を金剛薩埵の種",
+          "context_position": 29650,
+          "raw_form": "毘盧遮那経"
+        }
+      ]
+    },
+    {
+      "term": "金剛頂経",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "水火風を加えると百八尊になる〔『出生義』の中に出ている〕。 『金剛頂経』の四会とは、第一に成身会、第二に羯磨会、第三に三昧耶会、第四",
+          "context_position": 524,
+          "raw_form": "金剛頂経"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "では、阿字を毘盧遮那の種子とし、吽字を金剛薩埵の種子とする。『金剛頂経』では、吽字を毘盧遮那の種子とし、阿字を金剛薩埵の種子とする。",
+          "context_position": 29692,
+          "raw_form": "金剛頂経"
+        }
+      ]
+    },
+    {
+      "term": "出生義",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "輪王・十六執金剛・十波羅蜜・地水火風を加えると百八尊になる〔『出生義』の中に出ている〕。 『金剛頂経』の四会とは、第一に成身会、第",
+          "context_position": 509,
+          "raw_form": "出生義"
+        }
+      ]
+    },
+    {
+      "term": "大日経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "梨儞〕と加持〔地瑟他〕を説く経〔蘇多覧・スートラ〕、すなわち『大日経』の梵語の題名を音写して、冒頭に掲げたものである。 曼荼羅には",
+          "context_position": 82,
+          "raw_form": "大日経"
+        }
+      ]
+    },
+    {
+      "term": "法華経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "密教によるなら、性相本有は言うまでもない。また顕教の中でも、『法華経』に「世間の相は常住なり」と説くからである。——もしそうなら、",
+          "context_position": 15602,
+          "raw_form": "法華経"
+        }
+      ]
+    }
+  ]
+}

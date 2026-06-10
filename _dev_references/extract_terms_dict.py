@@ -49,6 +49,7 @@ DICT_CORPUS_LIST = [
     'sankyo-shiki.json',
     'bodaishinron.json',  # 2026-05-04 追加（候補 D・9 著作目）
     'jujushinron.json',  # 2026-05-31 追加（十住心論マージ・10 著作目）
+    'hizoki.json',  # 2026-06-10 追加（秘蔵記 横断索引化・11 著作目）
 ]
 
 # ====== 19 語辞書（extract_terms.py と完全同期）======

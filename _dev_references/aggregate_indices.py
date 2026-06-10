@@ -51,6 +51,7 @@ ALL_CORPORA = [
     'sankyo-shiki',
     'bodaishinron',  # 2026-05-04 追加（候補 D・9 著作目の dict 型）
     'jujushinron',  # 2026-05-31 追加（十住心論マージ・10 著作目）
+    'hizoki',  # 2026-06-10 追加（秘蔵記 横断索引化・性霊集含め 12 著作目）
 ]
 
 

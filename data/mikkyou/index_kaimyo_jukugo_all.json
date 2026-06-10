@@ -3,7 +3,7 @@
   "category": "kaimyo_jukugo",
   "category_description": "戒名向け熟語（3 起点合成 + スコアリング）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-05-31",
+  "generated_at": "2026-06-10",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -15,18 +15,19 @@
     "dainichikyo-sho-vol1",
     "sankyo-shiki",
     "bodaishinron",
-    "jujushinron"
+    "jujushinron",
+    "hizoki"
   ],
-  "corpora_count": 11,
-  "corpora_with_data": 11,
+  "corpora_count": 12,
+  "corpora_with_data": 12,
   "missing_corpora": [],
   "term_key": "jukugo",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 114,
-    "total_occurrences": 5006,
+    "total_occurrences": 5234,
     "terms_in_multiple_corpora": 76,
-    "max_corpus_coverage": 11,
+    "max_corpus_coverage": 12,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 111,
@@ -82,19 +83,25 @@
         "unique": 38,
         "occurrences": 552,
         "present": true
+      },
+      "hizoki": {
+        "unique": 11,
+        "occurrences": 228,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "jukugo": "大日",
-      "total_occurrence_count": 666,
-      "covered_corpora_count": 10,
+      "total_occurrence_count": 669,
+      "covered_corpora_count": 11,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
+        "hizoki",
         "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
@@ -112,7 +119,8 @@
         "hizo-houyaku": 62,
         "dainichikyo-sho-vol1": 21,
         "bodaishinron": 8,
-        "jujushinron": 82
+        "jujushinron": 82,
+        "hizoki": 3
       },
       "metadata": {
         "source_tag": "seed_terms",
@@ -125,13 +133,14 @@
     },
     {
       "jukugo": "真言",
-      "total_occurrence_count": 454,
-      "covered_corpora_count": 11,
+      "total_occurrence_count": 523,
+      "covered_corpora_count": 12,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
+        "hizoki",
         "jujushinron",
         "nikyo-ron",
         "sankyo-shiki",
@@ -151,7 +160,8 @@
         "dainichikyo-sho-vol1": 58,
         "sankyo-shiki": 2,
         "bodaishinron": 15,
-        "jujushinron": 158
+        "jujushinron": 158,
+        "hizoki": 69
       },
       "metadata": {
         "source_tag": "seed_terms",
@@ -202,12 +212,13 @@
     },
     {
       "jukugo": "法身",
-      "total_occurrence_count": 316,
-      "covered_corpora_count": 10,
+      "total_occurrence_count": 344,
+      "covered_corpora_count": 11,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
+        "hizoki",
         "jujushinron",
         "nikyo-ron",
         "sankyo-shiki",
@@ -226,12 +237,52 @@
         "hizo-houyaku": 25,
         "dainichikyo-sho-vol1": 6,
         "sankyo-shiki": 1,
-        "jujushinron": 46
+        "jujushinron": 46,
+        "hizoki": 28
       },
       "metadata": {
         "source_tag": "seed_terms",
         "seed_definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
         "seed_sanskrit": "dharmakāya",
+        "kaimyo_chars": [
+          "法"
+        ]
+      }
+    },
+    {
+      "jukugo": "法界",
+      "total_occurrence_count": 339,
+      "covered_corpora_count": 11,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "hizoki",
+        "jujushinron",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 68,
+        "nikyo-ron": 15,
+        "ujiji": 16,
+        "shoji-jisso": 7,
+        "sokushin-jobutsu": 14,
+        "hannya-hiken": 7,
+        "hizo-houyaku": 25,
+        "dainichikyo-sho-vol1": 34,
+        "bodaishinron": 2,
+        "jujushinron": 89,
+        "hizoki": 62
+      },
+      "metadata": {
+        "source_tag": "seed_terms",
+        "seed_definition": "宇宙の真実相。一切法の根本領域。",
+        "seed_sanskrit": "dharma-dhātu",
         "kaimyo_chars": [
           "法"
         ]
@@ -274,43 +325,6 @@
         "seed_sanskrit": "",
         "kaimyo_chars": [
           "如"
-        ]
-      }
-    },
-    {
-      "jukugo": "法界",
-      "total_occurrence_count": 277,
-      "covered_corpora_count": 10,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "hannya-hiken",
-        "hizo-houyaku",
-        "jujushinron",
-        "nikyo-ron",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 68,
-        "nikyo-ron": 15,
-        "ujiji": 16,
-        "shoji-jisso": 7,
-        "sokushin-jobutsu": 14,
-        "hannya-hiken": 7,
-        "hizo-houyaku": 25,
-        "dainichikyo-sho-vol1": 34,
-        "bodaishinron": 2,
-        "jujushinron": 89
-      },
-      "metadata": {
-        "source_tag": "seed_terms",
-        "seed_definition": "宇宙の真実相。一切法の根本領域。",
-        "seed_sanskrit": "dharma-dhātu",
-        "kaimyo_chars": [
-          "法"
         ]
       }
     },
@@ -382,12 +396,13 @@
     },
     {
       "jukugo": "遮那",
-      "total_occurrence_count": 130,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 154,
+      "covered_corpora_count": 9,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
+        "hizoki",
         "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
@@ -402,12 +417,50 @@
         "hizo-houyaku": 16,
         "dainichikyo-sho-vol1": 42,
         "bodaishinron": 2,
-        "jujushinron": 30
+        "jujushinron": 30,
+        "hizoki": 24
       },
       "metadata": {
         "source_tag": "seed_terms",
         "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
         "seed_sanskrit": "Vairocana"
+      }
+    },
+    {
+      "jukugo": "三密",
+      "total_occurrence_count": 147,
+      "covered_corpora_count": 10,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "hizoki",
+        "jujushinron",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 46,
+        "nikyo-ron": 15,
+        "ujiji": 4,
+        "shoji-jisso": 4,
+        "sokushin-jobutsu": 16,
+        "hizo-houyaku": 4,
+        "dainichikyo-sho-vol1": 12,
+        "bodaishinron": 2,
+        "jujushinron": 16,
+        "hizoki": 28
+      },
+      "metadata": {
+        "source_tag": "seed_terms",
+        "seed_definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+        "seed_sanskrit": "trīṇi guhyāni",
+        "kaimyo_chars": [
+          "密"
+        ]
       }
     },
     {
@@ -473,37 +526,34 @@
       }
     },
     {
-      "jukugo": "三密",
-      "total_occurrence_count": 119,
-      "covered_corpora_count": 9,
+      "jukugo": "大悲",
+      "total_occurrence_count": 117,
+      "covered_corpora_count": 7,
       "covered_corpora": [
-        "bodaishinron",
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
+        "hizoki",
         "jujushinron",
         "nikyo-ron",
-        "shoji-jisso",
         "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
         "ujiji"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 46,
-        "nikyo-ron": 15,
-        "ujiji": 4,
-        "shoji-jisso": 4,
-        "sokushin-jobutsu": 16,
-        "hizo-houyaku": 4,
-        "dainichikyo-sho-vol1": 12,
-        "bodaishinron": 2,
-        "jujushinron": 16
+        "shoryoshu_miyasaka": 26,
+        "nikyo-ron": 2,
+        "ujiji": 2,
+        "hizo-houyaku": 9,
+        "dainichikyo-sho-vol1": 38,
+        "jujushinron": 26,
+        "hizoki": 14
       },
       "metadata": {
         "source_tag": "seed_terms",
-        "seed_definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
-        "seed_sanskrit": "trīṇi guhyāni",
+        "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
+        "seed_sanskrit": "mahā-karuṇā",
         "kaimyo_chars": [
-          "密"
+          "大",
+          "悲"
         ]
       }
     },
@@ -566,36 +616,6 @@
         ],
         "seed_definition": "",
         "seed_sanskrit": ""
-      }
-    },
-    {
-      "jukugo": "大悲",
-      "total_occurrence_count": 103,
-      "covered_corpora_count": 6,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "jujushinron",
-        "nikyo-ron",
-        "shoryoshu_miyasaka",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 26,
-        "nikyo-ron": 2,
-        "ujiji": 2,
-        "hizo-houyaku": 9,
-        "dainichikyo-sho-vol1": 38,
-        "jujushinron": 26
-      },
-      "metadata": {
-        "source_tag": "seed_terms",
-        "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
-        "seed_sanskrit": "mahā-karuṇā",
-        "kaimyo_chars": [
-          "大",
-          "悲"
-        ]
       }
     },
     {

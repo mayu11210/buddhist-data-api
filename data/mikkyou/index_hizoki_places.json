@@ -1,0 +1,322 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "hizoki.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-10",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 31677,
+  "summary": {
+    "unique_terms": 9,
+    "unique_places": 9,
+    "total_occurrences": 19,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 4,
+        "occurrences": 5
+      },
+      "country_dynasty": {
+        "unique": 2,
+        "occurrences": 6
+      },
+      "country_india": {
+        "unique": 1,
+        "occurrences": 5
+      },
+      "mountain_buddhist": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "mountain_china": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "天竺",
+      "aliases": [
+        "印度",
+        "身毒"
+      ],
+      "subcategory": "country_india",
+      "definition": "インドの古称。",
+      "matched_forms": [
+        {
+          "form": "天竺",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "わされる側〔所詮〕とする。これがすなわち字である。 そもそも天竺では、名・句・文・身によって意味を成り立たせる。かりに「諸行",
+          "context_position": 12664,
+          "matched_form": "天竺"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、究竟の義・円満の義・驚覚の義・成就の義・散去の義である。 天竺では、俗人の博士を烏耶と呼ぶ。漢の国ではあやまって、この烏耶",
+          "context_position": 14981,
+          "matched_form": "天竺"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "としたのは大きな誤りである。正しくは抜底耶というべきである。天竺では、智慧があって人の師となる僧を抜底耶と呼ぶ。抜底耶とは、",
+          "context_position": 15083,
+          "matched_form": "天竺"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ぶ。抜底耶とは、親しく教える者〔親教〕の義である。 舎利——天竺では米粒を舎利と呼ぶ。仏舎利は米粒に似ている。それで舎利とい",
+          "context_position": 15137,
+          "matched_form": "天竺"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "字が邪である。——しかし梵字は本有の理から起こったとはいえ、天竺の外道たちも用いる。それは悪法である。漢字は妄想から起こった",
+          "context_position": 16554,
+          "matched_form": "天竺"
+        }
+      ]
+    },
+    {
+      "canonical": "漢",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。前漢・後漢。",
+      "matched_forms": [
+        {
+          "form": "漢",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "れゆえ陀羅尼と明とは、意味が異ならない。呪とは——仏法がまだ漢の地に伝わらない前から、世間には呪禁の法があり、よく霊験をあ",
+          "context_position": 14508,
+          "matched_form": "漢"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "就の義・散去の義である。 天竺では、俗人の博士を烏耶と呼ぶ。漢の国ではあやまって、この烏耶を和尚としてしまった。そのうえ烏",
+          "context_position": 14998,
+          "matched_form": "漢"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "卒塔婆といい、舎利のないものを制底という。また斯底ともいう。漢の国では省略して、卒塔婆を塔と呼ぶ。三昧耶は等持、三摩地は等",
+          "context_position": 15276,
+          "matched_form": "漢"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、貪瞋痴の闇のおおいを鎮める。この観をなして加持し、阿祇爾〔漢の地では護摩という〕を行うべきである。 『毘盧遮那経』〔大日",
+          "context_position": 29629,
+          "matched_form": "漢"
+        }
+      ]
+    },
+    {
+      "canonical": "極楽",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "阿弥陀如来の西方浄土。",
+      "matched_forms": [
+        {
+          "form": "極楽",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "この花蔵世界には、最上の妙なる楽しみが、その中にある。だから極楽という。まさに知るべきである。極楽と花蔵とは、名は異なっても",
+          "context_position": 19337,
+          "matched_form": "極楽"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "みが、その中にある。だから極楽という。まさに知るべきである。極楽と花蔵とは、名は異なっても、別の場所ではないことを。 儀軌の",
+          "context_position": 19354,
+          "matched_form": "極楽"
+        }
+      ]
+    },
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "商",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "応じ合って、ずれないようにする。声生念誦とは、心の蓮華の上に商佉〔しょうきゃ・白い法螺貝〕を安置し、商佉から妙なる音声が出",
+          "context_position": 24031,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "とは、心の蓮華の上に商佉〔しょうきゃ・白い法螺貝〕を安置し、商佉から妙なる音声が出ると観ずるものである。たとえば鈴を振るよ",
+          "context_position": 24051,
+          "matched_form": "商"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "。ちょうど亀が、水にも陸にも遊ぶことができるのと同じである。須弥山は法身である。七金山は七覚支である。この法身はいっさいの法門",
+          "context_position": 13592,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "七覚支である。この法身はいっさいの法門の根源である。だから、須弥山を座とするというのである。 法身には定と慧の二面がある。水で",
+          "context_position": 13636,
+          "matched_form": "須弥山"
+        }
+      ]
+    },
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "し、怖れをなからしめる。すでに広博の身を得たなら、その身心を安楽にして、怖れをなからしめるべきである。だから離怖畏如来を第五",
+          "context_position": 18756,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "廬山",
+      "aliases": [
+        "盧山"
+      ],
+      "subcategory": "mountain_china",
+      "definition": "江西省。中国の名山。",
+      "matched_forms": [
+        {
+          "form": "盧山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "。法界に行きわたり、変じて大蓮華王となる。これがすなわち蘇迷盧山〔スメール山〕である。蘇とは妙、迷盧とは高の意で、だから妙高",
+          "context_position": 7735,
+          "matched_form": "盧山"
+        }
+      ]
+    },
+    {
+      "canonical": "無色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最上。色身のない世界。",
+      "matched_forms": [
+        {
+          "form": "無色界",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "五類の諸天〔天とは、自在にして光無辺の義〕。上界の天〔色界と無色界〕。虚空天〔夜摩天より上の四天である〕。地居天〔四天王天と忉",
+          "context_position": 24457,
+          "matched_form": "無色界"
+        }
+      ]
+    },
+    {
+      "canonical": "色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の中。色身があるが欲望のない世界。",
+      "matched_forms": [
+        {
+          "form": "色界",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "〕。 五類の諸天〔天とは、自在にして光無辺の義〕。上界の天〔色界と無色界〕。虚空天〔夜摩天より上の四天である〕。地居天〔四天",
+          "context_position": 24454,
+          "matched_form": "色界"
+        }
+      ]
+    }
+  ]
+}

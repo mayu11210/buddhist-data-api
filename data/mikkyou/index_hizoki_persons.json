@@ -1,0 +1,837 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "hizoki.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-10",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 31677,
+  "summary": {
+    "unique_terms": 15,
+    "unique_persons": 15,
+    "total_occurrences": 75,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 8,
+        "occurrences": 54
+      },
+      "buddhist_deva": {
+        "unique": 2,
+        "occurrences": 4
+      },
+      "buddhist_master_china": {
+        "unique": 2,
+        "occurrences": 7
+      },
+      "buddhist_master_india": {
+        "unique": 3,
+        "occurrences": 10
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 23
+        },
+        {
+          "form": "大日",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 26,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "摩訶毘盧遮那・尾三菩提・美紀梨儞・地瑟他・蘇多覧。偉大な毘盧遮那仏の成仏",
+          "context_position": 2,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "摩訶毘盧遮那・尾三菩提・美紀梨儞・地瑟他・蘇多覧。偉大な毘盧遮那仏の成仏〔尾三菩提・現等覚〕と神変〔美紀梨儞〕と加持〔地瑟他",
+          "context_position": 28,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "わっているという意味〔三密円満具足の義〕である。その中心には毘盧遮那仏〔中台の尊〕がおられ、これを法界智という。まわりの四仏〔阿",
+          "context_position": 199,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "部、その外側は外金剛部である。 次に金剛界の曼荼羅。法界智〔毘盧遮那〕から四波羅蜜が流れ出る。これはすなわち定〔禅定〕である。そ",
+          "context_position": 354,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、第二に羯磨会、第三に三昧耶会、第四に供養会である。たとえば毘盧遮那仏が吽字を唱えられると、五鈷金剛杵が空中に現れ、ふたたび仏身",
+          "context_position": 572,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "あり、わが口はそのまま護摩炉の口である。法界としてのわが身は毘盧遮那如来となり、毛穴から乳の雨をそそいで法界の隅々まで行きわたら",
+          "context_position": 1052,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "なければならない。 この率都婆は光を放って法界に行きわたり、毘盧遮那の身となって、さまざまの荘厳をそなえる。白蓮華の台に坐し、宝",
+          "context_position": 7377,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "本不生際に入れて見れば、塵垢を観じても不可得である。 阿字は毘盧遮那の理法身の種子であり、鑁字は智法身の種子である。理と智とは相",
+          "context_position": 12439,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "れゆえこの一字に三身の義があり、仏身と仏性とをあらわす。 『毘盧遮那経』〔大日経〕は五字の真言を宗とする。もし観想の境界の中に、",
+          "context_position": 12960,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "らべれば、邪と正との別があるのである。 三十七尊の金剛名号。毘盧遮那——遍照。金剛〔東方の阿閦〕——不動。南方の宝生——平等。西",
+          "context_position": 16782,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "—堅持。鈴——解脱。 沐像の法〔仏像に水を浴びせる作法〕。「毘盧遮那仏の身口意のはたらきは虚空に行きわたる。その如来の三密の門、",
+          "context_position": 17092,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "の阿閦仏〕、甘露王如来〔西方の無量寿仏〕、広博身如来〔中央の毘盧遮那仏〕、離怖畏如来〔北方の釈迦牟尼仏〕。これを東・西・南・北の",
+          "context_position": 18234,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "。これを次第という。第二に横とは——わが一心の法界の中には、毘盧遮那ないし四仏・四波羅蜜・十仏刹微塵数の如来が、歴然としておられ",
+          "context_position": 20045,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "成の称である。 五部に母と主とを定めるとは、どういうことか。毘盧遮那〔仏部の主。源であるから母はない〕、阿閦〔金剛部の主。金剛波",
+          "context_position": 25046,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "種法身は、曼荼羅においてはどの身にあたるのか。答える。中台の毘盧遮那を法身とし、四仏を応身とし、釈迦を化身とし、外金剛部の龍・鬼",
+          "context_position": 26572,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "光明が流れ出ることができようか。 問う。経に「釈迦はすなわち毘盧遮那である」と説く。その意味はどうか。答える。たとえば、いくつも",
+          "context_position": 27336,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ともすと、すべての穴が同時に光を放つようなものである。心王の毘盧遮那が成仏するとき、無数の心主が同時に成仏する。この無数の心主は",
+          "context_position": 27412,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "薩は、みな、おのおのの心主の迹なのである。本に帰すれば、みな毘盧遮那であるとはいえ、三昧の門からいえば、おのおのの三昧の化現であ",
+          "context_position": 27558,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "加持し、阿祇爾〔漢の地では護摩という〕を行うべきである。 『毘盧遮那経』〔大日経〕では、阿字を毘盧遮那の種子とし、吽字を金剛薩埵",
+          "context_position": 29651,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "う〕を行うべきである。 『毘盧遮那経』〔大日経〕では、阿字を毘盧遮那の種子とし、吽字を金剛薩埵の種子とする。『金剛頂経』では、吽",
+          "context_position": 29668,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "子とし、吽字を金剛薩埵の種子とする。『金剛頂経』では、吽字を毘盧遮那の種子とし、阿字を金剛薩埵の種子とする。金剛界の儀軌はこのと",
+          "context_position": 29704,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "に主となり伴となる義である。 五忿怒を五智に当てる。不動尊〔毘盧遮那の忿怒。自性輪は般若菩薩〕、降三世〔阿閦仏の忿怒。自性輪は金",
+          "context_position": 29807,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "界体性観は自体性智〔法界体性智〕にあたる。また座については、毘盧遮那は師子座、阿閦は象座、宝生は馬座、阿弥陀は孔雀座、不空成就は",
+          "context_position": 30532,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "儞〕と加持〔地瑟他〕を説く経〔蘇多覧・スートラ〕、すなわち『大日経』の梵語の題名を音写して、冒頭に掲げたものである。 曼荼羅",
+          "context_position": 83,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "に三身の義があり、仏身と仏性とをあらわす。 『毘盧遮那経』〔大日経〕は五字の真言を宗とする。もし観想の境界の中に、界会の聖衆",
+          "context_position": 12967,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "〔漢の地では護摩という〕を行うべきである。 『毘盧遮那経』〔大日経〕では、阿字を毘盧遮那の種子とし、吽字を金剛薩埵の種子とす",
+          "context_position": 29658,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 9
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "。まわりの四仏〔阿閦など〕は四つの智〔四智〕であり、四菩薩〔普賢など〕は四行の菩薩という。中院の上の三角形は仏母であり、釈迦",
+          "context_position": 254,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "部の本真言と先の懺悔の真言などを用い、他人のために行うときは普賢の真言を用いる。真言にいう。唵縛薩囉薩怛縛吽。 〔読み〕オン",
+          "context_position": 2241,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "う。唵縛薩囉薩怛縛吽。 〔読み〕オン・バザラ・サトバ・ウン〔普賢・金剛薩埵の真言〕。 この真言は、念誦のとき本尊の真言のあと",
+          "context_position": 2285,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "の金剛と金剛界の金剛とでは優劣があるか。答える。胎蔵の金剛は普賢であり、金剛界の金剛とは仏の内証の智である。だから優劣はない",
+          "context_position": 5256,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "。「わが修する三密の功徳力のゆえに、願わくはいっさいの有情を普賢菩薩と等しからしめん」。このように観じおわって、大慈三摩地の",
+          "context_position": 10108,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "蔵がある。これを過去荘厳劫の千仏という。またこの身に、最初に普賢の行を起こして、普賢の行を行ずる。これは最も妙なる善である。",
+          "context_position": 21275,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "荘厳劫の千仏という。またこの身に、最初に普賢の行を起こして、普賢の行を行ずる。これは最も妙なる善である。賢とは、最妙善の義で",
+          "context_position": 21285,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "は優波離、阿毘達磨蔵〔論蔵〕は迦栴延、般若蔵は文殊、秘密蔵は普賢〔がそれぞれ結集した〕。これは『守護国界経』の説くところであ",
+          "context_position": 26293,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "である。また顕教の中には、こう説かれている。仏の滅度ののち、普賢・文殊の両菩薩が阿難を率いて、鉄囲山のあいだで諸経を結集させ",
+          "context_position": 26353,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "観音",
+      "aliases": [
+        "観世音",
+        "観自在",
+        "avalokiteśvara",
+        "Avalokiteśvara"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "慈悲を司る菩薩。",
+      "sanskrit_canonical": "avalokiteśvara",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "観音",
+          "count": 5
+        },
+        {
+          "form": "観自在",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "。「わが修する三密の功徳力のゆえに、願わくはいっさいの有情を観自在菩薩と等しからしめん」。このように観じおわって、大喜三摩地の",
+          "context_position": 10691,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "遍照。金剛〔東方の阿閦〕——不動。南方の宝生——平等。西方の観自在王〔無量寿〕——清浄。北方の羯磨〔不空成就〕——成就。〔金剛",
+          "context_position": 16818,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "る。次に水を地面にそそぎ浄めて平らにならす。次に降三世や馬頭観音などの真言で泥を加持し、壇を塗り固める。高さは一肘以下である",
+          "context_position": 2958,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "を主とし、虚空眼を母とする。また仏眼ともいう〕、蓮華部〔馬頭観音を主とし、伴陀羅縛字尼すなわち白衣観音を母とする〕、金剛部〔",
+          "context_position": 25533,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "もいう〕、蓮華部〔馬頭観音を主とし、伴陀羅縛字尼すなわち白衣観音を母とする〕、金剛部〔金剛手を主とし——また三世勝金剛ともい",
+          "context_position": 25552,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "尊を用いる〔忿怒尊である〕。第四に敬愛。蓮華部の尊を用いる〔観音〕。第五に鉤召。羯磨部の尊を用いる〔鉤菩薩〕。 一つの法のと",
+          "context_position": 29107,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "怒。自性輪は慈氏・弥勒〕、または馬頭〔無量寿の忿怒。自性輪は観音〕。 干栗多〔カリダ〕とは、中に処るものをいう名であって、非",
+          "context_position": 30018,
+          "matched_form": "観音"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦",
+          "count": 6
+        },
+        {
+          "form": "釈迦牟尼",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "量寿仏〕、広博身如来〔中央の毘盧遮那仏〕、離怖畏如来〔北方の釈迦牟尼仏〕。これを東・西・南・北の順に並べず、南・東・西・中・北の",
+          "context_position": 18250,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "普賢など〕は四行の菩薩という。中院の上の三角形は仏母であり、釈迦の眷属と中院の下の五大忿怒尊などまでが仏部にあたる。南方は金",
+          "context_position": 284,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "たるのか。答える。中台の毘盧遮那を法身とし、四仏を応身とし、釈迦を化身とし、外金剛部の龍・鬼などを等流身とする。問う。四種が",
+          "context_position": 26590,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "とき、どうして光明が流れ出ることができようか。 問う。経に「釈迦はすなわち毘盧遮那である」と説く。その意味はどうか。答える。",
+          "context_position": 27329,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "を異にし、おのおの樹下に迹を垂れて、八相成道する。してみれば釈迦とは、心王のところの心主の一である釈迦の迹である。ないし、世",
+          "context_position": 27482,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "相成道する。してみれば釈迦とは、心王のところの心主の一である釈迦の迹である。ないし、世間に出現するいっさいの仏・菩薩は、みな",
+          "context_position": 27501,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "〕を不空成就仏の忿怒とし、その自性輪は金剛業とする。無能勝〔釈迦の忿怒。自性輪は慈氏・弥勒〕、または馬頭〔無量寿の忿怒。自性",
+          "context_position": 29984,
+          "matched_form": "釈迦"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "宝生——平等。西方の観自在王〔無量寿〕——清浄。北方の羯磨〔不空成就〕——成就。〔金剛波羅蜜以下は次段に続く〕 金剛波羅蜜—",
+          "context_position": 16838,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "羅蜜を母とする〕、無量寿〔蓮華部の主。法波羅蜜を母とする〕、不空成就〔羯磨部の主。羯磨波羅蜜を母とするのである〕。これは、四",
+          "context_position": 25129,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "〔大威徳明王。無量寿仏の忿怒。自性輪は文殊菩薩〕、金剛薬叉〔不空成就仏の忿怒。自性輪はすなわち牙菩薩。これは寂静の身である〕",
+          "context_position": 29902,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "寂静の身である〕。または、穢積金剛〔すなわち烏枢沙摩菩薩〕を不空成就仏の忿怒とし、その自性輪は金剛業とする。無能勝〔釈迦の忿",
+          "context_position": 29956,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、毘盧遮那は師子座、阿閦は象座、宝生は馬座、阿弥陀は孔雀座、不空成就は迦嚕羅〔かるら・金翅鳥〕座である。 本不生際とは——心",
+          "context_position": 30561,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 3
+        },
+        {
+          "form": "不動明王",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "とく消え除かれよ、発吒〔ハッタ〕」と唱える。 水壇の法。まず不動明王の真言で、壇を建てるべき土地を加持する。壇の寸法〔肘量〕は心",
+          "context_position": 2818,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "三十七尊の金剛名号。毘盧遮那——遍照。金剛〔東方の阿閦〕——不動。南方の宝生——平等。西方の観自在王〔無量寿〕——清浄。北方",
+          "context_position": 16802,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "は、互いに主となり伴となる義である。 五忿怒を五智に当てる。不動尊〔毘盧遮那の忿怒。自性輪は般若菩薩〕、降三世〔阿閦仏の忿怒",
+          "context_position": 29803,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ない。供物を進め、供物を下げ、また壇を掃くときには、しばらく不動・降——〔次段に続く〕 ——三世などの結界を、一つずつ解く。",
+          "context_position": 30278,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈天",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "身であるから、諸仏の身はわが身の中にある。たとえば因陀羅網〔帝釈天の宮殿を飾る宝珠の網。珠が互いに映し合うたとえ〕のようなもの",
+          "context_position": 9271,
+          "matched_form": "帝釈天"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "である。三十三とは、忉利天の四方におのおの八天があり、これに帝釈天を加えて三十三天というのである〕。遊虚空天〔日・月・星宿〕。",
+          "context_position": 24522,
+          "matched_form": "帝釈天"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "である。この一つの三昧のところに、他の三昧をそなえる。帝網〔帝釈天の宝珠の網〕の義のとおりである。 問う。三諦とは何か。答える",
+          "context_position": 27638,
+          "matched_form": "帝釈天"
+        }
+      ]
+    },
+    {
+      "canonical": "弥勒",
+      "aliases": [
+        "弥勒菩薩",
+        "慈氏",
+        "maitreya",
+        "Maitreya"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "未来仏。兜率天で待機。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "弥勒",
+          "count": 2
+        },
+        {
+          "form": "慈氏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "がない。それで翻訳家は訳さなかったのである。 梵語について。弥勒の名を阿逸多と呼ぶ。梵語ではいわゆる阿史阤嘸惹耶であり、漢語",
+          "context_position": 14829,
+          "matched_form": "弥勒"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "その自性輪は金剛業とする。無能勝〔釈迦の忿怒。自性輪は慈氏・弥勒〕、または馬頭〔無量寿の忿怒。自性輪は観音〕。 干栗多〔カリ",
+          "context_position": 29997,
+          "matched_form": "弥勒"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "とし、その自性輪は金剛業とする。無能勝〔釈迦の忿怒。自性輪は慈氏・弥勒〕、または馬頭〔無量寿の忿怒。自性輪は観音〕。 干栗多",
+          "context_position": 29994,
+          "matched_form": "慈氏"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "尼耶蔵〔律蔵〕は優波離、阿毘達磨蔵〔論蔵〕は迦栴延、般若蔵は文殊、秘密蔵は普賢〔がそれぞれ結集した〕。これは『守護国界経』の",
+          "context_position": 26286,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "。また顕教の中には、こう説かれている。仏の滅度ののち、普賢・文殊の両菩薩が阿難を率いて、鉄囲山のあいだで諸経を結集させた、と",
+          "context_position": 26356,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "金剛蔵王菩薩〕、六足尊〔大威徳明王。無量寿仏の忿怒。自性輪は文殊菩薩〕、金剛薬叉〔不空成就仏の忿怒。自性輪はすなわち牙菩薩。",
+          "context_position": 29891,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "達磨",
+      "aliases": [
+        "菩提達磨",
+        "bodhidharma",
+        "Bodhidharma"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国禅宗の初祖。インドより渡来。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "達磨",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "自性、秫駄は清浄〔ここまでは自身についていう〕、薩嚩は一切、達磨は諸法、娑嚩婆嚩秫度欠は前と同じく自性清浄〔こちらは他につい",
+          "context_position": 13861,
+          "matched_form": "達磨"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "集〕。修多羅蔵〔経蔵〕は阿難、毘尼耶蔵〔律蔵〕は優波離、阿毘達磨蔵〔論蔵〕は迦栴延、般若蔵は文殊、秘密蔵は普賢〔がそれぞれ結",
+          "context_position": 26270,
+          "matched_form": "達磨"
+        }
+      ]
+    },
+    {
+      "canonical": "阿難",
+      "aliases": [
+        "阿難陀",
+        "ānanda",
+        "Ānanda"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。多聞第一。",
+      "sanskrit_canonical": "ānanda",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "阿難",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "義である〕。 結集〔仏滅後の教えの編集〕。修多羅蔵〔経蔵〕は阿難、毘尼耶蔵〔律蔵〕は優波離、阿毘達磨蔵〔論蔵〕は迦栴延、般若",
+          "context_position": 26252,
+          "matched_form": "阿難"
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "には、こう説かれている。仏の滅度ののち、普賢・文殊の両菩薩が阿難を率いて、鉄囲山のあいだで諸経を結集させた、と。これは総じて",
+          "context_position": 26363,
+          "matched_form": "阿難"
+        }
+      ]
+    },
+    {
+      "canonical": "優波離",
+      "aliases": [
+        "upāli",
+        "Upāli"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。持律第一。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "優波離",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "後の教えの編集〕。修多羅蔵〔経蔵〕は阿難、毘尼耶蔵〔律蔵〕は優波離、阿毘達磨蔵〔論蔵〕は迦栴延、般若蔵は文殊、秘密蔵は普賢〔が",
+          "context_position": 26264,
+          "matched_form": "優波離"
+        }
+      ]
+    },
+    {
+      "canonical": "虚空蔵",
+      "aliases": [
+        "虚空蔵菩薩",
+        "ākāśagarbha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧と福徳を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "虚空蔵菩薩",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "。「わが修する三密の加持力のゆえに、願わくはいっさいの有情を虚空蔵菩薩と等しからしめん」。このように観じおわって、大悲三摩地の真言",
+          "context_position": 10424,
+          "matched_form": "虚空蔵菩薩"
+        }
+      ]
+    },
+    {
+      "canonical": "阿修羅",
+      "aliases": [
+        "asura"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "六道の一・阿修羅道の住人。八部衆。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "阿修羅",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "三天というのである〕。遊虚空天〔日・月・星宿〕。地下天〔龍・阿修羅・閻魔王などである〕。ある人が難じていう。「日月などを天と称",
+          "context_position": 24561,
+          "matched_form": "阿修羅"
+        }
+      ]
+    },
+    {
+      "canonical": "阿弥陀",
+      "aliases": [
+        "阿弥陀如来",
+        "amitābha",
+        "Amitābha",
+        "amitāyus"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "西方極楽浄土の教主。",
+      "sanskrit_canonical": "amitābha",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "阿弥陀",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "また座については、毘盧遮那は師子座、阿閦は象座、宝生は馬座、阿弥陀は孔雀座、不空成就は迦嚕羅〔かるら・金翅鳥〕座である。 本不",
+          "context_position": 30553,
+          "matched_form": "阿弥陀"
+        }
+      ]
+    }
+  ]
+}

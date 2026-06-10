@@ -1,0 +1,1969 @@
+{
+  "schema_version": "1.0",
+  "category": "密教教学用語（mikkyo terms）",
+  "source_corpus": "hizoki.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-10",
+  "extraction_strategy": "辞書ベース（19 語）+ 長語優先 substring 走査 + 周辺梵語注記抽出",
+  "dictionary_size": 19,
+  "gendaigoyaku_length": 31677,
+  "summary": {
+    "unique_terms": 19,
+    "total_occurrences": 286,
+    "kaimyo_suitable_count": 11,
+    "matched_term_count": 12
+  },
+  "entries": [
+    {
+      "term": "真言",
+      "term_kana": "",
+      "sanskrit": "mantra",
+      "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "occurrence_count": 69,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "て、そのまま阿閦仏となる。これを成身会とする。三十七尊の種子真言と印契とを説くのが羯磨会、三昧耶の真言と印契とを説くのが三昧",
+          "context_position": 639,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "とする。三十七尊の種子真言と印契とを説くのが羯磨会、三昧耶の真言と印契とを説くのが三昧耶会、供養の儀式を説くのが供養会で、こ",
+          "context_position": 658,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "等に法の利益をこうむり、大般涅槃を得させよう、と。そう観じて真言を唱える。 唵薩縛幡婆那加那縛曰羅也——息災の法で唱える真言",
+          "context_position": 1226,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "真言を唱える。 唵薩縛幡婆那加那縛曰羅也——息災の法で唱える真言である〔一切の罪障を焼きつくす金剛尊への帰命の語〕。 〔読み",
+          "context_position": 1256,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ハンバタカノウ・バザラヤ。 次に四明〔鉤・索・鎖・鈴の四摂の真言〕を唱え、次に阿喜爾〔アギニ・火天の供養、護摩〕を行う。そし",
+          "context_position": 1326,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "あらわれ出て、法界を照らしかがやかすと観ずる。そして降三世の真言を唱えていう。 唵曩莫吽——増益の法で唱える降三世の真言であ",
+          "context_position": 1761,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "世の真言を唱えていう。 唵曩莫吽——増益の法で唱える降三世の真言である。 〔読み〕オン・ノウマク・ウン。 次に四明、次に阿喜",
+          "context_position": 1789,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "相である。あとは増益の法に準じてもろもろの作法を行えばよい。真言の初めと終わりに弱〔ジャク〕の字を唱える。 また、息災の法に",
+          "context_position": 2033,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "を唱える。 また、息災の法によって病を治すときは、わが唱える真言の智慧の火が、貪り・怒り・愚かさ〔貪瞋痴〕や病苦などの薪を焼",
+          "context_position": 2081,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "乳の海となり、火大の過剰を消し除くのである。そのうえで寂静の真言を唱える。また息災の法を自分のために行うときは、その部の本真",
+          "context_position": 2183,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "言を唱える。また息災の法を自分のために行うときは、その部の本真言と先の懺悔の真言などを用い、他人のために行うときは普賢の真言",
+          "context_position": 2214,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "息災の法を自分のために行うときは、その部の本真言と先の懺悔の真言などを用い、他人のために行うときは普賢の真言を用いる。真言に",
+          "context_position": 2222,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "真言と先の懺悔の真言などを用い、他人のために行うときは普賢の真言を用いる。真言にいう。唵縛薩囉薩怛縛吽。 〔読み〕オン・バザ",
+          "context_position": 2244,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "の真言などを用い、他人のために行うときは普賢の真言を用いる。真言にいう。唵縛薩囉薩怛縛吽。 〔読み〕オン・バザラ・サトバ・ウ",
+          "context_position": 2251,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "縛吽。 〔読み〕オン・バザラ・サトバ・ウン〔普賢・金剛薩埵の真言〕。 この真言は、念誦のとき本尊の真言のあとに唱えるのがよい",
+          "context_position": 2293,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "〕オン・バザラ・サトバ・ウン〔普賢・金剛薩埵の真言〕。 この真言は、念誦のとき本尊の真言のあとに唱えるのがよい。ただし調伏の",
+          "context_position": 2300,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ウン〔普賢・金剛薩埵の真言〕。 この真言は、念誦のとき本尊の真言のあとに唱えるのがよい。ただし調伏の法には、必ず降三世の真言",
+          "context_position": 2312,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "真言のあとに唱えるのがよい。ただし調伏の法には、必ず降三世の真言を用いる。 調伏の法〔怨敵・障碍を打ち伏せる修法〕は、黒月〔",
+          "context_position": 2342,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "益をこうむって、長寿と福楽を得させよう、と。 そして降三世の真言を唱えていう。 吽——調伏の法で唱える降三世の一字真言である",
+          "context_position": 2708,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "三世の真言を唱えていう。 吽——調伏の法で唱える降三世の一字真言である。 〔読み〕ウン。 次に四明、次に阿喜爾〔護摩〕。次に",
+          "context_position": 2735,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "かれよ、発吒〔ハッタ〕」と唱える。 水壇の法。まず不動明王の真言で、壇を建てるべき土地を加持する。壇の寸法〔肘量〕は心まかせ",
+          "context_position": 2823,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "もろの悪い毘那夜迦〔障碍をなす鬼神〕の類を除き去ると観じて、真言を百八遍唱える。次に水を地面にそそぎ浄めて平らにならす。次に",
+          "context_position": 2920,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "を地面にそそぎ浄めて平らにならす。次に降三世や馬頭観音などの真言で泥を加持し、壇を塗り固める。高さは一肘以下である。さらに金",
+          "context_position": 2963,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "加持し、壇を塗り固める。高さは一肘以下である。さらに金剛橛の真言で百八遍加持し、また小金剛輪の真言で百八遍加持する。壇を取り",
+          "context_position": 2998,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "以下である。さらに金剛橛の真言で百八遍加持し、また小金剛輪の真言で百八遍加持する。壇を取り壊そうと思うときは、法身の偈で加持",
+          "context_position": 3015,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "応じ〔驚覚〕、けっして本願にそむかず、行者のもとに影向して、真言と印契とによって加持し護念してくださる。たとえば国王がみずか",
+          "context_position": 4049,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "語では陀羅摩岐若勿他羅という〔陀羅摩は法〕。いっさいの経典と真言などを摂める秘密の蔵である。第四に羯磨智印。梵語では羯羅摩岐",
+          "context_position": 4522,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "にあり、わたしが法界の身であるから、諸仏はわが身の中にある。真言行者はよくこの観をなして、四明によって諸仏をわが体に引き入れ",
+          "context_position": 6441,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "菩薩と等しからしめん」。このように観じおわって、大慈三摩地の真言を唱えていう。 唵摩訶昧怛囉夜娑頗羅〔大慈三摩地の真言。摩訶",
+          "context_position": 10140,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "摩地の真言を唱えていう。 唵摩訶昧怛囉夜娑頗羅〔大慈三摩地の真言。摩訶昧怛囉夜は大いなる慈しみ、娑頗羅はあまねく広がれの意〕",
+          "context_position": 10167,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "菩薩と等しからしめん」。このように観じおわって、大悲三摩地の真言を唱えていう。 唵摩訶迦魯拏夜娑頗羅〔大悲三摩地の真言。摩訶",
+          "context_position": 10457,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "摩地の真言を唱えていう。 唵摩訶迦魯拏夜娑頗羅〔大悲三摩地の真言。摩訶迦魯拏夜は大いなるあわれみ、娑頗羅はあまねく広がれの意",
+          "context_position": 10484,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "菩薩と等しからしめん」。このように観じおわって、大喜三摩地の真言を唱えていう。 唵秫駄鉢羅謨娜娑頗羅〔大喜三摩地の真言。秫駄",
+          "context_position": 10724,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "摩地の真言を唱えていう。 唵秫駄鉢羅謨娜娑頗羅〔大喜三摩地の真言。秫駄は清浄、鉢羅謨娜はよろこびの意〕。 〔読み〕オン・シュ",
+          "context_position": 10751,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "菩薩と等しからしめん」。このように観じおわって、大捨三摩地の真言を唱えていう。 唵摩護閇乞灑娑頗羅〔大捨三摩地の真言。摩護閇",
+          "context_position": 11023,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "三摩地の真言を唱えていう。 唵摩護閇乞灑娑頗羅〔大捨三摩地の真言。摩護閇乞灑は大いなる捨の心の意〕。 〔読み〕オン・マコベイ",
+          "context_position": 11049,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "キシャ・ソハラ。 瑜伽の行者が四無量心の定を修め、四無量心の真言を唱えれば、未来に受けるはずの人・天のさまざまの魔の業や障難",
+          "context_position": 11111,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "壇上に安置する。次に、わが身はそのまま印契、わが語はそのまま真言、わが心はそのまま本尊であると観ずる。この三密は平等平等であ",
+          "context_position": 11249,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "である。これを共の三平等と名づける。同一の縁相であるゆえに、真言・印契が等しいゆえに、諸仏をわが身の中に引き入れる。これを入",
+          "context_position": 11440,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、おのずからいっさいの衆生のなした功徳となる。これがすなわち真言行者の利他の行である。真言行者は、手印を作り、真言を唱え、な",
+          "context_position": 11700,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "のなした功徳となる。これがすなわち真言行者の利他の行である。真言行者は、手印を作り、真言を唱え、ないしいっさいの時に、つねに",
+          "context_position": 11713,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "がすなわち真言行者の利他の行である。真言行者は、手印を作り、真言を唱え、ないしいっさいの時に、つねにこの観をなすべきである。",
+          "context_position": 11725,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、仏身と仏性とをあらわす。 『毘盧遮那経』〔大日経〕は五字の真言を宗とする。もし観想の境界の中に、界会の聖衆やその他いっさい",
+          "context_position": 12975,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "起こす。波浪はそのまま声を立てる。これが説法の音声である。 真言の語義——三業を浄める真言〔浄三業の真言〕。娑嚩婆嚩は自性、",
+          "context_position": 13802,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "立てる。これが説法の音声である。 真言の語義——三業を浄める真言〔浄三業の真言〕。娑嚩婆嚩は自性、秫駄は清浄〔ここまでは自身",
+          "context_position": 13815,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "説法の音声である。 真言の語義——三業を浄める真言〔浄三業の真言〕。娑嚩婆嚩は自性、秫駄は清浄〔ここまでは自身についていう〕",
+          "context_position": 13822,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ンバ・シュダ・サラバ・タラマ・ソババンバ・シュドカン。 この真言を唱えることについては、二つの説がある。第一の説。身とは印、",
+          "context_position": 13941,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ることについては、二つの説がある。第一の説。身とは印、語とは真言、意とは観照である。これは、自他の三業が本来清浄であるから、",
+          "context_position": 13976,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "観照である。これは、自他の三業が本来清浄であるから、浄三業の真言というのである。第二の説。わが三業は本来清浄で法界に行きわた",
+          "context_position": 14012,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "を浄めれば、他の衆生の三業も同時に清浄となる。それで浄三業の真言というのである。 陀羅尼を総持と名づけるわけは、一字の中にい",
+          "context_position": 14179,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "かの大地の依持し生長させる義にたとえる。だから総持という。 真言は何を体とするか。念と慧とを体とする。総持の力によっていっさ",
+          "context_position": 14303,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "るいは陀羅尼、あるいは明、あるいは呪、あるいは密語、あるいは真言という。この五つの意味はどうか。陀羅尼とは、仏が光を放ち、そ",
+          "context_position": 14430,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "密語とは、凡夫や二乗には知ることができないから、密語という。真言とは、如来の言葉は真実であって偽りがないから、真言という。し",
+          "context_position": 14632,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "語という。真言とは、如来の言葉は真実であって偽りがないから、真言という。しかしこれらはみな、一面を挙げて名づけたものにすぎな",
+          "context_position": 14657,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "名づけたものにすぎない。〔全体をあらわすには〕曼荼羅をもって真言の名とするのである。 曼荼羅という言葉は、梵語か漢語か。梵語",
+          "context_position": 14709,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "作法の注記〕帰命の文の前に、花を取って懺悔をすませ、普供養の真言を唱え、仏名を称えて礼拝する。次に、まず弁事の真言で水を加持",
+          "context_position": 17316,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、普供養の真言を唱え、仏名を称えて礼拝する。次に、まず弁事の真言で水を加持し、杓で水を酌んで百八遍唱える。さらに閼伽の真言な",
+          "context_position": 17341,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "の真言で水を加持し、杓で水を酌んで百八遍唱える。さらに閼伽の真言などを唱えて、こう観ずる。「この本来自性清浄の水で、諸仏の無",
+          "context_position": 17370,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "提心を因とし、大悲を根とし、方便を究竟とする。これがすなわち真言行者の心のもちようである。凡夫の位から六度を修行し、円満して",
+          "context_position": 17851,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "甲冑を着る護身法〕までを行う。次に小金剛輪の印を結んで、その真言を唱える。次に根本の印を結び、根本の真言を唱えて四処を加持す",
+          "context_position": 19103,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "輪の印を結んで、その真言を唱える。次に根本の印を結び、根本の真言を唱えて四処を加持する。心・額・喉・頂である。次に金剛合掌を",
+          "context_position": 19123,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "遍唱える。これが供養の法である。次に根本の印を結んで、根本の真言を二十一遍念誦する。これより先は、必ずしも数珠を繰らなくてよ",
+          "context_position": 19199,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "供養しようとするときである。 念珠を最初に三遍繰り越すわけ。真言の菩薩は、あるいは十六三昧を一つずつ順に証し、あるいは一つの",
+          "context_position": 19668,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "明などの煩悩を起こさない」と。これを横という。観は理であり、真言・印契は事である。 解界〔結界を解くこと〕に花を投げるのは—",
+          "context_position": 20180,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "菩薩である。およそ他の乗と異なることは、このとおりである。 真言行の菩薩が「十地を超過する」とは、どういう意味か。修めるとこ",
+          "context_position": 21977,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、色を見ることである。いっさいの声は口に摂まる。語はすなわち真言であり、音を聞くことである。いっさいの理は心に摂まる。心はす",
+          "context_position": 25736,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "である。他も、これに準じて知るべきである。 四種の法に応じて真言を唱えるには、息災には、初めに唵、終わりに娑婆訶。増益には、",
+          "context_position": 29431,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "に弱を付ける。およそ、いっさいの病は貪瞋痴の煩悩から生ずる。真言は明〔光明〕である。この明によって、わたしと病者と魔鬼などと",
+          "context_position": 29558,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "。 五乗〔人乗・天乗・声聞乗・縁覚乗・仏乗である〕。 問う。真言の教えにおいて、有為・無為を立てるか。答える。まさに立てる。",
+          "context_position": 30668,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法界",
+      "term_kana": "",
+      "sanskrit": "dharma-dhātu",
+      "definition": "宇宙の真実相。一切法の根本領域。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "界"
+      ],
+      "occurrence_count": 62,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "〕である。その中心には毘盧遮那仏〔中台の尊〕がおられ、これを法界智という。まわりの四仏〔阿閦など〕は四つの智〔四智〕であり、",
+          "context_position": 218,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "方は蓮華部、その外側は外金剛部である。 次に金剛界の曼荼羅。法界智〔毘盧遮那〕から四波羅蜜が流れ出る。これはすなわち定〔禅定",
+          "context_position": 350,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "坐法〕し、右の足で左の足の上を踏む。そして観想する。わが身は法界いっぱいに広がって白色の円い壇となる。わが身はひとつの法界で",
+          "context_position": 990,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "は法界いっぱいに広がって白色の円い壇となる。わが身はひとつの法界であり、わが口はそのまま護摩炉の口である。法界としてのわが身",
+          "context_position": 1019,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "が身はひとつの法界であり、わが口はそのまま護摩炉の口である。法界としてのわが身は毘盧遮那如来となり、毛穴から乳の雨をそそいで",
+          "context_position": 1042,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "としてのわが身は毘盧遮那如来となり、毛穴から乳の雨をそそいで法界の隅々まで行きわたらせ、また大いなる智慧の光を放って、わが業",
+          "context_position": 1074,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "て半跏坐、もしくは結跏趺坐する。福徳を修するときは、わが身が法界いっぱいに広がって黄色の方形の壇となると観ずる。またわが身が",
+          "context_position": 1475,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "となって七宝やさまざまの財物を雨と降らせ、自分の境域の内にも法界にも満ちると想う。もし他人のために官位や俸禄を求めるなら、国",
+          "context_position": 1600,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "智慧を修するなら、わが心の智慧の日輪から光明があらわれ出て、法界を照らしかがやかすと観ずる。そして降三世の真言を唱えていう。",
+          "context_position": 1738,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ずる。行者は顔を西に向けて箕坐し、両足を並べて踏む。わが身が法界いっぱいに広がって赤色の八葉の蓮華となると観じ、またわが身が",
+          "context_position": 1935,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "と観ずる。熱病を治すときは、自分の心にバン字を観ずる。全身が法界に広がって乳の海となり、火大の過剰を消し除くのである。そのう",
+          "context_position": 2146,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "てうずくまり〔蹲居〕、右足で左足の上を踏む。そして、わが身が法界いっぱいに広がって青黒色の三角の曼荼羅となると観ずる。わが身",
+          "context_position": 2514,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "っぱいに広がって青黒色の三角の曼荼羅となると観ずる。わが身は法界であり、わが口はそのまま炉の口である。わたしは降三世忿怒尊と",
+          "context_position": 2547,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "う」と。この誓願を垂れておられるから、もし衆生が帰依すれば、法界定に住して自受法楽しておられる如来が、はっと目覚めるように応",
+          "context_position": 3988,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "〕である。印とは決定の義である。 五智とは次のとおり。第一に法界体性智。三密の差別の数は刹塵〔国土を砕いた塵の数〕を超えてい",
+          "context_position": 4606,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "密の差別の数は刹塵〔国土を砕いた塵の数〕を超えている。これを法界と名づける。諸法のよりどころであるから体といい、法としてある",
+          "context_position": 4643,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "える。その水が、どこにでも行きわたらないところのないことを、法界体性智にたとえる。いっさいの心あるもの・心なきものが、水によ",
+          "context_position": 5772,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "るとはどういうことか。内明〔仏教学〕は蘊・処・界を説くから、法界体性智になぞらえる。因明〔論理学〕は、立論者と論敵との優劣が",
+          "context_position": 5878,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "いるから、わたしもまた万徳円満して眷属に囲まれている。諸仏は法界の身であるから、わが身は諸仏の身の中にあり、わたしが法界の身",
+          "context_position": 6391,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "仏は法界の身であるから、わが身は諸仏の身の中にあり、わたしが法界の身であるから、諸仏はわが身の中にある。真言行者はよくこの観",
+          "context_position": 6419,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "風輪を想う。欠字〔カン〕が黒色で光明を放ち、半月のような形で法界に行きわたる。その上に水輪を想う。鑁字〔バン〕が白色で光明を",
+          "context_position": 6573,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "その上に水輪を想う。鑁字〔バン〕が白色で光明を放ち、円い形で法界に行きわたって、乳の海となる。その上に阿字を想う。金色すなわ",
+          "context_position": 6612,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "となる。その上に阿字を想う。金色すなわち黄色で、方形をなして法界に行きわたる。その上に囉字〔ラ〕を想う。赤色で、三角の形をな",
+          "context_position": 6655,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "きわたる。その上に囉字〔ラ〕を想う。赤色で、三角の形をなして法界に行きわたる。その上に悪字〔アク〕を想う。八葉の蓮華となる。",
+          "context_position": 6689,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "者はこの事情を知らなければならない。 この率都婆は光を放って法界に行きわたり、毘盧遮那の身となって、さまざまの荘厳をそなえる",
+          "context_position": 7368,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "である。 地下の空界に欠字〔カン〕を観ずる。黒色で光を放って法界に行きわたり、変じて風輪となる。半月の形のようである。その上",
+          "context_position": 7589,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "のようである。その上に鑁字〔バン〕を観ずる。白色で光を放って法界に行きわたり、乳の海となる。その上に鉢羅字〔ハラ〕を観ずる。",
+          "context_position": 7641,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "に行きわたり、乳の海となる。その上に鉢羅字〔ハラ〕を観ずる。法界に行きわたり、変じて金の亀となる。その上に蘇字〔ソ〕を観ずる",
+          "context_position": 7673,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "行きわたり、変じて金の亀となる。その上に蘇字〔ソ〕を観ずる。法界に行きわたり、変じて大蓮華王となる。これがすなわち蘇迷盧山〔",
+          "context_position": 7706,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "れはそのまま身の光となる。身も座も月輪も楼閣も山なども、みな法界に行きわたる。自分について観じたように他を観ずれば、他もまた",
+          "context_position": 8051,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "があまねく行きわたるさまを観ずる。長く久しくしてのち、月輪を法界に行きわたらせ、にわかに身と月輪とを忘れて、もっぱら無分別智",
+          "context_position": 8343,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ちに観ずることは、五字厳身のとおりである。いわゆる、わたしは法界に行きわたる身であり、諸仏もまた法界に行きわたる身である。わ",
+          "context_position": 8498,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ある。いわゆる、わたしは法界に行きわたる身であり、諸仏もまた法界に行きわたる身である。わが身を諸仏の身に入れれば、わたしが諸",
+          "context_position": 8516,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "可説である。この不可説不可説の功徳をわが身に入れれば、諸仏は法界の蔵を開いて、無量の功徳をわたしに施し与えてくださる。わが本",
+          "context_position": 8929,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "れており、わたしもまた万徳円満して眷属に囲まれている。諸仏は法界に行きわたる身であるから、わが身は諸仏の身の中にあり、わが身",
+          "context_position": 9200,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "行きわたる身であるから、わが身は諸仏の身の中にあり、わが身が法界に行きわたる身であるから、諸仏の身はわが身の中にある。たとえ",
+          "context_position": 9233,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "して定印を結べ。 慈の観は第八阿頼耶識であり、これは如来蔵・法界智・大円鏡智である。はじめに慈無量心の定に入る。ねんごろで浄",
+          "context_position": 9987,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "心はそのまま本尊であると観ずる。この三密は平等平等であって、法界に行きわたっている。これを自の三平等と名づける。わが三平等と",
+          "context_position": 11284,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "金剛がよくいっさいの物を打ち砕くのと同じである。 阿字とは、法界にあまねく行きわたる理の種子であり、囉字とは、法界の諸法の種",
+          "context_position": 12236,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "阿字とは、法界にあまねく行きわたる理の種子であり、囉字とは、法界の諸法の種子である。阿字は本不生際の義であり、囉字は塵垢の義",
+          "context_position": 12261,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "五蘊などの微細の身を有するものである。「虚空のごとし」とは、法界にあまねき理をいうだけであって、その体がないのではない。諸仏",
+          "context_position": 13168,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、浄三業の真言というのである。第二の説。わが三業は本来清浄で法界に行きわたり、他の衆生の三業も本来清浄で法界に行きわたってい",
+          "context_position": 14037,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "三業は本来清浄で法界に行きわたり、他の衆生の三業も本来清浄で法界に行きわたっている。わが三業と他の衆生の三業とは、互いにさま",
+          "context_position": 14059,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "る。わが三業と他の衆生の三業とは、互いにさまたげ合うことなく法界に行きわたる。たとえば千の灯火の光明が、互いにさまたげ合わな",
+          "context_position": 14099,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "供具とを奉献する。ひとつひとつの諸塵はみな実相であり、実相は法界の海にあまねく行きわたる。法界はそのまま、もろもろのすぐれた",
+          "context_position": 17501,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "の諸塵はみな実相であり、実相は法界の海にあまねく行きわたる。法界はそのまま、もろもろのすぐれた供物である。自他の四法身と、菩",
+          "context_position": 17516,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "授けるべきである。だから甘露王如来を第三に置く。広博身如来は法界体性智のはたらき、法界にあまねく行きわたる身である。すでに妙",
+          "context_position": 18586,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ら甘露王如来を第三に置く。広博身如来は法界体性智のはたらき、法界にあまねく行きわたる身である。すでに妙法を聴き受けたなら、そ",
+          "context_position": 18597,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "宜に行えばよいのである。 花蔵世界の義。華とは理である。理は法界に行きわたって、諸法をその中に蔵めている。だから花蔵という。",
+          "context_position": 19267,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "起こさない」と。これを次第という。第二に横とは——わが一心の法界の中には、毘盧遮那ないし四仏・四波羅蜜・十仏刹微塵数の如来が",
+          "context_position": 20038,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "る」と。この観をなすとともに花を投げ、諸仏とともに、ふたたび法界宮に入り住する。これを解界という。 儀軌に「心は、月輪がうす",
+          "context_position": 20298,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、右の手は慧である。十指はすなわち十波羅蜜であり、あるいは十法界、あるいは十真如である。縮めれば一つに収まり、開けば無量の名",
+          "context_position": 20589,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "。 念誦のとき、もし心が散乱したら、出入りの息を観じて一つの法界とし、わが身と本尊とをこの一法界に摂め、またいっさいの諸法を",
+          "context_position": 21504,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ら、出入りの息を観じて一つの法界とし、わが身と本尊とをこの一法界に摂め、またいっさいの諸法をこの一法界に摂める。そののちに念",
+          "context_position": 21520,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "わが身と本尊とをこの一法界に摂め、またいっさいの諸法をこの一法界に摂める。そののちに念誦せよ。 密教によって「十念成就」とい",
+          "context_position": 21539,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "衆生の身口意と、魔王・悪魔などの身口意とは、平等平等であって法界に行きわたり、はたらきかける側〔能〕もなく、はたらきかけられ",
+          "context_position": 23246,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "とをもつゆえに、天と称するのである」。 五智の名を解釈する。法界体性智とは——三密の差別の数は、刹塵を超えている。これを法界",
+          "context_position": 24676,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "法界体性智とは——三密の差別の数は、刹塵を超えている。これを法界と名づける。諸法のよりどころであるから体といい、法としてある",
+          "context_position": 24706,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "。輪の上に阿字を観ぜよ。阿字は変じて、如意宝珠となる。宝珠は法界に満ちわたる。口に阿字を唱え、疲れたらそのまま眠れ。印は、率",
+          "context_position": 28941,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "おのおの四智をそなえる。東方の阿閦仏を主とするときは、これが法界体性智となり、その余の四菩薩がこれ四智である。他も、これに準",
+          "context_position": 29380,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "場観は成所作智、閼伽は平等性智、大円鏡智観はすなわち円鏡智、法界体性観は自体性智〔法界体性智〕にあたる。また座については、毘",
+          "context_position": 30501,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "平等性智、大円鏡智観はすなわち円鏡智、法界体性観は自体性智〔法界体性智〕にあたる。また座については、毘盧遮那は師子座、阿閦は",
+          "context_position": 30512,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三密",
+      "term_kana": "",
+      "sanskrit": "trīṇi guhyāni",
+      "definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "密"
+      ],
+      "occurrence_count": 28,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "界〕がある。まず胎蔵曼荼羅。そもそも曼荼羅とは、身・口・意の三密が欠けることなく満ちそなわっているという意味〔三密円満具足の",
+          "context_position": 155,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "・口・意の三密が欠けることなく満ちそなわっているという意味〔三密円満具足の義〕である。その中心には毘盧遮那仏〔中台の尊〕がお",
+          "context_position": 180,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "とは決定の義である。 五智とは次のとおり。第一に法界体性智。三密の差別の数は刹塵〔国土を砕いた塵の数〕を超えている。これを法",
+          "context_position": 4612,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、決断分明であることをもって智とする。第二に大円鏡智。自他の三密に果てがないことを大と名づけ、満ちそなわって欠けないことを円",
+          "context_position": 4726,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、諸仏をわが体に引き入れるとはどういうことか。答える。本尊の三密の鏡がよくいっさいの色相を照らすことは、大円鏡智がよく万象の",
+          "context_position": 6150,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "と同じであって、本尊とわたしとは無二無別である。だから、わが三密の鏡がよく照らすことも本尊と同じである。ただ本尊とわたしとが",
+          "context_position": 6219,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "の諸仏〕も、みな同じく、わたしと無二無別である。だから諸仏の三密の鏡がよく照らすことは、わたしと同じである。諸仏は万徳円満の",
+          "context_position": 6322,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "仏の身に入れれば、わたしが諸仏を供養することになる。 本尊の三密の鏡が明らかなことは、大円鏡智がいっさいの色相を照らすのと同",
+          "context_position": 9011,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "らすのと同じである。本尊とわたしとは無二無別であるから、わが三密の鏡の明らかなことも、本尊の三密の鏡のとおりである。已成・未",
+          "context_position": 9068,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "とは無二無別であるから、わが三密の鏡の明らかなことも、本尊の三密の鏡のとおりである。已成・未成の諸仏とわたしとは無二無別であ",
+          "context_position": 9084,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "未成の諸仏とわたしとは無二無別であるから、已成・未成の諸仏の三密の鏡の明らかなことも、わが三密の鏡のとおりである。諸仏は万徳",
+          "context_position": 9129,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "であるから、已成・未成の諸仏の三密の鏡の明らかなことも、わが三密の鏡のとおりである。諸仏は万徳円満して眷属に囲まれており、わ",
+          "context_position": 9144,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "客塵煩悩〕におおわれて、明らかに見ることができない。いまわが三密の加持力によって煩悩の塵垢を除き、明了に心の実相を見よう」と",
+          "context_position": 9426,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "をそなえ、身・口・意の三種の金剛をそなえている。「わが修する三密の功徳力のゆえに、願わくはいっさいの有情を普賢菩薩と等しから",
+          "context_position": 10085,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ことにも、恒河の沙を超える功徳にも達していない。「わが修する三密の加持力のゆえに、願わくはいっさいの有情を虚空蔵菩薩と等しか",
+          "context_position": 10401,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "が客塵に染まらず、自性清浄であるのと同じである。「わが修する三密の功徳力のゆえに、願わくはいっさいの有情を観自在菩薩と等しか",
+          "context_position": 10668,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "心はもとより不生である。性も相も空だからである。「わが修する三密の功徳力のゆえに、願わくはいっさいの有情を虚空庫菩薩と等しか",
+          "context_position": 10967,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "が語はそのまま真言、わが心はそのまま本尊であると観ずる。この三密は平等平等であって、法界に行きわたっている。これを自の三平等",
+          "context_position": 11272,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "「毘盧遮那仏の身口意のはたらきは虚空に行きわたる。その如来の三密の門、金剛一乗の甚深の教えに帰命したてまつる。わたしは無明に",
+          "context_position": 17121,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "をおおっている。三界に流転して、仏を証していない。いま大覚の三密の教えに乗じ、如来に対したてまつって、仏たちがなされたように",
+          "context_position": 17203,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "いに摂め入れ摂めたもって、隠れないことを染愛という〕。三乗〔三密のことである。声の密を声聞といい、心の密を独覚といい、身の密",
+          "context_position": 24386,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "と称するのである」。 五智の名を解釈する。法界体性智とは——三密の差別の数は、刹塵を超えている。これを法界と名づける。諸法の",
+          "context_position": 24685,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、決断分明であることをもって智とする。大円鏡智とは——自他の三密に果てがないことを大と名づけ、満ちそなわって欠けないことを円",
+          "context_position": 24783,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ぞれの部が、別々に宝部・羯磨部を摂め合うのである。 三平等。三密によって、いっさいの諸法を摂める。いっさいの色〔見えるもの〕",
+          "context_position": 25656,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "いの理は心に摂まる。心はすなわち本尊であり、実相を表す。この三密は平等平等であって、いっさいの処に行きわたっている。それゆえ",
+          "context_position": 25785,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "していえば、どうか。答える。法に即していえば、観心を因とし、三密を縁とする。あらわれる普門の海会が、すなわち所生の法である。",
+          "context_position": 27965,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "求めれば、ついに不可得である。これがすなわち空である。本有の三密は、すなわち中である。問う。他を縁ずるとは、どういうことか。",
+          "context_position": 28247,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "る。また、初めて菩提心を発してから、修行して仏果に至るまで、三密によってなすはたらきは、因の方便である。すでに成仏してのち、",
+          "context_position": 28523,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法身",
+      "term_kana": "",
+      "sanskrit": "dharmakāya",
+      "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "身"
+      ],
+      "occurrence_count": 28,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "器杖や印契。平等の義〕、第三に法曼荼羅〔種子の文字。すなわち法身がたもつという義〕、第四に羯磨曼荼羅〔尊たちの立ち居ふるまい",
+          "context_position": 800,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "小金剛輪の真言で百八遍加持する。壇を取り壊そうと思うときは、法身の偈で加持してから、思いのままに壊してよい。 その偈とは、次",
+          "context_position": 3040,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "はたらき〔事業〕を成し遂げるのを羯磨部という。 三部を三点〔法身・般若・解脱の三徳〕に当てるとどうなるか。蓮華部を法身になぞ",
+          "context_position": 3644,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "三点〔法身・般若・解脱の三徳〕に当てるとどうなるか。蓮華部を法身になぞらえ、金剛部を般若になぞらえ、仏部を解脱になぞらえる。",
+          "context_position": 3671,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "れて見れば、塵垢を観じても不可得である。 阿字は毘盧遮那の理法身の種子であり、鑁字は智法身の種子である。理と智とは相い離れな",
+          "context_position": 12445,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "不可得である。 阿字は毘盧遮那の理法身の種子であり、鑁字は智法身の種子である。理と智とは相い離れない。理は智のはたらきを起こ",
+          "context_position": 12458,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "す。大悲を水にたとえる。鑁字は水輪の種子であるから、それで智法身の種子とするのである。 文字とは何か。かりに一つの阿字がある",
+          "context_position": 12529,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "字を体とする。阿字には字体がないが、麼の音の中にある。阿字は法身、塢字は報身、麼字は化身である。それゆえこの一字に三身の義が",
+          "context_position": 12911,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "心の虚空のことであり、すなわち欠字〔ケン〕である。この虚空に法身がある。その法身は、因として把握することができない〔因不可得",
+          "context_position": 13455,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "あり、すなわち欠字〔ケン〕である。この虚空に法身がある。その法身は、因として把握することができない〔因不可得〕。これが欠の義",
+          "context_position": 13463,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "把握することができない〔因不可得〕。これが欠の義である。この法身は慈悲をそなえ、よく衆生界を救い渡される。この慈悲が水である",
+          "context_position": 13501,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ど亀が、水にも陸にも遊ぶことができるのと同じである。須弥山は法身である。七金山は七覚支である。この法身はいっさいの法門の根源",
+          "context_position": 13596,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "と同じである。須弥山は法身である。七金山は七覚支である。この法身はいっさいの法門の根源である。だから、須弥山を座とするという",
+          "context_position": 13615,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "法門の根源である。だから、須弥山を座とするというのである。 法身には定と慧の二面がある。水でたとえれば、澄んで浄らかであるこ",
+          "context_position": 13653,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "たる。法界はそのまま、もろもろのすぐれた供物である。自他の四法身と、菩薩・二乗の衆とに供養し、平等に常に、あまねく五類の天た",
+          "context_position": 17543,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "とし、意を金剛部とし、身を仏部とする。三点に当てるなら、語を法身とし、意を般若とし、身を解脱とする。三宝に当てるなら、身は仏",
+          "context_position": 20674,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "とえではない。 草木など非情〔心をもたないもの〕の成仏の義。法身は微細の身であって、五大からできている。虚空もまた五大からで",
+          "context_position": 22994,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "虚空もまた五大からできており、草木もまた五大からできている。法身の微細の身は、虚空から草木に至るまで、いっさいの処に行きわた",
+          "context_position": 23046,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "に行きわたらないところがない。この虚空、この草木が、そのまま法身である。肉眼では粗大な色〔すがた〕の草木を見るが、仏眼から見",
+          "context_position": 23103,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "破って出現し、草木の花や実が開くように、わが身のうちの本有の法身の如来も、大悲願行の風により、如来の加持力によって出現するの",
+          "context_position": 23462,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "唵字を聞けばみなことごとく従い伏して参集する〕。第五に三身〔法身・応身・化身〕である。 五字の観において「不可得」と観ずるの",
+          "context_position": 23585,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "であり、『守護国界経』の説は、別しての説なのである。 問う。法身・応身・化身・等流身——この四種の身は、一身にそなわるものと",
+          "context_position": 26427,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "。みな法門からあらわれ出るのである。問う。それでは、この四種法身は、曼荼羅においてはどの身にあたるのか。答える。中台の毘盧遮",
+          "context_position": 26543,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "曼荼羅においてはどの身にあたるのか。答える。中台の毘盧遮那を法身とし、四仏を応身とし、釈迦を化身とし、外金剛部の龍・鬼などを",
+          "context_position": 26577,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "身とし、外金剛部の龍・鬼などを等流身とする。問う。四種がみな法身であるなら、なぜ「密教は法身の説であるから深く、顕教は化身の",
+          "context_position": 26624,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "を等流身とする。問う。四種がみな法身であるなら、なぜ「密教は法身の説であるから深く、顕教は化身の説であるから浅い」と論ずるの",
+          "context_position": 26638,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "結ぶのである。 〔修法の次第を諸身・諸智に配当すれば〕入智は法身、成蓮華は自性身、成仏身は受用身、潅頂・被甲は変化身、等持印",
+          "context_position": 30432,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "造であり、残りの諸句は、すなわち所造である。問う。また、四種法身・四種曼荼羅・三種世間に配すると、どうか。答える。「諸法と法",
+          "context_position": 31082,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "遮那",
+      "term_kana": "",
+      "sanskrit": "Vairocana",
+      "definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "遮",
+        "那"
+      ],
+      "occurrence_count": 24,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "摩訶毘盧遮那・尾三菩提・美紀梨儞・地瑟他・蘇多覧。偉大な毘盧遮那仏の成仏",
+          "context_position": 4,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "摩訶毘盧遮那・尾三菩提・美紀梨儞・地瑟他・蘇多覧。偉大な毘盧遮那仏の成仏〔尾三菩提・現等覚〕と神変〔美紀梨儞〕と加持〔地瑟他",
+          "context_position": 30,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ているという意味〔三密円満具足の義〕である。その中心には毘盧遮那仏〔中台の尊〕がおられ、これを法界智という。まわりの四仏〔阿",
+          "context_position": 201,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "その外側は外金剛部である。 次に金剛界の曼荼羅。法界智〔毘盧遮那〕から四波羅蜜が流れ出る。これはすなわち定〔禅定〕である。そ",
+          "context_position": 356,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "二に羯磨会、第三に三昧耶会、第四に供養会である。たとえば毘盧遮那仏が吽字を唱えられると、五鈷金剛杵が空中に現れ、ふたたび仏身",
+          "context_position": 574,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、わが口はそのまま護摩炉の口である。法界としてのわが身は毘盧遮那如来となり、毛穴から乳の雨をそそいで法界の隅々まで行きわたら",
+          "context_position": 1054,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ればならない。 この率都婆は光を放って法界に行きわたり、毘盧遮那の身となって、さまざまの荘厳をそなえる。白蓮華の台に坐し、宝",
+          "context_position": 7379,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "の荘厳をそなえる。白蓮華の台に坐し、宝冠には五仏がおられる。遮那の身には白い紗をまとっている。わたしもまた、初めから終わりに",
+          "context_position": 7422,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "生際に入れて見れば、塵垢を観じても不可得である。 阿字は毘盧遮那の理法身の種子であり、鑁字は智法身の種子である。理と智とは相",
+          "context_position": 12441,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "えこの一字に三身の義があり、仏身と仏性とをあらわす。 『毘盧遮那経』〔大日経〕は五字の真言を宗とする。もし観想の境界の中に、",
+          "context_position": 12962,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "れば、邪と正との別があるのである。 三十七尊の金剛名号。毘盧遮那——遍照。金剛〔東方の阿閦〕——不動。南方の宝生——平等。西",
+          "context_position": 16784,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "持。鈴——解脱。 沐像の法〔仏像に水を浴びせる作法〕。「毘盧遮那仏の身口意のはたらきは虚空に行きわたる。その如来の三密の門、",
+          "context_position": 17094,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "閦仏〕、甘露王如来〔西方の無量寿仏〕、広博身如来〔中央の毘盧遮那仏〕、離怖畏如来〔北方の釈迦牟尼仏〕。これを東・西・南・北の",
+          "context_position": 18236,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "れを次第という。第二に横とは——わが一心の法界の中には、毘盧遮那ないし四仏・四波羅蜜・十仏刹微塵数の如来が、歴然としておられ",
+          "context_position": 20047,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "称である。 五部に母と主とを定めるとは、どういうことか。毘盧遮那〔仏部の主。源であるから母はない〕、阿閦〔金剛部の主。金剛波",
+          "context_position": 25048,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "身は、曼荼羅においてはどの身にあたるのか。答える。中台の毘盧遮那を法身とし、四仏を応身とし、釈迦を化身とし、外金剛部の龍・鬼",
+          "context_position": 26574,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "が流れ出ることができようか。 問う。経に「釈迦はすなわち毘盧遮那である」と説く。その意味はどうか。答える。たとえば、いくつも",
+          "context_position": 27338,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "すと、すべての穴が同時に光を放つようなものである。心王の毘盧遮那が成仏するとき、無数の心主が同時に成仏する。この無数の心主は",
+          "context_position": 27414,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、みな、おのおのの心主の迹なのである。本に帰すれば、みな毘盧遮那であるとはいえ、三昧の門からいえば、おのおのの三昧の化現であ",
+          "context_position": 27560,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "し、阿祇爾〔漢の地では護摩という〕を行うべきである。 『毘盧遮那経』〔大日経〕では、阿字を毘盧遮那の種子とし、吽字を金剛薩埵",
+          "context_position": 29653,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "を行うべきである。 『毘盧遮那経』〔大日経〕では、阿字を毘盧遮那の種子とし、吽字を金剛薩埵の種子とする。『金剛頂経』では、吽",
+          "context_position": 29670,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "し、吽字を金剛薩埵の種子とする。『金剛頂経』では、吽字を毘盧遮那の種子とし、阿字を金剛薩埵の種子とする。金剛界の儀軌はこのと",
+          "context_position": 29706,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "となり伴となる義である。 五忿怒を五智に当てる。不動尊〔毘盧遮那の忿怒。自性輪は般若菩薩〕、降三世〔阿閦仏の忿怒。自性輪は金",
+          "context_position": 29809,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "性観は自体性智〔法界体性智〕にあたる。また座については、毘盧遮那は師子座、阿閦は象座、宝生は馬座、阿弥陀は孔雀座、不空成就は",
+          "context_position": 30534,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "阿字",
+      "term_kana": "",
+      "sanskrit": "a-kāra",
+      "definition": "密教根本字。梵語五十字門の最初の字。本不生を象徴。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 21,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "明を放ち、円い形で法界に行きわたって、乳の海となる。その上に阿字を想う。金色すなわち黄色で、方形をなして法界に行きわたる。そ",
+          "context_position": 6633,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "のままでよい。その上にまた八葉の白色の蓮華があり、蓮台の上に阿字を置く。阿字は光を放って率都婆〔そとば・塔〕となる。 つぎに",
+          "context_position": 6815,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "。その上にまた八葉の白色の蓮華があり、蓮台の上に阿字を置く。阿字は光を放って率都婆〔そとば・塔〕となる。 つぎに、腰から下に",
+          "context_position": 6821,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "は光を放って率都婆〔そとば・塔〕となる。 つぎに、腰から下に阿字を念ずる。これはすなわち地輪で、黄色である。臍に鑁字を念ずる",
+          "context_position": 6853,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "色であり、また五色の光をそなえている。 いわゆる五大とは——阿字は本不生の理の種子である。種子を地輪に落とせば、水と土の縁を",
+          "context_position": 6987,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "〕は、阿・訶・塢・摩〔ア・カ・ウ・マ〕の四字からできている。阿字には字体がないが、訶の音の中にある。阿字はいっさいの諸法は本",
+          "context_position": 11796,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "四字からできている。阿字には字体がないが、訶の音の中にある。阿字はいっさいの諸法は本不生であるという義であり、訶字はいっさい",
+          "context_position": 11816,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "葉を除くために、さらに中道も不可得であると説く。この不可得を阿字の門に入れて見れば、不可得もまた不可得である。ここにおいて言",
+          "context_position": 12068,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "。ちょうど金剛がよくいっさいの物を打ち砕くのと同じである。 阿字とは、法界にあまねく行きわたる理の種子であり、囉字とは、法界",
+          "context_position": 12231,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "行きわたる理の種子であり、囉字とは、法界の諸法の種子である。阿字は本不生際の義であり、囉字は塵垢の義である。虚空の中に、衆生",
+          "context_position": 12273,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "塵垢を本不生際に入れて見れば、塵垢を観じても不可得である。 阿字は毘盧遮那の理法身の種子であり、鑁字は智法身の種子である。理",
+          "context_position": 12436,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "れで智法身の種子とするのである。 文字とは何か。かりに一つの阿字があるとする。阿と呼ぶ声はあらわす側〔能詮〕であって、これが",
+          "context_position": 12556,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": " 唵字〔オン〕は、阿・塢・麼〔ア・ウ・マ〕の三字を体とする。阿字には字体がないが、麼の音の中にある。阿字は法身、塢字は報身、",
+          "context_position": 12888,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "〕の三字を体とする。阿字には字体がないが、麼の音の中にある。阿字は法身、塢字は報身、麼字は化身である。それゆえこの一字に三身",
+          "context_position": 12908,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "・諸天は威福を増し、四恩と施主と三途の類とは、同一性のゆえに阿字に入るように。風雨は時に順って災難なく、百穀ゆたかに実って天",
+          "context_position": 17749,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "である。いずれも、心の蓮華の上に月輪を敷き、月輪の上に明了に阿字を観ぜよ。観と念誦とがぴったり応じ合って、ずれないようにする",
+          "context_position": 23984,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ない事を定める〔見定める〕法。わが心に月輪を観ぜよ。輪の上に阿字を観ぜよ。阿字は変じて、如意宝珠となる。宝珠は法界に満ちわた",
+          "context_position": 28916,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "〔見定める〕法。わが心に月輪を観ぜよ。輪の上に阿字を観ぜよ。阿字は変じて、如意宝珠となる。宝珠は法界に満ちわたる。口に阿字を",
+          "context_position": 28923,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "。阿字は変じて、如意宝珠となる。宝珠は法界に満ちわたる。口に阿字を唱え、疲れたらそのまま眠れ。印は、率都婆の印を用いよ。 五",
+          "context_position": 28952,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "摩という〕を行うべきである。 『毘盧遮那経』〔大日経〕では、阿字を毘盧遮那の種子とし、吽字を金剛薩埵の種子とする。『金剛頂経",
+          "context_position": 29665,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "埵の種子とする。『金剛頂経』では、吽字を毘盧遮那の種子とし、阿字を金剛薩埵の種子とする。金剛界の儀軌はこのとおりで、会ごとに",
+          "context_position": 29714,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三摩地",
+      "term_kana": "",
+      "sanskrit": "samādhi",
+      "definition": "禅定。心を一境に住して散乱を離れた状態。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 14,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "情を普賢菩薩と等しからしめん」。このように観じおわって、大慈三摩地の真言を唱えていう。 唵摩訶昧怛囉夜娑頗羅〔大慈三摩地の真言",
+          "context_position": 10136,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、大慈三摩地の真言を唱えていう。 唵摩訶昧怛囉夜娑頗羅〔大慈三摩地の真言。摩訶昧怛囉夜は大いなる慈しみ、娑頗羅はあまねく広がれ",
+          "context_position": 10163,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "〕。 〔読み〕オン・マカマイタラヤ・ソハラ。 次に悲無量心の三摩地智に入る。悲の観は第七末那識であり、これは分別の識、すなわち",
+          "context_position": 10228,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "を虚空蔵菩薩と等しからしめん」。このように観じおわって、大悲三摩地の真言を唱えていう。 唵摩訶迦魯拏夜娑頗羅〔大悲三摩地の真言",
+          "context_position": 10453,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、大悲三摩地の真言を唱えていう。 唵摩訶迦魯拏夜娑頗羅〔大悲三摩地の真言。摩訶迦魯拏夜は大いなるあわれみ、娑頗羅はあまねく広が",
+          "context_position": 10480,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "〕。 〔読み〕オン・マカキャロダヤ・ソハラ。 次に喜無量心の三摩地智に入る。喜の観は第六識であり、これは染れのない識〔無染識〕",
+          "context_position": 10546,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "を観自在菩薩と等しからしめん」。このように観じおわって、大喜三摩地の真言を唱えていう。 唵秫駄鉢羅謨娜娑頗羅〔大喜三摩地の真言",
+          "context_position": 10720,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "、大喜三摩地の真言を唱えていう。 唵秫駄鉢羅謨娜娑頗羅〔大喜三摩地の真言。秫駄は清浄、鉢羅謨娜はよろこびの意〕。 〔読み〕オン",
+          "context_position": 10747,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "〕。 〔読み〕オン・シュダハラボダ・ソハラ。 次に捨無量心の三摩地智に入る。捨の観は五つの識〔眼・耳・鼻・舌・身の前五識〕であ",
+          "context_position": 10801,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "を虚空庫菩薩と等しからしめん」。このように観じおわって、大捨三摩地の真言を唱えていう。 唵摩護閇乞灑娑頗羅〔大捨三摩地の真言。",
+          "context_position": 11019,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "て、大捨三摩地の真言を唱えていう。 唵摩護閇乞灑娑頗羅〔大捨三摩地の真言。摩護閇乞灑は大いなる捨の心の意〕。 〔読み〕オン・マ",
+          "context_position": 11045,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "もいう。漢の国では省略して、卒塔婆を塔と呼ぶ。三昧耶は等持、三摩地は等至、三摩只他または三摩波底は等引〔と訳す〕。囉多曩は宝、",
+          "context_position": 15302,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ようなものである。 五種の念誦。いわゆる蓮華念誦・金剛念誦・三摩地念誦・声生念誦・光明念誦である。蓮華念誦とは、唱える声が自分",
+          "context_position": 23846,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "誦とは、唇と歯とを合わせ、わずかに舌の先を動かすものをいう。三摩地念誦とは、まったく口を動かさず、心の中で念誦するものである。",
+          "context_position": 23925,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大悲",
+      "term_kana": "",
+      "sanskrit": "mahā-karuṇā",
+      "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "occurrence_count": 14,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "れて、もっぱら無分別智に住する。そののち、衆生を利するために大悲の門に住して、観想から出る。月輪を縮めて、自分の心に収めおさ",
+          "context_position": 8394,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "有情を虚空蔵菩薩と等しからしめん」。このように観じおわって、大悲三摩地の真言を唱えていう。 唵摩訶迦魯拏夜娑頗羅〔大悲三摩地",
+          "context_position": 10451,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "って、大悲三摩地の真言を唱えていう。 唵摩訶迦魯拏夜娑頗羅〔大悲三摩地の真言。摩訶迦魯拏夜は大いなるあわれみ、娑頗羅はあまね",
+          "context_position": 10478,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ある。理と智とは相い離れない。理は智のはたらきを起こし、智は大悲を起こす。大悲を水にたとえる。鑁字は水輪の種子であるから、そ",
+          "context_position": 12494,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "は相い離れない。理は智のはたらきを起こし、智は大悲を起こす。大悲を水にたとえる。鑁字は水輪の種子であるから、それで智法身の種",
+          "context_position": 12501,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "蓮華。業波羅蜜——妙用。金剛薩埵——真如。王——自在。愛——大悲。喜——善哉。宝——如意。光——威徳。幢——満願。咲——歓喜",
+          "context_position": 16919,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "情を利するように」〔と唱える〕。 三句の義。菩提心を因とし、大悲を根とし、方便を究竟とする。これがすなわち真言行者の心のもち",
+          "context_position": 17828,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "る。だから「方便をもって究竟とする」という。成仏ののちには、大悲によって衆生を済度する。だから〔この面からも〕「方便を究竟と",
+          "context_position": 17916,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "ようなものと観ぜよ」とあるのは——霧は水であり、水はすなわち大悲である。月は智である。だから、霧の中に月があるのは、大悲の中",
+          "context_position": 20367,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "わち大悲である。月は智である。だから、霧の中に月があるのは、大悲の中に智があることを表すと知られる。 まず蓮華合掌を作るわけ",
+          "context_position": 20395,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "すると、経文に明らかに説かれている。 潅頂の義。潅とは諸仏の大悲であり、頂とは上の義である。菩薩が初地から等覚に至り、究竟し",
+          "context_position": 22227,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "る。菩薩が初地から等覚に至り、究竟して妙覚に遷るとき、諸仏が大悲の水を頂にそそがれる。それによって自行が円満し、仏果を証する",
+          "context_position": 22271,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "円満し、仏果を証することができる。これが頂の義であり、諸仏の大悲が潅の義である。世の人はみな、幡〔はた〕を立てることを潅頂と",
+          "context_position": 22323,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "草木の花や実が開くように、わが身のうちの本有の法身の如来も、大悲願行の風により、如来の加持力によって出現するのである〕。第四",
+          "context_position": 23469,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "密教",
+      "term_kana": "",
+      "sanskrit": "guhya-mantra-yāna",
+      "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 10,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "ることが定であり、いっさいの色相を照らし映すことが慧である。密教の説くところでは、定の面には言説がなく、慧の面に言説がある。",
+          "context_position": 13713,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "で本有と称するのか。証拠の文があるのか。——証拠の文はある。密教によるなら、性相本有は言うまでもない。また顕教の中でも、『法",
+          "context_position": 15572,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "—答える。それは、生滅無常を説く顕教の家の論のたとえである。密教の説くところは、如来自受用の境界であって、この境地は生滅無常",
+          "context_position": 15796,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "たいっさいの諸法をこの一法界に摂める。そののちに念誦せよ。 密教によって「十念成就」というのは、十波羅蜜を円満することをいう",
+          "context_position": 21557,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "て初地の菩薩の生まれる土というのか」と。答えていう。これは、密教にいう「横」の義である。初地と十地とに高下があるとみるのだか",
+          "context_position": 21774,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "の説く、地から地へと登っていく義〔地地遷登の義〕である。いま密教に説くところでは、菩薩の地というのは、心であり、法門であり、",
+          "context_position": 21910,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "日月を見るとき、日月はいまあらたに生じたのではない。これは、密教で本有〔本来そなわること〕をあらわすたとえである。顕教に説く",
+          "context_position": 22913,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "鬼などを等流身とする。問う。四種がみな法身であるなら、なぜ「密教は法身の説であるから深く、顕教は化身の説であるから浅い」と論",
+          "context_position": 26635,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "教えを説くことになるのである。 問う。顕教では八識を立てる。密教では、いくつの識を立てるのか。答える。一識、あるいは八識、あ",
+          "context_position": 26789,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "める。これを十識という。これを一切一心識と名づける。 問う。密教によれば、凡夫の心は閉じた蓮華のごとく、聖人の心は開いた蓮華",
+          "context_position": 27025,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "本不生",
+      "term_kana": "",
+      "sanskrit": "ādyanutpāda",
+      "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "り、また五色の光をそなえている。 いわゆる五大とは——阿字は本不生の理の種子である。種子を地輪に落とせば、水と土の縁を待っては",
+          "context_position": 6990,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "字には字体がないが、訶の音の中にある。阿字はいっさいの諸法は本不生であるという義であり、訶字はいっさいの諸法は因縁より生ずると",
+          "context_position": 11827,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "得である。ここにおいて言葉は絶える。これが、いっさいの諸法は本不生にして不可得であるという義である。この吽字を身・口・意に安置",
+          "context_position": 12118,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "たる理の種子であり、囉字とは、法界の諸法の種子である。阿字は本不生際の義であり、囉字は塵垢の義である。虚空の中に、衆生世間や器",
+          "context_position": 12276,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "虚空の中に、衆生世間や器世間などの諸法が起こってくる。虚空を本不生の理にたとえ、諸法を塵垢にたとえるのである。またたとえば、型",
+          "context_position": 12327,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "すなわち諸法であり、平らな地はすなわち虚空である。この塵垢を本不生際に入れて見れば、塵垢を観じても不可得である。 阿字は毘盧遮",
+          "context_position": 12409,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "これを信ずべきである〔信ぜずしてこれを信ず〕。ただつねに心を本不生際にかけて、あらわれた境界にとどまってはならない。 およそ仏",
+          "context_position": 13085,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "弥陀は孔雀座、不空成就は迦嚕羅〔かるら・金翅鳥〕座である。 本不生際とは——心は虚空のようであって、不生不滅である。この本不生",
+          "context_position": 30584,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "本不生際とは——心は虚空のようであって、不生不滅である。この本不生は、不可得である。阿・尾・羅・吽・欠である。 五乗〔人乗・天",
+          "context_position": 30614,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "心王",
+      "term_kana": "",
+      "sanskrit": "citta-rāja",
+      "definition": "八識の根本識。心の主体・統括者。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "、ないし無量識を立てる。問う。その意味は何か。答える。中台の心王の尊によって、いっさいの心主を摂める。これを一識という。八葉",
+          "context_position": 26863,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "に灯をともすと、すべての穴が同時に光を放つようなものである。心王の毘盧遮那が成仏するとき、無数の心主が同時に成仏する。この無",
+          "context_position": 27409,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "おのおの樹下に迹を垂れて、八相成道する。してみれば釈迦とは、心王のところの心主の一である釈迦の迹である。ないし、世間に出現す",
+          "context_position": 27487,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "。三科百法とは何か。答える。蘊・処・界——これを三科という。心王に八、心所〔原文では心主〕に五十一、色に十一、不相応に二十四",
+          "context_position": 28667,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大日",
+      "term_kana": "",
+      "sanskrit": "Mahāvairocana",
+      "definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "日"
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hizoki",
+          "context": "儞〕と加持〔地瑟他〕を説く経〔蘇多覧・スートラ〕、すなわち『大日経』の梵語の題名を音写して、冒頭に掲げたものである。 曼荼羅",
+          "context_position": 83,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "に三身の義があり、仏身と仏性とをあらわす。 『毘盧遮那経』〔大日経〕は五字の真言を宗とする。もし観想の境界の中に、界会の聖衆",
+          "context_position": 12967,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hizoki",
+          "context": "〔漢の地では護摩という〕を行うべきである。 『毘盧遮那経』〔大日経〕では、阿字を毘盧遮那の種子とし、吽字を金剛薩埵の種子とす",
+          "context_position": 29658,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "即身",
+      "term_kana": "",
+      "sanskrit": "sa-deha",
+      "definition": "即身成仏の略。父母所生の身のまま現生で仏となる。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "即身成仏",
+      "term_kana": "",
+      "sanskrit": "sa-deha-prāpti-buddhatva",
+      "definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "成",
+        "仏"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "大空三昧",
+      "term_kana": "",
+      "sanskrit": "mahā-śūnyatā-samādhi",
+      "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "智剣",
+      "term_kana": "",
+      "sanskrit": "jñāna-khaḍga",
+      "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "智",
+        "剣"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "無縁慈悲",
+      "term_kana": "",
+      "sanskrit": "an-ārambaṇa-karuṇā",
+      "definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "慈",
+        "悲"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "玄機",
+      "term_kana": "",
+      "sanskrit": "—",
+      "definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "玄",
+        "機"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "阿字本不生",
+      "term_kana": "",
+      "sanskrit": "ā-di-an-utpāda",
+      "definition": "密教根本教義。阿字（a-kāra）が本来不生（不滅）であることを観じ、万物の本源を悟る。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}
