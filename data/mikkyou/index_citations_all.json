@@ -3,7 +3,7 @@
   "category": "citations",
   "category_description": "典故書名（『〜』形式・他者著作）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-10",
+  "generated_at": "2026-06-12",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -16,10 +16,11 @@
     "sankyo-shiki",
     "bodaishinron",
     "jujushinron",
-    "hizoki"
+    "hizoki",
+    "yugikyo"
   ],
-  "corpora_count": 12,
-  "corpora_with_data": 12,
+  "corpora_count": 13,
+  "corpora_with_data": 13,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
@@ -87,6 +88,11 @@
       "hizoki": {
         "unique": 6,
         "occurrences": 10,
+        "present": true
+      },
+      "yugikyo": {
+        "unique": 0,
+        "occurrences": 0,
         "present": true
       }
     }

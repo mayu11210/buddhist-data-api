@@ -1,0 +1,734 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "yugikyo.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-12",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 30846,
+  "summary": {
+    "unique_terms": 14,
+    "unique_persons": 14,
+    "total_occurrences": 63,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 6,
+        "occurrences": 45
+      },
+      "buddhist_deva": {
+        "unique": 4,
+        "occurrences": 12
+      },
+      "buddhist_master_china": {
+        "unique": 3,
+        "occurrences": 5
+      },
+      "buddhist_master_india": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "虚空蔵",
+      "aliases": [
+        "虚空蔵菩薩",
+        "ākāśagarbha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧と福徳を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "虚空蔵",
+          "count": 14
+        },
+        {
+          "form": "虚空蔵菩薩",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 15,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "本来そなわる法身〔本有の法身〕を成就させるためです、と。次に虚空蔵菩薩が手の中の宝瓶を虚空に投げると、寂然一体となって手の中に戻り",
+          "context_position": 1635,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "て、心臓に当てれば成就する。そのとき、また富貴を成就する金剛虚空蔵の鉤召の五字の明王を説いて唱えられた。バンウンタラクキリクア",
+          "context_position": 17604,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "五字の明王を説いて唱えられた。バンウンタラクキリクアク〔五大虚空蔵の五尊を表す五字真言〕。行者はまさに五大金剛虚空蔵を描きなさ",
+          "context_position": 17641,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "アク〔五大虚空蔵の五尊を表す五字真言〕。行者はまさに五大金剛虚空蔵を描きなさい。一つの円い光〔円明〕の中に、自分の身の丈と等し",
+          "context_position": 17666,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "一つの円明の中を、さらに分けて五つとする。中央の円には白色の虚空蔵を描きなさい。左の手に鉤を執り、右の手に宝を持たせる。前の円",
+          "context_position": 17739,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "左の手に鉤を執り、右の手に宝を持たせる。前の円の中には黄色の虚空蔵を描きなさい。左に鉤を持ち、右にまさしく金剛を執る。右の円の",
+          "context_position": 17779,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "。左に鉤を持ち、右にまさしく金剛を執る。右の円の中には青色の虚空蔵を描きなさい。 左に鉤を執り、右には三弁の宝が大光明を放って",
+          "context_position": 17818,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "三弁の宝が大光明を放っているのを持つ。後ろの円の中には赤色の虚空蔵を描きなさい。前と同じく左に鉤を持ち、右に大きな紅蓮華を持つ",
+          "context_position": 17869,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "左に鉤を持ち、右に大きな紅蓮華を持つ。左の円の中には黒紫色の虚空蔵を描きなさい。前と同じく左に鉤を持ち、右に宝羯磨を持つ。これ",
+          "context_position": 17914,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "なさい。前と同じく左に鉤を持ち、右に宝羯磨を持つ。これを五大虚空蔵の富貴を求める法と名づける。もしこの像を描くなら、青色あるい",
+          "context_position": 17950,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "、中指と薬指〔忍願〕の峯を合わせて針のようにする。これを法界虚空蔵と名づける。三昧の密印をまさに知りなさい。次に人差し指〔進力",
+          "context_position": 18179,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "。次に人差し指〔進力〕を改めて三鈷杵のようにする。これを金剛虚空蔵と名づける。また人差し指を改めて宝の形のようにする。これを宝",
+          "context_position": 18232,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "名づける。また人差し指を改めて宝の形のようにする。これを宝光虚空蔵とする。また人差し指を曲げて蓮の葉のようにする。すなわち蓮華",
+          "context_position": 18266,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "とする。また人差し指を曲げて蓮の葉のようにする。すなわち蓮華虚空蔵と名づける。薬指と人差し指〔戒方進力〕をたがいに交える。これ",
+          "context_position": 18299,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ける。薬指と人差し指〔戒方進力〕をたがいに交える。これを業用虚空蔵と名づける。そのとき、また金剛吉祥成就一切明を説いて唱えられ",
+          "context_position": 18335,
+          "matched_form": "虚空蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 14
+        }
+      ],
+      "occurrence_count": 14,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "金剛界の自在なる大いなる誓い、みずから覚った本初の大菩提心、普賢の満月のごとく壊れることのない金剛光明の心の宮殿〔本有金剛界",
+          "context_position": 201,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "い金剛光明の心の宮殿〔本有金剛界自在大三昧耶自覚本初大菩提心普賢満月不壊金剛光明心殿〕の中におられた。そこには、如来みずから",
+          "context_position": 247,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "煩悩を断ち切ることができる。この深く秘められた心地、すなわち普賢の本性たる常住の法身によって、もろもろの菩薩を摂しておられる",
+          "context_position": 831,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "休むことのない平等の智慧の身〔平等の智身〕である。そのとき、普賢金剛手をはじめとする十六大菩薩は瞑想〔定〕から立ち上がり、あ",
+          "context_position": 1034,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "て、ウーンと唱えた。そのとき金剛界の如来は、さらに卒塔婆法界普賢一字心の密言を説いて、バンと唱えた。そのとき金剛界の如来は、",
+          "context_position": 2990,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "る者は、金剛界の三十七の羯磨の印を用いて成就しなさい。つねに普賢菩薩の一字心の明〔みょう・真言〕をたもち、出る息と入る息とを",
+          "context_position": 3140,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "らば、身体と言葉と心の金剛の智慧をすみやかに得て、すみやかに普賢薩埵の身を証するだろう。これを普賢金剛薩埵の三昧耶、三十七智",
+          "context_position": 3216,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "すみやかに得て、すみやかに普賢薩埵の身を証するだろう。これを普賢金剛薩埵の三昧耶、三十七智の深密相応と名づける。大阿闍梨はこ",
+          "context_position": 3233,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の法を修めるがよい。つねに一字をもって三業をととのえれば、大普賢薩埵の身を獲得するだろう、と。そのとき金剛界の普賢如来は、詩",
+          "context_position": 3354,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "えれば、大普賢薩埵の身を獲得するだろう、と。そのとき金剛界の普賢如来は、詩句〔偈〕をもってほめたたえて言われた。その徳とは、",
+          "context_position": 3379,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "きには、卒塔婆の印を結び、明を誦して四つの処を加持しなさい。普賢三昧耶の印は、人差し指〔進力〕を曲げて鉤のようにし、小指〔檀",
+          "context_position": 3817,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "会して、いちどきに成就を与え、すみやかに大金剛の位、さらには普賢菩薩の位までも得させる、と。そのとき世尊は、すなわち明〔みょ",
+          "context_position": 4627,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の者はもろもろの仏に親しみ近づいて、その長子となるであろう。普賢の中にあっても、また筆頭〔上首〕となるだろう。もし日々この真",
+          "context_position": 6163,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "羅蜜を成就する。また別の法として、黒沈香で護摩をすれば、よく普賢菩薩に一切の明法を授け与えさせる。また別の法として、黒い華で",
+          "context_position": 26311,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈",
+          "count": 4
+        },
+        {
+          "form": "帝釈天",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "ろう。閻魔王・水天・火天・風天・主蔵天・大自在天・那羅延天・帝釈天なども、つねに使者となって必要なものを供給する。一切の願いは",
+          "context_position": 5645,
+          "matched_form": "帝釈天"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "念誦しなさい。災いはすみやかに滅して二度と生じない。さらには帝釈天・梵天などの尊者も、水天・火天・風天・焔魔天も、頭上を行く悪",
+          "context_position": 7935,
+          "matched_form": "帝釈天"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "。金剛光明の威は、熾燃の字から光を発する。一切の天主たる王、帝釈〔釈〕と梵天、人の世界〔人趣〕、日と月、三世の存在も、あえて",
+          "context_position": 21375,
+          "matched_form": "帝釈"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "、自分の身を仏の姿のようであると観じなさい。根本の命金剛は、帝釈の輪〔釈輪〕を座とし、多羅菩薩を二つの目とし、毘倶胝〔びくち",
+          "context_position": 24259,
+          "matched_form": "帝釈"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の事とする。那羅延天と自在天と倶摩羅天〔クマーラ・童子天〕と帝釈王と金剛尾延那とを名づけて、他に勝つはたらき〔遂他の用〕とす",
+          "context_position": 25414,
+          "matched_form": "帝釈"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "と雨と竜と山の神、七母天ともろもろの宿曜、海の神と江河の神、帝釈と梵天と日と月の天、金剛毘那夜迦〔毘迦那〕、三界の中の天と人",
+          "context_position": 29245,
+          "matched_form": "帝釈"
+        }
+      ]
+    },
+    {
+      "canonical": "観音",
+      "aliases": [
+        "観世音",
+        "観自在",
+        "avalokiteśvara",
+        "Avalokiteśvara"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "慈悲を司る菩薩。",
+      "sanskrit_canonical": "avalokiteśvara",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "観自在",
+          "count": 3
+        },
+        {
+          "form": "観音",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "、鈴でその本性をよろこばせて快楽にさせたいためです、と。次に観自在菩薩が手の中の鏡を虚空に投げると、寂然一体となって手の中に戻",
+          "context_position": 1965,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の真言〕。 オンバザラロケイジンバラアランジャアギニキリク〔観自在王如来の火の真言〕、オンバザラアボキャシッテイアギニアク〔不",
+          "context_position": 20498,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "びくち〕を耳とし、吉祥を口と舌とし、喜戯を鼻の先とし、金剛と観自在とで左右の臂〔定慧の臂〕を成し、三世〔降三世〕と不動尊とで両",
+          "context_position": 24318,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "も害することができず、水も火も焼き流すことができない。蓮華〔観音〕と金剛手とがつき従って護衛する。もし百八遍唱えれば、よく百",
+          "context_position": 11860,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "て同一体である。すなわちこの身がそのまま五仏である。右の臂は観音部、左の臂は金剛業、頭の上は摩尼〔宝〕の部類、多羅と毘倶胝と",
+          "context_position": 25077,
+          "matched_form": "観音"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "ため、万行を修行して満足させるため、大菩提を成就させるため、不動如々の智に入らせるためです、と。次に金剛業菩薩が手の中の緑宝",
+          "context_position": 2272,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の吉凶の事を見せてくださる。その印は、左右の手〔定慧の手〕で不動尊の刀印を作り、刀の叉をたがいに掌の中に挿しこめば成就する。",
+          "context_position": 19258,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "金剛と観自在とで左右の臂〔定慧の臂〕を成し、三世〔降三世〕と不動尊とで両の膝と脚とを成す。心臓を遍照尊とし、臍を虚空眼とし、",
+          "context_position": 24345,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "部類、多羅と毘倶胝とはならびに羯磨部である。三世〔降三世〕と不動尊とを四摂の智と名づける。喜戯を供養と名づける。虚空眼は外の",
+          "context_position": 25129,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日如来",
+          "count": 3
+        },
+        {
+          "form": "大日",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "如是我聞〕。あるとき、世尊〔薄迦梵〕である金剛界の遍照如来〔大日如来〕は、五つの智慧〔五智〕が成り立たせる四種の仏身〔四種法身〕",
+          "context_position": 125,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "明である。彼らは声をそろえて詩句〔偈〕をもってほめたたえた。大日如来は金剛の峯のごとく、微細にして、おのずからそこに住しておられ",
+          "context_position": 1125,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "来の智と四波羅蜜とを聴きなさい。オンバザラダートアギニバン〔大日如来の火の真言〕、オンバザラアキシュビヤアギニウム〔阿閦如来の火",
+          "context_position": 20400,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "はすみやかにかなえられ、久しからずして大金剛阿闍梨の位、法性大日の身を得るであろう。見る者はみなことごとくその足を礼拝して帰",
+          "context_position": 5707,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "梵天",
+      "aliases": [
+        "brahmā",
+        "Brahmā"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "色界初禅天の主。",
+      "sanskrit_canonical": "brahmā",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "梵天",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "さい。災いはすみやかに滅して二度と生じない。さらには帝釈天・梵天などの尊者も、水天・火天・風天・焔魔天も、頭上を行く悪しきた",
+          "context_position": 7939,
+          "matched_form": "梵天"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "威は、熾燃の字から光を発する。一切の天主たる王、帝釈〔釈〕と梵天、人の世界〔人趣〕、日と月、三世の存在も、あえてこれを正視で",
+          "context_position": 21381,
+          "matched_form": "梵天"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の衆、悪心を起こす者は、彼らみなことごとく教化し尽くされる。梵天も那羅延天も自在天も、日と月の天も、天主も、頂行の業も、空に",
+          "context_position": 22197,
+          "matched_form": "梵天"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "竜と山の神、七母天ともろもろの宿曜、海の神と江河の神、帝釈と梵天と日と月の天、金剛毘那夜迦〔毘迦那〕、三界の中の天と人とがい",
+          "context_position": 29248,
+          "matched_form": "梵天"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "あって、もろもろの仏も捨てることができない。その身は妙吉祥〔文殊〕のようであって、よく尽きることのない智慧を成す。その身は金",
+          "context_position": 12303,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "はよく無智の城を壊して、よく諸仏の智慧を生ずる。印は妙吉祥〔文殊〕の印と同じであり、羯磨と三昧耶の印である。また次に、金剛輪",
+          "context_position": 12971,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "シリアキャシャマレイテイジャウン〔吽・輪・多羅の眼・毘倶胝・文殊・金剛嬉などの十五尊の名を種子として連ねた、十五尊成身の密言",
+          "context_position": 24640,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "金剛智",
+      "aliases": [
+        "vajrabodhi",
+        "Vajrabodhi"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第五祖。金剛界の伝持。",
+      "sanskrit_canonical": "vajrabodhi",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "金剛智",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "時代に、南インド〔南天竺国〕出身の三蔵法師〔三蔵沙門〕である金剛智が訳した、と伝えられる。 序品〔じょぼん〕第一――この経が説",
+          "context_position": 32,
+          "matched_form": "金剛智"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の中の鏡を虚空に投げると、寂然一体となって手の中に戻り、この金剛智を説いて、アと唱えた。妙吉祥菩薩が手の中の鉢惹爽〔はんにゃき",
+          "context_position": 2002,
+          "matched_form": "金剛智"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ノウ……〔金剛薩埵・大薩埵・金剛王・大王・金剛微細・大微細・金剛智・大智と、金剛吉祥仏母の百八の名を金剛語で連ねて礼讃する長大",
+          "context_position": 16374,
+          "matched_form": "金剛智"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "在王如来の火の真言〕、オンバザラアボキャシッテイアギニアク〔不空成就如来の火の真言〕、オンバザラサトババジリアギニウム〔金剛",
+          "context_position": 20530,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "玄奘",
+      "aliases": [
+        "三蔵法師",
+        "玄奘三蔵"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "唐代の訳経僧。西天取経の主役。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "三蔵法師",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "唐の時代に、南インド〔南天竺国〕出身の三蔵法師〔三蔵沙門〕である金剛智が訳した、と伝えられる。 序品〔じょ",
+          "context_position": 19,
+          "matched_form": "三蔵法師"
+        }
+      ]
+    },
+    {
+      "canonical": "羅刹",
+      "aliases": [
+        "rākṣasa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "悪鬼神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "羅刹",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "依って、すみやかに本尊の身を得る。もしもろもろの悪人、薬叉と羅刹の主、風と雨と竜と山の神、七母天ともろもろの宿曜、海の神と江",
+          "context_position": 29209,
+          "matched_form": "羅刹"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦牟尼",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "を、いちどきにただちに証すること〔頓証〕を獲得する。その印は釈迦牟尼の鉢の印と同じである。印を結んだまま瞑想〔定〕から立ちあがり",
+          "context_position": 17498,
+          "matched_form": "釈迦牟尼"
+        }
+      ]
+    },
+    {
+      "canonical": "阿修羅",
+      "aliases": [
+        "asura"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "六道の一・阿修羅道の住人。八部衆。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "阿修羅",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "金剛語言の誦は、密の字からもろもろの雹を化作して、もろもろの阿修羅と一切の宿曜とを打ち破る。オンバザラハーシャアギニウンラン〔",
+          "context_position": 22058,
+          "matched_form": "阿修羅"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1112 @@
+{
+  "schema_version": "1.2",
+  "category": "戒名向け熟語索引",
+  "source_corpus": "yugikyo.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-12",
+  "extraction_strategy": "起点 1（密教教学用語の戒名適合 11 語）+ 起点 2（梵語の漢訳対応）+ 起点 3（補注内 2 字漢語熟語のホワイトリスト抽出）",
+  "scoring_rule": "kaimyo_score = freq(log10×12, 上限25) + doctrinal(seed_terms=30 / seed_sanskrit=20 / paren_doctrinal=10) + ichiji(KAIMYO_ICHIJI 含字数 × 8, 上限16) + aesthetic(美字構成・最大4)",
+  "review_policy": "needs_human_review=true の語は kaimyo-app 連携前に専門家校閲を要する",
+  "dictionary_sizes": {
+    "kaimyo_ichiji": 85,
+    "sanskrit_to_kaimyo_jukugo": 51,
+    "doctrinal_2char_whitelist": 151,
+    "kaimyo_noise": 140
+  },
+  "gendaigoyaku_length": 30846,
+  "summary": {
+    "unique_terms": 11,
+    "unique_jukugo": 11,
+    "total_occurrences": 146,
+    "seed_terms_count": 11,
+    "seed_sanskrit_count": 0,
+    "paren_doctrinal_count": 0,
+    "needs_review_count": 0,
+    "matched_jukugo_count": 6
+  },
+  "entries": [
+    {
+      "jukugo": "真言",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "seed_sanskrit": "mantra",
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "kaimyo_score": 72.86,
+      "freq_score": 24.86,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 117,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "〕をまのあたりに証させようとして、声をそろえて四種の一字心密真言を説いて、ウーンと唱えた。四波羅蜜菩薩は、一切の有情を利益し",
+          "context_position": 2696,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "印を用いて成就しなさい。つねに普賢菩薩の一字心の明〔みょう・真言〕をたもち、出る息と入る息とを、その気に従って相応させるなら",
+          "context_position": 3155,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "―一切の如来のうちで最も勝れ、利益〔義利〕堅固なる染愛王の心真言を説く章である。 そのとき世尊は、馬陰蔵〔めおんぞう・仏の隠",
+          "context_position": 3978,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "のとき金剛界の如来は、金剛手たちに告げて言われた。金剛手よ、真言がある。一切如来金剛最勝王、義利堅固染愛王の心真言と名づける",
+          "context_position": 4349,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "金剛手よ、真言がある。一切如来金剛最勝王、義利堅固染愛王の心真言と名づける。これは一切の真言のうちで最も尊く最も勝れ、すみや",
+          "context_position": 4374,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "来金剛最勝王、義利堅固染愛王の心真言と名づける。これは一切の真言のうちで最も尊く最も勝れ、すみやかに成就〔悉地〕を得させる。",
+          "context_position": 4388,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "想いを生じさせる。なす行いはみな成就する。たもっているほかの真言、たとえば仏頂部・諸如来部・蓮華部・金剛部・宝部・羯磨部など",
+          "context_position": 4477,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "仏頂部・諸如来部・蓮華部・金剛部・宝部・羯磨部などのどの部の真言であっても、それらを持誦する者にすみやかな成就をもたらす。も",
+          "context_position": 4514,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "あっても、それらを持誦する者にすみやかな成就をもたらす。もし真言の行者がこれをたもって三十万遍に至れば、一切の真言の主と金剛",
+          "context_position": 4547,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "らす。もし真言の行者がこれをたもって三十万遍に至れば、一切の真言の主と金剛の大曼荼羅王とがみなことごとく集まり会して、いちど",
+          "context_position": 4572,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の位までも得させる、と。そのとき世尊は、すなわち明〔みょう・真言〕を説いて唱えられた。オンマカラギャバゾロシュニシャバザラサ",
+          "context_position": 4661,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "・金剛頂・金剛薩埵を呼び、鉤召・引入・縛住・歓喜させる王の心真言〕。そのとき世尊はまた頌〔じゅ・詩句〕を説いて言われた。両手",
+          "context_position": 4789,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "に交えて染のかたちを作る。これを根本の印と名づける。もしこの真言をたもち、密印の力で心臓と額と喉と頭頂に印を加えれば、その身",
+          "context_position": 4906,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ぶく〕の四種の修法は、それぞれ望みの相手に応じてわずかにこの真言を唱えれば、ただちにその果を獲得できる。毒を受けても、憎しみ",
+          "context_position": 5065,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "切如来大阿闍梨位品第三――一切の如来の大阿闍梨の位を摂め取る真言を説く章である。 そのとき金剛界の如来は、また一切如来の眼色",
+          "context_position": 5190,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "〕の三摩地に入られた。そして一切の阿闍梨の行と位とを摂め取る真言を説いて唱えられた。オンバザラソキシママカサトバウムウム〔オ",
+          "context_position": 5268,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "シュマ・マハーサットヴァ・ウン・ウン／金剛の微細なる大薩埵の真言〕。もし真言の行者がこの明をたもち、日々唱え続けて一か月ほど",
+          "context_position": 5342,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ーサットヴァ・ウン・ウン／金剛の微細なる大薩埵の真言〕。もし真言の行者がこの明をたもち、日々唱え続けて一か月ほど経てば、一切",
+          "context_position": 5348,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ける場所にはすぐに至るだろう。あらためて召し請う作法や印契・真言などに労を費やすまでもなく、つねにこの真言をたもてば、一切の",
+          "context_position": 5536,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "し請う作法や印契・真言などに労を費やすまでもなく、つねにこの真言をたもてば、一切のもろもろの明はことごとくみな成就する。もろ",
+          "context_position": 5557,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "地心品〔ぼだいしんぼん〕第四――金剛薩埵の菩提心〔冒地心〕の真言を説く章である。 そのとき世尊はまた、一切の有情に本来そなわ",
+          "context_position": 5880,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ン・ヴァジュラ・菩提心〔ボウジシッタ〕・ウン／金剛の菩提心の真言〕。金剛手よ、もしこの真言をたもつ者があれば、その者はもろも",
+          "context_position": 6107,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ウジシッタ〕・ウン／金剛の菩提心の真言〕。金剛手よ、もしこの真言をたもつ者があれば、その者はもろもろの仏に親しみ近づいて、そ",
+          "context_position": 6120,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "賢の中にあっても、また筆頭〔上首〕となるだろう。もし日々この真言を七遍たもてば、現世においてもろもろの仏に代わり、この生のま",
+          "context_position": 6194,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の道場や、大悲胎蔵、ならびに諸部の道場を設ける者がいて、この真言を唱えるならば、かの諸の曼荼羅の王はことごとくみな親しみ近づ",
+          "context_position": 6309,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "者は顔を西に向けなさい。大羯磨の印を結び、根本の明〔みょう・真言〕を唱えなさい。あわせて三昧耶と一字心の密語を示すがよい。よ",
+          "context_position": 7396,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "タキウンジャク〔フーン・タキ・フーン・ジャク／愛染王の一字心真言〕。また根本の印を説く。両手を金剛縛にし、中指と薬指〔忍・願",
+          "context_position": 8131,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "、あるいは三昧耶とも名づける。もしわずかに一遍これを結び、本真言を唱えるだけでも、よく無量の罪を滅し、よく無量の福を生ずる。",
+          "context_position": 8269,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ある。 そのとき金剛手は、また一切の処に相応しないことのない真言を説いて唱えた。オンバザラサトバジャクムバンコク〔オーン・ヴ",
+          "context_position": 8917,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ウン・バン・コク／金剛薩埵により鉤召・引入・縛住・歓喜させる真言〕。そして仏に申し上げた。世尊よ、これは四行摂の法です。一切",
+          "context_position": 8993,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "と独覚の乗の中にあっても、つねにこれらの四行を起こして四摂の真言を唱え、四種の鉤印を結ぶべきだということである。いわゆる四種",
+          "context_position": 9201,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "て喜びを一切に起こし、眼によって捨を一切に起こすことである。真言の行者はつねにこの四種の心を起こしなさい。世間の一切の事をな",
+          "context_position": 9305,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "二乗〔声聞と独覚の教え〕を破る心を起こし、この二乗の心を壊す真言を唱えなさい。オンマカヤダンノウバザラサトバサラバタラマビシ",
+          "context_position": 9591,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "なる薬たる金剛薩埵よ、一切の法は清浄なり、の意〕。つねにこの真言を唱え、一切の時に自分の心を観察して、一切の執着は壊れ、一切",
+          "context_position": 9663,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "は、また金剛薩埵を成就する一字心の大勝心相応を説かれた。この真言を説いて唱えた。ウンシッチ〔フーン・シッディ／成就を表す一字",
+          "context_position": 9906,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "説いて唱えた。ウンシッチ〔フーン・シッディ／成就を表す一字心真言〕。この真言は、もしつねに唱えたもてば、一切の天と人とに敬愛",
+          "context_position": 9939,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "。ウンシッチ〔フーン・シッディ／成就を表す一字心真言〕。この真言は、もしつねに唱えたもてば、一切の天と人とに敬愛され、彼らを",
+          "context_position": 9945,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "は仏のお心〔聖旨〕を承けて、頌を説いて言った。もしもろもろの真言の師が真言の法を持誦するとき、ひとたび心が散乱すれば、この障",
+          "context_position": 10828,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "〔聖旨〕を承けて、頌を説いて言った。もしもろもろの真言の師が真言の法を持誦するとき、ひとたび心が散乱すれば、この障はすぐさま",
+          "context_position": 10833,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ひとたび心が散乱すれば、この障はすぐさまそこに付け入り、よく真言師の修めた功徳のはたらきを奪ってしまう。しかし、もし愛染王の",
+          "context_position": 10875,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "顔にほほえみを浮かべて、すなわち大勝金剛頂最勝真実大三昧耶の真言を説いて唱えられた。オンマカバザラシュニシャウムタラクキリク",
+          "context_position": 11584,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "・ウン・タラク・キリク・アク・ウン／大勝金剛頂の五字を連ねた真言〕。この明を説き終えて、また頌を説いて言われた。十方の浄妙の",
+          "context_position": 11670,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "すみやかに大いなる悉地を成就する。もし末法の世の人が長くこの真言を唱えれば、刀や武器も害することができず、水も火も焼き流すこ",
+          "context_position": 11818,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "す。その身は金剛輪のようであって、よく理趣の輪を転ずる。この真言をたもてば、よくこのような事を成し遂げる。穢れた処と浄い処と",
+          "context_position": 12358,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "頂の明にいう。オンバザラサトバクシャウーム〔金剛薩埵の成就の真言〕。金剛手の最勝の摩尼を成就するにはこう唱える。オンバザラア",
+          "context_position": 12503,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "う唱える。オンバザラアラタンノウクシャタラク〔金剛宝の成就の真言〕。金剛手の蓮華を成就する最勝心は、オンバザラタラマクシャキ",
+          "context_position": 12554,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "就する最勝心は、オンバザラタラマクシャキリク〔金剛法の成就の真言〕。金剛手のたくみなはたらき〔巧業〕を成就する最勝心は、オン",
+          "context_position": 12596,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "就する最勝心は、オンバザラキャラマクシャアク〔金剛業の成就の真言〕。金剛鉤を成就する最勝の者はよく招き寄せる〔鉤す〕。オンバ",
+          "context_position": 12648,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "って、よく百千の事を成し遂げる。印は金剛界の印と同じである。真言を行ずる者はまさに知るべきである。一切の勝ちがたい者には、こ",
+          "context_position": 12849,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "に知るべきである。オンバザラサトバチキシュダウーム〔金剛剣の真言〕。これはよく無智の城を壊して、よく諸仏の智慧を生ずる。印は",
+          "context_position": 12935,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ャクウムバンコクウーム〔オーン・ヴァジュラチャクラ／金剛輪の真言。ジャク・ウン・バン・コクの四摂の種子を含む〕。両手〔二羽〕",
+          "context_position": 13063,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "がいに鉤のように組み合わせる。これをかの密印と名づける。もし真言の行者が曼荼羅を作らなくても、ただこの印と明とをたもてば、そ",
+          "context_position": 13156,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "こう。オンサラバタタギャタクシャウームジャク〔一切如来の鉤の真言〕、オンサラバタタギャタハシャウームウーム〔一切如来の索の真",
+          "context_position": 13339,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "言〕、オンサラバタタギャタハシャウームウーム〔一切如来の索の真言〕、オンサラバタタギャタソホタウンバン〔一切如来の鎖の真言〕",
+          "context_position": 13370,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の真言〕、オンサラバタタギャタソホタウンバン〔一切如来の鎖の真言〕、オンサラバタタギャタビシャウムコク〔一切如来の鈴の真言〕",
+          "context_position": 13399,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の真言〕、オンサラバタタギャタビシャウムコク〔一切如来の鈴の真言〕。わずかにこの密語を唱えるだけで、十六大菩薩が法界から出生",
+          "context_position": 13428,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "に説こう。オンサラバホジャジャクウームバンコク〔一切の供養の真言〕。また次に秘密主よ、わたしのこの心のさらに奥の心〔最心〕に",
+          "context_position": 13580,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "母の心から一切の法が生まれ出ること。それが一切の明〔みょう・真言〕を成就して、よく一切の願いを満たし、一切の不吉祥を除き、一",
+          "context_position": 14233,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の仏母を礼拝し敬って申し上げた。わたしたちの説く一切の頂輪の真言を、願わくは尊者よ、一切の衆生に与えて、大いなる成就をなさせ",
+          "context_position": 14783,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ある一切の仏母金剛吉祥は、一切の方角を顧み見て、根本の明王〔真言〕を説いて唱えられた。ノウボバギャバトウシュニシャオンロロソ",
+          "context_position": 14890,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "切の利益を成就させたまえ、スヴァーハー、の意の仏眼仏母の根本真言〕。そのとき仏母は、もろもろの如来に告げて言われた。もし金剛",
+          "context_position": 15023,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "る。なす事業はみな一切の仏と同じである。発する言葉はそのまま真言となり、手足を動かせば〔支節を挙動すれば〕大いなる印契となり",
+          "context_position": 15321,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ださる。そのとき仏母金剛吉祥は、また大悲胎蔵を成就する八字の真言の王を説かれた。アクビラウンキャンウンキリクアク〔ア・ビ・ラ",
+          "context_position": 17371,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ケンの五字にウン・キリク・アクを加えた、胎蔵の徳を摂める八字真言〕。もし唱えること千万遍を満たせば、大悲胎蔵の中の一切の法を",
+          "context_position": 17437,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "られた。バンウンタラクキリクアク〔五大虚空蔵の五尊を表す五字真言〕。行者はまさに五大金剛虚空蔵を描きなさい。一つの円い光〔円",
+          "context_position": 17652,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "盛〕。足の下でもまた同様であった。すなわち一切の明を成就する真言を説いて唱えられた。オンタターツツーチチーチチーツツーツツー",
+          "context_position": 18994,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "々の種子を連ね、金剛薩埵と四摂の句を含む、一切の明を成就する真言〕。この真言はよく一切の明を成就し、よく一切の天を摂め従わせ",
+          "context_position": 19085,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ね、金剛薩埵と四摂の句を含む、一切の明を成就する真言〕。この真言はよく一切の明を成就し、よく一切の天を摂め従わせ、よく一切の",
+          "context_position": 19091,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "い一切の事の兆しを知りたいと思えば、印を結んで左の脇に置き、真言を百八遍唱えて、印を結んだまま眠りなさい。本尊がとり憑くよう",
+          "context_position": 19171,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "作り、刀の叉をたがいに掌の中に挿しこめば成就する。もし一切の真言を唱えようと思うなら、まずこの明を二十一遍〔三七遍〕唱えなさ",
+          "context_position": 19295,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "蜜とを聴きなさい。オンバザラダートアギニバン〔大日如来の火の真言〕、オンバザラアキシュビヤアギニウム〔阿閦如来の火の真言〕、",
+          "context_position": 20407,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "火の真言〕、オンバザラアキシュビヤアギニウム〔阿閦如来の火の真言〕、オンバザラアラタンノウサンバンバアギニタラク〔宝生如来の",
+          "context_position": 20435,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "オンバザラアラタンノウサンバンバアギニタラク〔宝生如来の火の真言〕。 オンバザラロケイジンバラアランジャアギニキリク〔観自在",
+          "context_position": 20469,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ザラロケイジンバラアランジャアギニキリク〔観自在王如来の火の真言〕、オンバザラアボキャシッテイアギニアク〔不空成就如来の火の",
+          "context_position": 20507,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "〕、オンバザラアボキャシッテイアギニアク〔不空成就如来の火の真言〕、オンバザラサトババジリアギニウム〔金剛波羅蜜の火の真言〕",
+          "context_position": 20539,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の真言〕、オンバザラサトババジリアギニウム〔金剛波羅蜜の火の真言〕、オンバザラアラタンノウバジリアギニタラク〔宝波羅蜜の火の",
+          "context_position": 20568,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "〕、オンバザラアラタンノウバジリアギニタラク〔宝波羅蜜の火の真言〕、オンバザラタラマバジリアギニキリク〔法波羅蜜の火の真言〕",
+          "context_position": 20600,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の真言〕、オンバザラタラマバジリアギニキリク〔法波羅蜜の火の真言〕、オンバザラキャラマバジリアギニアク〔業波羅蜜の火の真言〕",
+          "context_position": 20629,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "の真言〕、オンバザラキャラマバジリアギニアク〔業波羅蜜の火の真言〕。また次に、一心に聴きなさい。金剛薩埵の明には、本来のはた",
+          "context_position": 20658,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "者〔僕従〕とする。オンバザラサトバアギニアク〔金剛薩埵の火の真言〕。また次に金剛王は、本業三昧の印である。鉤の字から大いなる",
+          "context_position": 20794,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "報を得る。オンバザラアランジャアギニウンジャク〔金剛王の火の真言〕。また次に金剛染は、本業三昧の印である。悦の字から歓喜が生",
+          "context_position": 20925,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "王たちも敬愛する。オンバザラアラギャアギニコク〔金剛愛の火の真言〕。また次に金剛称は、本業の三昧耶である。讃の字からよろこび",
+          "context_position": 21041,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "は退き散ってゆく。オンバザラサドアギニウンサク〔金剛喜の火の真言〕。以上の四つの寂災は、諸仏のはなはだ深い秘密である。あらゆ",
+          "context_position": 21168,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "長させる。オンバザラアラタンノウアギニウンオン〔金剛宝の火の真言〕。金剛光明の威は、熾燃の字から光を発する。一切の天主たる王",
+          "context_position": 21342,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ことになる。オンバザラテイジャアギニウンアーン〔金剛光の火の真言〕。金剛幢の大軍は、生の字からもろもろの宝を雨ふらせる。その",
+          "context_position": 21473,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "招き寄せる。オンバザラケイトアギニウンタラーン〔金剛幢の火の真言〕。金剛笑菩薩は、喜の字から音声を生ずる。その本業の印を結べ",
+          "context_position": 21551,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "一切の愛を育てる。オンバザラカサアギニウンコク〔金剛笑の火の真言〕。このような四つの秘密は、諸仏の秘密の増長〔増益〕である。",
+          "context_position": 21617,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ことができる。オンバザラタラマアギニウンキリク〔金剛法の火の真言〕。金剛の猛く鋭い刀は、剣の字から大光を放つ。三界の暗を照ら",
+          "context_position": 21874,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "〕を伏する。オンバザラチキシュダアギニウンダン〔金剛利の火の真言〕。金剛転輪者は、輪の字からもろもろの輪を化作して、よく那羅",
+          "context_position": 21957,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "金翅鳥とを殺す。オンバザラケイトアギニウンマン〔金剛因の火の真言〕。金剛語言の誦は、密の字からもろもろの雹を化作して、もろも",
+          "context_position": 22024,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "とを打ち破る。オンバザラハーシャアギニウンラン〔金剛語の火の真言〕。金剛手よ、このような四つの秘密を唱え結べば、もろもろの天",
+          "context_position": 22097,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "のに愛させる。オンバザラキャラマアギニウンケン〔金剛業の火の真言〕。その本業の印を結べば、金剛甲冑の光は、甲の字から光明を放",
+          "context_position": 22359,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "に愛させる。オンバザラアラキシャアギニウンカン〔金剛護の火の真言〕。金剛怖の食噉〔じきたん・食らうはたらき〕は、牙の字から光",
+          "context_position": 22431,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "敬愛させる。オンバザラヤキシャアギニウンウーン〔金剛牙の火の真言〕。金剛密持尊は、持の字から光明を放つ。その本業の契〔印〕を",
+          "context_position": 22527,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ものに愛させる。オンバザラサンチアギニウンバン〔金剛拳の火の真言〕。この四つの秘密の金剛の内護摩によって、よく一切のものを敬",
+          "context_position": 22598,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "らにこれを説き示すのである。金剛手よ、よく聴いて、もろもろの真言師のために広く説いて利益を成しなさい。みだりに、まだ完全な誓",
+          "context_position": 23180,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "コク／内の四供養の第一、金剛嬉〔き・たわむれの楽しみ〕の火の真言〕。 オンバザラマレイアギニウンタラタ〔オーン・ヴァジュラ・",
+          "context_position": 23335,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ーレー・アグニ・ウン・タラタ／金剛鬘〔まん・花かざり〕の火の真言〕。 オンバザラギテイアギニギク〔オーン・ヴァジュラ・ギーテ",
+          "context_position": 23398,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ヴァジュラ・ギーテー・アグニ・ギク／金剛歌〔か・うた〕の火の真言〕。 オンバザラヂリテイアギニウンキリタ〔オーン・ヴァジュラ",
+          "context_position": 23451,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ラ・ニリテー・アグニ・ウン・キリタ／金剛舞〔ぶ・まい〕の火の真言。ここまでが内の四供養〕。 オンバザラドヘイアギニウンアク〔",
+          "context_position": 23512,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ーペー・アグニ・ウン・アク／外の四供養の第一、金剛焼香の火の真言〕。 オンバザラホシュヘイアギニウンオン〔オーン・ヴァジュラ",
+          "context_position": 23586,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ラ・プシュペー・アグニ・ウン・オン／金剛華〔け・はな〕の火の真言〕。 オンバザラロケイアギニウンジク〔オーン・ヴァジュラ・ア",
+          "context_position": 23647,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ーロケー・アグニ・ウン・ジク／金剛灯〔とう・ともしび〕の火の真言〕。 オンバザラゲンデイアギニウンギャク〔オーン・ヴァジュラ",
+          "context_position": 23709,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "・アグニ・ウン・ギャク／金剛塗香〔ずこう・身に塗る香〕の火の真言。ここまでが外の四供養〕。 オンバザラクシャアギニウンジャク",
+          "context_position": 23776,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ン・ジャク／四摂の第一、金剛鉤〔こう・招き寄せるかぎ〕の火の真言〕。 オンバザラハシャアギニウンウン〔オーン・ヴァジュラ・パ",
+          "context_position": 23860,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ャ・アグニ・ウン・ウン／金剛索〔さく・引き入れるなわ〕の火の真言〕。 オンバザラソホタアギニウンバン〔オーン・ヴァジュラ・ス",
+          "context_position": 23924,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "・アグニ・ウン・バン／金剛鎖〔さ・つなぎとめるくさり〕の火の真言〕。 オンバザラベイシャアギニウンコク〔オーン・ヴァジュラ・",
+          "context_position": 23989,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "・アグニ・ウン・コク／金剛鈴〔れい・よろこばせるすず〕の火の真言。ここまでが四摂〕。 金剛薩埵菩提心内作業灌頂悉地品第十一―",
+          "context_position": 24058,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "慧の光を成就する密言を説こう、と。そして頌を説いて言われた。真言をたもつ行者は、自分の身を仏の姿のようであると観じなさい。根",
+          "context_position": 24220,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "なく続けば、十五尊を成就する。これはきわめて深い秘密である。真言をまさに知りなさい。これは金剛薩埵の心である。菩提の密言にい",
+          "context_position": 24524,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "らない。次に遜婆明王〔そんばみょうおう・降三世明王〕の根本の真言を説いて唱えられた。オンバザラウーンキャラウンウンウンウンニ",
+          "context_position": 25756,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "カーラ・フーン・ニスンバ・フーン／吽迦羅すなわち降三世の根本真言〕。まず菩提の大印に住してから、羯磨の四印で加持を行いなさい",
+          "context_position": 25837,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "けさせる。以上に説いたのは、最も勝れた護摩の法である。百八の真言を唱えて加持し、業を行えば、なした業と供物に応じてこのような",
+          "context_position": 27088,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ャ・ヴァジュラサットヴァ／大薬叉なる金剛薩埵の、呑啖と遍入の真言〕。これを金剛食〔こんごうじき〕と名づける。もろもろのよく砕",
+          "context_position": 28111,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "に聴きなさい。扇底迦などの五種の修法〔五事〕について、秘句に真言を説く。円寂と大悲の常なるものを、寂災の句と名づける。帰依と",
+          "context_position": 30102,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "みなその人を礼拝する。前に行った法と同様である。あるいはこの真言を唱えなさい。一切がすみやかに成就する。その不可思議の力は、",
+          "context_position": 30447,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "ハラベイシャウンハッタ〔オーン・タキ・フーン／一字心の最勝密真言〕。そのとき、大衆である十六大菩薩と、もろもろの忿怒の金剛た",
+          "context_position": 30586,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法界",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "宇宙の真実相。一切法の根本領域。",
+      "seed_sanskrit": "dharma-dhātu",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 50.5,
+      "freq_score": 12.5,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 10,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "・きわめて大きな数〕もの微細な金剛を出現させると、それは虚空法界に満ちわたった。諸地の菩薩でさえ見ることはできないが、ともに",
+          "context_position": 556,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "わたしたちがこの神通を現したのは、一切の有情を鉤で招き寄せて法界に入らせ、索〔なわ〕で金剛の道場に引き至らせ、鎖でもろもろの",
+          "context_position": 1891,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "にそれを受け用いさせたいため、如来の三身を成就させたいため、法界にあまねくゆきわたって一切の有情の身を成就させたいため、生死",
+          "context_position": 2575,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "、ウーンと唱えた。四門の使者の天女は、一切の有情を摂め入れて法界の宮殿に至らせようとして、声をそろえてこの四種の一字心を説い",
+          "context_position": 2928,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "説いて、ウーンと唱えた。そのとき金剛界の如来は、さらに卒塔婆法界普賢一字心の密言を説いて、バンと唱えた。そのとき金剛界の如来",
+          "context_position": 2988,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "来の鈴の真言〕。わずかにこの密語を唱えるだけで、十六大菩薩が法界から出生して、おのおの本来のしるし〔本標識〕を持つ。次に八供",
+          "context_position": 13454,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "に満ちわたる、と。あるいは根本の印を結んで自分の身を加持し、法界定に住すれば、すみやかに一切智智を獲得するだろう。その印相は",
+          "context_position": 15849,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "耶は、中指と薬指〔忍願〕の峯を合わせて針のようにする。これを法界虚空蔵と名づける。三昧の密印をまさに知りなさい。次に人差し指",
+          "context_position": 18177,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "昧の印である。鉤の字から大いなる鉤が生ずる。鉤はあまねくして法界に等しい。十方の一切の仏が、ことごとく来て成就をなす。心が敬",
+          "context_position": 20840,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "て諸仏は忽然として見えなくなったのか、と。すなわちそのとき、法界にあまねく声がひびいて言った。善いかな、もろもろの金剛たちよ",
+          "context_position": 30734,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "seed_sanskrit": "mahā-karuṇā",
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "kaimyo_score": 62.0,
+      "freq_score": 12.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "た、秘密にして荘厳な華厳の世界〔秘厳華厳〕である。もろもろの大悲の行願が円満したものであり、もろもろの有情の福徳と智慧の糧〔",
+          "context_position": 929,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "を説いて、ウーンと唱えた。四波羅蜜菩薩は、一切の有情を利益し大悲の行願を修行させようとして、声をそろえてこの四種の一字心方便",
+          "context_position": 2728,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "た大覚本有金剛と名づける。もしかたわら近くに金剛界の道場や、大悲胎蔵、ならびに諸部の道場を設ける者がいて、この真言を唱えるな",
+          "context_position": 6284,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "母が成就して身を現してくださる。そのとき仏母金剛吉祥は、また大悲胎蔵を成就する八字の真言の王を説かれた。アクビラウンキャンウ",
+          "context_position": 17359,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "胎蔵の徳を摂める八字真言〕。もし唱えること千万遍を満たせば、大悲胎蔵の中の一切の法を、いちどきにただちに証すること〔頓証〕を",
+          "context_position": 17457,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "、如来寂災密と名づける。もろもろの菩薩のために説くのである。大悲の波羅蜜は四無量の心を起こす。印と明は四仏と同じである。また",
+          "context_position": 20182,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "き世尊は、また一切の未来の世のもろもろの福の薄い有情を観じ、大悲尽三昧に住して、詩句〔伽陀・ガーター〕を説かれた。仏がいる、",
+          "context_position": 27853,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "迦などの五種の修法〔五事〕について、秘句に真言を説く。円寂と大悲の常なるものを、寂災の句と名づける。帰依と蓮華、これを増益の",
+          "context_position": 30111,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "最も勝れた密を説く。これを最勝密金剛身語心と名づける。諸仏の大悲の身は、つねにこの字の中にいらっしゃる。ところに応じて一遍と",
+          "context_position": 30351,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法身",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "seed_sanskrit": "dharmakāya",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 49.34,
+      "freq_score": 9.34,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "日如来〕は、五つの智慧〔五智〕が成り立たせる四種の仏身〔四種法身〕をそなえて、本来そなわる金剛界の自在なる大いなる誓い、みず",
+          "context_position": 156,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "しるし〔本三摩地の標識〕を手にしていた。みなことごとく微細な法身であり、秘密の心地〔しんじ〕である。菩薩の十の階位〔十地〕を",
+          "context_position": 440,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "できる。この深く秘められた心地、すなわち普賢の本性たる常住の法身によって、もろもろの菩薩を摂しておられる。そしてこの仏の国土",
+          "context_position": 841,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "せ〔鉤召〕、諸仏の妙なる法を深く愛させ〔染愛〕、本来そなわる法身〔本有の法身〕を成就させるためです、と。次に虚空蔵菩薩が手の",
+          "context_position": 1611,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "諸仏の妙なる法を深く愛させ〔染愛〕、本来そなわる法身〔本有の法身〕を成就させるためです、と。次に虚空蔵菩薩が手の中の宝瓶を虚",
+          "context_position": 1617,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大日",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "seed_sanskrit": "Mahāvairocana",
+      "kaimyo_chars": [
+        "大"
+      ],
+      "kaimyo_score": 46.39,
+      "freq_score": 8.39,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "如是我聞〕。あるとき、世尊〔薄迦梵〕である金剛界の遍照如来〔大日如来〕は、五つの智慧〔五智〕が成り立たせる四種の仏身〔四種法",
+          "context_position": 125,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "明である。彼らは声をそろえて詩句〔偈〕をもってほめたたえた。大日如来は金剛の峯のごとく、微細にして、おのずからそこに住してお",
+          "context_position": 1125,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "はすみやかにかなえられ、久しからずして大金剛阿闍梨の位、法性大日の身を得るであろう。見る者はみなことごとくその足を礼拝して帰",
+          "context_position": 5707,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "yugikyo",
+          "context": "来の智と四波羅蜜とを聴きなさい。オンバザラダートアギニバン〔大日如来の火の真言〕、オンバザラアキシュビヤアギニウム〔阿閦如来",
+          "context_position": 20400,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "智剣",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "seed_sanskrit": "jñāna-khaḍga",
+      "kaimyo_chars": [
+        "智"
+      ],
+      "kaimyo_score": 41.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "yugikyo",
+          "context": "を結び、また五峯の金剛杵・蓮華・摩尼・羯磨・鉤・索・鎖・鈴・智剣・法輪という十二の大印を持っておられた。身体は千葉の大白蓮華",
+          "context_position": 11462,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "無縁慈悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "seed_sanskrit": "an-ārambaṇa-karuṇā",
+      "kaimyo_chars": [
+        "無",
+        "慈",
+        "悲"
+      ],
+      "kaimyo_score": 46.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "三密",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "seed_sanskrit": "trīṇi guhyāni",
+      "kaimyo_chars": [
+        "密"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "即身成仏",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "seed_sanskrit": "sa-deha-prāpti-buddhatva",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "玄機",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "seed_sanskrit": "—",
+      "kaimyo_chars": [
+        "玄"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "遮那",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "seed_sanskrit": "Vairocana",
+      "kaimyo_chars": [],
+      "kaimyo_score": 30.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

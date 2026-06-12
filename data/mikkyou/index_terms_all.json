@@ -3,7 +3,7 @@
   "category": "terms",
   "category_description": "密教教学用語（19 語辞書ベース）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-10",
+  "generated_at": "2026-06-12",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -16,18 +16,19 @@
     "sankyo-shiki",
     "bodaishinron",
     "jujushinron",
-    "hizoki"
+    "hizoki",
+    "yugikyo"
   ],
-  "corpora_count": 12,
-  "corpora_with_data": 12,
+  "corpora_count": 13,
+  "corpora_with_data": 13,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 19,
-    "total_occurrences": 3106,
-    "terms_in_multiple_corpora": 16,
-    "max_corpus_coverage": 12,
+    "total_occurrences": 3257,
+    "terms_in_multiple_corpora": 17,
+    "max_corpus_coverage": 13,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 19,
@@ -88,14 +89,19 @@
         "unique": 19,
         "occurrences": 286,
         "present": true
+      },
+      "yugikyo": {
+        "unique": 19,
+        "occurrences": 151,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "term": "大日",
-      "total_occurrence_count": 669,
-      "covered_corpora_count": 11,
+      "total_occurrence_count": 673,
+      "covered_corpora_count": 12,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -107,7 +113,8 @@
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
-        "ujiji"
+        "ujiji",
+        "yugikyo"
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 111,
@@ -120,7 +127,8 @@
         "dainichikyo-sho-vol1": 21,
         "bodaishinron": 8,
         "jujushinron": 82,
-        "hizoki": 3
+        "hizoki": 3,
+        "yugikyo": 4
       },
       "metadata": {
         "sanskrit": "Mahāvairocana",
@@ -134,8 +142,8 @@
     },
     {
       "term": "真言",
-      "total_occurrence_count": 523,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 640,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -148,7 +156,8 @@
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
-        "ujiji"
+        "ujiji",
+        "yugikyo"
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 44,
@@ -162,7 +171,8 @@
         "sankyo-shiki": 2,
         "bodaishinron": 15,
         "jujushinron": 158,
-        "hizoki": 69
+        "hizoki": 69,
+        "yugikyo": 117
       },
       "metadata": {
         "sanskrit": "mantra",
@@ -211,49 +221,9 @@
       }
     },
     {
-      "term": "法身",
-      "total_occurrence_count": 344,
-      "covered_corpora_count": 11,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hannya-hiken",
-        "hizo-houyaku",
-        "hizoki",
-        "jujushinron",
-        "nikyo-ron",
-        "sankyo-shiki",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 45,
-        "nikyo-ron": 101,
-        "ujiji": 11,
-        "shoji-jisso": 24,
-        "sokushin-jobutsu": 54,
-        "hannya-hiken": 3,
-        "hizo-houyaku": 25,
-        "dainichikyo-sho-vol1": 6,
-        "sankyo-shiki": 1,
-        "jujushinron": 46,
-        "hizoki": 28
-      },
-      "metadata": {
-        "sanskrit": "dharmakāya",
-        "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
-        "kaimyo_suitable": true,
-        "kaimyo_chars": [
-          "法",
-          "身"
-        ]
-      }
-    },
-    {
       "term": "法界",
-      "total_occurrence_count": 339,
-      "covered_corpora_count": 11,
+      "total_occurrence_count": 349,
+      "covered_corpora_count": 12,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -265,7 +235,8 @@
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
-        "ujiji"
+        "ujiji",
+        "yugikyo"
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 68,
@@ -278,7 +249,8 @@
         "dainichikyo-sho-vol1": 34,
         "bodaishinron": 2,
         "jujushinron": 89,
-        "hizoki": 62
+        "hizoki": 62,
+        "yugikyo": 10
       },
       "metadata": {
         "sanskrit": "dharma-dhātu",
@@ -287,6 +259,48 @@
         "kaimyo_chars": [
           "法",
           "界"
+        ]
+      }
+    },
+    {
+      "term": "法身",
+      "total_occurrence_count": 349,
+      "covered_corpora_count": 12,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "hizoki",
+        "jujushinron",
+        "nikyo-ron",
+        "sankyo-shiki",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 45,
+        "nikyo-ron": 101,
+        "ujiji": 11,
+        "shoji-jisso": 24,
+        "sokushin-jobutsu": 54,
+        "hannya-hiken": 3,
+        "hizo-houyaku": 25,
+        "dainichikyo-sho-vol1": 6,
+        "sankyo-shiki": 1,
+        "jujushinron": 46,
+        "hizoki": 28,
+        "yugikyo": 5
+      },
+      "metadata": {
+        "sanskrit": "dharmakāya",
+        "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "法",
+          "身"
         ]
       }
     },
@@ -364,6 +378,40 @@
       }
     },
     {
+      "term": "大悲",
+      "total_occurrence_count": 126,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "hizoki",
+        "jujushinron",
+        "nikyo-ron",
+        "shoryoshu_miyasaka",
+        "ujiji",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 26,
+        "nikyo-ron": 2,
+        "ujiji": 2,
+        "hizo-houyaku": 9,
+        "dainichikyo-sho-vol1": 38,
+        "jujushinron": 26,
+        "hizoki": 14,
+        "yugikyo": 9
+      },
+      "metadata": {
+        "sanskrit": "mahā-karuṇā",
+        "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "大",
+          "悲"
+        ]
+      }
+    },
+    {
       "term": "阿字",
       "total_occurrence_count": 121,
       "covered_corpora_count": 11,
@@ -400,41 +448,9 @@
       }
     },
     {
-      "term": "大悲",
-      "total_occurrence_count": 117,
-      "covered_corpora_count": 7,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "hizoki",
-        "jujushinron",
-        "nikyo-ron",
-        "shoryoshu_miyasaka",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 26,
-        "nikyo-ron": 2,
-        "ujiji": 2,
-        "hizo-houyaku": 9,
-        "dainichikyo-sho-vol1": 38,
-        "jujushinron": 26,
-        "hizoki": 14
-      },
-      "metadata": {
-        "sanskrit": "mahā-karuṇā",
-        "definition": "仏の大いなる慈悲。一切衆生を救う心。",
-        "kaimyo_suitable": true,
-        "kaimyo_chars": [
-          "大",
-          "悲"
-        ]
-      }
-    },
-    {
       "term": "三摩地",
-      "total_occurrence_count": 90,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 95,
+      "covered_corpora_count": 9,
       "covered_corpora": [
         "bodaishinron",
         "hizo-houyaku",
@@ -443,7 +459,8 @@
         "nikyo-ron",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
-        "ujiji"
+        "ujiji",
+        "yugikyo"
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 3,
@@ -453,7 +470,8 @@
         "hizo-houyaku": 13,
         "bodaishinron": 10,
         "jujushinron": 34,
-        "hizoki": 14
+        "hizoki": 14,
+        "yugikyo": 5
       },
       "metadata": {
         "sanskrit": "samādhi",
@@ -610,6 +628,28 @@
       }
     },
     {
+      "term": "智剣",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "shoryoshu_miyasaka",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "yugikyo": 1
+      },
+      "metadata": {
+        "sanskrit": "jñāna-khaḍga",
+        "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "智",
+          "剣"
+        ]
+      }
+    },
+    {
       "term": "玄機",
       "total_occurrence_count": 5,
       "covered_corpora_count": 1,
@@ -626,26 +666,6 @@
         "kaimyo_chars": [
           "玄",
           "機"
-        ]
-      }
-    },
-    {
-      "term": "智剣",
-      "total_occurrence_count": 4,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 4
-      },
-      "metadata": {
-        "sanskrit": "jñāna-khaḍga",
-        "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
-        "kaimyo_suitable": true,
-        "kaimyo_chars": [
-          "智",
-          "剣"
         ]
       }
     },

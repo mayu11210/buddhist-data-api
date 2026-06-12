@@ -1,6 +1,6 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-06-10",
+ "generated_at": "2026-06-12",
  "description": "data/kukai/ 配下の全著作ファイルのメタカタログ（図書館モデルの目録カード相当）。倉庫原則「メタデータは足し算」に従い、原本ファイルを変更せず、本マニフェストで全ファイルの状態を一元管理する。アンダースコア始まりのメタファイル（本ファイル等）はカタログ対象から除外。",
  "design_policy_ref": "kaimyo-app/設計方針メモ_2026-05-03_真言宗教えデータ整理_buddhist-data-api倉庫設計.md",
  "schema_refs": {
@@ -35,13 +35,13 @@
   "genten_present": 10,
   "with_specialty_sections": 5,
   "indexed_corpora": {
-   "terms": 12,
-   "citations": 12,
-   "kukai_works": 12,
-   "sanskrit": 12,
-   "kaimyo_jukugo": 12,
-   "persons": 12,
-   "places": 12
+   "terms": 13,
+   "citations": 13,
+   "kukai_works": 13,
+   "sanskrit": 13,
+   "kaimyo_jukugo": 13,
+   "persons": 13,
+   "places": 13
   }
  },
  "files": [
@@ -1303,7 +1303,59 @@
     "genten": 18408
    },
    "role_complete": true,
-   "notes": "書き下しデータ化スキルで取込（2026-06-12）。伝・金剛智訳の密教経典（瑜祇経）・全二巻十二品。段落単位 kakikudashi＋gendaigoyaku（58段・全訳済）、outline は巻上下×品の16区分。底本 .doc の品第二重複はユーザー裁定で連続版を採用。漢文原典 genten は CBETA T0867（2025-02-03 版 XML）より取得し、校勘注・目次行を除去、悉曇字はローマ字転写で代替した清掃標点本文 18408 字を top-level genten／genten_source に格納。"
+   "notes": "書き下しデータ化スキルで取込（2026-06-12）。伝・金剛智訳の密教経典（瑜祇経）・全二巻十二品。段落単位 kakikudashi＋gendaigoyaku（58段・全訳済）、outline は巻上下×品の16区分。底本 .doc の品第二重複はユーザー裁定で連続版を採用。漢文原典 genten は CBETA T0867（2025-02-03 版 XML）より取得し、校勘注・目次行を除去、悉曇字はローマ字転写で代替した清掃標点本文 18408 字を top-level genten／genten_source に格納。",
+   "index_status": {
+    "terms": {
+     "file": "index_yugikyo_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 151,
+     "matched_term_count": 7,
+     "kaimyo_suitable_count": 6
+    },
+    "citations": {
+     "file": "index_yugikyo_citations.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0
+    },
+    "kukai_works": {
+     "file": "index_yugikyo_kukai_works.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0
+    },
+    "sanskrit": {
+     "file": "index_yugikyo_sanskrit.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0,
+     "with_diacritics_count": 0,
+     "ascii_only_count": 0
+    },
+    "kaimyo_jukugo": {
+     "file": "index_yugikyo_kaimyo.json",
+     "present": true,
+     "unique_terms": 11,
+     "total_occurrences": 146,
+     "needs_review_count": 0,
+     "matched_jukugo_count": 6
+    },
+    "persons": {
+     "file": "index_yugikyo_persons.json",
+     "present": true,
+     "unique_terms": 14,
+     "total_occurrences": 63,
+     "subcategory_count": 4
+    },
+    "places": {
+     "file": "index_yugikyo_places.json",
+     "present": true,
+     "unique_terms": 9,
+     "total_occurrences": 11,
+     "subcategory_count": 4
+    }
+   }
   }
  ],
  "index_definitions": {
@@ -1339,7 +1391,7 @@
   }
  },
  "aggregate_indices": {
-  "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。 2026-06-10 秘蔵記横断索引化で hizoki を 12 著作目として追加し 12 著作に拡張。",
+  "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。 2026-06-10 秘蔵記横断索引化で hizoki を 12 著作目として追加し 12 著作に拡張。 2026-06-12 瑜祇経横断索引化で yugikyo を 13 著作目として追加し 13 著作に拡張。",
   "storage_dir": "data/mikkyou/",
   "naming_pattern": "index_<category>_all.json",
   "source_corpora": [
@@ -1354,23 +1406,24 @@
    "sankyo-shiki",
    "bodaishinron",
    "jujushinron",
-   "hizoki"
+   "hizoki",
+   "yugikyo"
   ],
-  "corpora_count": 12,
+  "corpora_count": 13,
   "files": {
    "terms": {
     "file": "index_terms_all.json",
     "present": true,
-    "corpora_with_data": 12,
+    "corpora_with_data": 13,
     "unique_terms_total": 19,
-    "total_occurrences": 3106,
-    "terms_in_multiple_corpora": 16,
-    "max_corpus_coverage": 12
+    "total_occurrences": 3257,
+    "terms_in_multiple_corpora": 17,
+    "max_corpus_coverage": 13
    },
    "citations": {
     "file": "index_citations_all.json",
     "present": true,
-    "corpora_with_data": 12,
+    "corpora_with_data": 13,
     "unique_terms_total": 547,
     "total_occurrences": 2360,
     "terms_in_multiple_corpora": 84,
@@ -1379,7 +1432,7 @@
    "kukai_works": {
     "file": "index_kukai_works_all.json",
     "present": true,
-    "corpora_with_data": 12,
+    "corpora_with_data": 13,
     "unique_terms_total": 13,
     "total_occurrences": 55,
     "terms_in_multiple_corpora": 3,
@@ -1388,7 +1441,7 @@
    "sanskrit": {
     "file": "index_sanskrit_all.json",
     "present": true,
-    "corpora_with_data": 12,
+    "corpora_with_data": 13,
     "unique_terms_total": 1743,
     "total_occurrences": 2672,
     "terms_in_multiple_corpora": 141,
@@ -1397,29 +1450,29 @@
    "kaimyo_jukugo": {
     "file": "index_kaimyo_jukugo_all.json",
     "present": true,
-    "corpora_with_data": 12,
+    "corpora_with_data": 13,
     "unique_terms_total": 114,
-    "total_occurrences": 5234,
-    "terms_in_multiple_corpora": 76,
-    "max_corpus_coverage": 12
+    "total_occurrences": 5380,
+    "terms_in_multiple_corpora": 77,
+    "max_corpus_coverage": 13
    },
    "persons": {
     "file": "index_persons_all.json",
     "present": true,
-    "corpora_with_data": 12,
+    "corpora_with_data": 13,
     "unique_terms_total": 90,
-    "total_occurrences": 2912,
+    "total_occurrences": 2975,
     "terms_in_multiple_corpora": 59,
-    "max_corpus_coverage": 11
+    "max_corpus_coverage": 12
    },
    "places": {
     "file": "index_places_all.json",
     "present": true,
-    "corpora_with_data": 12,
-    "unique_terms_total": 72,
-    "total_occurrences": 895,
+    "corpora_with_data": 13,
+    "unique_terms_total": 73,
+    "total_occurrences": 906,
     "terms_in_multiple_corpora": 37,
-    "max_corpus_coverage": 10
+    "max_corpus_coverage": 11
    }
   }
  }
