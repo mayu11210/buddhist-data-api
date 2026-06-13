@@ -1588,3 +1588,22 @@ kaimyo-app 側に既に実装済の硬さ選択 UI（commit `d79d5a1`・柔/中/
 - **非空海・伝承典籍の成句引用形式**：sg28/sg29 は 引用形式:典籍曰く（瑜祇経 R1 Phase A 合意との整合・ケンシン裁定）。経典出典成句 sg07 の 経曰く 先例とは著者帰属の確実性（瑜祇経＝伝・金剛智訳）で使い分ける。
 - **現況系フィールドの同期更新（補注 EE 継承）**：famous_phrases 27→29・篇別内訳 成句_二十七件→成句_二十九件・without_gabun キー sg01-sg27→sg01-sg29・top-level description（2412 motifs＝m1〜m2383＋成句 sg01〜sg29・連動軸二十五系統並立）を Phase C 内で同期更新。
 - **schema_history origin**：`origin: retrofit_32:yugikyo_rendou_scan`。schema 0.2 維持・total_motifs 2410→2412・整合性検証 12 項目＋m506 典籍曰く／m2375・m2378・m2381 核心 assert を適用前後で実施。
+
+### 補注 GG：瑜祇経 gabun 要否裁定（2026-06-13・意図的未設定の継続）
+
+**経緯**：retrofit 32 完走（補注 FF）で残課題とされた gabun（雅文体訳・text_gendai_gabun）要否裁定を、独立セッション（2026-06-13）でケンシン裁定。対象は yugikyo 全 19 motifs（m2365-m2383）。
+
+**裁定**：**意図的未設定を継続**（秘蔵記 hizoki 90 motifs の 2026-06-11 裁定・W3 jujushinron 100 motifs と同運用・将来 retrofit 可能性は温存）。
+
+**根拠**：
+
+- 瑜祇経は非空海（伝・金剛智訳）の経典であり、全 motif が 引用形式:典籍曰く。経典引用は書き下しのまま用いる文脈が強く、雅文体に開く必然性が薄い（成句 sg の「儀礼朗誦の伝統」原則とも整合）。
+- kaimyo-app 側は gabun 不在時 text_kakikudashi にフォールバックする設計（§3 柔モード）のため、未設定でも利用側の欠落は生じない。
+- hizoki／jujushinron と同運用に揃えることで、「空海自筆（性霊集系）＝gabun あり／非空海・教学系 W3 以降＝gabun 意図的未設定」という運用線引きが維持される。
+
+**データへの影響**：motifs.json は不変（本裁定によるファイル変更なし）。stats.motifs_without_gendai_gabun_intentional の yugikyo 2 キー（m2365-m2374／m2375-m2383・「将来 retrofit 可」）は retrofit 32 時点で記載済みのため温存。本裁定の記録は本補注・CLAUDE.md・handoff のみ（文書 only・整合性保守型ですらない記録セッション）。
+
+**運用上の論点**：
+
+- **gabun 要否裁定の様式確立**：corpus 完走 → 連動軸 retrofit → gabun 要否裁定（本補注様式：先例参照＋著者帰属＋利用側フォールバック確認）→ 利用側同期、という完走後残課題の処理順を瑜祇経で一巡。今後の新規 corpus にも適用可能。
+- **次の残課題**：kaimyo-app 側 motifs.json 同期（典籍曰く冠生成ロジック対応要否・sg28/sg29 の扱い確認を含む）のみ。
