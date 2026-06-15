@@ -32,7 +32,7 @@
   "role_complete_files": 14,
   "kakikudashi_present": 13,
   "gendaigoyaku_present": 13,
-  "genten_present": 10,
+  "genten_present": 11,
   "with_specialty_sections": 5,
   "indexed_corpora": {
    "terms": 14,
@@ -1417,24 +1417,24 @@
   {
    "filename": "rishushaku.json",
    "title": "理趣釈（大楽金剛不空真実三昧耶経般若波羅蜜多理趣釈）",
-   "taisho_ref": "T1003 / vol.19（伝・不空訳。漢文原典 genten は次セッションで CBETA より retrofit 予定）",
+   "taisho_ref": "T1003 / vol.19（伝・不空訳『大樂金剛不空真實三昧耶經般若波羅蜜多理趣釋』）",
    "role": "primary_corpus",
    "type": "dict_paragraphs",
    "data_status": {
     "kaimyo_excerpt": false,
     "kakikudashi": true,
     "gendaigoyaku": true,
-    "genten": false,
-    "genten_unavailable_reason": "漢文原典：CBETA/大正蔵 T1003（vol.19）『大樂金剛不空真實三昧耶經般若波羅蜜多理趣釋』。本セッションでは取得手段の制約により未取込（CBETA reader は JS レンダリングで web_fetch 不可・GitHub raw XML 238KB は fetch 上限超過で前半のみ取得）。次セッションで Chrome 経由 retrofit 予定。",
+    "genten": true,
     "specialty_sections": []
    },
    "char_counts": {
     "kakikudashi": 23821,
     "gendaigoyaku": 33031,
-    "paragraphs": 57
+    "paragraphs": 57,
+    "genten": 17016
    },
    "role_complete": true,
-   "notes": "2026-06-15 Phase1 本格取込（書き下しデータ化スキル）。『理趣経』本文を一句ずつ注釈した伝・不空訳の釈論。底本：ユーザー提供 doc『大楽金剛不空真実三昧耶経般若波羅蜜多理趣釈』。巻上・巻下を序分＋十七段＋流通分の科段に細分割し 57 段落（k001-k057）として収録、各段落に現代語訳（butten-yasashii-yaku 訳文体）を付与。base_text_ref=rishikyo.json（commentary_of）。漢文原典 genten は本セッションでは取得手段の制約により未取込（CBETA reader は JS レンダリング・GitHub raw XML 238KB は fetch 上限超過）、次セッションで Chrome 経由 retrofit 予定。横断索引化（Phase2）・motif 抽出（Phase3）は未着手。",
+   "notes": "2026-06-15 Phase1 本格取込（書き下しデータ化スキル）。『理趣経』本文を一句ずつ注釈した伝・不空訳の釈論。底本：ユーザー提供 doc『大楽金剛不空真実三昧耶経般若波羅蜜多理趣釈』。巻上・巻下を序分＋十七段＋流通分の科段に細分割し 57 段落（k001-k057）として収録、各段落に現代語訳（butten-yasashii-yaku 訳文体）を付与。base_text_ref=rishikyo.json（commentary_of）。漢文原典 genten は 2026-06-15 に CBETA 線上閱讀 T1003_001／_002（大正蔵 T19 no.1003 巻上下）より Chrome 経由で取得・retrofit（校勘 anchor 除去・夾註〔 〕温存・悉曇ローマ字転写、17016字）。横断索引化（Phase2）・motif 抽出（Phase3）は未着手。",
    "relations": {
     "commentary_of": "rishikyo.json"
    }
