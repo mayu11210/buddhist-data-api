@@ -18,18 +18,19 @@
     "jujushinron",
     "hizoki",
     "yugikyo",
-    "rishikyo"
+    "rishikyo",
+    "rishushaku"
   ],
-  "corpora_count": 14,
-  "corpora_with_data": 14,
+  "corpora_count": 15,
+  "corpora_with_data": 15,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 19,
-    "total_occurrences": 3273,
+    "total_occurrences": 3531,
     "terms_in_multiple_corpora": 17,
-    "max_corpus_coverage": 14,
+    "max_corpus_coverage": 15,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 19,
@@ -100,10 +101,63 @@
         "unique": 19,
         "occurrences": 16,
         "present": true
+      },
+      "rishushaku": {
+        "unique": 19,
+        "occurrences": 258,
+        "present": true
       }
     }
   },
   "entries": [
+    {
+      "term": "真言",
+      "total_occurrence_count": 701,
+      "covered_corpora_count": 15,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "hizoki",
+        "jujushinron",
+        "nikyo-ron",
+        "rishikyo",
+        "rishushaku",
+        "sankyo-shiki",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 44,
+        "nikyo-ron": 44,
+        "ujiji": 13,
+        "shoji-jisso": 16,
+        "sokushin-jobutsu": 34,
+        "hannya-hiken": 30,
+        "hizo-houyaku": 40,
+        "dainichikyo-sho-vol1": 58,
+        "sankyo-shiki": 2,
+        "bodaishinron": 15,
+        "jujushinron": 158,
+        "hizoki": 69,
+        "yugikyo": 117,
+        "rishikyo": 6,
+        "rishushaku": 55
+      },
+      "metadata": {
+        "sanskrit": "mantra",
+        "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "真",
+          "言"
+        ]
+      }
+    },
     {
       "term": "大日",
       "total_occurrence_count": 676,
@@ -149,55 +203,9 @@
       }
     },
     {
-      "term": "真言",
-      "total_occurrence_count": 646,
-      "covered_corpora_count": 14,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "hannya-hiken",
-        "hizo-houyaku",
-        "hizoki",
-        "jujushinron",
-        "nikyo-ron",
-        "rishikyo",
-        "sankyo-shiki",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 44,
-        "nikyo-ron": 44,
-        "ujiji": 13,
-        "shoji-jisso": 16,
-        "sokushin-jobutsu": 34,
-        "hannya-hiken": 30,
-        "hizo-houyaku": 40,
-        "dainichikyo-sho-vol1": 58,
-        "sankyo-shiki": 2,
-        "bodaishinron": 15,
-        "jujushinron": 158,
-        "hizoki": 69,
-        "yugikyo": 117,
-        "rishikyo": 6
-      },
-      "metadata": {
-        "sanskrit": "mantra",
-        "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
-        "kaimyo_suitable": true,
-        "kaimyo_chars": [
-          "真",
-          "言"
-        ]
-      }
-    },
-    {
       "term": "密教",
-      "total_occurrence_count": 408,
-      "covered_corpora_count": 11,
+      "total_occurrence_count": 409,
+      "covered_corpora_count": 12,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -206,6 +214,7 @@
         "hizoki",
         "jujushinron",
         "nikyo-ron",
+        "rishushaku",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
@@ -222,7 +231,8 @@
         "dainichikyo-sho-vol1": 20,
         "bodaishinron": 6,
         "jujushinron": 19,
-        "hizoki": 10
+        "hizoki": 10,
+        "rishushaku": 1
       },
       "metadata": {
         "sanskrit": "guhya-mantra-yāna",
@@ -232,8 +242,8 @@
     },
     {
       "term": "法界",
-      "total_occurrence_count": 349,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 372,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -242,6 +252,7 @@
         "hizoki",
         "jujushinron",
         "nikyo-ron",
+        "rishushaku",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
@@ -260,7 +271,8 @@
         "bodaishinron": 2,
         "jujushinron": 89,
         "hizoki": 62,
-        "yugikyo": 10
+        "yugikyo": 10,
+        "rishushaku": 23
       },
       "metadata": {
         "sanskrit": "dharma-dhātu",
@@ -274,8 +286,8 @@
     },
     {
       "term": "法身",
-      "total_occurrence_count": 349,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 355,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hannya-hiken",
@@ -283,6 +295,7 @@
         "hizoki",
         "jujushinron",
         "nikyo-ron",
+        "rishushaku",
         "sankyo-shiki",
         "shoji-jisso",
         "shoryoshu_miyasaka",
@@ -302,7 +315,8 @@
         "sankyo-shiki": 1,
         "jujushinron": 46,
         "hizoki": 28,
-        "yugikyo": 5
+        "yugikyo": 5,
+        "rishushaku": 6
       },
       "metadata": {
         "sanskrit": "dharmakāya",
@@ -315,9 +329,45 @@
       }
     },
     {
+      "term": "三摩地",
+      "total_occurrence_count": 203,
+      "covered_corpora_count": 11,
+      "covered_corpora": [
+        "bodaishinron",
+        "hizo-houyaku",
+        "hizoki",
+        "jujushinron",
+        "nikyo-ron",
+        "rishikyo",
+        "rishushaku",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "nikyo-ron": 10,
+        "ujiji": 1,
+        "sokushin-jobutsu": 5,
+        "hizo-houyaku": 13,
+        "bodaishinron": 10,
+        "jujushinron": 34,
+        "hizoki": 14,
+        "yugikyo": 5,
+        "rishikyo": 3,
+        "rishushaku": 105
+      },
+      "metadata": {
+        "sanskrit": "samādhi",
+        "definition": "禅定。心を一境に住して散乱を離れた状態。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
       "term": "遮那",
-      "total_occurrence_count": 156,
-      "covered_corpora_count": 10,
+      "total_occurrence_count": 197,
+      "covered_corpora_count": 11,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -326,6 +376,7 @@
         "jujushinron",
         "nikyo-ron",
         "rishikyo",
+        "rishushaku",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu"
@@ -340,7 +391,8 @@
         "bodaishinron": 2,
         "jujushinron": 30,
         "hizoki": 24,
-        "rishikyo": 2
+        "rishikyo": 2,
+        "rishushaku": 41
       },
       "metadata": {
         "sanskrit": "Vairocana",
@@ -354,8 +406,8 @@
     },
     {
       "term": "三密",
-      "total_occurrence_count": 147,
-      "covered_corpora_count": 10,
+      "total_occurrence_count": 152,
+      "covered_corpora_count": 11,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -363,6 +415,7 @@
         "hizoki",
         "jujushinron",
         "nikyo-ron",
+        "rishushaku",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
@@ -378,7 +431,8 @@
         "dainichikyo-sho-vol1": 12,
         "bodaishinron": 2,
         "jujushinron": 16,
-        "hizoki": 28
+        "hizoki": 28,
+        "rishushaku": 5
       },
       "metadata": {
         "sanskrit": "trīṇi guhyāni",
@@ -391,14 +445,15 @@
     },
     {
       "term": "大悲",
-      "total_occurrence_count": 126,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 137,
+      "covered_corpora_count": 9,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
         "hizoki",
         "jujushinron",
         "nikyo-ron",
+        "rishushaku",
         "shoryoshu_miyasaka",
         "ujiji",
         "yugikyo"
@@ -411,7 +466,8 @@
         "dainichikyo-sho-vol1": 38,
         "jujushinron": 26,
         "hizoki": 14,
-        "yugikyo": 9
+        "yugikyo": 9,
+        "rishushaku": 11
       },
       "metadata": {
         "sanskrit": "mahā-karuṇā",
@@ -425,8 +481,8 @@
     },
     {
       "term": "阿字",
-      "total_occurrence_count": 122,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 127,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -436,6 +492,7 @@
         "jujushinron",
         "nikyo-ron",
         "rishikyo",
+        "rishushaku",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
@@ -453,7 +510,8 @@
         "bodaishinron": 14,
         "jujushinron": 8,
         "hizoki": 21,
-        "rishikyo": 1
+        "rishikyo": 1,
+        "rishushaku": 5
       },
       "metadata": {
         "sanskrit": "a-kāra",
@@ -462,49 +520,16 @@
       }
     },
     {
-      "term": "三摩地",
-      "total_occurrence_count": 98,
-      "covered_corpora_count": 10,
-      "covered_corpora": [
-        "bodaishinron",
-        "hizo-houyaku",
-        "hizoki",
-        "jujushinron",
-        "nikyo-ron",
-        "rishikyo",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 3,
-        "nikyo-ron": 10,
-        "ujiji": 1,
-        "sokushin-jobutsu": 5,
-        "hizo-houyaku": 13,
-        "bodaishinron": 10,
-        "jujushinron": 34,
-        "hizoki": 14,
-        "yugikyo": 5,
-        "rishikyo": 3
-      },
-      "metadata": {
-        "sanskrit": "samādhi",
-        "definition": "禅定。心を一境に住して散乱を離れた状態。",
-        "kaimyo_suitable": false
-      }
-    },
-    {
       "term": "本不生",
-      "total_occurrence_count": 59,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 64,
+      "covered_corpora_count": 9,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
         "hizoki",
         "jujushinron",
         "rishikyo",
+        "rishushaku",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu"
@@ -517,7 +542,8 @@
         "dainichikyo-sho-vol1": 14,
         "jujushinron": 11,
         "hizoki": 9,
-        "rishikyo": 1
+        "rishikyo": 1,
+        "rishushaku": 5
       },
       "metadata": {
         "sanskrit": "ādyanutpāda",
@@ -626,6 +652,30 @@
       }
     },
     {
+      "term": "智剣",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "rishushaku",
+        "shoryoshu_miyasaka",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "yugikyo": 1,
+        "rishushaku": 1
+      },
+      "metadata": {
+        "sanskrit": "jñāna-khaḍga",
+        "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "智",
+          "剣"
+        ]
+      }
+    },
+    {
       "term": "大空三昧",
       "total_occurrence_count": 5,
       "covered_corpora_count": 3,
@@ -643,28 +693,6 @@
         "sanskrit": "mahā-śūnyatā-samādhi",
         "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
         "kaimyo_suitable": false
-      }
-    },
-    {
-      "term": "智剣",
-      "total_occurrence_count": 5,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "shoryoshu_miyasaka",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 4,
-        "yugikyo": 1
-      },
-      "metadata": {
-        "sanskrit": "jñāna-khaḍga",
-        "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
-        "kaimyo_suitable": true,
-        "kaimyo_chars": [
-          "智",
-          "剣"
-        ]
       }
     },
     {

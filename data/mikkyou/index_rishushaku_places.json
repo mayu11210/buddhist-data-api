@@ -1,0 +1,333 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "rishushaku.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-15",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 33087,
+  "summary": {
+    "unique_terms": 9,
+    "unique_places": 9,
+    "total_occurrences": 22,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 5,
+        "occurrences": 16
+      },
+      "mountain_buddhist": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "province_japan": {
+        "unique": 2,
+        "occurrences": 2
+      },
+      "temple_china": {
+        "unique": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 8
+        }
+      ],
+      "occurrence_count": 8,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "の大悲〕をもって、あまねく尽きることのない衆生界を対象とし、安楽と利益を得させようと願って、心に一度も休みがなく、自分と他者",
+          "context_position": 5436,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の真言を保てば、よく一切の災いや疾病を除き、命を終えたのち、安楽の国土に生まれて上品上生〔最上の往生〕を得る。この一品は、観",
+          "context_position": 16913,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "地の行。経の「資生の施し〔資生施〕によって身・口・意の一切の安楽を得る」〔資生施故得身口意一切安楽〕とは、これは金剛笑菩薩の",
+          "context_position": 17372,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "によって身・口・意の一切の安楽を得る」〔資生施故得身口意一切安楽〕とは、これは金剛笑菩薩の三摩地の行である。あらゆる相手に灌",
+          "context_position": 17389,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "によってつねに生死のただ中に身を置いて一切を救い取り、利益と安楽の最もすぐれた究極を、みなことごとく成就する」〔菩薩摩訶薩得",
+          "context_position": 31655,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "地の行で、大悲におさまる。「大いなる欲は清浄を得て、大いなる安楽と豊かさ〔富饒〕をそなえ、三界に自在を得て、よく堅固な利益を",
+          "context_position": 32427,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "なえ、三界に自在を得て、よく堅固な利益をなす」〔大欲得清浄大安楽富饒三界得自在能作堅固利〕とは、これは金剛慢明妃の三摩地の行",
+          "context_position": 32469,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "住さない。だからこそ大いなる欲は清浄を得るのであり、大いなる安楽で豊かであり、三界に自在を得て、よく堅固な利益をなす。すなわ",
+          "context_position": 32784,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "欲界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最下。欲望が支配する世界。",
+      "matched_forms": [
+        {
+          "form": "欲界",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "あまねく照らす法身の毘盧遮那如来を証得するのである。 経の「欲界の他化自在天の王宮の中、一切如来の常に遊ぶところの、吉祥とた",
+          "context_position": 1942,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "鳴り、珠の瓔珞や半月・満月などをもって荘厳としている」〔在於欲界他化自在天王宮中…而為荘厳〕について。「他化自在天宮」は欲界",
+          "context_position": 2040,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "欲界他化自在天王宮中…而為荘厳〕について。「他化自在天宮」は欲界の頂上と呼ばれる。この天の王宮にいる菩薩は第六地〔現前地〕の",
+          "context_position": 2070,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "経の「三界のなかで調伏し」〔於三界中調伏〕とは、三界すなわち欲界・色界・無色界のこと。そのなかで、大自在天〔摩醯首羅〕などの",
+          "context_position": 7826,
+          "matched_form": "欲界"
+        }
+      ]
+    },
+    {
+      "canonical": "大興善寺",
+      "aliases": [],
+      "subcategory": "temple_china",
+      "definition": "長安。不空三蔵の住所。密教伝来の中心。",
+      "matched_forms": [
+        {
+          "form": "大興善寺",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "本文を一句ずつ取りあげて注釈した書で、不空訳と伝えられる〕 大興善寺の三蔵沙門・不空〔ふくう・アモーガヴァジュラ〕が、勅命を奉じ",
+          "context_position": 112,
+          "matched_form": "大興善寺"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "真実三昧経般若波羅蜜多理趣釈』巻下。 大広智〔だいこうち〕、大興善寺の三蔵沙門・不空が、勅命を奉じて訳す。 経の「そのとき、調伏",
+          "context_position": 12697,
+          "matched_form": "大興善寺"
+        }
+      ]
+    },
+    {
+      "canonical": "色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の中。色身があるが欲望のない世界。",
+      "matched_forms": [
+        {
+          "form": "色界",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "三界のなかで調伏し」〔於三界中調伏〕とは、三界すなわち欲界・色界・無色界のこと。そのなかで、大自在天〔摩醯首羅〕などの調伏し",
+          "context_position": 7829,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "先に解いたとおり。毘盧遮那如来は「遍照」と名づける報身仏で、色界の頂の第四禅・色究竟天において正しい等しい覚り〔等正覚〕を成",
+          "context_position": 9869,
+          "matched_form": "色界"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 1
+        },
+        {
+          "form": "須弥",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "という意味〔寂静〕で、身・口・意が静かであるから牟尼と呼ぶ。須弥山の頂の三十三天の金剛宝峰楼閣のなかで、毘盧遮那仏が法輪を転じ",
+          "context_position": 12927,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の毘盧遮那は、この世で八相成道を示して諸の外道を済度し、また須弥の頂で威猛なる忿怒のすがたを現じ、大自在天〔摩醯首羅〕などの",
+          "context_position": 13058,
+          "matched_form": "須弥"
+        }
+      ]
+    },
+    {
+      "canonical": "大和",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "奈良県。",
+      "matched_forms": [
+        {
+          "form": "大和",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "曼荼羅は広大で、『一切教集瑜伽経』に説くとおりである――薦福大和尚の金泥瑜伽曼荼羅がこれである――。心真言を説かないわけは、",
+          "context_position": 30809,
+          "matched_form": "大和"
+        }
+      ]
+    },
+    {
+      "canonical": "極楽",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "阿弥陀如来の西方浄土。",
+      "matched_forms": [
+        {
+          "form": "極楽",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "こそ蓮華部をまた「法部」とも名づける。この字の加持によって、極楽世界では水鳥や樹林までもがみな法の音を奏でる。広い経に説くと",
+          "context_position": 16837,
+          "matched_form": "極楽"
+        }
+      ]
+    },
+    {
+      "canonical": "無色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最上。色身のない世界。",
+      "matched_forms": [
+        {
+          "form": "無色界",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "なかで調伏し」〔於三界中調伏〕とは、三界すなわち欲界・色界・無色界のこと。そのなかで、大自在天〔摩醯首羅〕などの調伏しがたい諸",
+          "context_position": 7832,
+          "matched_form": "無色界"
+        }
+      ]
+    },
+    {
+      "canonical": "阿波",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "徳島県の旧国。",
+      "matched_forms": [
+        {
+          "form": "阿波",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "や・ヴィジャヤー〕、第三を阿爾多〔あにた・アジター〕、第四を阿波羅爾多〔あはらにた・アパラージター〕と名づける。この四天にも",
+          "context_position": 29792,
+          "matched_form": "阿波"
+        }
+      ]
+    }
+  ]
+}

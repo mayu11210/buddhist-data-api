@@ -18,18 +18,19 @@
     "jujushinron",
     "hizoki",
     "yugikyo",
-    "rishikyo"
+    "rishikyo",
+    "rishushaku"
   ],
-  "corpora_count": 14,
-  "corpora_with_data": 14,
+  "corpora_count": 15,
+  "corpora_with_data": 15,
   "missing_corpora": [],
   "term_key": "jukugo",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 114,
-    "total_occurrences": 5391,
+    "total_occurrences": 5533,
     "terms_in_multiple_corpora": 77,
-    "max_corpus_coverage": 14,
+    "max_corpus_coverage": 15,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 111,
@@ -100,10 +101,63 @@
         "unique": 11,
         "occurrences": 11,
         "present": true
+      },
+      "rishushaku": {
+        "unique": 11,
+        "occurrences": 142,
+        "present": true
       }
     }
   },
   "entries": [
+    {
+      "jukugo": "真言",
+      "total_occurrence_count": 701,
+      "covered_corpora_count": 15,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "hizoki",
+        "jujushinron",
+        "nikyo-ron",
+        "rishikyo",
+        "rishushaku",
+        "sankyo-shiki",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 44,
+        "nikyo-ron": 44,
+        "ujiji": 13,
+        "shoji-jisso": 16,
+        "sokushin-jobutsu": 34,
+        "hannya-hiken": 30,
+        "hizo-houyaku": 40,
+        "dainichikyo-sho-vol1": 58,
+        "sankyo-shiki": 2,
+        "bodaishinron": 15,
+        "jujushinron": 158,
+        "hizoki": 69,
+        "yugikyo": 117,
+        "rishikyo": 6,
+        "rishushaku": 55
+      },
+      "metadata": {
+        "source_tag": "seed_terms",
+        "seed_definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+        "seed_sanskrit": "mantra",
+        "kaimyo_chars": [
+          "真",
+          "言"
+        ]
+      }
+    },
     {
       "jukugo": "大日",
       "total_occurrence_count": 676,
@@ -148,55 +202,9 @@
       }
     },
     {
-      "jukugo": "真言",
-      "total_occurrence_count": 646,
-      "covered_corpora_count": 14,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "hannya-hiken",
-        "hizo-houyaku",
-        "hizoki",
-        "jujushinron",
-        "nikyo-ron",
-        "rishikyo",
-        "sankyo-shiki",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 44,
-        "nikyo-ron": 44,
-        "ujiji": 13,
-        "shoji-jisso": 16,
-        "sokushin-jobutsu": 34,
-        "hannya-hiken": 30,
-        "hizo-houyaku": 40,
-        "dainichikyo-sho-vol1": 58,
-        "sankyo-shiki": 2,
-        "bodaishinron": 15,
-        "jujushinron": 158,
-        "hizoki": 69,
-        "yugikyo": 117,
-        "rishikyo": 6
-      },
-      "metadata": {
-        "source_tag": "seed_terms",
-        "seed_definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
-        "seed_sanskrit": "mantra",
-        "kaimyo_chars": [
-          "真",
-          "言"
-        ]
-      }
-    },
-    {
       "jukugo": "法界",
-      "total_occurrence_count": 349,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 372,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -205,6 +213,7 @@
         "hizoki",
         "jujushinron",
         "nikyo-ron",
+        "rishushaku",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
@@ -223,7 +232,8 @@
         "bodaishinron": 2,
         "jujushinron": 89,
         "hizoki": 62,
-        "yugikyo": 10
+        "yugikyo": 10,
+        "rishushaku": 23
       },
       "metadata": {
         "source_tag": "seed_terms",
@@ -236,8 +246,8 @@
     },
     {
       "jukugo": "法身",
-      "total_occurrence_count": 349,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 355,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hannya-hiken",
@@ -245,6 +255,7 @@
         "hizoki",
         "jujushinron",
         "nikyo-ron",
+        "rishushaku",
         "sankyo-shiki",
         "shoji-jisso",
         "shoryoshu_miyasaka",
@@ -264,7 +275,8 @@
         "sankyo-shiki": 1,
         "jujushinron": 46,
         "hizoki": 28,
-        "yugikyo": 5
+        "yugikyo": 5,
+        "rishushaku": 6
       },
       "metadata": {
         "source_tag": "seed_terms",
@@ -353,6 +365,42 @@
       }
     },
     {
+      "jukugo": "遮那",
+      "total_occurrence_count": 197,
+      "covered_corpora_count": 11,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "hizoki",
+        "jujushinron",
+        "nikyo-ron",
+        "rishikyo",
+        "rishushaku",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 18,
+        "nikyo-ron": 16,
+        "shoji-jisso": 2,
+        "sokushin-jobutsu": 4,
+        "hizo-houyaku": 16,
+        "dainichikyo-sho-vol1": 42,
+        "bodaishinron": 2,
+        "jujushinron": 30,
+        "hizoki": 24,
+        "rishikyo": 2,
+        "rishushaku": 41
+      },
+      "metadata": {
+        "source_tag": "seed_terms",
+        "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
+        "seed_sanskrit": "Vairocana"
+      }
+    },
+    {
       "jukugo": "菩薩",
       "total_occurrence_count": 177,
       "covered_corpora_count": 9,
@@ -419,43 +467,9 @@
       }
     },
     {
-      "jukugo": "遮那",
-      "total_occurrence_count": 156,
-      "covered_corpora_count": 10,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "hizoki",
-        "jujushinron",
-        "nikyo-ron",
-        "rishikyo",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 18,
-        "nikyo-ron": 16,
-        "shoji-jisso": 2,
-        "sokushin-jobutsu": 4,
-        "hizo-houyaku": 16,
-        "dainichikyo-sho-vol1": 42,
-        "bodaishinron": 2,
-        "jujushinron": 30,
-        "hizoki": 24,
-        "rishikyo": 2
-      },
-      "metadata": {
-        "source_tag": "seed_terms",
-        "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
-        "seed_sanskrit": "Vairocana"
-      }
-    },
-    {
       "jukugo": "三密",
-      "total_occurrence_count": 147,
-      "covered_corpora_count": 10,
+      "total_occurrence_count": 152,
+      "covered_corpora_count": 11,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -463,6 +477,7 @@
         "hizoki",
         "jujushinron",
         "nikyo-ron",
+        "rishushaku",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
@@ -478,7 +493,8 @@
         "dainichikyo-sho-vol1": 12,
         "bodaishinron": 2,
         "jujushinron": 16,
-        "hizoki": 28
+        "hizoki": 28,
+        "rishushaku": 5
       },
       "metadata": {
         "source_tag": "seed_terms",
@@ -486,6 +502,42 @@
         "seed_sanskrit": "trīṇi guhyāni",
         "kaimyo_chars": [
           "密"
+        ]
+      }
+    },
+    {
+      "jukugo": "大悲",
+      "total_occurrence_count": 137,
+      "covered_corpora_count": 9,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "hizoki",
+        "jujushinron",
+        "nikyo-ron",
+        "rishushaku",
+        "shoryoshu_miyasaka",
+        "ujiji",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 26,
+        "nikyo-ron": 2,
+        "ujiji": 2,
+        "hizo-houyaku": 9,
+        "dainichikyo-sho-vol1": 38,
+        "jujushinron": 26,
+        "hizoki": 14,
+        "yugikyo": 9,
+        "rishushaku": 11
+      },
+      "metadata": {
+        "source_tag": "seed_terms",
+        "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
+        "seed_sanskrit": "mahā-karuṇā",
+        "kaimyo_chars": [
+          "大",
+          "悲"
         ]
       }
     },
@@ -514,40 +566,6 @@
         ],
         "seed_definition": "",
         "seed_sanskrit": ""
-      }
-    },
-    {
-      "jukugo": "大悲",
-      "total_occurrence_count": 126,
-      "covered_corpora_count": 8,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "hizoki",
-        "jujushinron",
-        "nikyo-ron",
-        "shoryoshu_miyasaka",
-        "ujiji",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 26,
-        "nikyo-ron": 2,
-        "ujiji": 2,
-        "hizo-houyaku": 9,
-        "dainichikyo-sho-vol1": 38,
-        "jujushinron": 26,
-        "hizoki": 14,
-        "yugikyo": 9
-      },
-      "metadata": {
-        "source_tag": "seed_terms",
-        "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
-        "seed_sanskrit": "mahā-karuṇā",
-        "kaimyo_chars": [
-          "大",
-          "悲"
-        ]
       }
     },
     {
@@ -1828,6 +1846,29 @@
       }
     },
     {
+      "jukugo": "智剣",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "rishushaku",
+        "shoryoshu_miyasaka",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 4,
+        "yugikyo": 1,
+        "rishushaku": 1
+      },
+      "metadata": {
+        "source_tag": "seed_terms",
+        "seed_definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+        "seed_sanskrit": "jñāna-khaḍga",
+        "kaimyo_chars": [
+          "智"
+        ]
+      }
+    },
+    {
       "jukugo": "甘露",
       "total_occurrence_count": 6,
       "covered_corpora_count": 3,
@@ -1995,27 +2036,6 @@
         "seed_sanskrit": "",
         "kaimyo_chars": [
           "常"
-        ]
-      }
-    },
-    {
-      "jukugo": "智剣",
-      "total_occurrence_count": 5,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "shoryoshu_miyasaka",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 4,
-        "yugikyo": 1
-      },
-      "metadata": {
-        "source_tag": "seed_terms",
-        "seed_definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
-        "seed_sanskrit": "jñāna-khaḍga",
-        "kaimyo_chars": [
-          "智"
         ]
       }
     },

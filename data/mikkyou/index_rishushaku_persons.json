@@ -1,0 +1,1131 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "rishushaku.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-15",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 33087,
+  "summary": {
+    "unique_terms": 11,
+    "unique_persons": 11,
+    "total_occurrences": 140,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 6,
+        "occurrences": 104
+      },
+      "buddhist_deva": {
+        "unique": 1,
+        "occurrences": 3
+      },
+      "buddhist_master_china": {
+        "unique": 3,
+        "occurrences": 28
+      },
+      "buddhist_master_india": {
+        "unique": 1,
+        "occurrences": 5
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 41
+        }
+      ],
+      "occurrence_count": 41,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "・端正で厳かであること〔端厳〕などをいう。「成就殊勝」とは、毘盧遮那仏がみずから覚った聖なる智〔自覚聖智〕のことである。「一切如",
+          "context_position": 532,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "うるのである。 経の「常恒三世一切時の身語意業の、金剛なる大毘盧遮那如来」〔常恒三世一切時身語意業金剛大毘盧遮那如来〕について。",
+          "context_position": 1542,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "業の、金剛なる大毘盧遮那如来」〔常恒三世一切時身語意業金剛大毘盧遮那如来〕について。「常恒」とは、如来の清浄な法界の智〔清浄法界",
+          "context_position": 1564,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "摩地を用いることで、それを破って、光明があまねく照らす法身の毘盧遮那如来を証得するのである。 経の「欲界の他化自在天の王宮の中、",
+          "context_position": 1922,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "界は五欲がとりわけすぐれ、ほかの諸天を超えている。だからこそ毘盧遮那仏は金剛薩埵となって、大いなる楽しみと大いなる貪りの染め〔大",
+          "context_position": 2191,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の宮殿とは、大楽不空金剛薩埵の大曼荼羅にほかならない。すべて毘盧遮那仏の福徳の積み〔福徳資糧〕から生まれ出た、金剛のように大いに",
+          "context_position": 2332,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "方に四つの門をもち、八本の柱・八つの位を並べる。中央の位は、毘盧遮那遍照如来がみずから証る智の解脱〔内証の智解脱〕である。八つの",
+          "context_position": 2422,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "素質をもつ十倶胝〔きわめて多数〕の眷属がいる。金剛手菩薩は、毘盧遮那の前方の月輪の中にあって、一切如来の菩提心を表す。初めて菩提",
+          "context_position": 2634,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "よって普賢の行願を修め証して、如来の地を証る。観自在菩薩は、毘盧遮那の後方の月輪にあって、一切如来の大悲を表す。縁に随って六道〔",
+          "context_position": 2714,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "い。これはみな観自在菩薩の金剛法の現証による。虚空蔵菩薩は、毘盧遮那の右の月輪にあって、一切如来の真如の、ガンジス河の砂ほど無数",
+          "context_position": 2858,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、受用身・変化身を生み出す資糧となるのである。金剛拳菩薩は、毘盧遮那の左の月輪にあって、一切如来の三種の秘密〔身・口・意の三密〕",
+          "context_position": 3045,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "手若有聞此清浄出生句般若理趣…獲得如来及執金剛位〕について。毘盧遮那仏が大衆の中にあって、未来に瑜伽を修める者のため、また諸の十",
+          "context_position": 6835,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "いて金剛薩埵菩薩から金剛拳菩薩までとなり、最後の身でそのまま毘盧遮那の身となる、と説くのである。 経の「そのとき婆伽梵は、一切如",
+          "context_position": 7106,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "る。「金剛手菩薩摩訶薩」とは、この菩薩はもとは普賢であって、毘盧遮那仏の両手の掌から、じかに五智の金剛杵を受け、そのまま灌頂を授",
+          "context_position": 7938,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "金剛薩埵の初集会品〔第一の集会〕である。経の「そのとき婆伽梵毘盧遮那如来」〔時婆伽梵毘盧遮那如来〕について。「婆伽梵」は先に解い",
+          "context_position": 9809,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の集会〕である。経の「そのとき婆伽梵毘盧遮那如来」〔時婆伽梵毘盧遮那如来〕について。「婆伽梵」は先に解いたとおり。毘盧遮那如来は",
+          "context_position": 9821,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "婆伽梵毘盧遮那如来〕について。「婆伽梵」は先に解いたとおり。毘盧遮那如来は「遍照」と名づける報身仏で、色界の頂の第四禅・色究竟天",
+          "context_position": 9848,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "者は、あらゆる煩悩のからみ〔結使〕をそなえていても、わずかに毘盧遮那の大智印を結び、心に真言を誦せば、遍照尊と等しくなって、その",
+          "context_position": 11103,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "とり証って、ほかのさまざまな乗とは同じでない。この四字こそ、毘盧遮那仏がみずから覚った聖なる智の、四種の智の解脱なのである。 外",
+          "context_position": 11642,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、第四は金剛羯磨菩薩である。修行者は曼荼羅を建立せよ。中央は毘盧遮那仏で、月輪を背にし、頭の冠に瓔珞をかけ、白い薄絹の衣〔白穀繒",
+          "context_position": 11752,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "印を結び、師子の座に坐す。身は月の宮殿〔月殿〕のようである。毘盧遮那仏の前に金剛薩埵菩薩がいて、月輪を背に五仏の冠をいただき、右",
+          "context_position": 11823,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の冠をいただき、右手に金剛杵、左手に鈴を持って、半跏に坐す。毘盧遮那仏の右に虚空蔵菩薩がいて、月輪を背に右手に金剛宝を持ち、左手",
+          "context_position": 11878,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "宝を持ち、左手は願いをかなえる印〔施願〕にして、半跏に坐す。毘盧遮那の後ろに観自在菩薩がいて、左手に蓮華を持ち、右手は華を開かせ",
+          "context_position": 11935,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "に蓮華を持ち、右手は華を開かせる勢いにして、また半跏に坐す。毘盧遮那仏の左の月輪に金剛羯磨菩薩がいて、両手で舞いめぐらす印〔旋舞",
+          "context_position": 11984,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "つの門には鉤・索・鎖・鈴の菩薩を、各々その威儀のままに置く。毘盧遮那仏が正しい等しい覚りを成すのは、四種の瑜伽の三摩地による。す",
+          "context_position": 12128,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "める者が般若の理趣を成就しようと思うなら、中央の位に住して、毘盧遮那仏の真言を誦すべきである。バザラダドアーク〔毘盧遮那の心真言",
+          "context_position": 12378,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "住して、毘盧遮那仏の真言を誦すべきである。バザラダドアーク〔毘盧遮那の心真言〕。みずから本尊との瑜伽をなし、四字の明でもって曼荼",
+          "context_position": 12404,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "を滅し、この生のうちに菩薩の地を証り、後の十六たびの生まれで毘盧遮那のはてしない法身を証り成す。よく無量の浄らかな国土・けがれた",
+          "context_position": 12562,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "から牟尼と呼ぶ。須弥山の頂の三十三天の金剛宝峰楼閣のなかで、毘盧遮那仏が法輪を転じる。輪に四種ある。すなわち金剛輪・宝輪・法輪・",
+          "context_position": 12949,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の輪にまとめられる。すなわち正法輪と教令輪である。つまりかの毘盧遮那は、この世で八相成道を示して諸の外道を済度し、また須弥の頂で",
+          "context_position": 13029,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "界に住しては観自在菩薩となる。「ふたたび説く」〔復説〕とは、毘盧遮那仏が観自在菩薩となって、一切法の平等から観自在の智印を生み出",
+          "context_position": 15104,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の理趣を誦し、心を運んであまねく法界にゆきわたれば、ほどなく毘盧遮那仏のような転輪法王となることができる。以上が、纔発意菩薩理趣",
+          "context_position": 22650,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "る。 経の「そのとき婆伽梵如来」〔時婆伽梵如来〕とは、これは毘盧遮那仏のこと。経の「ふたたび一切有情を加持する般若の理趣を説く。",
+          "context_position": 27430,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の調伏しがたい諸天を対治するために、五種の解脱輪を建立する。毘盧遮那仏は、世間と同類になって人々を導き取り込む〔摂化〕ために、大",
+          "context_position": 28327,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "意味。「時」とは、三世にさわりがないという意味。「大」とは、毘盧遮那の法身が、行きわたらない所はないということ。「七母女天」とは",
+          "context_position": 29226,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "宝とは観自在菩薩、僧宝とは虚空蔵菩薩である。この三宝はみな、毘盧遮那の心の菩提心のなかから流れ出る。あるいは「三法兄弟」とも名づ",
+          "context_position": 29621,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "なわち常波羅蜜・楽波羅蜜・我波羅蜜・浄波羅蜜である。都牟盧は毘盧遮那仏を表す。谽字〔カン〕の真言は「一切法は因が不可得」。その真",
+          "context_position": 29949,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "無量無辺究竟如来」〔爾時婆伽梵無量無辺究竟如来〕とは、これは毘盧遮那の別名である。経の「この教令を加持して究竟円満させようとする",
+          "context_position": 30180,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "らまし〔方隅〕を指し示すにとどめる。 経の「そのとき婆伽梵・毘盧遮那・得一切秘密法性無戯論如来」〔時婆伽梵毘盧遮那得一切秘密法性",
+          "context_position": 30932,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "のとき婆伽梵・毘盧遮那・得一切秘密法性無戯論如来」〔時婆伽梵毘盧遮那得一切秘密法性無戲論如来〕とは、後に説くべき五種の秘密の三摩",
+          "context_position": 30955,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、三界に自在を得て、よく堅固な利益をなす。すなわち金剛薩埵・毘盧遮那仏の、大悲の願行の身を成すのである。 経の「金剛手などから、",
+          "context_position": 32822,
+          "matched_form": "毘盧遮那"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 23
+        }
+      ],
+      "occurrence_count": 23,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "『大楽金剛不空真実三昧耶経般若波羅蜜多理趣釈』〔だいらくこんごうふくうしん",
+          "context_position": 5,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "理趣釈』。『理趣経』の本文を一句ずつ取りあげて注釈した書で、不空訳と伝えられる〕 大興善寺の三蔵沙門・不空〔ふくう・アモーガ",
+          "context_position": 101,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "げて注釈した書で、不空訳と伝えられる〕 大興善寺の三蔵沙門・不空〔ふくう・アモーガヴァジュラ〕が、勅命を奉じて訳した〔奉詔訳",
+          "context_position": 122,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "魔の領域〔摩羅の境〕を超えることができる。その宮殿とは、大楽不空金剛薩埵の大曼荼羅にほかならない。すべて毘盧遮那仏の福徳の積",
+          "context_position": 2310,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "右手で本初の大金剛を投げあげ、勇み進む勢いをなして、大楽金剛不空三昧耶の心〔真言〕を説いた」〔時婆伽梵一切如来大乗現証三昧耶",
+          "context_position": 7282,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "伽梵一切如来大乗現証三昧耶一切曼茶羅持金剛勝薩埵…説大楽金剛不空三昧耶心〕について。「婆伽梵」の意味は先に解いたとおり。「一",
+          "context_position": 7331,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、普賢菩薩の地を得させるためである。 経の「すなわち大楽金剛不空三昧耶を説く」〔即説大楽金剛不空三昧耶〕とは本来の誓いのこと",
+          "context_position": 8288,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "る。 経の「すなわち大楽金剛不空三昧耶を説く」〔即説大楽金剛不空三昧耶〕とは本来の誓いのこと。「心」とは真言の吽字〔ウン〕で",
+          "context_position": 8304,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "始める。心が三摩地を得るのを限りとする。これを名づけて「大楽不空真実修行瑜伽儀軌」とするのである。以上が、大楽不空金剛薩埵の",
+          "context_position": 9752,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "けて「大楽不空真実修行瑜伽儀軌」とするのである。以上が、大楽不空金剛薩埵の初集会品〔第一の集会〕である。経の「そのとき婆伽梵",
+          "context_position": 9777,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "報身・化身として、まさに無上菩提を証るのである。 『大楽金剛不空真実三昧耶経般若波羅蜜多理趣釈』巻上〔終わり〕。 『大楽金剛",
+          "context_position": 12633,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "真実三昧耶経般若波羅蜜多理趣釈』巻上〔終わり〕。 『大楽金剛不空真実三昧経般若波羅蜜多理趣釈』巻下。 大広智〔だいこうち〕、",
+          "context_position": 12665,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "多理趣釈』巻下。 大広智〔だいこうち〕、大興善寺の三蔵沙門・不空が、勅命を奉じて訳す。 経の「そのとき、調伏しがたい者を調伏",
+          "context_position": 12707,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "き婆伽梵」はすでに先に解いたとおり。「一切如来智印如来」とは不空成就の別名である。 「一切如来智印如来」とは不空成就の別名で",
+          "context_position": 18552,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "印如来」とは不空成就の別名である。 「一切如来智印如来」とは不空成就の別名である。「ふたたび説く」もまた先に解いたとおり。「",
+          "context_position": 18576,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、この義を重ねて顕そうとして、にっこりと微笑み、この一切事業不空三昧耶・一切金剛の心〔真言〕を説いた」〔時虚空庫大菩薩欲重顕",
+          "context_position": 24135,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "を説いた」〔時虚空庫大菩薩欲重顕明此義故熙怡微笑説此一切事業不空三昧耶一切金剛心〕とは、先にすでに解いたとおり。心真言は唵字",
+          "context_position": 24181,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "は金剛手が一切如来菩薩の三昧耶に入る加持の三摩地であり、一切不空三昧耶の心〔真言〕を説く」〔応知是金剛手入一切如来菩薩三昧耶",
+          "context_position": 26710,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "〕を説く」〔応知是金剛手入一切如来菩薩三昧耶加持三摩地説一切不空三昧耶心〕とは、先に解いたとおり。吽字の意味は初品で解いたと",
+          "context_position": 26750,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "「ふたたび最もすぐれた、初め・中ほど・終わりのない、大楽金剛不空三昧耶・金剛法性の般若の理趣を説く」〔復説最勝無初中後大楽金",
+          "context_position": 31029,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "昧耶・金剛法性の般若の理趣を説く」〔復説最勝無初中後大楽金剛不空三昧耶金剛法性般若理趣〕とは、後に広く解くべきものである。経",
+          "context_position": 31062,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "最勝成就故即得一切如来摧大力魔最勝成就〕とは、これは大楽金剛不空三昧耶金剛薩埵菩薩の三摩地。経の「菩薩摩訶薩が一切如来の摧大",
+          "context_position": 31414,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "に法を委ね伝える流通の部分〔囑累流通分〕である。 『大楽金剛不空真実三昧耶経般若理趣釈』下巻〔終わり〕。",
+          "context_position": 33065,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "観音",
+      "aliases": [
+        "観世音",
+        "観自在",
+        "avalokiteśvara",
+        "Avalokiteśvara"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "慈悲を司る菩薩。",
+      "sanskrit_canonical": "avalokiteśvara",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "観自在",
+          "count": 20
+        }
+      ],
+      "occurrence_count": 20,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "。 経の「八十倶胝の菩薩衆とともにあり。いわゆる金剛手菩薩・観自在菩薩・虚空蔵菩薩・金剛拳菩薩・文殊師利菩薩・纔発心転法輪菩薩",
+          "context_position": 2496,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "剛薩埵の加持によって普賢の行願を修め証して、如来の地を証る。観自在菩薩は、毘盧遮那の後方の月輪にあって、一切如来の大悲を表す。",
+          "context_position": 2707,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "り、生死にとらわれず、また涅槃にも閉じこもらない。これはみな観自在菩薩の金剛法の現証による。虚空蔵菩薩は、毘盧遮那の右の月輪に",
+          "context_position": 2835,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "願いをかなえる印〔施願〕にして、半跏に坐す。毘盧遮那の後ろに観自在菩薩がいて、左手に蓮華を持ち、右手は華を開かせる勢いにして、",
+          "context_position": 11943,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "面でほほえみながら怒って眉をしかめる」とは、聖者の内なる心は観自在の憐れみの心〔悲愍心〕と響き合って住しつつ、外には忿怒を示す",
+          "context_position": 14427,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "伽梵」は先に解いたとおり。「得自性清浄法性如来」とは、これは観自在王如来の別名である。 「得自性清浄法性如来」とは、観自在王如",
+          "context_position": 14981,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "れは観自在王如来の別名である。 「得自性清浄法性如来」とは、観自在王如来の別名であり、すなわちこの仏を無量寿如来と名づける。も",
+          "context_position": 15009,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "仏国土においては成仏の身を現じ、けがれた五濁の世界に住しては観自在菩薩となる。「ふたたび説く」〔復説〕とは、毘盧遮那仏が観自在",
+          "context_position": 15080,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "観自在菩薩となる。「ふたたび説く」〔復説〕とは、毘盧遮那仏が観自在菩薩となって、一切法の平等から観自在の智印を生み出す般若の理",
+          "context_position": 15110,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "復説〕とは、毘盧遮那仏が観自在菩薩となって、一切法の平等から観自在の智印を生み出す般若の理趣を説くこと。すなわち、四種の、一切",
+          "context_position": 15128,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "猶如蓮華不為客塵諸垢所染疾証無上正等菩提〕について。修行者が観自在菩薩の心真言を保って般若の理趣を成就しようと求めるなら、曼荼",
+          "context_position": 15744,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "般若の理趣を成就しようと求めるなら、曼荼羅を建立せよ。中央に観自在菩薩を、その本来の姿のとおりに描く。前に金剛法を、右に金剛利",
+          "context_position": 15787,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "めをも速やかに滅して、すぐに本性清浄の法門を証る。だからこそ観自在菩薩は手に蓮華を持ち、一切有情の身のうちにある如来蔵の性質、",
+          "context_position": 16374,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "浄の光明は、一切の惑いによっても染められはしない、と観じる。観自在菩薩の加持によって、けがれを離れた清らかさ〔離垢清浄〕を得て",
+          "context_position": 16442,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "楽の国土に生まれて上品上生〔最上の往生〕を得る。この一品は、観自在の心真言を修める行者に通じ、また他の部で瑜伽を修める人をも助",
+          "context_position": 16944,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "通じ、また他の部で瑜伽を修める人をも助けるのである。以上が、観自在菩薩般若理趣会品である。経の「そのとき婆伽梵」は先に解き終え",
+          "context_position": 16988,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "安置する。東門には金剛薩埵菩薩、南門には降三世金剛、西門には観自在菩薩、北門には虚空蔵である。瑜伽の行者が三昧耶を破ってしまっ",
+          "context_position": 22397,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "切有情法性故忿怒法性〕とは、これは蓮華部のなかの馬頭の忿怒の観自在の三摩地。この定によって梵天を調伏し、教化を受けさせて仏道に",
+          "context_position": 24698,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "だからこそ如来は「一切有情は妙法蔵である」と説く。妙法蔵とは観自在菩薩で、仏の大集会においてよく法輪を転じる。経の「一切有情は",
+          "context_position": 27815,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "は、仏法のなかの三宝・三身を表す。仏宝とは金剛薩埵、法宝とは観自在菩薩、僧宝とは虚空蔵菩薩である。この三宝はみな、毘盧遮那の心",
+          "context_position": 29594,
+          "matched_form": "観自在"
+        }
+      ]
+    },
+    {
+      "canonical": "虚空蔵",
+      "aliases": [
+        "虚空蔵菩薩",
+        "ākāśagarbha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧と福徳を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "虚空蔵菩薩",
+          "count": 12
+        },
+        {
+          "form": "虚空蔵",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 17,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "十倶胝の菩薩衆とともにあり。いわゆる金剛手菩薩・観自在菩薩・虚空蔵菩薩・金剛拳菩薩・文殊師利菩薩・纔発心転法輪菩薩・虚空庫菩薩・摧",
+          "context_position": 2502,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "も閉じこもらない。これはみな観自在菩薩の金剛法の現証による。虚空蔵菩薩は、毘盧遮那の右の月輪にあって、一切如来の真如の、ガンジス河",
+          "context_position": 2851,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の砂ほど無数の功徳と福徳・智慧の積み〔福智の資糧聚〕を表す。虚空蔵菩薩の行を修めることで四種の施し〔四種の施〕を行う。これは後で説",
+          "context_position": 2916,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "右手に金剛杵、左手に鈴を持って、半跏に坐す。毘盧遮那仏の右に虚空蔵菩薩がいて、月輪を背に右手に金剛宝を持ち、左手は願いをかなえる印",
+          "context_position": 11886,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "。「一切三界主如来」とは宝生仏のこと。宝生の変化は、すなわち虚空蔵菩薩である。 「一切三界主如来」とは宝生仏のこと。宝生の変化した",
+          "context_position": 17055,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": " 「一切三界主如来」とは宝生仏のこと。宝生の変化したすがたが虚空蔵菩薩である。「ふたたび説く」〔復説〕とは、この菩薩の理趣の修行の",
+          "context_position": 17094,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "〕とは、この菩薩の理趣の修行のこと。「一切如来灌頂智蔵」とは虚空蔵菩薩の別名で、般若の理趣は先に解いたとおり。経の「いわゆる灌頂の",
+          "context_position": 17144,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "ある。あらゆる相手に灌頂を施し与える瑜伽の行者は、自分の身を虚空蔵菩薩と観想し、金剛宝でもって一切如来に灌頂する。「義利の施し」と",
+          "context_position": 17440,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "し」とは、けものの類〔傍生〕に施し与えること。「修行」とは、虚空蔵菩薩の三摩地の行を修めることなので、本来の菩薩の曼荼羅を建立すべ",
+          "context_position": 17601,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "なので、本来の菩薩の曼荼羅を建立すべきである。曼荼羅の中央に虚空蔵菩薩を描く。 本来の姿のとおりに描く。前に金剛宝を、右に金剛光を",
+          "context_position": 17648,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "に虚空に等しい三摩地〔等虚空の三摩地〕と響き合えば、ほどなく虚空蔵菩薩の身を得るのである。 経の「そのとき虚空蔵大菩薩が、この義を",
+          "context_position": 18107,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "・三身を表す。仏宝とは金剛薩埵、法宝とは観自在菩薩、僧宝とは虚空蔵菩薩である。この三宝はみな、毘盧遮那の心の菩提心のなかから流れ出",
+          "context_position": 29604,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "えば、ほどなく虚空蔵菩薩の身を得るのである。 経の「そのとき虚空蔵大菩薩が、この義を重ねて顕そうとして、にっこりと微笑み、金剛",
+          "context_position": 18130,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "ずから首にかけて、一切灌頂三昧耶宝の心〔真言〕を説いた」〔時虚空蔵大菩薩欲重顕明此義故熙怡微笑以金剛宝鬘自繋首説一切潅頂三昧耶",
+          "context_position": 18204,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "陀摩尼宝〕が、よく一切衆生の願いを満たすからである。以上が、虚空蔵品である。経の「そのとき婆伽梵」はすでに先に解いたとおり。「",
+          "context_position": 18508,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "剛薩埵菩薩、南門には降三世金剛、西門には観自在菩薩、北門には虚空蔵である。瑜伽の行者が三昧耶を破ってしまったり、あるいは阿闍梨",
+          "context_position": 22407,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "そ如来は「一切有情は金剛蔵である」と説く。金剛蔵とはすなわち虚空蔵で、金剛宝でもって灌頂を得るのである。経の「一切有情は妙法蔵",
+          "context_position": 27694,
+          "matched_form": "虚空蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 13
+        }
+      ],
+      "occurrence_count": 13,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "を表す。「加持」とは、如来が中道に立って、十六の大菩薩のもつ普賢の智をそなえ、そこから次々に展開し流れ出して、合わせて三十七",
+          "context_position": 733,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "提心を表す。初めて菩提心を起こす者は、金剛薩埵の加持によって普賢の行願を修め証して、如来の地を証る。観自在菩薩は、毘盧遮那の",
+          "context_position": 2687,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "埵の瑜伽の三摩地を修めることで妙適清浄の句を得る。だからこそ普賢菩薩の位を得るのである。 「欲箭〔よくせん・愛欲の矢〕清浄の",
+          "context_position": 5528,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "き合えば、けがれを離れた清らかさ〔離垢清浄〕を得て、そのまま普賢大菩薩を証る。たとえ因縁が調わずに四つの智印を得られなくとも",
+          "context_position": 6465,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "調伏して、余すところなく教化を受けさせる。「一切義成就」とは普賢菩薩の別名である。「金剛手菩薩摩訶薩」とは、この菩薩はもとは",
+          "context_position": 7899,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "菩薩の別名である。「金剛手菩薩摩訶薩」とは、この菩薩はもとは普賢であって、毘盧遮那仏の両手の掌から、じかに五智の金剛杵を受け",
+          "context_position": 7931,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "他ともに深い三摩地でもって仏道に順い、一念一念に高く進んで、普賢菩薩の地を得させるためである。 経の「すなわち大楽金剛不空三",
+          "context_position": 8259,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "である。経の「そのとき婆伽梵・一切平等建立如来」とは、これは普賢菩薩の別名である。 「一切平等建立如来」とは普賢菩薩の別名で",
+          "context_position": 26163,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "とは、これは普賢菩薩の別名である。 「一切平等建立如来」とは普賢菩薩の別名である。経の「ふたたび一切法三昧耶の最もすぐれた出",
+          "context_position": 26187,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "を加持する般若の理趣を説く。いわゆる一切有情は如来蔵である、普賢菩薩が一切の我であるがゆえに」〔復説一切有情加持般若理趣所謂",
+          "context_position": 27480,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "あるがゆえに」〔復説一切有情加持般若理趣所謂一切有情如来蔵以普賢菩薩一切我故〕とは、一切有情は大円鏡智の性を離れていない。だ",
+          "context_position": 27520,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "ていない。だからこそ如来は「一切有情は如来蔵である」と説く。普賢菩薩と同一体であるからである。経の「一切有情は金剛蔵である、",
+          "context_position": 27576,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "これを外の曼荼羅と名づける。もし勝義の見方によれば、すなわち普賢曼荼羅となる。事〔現象〕でもって理〔本質〕を顕すがゆえに、事",
+          "context_position": 28467,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊師利",
+          "count": 11
+        }
+      ],
+      "occurrence_count": 11,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "り。いわゆる金剛手菩薩・観自在菩薩・虚空蔵菩薩・金剛拳菩薩・文殊師利菩薩・纔発心転法輪菩薩・虚空庫菩薩・摧一切魔菩薩、これら大菩",
+          "context_position": 2514,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "昔からの十種の悪業を清め除き、さわりなき究極の智を証得する。文殊師利菩薩は、東南の隅の月輪にあって、一切如来の般若波羅蜜多の智慧",
+          "context_position": 3204,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "伽梵・一切無戯論如来」〔時婆伽梵一切無戲論如来〕とは、これは文殊師利菩薩の別名である。「ふたたび字輪を転じる般若の理趣を説く」〔",
+          "context_position": 20055,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "である。曼荼羅とは、八つの曼荼羅のすがたを並べたもの。中央に文殊師利童子のすがたを描き、四方に四仏を安置する。虚空の智の剣〔虚空",
+          "context_position": 20471,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "げなき弁舌の才〔無礙弁才〕を得て、無量の三摩地の門を証得し、文殊師利菩薩が目の前に現れる。 経の「そのとき文殊師利童真が、この義",
+          "context_position": 20782,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の門を証得し、文殊師利菩薩が目の前に現れる。 経の「そのとき文殊師利童真が、この義を重ねて顕そうとして、にっこりと微笑み、みずか",
+          "context_position": 20805,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "を斬りはらい、この般若波羅蜜多最勝の心〔真言〕を説いた」〔時文殊師利童真欲重顕明此義故熙怡微笑以自剣揮斫一切如来已説此般若波羅蜜",
+          "context_position": 20877,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "れる病〔法執の病〕となる。だからこそ智の増した菩薩は、四種の文殊師利の般若波羅蜜の剣を用いて、四種の成仏の智における、とらえる側",
+          "context_position": 21136,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "・とらえられる側のさわり〔能取所取の障礙〕を断つ。だからこそ文殊師利が四仏の臂を斬りはらうすがたを現じるのである。「般若波羅蜜最",
+          "context_position": 21200,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "その上の出世間上上を、すべてひとまとめにおさめる。だからこそ文殊師利菩薩は、法において自在を得るがゆえに「法王の子」というのであ",
+          "context_position": 21408,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "おいて自在を得るがゆえに「法王の子」というのである。以上が、文殊師利理趣品である。 経の「そのとき婆伽梵・一切如来入大輪如来」〔",
+          "context_position": 21448,
+          "matched_form": "文殊師利"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦牟尼",
+          "count": 3
+        },
+        {
+          "form": "釈迦",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "勅命を奉じて訳す。 経の「そのとき、調伏しがたい者を調伏する釈迦牟尼如来」〔時調伏難調釈迦牟尼如来〕について。この世〔閻浮提〕の",
+          "context_position": 12741,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "そのとき、調伏しがたい者を調伏する釈迦牟尼如来」〔時調伏難調釈迦牟尼如来〕について。この世〔閻浮提〕の五つの濁り〔五濁〕の末法に",
+          "context_position": 12754,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "できる。詳しくは『瑜伽経』などに説くとおりである。だからこそ釈迦牟尼仏は金剛手に告げて言う。 経の「人があってこの理趣を聞き、受",
+          "context_position": 13825,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "八相成道〕を現じ、みなに教化を受けさせて仏道へ至らせる。現に釈迦族の家系に生まれ、そのまま釈迦の氏を姓とする。「牟尼」とは静",
+          "context_position": 12859,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "受けさせて仏道へ至らせる。現に釈迦族の家系に生まれ、そのまま釈迦の氏を姓とする。「牟尼」とは静かでおだやかという意味〔寂静〕",
+          "context_position": 12874,
+          "matched_form": "釈迦"
+        }
+      ]
+    },
+    {
+      "canonical": "法蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第三祖。賢首大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "法蔵",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "空蔵で、金剛宝でもって灌頂を得るのである。経の「一切有情は妙法蔵である、よく一切の言葉を転じるがゆえに」〔一切有情妙法蔵能転",
+          "context_position": 27725,
+          "matched_form": "法蔵"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "は妙法蔵である、よく一切の言葉を転じるがゆえに」〔一切有情妙法蔵能転一切語言故〕とは、一切有情は妙観察智の性を離れていない。",
+          "context_position": 27753,
+          "matched_form": "法蔵"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "は妙観察智の性を離れていない。だからこそ如来は「一切有情は妙法蔵である」と説く。妙法蔵とは観自在菩薩で、仏の大集会においてよ",
+          "context_position": 27800,
+          "matched_form": "法蔵"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "いない。だからこそ如来は「一切有情は妙法蔵である」と説く。妙法蔵とは観自在菩薩で、仏の大集会においてよく法輪を転じる。経の「",
+          "context_position": 27811,
+          "matched_form": "法蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "梵天",
+      "aliases": [
+        "brahmā",
+        "Brahmā"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "色界初禅天の主。",
+      "sanskrit_canonical": "brahmā",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "梵天",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "れは蓮華部のなかの馬頭の忿怒の観自在の三摩地。この定によって梵天を調伏し、教化を受けさせて仏道に入らせる。経の「一切有情が金",
+          "context_position": 24713,
+          "matched_form": "梵天"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "薩を描き、前に魔王天主を、右に大自在天〔摩醯首羅〕を、後ろに梵天を、左に那羅延天を安置する。内の四隅には、四つの部のなかの牙",
+          "context_position": 25702,
+          "matched_form": "梵天"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "法身が、行きわたらない所はないということ。「七母女天」とは、梵天の母をあわせて、八供養の菩薩を表す。事でもって理を顕すのであ",
+          "context_position": 29261,
+          "matched_form": "梵天"
+        }
+      ]
+    },
+    {
+      "canonical": "弥勒",
+      "aliases": [
+        "弥勒菩薩",
+        "慈氏",
+        "maitreya",
+        "Maitreya"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "未来仏。兜率天で待機。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "弥勒",
+          "count": 1
+        },
+        {
+          "form": "慈氏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "」〔何以故一切有情調伏即為菩提〕とは、これはもとは慈氏菩薩〔弥勒〕である。この菩薩は、内には慈しみの定〔慈定〕に入って深く調",
+          "context_position": 24897,
+          "matched_form": "弥勒"
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "菩提である」〔何以故一切有情調伏即為菩提〕とは、これはもとは慈氏菩薩〔弥勒〕である。この菩薩は、内には慈しみの定〔慈定〕に入",
+          "context_position": 24892,
+          "matched_form": "慈氏"
+        }
+      ]
+    },
+    {
+      "canonical": "金剛智",
+      "aliases": [
+        "vajrabodhi",
+        "Vajrabodhi"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第五祖。金剛界の伝持。",
+      "sanskrit_canonical": "vajrabodhi",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "金剛智",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "習慣づけ〔習気〕は、金剛のように砕きがたく堅いけれども、大空金剛智の三摩地を用いることで、それを破って、光明があまねく照らす法",
+          "context_position": 1887,
+          "matched_form": "金剛智"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1800 @@
+{
+  "schema_version": "1.0",
+  "category": "密教教学用語（mikkyo terms）",
+  "source_corpus": "rishushaku.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-15",
+  "extraction_strategy": "辞書ベース（19 語）+ 長語優先 substring 走査 + 周辺梵語注記抽出",
+  "dictionary_size": 19,
+  "gendaigoyaku_length": 33087,
+  "summary": {
+    "unique_terms": 19,
+    "total_occurrences": 258,
+    "kaimyo_suitable_count": 11,
+    "matched_term_count": 11
+  },
+  "entries": [
+    {
+      "term": "三摩地",
+      "term_kana": "",
+      "sanskrit": "samādhi",
+      "definition": "禅定。心を一境に住して散乱を離れた状態。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 105,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "〔習気〕は、金剛のように砕きがたく堅いけれども、大空金剛智の三摩地を用いることで、それを破って、光明があまねく照らす法身の毘盧",
+          "context_position": 1891,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "〔有情〕の、生死に染まる苦悩を抜き救う。そして速やかに清浄な三摩地を証り、生死にとらわれず、また涅槃にも閉じこもらない。これは",
+          "context_position": 2800,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "広大な供養の儀を表す。真言の行をする菩薩は、虚空庫菩薩の瑜伽三摩地を修め得ることで、一瞬のあいだに、身を虚空のすべて・法界のす",
+          "context_position": 3515,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "てはならない。「終わり善く」とは、本尊の瑜伽による、あらゆる三摩地の無量の智の解脱のこと。また別の解き方をすれば、「初め善く」",
+          "context_position": 4252,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "し生けるものを利し楽しませる事をなすがゆえに、速やかに無量の三摩地・解脱・智慧を証るがゆえに、速やかに広大な福徳の積みを集める",
+          "context_position": 4957,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "をもって、最上乗の素質をもつ者を憐れみ、十七種の清浄な瑜伽の三摩地を説くことである。だからこそ、さまざまな経典に「三界はただ心",
+          "context_position": 5104,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "隔てがない。だから蘇囉多と名づけるのである。金剛薩埵の瑜伽の三摩地を修めることで妙適清浄の句を得る。だからこそ普賢菩薩の位を得",
+          "context_position": 5503,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "・愛欲の矢〕清浄の句、これ菩薩の位なり」とは、欲金剛の瑜伽の三摩地を修めて欲箭清浄の句を得、そのゆえに欲金剛菩薩の位を得ること",
+          "context_position": 5581,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、これ菩薩の位なり」とは、金剛髻離吉羅〔けいりきら〕の瑜伽の三摩地を修めて触清浄の句を得、金剛髻離吉羅菩薩の位を得ること。「愛",
+          "context_position": 5651,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "髻離吉羅菩薩の位を得ること。「愛縛清浄の句」とは、愛縛金剛の三摩地を修めて愛金剛菩薩の位を得ること。「一切自在主清浄の句」とは",
+          "context_position": 5698,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "得ること。「一切自在主清浄の句」とは、金剛傲〔ごう・誇り〕の三摩地を修めて金剛傲菩薩の位を得ること。「見清浄の句」とは、意生金",
+          "context_position": 5743,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "めて金剛傲菩薩の位を得ること。「見清浄の句」とは、意生金剛の三摩地を修めて意生金剛菩薩の位を得ること。「適悦清浄の句」とは、適",
+          "context_position": 5778,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "意生金剛菩薩の位を得ること。「適悦清浄の句」とは、適悦金剛の三摩地を修めて適悦金剛菩薩の位を得ること。「愛清浄の句」とは、貪金",
+          "context_position": 5815,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "めて適悦金剛菩薩の位を得ること。「愛清浄の句」とは、貪金剛の三摩地を修めて貪金剛菩薩の位を得ること。「慢清浄の句」とは、金剛慢",
+          "context_position": 5850,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "修めて貪金剛菩薩の位を得ること。「慢清浄の句」とは、金剛慢の三摩地を修めて金剛慢菩薩の位を得ること。「荘厳清浄の句」とは、春金",
+          "context_position": 5884,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "めて金剛慢菩薩の位を得ること。「荘厳清浄の句」とは、春金剛の三摩地を修めて春金剛菩薩の位を得ること。「意滋沢清浄の句」とは、雲",
+          "context_position": 5919,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "て春金剛菩薩の位を得ること。「意滋沢清浄の句」とは、雲金剛の三摩地を修めて意滋沢清浄の句、別名「喜悦清浄の句」を得、雲金剛菩薩",
+          "context_position": 5955,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "得、雲金剛菩薩の位を得ること。「光明清浄の句」とは、秋金剛の三摩地を修めて秋金剛菩薩の位を得ること。「身楽清浄の句」とは、冬金",
+          "context_position": 6011,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "めて秋金剛菩薩の位を得ること。「身楽清浄の句」とは、冬金剛の三摩地を修めて冬金剛菩薩の位を得ること。「色清浄の句、これ菩薩の位",
+          "context_position": 6046,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "位を得ること。「色清浄の句、これ菩薩の位なり」とは、色金剛の三摩地を修めて色清浄の句を得、色金剛菩薩の位を得ること。「声清浄の",
+          "context_position": 6089,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "を得、色金剛菩薩の位を得ること。「声清浄の句」とは、声金剛の三摩地を修めて声金剛菩薩の位を得ること。「香清浄の句」とは、香金剛",
+          "context_position": 6131,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "修めて声金剛菩薩の位を得ること。「香清浄の句」とは、香金剛の三摩地を修めて香金剛菩薩の位を得ること。「味清浄の句」とは、味金剛",
+          "context_position": 6165,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "修めて香金剛菩薩の位を得ること。「味清浄の句」とは、味金剛の三摩地を修めて味金剛菩薩の位を得ることである。 経の「なにゆえか。",
+          "context_position": 6199,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、心にとどめて思いめぐらせば、この生のうちに一切法平等の金剛三摩地を証り、すべての法に自在を得て、無量のよろこびを受け、十六大",
+          "context_position": 6741,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "って無上の正等菩提を証得する。「現証」とは、瑜伽の行者が証る三摩地の境地のこと。「三昧耶」とは、本来の誓い〔本誓〕の意で、ある",
+          "context_position": 7570,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の金剛杵を投げあげ、勇み進む勢いをなす」とは、自他ともに深い三摩地でもって仏道に順い、一念一念に高く進んで、普賢菩薩の地を得さ",
+          "context_position": 8235,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "閼伽〔あか・供えの水〕を捧げ、そのまま四つの智印と響き合って三摩地の念誦に入る。あるいは瑜伽の行者が、中央の位の三摩地のなかに",
+          "context_position": 9596,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "き合って三摩地の念誦に入る。あるいは瑜伽の行者が、中央の位の三摩地のなかに坐して、先のように布列する。そして十七字の真言を誦し",
+          "context_position": 9622,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "り、第十七の位まで至って一巡したら、また初めから始める。心が三摩地を得るのを限りとする。これを名づけて「大楽不空真実修行瑜伽儀",
+          "context_position": 9728,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "頼耶〔阿頼耶識〕が大円鏡智と響き合うことで、堅固で漏れのない三摩地を証得し、始まりのない無明の根本〔無明住地〕の微細な煩悩をよ",
+          "context_position": 10069,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "て長く高い声で、アン字は「等覚」の意味。はてしない智の解脱・三摩地・陀羅尼門を証することで、四種の魔を打ち伏せ、十方の一切如来",
+          "context_position": 11414,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "に置く。毘盧遮那仏が正しい等しい覚りを成すのは、四種の瑜伽の三摩地による。すなわち金剛薩埵・金剛宝・金剛法・金剛羯磨の瑜伽の三",
+          "context_position": 12154,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "地による。すなわち金剛薩埵・金剛宝・金剛法・金剛羯磨の瑜伽の三摩地である。金剛薩埵から羯磨に至るまで、順に嬉・戯・鬘・歌・舞な",
+          "context_position": 12186,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "示す。貪りにとらわれない、論議を超えた性〔欲無戯論性〕の瑜伽三摩地に入るがゆえに、怒りにとらわれない論議を超えた性をすべて得、",
+          "context_position": 13243,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "怒りにとらわれない論議を超えた性をすべて得、怒りの無戯論性の三摩地に入るがゆえに、おろかさの無戯論性をすべて得、おろかさの無戯",
+          "context_position": 13284,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "がゆえに、おろかさの無戯論性をすべて得、おろかさの無戯論性の三摩地に入るがゆえに、一切法の無戯論性を得、一切法無戯論性の三摩地",
+          "context_position": 13320,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "三摩地に入るがゆえに、一切法の無戯論性を得、一切法無戯論性の三摩地に入るがゆえに、般若波羅蜜多の無戯論性を得る。この五種の無戯",
+          "context_position": 13350,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "する。一つひとつ、先の四種曼荼羅のとおりで、みな降伏をもって三摩地とする。修行者が三界・九地の煩悩という敵を降伏させようとして",
+          "context_position": 13561,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "する悪人を降伏させようと思うなら、心を運んで五種無戯論の瑜伽三摩地に入るべきである。みずから降三世の瑜伽の大智印となり、四つの",
+          "context_position": 13671,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "のうち第三の忿怒の眼の意味。「鋭い牙を現す」とは、金剛薬叉の三摩地と響き合うこと。「降伏の立ち姿に住す」とは、降三世の立ち姿の",
+          "context_position": 14512,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "きわたり、また初めから始める。これによって修行すれば、無量の三摩地を証得し、たちまち福徳と智慧を集め、これを成仏の積み〔資糧〕",
+          "context_position": 14841,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "四種の、一切の煩悩および付随する煩悩〔随煩悩〕に染められない三摩地の法を説く。経の「いわゆる世間の一切の欲が清浄であるがゆえに",
+          "context_position": 15185,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "〔所謂世間一切欲清浄故則一切瞋清浄〕とは、これは金剛法菩薩の三摩地である。経の「世間の一切の垢が清浄であるがゆえに、一切の罪も",
+          "context_position": 15261,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "浄」〔世間一切垢清浄故則一切罪清浄〕とは、これは金剛利菩薩の三摩地である。経の「一切法が清浄であるがゆえに、一切有情も清浄」〔",
+          "context_position": 15325,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "清浄」〔一切法清浄故則一切有情清浄〕とは、これは金剛因菩薩の三摩地である。経の「世間の一切智智が清浄であるがゆえに、般若波羅蜜",
+          "context_position": 15384,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "世間一切智智清浄則般若波羅蜜多清浄〕とは、これは金剛語菩薩の三摩地である。瑜伽の行者は、この四種の清浄な菩薩の三摩地を受けるこ",
+          "context_position": 15453,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "剛語菩薩の三摩地である。瑜伽の行者は、この四種の清浄な菩薩の三摩地を受けることで、世間において悲願をもって六道に生じても、一切",
+          "context_position": 15478,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "まり汚されないこと、ちょうど泥のなかの蓮華のようである。この三摩地によって、よくさまざまな染め〔雑染〕を清める。だからこそ仏は",
+          "context_position": 15546,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "交会〕によって五塵の大いなる仏事を成す、と説くのである。この三摩地でもって一切如来に捧げれば、いつわりの心から起こる染めをも速",
+          "context_position": 16315,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "を得る」〔以潅頂施故能得三界法王位〕とは、これは金剛宝菩薩の三摩地の行。経の「義利の施し〔義利施〕によって一切の意願の満足を得",
+          "context_position": 17227,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "足を得る」〔義利施故得一切意願満足〕とは、これは金剛光菩薩の三摩地。経の「法の施し〔法施〕によって一切法の円満を得る」〔以法施",
+          "context_position": 17287,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "円満を得る」〔以法施故得円満一切法〕とは、これは金剛幢菩薩の三摩地の行。経の「資生の施し〔資生施〕によって身・口・意の一切の安",
+          "context_position": 17340,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "を得る」〔資生施故得身口意一切安楽〕とは、これは金剛笑菩薩の三摩地の行である。あらゆる相手に灌頂を施し与える瑜伽の行者は、自分",
+          "context_position": 17404,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "ものの類〔傍生〕に施し与えること。「修行」とは、虚空蔵菩薩の三摩地の行を修めることなので、本来の菩薩の曼荼羅を建立すべきである",
+          "context_position": 17607,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "〕が清らかで、心に物惜しみ〔慳吝〕がなく、つねに虚空に等しい三摩地〔等虚空の三摩地〕と響き合えば、ほどなく虚空蔵菩薩の身を得る",
+          "context_position": 18084,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "に物惜しみ〔慳吝〕がなく、つねに虚空に等しい三摩地〔等虚空の三摩地〕と響き合えば、ほどなく虚空蔵菩薩の身を得るのである。 経の",
+          "context_position": 18092,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "る」〔持一切如来身印則為一切如来身〕とは、これは金剛業菩薩の三摩地の身。真言の行者は、身の加持を得ることでさわりなき身を得て、",
+          "context_position": 18735,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "る」〔持一切如来語印則得一切如来法〕とは、これは金剛護菩薩の三摩地と名づける。この三摩地によって、あまねくはてしない有情の世界",
+          "context_position": 18842,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "得一切如来法〕とは、これは金剛護菩薩の三摩地と名づける。この三摩地によって、あまねくはてしない有情の世界を護る。つねに大慈のよ",
+          "context_position": 18853,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "れない法身を得る。経の「一切如来の心の印を持てば、一切如来の三摩地を証る」〔持一切如来心印則証一切如来三摩地〕とは、真言の行者",
+          "context_position": 18939,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "持てば、一切如来の三摩地を証る」〔持一切如来心印則証一切如来三摩地〕とは、真言の行者が金剛薬叉の三摩地を得ることで、蔵識のなか",
+          "context_position": 18960,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "一切如来心印則証一切如来三摩地〕とは、真言の行者が金剛薬叉の三摩地を得ることで、蔵識のなかの殺害の心、染めの種子〔雑染の種子〕",
+          "context_position": 18978,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の心、染めの種子〔雑染の種子〕を尽くし、大いなる方便・大悲の三摩地を得させる。これは調伏のために、威猛なる忿怒の金剛薬叉菩薩の",
+          "context_position": 19026,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "一切如来身口意業最勝悉地〕とは、瑜伽を修める者が金剛拳菩薩の三摩地を得ることで、一切の真言の教えのなかの三密の門を成就すること",
+          "context_position": 19161,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "にゆき、その広さは法界に等しく、一巡したらまた始める。一切の三摩地がみな目の前に現れる。悪字〔アク〕は涅槃の意味で、四種の涅槃",
+          "context_position": 19750,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "説く」〔復説転字輪般若理趣〕の「字輪を転じる」とは、五字輪の三摩地のこと。経の「いわゆる諸法は空であって、無自性と響き合うがゆ",
+          "context_position": 20115,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "与無自性相応故〕とは、これは金剛界曼荼羅のなかの金剛利菩薩の三摩地。経の「諸法は無相であって、無相の性と響き合うがゆえに」〔諸",
+          "context_position": 20187,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "相性相応故〕とは、これは降三世曼荼羅のなかの忿怒金剛利菩薩の三摩地。経の「諸法は無願であって、無願と響き合うがゆえに」〔諸法無",
+          "context_position": 20255,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "はあまねく調伏する曼荼羅〔遍調伏曼荼羅〕のなかの蓮華利菩薩の三摩地。経の「諸法は光明であって、般若波羅蜜多が清浄なるがゆえに」",
+          "context_position": 20331,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "般若波羅蜜多清浄故〕とは、一切義成就曼荼羅のなかの宝利菩薩の三摩地である。瑜伽を修める者が般若波羅蜜多を成就しようと思うなら、",
+          "context_position": 20399,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "よ。ほどなく、さまたげなき弁舌の才〔無礙弁才〕を得て、無量の三摩地の門を証得し、文殊師利菩薩が目の前に現れる。 経の「そのとき",
+          "context_position": 20772,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "〔入金剛平等則入一切如来法輪〕とは、この般若の理趣の金剛輪の三摩地にかなうことで、金剛界に入ることになる。金剛界の六種の曼荼羅",
+          "context_position": 21626,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "入る」〔入一切法平等則入妙法輪〕とは、この般若の理趣の蓮華輪三摩地にかなうことで、遍調伏に入ることになる。遍調伏の六種の曼荼羅",
+          "context_position": 21847,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "」〔入一切業平等則入一切事業輪〕とは、この般若の理趣の羯磨輪三摩地にかなうことで、一切義成就に入ることになる。一切義成就の六種",
+          "context_position": 22005,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "吽字である。吽字は四輪の意味をそなえている。もし金剛輪菩薩の三摩地を修めるなら、曼荼羅を建立すべきである。八輻の輪〔八本のスポ",
+          "context_position": 22227,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "も、この輪壇を建立することで、もとの阿闍梨の位に復し、一切の三摩地・真言を修めるのに速やかに成就を得る。もし弟子を引き入れたり",
+          "context_position": 22484,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "所謂発菩提心則為於諸如来広大供養〕とは、これは金剛嬉戯菩薩の三摩地である。「菩提心」の意味は、一切如来は菩提心を成仏の強い縁〔",
+          "context_position": 22844,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "〔救済一切衆生則為於諸如来広大供養〕とは、これは金剛鬘菩薩の三摩地。清らかな信心によって仏法の大海に入り、七宝の思いのままの宝",
+          "context_position": 22979,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "る」〔受持妙典則為於諸如来広大供養〕とは、これは金剛歌菩薩の三摩地。この三摩地によって、仏の集会のなかで、一切の大乗の深い般若",
+          "context_position": 23137,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "典則為於諸如来広大供養〕とは、これは金剛歌菩薩の三摩地。この三摩地によって、仏の集会のなかで、一切の大乗の深い般若波羅蜜をよく",
+          "context_position": 23143,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "習種種供養則為於諸如来広大供養〕とは、これは金剛舞供養菩薩の三摩地。大いなる精進によって、金剛のたくみな技〔金剛毘首羯磨〕の解",
+          "context_position": 23304,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "て、心を運び法界にあまねくゆきわたって、また始める。ついには三摩地が目の前に現れる。あるいはみずから入り、他者をこの曼荼羅に入",
+          "context_position": 23952,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "般若理趣所謂一切有情平等故忿怒平等〕とは、これは金剛降三世の三摩地。この定によって他化自在天の魔王を調伏して教化を受けさせ、仏",
+          "context_position": 24501,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "切有情調伏故忿怒調伏〕とは、これは宝部のなかの宝金剛の忿怒の三摩地。この定によって、よく大自在天〔摩醯首羅〕を調伏し、教化を受",
+          "context_position": 24597,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "性故忿怒法性〕とは、これは蓮華部のなかの馬頭の忿怒の観自在の三摩地。この定によって梵天を調伏し、教化を受けさせて仏道に入らせる",
+          "context_position": 24702,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "一切有情金剛性故忿怒金剛性〕とは、これは羯磨部のなかの羯磨の三摩地。この定によって那羅延〔ナーラーヤナ〕を調伏し、教化を受けさ",
+          "context_position": 24793,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "諸天は、我にとらわれ法にとらわれる。彼らを調伏して金剛薬叉の三摩地に入らせる。すなわちこの菩薩の一字心の真言を思い、一切法本不",
+          "context_position": 25455,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "向けて心を運び、法界にゆきわたってあまねく、また始める。この三摩地の修行によって、たとえ三界のなかの一切有情がことごとく魔とな",
+          "context_position": 26025,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の「知るべし、これは金剛手が一切如来菩薩の三昧耶に入る加持の三摩地であり、一切不空三昧耶の心〔真言〕を説く」〔応知是金剛手入一",
+          "context_position": 26701,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "耶の心〔真言〕を説く」〔応知是金剛手入一切如来菩薩三昧耶加持三摩地説一切不空三昧耶心〕とは、先に解いたとおり。吽字の意味は初品",
+          "context_position": 26744,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "剛手菩薩を移し出し、みずからその内に居て、自身が降三世金剛の三摩地をなすと観想し、かの五類に命じる印を結び、金剛手の一字の明を",
+          "context_position": 27299,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "ようと思うなら、この一字と響き合え。そうすれば世間・出世間の三摩地にかなって、威徳が自在となる。見る者はみな歓喜を得る。求める",
+          "context_position": 30072,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "遮那得一切秘密法性無戲論如来〕とは、後に説くべき五種の秘密の三摩地のことである。経の「ふたたび最もすぐれた、初め・中ほど・終わ",
+          "context_position": 30987,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "薩大欲最勝成就故得大楽最勝成就〕とは、これは欲金剛明妃菩薩の三摩地。経の「菩薩摩訶薩が大楽の最もすぐれた成就を得るがゆえに、す",
+          "context_position": 31191,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "得一切如来大菩提最勝成就〕とは、これは金剛髻梨吉羅明妃菩薩の三摩地。経の「菩薩摩訶薩が一切如来の大菩提の最もすぐれた成就を得る",
+          "context_position": 31292,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "大力魔最勝成就〕とは、これは大楽金剛不空三昧耶金剛薩埵菩薩の三摩地。経の「菩薩摩訶薩が一切如来の摧大力魔の最もすぐれた成就を得",
+          "context_position": 31426,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "最勝成就故即得遍三界自在主成就〕とは、これは愛金剛明妃菩薩の三摩地。経の「菩薩摩訶薩が遍三界自在主の成就を得るがゆえに、すなわ",
+          "context_position": 31540,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "有情住著沈淪…最勝究竟皆悉成就〕とは、これは金剛慢明妃菩薩の三摩地である。この五種の三摩地は、秘密のなかでも最も秘密である。 ",
+          "context_position": 31735,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "悉成就〕とは、これは金剛慢明妃菩薩の三摩地である。この五種の三摩地は、秘密のなかでも最も秘密である。 今、修行の曼荼羅のすがた",
+          "context_position": 31747,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "者乃至尽生死恒作衆生利而不取涅槃〕とは、これは金剛薩埵菩薩の三摩地の行願の意味で、右の文のとおり知るべきである。「般若と方便と",
+          "context_position": 32050,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "智度悉加持諸法及諸有一切皆清浄〕とは、これは欲金剛明妃菩薩の三摩地の行で、般若波羅蜜の意味におさまる。「欲などが世間を調え、清",
+          "context_position": 32162,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "得浄除故有頂及悪趣調伏尽諸有〕とは、これは金剛髻梨吉羅明妃の三摩地の行で、大いなる静慮〔大静慮〕の意味におさまる。「蓮華の本体",
+          "context_position": 32271,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "本浄不為垢所染諸欲性亦然不染離群生〕とは、これは愛金剛明妃の三摩地の行で、大悲におさまる。「大いなる欲は清浄を得て、大いなる安",
+          "context_position": 32395,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "清浄大安楽富饒三界得自在能作堅固利〕とは、これは金剛慢明妃の三摩地の行で、大いなる精進〔大精進〕におさまる。無上菩提を成す要〔",
+          "context_position": 32496,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、これが般若波羅蜜。第二に大いなる静慮〔大静慮〕で、これが大三摩地。第三に大悲で、生死の苦に疲れ飽きない。第四に大いなる精進で",
+          "context_position": 32619,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "真言",
+      "term_kana": "",
+      "sanskrit": "mantra",
+      "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "occurrence_count": 55,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "の性質〔本有の如来蔵性〕に加持を施し、金剛の加持を起こして、真言の行を修める菩薩としての器〔法器〕に育てあげる。そうして、明",
+          "context_position": 1116,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "〔身・口・意の三密〕が金剛拳菩薩の手のうちにあることを表す。真言の行をする菩薩が、輪壇〔曼荼羅の壇〕に入って灌頂を得、如来の",
+          "context_position": 3099,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "。すなわち金剛界輪・降三世輪・遍調伏輪・一切義成就輪である。真言の行を修める菩薩は、このような輪に入ることで、四種の智印に依",
+          "context_position": 3393,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "庫菩薩は、西北の隅にあって、一切如来の広大な供養の儀を表す。真言の行をする菩薩は、虚空庫菩薩の瑜伽三摩地を修め得ることで、一",
+          "context_position": 3496,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "と方便である。以上に説いたような諸菩薩のうちに、一切の仏法の真言門と、すべての顕教の大乗とが包み込まれている。 経の「これら",
+          "context_position": 3954,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "密・契印〕のこと。「中ほど善く」とは、一切如来の言葉の秘密、真言・陀羅尼〔語密〕のこと。これは法王たる仏の命令〔教勅〕であっ",
+          "context_position": 4184,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "剛を投げあげ、勇み進む勢いをなして、大楽金剛不空三昧耶の心〔真言〕を説いた」〔時婆伽梵一切如来大乗現証三昧耶一切曼茶羅持金剛",
+          "context_position": 7290,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "」〔即説大楽金剛不空三昧耶〕とは本来の誓いのこと。「心」とは真言の吽字〔ウン〕である。吽字は「因」の意味で、「因」とはすなわ",
+          "context_position": 8326,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "中道にかなうのである。 唵字〔オン〕は金剛薩埵の法智印の明〔真言〕、麼字は欲金剛の法智印の明、賀字は金剛悦喜の法智印の明、蘇",
+          "context_position": 8766,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、薩多鑁字〔サタバン〕は味金剛の法智印の明である。この密言〔真言〕の十七字が、すなわち十七菩薩の種子〔種字〕となる。これがそ",
+          "context_position": 9038,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "位の三摩地のなかに坐して、先のように布列する。そして十七字の真言を誦し、心に一つひとつの理趣清浄の句を観じ、一つひとつの理趣",
+          "context_position": 9650,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "――「にっこりと微笑み、智拳印を持して、一切法自性平等の心〔真言〕を説いた」〔熙怡微笑持智拳印説一切法自性平等心〕について。",
+          "context_position": 11004,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "結使〕をそなえていても、わずかに毘盧遮那の大智印を結び、心に真言を誦せば、遍照尊と等しくなって、そのまま世間のすぐれた供養を",
+          "context_position": 11117,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、ということを表す。だからこの微笑があるのである。アク字の心真言とは、つぶさには四字を含んで一体となす。阿字〔ア〕は菩提心の",
+          "context_position": 11206,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の理趣を成就しようと思うなら、中央の位に住して、毘盧遮那仏の真言を誦すべきである。バザラダドアーク〔毘盧遮那の心真言〕。みず",
+          "context_position": 12384,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "遮那仏の真言を誦すべきである。バザラダドアーク〔毘盧遮那の心真言〕。みずから本尊との瑜伽をなし、四字の明でもって曼荼羅の聖衆",
+          "context_position": 12410,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "み、鋭い牙を現し、降伏の立ち姿に住して、この金剛吽迦囉の心〔真言〕を説いた」〔時金剛手大菩薩欲重顕明此義故持降三世印…説此金",
+          "context_position": 14276,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "塵諸垢所染疾証無上正等菩提〕について。修行者が観自在菩薩の心真言を保って般若の理趣を成就しようと求めるなら、曼荼羅を建立せよ",
+          "context_position": 15751,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "をなし、心に聖衆を並べて取り囲ませ、四字の明でまねき請い、心真言を誦し、四種の清浄の般若の理趣を誦して一つひとつの門に入り、",
+          "context_position": 16036,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "しくなるのである。 紇利字〔キリーク〕は四字をそなえて一字の真言を成す。賀字〔カ〕の門は「一切法は因が不可得」の意味、囉字〔",
+          "context_position": 16510,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "法の音を奏でる。広い経に説くとおりである。もし人がこの一字の真言を保てば、よく一切の災いや疾病を除き、命を終えたのち、安楽の",
+          "context_position": 16884,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "生まれて上品上生〔最上の往生〕を得る。この一品は、観自在の心真言を修める行者に通じ、また他の部で瑜伽を修める人をも助けるので",
+          "context_position": 16949,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "なし、諸の聖衆に取り囲まれ、四字の明でまねき請い、そのまま心真言を誦して、四種の理趣門でもって心を運び法界にゆきわたる。貧し",
+          "context_position": 17987,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の鬘〔かんむり〕をみずから首にかけて、一切灌頂三昧耶宝の心〔真言〕を説いた」〔時虚空蔵大菩薩欲重顕明此義故熙怡微笑以金剛宝鬘",
+          "context_position": 18194,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "う」、莽字〔マ〕は「一切法は無我」の意味である。つねにこの心真言と響き合うがゆえに、身も心も、虚空のようにさわりがない。蔵を",
+          "context_position": 18364,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "如来身印則為一切如来身〕とは、これは金剛業菩薩の三摩地の身。真言の行者は、身の加持を得ることでさわりなき身を得て、はてしない",
+          "context_position": 18741,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "来の三摩地を証る」〔持一切如来心印則証一切如来三摩地〕とは、真言の行者が金剛薬叉の三摩地を得ることで、蔵識のなかの殺害の心、",
+          "context_position": 18967,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "とは、瑜伽を修める者が金剛拳菩薩の三摩地を得ることで、一切の真言の教えのなかの三密の門を成就すること。だからこそ広い瑜伽のな",
+          "context_position": 19174,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "観想し、四字の明でもって一切の聖衆をまねき請え。そして一字の真言を誦し、四種の金剛拳の般若の理趣を誦せ。すぐに心を運んで一つ",
+          "context_position": 19681,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "大三昧耶印を持して、この一切堅固金剛印悉地三昧耶自真実の心〔真言〕を説いた」〔時婆伽梵為欲顕明此義故熙怡微笑持金剛拳大三昧耶",
+          "context_position": 19877,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "ずからの剣で一切如来を斬りはらい、この般若波羅蜜多最勝の心〔真言〕を説いた」〔時文殊師利童真欲重顕明此義故熙怡微笑以自剣揮斫",
+          "context_position": 20867,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "して、にっこりと微笑み、金剛輪を転じて、一切金剛三昧耶の心〔真言〕を説いた」〔纔発心転法輪大菩薩欲重顕明此義故熙怡微笑転金剛",
+          "context_position": 22106,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "輪壇を建立することで、もとの阿闍梨の位に復し、一切の三摩地・真言を修めるのに速やかに成就を得る。もし弟子を引き入れたり、ある",
+          "context_position": 22488,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "坐し、心を運んで諸の聖衆を並べ、四字の明で聖衆を請い、一字の真言を誦し、次に四種の輪の般若の理趣を誦し、心を運んであまねく法",
+          "context_position": 22605,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "伽の観をなし、聖衆に取り囲まれ、四字の明でまねき請い、一字の真言を保ち、四種の般若の理趣を誦して、心を運び法界にあまねくゆき",
+          "context_position": 23905,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "るいはみずから入り、他者をこの曼荼羅に入らせ、そののち一字の真言を受持し、あるいは香や華などのさまざまな供養の具を加える。も",
+          "context_position": 23995,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "て、にっこりと微笑み、この一切事業不空三昧耶・一切金剛の心〔真言〕を説いた」〔時虚空庫大菩薩欲重顕明此義故熙怡微笑説此一切事",
+          "context_position": 24148,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "切事業不空三昧耶一切金剛心〕とは、先にすでに解いたとおり。心真言は唵字〔オン〕である。唵字は三身〔法身・報身・応身〕の意味。",
+          "context_position": 24208,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "い。すなわち、因の位にある仏である。経の「金剛忿怒大笑の心〔真言〕を説いた」〔説金剛忿怒大笑心〕とは、これは金剛薬叉菩薩の大",
+          "context_position": 25273,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "伏して金剛薬叉の三摩地に入らせる。すなわちこの菩薩の一字心の真言を思い、一切法本不生の門に入れば、一切の煩悩の因を離れる。煩",
+          "context_position": 25477,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "来菩薩の三昧耶に入る加持の三摩地であり、一切不空三昧耶の心〔真言〕を説く」〔応知是金剛手入一切如来菩薩三昧耶加持三摩地説一切",
+          "context_position": 26718,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "れ本来の天に配して向かい合わせる。この曼荼羅の前で一字の心〔真言〕を誦し持ち、あわせて四種の般若の理趣を修し、心を運んで法界",
+          "context_position": 27180,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、かの五類に命じる印を結び、金剛手の一字の明を誦し、かの天の真言を誦せ。たがいに和して誦せば、みな使いこなすことができ、求め",
+          "context_position": 27339,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "義を重ねて顕そうとして、歓喜の声をなし、金剛自在自真実の心〔真言〕を説いた」〔時外金剛部欲重顕明此義故作歓喜声説金剛自在自真",
+          "context_position": 28073,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "部」とは、大自在天〔摩醯首羅〕など二十五種類の諸天のこと。心真言とは怛唎字〔タリ〕である。怛字〔タ〕は「真如」の意味。真如に",
+          "context_position": 28147,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "が仏の足に頭を礼し、鉤召・摂入・能殺・能成の三昧耶真実の心〔真言〕を捧げた」〔爾時七母女天頂礼仏足献奉鉤召摂入能殺能成三昧耶",
+          "context_position": 28624,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "う者を殺すこと、すなわち善くない心を殺すこと。「能成」とは、真言の行者に、世間のさまたげ〔障難〕を離れさせ、速やかに成就〔悉",
+          "context_position": 28834,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "麼度羯囉天の三兄弟などが、親しく仏の足を礼し、みずからの心の真言を捧げた」〔爾時麼度羯囉天三兄弟等親礼仏足献自心真言〕につい",
+          "context_position": 29347,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "らの心の真言を捧げた」〔爾時麼度羯囉天三兄弟等親礼仏足献自心真言〕について。麼度羯囉〔まどから〕の三兄弟とは、梵王と那羅延〔",
+          "context_position": 29373,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "弟集会品である。 経の「そのとき四姉妹女天が、みずからの心の真言を捧げた」〔爾時四姉妹女天献自心真言〕について。その第一を惹",
+          "context_position": 29708,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "妹女天が、みずからの心の真言を捧げた」〔爾時四姉妹女天献自心真言〕について。その第一を惹耶〔じゃや・ジャヤー〕、第二を微惹耶",
+          "context_position": 29726,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "蜜・浄波羅蜜である。都牟盧は毘盧遮那仏を表す。谽字〔カン〕の真言は「一切法は因が不可得」。その真言のなかに莽字〔マ〕を帯びて",
+          "context_position": 29965,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "那仏を表す。谽字〔カン〕の真言は「一切法は因が不可得」。その真言のなかに莽字〔マ〕を帯びていて、「一切法は我が不可得」をあら",
+          "context_position": 29982,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "おりである――薦福大和尚の金泥瑜伽曼荼羅がこれである――。心真言を説かないわけは、かの教えのなかでは、一人ひとりの聖衆それぞ",
+          "context_position": 30830,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "けは、かの教えのなかでは、一人ひとりの聖衆それぞれに一字の心真言があって、つぶさに載せきれないからである。今はおおまかに方角",
+          "context_position": 30868,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "遮那",
+      "term_kana": "",
+      "sanskrit": "Vairocana",
+      "definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "遮",
+        "那"
+      ],
+      "occurrence_count": 41,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "正で厳かであること〔端厳〕などをいう。「成就殊勝」とは、毘盧遮那仏がみずから覚った聖なる智〔自覚聖智〕のことである。「一切如",
+          "context_position": 534,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "のである。 経の「常恒三世一切時の身語意業の、金剛なる大毘盧遮那如来」〔常恒三世一切時身語意業金剛大毘盧遮那如来〕について。",
+          "context_position": 1544,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、金剛なる大毘盧遮那如来」〔常恒三世一切時身語意業金剛大毘盧遮那如来〕について。「常恒」とは、如来の清浄な法界の智〔清浄法界",
+          "context_position": 1566,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "を用いることで、それを破って、光明があまねく照らす法身の毘盧遮那如来を証得するのである。 経の「欲界の他化自在天の王宮の中、",
+          "context_position": 1924,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "五欲がとりわけすぐれ、ほかの諸天を超えている。だからこそ毘盧遮那仏は金剛薩埵となって、大いなる楽しみと大いなる貪りの染め〔大",
+          "context_position": 2193,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "殿とは、大楽不空金剛薩埵の大曼荼羅にほかならない。すべて毘盧遮那仏の福徳の積み〔福徳資糧〕から生まれ出た、金剛のように大いに",
+          "context_position": 2334,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "四つの門をもち、八本の柱・八つの位を並べる。中央の位は、毘盧遮那遍照如来がみずから証る智の解脱〔内証の智解脱〕である。八つの",
+          "context_position": 2424,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "をもつ十倶胝〔きわめて多数〕の眷属がいる。金剛手菩薩は、毘盧遮那の前方の月輪の中にあって、一切如来の菩提心を表す。初めて菩提",
+          "context_position": 2636,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "て普賢の行願を修め証して、如来の地を証る。観自在菩薩は、毘盧遮那の後方の月輪にあって、一切如来の大悲を表す。縁に随って六道〔",
+          "context_position": 2716,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "これはみな観自在菩薩の金剛法の現証による。虚空蔵菩薩は、毘盧遮那の右の月輪にあって、一切如来の真如の、ガンジス河の砂ほど無数",
+          "context_position": 2860,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "用身・変化身を生み出す資糧となるのである。金剛拳菩薩は、毘盧遮那の左の月輪にあって、一切如来の三種の秘密〔身・口・意の三密〕",
+          "context_position": 3047,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "有聞此清浄出生句般若理趣…獲得如来及執金剛位〕について。毘盧遮那仏が大衆の中にあって、未来に瑜伽を修める者のため、また諸の十",
+          "context_position": 6837,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "金剛薩埵菩薩から金剛拳菩薩までとなり、最後の身でそのまま毘盧遮那の身となる、と説くのである。 経の「そのとき婆伽梵は、一切如",
+          "context_position": 7108,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "「金剛手菩薩摩訶薩」とは、この菩薩はもとは普賢であって、毘盧遮那仏の両手の掌から、じかに五智の金剛杵を受け、そのまま灌頂を授",
+          "context_position": 7940,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "薩埵の初集会品〔第一の集会〕である。経の「そのとき婆伽梵毘盧遮那如来」〔時婆伽梵毘盧遮那如来〕について。「婆伽梵」は先に解い",
+          "context_position": 9811,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "会〕である。経の「そのとき婆伽梵毘盧遮那如来」〔時婆伽梵毘盧遮那如来〕について。「婆伽梵」は先に解いたとおり。毘盧遮那如来は",
+          "context_position": 9823,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "梵毘盧遮那如来〕について。「婆伽梵」は先に解いたとおり。毘盧遮那如来は「遍照」と名づける報身仏で、色界の頂の第四禅・色究竟天",
+          "context_position": 9850,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、あらゆる煩悩のからみ〔結使〕をそなえていても、わずかに毘盧遮那の大智印を結び、心に真言を誦せば、遍照尊と等しくなって、その",
+          "context_position": 11105,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "証って、ほかのさまざまな乗とは同じでない。この四字こそ、毘盧遮那仏がみずから覚った聖なる智の、四種の智の解脱なのである。 外",
+          "context_position": 11644,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "四は金剛羯磨菩薩である。修行者は曼荼羅を建立せよ。中央は毘盧遮那仏で、月輪を背にし、頭の冠に瓔珞をかけ、白い薄絹の衣〔白穀繒",
+          "context_position": 11754,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "結び、師子の座に坐す。身は月の宮殿〔月殿〕のようである。毘盧遮那仏の前に金剛薩埵菩薩がいて、月輪を背に五仏の冠をいただき、右",
+          "context_position": 11825,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "をいただき、右手に金剛杵、左手に鈴を持って、半跏に坐す。毘盧遮那仏の右に虚空蔵菩薩がいて、月輪を背に右手に金剛宝を持ち、左手",
+          "context_position": 11880,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "持ち、左手は願いをかなえる印〔施願〕にして、半跏に坐す。毘盧遮那の後ろに観自在菩薩がいて、左手に蓮華を持ち、右手は華を開かせ",
+          "context_position": 11937,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "華を持ち、右手は華を開かせる勢いにして、また半跏に坐す。毘盧遮那仏の左の月輪に金剛羯磨菩薩がいて、両手で舞いめぐらす印〔旋舞",
+          "context_position": 11986,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "門には鉤・索・鎖・鈴の菩薩を、各々その威儀のままに置く。毘盧遮那仏が正しい等しい覚りを成すのは、四種の瑜伽の三摩地による。す",
+          "context_position": 12130,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "者が般若の理趣を成就しようと思うなら、中央の位に住して、毘盧遮那仏の真言を誦すべきである。バザラダドアーク〔毘盧遮那の心真言",
+          "context_position": 12380,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "て、毘盧遮那仏の真言を誦すべきである。バザラダドアーク〔毘盧遮那の心真言〕。みずから本尊との瑜伽をなし、四字の明でもって曼荼",
+          "context_position": 12406,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "し、この生のうちに菩薩の地を証り、後の十六たびの生まれで毘盧遮那のはてしない法身を証り成す。よく無量の浄らかな国土・けがれた",
+          "context_position": 12564,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "牟尼と呼ぶ。須弥山の頂の三十三天の金剛宝峰楼閣のなかで、毘盧遮那仏が法輪を転じる。輪に四種ある。すなわち金剛輪・宝輪・法輪・",
+          "context_position": 12951,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "にまとめられる。すなわち正法輪と教令輪である。つまりかの毘盧遮那は、この世で八相成道を示して諸の外道を済度し、また須弥の頂で",
+          "context_position": 13031,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "住しては観自在菩薩となる。「ふたたび説く」〔復説〕とは、毘盧遮那仏が観自在菩薩となって、一切法の平等から観自在の智印を生み出",
+          "context_position": 15106,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "趣を誦し、心を運んであまねく法界にゆきわたれば、ほどなく毘盧遮那仏のような転輪法王となることができる。以上が、纔発意菩薩理趣",
+          "context_position": 22652,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": " 経の「そのとき婆伽梵如来」〔時婆伽梵如来〕とは、これは毘盧遮那仏のこと。経の「ふたたび一切有情を加持する般若の理趣を説く。",
+          "context_position": 27432,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "伏しがたい諸天を対治するために、五種の解脱輪を建立する。毘盧遮那仏は、世間と同類になって人々を導き取り込む〔摂化〕ために、大",
+          "context_position": 28329,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "。「時」とは、三世にさわりがないという意味。「大」とは、毘盧遮那の法身が、行きわたらない所はないということ。「七母女天」とは",
+          "context_position": 29228,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "は観自在菩薩、僧宝とは虚空蔵菩薩である。この三宝はみな、毘盧遮那の心の菩提心のなかから流れ出る。あるいは「三法兄弟」とも名づ",
+          "context_position": 29623,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "ち常波羅蜜・楽波羅蜜・我波羅蜜・浄波羅蜜である。都牟盧は毘盧遮那仏を表す。谽字〔カン〕の真言は「一切法は因が不可得」。その真",
+          "context_position": 29951,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "無辺究竟如来」〔爾時婆伽梵無量無辺究竟如来〕とは、これは毘盧遮那の別名である。経の「この教令を加持して究竟円満させようとする",
+          "context_position": 30182,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "し〔方隅〕を指し示すにとどめる。 経の「そのとき婆伽梵・毘盧遮那・得一切秘密法性無戯論如来」〔時婆伽梵毘盧遮那得一切秘密法性",
+          "context_position": 30934,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "き婆伽梵・毘盧遮那・得一切秘密法性無戯論如来」〔時婆伽梵毘盧遮那得一切秘密法性無戲論如来〕とは、後に説くべき五種の秘密の三摩",
+          "context_position": 30957,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "界に自在を得て、よく堅固な利益をなす。すなわち金剛薩埵・毘盧遮那仏の、大悲の願行の身を成すのである。 経の「金剛手などから、",
+          "context_position": 32824,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法界",
+      "term_kana": "",
+      "sanskrit": "dharma-dhātu",
+      "definition": "宇宙の真実相。一切法の根本領域。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "界"
+      ],
+      "occurrence_count": 23,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "伽の教えに照らせば五仏のことで、その五仏とは、虚空のすべて・法界のすべてに満ちる無数の仏を一つに集めて、この五つの仏身に成し",
+          "context_position": 602,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "身に成しあげたものをいう。「金剛加持」とは、如来の十真如・十法界・十如来地が、上下にそびえる十峰の金剛のごとき大空智の場〔金",
+          "context_position": 660,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "意業金剛大毘盧遮那如来〕について。「常恒」とは、如来の清浄な法界の智〔清浄法界智〕は始まりのない昔から本来そなわっていて、煩",
+          "context_position": 1589,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "遮那如来〕について。「常恒」とは、如来の清浄な法界の智〔清浄法界智〕は始まりのない昔から本来そなわっていて、煩悩のただ中にあ",
+          "context_position": 1596,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "伽三摩地を修め得ることで、一瞬のあいだに、身を虚空のすべて・法界のすべての、一つひとつの仏前に生じ、大衆の集まりにおいてさま",
+          "context_position": 3544,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "いても受用身・変化身として成仏する。経の「潔白」とは、清浄な法界はもともと染まらない、ということ。無量の染め〔雑染〕のために",
+          "context_position": 4742,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "げあげ、勇み進む勢いをなすのである。「本初」とは、本来清浄の法界のこと。「左手に金剛慢の印を結ぶ」とは、よこしまな道・よこし",
+          "context_position": 8127,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "に一つひとつの理趣清浄の句を観じ、一つひとつの理趣門に入って法界にあまねくゆきわたり、第十七の位まで至って一巡したら、また初",
+          "context_position": 9687,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "まねき請い、四出生の法を誦して心を運び、一つひとつ生じ出して法界にあまねくゆきわたり、一巡したらまた始める。すべて五智と響き",
+          "context_position": 12473,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "本来の教えのとおりに口で五無戯論の般若理趣を誦し、心を運んで法界にあまねくゆきわたり、また初めから始める。これによって修行す",
+          "context_position": 14803,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "を誦し、四種の清浄の般若の理趣を誦して一つひとつの門に入り、法界にあまねくゆきわたり、また初めの一法界を成して自他平等とする",
+          "context_position": 16068,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "一つひとつの門に入り、法界にあまねくゆきわたり、また初めの一法界を成して自他平等とする。あるときは自分の身を紇利字〔キリーク",
+          "context_position": 16087,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "であることを覚るがゆえに、二種のとらわれをともに遠く離れて、法界清浄を証得する。紇利字はまた「慚」〔恥じる心〕の意味ともいう",
+          "context_position": 16718,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "き請い、そのまま心真言を誦して、四種の理趣門でもって心を運び法界にゆきわたる。貧しく孤独な者〔貧窮孤露〕を憐れみ、つねに恵み",
+          "context_position": 18008,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "を誦せ。すぐに心を運んで一つひとつの理趣門にゆき、その広さは法界に等しく、一巡したらまた始める。一切の三摩地がみな目の前に現",
+          "context_position": 19729,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "一字の明を誦せ。そして四種の般若の理趣を誦し、心と響き合って法界にあまねくゆきわたり、一巡したらまた始める。一か月、あるいは",
+          "context_position": 20701,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "言を誦し、次に四種の輪の般若の理趣を誦し、心を運んであまねく法界にゆきわたれば、ほどなく毘盧遮那仏のような転輪法王となること",
+          "context_position": 22636,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "き請い、一字の真言を保ち、四種の般若の理趣を誦して、心を運び法界にあまねくゆきわたって、また始める。ついには三摩地が目の前に",
+          "context_position": 23928,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "加える。もしよく心を運んで仏菩薩を供養すれば、その供養の具は法界にあまねくゆきわたり、一つひとつの仏菩薩の前で広大な供養を成",
+          "context_position": 24052,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "若の理趣を誦して、大慈の心を起こし、衆生界に向けて心を運び、法界にゆきわたってあまねく、また始める。この三摩地の修行によって",
+          "context_position": 26003,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "とは、これは蓮華部の大曼荼羅。この曼荼羅に入ることで、清浄な法界が蓮華のように諸の惑いに染まらないことを証り悟る。経の「一切",
+          "context_position": 26525,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "真言〕を誦し持ち、あわせて四種の般若の理趣を修し、心を運んで法界にゆきわたってあまねく、また始める。ほどなく、身は降三世金剛",
+          "context_position": 27210,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "は蓮華部のなかに五部の曼荼羅をそなえ、四印なども同一の清浄な法界の性であることを顕す。経の「一切法は究竟であるがゆえに、般若",
+          "context_position": 30571,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大悲",
+      "term_kana": "",
+      "sanskrit": "mahā-karuṇā",
+      "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "occurrence_count": 11,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "証る。観自在菩薩は、毘盧遮那の後方の月輪にあって、一切如来の大悲を表す。縁に随って六道〔六趣〕に身を投じ、すべての生きとし生",
+          "context_position": 2734,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "〔巧便〕とする。摧一切魔菩薩は、東北の隅にあって、一切如来の大悲の方便を表す。外には怒りの威〔威怒〕を示しながら、内には憐れ",
+          "context_position": 3731,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "たような八大菩薩は、三種の法にまとめられる。すなわち菩提心と大悲と方便である。以上に説いたような諸菩薩のうちに、一切の仏法の",
+          "context_position": 3922,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "心が響き合えば、そのまま真如の究極〔真如実際〕を証るが、なお大悲を捨てないので、浄らかな国土・けがれた国土のどちらにおいても",
+          "context_position": 4683,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の満足を得るがゆえに、と説くのである。 「説く」とは、如来が大悲をもって、最上乗の素質をもつ者を憐れみ、十七種の清浄な瑜伽の",
+          "context_position": 5072,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "うなものだが、金剛薩埵もまたこの蘇囉多である。とらわれのない大悲〔無縁の大悲〕をもって、あまねく尽きることのない衆生界を対象",
+          "context_position": 5401,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "、金剛薩埵もまたこの蘇囉多である。とらわれのない大悲〔無縁の大悲〕をもって、あまねく尽きることのない衆生界を対象とし、安楽と",
+          "context_position": 5407,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "の殺害の心、染めの種子〔雑染の種子〕を尽くし、大いなる方便・大悲の三摩地を得させる。これは調伏のために、威猛なる忿怒の金剛薬",
+          "context_position": 19023,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "諸欲性亦然不染離群生〕とは、これは愛金剛明妃の三摩地の行で、大悲におさまる。「大いなる欲は清浄を得て、大いなる安楽と豊かさ〔",
+          "context_position": 32402,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "羅蜜。第二に大いなる静慮〔大静慮〕で、これが大三摩地。第三に大悲で、生死の苦に疲れ飽きない。第四に大いなる精進で、はてしない",
+          "context_position": 32626,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "得て、よく堅固な利益をなす。すなわち金剛薩埵・毘盧遮那仏の、大悲の願行の身を成すのである。 経の「金剛手などから、十六大菩薩",
+          "context_position": 32829,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法身",
+      "term_kana": "",
+      "sanskrit": "dharmakāya",
+      "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "身"
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "智の三摩地を用いることで、それを破って、光明があまねく照らす法身の毘盧遮那如来を証得するのである。 経の「欲界の他化自在天の",
+          "context_position": 1919,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "智慧の剣〔慧剣〕と、空・無相・無願の三解脱門に住して、真如の法身がそなえる常・楽・我・浄をよく顕すことを表す。菩薩はこの智を",
+          "context_position": 3266,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "に菩薩の地を証り、後の十六たびの生まれで毘盧遮那のはてしない法身を証り成す。よく無量の浄らかな国土・けがれた国土において、報",
+          "context_position": 12572,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "大慈のよろい〔甲冑〕でみずからを荘厳し、金剛のような壊れない法身を得る。経の「一切如来の心の印を持てば、一切如来の三摩地を証",
+          "context_position": 18912,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "すでに解いたとおり。心真言は唵字〔オン〕である。唵字は三身〔法身・報身・応身〕の意味。あるいは「無見頂上」〔仏頂のいただきは",
+          "context_position": 24227,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "」とは、三世にさわりがないという意味。「大」とは、毘盧遮那の法身が、行きわたらない所はないということ。「七母女天」とは、梵天",
+          "context_position": 29231,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三密",
+      "term_kana": "",
+      "sanskrit": "trīṇi guhyāni",
+      "definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "密"
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "段階にまで進む資格を得る。これを最初の因として、身・口・意の三密と四種の智印とが響き合う〔相応〕ことによって、三界の法王たる",
+          "context_position": 1211,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "金剛」とは、仏の境地のあらゆる法の自在を証得し、身・口・意の三密の金剛を証ること。蔵識〔阿頼耶識〕のうちにある修道の煩悩の習",
+          "context_position": 1826,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "盧遮那の左の月輪にあって、一切如来の三種の秘密〔身・口・意の三密〕が金剛拳菩薩の手のうちにあることを表す。真言の行をする菩薩",
+          "context_position": 3076,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "先に解いたとおり。「一切如来智印の加持者」とは、身・口・意の三密の門、すなわち身・口・意の金剛のこと。般若の理趣は先に解いた",
+          "context_position": 18628,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "者が金剛拳菩薩の三摩地を得ることで、一切の真言の教えのなかの三密の門を成就すること。だからこそ広い瑜伽のなかで、身・口・意の",
+          "context_position": 19183,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "本不生",
+      "term_kana": "",
+      "sanskrit": "ādyanutpāda",
+      "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "字は阿字〔ア〕から生じる。阿字は「一切法は本来不生である」〔本不生〕がゆえに、すべての因は得ることができない〔不可得〕。その字",
+          "context_position": 8512,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "〔アク〕の意味で、悪字は「涅槃」と名づける。諸法が本来不生〔本不生〕であることを覚るがゆえに、二種のとらわれをともに遠く離れて",
+          "context_position": 16684,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "頂のいただきは見きわめられないこと〕の意味とも名づけ、また「本不生」の意味とも名づけ、またこれは如来の白毫相〔びゃくごうそう〕",
+          "context_position": 24282,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "ある。郝字〔カク〕は四つの意味をそなえる。一切法は本来不生〔本不生〕の意味、「因」の意味、二種の我の意味である。一切法が本来不",
+          "context_position": 25338,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "摩地に入らせる。すなわちこの菩薩の一字心の真言を思い、一切法本不生の門に入れば、一切の煩悩の因を離れる。煩悩がすでに離れれば、",
+          "context_position": 25486,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "阿字",
+      "term_kana": "",
+      "sanskrit": "a-kāra",
+      "definition": "密教根本字。梵語五十字門の最初の字。本不生を象徴。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "字の意味がそなわっている。まず賀字〔カ〕を本体とする。賀字は阿字〔ア〕から生じる。阿字は「一切法は本来不生である」〔本不生〕",
+          "context_position": 8484,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "る。まず賀字〔カ〕を本体とする。賀字は阿字〔ア〕から生じる。阿字は「一切法は本来不生である」〔本不生〕がゆえに、すべての因は",
+          "context_position": 8495,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "ある。アク字の心真言とは、つぶさには四字を含んで一体となす。阿字〔ア〕は菩提心の意味。このような阿字は、すべての字のなかで先",
+          "context_position": 11228,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "四字を含んで一体となす。阿字〔ア〕は菩提心の意味。このような阿字は、すべての字のなかで先頭となる。大乗の法のなかで、無上菩提",
+          "context_position": 11246,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "rishushaku",
+          "context": "は「真如は不可得」の意味、囉字〔ラ〕は「塵を離れる」の意味、阿字〔ア〕は「一切法は本来寂静で、ちょうど虚空のよう」、莽字〔マ",
+          "context_position": 18309,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "密教",
+      "term_kana": "",
+      "sanskrit": "guhya-mantra-yāna",
+      "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "する菩薩が、輪壇〔曼荼羅の壇〕に入って灌頂を得、如来の三業の密教を聞いて修行することで、世間・出世間のすぐれた成就〔悉地〕を",
+          "context_position": 3134,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "智剣",
+      "term_kana": "",
+      "sanskrit": "jñāna-khaḍga",
+      "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "智",
+        "剣"
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishushaku",
+          "context": "童子のすがたを描き、四方に四仏を安置する。虚空の智の剣〔虚空智剣〕でもって、それぞれ四仏の臂の上に結びつけよ。その四隅に四種",
+          "context_position": 20505,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "即身",
+      "term_kana": "",
+      "sanskrit": "sa-deha",
+      "definition": "即身成仏の略。父母所生の身のまま現生で仏となる。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "即身成仏",
+      "term_kana": "",
+      "sanskrit": "sa-deha-prāpti-buddhatva",
+      "definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "成",
+        "仏"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "大日",
+      "term_kana": "",
+      "sanskrit": "Mahāvairocana",
+      "definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "日"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "大空三昧",
+      "term_kana": "",
+      "sanskrit": "mahā-śūnyatā-samādhi",
+      "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "心王",
+      "term_kana": "",
+      "sanskrit": "citta-rāja",
+      "definition": "八識の根本識。心の主体・統括者。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "無縁慈悲",
+      "term_kana": "",
+      "sanskrit": "an-ārambaṇa-karuṇā",
+      "definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "慈",
+        "悲"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "玄機",
+      "term_kana": "",
+      "sanskrit": "—",
+      "definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "玄",
+        "機"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "阿字本不生",
+      "term_kana": "",
+      "sanskrit": "ā-di-an-utpāda",
+      "definition": "密教根本教義。阿字（a-kāra）が本来不生（不滅）であることを観じ、万物の本源を悟る。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

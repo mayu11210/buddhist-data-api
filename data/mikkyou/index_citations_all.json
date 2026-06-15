@@ -18,17 +18,18 @@
     "jujushinron",
     "hizoki",
     "yugikyo",
-    "rishikyo"
+    "rishikyo",
+    "rishushaku"
   ],
-  "corpora_count": 14,
-  "corpora_with_data": 14,
+  "corpora_count": 15,
+  "corpora_with_data": 15,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 548,
-    "total_occurrences": 2361,
-    "terms_in_multiple_corpora": 84,
+    "unique_terms_total": 555,
+    "total_occurrences": 2374,
+    "terms_in_multiple_corpora": 85,
     "max_corpus_coverage": 11,
     "by_corpus": {
       "shoryoshu_miyasaka": {
@@ -99,6 +100,11 @@
       "rishikyo": {
         "unique": 1,
         "occurrences": 1,
+        "present": true
+      },
+      "rishushaku": {
+        "unique": 10,
+        "occurrences": 13,
         "present": true
       }
     }
@@ -539,19 +545,21 @@
     },
     {
       "term": "楞伽経",
-      "total_occurrence_count": 20,
-      "covered_corpora_count": 4,
+      "total_occurrence_count": 21,
+      "covered_corpora_count": 5,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "jujushinron",
         "nikyo-ron",
+        "rishushaku",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 4,
         "nikyo-ron": 12,
         "dainichikyo-sho-vol1": 1,
-        "jujushinron": 3
+        "jujushinron": 3,
+        "rishushaku": 1
       }
     },
     {
@@ -672,6 +680,19 @@
       }
     },
     {
+      "term": "理趣経",
+      "total_occurrence_count": 14,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "rishushaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 13,
+        "rishushaku": 1
+      }
+    },
+    {
       "term": "荀子",
       "total_occurrence_count": 13,
       "covered_corpora_count": 2,
@@ -699,17 +720,6 @@
     },
     {
       "term": "孟子",
-      "total_occurrence_count": 13,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 13
-      }
-    },
-    {
-      "term": "理趣経",
       "total_occurrence_count": 13,
       "covered_corpora_count": 1,
       "covered_corpora": [
@@ -754,6 +764,25 @@
       ],
       "by_corpus": {
         "jujushinron": 10
+      }
+    },
+    {
+      "term": "理趣釈",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "hannya-hiken",
+        "rishushaku",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "ujiji": 1,
+        "sokushin-jobutsu": 1,
+        "hannya-hiken": 3,
+        "rishushaku": 1
       }
     },
     {
@@ -827,23 +856,6 @@
         "hannya-hiken": 1,
         "hizo-houyaku": 1,
         "jujushinron": 2
-      }
-    },
-    {
-      "term": "理趣釈",
-      "total_occurrence_count": 8,
-      "covered_corpora_count": 4,
-      "covered_corpora": [
-        "hannya-hiken",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 3,
-        "ujiji": 1,
-        "sokushin-jobutsu": 1,
-        "hannya-hiken": 3
       }
     },
     {
@@ -1571,6 +1583,17 @@
       }
     },
     {
+      "term": "指帰",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishushaku"
+      ],
+      "by_corpus": {
+        "rishushaku": 3
+      }
+    },
+    {
       "term": "日本書紀",
       "total_occurrence_count": 3,
       "covered_corpora_count": 1,
@@ -1996,6 +2019,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "大楽金剛不空真実三昧耶経般若波羅蜜多理趣釈",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishushaku"
+      ],
+      "by_corpus": {
+        "rishushaku": 2
       }
     },
     {
@@ -2425,6 +2459,17 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "一切教集瑜伽経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishushaku"
+      ],
+      "by_corpus": {
+        "rishushaku": 1
       }
     },
     {
@@ -3690,6 +3735,28 @@
       ],
       "by_corpus": {
         "rishikyo": 1
+      }
+    },
+    {
+      "term": "大楽金剛不空真実三昧経般若波羅蜜多理趣釈",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishushaku"
+      ],
+      "by_corpus": {
+        "rishushaku": 1
+      }
+    },
+    {
+      "term": "大楽金剛不空真実三昧耶経般若理趣釈",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishushaku"
+      ],
+      "by_corpus": {
+        "rishushaku": 1
       }
     },
     {
@@ -5222,6 +5289,17 @@
       }
     },
     {
+      "term": "瑜伽経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishushaku"
+      ],
+      "by_corpus": {
+        "rishushaku": 1
+      }
+    },
+    {
       "term": "瑜伽論〔ゆがろん〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -5824,6 +5902,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "蘇悉地",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishushaku"
+      ],
+      "by_corpus": {
+        "rishushaku": 1
       }
     },
     {
