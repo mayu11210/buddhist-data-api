@@ -1,0 +1,1130 @@
+{
+  "schema_version": "1.0",
+  "category": "密教教学用語（mikkyo terms）",
+  "source_corpus": "hotsubodaishinron-sho-vol1.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-15",
+  "extraction_strategy": "辞書ベース（19 語）+ 長語優先 substring 走査 + 周辺梵語注記抽出",
+  "dictionary_size": 19,
+  "gendaigoyaku_length": 33268,
+  "summary": {
+    "unique_terms": 19,
+    "total_occurrences": 146,
+    "kaimyo_suitable_count": 11,
+    "matched_term_count": 13
+  },
+  "entries": [
+    {
+      "term": "大日",
+      "term_kana": "",
+      "sanskrit": "Mahāvairocana",
+      "definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "日"
+      ],
+      "occurrence_count": 30,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "師空海〕が弘仁年間に朝廷へ提出した真言宗の三学の目録でも、『大日経』『金剛頂経』などの〈経の蔵〔素怛覧蔵・スートラ蔵〕〉、『",
+          "context_position": 1532,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "は、菩提心こそあらゆるものごとの根源〔諸法の本源〕とみる。『大日経疏』にいわく――〈必ずあまねく宇宙〔法界〕のすべての衆生を",
+          "context_position": 2364,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。こうして両部の法門をともに含みこんでいる〔該摂〕。さらに『大日経』の三句〔菩提心を因とし、大悲を根とし、方便を究竟とする〕",
+          "context_position": 3910,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "て金剛頂のなかに行願・大悲の意味がないことがあろうか。次に『大日経』を引いて証する件も、金剛頂部の論であっても胎蔵部の経文を",
+          "context_position": 4543,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "なのに『付法伝』が「毘盧遮那の惣持」というのは、毘盧遮那が『大日経』の題号だからこそ胎蔵と釈しているのだ。ここ〔この論〕では",
+          "context_position": 4838,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "多い。まず第三の菩提心の釈の段に「准じて『毘盧遮那経の疏』〔大日経疏〕に……」という引用がある。だが『大日経疏』は善無畏三蔵",
+          "context_position": 5944,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "毘盧遮那経の疏』〔大日経疏〕に……」という引用がある。だが『大日経疏』は善無畏三蔵〔無畏〕の講説を一行禅師が筆記したものであ",
+          "context_position": 5965,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "うか。これらはまことに不審である。――しかし答えていえば、『大日経疏』の件は、訳者の不空三蔵が独自に注を書き加えたものであっ",
+          "context_position": 6165,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "薩を指すはずがない」と判じる点も、たいへん受け取りがたい。『大日経疏』には「金剛薩埵大阿闍梨」「毘盧遮那大阿闍梨」などとある",
+          "context_position": 6409,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "』の趣旨は明らかである。 二つの題を掲げることについて。 『大日経』の梵語原本にも「修真言行品」と「入真言門住心品」という二",
+          "context_position": 7800,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "〔瑜伽〕は法である〉と。 金剛のもつ三つの意味について。 『大日経疏』の巻一にいわく――〈世間の金剛宝〔ダイヤモンド〕には、",
+          "context_position": 9219,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "〔一門・普門〕にも通じることについて。 あらゆる門をそなえた大日如来〔普門大日〕を「遍照金剛」と呼び、また個々の諸尊もそれぞ",
+          "context_position": 9946,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "にも通じることについて。 あらゆる門をそなえた大日如来〔普門大日〕を「遍照金剛」と呼び、また個々の諸尊もそれぞれみな「金剛」",
+          "context_position": 9953,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "」の称を得る。また住まいとなる環境世界〔依報〕についても、『大日経』は「金剛法界宮」と説き、『金剛頂経』は「不壊金剛光明心殿",
+          "context_position": 10178,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "このうち特に真言行者の観じるところを「金剛幻」と名づける。『大日経疏』に〈如来の金剛のごとき幻もまた、このようなものである〉",
+          "context_position": 10798,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ヨーガ〕」は男性形、「瑜祇〔ヨーギニー〕」は女性形である。『大日経疏』の巻二にいわく――〈「瑜伽」は訳して「相応」という。も",
+          "context_position": 11093,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "経疏』〕、「無上正等遍覚」〔清涼＝澄観〕、「無上正遍知」〔『大日経疏』〕などとも訳す。さて、訳された経論がわざわざ梵語のまま",
+          "context_position": 12650,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "然の釈にいわく――〈問う。心にいくつの種類があるか。答う。『大日経義釈』が方々で心を明かすのに七種を挙げる〉と。七種とは、一",
+          "context_position": 16242,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ように、「すべての衆生に普賢のごとき大菩提心がある」、また『大日経』および『義釈』にいうように、金剛手が問うて「菩提心を、ひ",
+          "context_position": 19790,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。修めるべき徳が本来そなわっている〔修性本有〕からである。『大日経』が阿字を地輪の方形の壇〔方壇〕として菩提心と名づけるよう",
+          "context_position": 19947,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "四重のうち第二重に置いて、四重の浅深を受け取るべきである。『大日経』の意は、菩提の本当の意味〔菩提の実義〕と、成仏という外に",
+          "context_position": 20633,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "と受け取るべきである。もし迷情を遮る遮情門に約せば、疏家〔『大日経疏』〕が経の無相の菩提を釈するとき、〈もろもろのものごとの",
+          "context_position": 21270,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "か。この菩提は、説いて人に示すことができない〉という。また『大日経』に「秘密主よ、これが阿耨多羅三藐三菩提である……その法は",
+          "context_position": 21431,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "じて発すのだ、と読める。発心の意味が仏果にも通じることは、『大日経疏』に〈……毘盧遮那〔大日如来〕にはじめて、つきることのな",
+          "context_position": 22905,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の意味が仏果にも通じることは、『大日経疏』に〈……毘盧遮那〔大日如来〕にはじめて、つきることのない真理の世界の究極の発心〔無",
+          "context_position": 22919,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ある。『付法伝』が「毘盧遮那の惣持」というのは、毘盧遮那が『大日経』の名であることによって胎蔵と釈しているのである。もし「初",
+          "context_position": 23790,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "部に通じるが、そのなかでここは胎蔵に約すと解すべきである。『大日経疏』に「この宗は瑜伽の意である」とあり、これを『大日経』を",
+          "context_position": 23893,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "る。『大日経疏』に「この宗は瑜伽の意である」とあり、これを『大日経』を指すと取る一説もある。そうであれば、「瑜伽」の語を胎蔵",
+          "context_position": 23920,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "『瑜伽論』などの論には四種の陀羅尼を説く。『大毘盧遮那経』〔大日経〕や『金剛頂経』などの秘密の蔵〔密教〕では、如来が自ら受用",
+          "context_position": 25652,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "、「修持」を成就すなわち果と取って、因・行〔根〕・果の三句〔大日経の三句〕とみる。ある説では、初めの題は金剛頂部すなわち金剛",
+          "context_position": 27177,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "真言",
+      "term_kana": "",
+      "sanskrit": "mantra",
+      "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "occurrence_count": 23,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "箇所のお示し〔一処の御釈〕に説かれる二種の心について。 わが真言宗〔自宗〕が立てる心識について。 「菩提心」について。 「阿",
+          "context_position": 819,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "伽中……」の文〔＝題号の冒頭を取り上げて注釈に入る〕。 東寺真言宗に学ぶ者がこの論を学びの依りどころとするのは、宗祖である龍",
+          "context_position": 1412,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ある。それゆえ高祖〔弘法大師空海〕が弘仁年間に朝廷へ提出した真言宗の三学の目録でも、『大日経』『金剛頂経』などの〈経の蔵〔素",
+          "context_position": 1519,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "論』とを〈論の蔵〔阿毘達磨蔵・アビダルマ蔵〕〉に当て、これを真言宗の三学と定められた。その「真言宗所学経律論目録」にはこうあ",
+          "context_position": 1645,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ビダルマ蔵〕〉に当て、これを真言宗の三学と定められた。その「真言宗所学経律論目録」にはこうある――〈二部十一巻、すなわち『金",
+          "context_position": 1661,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "この論を金剛頂業の課程の科目とした。承和の官符にいわく――〈真言宗の年分度者〔毎年得度を許される僧〕三人のうち、一人は金剛頂",
+          "context_position": 1801,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の〕二業いずれの者もこの論をあわせ学ぶべきだ、とある。だから真言宗の学僧は、何よりもこの論を仰ぎ尊んで学ぶべきなのである。さ",
+          "context_position": 1944,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "まで仏となること〕を根本の眼目とする。ところがこの論は「ただ真言の法のなかにのみ……〔ここは原文が一字欠けて記されていない〕",
+          "context_position": 2713,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "「座を立たぬうちに三摩地〔禅定の境地〕が現前する」と判じて、真言行者がすみやかに悟りを開く法則〔速疾頓悟の軌則〕、他の教えに",
+          "context_position": 2782,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "けるという見方も、そうではない。この三種の菩提心は、すべての真言行者が因の位から果の位に至るまで必ず発すべき心なのだから、た",
+          "context_position": 4449,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ではない。「惣持」の語は両部に通じる。だから『金剛頂経』を「真言陀羅尼宗」とも説く。これは「惣持」の語が金剛界にも用いられる",
+          "context_position": 4765,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の惣持陀羅尼の法門」を胎蔵と釈している。「惣持」の語は広くは真言密教全体の総名ではあるが、金剛頂に対して「惣持」というときは",
+          "context_position": 7724,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "二つの題を掲げることについて。 『大日経』の梵語原本にも「修真言行品」と「入真言門住心品」という二つの題があったと伝わる。ま",
+          "context_position": 7813,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ことについて。 『大日経』の梵語原本にも「修真言行品」と「入真言門住心品」という二つの題があったと伝わる。また『仏名経』も「",
+          "context_position": 7821,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "、これは第三劫の、唯一の道のうえなき境地〔一道極無〕、および真言行者が観じるところである。このうち特に真言行者の観じるところ",
+          "context_position": 10753,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "一道極無〕、および真言行者が観じるところである。このうち特に真言行者の観じるところを「金剛幻」と名づける。『大日経疏』に〈如",
+          "context_position": 10774,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "して分けるべきである。初めの「無上覚」は第十の秘密荘厳住心〔真言の境地〕、次の「正覚」は世間の三種の住心〔第一〜第三〕の邪覚",
+          "context_position": 13367,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "を開いたり合わせたりする違い〔開合の不同〕にすぎない。さて、真言行者が最初に発心するときの識の本体が、第六識か第八識か〔六・",
+          "context_position": 17835,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "二つの題をともに金剛界に約すと解する立場では、「惣持」の名は真言陀羅尼宗〔密教〕全体に通じる名であるが、そのなかでもここは「",
+          "context_position": 23699,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "てることがある。わが宗の立場では、阿字などの字門〔字の門〕を真言の教えとする。しかも声であれ字であれ、そのまま全体が不生〔本",
+          "context_position": 26065,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "持」とは修行・持念の意味である。第三の菩提心の釈の段に〈いま真言行者は、すでに人と法へのとらわれ〔人法の上執〕を破って、よく",
+          "context_position": 26849,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "名を取り上げる〕。 これは著者の署名〔造号〕である。すなわち真言相承の第三祖〔龍猛＝龍樹〕である。他宗の師はこの論を不空の編",
+          "context_position": 27515,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "どを依りどころとする。法相宗では無著菩薩が龍樹の中観を釈し、真言宗では第三祖として密教をはじめて閻浮提〔この世界〕に伝えられ",
+          "context_position": 29590,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "密教",
+      "term_kana": "",
+      "sanskrit": "guhya-mantra-yāna",
+      "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 19,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "＝当論の題号の最初の語句を取り上げて注釈する段〕。 この論を密教の蔵〔密蔵〕の肝心とすることについて。 この論が作られた時代",
+          "context_position": 87,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "剛が四つの意味〔四義〕をそなえることについて。 金剛が顕教・密教の二つの意味〔顕密二義〕をそなえることについて。 「金剛」と",
+          "context_position": 407,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "のは、宗祖である龍樹大聖の著した千部もの論のなかで、これこそ密教の蔵の肝心を説いた論〔密蔵肝心の論〕だからである。それゆえ高",
+          "context_position": 1465,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "千部の論のなかの、密蔵の肝心を説く論である。だからこそ顕教と密教の違い、その浅い深い、成仏の早い遅い、すぐれ劣りが、すべてこ",
+          "context_position": 2128,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。とはいえ高祖〔空海〕は、龍樹を釈尊の入滅後八百年に出現して密教を世に伝えた人と判じておられる。この論はまさに密蔵の肝心を説",
+          "context_position": 3011,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "著されたものと受け取るべきである。『付法伝』にいわく――〈〔密教相承の〕第三祖とは、釈迦如来が世を去られて〔掩化〕のち八百年",
+          "context_position": 3090,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "来＝持ち帰り〕については、高祖が延暦二十四年に唐の青龍寺で〔密教を〕相承され、大同元年に帰国してその請来目録にこの論を載せ、",
+          "context_position": 3449,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "持陀羅尼の法門」を胎蔵と釈している。「惣持」の語は広くは真言密教全体の総名ではあるが、金剛頂に対して「惣持」というときはすな",
+          "context_position": 7726,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の色が一定せず、見きわめにくいことである〉と。 金剛が顕教・密教の二つの意味をそなえることについて。 『金剛頂経開題』にいわ",
+          "context_position": 9687,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "て。 『金剛頂経開題』にいわく――〈またこの「金剛」は顕教・密教の二つの意味をそなえる〉と。 「金剛」という名の、全体に通じ",
+          "context_position": 9735,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "いて。 あるお示しにいわく――〈問う。顕教では八識を立てる。密教ではいくつの識を立てるのか。答う。一識、あるいは八識、あるい",
+          "context_position": 17727,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "がた〔本性〕であり、あらゆる修行〔万行〕の根源である。顕教・密教で扱いは違っても、ともに菩提心の功徳をたたえる。不空の『菩提",
+          "context_position": 17960,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "に金剛界に約すと解する立場では、「惣持」の名は真言陀羅尼宗〔密教〕全体に通じる名であるが、そのなかでもここは「瑜伽惣持」とい",
+          "context_position": 23706,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の声を聞いて、五乗〔人・天・声聞・縁覚・菩薩〕の教えや顕教・密教の違いをくわしく知ること。二に法持とは、心にとどめずとも忘れ",
+          "context_position": 25272,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "く。『大毘盧遮那経』〔大日経〕や『金剛頂経』などの秘密の蔵〔密教〕では、如来が自ら受用する五智などにかなうおもむき〔相応の趣",
+          "context_position": 25671,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "』にみえる。このように諸説まちまちだが、高祖のお示しによって密教の伝来した時代や龍樹の寿命などを受け取れば、〈出現は八百年、",
+          "context_position": 29227,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "頭に置き、秘密の法を伝えるうえでは龍智の室に入った〔＝龍智に密教を伝えた〕。諸宗の高祖は、思うにこの一人〔龍樹〕であろうか〉",
+          "context_position": 29430,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "法相宗では無著菩薩が龍樹の中観を釈し、真言宗では第三祖として密教をはじめて閻浮提〔この世界〕に伝えられた。よって諸宗の高祖で",
+          "context_position": 29601,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "別の号である。「大広智」は徳をたたえる号〔徳号〕、「不空」は密教の灌頂で授かる号〔金剛号〕である。これらはともに在世のお名前",
+          "context_position": 32194,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法身",
+      "term_kana": "",
+      "sanskrit": "dharmakāya",
+      "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "身"
+      ],
+      "occurrence_count": 13,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "』〕に当たる。『二教論』にいわく――〈ここでいう三摩地とは、法身が自ら証する三摩地である。いわゆる『金剛頂十万頌の経』などが",
+          "context_position": 8312,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "中の中〕に住する。等覚や十地の菩薩でも見聞できない。いわゆる法身が自ら証する境界である〉と。この意は、あるいは語密、あるいは",
+          "context_position": 11586,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の六字に多くの意味があることについて。 第一の説。「金剛」は法身が壊れない意味、「頂」は報身の姿かたち〔色相〕が最も高い意味",
+          "context_position": 11796,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "報・応の三身に約したものである。第二の説。「金剛頂」は身密。法身の仏の身密は堅固で壊れないからである。「瑜伽」は意密。観法を",
+          "context_position": 11892,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ごろ善く、終わり善し」〔初中後善〕を三密と釈されたが、これは法身の仏のひとしい三密〔平等の三密〕に約して意味を取ったものであ",
+          "context_position": 12047,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "勝義の心である。また無著の『金剛般若論』には〈「無上菩提」は法身の理、「三貘三菩提〔正等菩提〕」は報身の智〉とある。これは法",
+          "context_position": 21976,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "身の理、「三貘三菩提〔正等菩提〕」は報身の智〉とある。これは法身・報身の二身を、理と智の二法に分けたものである。いまわが宗の",
+          "context_position": 22007,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "いまわが宗の立場によれば、両部〔胎蔵＝理・金剛界＝智〕の理智法身の菩提心と分けるべきである。 「発心」について。 まず「発」",
+          "context_position": 22063,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "あまねく平等一味の法の雨を灑ぎ、生きとし生けるもの〔群生〕に法身の芽と実〔牙菓〕を生じ育てる。だから龍を名とした。「猛」とは",
+          "context_position": 28100,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。智者大師〔天台智顗〕がいうには、樹を生身〔肉身〕とし、龍を法身とする〉と。その意は、「那伽阿周那」の梵語を、ここでは「龍樹",
+          "context_position": 28330,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "について、樹の下で身を生じ龍宮で道を成じたという由来と、龍を法身とし樹を生身とする解釈の二つの釈を挙げる。「龍猛」「龍勝」な",
+          "context_position": 28418,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "じ龍宮で道を成じたから「龍樹」という。二には天台の釈で、龍を法身とし樹を生身とする。この意は「龍樹」の二字を法身・生身の二身",
+          "context_position": 28709,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の釈で、龍を法身とし樹を生身とする。この意は「龍樹」の二字を法身・生身の二身とみる。三には『広灯記』の意で、西域に大樹があり",
+          "context_position": 28733,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三摩地",
+      "term_kana": "",
+      "sanskrit": "samādhi",
+      "definition": "禅定。心を一境に住して散乱を離れた状態。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 12,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "一箇所のお示し〔一処の御釈〕では、菩提心について勝義・行願・三摩地の三つの門〔三種の菩提心〕を立てて細かく釈しておられ、それが",
+          "context_position": 2510,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "が一字欠けて記されていない〕」と釈し、また「座を立たぬうちに三摩地〔禅定の境地〕が現前する」と判じて、真言行者がすみやかに悟り",
+          "context_position": 2761,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "りを開く法則〔速疾頓悟の軌則〕、他の教えにはない〔余教不共〕三摩地の菩提心を、こまやかに説いておられる。だからこそこの論を密蔵",
+          "context_position": 2823,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "たどり、勝義の菩提心は大智をもって金剛界の法門による。第三の三摩地の菩提心では、あるいは金剛界の三十七尊のおこり〔縁起〕を明か",
+          "context_position": 3825,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "置くのだ〉と。『金剛頂経義決』にいわく――〈題には「金剛薩埵三摩地一切如来菩提智第一」とある。これを釈していえば、これが題目で",
+          "context_position": 8090,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の『金剛頂経』〕に当たる。『二教論』にいわく――〈ここでいう三摩地とは、法身が自ら証する三摩地である。いわゆる『金剛頂十万頌の",
+          "context_position": 8306,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "二教論』にいわく――〈ここでいう三摩地とは、法身が自ら証する三摩地である。いわゆる『金剛頂十万頌の経』などがこれである〉と。『",
+          "context_position": 8320,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "三十七金剛〔三十七尊〕は、金剛のごとき智慧の頂、金剛のごとき三摩地の尊、金剛のごとき人の王である。この経はよくこのように三十七",
+          "context_position": 8709,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "階〕の邪覚と区別するからである。後の「正覚」は第三の菩提心〔三摩地の菩提心〕――九種住心の満たされぬ覚りと区別するからである。",
+          "context_position": 21799,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "・菩薩は昔、因の位〔因地〕でこの心を発し、すでに勝義・行願・三摩地の三種菩提心を戒として、成仏に至るまで一瞬も忘れることがなか",
+          "context_position": 22813,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の本性がないと観ずるから〕、「行」は行願の菩提心、「修持」は三摩地の菩提心〔第三の菩提心の釈の段に「妙道を求め、次第を修持して",
+          "context_position": 27067,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "うに徳をもって万物を育てるように、この菩薩もまた、大悲平等の三摩地に住して、さまざまなおもむきに応じて、縁によらない大慈悲の雲",
+          "context_position": 28024,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大悲",
+      "term_kana": "",
+      "sanskrit": "mahā-karuṇā",
+      "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "occurrence_count": 11,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "、と読める。また訳出された三種の菩提心のうち、行願の菩提心は大悲をもって胎蔵の法門をかたどり、勝義の菩提心は大智をもって金剛",
+          "context_position": 3782,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "こんでいる〔該摂〕。さらに『大日経』の三句〔菩提心を因とし、大悲を根とし、方便を究竟とする〕の文を引いて三種の菩提心を証する",
+          "context_position": 3926,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ても必ずそなえているはずである。どうして金剛頂のなかに行願・大悲の意味がないことがあろうか。次に『大日経』を引いて証する件も",
+          "context_position": 4524,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "行を修めるから、すなわち大願を発す、四弘誓願などである。三は大悲心で、苦しむすべての衆生を救い護るからである。「心相」という",
+          "context_position": 18544,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ないようなものである〉と。この師〔清涼〕の意は、直心・深心・大悲心の三心を菩提心とする。そのうえに心体・心相・心徳の三種を分",
+          "context_position": 19166,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ちこの論の説く三種の菩提心である。これをもって、大定・大智・大悲の三徳、両部不二の菩提心と受け取るべきである。もし迷情を遮る",
+          "context_position": 21226,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "第三の菩提心、「正等覚」は行願の菩提心――外道や二乗は行願・大悲の心を発さないので、それらと区別するのである。後の「正覚」は",
+          "context_position": 21873,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "が宗の発心は、本来そなわる徳〔本有性徳〕としての大定・大智・大悲の三徳を開きあらわすのだから、まさに「開発」の意がふさわしい",
+          "context_position": 22426,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "あるから〕とする。ある説では、「菩提心」を因の句、「観行」を大悲を根とするもの〔大悲為根〕、「修持」を成就すなわち果と取って",
+          "context_position": 27132,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "る説では、「菩提心」を因の句、「観行」を大悲を根とするもの〔大悲為根〕、「修持」を成就すなわち果と取って、因・行〔根〕・果の",
+          "context_position": 27142,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "龍がこのように徳をもって万物を育てるように、この菩薩もまた、大悲平等の三摩地に住して、さまざまなおもむきに応じて、縁によらな",
+          "context_position": 28019,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "遮那",
+      "term_kana": "",
+      "sanskrit": "Vairocana",
+      "definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "遮",
+        "那"
+      ],
+      "occurrence_count": 11,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "はない。さらに、次の題を胎蔵とみる根拠は、『付法伝』が「毘盧遮那の惣持陀羅尼の法門」を胎蔵と釈しているところにあり、「惣持」",
+          "context_position": 4673,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "にも用いられる確かな証拠である。それなのに『付法伝』が「毘盧遮那の惣持」というのは、毘盧遮那が『大日経』の題号だからこそ胎蔵",
+          "context_position": 4820,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "る。それなのに『付法伝』が「毘盧遮那の惣持」というのは、毘盧遮那が『大日経』の題号だからこそ胎蔵と釈しているのだ。ここ〔この",
+          "context_position": 4834,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ほど不審な点が多い。まず第三の菩提心の釈の段に「准じて『毘盧遮那経の疏』〔大日経疏〕に……」という引用がある。だが『大日経疏",
+          "context_position": 5937,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "薩が、インド〔西天〕の論のなかで引証できようか。次に『大毘盧遮那経供養次第法』の文も引証されている。あの供養次第法は善無畏三",
+          "context_position": 6061,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ん受け取りがたい。『大日経疏』には「金剛薩埵大阿闍梨」「毘盧遮那大阿闍梨」などとある。仏・菩薩を大阿闍梨と呼ぶのはよくあるこ",
+          "context_position": 6429,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "経全体〕の総称である。次の題は胎蔵に約す。『付法伝』は「毘盧遮那の惣持陀羅尼の法門」を胎蔵と釈している。「惣持」の語は広くは",
+          "context_position": 7692,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。発心の意味が仏果にも通じることは、『大日経疏』に〈……毘盧遮那〔大日如来〕にはじめて、つきることのない真理の世界の究極の発",
+          "context_position": 22916,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ら、金剛頂瑜伽の惣持と受け取るべきである。『付法伝』が「毘盧遮那の惣持」というのは、毘盧遮那が『大日経』の名であることによっ",
+          "context_position": 23772,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "るべきである。『付法伝』が「毘盧遮那の惣持」というのは、毘盧遮那が『大日経』の名であることによって胎蔵と釈しているのである。",
+          "context_position": 23786,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "『仏地論』『瑜伽論』などの論には四種の陀羅尼を説く。『大毘盧遮那経』〔大日経〕や『金剛頂経』などの秘密の蔵〔密教〕では、如来",
+          "context_position": 25647,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法界",
+      "term_kana": "",
+      "sanskrit": "dharma-dhātu",
+      "definition": "宇宙の真実相。一切法の根本領域。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "界"
+      ],
+      "occurrence_count": 10,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の本源〕とみる。『大日経疏』にいわく――〈必ずあまねく宇宙〔法界〕のすべての衆生を救うべきである。この心はちょうど軍旗〔幢旗",
+          "context_position": 2385,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "る。『十住心論』の巻十に〈「金剛」とは、五部の諸尊が手にする法界のしるし〔標示〕である〉とある。狭くいえば、三部・五部のうち",
+          "context_position": 9845,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "た住まいとなる環境世界〔依報〕についても、『大日経』は「金剛法界宮」と説き、『金剛頂経』は「不壊金剛光明心殿」と説く〔ように",
+          "context_position": 10186,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "る。一つは「無上覚」で、菩提という清らかな真理の世界〔清浄の法界〕を顕す。二つは「正覚」で、外道の誤った覚り〔邪覚〕と区別す",
+          "context_position": 12980,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "り生じないこと〕を覚る……」などという。これはすなわち、六大法界〔地・水・火・風・空・識の六大からなる宇宙〕を菩提の本体とす",
+          "context_position": 20777,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "界の環境と主体、物質と心〔依正・色心〕の実相がことごとく六大法界の本体であると覚り知ることを、発菩提心と受け取るべきである。",
+          "context_position": 20846,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "真理の世界の衆生を救うべきである〔一向志求一切智々・必当普度法界衆生〕」と釈して、上に求め下に教化する心〔上求下化〕を菩提心",
+          "context_position": 20930,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "心〕に当たる。「一向志求一切智々」は勝義の菩提心、「必当普度法界衆生」は行願の菩提心である。要するに、自分の心も他人の心も一",
+          "context_position": 21085,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。要するに、自分の心も他人の心も一つ〔自心他心一如〕で、六大法界の本体であると覚り知り、そのうえで上求下化という自利・利他の",
+          "context_position": 21130,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "来〕にはじめて、つきることのない真理の世界の究極の発心〔無尽法界究竟発心〕と名づけるのみ〉とあるとおりで、その趣旨は明らかで",
+          "context_position": 22952,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三密",
+      "term_kana": "",
+      "sanskrit": "trīṇi guhyāni",
+      "definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "密"
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "いに入りまじって一つになる意味、また行者が六大・四種曼荼羅・三密において仏と相応し融け合う意味、あるいは本尊と行者が相応して",
+          "context_position": 11273,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の密〕であり、また両極端を離れる意〔離辺の義〕である。これは三密にあたる。あらゆる極論〔五辺百非〕を離れること、ただ「中でな",
+          "context_position": 11519,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "が自ら証する境界である〉と。この意は、あるいは語密、あるいは三密がともにあらゆる極論を離れるから「中」というのだ、と読める。",
+          "context_position": 11618,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "頂経』〕の「初め善く、中ごろ善く、終わり善し」〔初中後善〕を三密と釈されたが、これは法身の仏のひとしい三密〔平等の三密〕に約",
+          "context_position": 12035,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "し」〔初中後善〕を三密と釈されたが、これは法身の仏のひとしい三密〔平等の三密〕に約して意味を取ったものである。第三の説。「金",
+          "context_position": 12056,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "善〕を三密と釈されたが、これは法身の仏のひとしい三密〔平等の三密〕に約して意味を取ったものである。第三の説。「金剛頂」は金剛",
+          "context_position": 12062,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "即身成仏",
+      "term_kana": "",
+      "sanskrit": "sa-deha-prāpti-buddhatva",
+      "definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "成",
+        "仏"
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "旨に受け取るべきである。第三の解釈。そもそもわが宗の立場は、即身成仏〔この身このままで仏となること〕を根本の眼目とする。ところが",
+          "context_position": 2672,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "れる。だからこそこの論を密蔵肝心の論と定められたのである。『即身成仏義』では、金剛界・胎蔵の両部の大経とあわせてこの論の文を引い",
+          "context_position": 2872,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "剛界・胎蔵の両部の大経とあわせてこの論の文を引いて証拠とし、即身成仏の教えの理論的な証文とされている。 この論が作られた時代と伝",
+          "context_position": 2912,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "「菩提」はまさしく「覚者」を意味する。それなのに、どうして『即身成仏義』は「没駄〔ブッダ〕」と「冒地〔ボーディ〕」とを一字の転じ",
+          "context_position": 13635,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "はまさしく「覚」と訳すべきだ、というものである。それなのに『即身成仏義』が「覚」を「没駄」の訳語とし、「冒地」を「知」と訳すと釈",
+          "context_position": 14028,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "阿字",
+      "term_kana": "",
+      "sanskrit": "a-kāra",
+      "definition": "密教根本字。梵語五十字門の最初の字。本不生を象徴。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "いは金剛界の三十七尊のおこり〔縁起〕を明かし、あるいは胎蔵の阿字の観法〔観門〕を述べる。こうして両部の法門をともに含みこんで",
+          "context_position": 3867,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "き徳が本来そなわっている〔修性本有〕からである。『大日経』が阿字を地輪の方形の壇〔方壇〕として菩提心と名づけるように、また『",
+          "context_position": 19952,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "を、修と性が一つ〔修性不二〕の意味で深秘の菩提心とする。また阿字の方壇を菩提心とし、五智金剛や月輪の本体を菩提心とするような",
+          "context_position": 20332,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "〔実際の悟り〕とを別々に立てることがある。わが宗の立場では、阿字などの字門〔字の門〕を真言の教えとする。しかも声であれ字であ",
+          "context_position": 26052,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "心王",
+      "term_kana": "",
+      "sanskrit": "citta-rāja",
+      "definition": "八識の根本識。心の主体・統括者。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "な「金剛」の称号をそなえる。これはわが宗の立場で、中心の仏〔心王〕もそれに従う諸尊〔心数〕も、つねに揺るがず壊れない徳〔常恒",
+          "context_position": 10010,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "本不生",
+      "term_kana": "",
+      "sanskrit": "ādyanutpāda",
+      "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "化他〔他を教化すること〕とする。その菩提の実義を説いて「我れ本不生〔もとより生じないこと〕を覚る……」などという。これはすなわ",
+          "context_position": 20740,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "即身",
+      "term_kana": "",
+      "sanskrit": "sa-deha",
+      "definition": "即身成仏の略。父母所生の身のまま現生で仏となる。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "大空三昧",
+      "term_kana": "",
+      "sanskrit": "mahā-śūnyatā-samādhi",
+      "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "智剣",
+      "term_kana": "",
+      "sanskrit": "jñāna-khaḍga",
+      "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "智",
+        "剣"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "無縁慈悲",
+      "term_kana": "",
+      "sanskrit": "an-ārambaṇa-karuṇā",
+      "definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "慈",
+        "悲"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "玄機",
+      "term_kana": "",
+      "sanskrit": "—",
+      "definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "玄",
+        "機"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "阿字本不生",
+      "term_kana": "",
+      "sanskrit": "ā-di-an-utpāda",
+      "definition": "密教根本教義。阿字（a-kāra）が本来不生（不滅）であることを観じ、万物の本源を悟る。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

@@ -1,0 +1,1689 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol1.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-15",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 33268,
+  "summary": {
+    "unique_terms": 19,
+    "unique_persons": 19,
+    "total_occurrences": 202,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 5,
+        "occurrences": 48
+      },
+      "buddhist_deva": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "buddhist_master_china": {
+        "unique": 8,
+        "occurrences": 60
+      },
+      "buddhist_master_india": {
+        "unique": 3,
+        "occurrences": 86
+      },
+      "buddhist_master_japan": {
+        "unique": 2,
+        "occurrences": 7
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "龍樹",
+      "aliases": [
+        "龍猛",
+        "nāgārjuna",
+        "Nāgārjuna"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "中観派の祖。空海から見て付法第三祖（龍猛）。",
+      "sanskrit_canonical": "nāgārjuna",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "龍樹",
+          "count": 59
+        },
+        {
+          "form": "龍猛",
+          "count": 21
+        }
+      ],
+      "occurrence_count": 80,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "菩薩造」の文。 「龍猛」という名の由来〔得名〕について。 「龍樹」という名の由来について。 龍樹の出現年代に六通りの説〔六時",
+          "context_position": 1051,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の由来〔得名〕について。 「龍樹」という名の由来について。 龍樹の出現年代に六通りの説〔六時出現〕があることについて。 龍樹",
+          "context_position": 1067,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "龍樹の出現年代に六通りの説〔六時出現〕があることについて。 龍樹の寿命〔寿限〕について。 龍樹が諸宗の高祖であることについて",
+          "context_position": 1097,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "時出現〕があることについて。 龍樹の寿命〔寿限〕について。 龍樹が諸宗の高祖であることについて。 龍樹の修行の位〔地位〕につ",
+          "context_position": 1112,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "命〔寿限〕について。 龍樹が諸宗の高祖であることについて。 龍樹の修行の位〔地位〕について。 龍樹が著した論の部数について。",
+          "context_position": 1131,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "高祖であることについて。 龍樹の修行の位〔地位〕について。 龍樹が著した論の部数について。 龍樹の著した論が大乗・小乗の両方",
+          "context_position": 1148,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "修行の位〔地位〕について。 龍樹が著した論の部数について。 龍樹の著した論が大乗・小乗の両方にわたることについて。 如来があ",
+          "context_position": 1164,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "論が大乗・小乗の両方にわたることについて。 如来があらかじめ龍樹の出現を予言した〔懸記〕ことについて。 龍樹の徳行について。",
+          "context_position": 1200,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "如来があらかじめ龍樹の出現を予言した〔懸記〕ことについて。 龍樹の徳行について。〔次いで〕「菩薩」の文、「造」の文。 題号の",
+          "context_position": 1222,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "言宗に学ぶ者がこの論を学びの依りどころとするのは、宗祖である龍樹大聖の著した千部もの論のなかで、これこそ密教の蔵の肝心を説い",
+          "context_position": 1443,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "学僧は、何よりもこの論を仰ぎ尊んで学ぶべきなのである。さて、龍樹の著した論には、百部とも千部とも数え方がまちまちで、現に世に",
+          "context_position": 1978,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "論だからである。『弁顕密二教論』の上巻にいわく――〈この論は龍樹大聖の著した千部の論のなかの、密蔵の肝心を説く論である。だか",
+          "context_position": 2090,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "されている。 この論が作られた時代と伝来について。 そもそも龍樹が世に現れた時代については諸説まちまちである。とはいえ高祖〔",
+          "context_position": 2957,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "た時代については諸説まちまちである。とはいえ高祖〔空海〕は、龍樹を釈尊の入滅後八百年に出現して密教を世に伝えた人と判じておら",
+          "context_position": 2994,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "那伽閼頼樹那菩提薩埵〔ナーガールジュナ・ボーディサットヴァ＝龍樹菩薩〕と名づける。千部の論を著して誤りを打ち砕き正しい教えを",
+          "context_position": 3176,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "空の作なのかについて。 この論には撰号〔著者の署名〕として「龍樹菩薩造」とある。不空は訳者であって、作者ではない。だから高祖",
+          "context_position": 5551,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "提心論』」と引いて証としておられる。『貞元録』なども同じく〔龍樹の作と〕はっきり記す。ところが他宗〔他門〕の智証〔円珍〕は、",
+          "context_position": 5625,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "とあるが、「大阿闍梨」の語は仏・菩薩を指すはずがない〔ゆえに龍樹自身の作ではない〕、というもの。もう一つは、自分の所持する『",
+          "context_position": 5813,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "は、自分の所持する『貞元遺録』に「不空の集」と載っているから龍樹の作ではない、というものである。これについてこの論の前後を照",
+          "context_position": 5865,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "したものである。どうして中国〔振旦〕で後代の人が作った疏を、龍樹のような前代の菩薩が、インド〔西天〕の論のなかで引証できよう",
+          "context_position": 6021,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "が北インドの金粟王塔のもとで感得したものである。どうして祖師龍樹がこれを引証できようか。これらはまことに不審である。――しか",
+          "context_position": 6124,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "』の件は、訳者の不空三蔵が独自に注を書き加えたものであって、龍樹自身の引証ではない。経論のなかに訳者の三蔵が注釈を書き加える",
+          "context_position": 6199,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "がたい。そのうえ他宗においても、伝教大師〔最澄〕や安然などは龍樹の論と定めている。安然の釈にいわく――〈問う。昔のすぐれた人",
+          "context_position": 6556,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "、ある目録にもいう、「『菩提心論』は不空の編集である。だから龍樹の説ではない」と。この説は用いるべきか否か。答う。論には「龍",
+          "context_position": 6629,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "れを題の下に続けて書くのは写し手の誤りである〉と。また〈論は龍樹の作、不空の訳である〉ともいう。これらの趣旨は明らかである。",
+          "context_position": 6932,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "は著者の署名〔造号〕である。すなわち真言相承の第三祖〔龍猛＝龍樹〕である。他宗の師はこの論を不空の編集と判じて龍猛の作ではな",
+          "context_position": 27527,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "さて「那伽阿頼樹那〔ナーガールジュナ〕」の梵語を、旧訳では「龍樹」と訳し、新訳では「龍猛」と訳す。あるいは「龍勝」とも訳す。",
+          "context_position": 27653,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "にいわく――〈正しくは「龍猛」という。古くは、なまり省いて「龍樹」というだけである〉と。『付法伝』にいわく――〈唐の新訳では",
+          "context_position": 27720,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "法伝』にいわく――〈唐の新訳では「龍猛菩薩」といい、古くは「龍樹」というが、これはなまりである〉と。『普観の記』にいわく――",
+          "context_position": 27766,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "る〉と。『普観の記』にいわく――〈「那伽阿周那」をここでは「龍樹」といい、または「龍勝」、あるいは「龍猛」という〉と。 「龍",
+          "context_position": 27812,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の魔軍を破り、一心の法の城において皆が安らぎを得る〉と。 「龍樹」という名の由来について。 『普観の記』にいわく――〈この菩",
+          "context_position": 28228,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "法身とする〉と。その意は、「那伽阿周那」の梵語を、ここでは「龍樹」「龍勝」「龍猛」などと訳す。その「龍樹」の名の由来について",
+          "context_position": 28360,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の梵語を、ここでは「龍樹」「龍勝」「龍猛」などと訳す。その「龍樹」の名の由来について、樹の下で身を生じ龍宮で道を成じたという",
+          "context_position": 28380,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "勝」などについては、別段その由来を釈さない。『通法の疏』は「龍樹」の名の由来に三つの意味を挙げる。初めの二義は『記』と同じで",
+          "context_position": 28477,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "に大樹があって、その蔭に五百の龍が住んでいた。その樹の王を「龍樹」と名づける。この菩薩はつねにもろもろの龍のために妙なる法を",
+          "context_position": 28564,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の龍のために妙なる法を説いた。それにちなんで名を受けたので「龍樹」と称する〉と。そもそも「龍樹」の名の由来には四つの意味があ",
+          "context_position": 28615,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "それにちなんで名を受けたので「龍樹」と称する〉と。そもそも「龍樹」の名の由来には四つの意味がある。一には『龍樹伝』、すなわち",
+          "context_position": 28630,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "と。そもそも「龍樹」の名の由来には四つの意味がある。一には『龍樹伝』、すなわち付法蔵の教えの意で、樹の下で身を生じ龍宮で道を",
+          "context_position": 28653,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ち付法蔵の教えの意で、樹の下で身を生じ龍宮で道を成じたから「龍樹」という。二には天台の釈で、龍を法身とし樹を生身とする。この",
+          "context_position": 28691,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "う。二には天台の釈で、龍を法身とし樹を生身とする。この意は「龍樹」の二字を法身・生身の二身とみる。三には『広灯記』の意で、西",
+          "context_position": 28726,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "で、西域に大樹があり、五百の大龍をおおっていた。その樹王を「龍樹」と名づけ、つねにもろもろの龍のために説法した、とみる。これ",
+          "context_position": 28785,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "、ここでは「猛」と訳す、とみる。これは『補注』の意である。 龍樹の出現年代に六説〔六時出現〕があることについて。 一には釈尊",
+          "context_position": 28910,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "は八百年に出たとする。『付法伝』『摩耶経』などの説である。 龍樹の寿命について。 一には三百余年の寿命とする。恵影の釈と『略",
+          "context_position": 29107,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "に諸説まちまちだが、高祖のお示しによって密教の伝来した時代や龍樹の寿命などを受け取れば、〈出現は八百年、寿命は三百歳〉と釈し",
+          "context_position": 29237,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "のだから、如来滅後一千年まで世に住しておられたとみられる。 龍樹が諸宗の高祖であることについて。 『略付法伝』にいわく――〈",
+          "context_position": 29344,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "った〔＝龍智に密教を伝えた〕。諸宗の高祖は、思うにこの一人〔龍樹〕であろうか〉と。実際、『華厳経』は龍樹が海中〔龍宮〕からと",
+          "context_position": 29453,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "は、思うにこの一人〔龍樹〕であろうか〉と。実際、『華厳経』は龍樹が海中〔龍宮〕からとり出し、『十住毘婆沙論』などを著されたの",
+          "context_position": 29473,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "などを著されたのだから、まさに華厳宗の元祖である。天台でも〈龍樹は一家の高祖である〉という。三論宗はあの菩薩の著した『中論』",
+          "context_position": 29527,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の著した『中論』などを依りどころとする。法相宗では無著菩薩が龍樹の中観を釈し、真言宗では第三祖として密教をはじめて閻浮提〔こ",
+          "context_position": 29581,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "〕に伝えられた。よって諸宗の高祖であることは明らかである。 龍樹の修行の位について。 『楞伽経』に〈歓喜地を証得する〉とある",
+          "context_position": 29646,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "証得する〉とある。『釈摩訶衍論』にいわく――〈歓喜地の大士〔龍樹〕が心をこめて勧める〉と。『付法伝』には〈あらわれた位は歓喜",
+          "context_position": 29700,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "祖のお示しがはっきり初地とみているので、これを定説とする。 龍樹の著した論の部数について。 法相宗の『了義灯』にいわく――〈",
+          "context_position": 29824,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の著した論の部数について。 法相宗の『了義灯』にいわく――〈龍樹菩薩は千部の論を著した〉と。天台の『摩訶止観』の巻七にいわく",
+          "context_position": 29856,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "千部の論を著した〉と。天台の『摩訶止観』の巻七にいわく――〈龍樹のような者は千部の論を著した〉と。『法華伝』の巻一にいわく―",
+          "context_position": 29891,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "う点では、高祖のお示しや諸師の判断がおおむね一致している。 龍樹の著した論が大乗・小乗にわたることについて。 『馬鳴伝』にい",
+          "context_position": 30039,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "法師は、よく小乗の三蔵を専門とし、大乗を信じなかった。馬鳴と龍樹は大乗・小乗を兼ね、二つを一つにした〉と。『三論玄』には、大",
+          "context_position": 30125,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "した〉と。『三論玄』には、大乗・小乗の経をたずねると、まさに龍樹が誤りを破り正しい教えを顕すことを説いている――〈まさにいま",
+          "context_position": 30173,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "もに行ずる。何の疑うところがあろうか〉と。 如来があらかじめ龍樹の出現を予言した〔懸記〕ことについて。 『楞伽経』『付法伝』",
+          "context_position": 30262,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "て。 『楞伽経』『付法伝』『二教論』などにみえる。〔次いで〕龍樹の徳行について。『付法伝』『法華伝』『大乗玄論』などにみえる",
+          "context_position": 30311,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "とについて。〔次いで〕「教門」の文、「説菩提心……」の文、「龍猛菩薩造」の文。 「龍猛」という名の由来〔得名〕について。 「",
+          "context_position": 1019,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "「教門」の文、「説菩提心……」の文、「龍猛菩薩造」の文。 「龍猛」という名の由来〔得名〕について。 「龍樹」という名の由来に",
+          "context_position": 1030,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。この者は『金剛頂瑜伽経』の説く諸尊の修法から一尊の儀軌と、龍猛菩薩の著した『発菩提心論』一巻とを学ぶべし〉と。さらに別本の",
+          "context_position": 1870,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ある。不空は訳者であって、作者ではない。だから高祖も方々で「龍猛菩薩の『菩提心論』」と引いて証としておられる。『貞元録』など",
+          "context_position": 5588,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "空の作だと判じた。智証の『疑問』にいわく――〈『菩提心論』は龍猛の作とも、不空の編集〔集〕ともいうが、二説のうち後の説を正し",
+          "context_position": 5692,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "書き加える例は一つや二つではない。次に供養次第法を引く件も、龍猛が感得した『要略念誦経』と、善無畏が感得した『供養次第法』と",
+          "context_position": 6256,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "第法』とは同じ本〔同本異訳〕である。だから訳者の不空三蔵が、龍猛の引いた『要略念誦経』を、意味のうえで『供養次第法』と訳され",
+          "context_position": 6314,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "樹の説ではない」と。この説は用いるべきか否か。答う。論には「龍猛菩薩造、不空奉詔訳」とある。それなのに不空の編集だというのは",
+          "context_position": 6660,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "答う。冒頭の「大阿闍梨」とは妙吉祥〔文殊菩薩〕のことである。龍猛が妙吉祥から受けてこの論を作り、不空がこれを訳した。だから正",
+          "context_position": 6841,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "〔境界名義〕、二は道理としての義〔道理名義〕である〉と。 「龍猛菩薩造」の文〔＝著者の署名を取り上げる〕。 これは著者の署名",
+          "context_position": 27471,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": " これは著者の署名〔造号〕である。すなわち真言相承の第三祖〔龍猛＝龍樹〕である。他宗の師はこの論を不空の編集と判じて龍猛の作",
+          "context_position": 27524,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "祖〔龍猛＝龍樹〕である。他宗の師はこの論を不空の編集と判じて龍猛の作ではないとする立場を取るが、不空の訳では著者を立てて「龍",
+          "context_position": 27552,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "猛の作ではないとする立場を取るが、不空の訳では著者を立てて「龍猛菩薩造」とある。そうである以上、異説を立てて非難するのは難し",
+          "context_position": 27583,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ガールジュナ〕」の梵語を、旧訳では「龍樹」と訳し、新訳では「龍猛」と訳す。あるいは「龍勝」とも訳す。『西域記』にいわく――〈",
+          "context_position": 27665,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "あるいは「龍勝」とも訳す。『西域記』にいわく――〈正しくは「龍猛」という。古くは、なまり省いて「龍樹」というだけである〉と。",
+          "context_position": 27702,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "というだけである〉と。『付法伝』にいわく――〈唐の新訳では「龍猛菩薩」といい、古くは「龍樹」というが、これはなまりである〉と",
+          "context_position": 27753,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "阿周那」をここでは「龍樹」といい、または「龍勝」、あるいは「龍猛」という〉と。 「龍猛」という名の由来について。 『付法伝』",
+          "context_position": 27832,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "樹」といい、または「龍勝」、あるいは「龍猛」という〉と。 「龍猛」という名の由来について。 『付法伝』にいわく――〈また、こ",
+          "context_position": 27843,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": " 『付法伝』にいわく――〈また、この菩薩のあらわれ〔迹〕を「龍猛」と名づけるのは、こうである。大いなる龍は、思いはからずとも",
+          "context_position": 27888,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "その意は、「那伽阿周那」の梵語を、ここでは「龍樹」「龍勝」「龍猛」などと訳す。その「龍樹」の名の由来について、樹の下で身を生",
+          "context_position": 28368,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "由来と、龍を法身とし樹を生身とする解釈の二つの釈を挙げる。「龍猛」「龍勝」などについては、別段その由来を釈さない。『通法の疏",
+          "context_position": 28442,
+          "matched_form": "龍猛"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 39
+        },
+        {
+          "form": "不空三蔵",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 42,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "大暦六年まで、およそ一〇一巻・七十七部〉という。この論もその不空三蔵の訳なのだから、開元から大暦までのあいだの勅命による訳〔詔訳",
+          "context_position": 3328,
+          "matched_form": "不空三蔵"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "審である。――しかし答えていえば、『大日経疏』の件は、訳者の不空三蔵が独自に注を書き加えたものであって、龍樹自身の引証ではない。",
+          "context_position": 6177,
+          "matched_form": "不空三蔵"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "した『供養次第法』とは同じ本〔同本異訳〕である。だから訳者の不空三蔵が、龍猛の引いた『要略念誦経』を、意味のうえで『供養次第法』",
+          "context_position": 6308,
+          "matched_form": "不空三蔵"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "」か、義理をまとめた「集義論」かについて。 この論ははたして不空の作なのか、ということについて。〔次いで〕「金剛頂瑜伽中……",
+          "context_position": 214,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "〕を置くことについて。〔次いで〕「大興善寺」の文、「三蔵乃至不空」の文。 不空の徳行・二度の渡天〔再天〕などについて。 「奉",
+          "context_position": 1296,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ついて。〔次いで〕「大興善寺」の文、「三蔵乃至不空」の文。 不空の徳行・二度の渡天〔再天〕などについて。 「奉詔訳」の文〔＝",
+          "context_position": 1303,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "百歳〕〉と。次に中国〔震旦〕での漢訳については、『付法伝』が不空の訳した経論の数を挙げて、〈開元年間から今の大暦六年まで、お",
+          "context_position": 3274,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "はいない。だからやはり集義論であるべきだ。 この論ははたして不空の作なのかについて。 この論には撰号〔著者の署名〕として「龍",
+          "context_position": 5520,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。 この論には撰号〔著者の署名〕として「龍樹菩薩造」とある。不空は訳者であって、作者ではない。だから高祖も方々で「龍猛菩薩の",
+          "context_position": 5561,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "はっきり記す。ところが他宗〔他門〕の智証〔円珍〕は、この論を不空の作だと判じた。智証の『疑問』にいわく――〈『菩提心論』は龍",
+          "context_position": 5661,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "た。智証の『疑問』にいわく――〈『菩提心論』は龍猛の作とも、不空の編集〔集〕ともいうが、二説のうち後の説を正しいとする〉と。",
+          "context_position": 5699,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "いうが、二説のうち後の説を正しいとする〉と。彼の師〔円珍〕は不空の編集を正説とし、自分なりに二つの理由を立てる。一つは、論の",
+          "context_position": 5739,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "い〕、というもの。もう一つは、自分の所持する『貞元遺録』に「不空の集」と載っているから龍樹の作ではない、というものである。こ",
+          "context_position": 5852,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "人〔古徳〕のある者がいい、ある目録にもいう、「『菩提心論』は不空の編集である。だから龍樹の説ではない」と。この説は用いるべき",
+          "context_position": 6617,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "い」と。この説は用いるべきか否か。答う。論には「龍猛菩薩造、不空奉詔訳」とある。それなのに不空の編集だというのは根拠がない。",
+          "context_position": 6666,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "か。答う。論には「龍猛菩薩造、不空奉詔訳」とある。それなのに不空の編集だというのは根拠がない。用いがたい。問う。論の題の下に",
+          "context_position": 6681,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ない。用いがたい。問う。論の題の下に「大興善寺三蔵沙門大広智不空阿闍梨奉詔訳」とあり、次の文の冒頭が「大阿闍梨いわく」となっ",
+          "context_position": 6725,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "く」となっている。ある本ではこの文を題の下に続けて書くので、不空の編集とみる人がいる。どうして根拠がないといえるのか。答う。",
+          "context_position": 6782,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "文殊菩薩〕のことである。龍猛が妙吉祥から受けてこの論を作り、不空がこれを訳した。だから正しい本では「大阿闍梨いわく」を論の本",
+          "context_position": 6859,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "に続けて書くのは写し手の誤りである〉と。また〈論は龍樹の作、不空の訳である〉ともいう。これらの趣旨は明らかである。したがって",
+          "context_position": 6937,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ある〉ともいう。これらの趣旨は明らかである。したがって智証が不空の作というのは大きな誤りである。 「金剛頂瑜伽中……」の文〔",
+          "context_position": 6972,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "題額〕を取り上げる箇所である。以下、訳者の署名の末尾「大広智不空奉詔訳」に至るまでのひとまとまりについて、よく吟味すべきであ",
+          "context_position": 7067,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "」とは頭頂のことで、仏の行のうえなきこと〔無上〕を表す〉と。不空のお示しにもいわく――〈「頂」とは頭頂のことで、偉大な行の尊",
+          "context_position": 10907,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "て。 他宗の師である安然は釈していう――〈もし羅什・善無畏・不空・一行らの説によれば、「菩提」は「道」とも「覚」とも訳す。玄",
+          "context_position": 13533,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "提心」を依主釈・持業釈などの語法で読み分けることについて。 不空の『菩提心義』にいわく――〈覚りを求める心を「菩提心」と名づ",
+          "context_position": 14610,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。顕教・密教で扱いは違っても、ともに菩提心の功徳をたたえる。不空の『菩提心義』にいわく――〈菩提の心は成仏の根本である。それ",
+          "context_position": 17986,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "について三心を挙げたのを根拠として、この釈を作ったのである。不空の『菩提心義』では五門を立てて菩提心の意味とすがた〔義相〕を",
+          "context_position": 19248,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "〔常途符順〕釈の意である。これについて古来の一説では、三蔵〔不空〕が訳した『菩提心論』に密蔵肝心の菩提心の意味があらわれるか",
+          "context_position": 19459,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "わち真言相承の第三祖〔龍猛＝龍樹〕である。他宗の師はこの論を不空の編集と判じて龍猛の作ではないとする立場を取るが、不空の訳で",
+          "context_position": 27543,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の論を不空の編集と判じて龍猛の作ではないとする立場を取るが、不空の訳では著者を立てて「龍猛菩薩造」とある。そうである以上、異",
+          "context_position": 27570,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "い、唐の代に至ってまた「寺」というようになった。 「三蔵……不空」の文。 これはその寺に住む人を挙げたものである。そのうち「",
+          "context_position": 31867,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "である。そのうち「三蔵沙門」は一般的な称号〔通号〕、「大広智不空」は個別の名〔別称〕である。「三蔵」とは、経・律・論に通じた",
+          "context_position": 31920,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "文。 「沙門」については『悉曇の抄』のとおりである。〈大広智不空〉の文――これは訳者の個別の号である。「大広智」は徳をたたえ",
+          "context_position": 32150,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "訳者の個別の号である。「大広智」は徳をたたえる号〔徳号〕、「不空」は密教の灌頂で授かる号〔金剛号〕である。これらはともに在世",
+          "context_position": 32190,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "のお名前である。『表製集』の巻六にいわく――〈和尚のいみ名は不空。西域の人で、その氏族は中国〔中夏〕には知られていない〉と。",
+          "context_position": 32252,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "られていない〉と。同じく巻四にいわく――〈大師の法のいみ名は不空。北インドのバラモン〔婆羅門〕種である〉と。『表製集』巻六で",
+          "context_position": 32305,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ラモン種とする。前後で食い違っている。ただしこの両巻はともに不空の碑の文を載せており、別々の人が書いたものなので、この異説が",
+          "context_position": 32386,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "る。『表製集』巻六にいわく――〈玄宗・粛宗・代宗の三代がみな不空を灌頂の国師とした。代宗の初めに、特進大鴻臚の位をもってこれ",
+          "context_position": 32453,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "むに及んで、いよいよ尊重を加え、名を直接にはいわず忌んで、「不空」と号した。これは灌頂の壇に登って華を散ずる〔登壇散華〕とき",
+          "context_position": 32561,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "を散ずる〔登壇散華〕ときの号を取ったものである〉と。一つに、不空のもとのお名前は「智蔵」である。「大広智」は法号、「不空」は",
+          "context_position": 32611,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "に、不空のもとのお名前は「智蔵」である。「大広智」は法号、「不空」は金剛号である。安然は「大弁正広智三蔵」を滅後の名と釈する",
+          "context_position": 32639,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "釈する。この意によれば、「大弁正」は滅後のお名前とみえる。 不空の徳行・二度の渡天〔再天〕などについて。 くわしくは『付法伝",
+          "context_position": 32698,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日",
+          "count": 28
+        },
+        {
+          "form": "毘盧遮那",
+          "count": 11
+        },
+        {
+          "form": "大日如来",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 41,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "〔一門・普門〕にも通じることについて。 あらゆる門をそなえた大日如来〔普門大日〕を「遍照金剛」と呼び、また個々の諸尊もそれぞれみ",
+          "context_position": 9946,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の意味が仏果にも通じることは、『大日経疏』に〈……毘盧遮那〔大日如来〕にはじめて、つきることのない真理の世界の究極の発心〔無尽法",
+          "context_position": 22919,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "のではない。さらに、次の題を胎蔵とみる根拠は、『付法伝』が「毘盧遮那の惣持陀羅尼の法門」を胎蔵と釈しているところにあり、「惣持」",
+          "context_position": 4671,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "剛界にも用いられる確かな証拠である。それなのに『付法伝』が「毘盧遮那の惣持」というのは、毘盧遮那が『大日経』の題号だからこそ胎蔵",
+          "context_position": 4818,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "である。それなのに『付法伝』が「毘盧遮那の惣持」というのは、毘盧遮那が『大日経』の題号だからこそ胎蔵と釈しているのだ。ここ〔この",
+          "context_position": 4832,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "なるほど不審な点が多い。まず第三の菩提心の釈の段に「准じて『毘盧遮那経の疏』〔大日経疏〕に……」という引用がある。だが『大日経疏",
+          "context_position": 5935,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の菩薩が、インド〔西天〕の論のなかで引証できようか。次に『大毘盧遮那経供養次第法』の文も引証されている。あの供養次第法は善無畏三",
+          "context_position": 6059,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "いへん受け取りがたい。『大日経疏』には「金剛薩埵大阿闍梨」「毘盧遮那大阿闍梨」などとある。仏・菩薩を大阿闍梨と呼ぶのはよくあるこ",
+          "context_position": 6427,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "剛頂経全体〕の総称である。次の題は胎蔵に約す。『付法伝』は「毘盧遮那の惣持陀羅尼の法門」を胎蔵と釈している。「惣持」の語は広くは",
+          "context_position": 7690,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "める。発心の意味が仏果にも通じることは、『大日経疏』に〈……毘盧遮那〔大日如来〕にはじめて、つきることのない真理の世界の究極の発",
+          "context_position": 22914,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "だから、金剛頂瑜伽の惣持と受け取るべきである。『付法伝』が「毘盧遮那の惣持」というのは、毘盧遮那が『大日経』の名であることによっ",
+          "context_position": 23770,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "け取るべきである。『付法伝』が「毘盧遮那の惣持」というのは、毘盧遮那が『大日経』の名であることによって胎蔵と釈しているのである。",
+          "context_position": 23784,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "から『仏地論』『瑜伽論』などの論には四種の陀羅尼を説く。『大毘盧遮那経』〔大日経〕や『金剛頂経』などの秘密の蔵〔密教〕では、如来",
+          "context_position": 25645,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "師空海〕が弘仁年間に朝廷へ提出した真言宗の三学の目録でも、『大日経』『金剛頂経』などの〈経の蔵〔素怛覧蔵・スートラ蔵〕〉、『",
+          "context_position": 1532,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "は、菩提心こそあらゆるものごとの根源〔諸法の本源〕とみる。『大日経疏』にいわく――〈必ずあまねく宇宙〔法界〕のすべての衆生を",
+          "context_position": 2364,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。こうして両部の法門をともに含みこんでいる〔該摂〕。さらに『大日経』の三句〔菩提心を因とし、大悲を根とし、方便を究竟とする〕",
+          "context_position": 3910,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "て金剛頂のなかに行願・大悲の意味がないことがあろうか。次に『大日経』を引いて証する件も、金剛頂部の論であっても胎蔵部の経文を",
+          "context_position": 4543,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "なのに『付法伝』が「毘盧遮那の惣持」というのは、毘盧遮那が『大日経』の題号だからこそ胎蔵と釈しているのだ。ここ〔この論〕では",
+          "context_position": 4838,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "多い。まず第三の菩提心の釈の段に「准じて『毘盧遮那経の疏』〔大日経疏〕に……」という引用がある。だが『大日経疏』は善無畏三蔵",
+          "context_position": 5944,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "毘盧遮那経の疏』〔大日経疏〕に……」という引用がある。だが『大日経疏』は善無畏三蔵〔無畏〕の講説を一行禅師が筆記したものであ",
+          "context_position": 5965,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "うか。これらはまことに不審である。――しかし答えていえば、『大日経疏』の件は、訳者の不空三蔵が独自に注を書き加えたものであっ",
+          "context_position": 6165,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "薩を指すはずがない」と判じる点も、たいへん受け取りがたい。『大日経疏』には「金剛薩埵大阿闍梨」「毘盧遮那大阿闍梨」などとある",
+          "context_position": 6409,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "』の趣旨は明らかである。 二つの題を掲げることについて。 『大日経』の梵語原本にも「修真言行品」と「入真言門住心品」という二",
+          "context_position": 7800,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "〔瑜伽〕は法である〉と。 金剛のもつ三つの意味について。 『大日経疏』の巻一にいわく――〈世間の金剛宝〔ダイヤモンド〕には、",
+          "context_position": 9219,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "にも通じることについて。 あらゆる門をそなえた大日如来〔普門大日〕を「遍照金剛」と呼び、また個々の諸尊もそれぞれみな「金剛」",
+          "context_position": 9953,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "」の称を得る。また住まいとなる環境世界〔依報〕についても、『大日経』は「金剛法界宮」と説き、『金剛頂経』は「不壊金剛光明心殿",
+          "context_position": 10178,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "このうち特に真言行者の観じるところを「金剛幻」と名づける。『大日経疏』に〈如来の金剛のごとき幻もまた、このようなものである〉",
+          "context_position": 10798,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ヨーガ〕」は男性形、「瑜祇〔ヨーギニー〕」は女性形である。『大日経疏』の巻二にいわく――〈「瑜伽」は訳して「相応」という。も",
+          "context_position": 11093,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "経疏』〕、「無上正等遍覚」〔清涼＝澄観〕、「無上正遍知」〔『大日経疏』〕などとも訳す。さて、訳された経論がわざわざ梵語のまま",
+          "context_position": 12650,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "然の釈にいわく――〈問う。心にいくつの種類があるか。答う。『大日経義釈』が方々で心を明かすのに七種を挙げる〉と。七種とは、一",
+          "context_position": 16242,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ように、「すべての衆生に普賢のごとき大菩提心がある」、また『大日経』および『義釈』にいうように、金剛手が問うて「菩提心を、ひ",
+          "context_position": 19790,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。修めるべき徳が本来そなわっている〔修性本有〕からである。『大日経』が阿字を地輪の方形の壇〔方壇〕として菩提心と名づけるよう",
+          "context_position": 19947,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "四重のうち第二重に置いて、四重の浅深を受け取るべきである。『大日経』の意は、菩提の本当の意味〔菩提の実義〕と、成仏という外に",
+          "context_position": 20633,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "と受け取るべきである。もし迷情を遮る遮情門に約せば、疏家〔『大日経疏』〕が経の無相の菩提を釈するとき、〈もろもろのものごとの",
+          "context_position": 21270,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "か。この菩提は、説いて人に示すことができない〉という。また『大日経』に「秘密主よ、これが阿耨多羅三藐三菩提である……その法は",
+          "context_position": 21431,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "じて発すのだ、と読める。発心の意味が仏果にも通じることは、『大日経疏』に〈……毘盧遮那〔大日如来〕にはじめて、つきることのな",
+          "context_position": 22905,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ある。『付法伝』が「毘盧遮那の惣持」というのは、毘盧遮那が『大日経』の名であることによって胎蔵と釈しているのである。もし「初",
+          "context_position": 23790,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "部に通じるが、そのなかでここは胎蔵に約すと解すべきである。『大日経疏』に「この宗は瑜伽の意である」とあり、これを『大日経』を",
+          "context_position": 23893,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "る。『大日経疏』に「この宗は瑜伽の意である」とあり、これを『大日経』を指すと取る一説もある。そうであれば、「瑜伽」の語を胎蔵",
+          "context_position": 23920,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "『瑜伽論』などの論には四種の陀羅尼を説く。『大毘盧遮那経』〔大日経〕や『金剛頂経』などの秘密の蔵〔密教〕では、如来が自ら受用",
+          "context_position": 25652,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "、「修持」を成就すなわち果と取って、因・行〔根〕・果の三句〔大日経の三句〕とみる。ある説では、初めの題は金剛頂部すなわち金剛",
+          "context_position": 27177,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "空海",
+      "aliases": [
+        "弘法大師",
+        "遍照金剛",
+        "大遍照金剛"
+      ],
+      "subcategory": "buddhist_master_japan",
+      "definition": "真言宗開祖。性霊集の主たる撰者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "空海",
+          "count": 3
+        },
+        {
+          "form": "弘法大師",
+          "count": 1
+        },
+        {
+          "form": "遍照金剛",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の肝心を説いた論〔密蔵肝心の論〕だからである。それゆえ高祖〔弘法大師空海〕が弘仁年間に朝廷へ提出した真言宗の三学の目録でも、『大",
+          "context_position": 1499,
+          "matched_form": "弘法大師"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ことについて。 あらゆる門をそなえた大日如来〔普門大日〕を「遍照金剛」と呼び、また個々の諸尊もそれぞれみな「金剛」の称号をそなえ",
+          "context_position": 9958,
+          "matched_form": "遍照金剛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "説いた論〔密蔵肝心の論〕だからである。それゆえ高祖〔弘法大師空海〕が弘仁年間に朝廷へ提出した真言宗の三学の目録でも、『大日経",
+          "context_position": 1503,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "が世に現れた時代については諸説まちまちである。とはいえ高祖〔空海〕は、龍樹を釈尊の入滅後八百年に出現して密教を世に伝えた人と",
+          "context_position": 2989,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "し、「没駄」を「覚」、「冒地」を「知」と訳すのは、別に大師〔空海〕個人の思いつき〔今案〕ではない。これは青龍寺で相承された解",
+          "context_position": 14121,
+          "matched_form": "空海"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "疏』〔大日経疏〕に……」という引用がある。だが『大日経疏』は善無畏三蔵〔無畏〕の講説を一行禅師が筆記したものである。どうして中",
+          "context_position": 5971,
+          "matched_form": "善無畏"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "毘盧遮那経供養次第法』の文も引証されている。あの供養次第法は善無畏三蔵が北インドの金粟王塔のもとで感得したものである。どうして",
+          "context_position": 6089,
+          "matched_form": "善無畏"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。次に供養次第法を引く件も、龍猛が感得した『要略念誦経』と、善無畏が感得した『供養次第法』とは同じ本〔同本異訳〕である。だから",
+          "context_position": 6272,
+          "matched_form": "善無畏"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "語について。 他宗の師である安然は釈していう――〈もし羅什・善無畏・不空・一行らの説によれば、「菩提」は「道」とも「覚」とも訳",
+          "context_position": 13529,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "と金剛界の金剛とに、すぐれ劣りはあるか。答う。胎蔵の金剛とは普賢菩薩のことであり、金剛界の金剛とは仏が自ら内に証する智〔内証",
+          "context_position": 10377,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "求めるからである。『金剛頂経』の説くように、「すべての衆生に普賢のごとき大菩提心がある」、また『大日経』および『義釈』にいう",
+          "context_position": 19772,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "は第三の菩提心、すなわちすべての衆生に本来そなわる金剛薩埵・普賢の身心〔本有薩埵普賢の身心〕に当たる。「一向志求一切智々」は",
+          "context_position": 21041,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "わちすべての衆生に本来そなわる金剛薩埵・普賢の身心〔本有薩埵普賢の身心〕に当たる。「一向志求一切智々」は勝義の菩提心、「必当",
+          "context_position": 21051,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "法蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第三祖。賢首大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "法蔵",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "「無上正真等正覚道」〔菩提流支の訳〕、「無上正等覚」〔香象＝法蔵の『心経疏』〕、「無上正等遍覚」〔清涼＝澄観〕、「無上正遍知",
+          "context_position": 12615,
+          "matched_form": "法蔵"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の名の由来には四つの意味がある。一には『龍樹伝』、すなわち付法蔵の教えの意で、樹の下で身を生じ龍宮で道を成じたから「龍樹」と",
+          "context_position": 28663,
+          "matched_form": "法蔵"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "し・堅く持って捨てない〔忍楽修行堅持不捨〕意味である。香象〔法蔵〕の『起信義記』上巻にいわく――〈「菩薩」とは、もろもろの論",
+          "context_position": 30500,
+          "matched_form": "法蔵"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "れをたたえ、特に法号を賜って「大広智三蔵」といった〉と。『付法蔵』にいわく――〈粛宗が朝廷に臨むに及んで、いよいよ尊重を加え",
+          "context_position": 32514,
+          "matched_form": "法蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈尊",
+          "count": 3
+        },
+        {
+          "form": "釈迦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "きである。『付法伝』にいわく――〈〔密教相承の〕第三祖とは、釈迦如来が世を去られて〔掩化〕のち八百年のうちに現れた一人の大士",
+          "context_position": 3102,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "については諸説まちまちである。とはいえ高祖〔空海〕は、龍樹を釈尊の入滅後八百年に出現して密教を世に伝えた人と判じておられる。",
+          "context_position": 2997,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "華論』『大智度論』『十地経論』などがこれである。これに対し、釈尊一代の諸経の義理を広く通じて述べたり、般若・秘密といった一部",
+          "context_position": 5073,
+          "matched_form": "釈尊"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "龍樹の出現年代に六説〔六時出現〕があることについて。 一には釈尊滅後百年に出たとする。『述記』『演秘』の説である。二には三百",
+          "context_position": 28940,
+          "matched_form": "釈尊"
+        }
+      ]
+    },
+    {
+      "canonical": "澄観",
+      "aliases": [
+        "清涼大師"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第四祖。清涼山に住す。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "澄観",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "正等覚」〔香象＝法蔵の『心経疏』〕、「無上正等遍覚」〔清涼＝澄観〕、「無上正遍知」〔『大日経疏』〕などとも訳す。さて、訳され",
+          "context_position": 12637,
+          "matched_form": "澄観"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "提心集」の十門を立てて菩提心のありさまを明かす。華厳の清涼〔澄観〕は菩提心に、心の本体・心のすがた・心の徳〔心体・心相・心徳",
+          "context_position": 18141,
+          "matched_form": "澄観"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ちに無上のさとり〔阿耨多羅三藐三菩提〕を得る〉とある。清涼〔澄観〕の疏がその初発心を釈するとき、〈「発」とは「開発」の発であ",
+          "context_position": 22270,
+          "matched_form": "澄観"
+        }
+      ]
+    },
+    {
+      "canonical": "智顗",
+      "aliases": [
+        "天台大師",
+        "智者大師"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "天台宗の実質的開祖。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "智者大師",
+          "count": 1
+        },
+        {
+          "form": "智顗",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "生まれ〕、龍宮で道を成じた〔さとった〕から、これを名とした。智者大師〔天台智顗〕がいうには、樹を生身〔肉身〕とし、龍を法身とする",
+          "context_position": 28301,
+          "matched_form": "智者大師"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "で道を成じた〔さとった〕から、これを名とした。智者大師〔天台智顗〕がいうには、樹を生身〔肉身〕とし、龍を法身とする〉と。その",
+          "context_position": 28308,
+          "matched_form": "智顗"
+        }
+      ]
+    },
+    {
+      "canonical": "最澄",
+      "aliases": [
+        "伝教大師"
+      ],
+      "subcategory": "buddhist_master_japan",
+      "definition": "日本天台宗開祖。比叡山。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "伝教大師",
+          "count": 1
+        },
+        {
+          "form": "最澄",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "い。それなら拠りどころにはしがたい。そのうえ他宗においても、伝教大師〔最澄〕や安然などは龍樹の論と定めている。安然の釈にいわく―",
+          "context_position": 6542,
+          "matched_form": "伝教大師"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ら拠りどころにはしがたい。そのうえ他宗においても、伝教大師〔最澄〕や安然などは龍樹の論と定めている。安然の釈にいわく――〈問",
+          "context_position": 6547,
+          "matched_form": "最澄"
+        }
+      ]
+    },
+    {
+      "canonical": "玄奘",
+      "aliases": [
+        "三蔵法師",
+        "玄奘三蔵"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "唐代の訳経僧。西天取経の主役。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "玄奘",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "空・一行らの説によれば、「菩提」は「道」とも「覚」とも訳す。玄奘によれば「菩提」はもっぱら「覚」と訳す。さて「菩提」と「冒地",
+          "context_position": 13564,
+          "matched_form": "玄奘"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "いう。法を呼ぶときに「四覚」「五覚」などとはいわない。ただし玄奘らが「菩提」を「覚」と訳すのは、もともと覚と智が通じ合うから",
+          "context_position": 14449,
+          "matched_form": "玄奘"
+        }
+      ]
+    },
+    {
+      "canonical": "達磨",
+      "aliases": [
+        "菩提達磨",
+        "bodhidharma",
+        "Bodhidharma"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国禅宗の初祖。インドより渡来。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "達磨",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "に対して、『釈摩訶衍論』とこの『菩提心論』とを〈論の蔵〔阿毘達磨蔵・アビダルマ蔵〕〉に当て、これを真言宗の三学と定められた。",
+          "context_position": 1626,
+          "matched_form": "達磨"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "、弘仁十四年に朝廷へ提出した目録では三学のうちの論の蔵〔阿毘達磨蔵〕に列ね、承和の官符では三業の科目の一つに挙げられた、とい",
+          "context_position": 3510,
+          "matched_form": "達磨"
+        }
+      ]
+    },
+    {
+      "canonical": "龍智",
+      "aliases": [
+        "nāgabodhi",
+        "Nāgabodhi"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "密教付法第四祖。龍樹の弟子。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "龍智",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "婆〔アーリヤデーヴァ〕を筆頭に置き、秘密の法を伝えるうえでは龍智の室に入った〔＝龍智に密教を伝えた〕。諸宗の高祖は、思うにこ",
+          "context_position": 29417,
+          "matched_form": "龍智"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "〕を筆頭に置き、秘密の法を伝えるうえでは龍智の室に入った〔＝龍智に密教を伝えた〕。諸宗の高祖は、思うにこの一人〔龍樹〕であろ",
+          "context_position": 29427,
+          "matched_form": "龍智"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "〕もそれに従う諸尊〔心数〕も、つねに揺るがず壊れない徳〔常恒不動不壊の徳〕をそなえているからである。 「金剛」の名が、仏の身",
+          "context_position": 10042,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "吉蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "三論宗の大成者。嘉祥大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "吉蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "〉と。『二教論』の文は先に挙げたとおりである。三論宗の嘉祥〔吉蔵〕は百部の論を著したと判じる。とはいえ、千部の論を著したとい",
+          "context_position": 29977,
+          "matched_form": "吉蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈天",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "頂」というには、ひとまず三種ある。人・法・喩である。喩とは、帝釈天〔インドラ〕がもつ金剛宝のことで、その色は白・黄・赤・青・紺",
+          "context_position": 9469,
+          "matched_form": "帝釈天"
+        }
+      ]
+    },
+    {
+      "canonical": "弥勒",
+      "aliases": [
+        "弥勒菩薩",
+        "慈氏",
+        "maitreya",
+        "Maitreya"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "未来仏。兜率天で待機。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "慈氏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "とはいえ、はじめの心〔前心〕こそ難しい」と。「菩提心品」と「慈氏章」のなかに、そのありさまをくわしく説いている。心体・心相・",
+          "context_position": 19012,
+          "matched_form": "慈氏"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "根拠がないといえるのか。答う。冒頭の「大阿闍梨」とは妙吉祥〔文殊菩薩〕のことである。龍猛が妙吉祥から受けてこの論を作り、不空",
+          "context_position": 6829,
+          "matched_form": "文殊"
+        }
+      ]
+    }
+  ]
+}

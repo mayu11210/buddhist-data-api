@@ -1,0 +1,472 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol1.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-15",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 33268,
+  "summary": {
+    "unique_terms": 15,
+    "unique_places": 15,
+    "total_occurrences": 25,
+    "by_subcategory": {
+      "capital_china": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "cosmological_realm": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_china": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_dynasty": {
+        "unique": 5,
+        "occurrences": 6
+      },
+      "country_india": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_japan": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_western_region": {
+        "unique": 1,
+        "occurrences": 5
+      },
+      "temple_china": {
+        "unique": 3,
+        "occurrences": 8
+      },
+      "temple_japan": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大興善寺",
+      "aliases": [],
+      "subcategory": "temple_china",
+      "definition": "長安。不空三蔵の住所。密教伝来の中心。",
+      "matched_forms": [
+        {
+          "form": "大興善寺",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の下に撰号〔著者・訳者の名〕を置くことについて。〔次いで〕「大興善寺」の文、「三蔵乃至不空」の文。 不空の徳行・二度の渡天〔再天",
+          "context_position": 1283,
+          "matched_form": "大興善寺"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "編集だというのは根拠がない。用いがたい。問う。論の題の下に「大興善寺三蔵沙門大広智不空阿闍梨奉詔訳」とあり、次の文の冒頭が「大阿",
+          "context_position": 6714,
+          "matched_form": "大興善寺"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "は、法は人によって広まるから著者の名を置く、とも解する。 「大興善寺」の文。 これは訳者の署名である。そのうち「大興善寺」とは、",
+          "context_position": 31238,
+          "matched_form": "大興善寺"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "る。 「大興善寺」の文。 これは訳者の署名である。そのうち「大興善寺」とは、まず訳者の住んだ所を挙げたものである。この寺は太宗皇",
+          "context_position": 31264,
+          "matched_form": "大興善寺"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "開皇二年に、城・門・殿などにみな「大興」の名を加えた。いまの大興善寺の「大興」の名もその一つである。『貞元録』の巻十にいわく――",
+          "context_position": 31591,
+          "matched_form": "大興善寺"
+        }
+      ]
+    },
+    {
+      "canonical": "西域",
+      "aliases": [],
+      "subcategory": "country_western_region",
+      "definition": "中国西方諸国の総称。",
+      "matched_forms": [
+        {
+          "form": "西域",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "巻本『楞伽経』の巻一にいわく――〈第一義の心。この心は胡語〔西域の音〕では肝栗奈〔フリダヤ〕で、肝栗奈を宋〔中国〕の語では「",
+          "context_position": 17436,
+          "matched_form": "西域"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "と訳し、新訳では「龍猛」と訳す。あるいは「龍勝」とも訳す。『西域記』にいわく――〈正しくは「龍猛」という。古くは、なまり省い",
+          "context_position": 27686,
+          "matched_form": "西域"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "樹」の二字を法身・生身の二身とみる。三には『広灯記』の意で、西域に大樹があり、五百の大龍をおおっていた。その樹王を「龍樹」と",
+          "context_position": 28757,
+          "matched_form": "西域"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。三には九百歳とし、『中論疏』にみえる。四には数百歳とし、『西域記』にみえる。このように諸説まちまちだが、高祖のお示しによっ",
+          "context_position": 29194,
+          "matched_form": "西域"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "前である。『表製集』の巻六にいわく――〈和尚のいみ名は不空。西域の人で、その氏族は中国〔中夏〕には知られていない〉と。同じく",
+          "context_position": 32255,
+          "matched_form": "西域"
+        }
+      ]
+    },
+    {
+      "canonical": "隋",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。唐の前。",
+      "matched_forms": [
+        {
+          "form": "隋",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "度である〉と。その意は明らかである。第二の説はこうである――隋の文帝が開皇二年に、城・門・殿などにみな「大興」の名を加えた",
+          "context_position": 31556,
+          "matched_form": "隋"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。また「遊行所」ともいう。多くの僧の遊行する所だからである。隋の煬帝のとき、天下の寺をあらためてみな「道場」といい、唐の代",
+          "context_position": 31811,
+          "matched_form": "隋"
+        }
+      ]
+    },
+    {
+      "canonical": "青龍寺",
+      "aliases": [],
+      "subcategory": "temple_china",
+      "definition": "長安にあった密教の中心寺院。恵果阿闍梨の住所。",
+      "matched_forms": [
+        {
+          "form": "青龍寺",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の将来〔請来＝持ち帰り〕については、高祖が延暦二十四年に唐の青龍寺で〔密教を〕相承され、大同元年に帰国してその請来目録にこの論",
+          "context_position": 3444,
+          "matched_form": "青龍寺"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "のは、別に大師〔空海〕個人の思いつき〔今案〕ではない。これは青龍寺で相承された解釈である。あるお示しにいわく――〈仏陀は覚、菩",
+          "context_position": 14143,
+          "matched_form": "青龍寺"
+        }
+      ]
+    },
+    {
+      "canonical": "夏",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国伝説的な最古の王朝。禹が建国。",
+      "matched_forms": [
+        {
+          "form": "夏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "名もその一つである。『貞元録』の巻十にいわく――〈開皇二年の夏に詔していう、城を大興城、殿を大興殿、門を大興門、県を大興県",
+          "context_position": 31631,
+          "matched_form": "夏"
+        }
+      ]
+    },
+    {
+      "canonical": "大慈恩寺",
+      "aliases": [
+        "慈恩寺"
+      ],
+      "subcategory": "temple_china",
+      "definition": "長安。玄奘の住所。",
+      "matched_forms": [
+        {
+          "form": "大慈恩寺",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "』の巻一にいわく――〈「大慈恩」とは、慈父の恩に報いるから「大慈恩寺」という。「大」とは十大寺のうちの数である。左街〔長安の東側",
+          "context_position": 31412,
+          "matched_form": "大慈恩寺"
+        }
+      ]
+    },
+    {
+      "canonical": "天竺",
+      "aliases": [
+        "印度",
+        "身毒"
+      ],
+      "subcategory": "country_india",
+      "definition": "インドの古称。",
+      "matched_forms": [
+        {
+          "form": "天竺",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の心について。『摩訶止観』の巻一にいわく――〈質多はインド〔天竺〕の音で、この国では「心」という。すなわち思いはかり知る心〔",
+          "context_position": 15867,
+          "matched_form": "天竺"
+        }
+      ]
+    },
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "、この一字を称えるとき、よく内外の災いを除き、ついには究極の安楽と菩提の果を得る。これを呪陀羅尼と名づける。四に、出家でも在",
+          "context_position": 24918,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "宋",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "南朝の宋（または春秋宋）。",
+      "matched_forms": [
+        {
+          "form": "宋",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。この心は胡語〔西域の音〕では肝栗奈〔フリダヤ〕で、肝栗奈を宋〔中国〕の語では「心」という。樹木などの心のようなもので、思",
+          "context_position": 17458,
+          "matched_form": "宋"
+        }
+      ]
+    },
+    {
+      "canonical": "日本",
+      "aliases": [
+        "日域",
+        "本朝",
+        "我朝",
+        "皇朝",
+        "神国"
+      ],
+      "subcategory": "country_japan",
+      "definition": "日本国。",
+      "matched_forms": [
+        {
+          "form": "本朝",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "・粛宗・代宗の三代のあいだに訳されたものである。次にわが国〔本朝〕への将来〔請来＝持ち帰り〕については、高祖が延暦二十四年に",
+          "context_position": 3410,
+          "matched_form": "本朝"
+        }
+      ]
+    },
+    {
+      "canonical": "東寺",
+      "aliases": [
+        "教王護国寺"
+      ],
+      "subcategory": "temple_japan",
+      "definition": "京都。空海に下賜された真言宗根本道場。",
+      "matched_forms": [
+        {
+          "form": "東寺",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "頂瑜伽中……」の文〔＝題号の冒頭を取り上げて注釈に入る〕。 東寺真言宗に学ぶ者がこの論を学びの依りどころとするのは、宗祖であ",
+          "context_position": 1410,
+          "matched_form": "東寺"
+        }
+      ]
+    },
+    {
+      "canonical": "漢",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。前漢・後漢。",
+      "matched_forms": [
+        {
+          "form": "漢",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "ら「狄鞮」というべきである。それを「訳」というのは、思うに、漢の朝廷では多く北方の通訳〔訳人〕を用い、彼らがあわせて西方の",
+          "context_position": 33103,
+          "matched_form": "漢"
+        }
+      ]
+    },
+    {
+      "canonical": "秦",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。始皇帝による天下統一。",
+      "matched_forms": [
+        {
+          "form": "秦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "伝えること、また「易える」ことで、西方の音を変えかえて中国〔秦〕のことばに同じくすることである。『周礼』に「象胥〔通訳官〕",
+          "context_position": 32899,
+          "matched_form": "秦"
+        }
+      ]
+    },
+    {
+      "canonical": "長安",
+      "aliases": [],
+      "subcategory": "capital_china",
+      "definition": "唐の都。陝西省西安。",
+      "matched_forms": [
+        {
+          "form": "長安",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "「大慈恩寺」という。「大」とは十大寺のうちの数である。左街〔長安の東側〕に五寺あり、安国・荷恩・薦福・慈恩・興善である。右街",
+          "context_position": 31441,
+          "matched_form": "長安"
+        }
+      ]
+    },
+    {
+      "canonical": "震旦",
+      "aliases": [
+        "支那",
+        "神州",
+        "唐土",
+        "中華",
+        "華夏"
+      ],
+      "subcategory": "country_china",
+      "definition": "中国の異称。",
+      "matched_forms": [
+        {
+          "form": "震旦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "―〈出現は八百年、寿命は三百歳〔住寿三百歳〕〉と。次に中国〔震旦〕での漢訳については、『付法伝』が不空の訳した経論の数を挙げ",
+          "context_position": 3255,
+          "matched_form": "震旦"
+        }
+      ]
+    }
+  ]
+}

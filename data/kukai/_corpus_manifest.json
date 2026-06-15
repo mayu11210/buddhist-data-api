@@ -1,6 +1,6 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-06-12",
+ "generated_at": "2026-06-15",
  "description": "data/kukai/ 配下の全著作ファイルのメタカタログ（図書館モデルの目録カード相当）。倉庫原則「メタデータは足し算」に従い、原本ファイルを変更せず、本マニフェストで全ファイルの状態を一元管理する。アンダースコア始まりのメタファイル（本ファイル等）はカタログ対象から除外。",
  "design_policy_ref": "kaimyo-app/設計方針メモ_2026-05-03_真言宗教えデータ整理_buddhist-data-api倉庫設計.md",
  "schema_refs": {
@@ -35,13 +35,13 @@
   "genten_present": 11,
   "with_specialty_sections": 5,
   "indexed_corpora": {
-   "terms": 15,
-   "citations": 15,
-   "kukai_works": 15,
-   "sanskrit": 15,
-   "kaimyo_jukugo": 15,
-   "persons": 15,
-   "places": 15
+   "terms": 16,
+   "citations": 16,
+   "kukai_works": 16,
+   "sanskrit": 16,
+   "kaimyo_jukugo": 16,
+   "persons": 16,
+   "places": 16
   }
  },
  "files": [
@@ -1514,6 +1514,58 @@
    "notes": "書き下しデータ化スキルで取込。段落単位 kakikudashi＋gendaigoyaku、outline／base_text_ref 付き。",
    "relations": {
     "commentary_of": "bodaishinron.json"
+   },
+   "index_status": {
+    "terms": {
+     "file": "index_hotsubodaishinron-sho-vol1_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 146,
+     "matched_term_count": 13,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_hotsubodaishinron-sho-vol1_citations.json",
+     "present": true,
+     "unique_terms": 95,
+     "total_occurrences": 210
+    },
+    "kukai_works": {
+     "file": "index_hotsubodaishinron-sho-vol1_kukai_works.json",
+     "present": true,
+     "unique_terms": 4,
+     "total_occurrences": 10
+    },
+    "sanskrit": {
+     "file": "index_hotsubodaishinron-sho-vol1_sanskrit.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0,
+     "with_diacritics_count": 0,
+     "ascii_only_count": 0
+    },
+    "kaimyo_jukugo": {
+     "file": "index_hotsubodaishinron-sho-vol1_kaimyo.json",
+     "present": true,
+     "unique_terms": 11,
+     "total_occurrences": 109,
+     "needs_review_count": 0,
+     "matched_jukugo_count": 8
+    },
+    "persons": {
+     "file": "index_hotsubodaishinron-sho-vol1_persons.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 202,
+     "subcategory_count": 5
+    },
+    "places": {
+     "file": "index_hotsubodaishinron-sho-vol1_places.json",
+     "present": true,
+     "unique_terms": 15,
+     "total_occurrences": 25,
+     "subcategory_count": 9
+    }
    }
   }
  ],
@@ -1550,7 +1602,7 @@
   }
  },
  "aggregate_indices": {
-  "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。 2026-06-10 秘蔵記横断索引化で hizoki を 12 著作目として追加し 12 著作に拡張。 2026-06-12 瑜祇経横断索引化で yugikyo を 13 著作目として追加し 13 著作に拡張。 2026-06-15 理趣経横断索引化で rishikyo を 14 著作目として追加し 14 著作に拡張。 2026-06-15 理趣釈横断索引化で rishushaku を 15 著作目として追加し 15 著作に拡張。",
+  "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。 2026-06-10 秘蔵記横断索引化で hizoki を 12 著作目として追加し 12 著作に拡張。 2026-06-12 瑜祇経横断索引化で yugikyo を 13 著作目として追加し 13 著作に拡張。 2026-06-15 理趣経横断索引化で rishikyo を 14 著作目として追加し 14 著作に拡張。 2026-06-15 理趣釈横断索引化で rishushaku を 15 著作目として追加し 15 著作に拡張。 2026-06-15 発菩提心論鈔横断索引化で hotsubodaishinron-sho-vol1 を 16 著作目として追加し 16 著作に拡張。",
   "storage_dir": "data/mikkyou/",
   "naming_pattern": "index_<category>_all.json",
   "source_corpora": [
@@ -1568,41 +1620,42 @@
    "hizoki",
    "yugikyo",
    "rishikyo",
-   "rishushaku"
+   "rishushaku",
+   "hotsubodaishinron-sho-vol1"
   ],
-  "corpora_count": 15,
+  "corpora_count": 16,
   "files": {
    "terms": {
     "file": "index_terms_all.json",
     "present": true,
-    "corpora_with_data": 15,
+    "corpora_with_data": 16,
     "unique_terms_total": 19,
-    "total_occurrences": 3531,
+    "total_occurrences": 3677,
     "terms_in_multiple_corpora": 17,
-    "max_corpus_coverage": 15
+    "max_corpus_coverage": 16
    },
    "citations": {
     "file": "index_citations_all.json",
     "present": true,
-    "corpora_with_data": 15,
-    "unique_terms_total": 555,
-    "total_occurrences": 2374,
-    "terms_in_multiple_corpora": 85,
-    "max_corpus_coverage": 11
+    "corpora_with_data": 16,
+    "unique_terms_total": 616,
+    "total_occurrences": 2584,
+    "terms_in_multiple_corpora": 101,
+    "max_corpus_coverage": 12
    },
    "kukai_works": {
     "file": "index_kukai_works_all.json",
     "present": true,
-    "corpora_with_data": 15,
+    "corpora_with_data": 16,
     "unique_terms_total": 13,
-    "total_occurrences": 55,
-    "terms_in_multiple_corpora": 3,
-    "max_corpus_coverage": 5
+    "total_occurrences": 65,
+    "terms_in_multiple_corpora": 4,
+    "max_corpus_coverage": 6
    },
    "sanskrit": {
     "file": "index_sanskrit_all.json",
     "present": true,
-    "corpora_with_data": 15,
+    "corpora_with_data": 16,
     "unique_terms_total": 1750,
     "total_occurrences": 2684,
     "terms_in_multiple_corpora": 142,
@@ -1611,28 +1664,28 @@
    "kaimyo_jukugo": {
     "file": "index_kaimyo_jukugo_all.json",
     "present": true,
-    "corpora_with_data": 15,
+    "corpora_with_data": 16,
     "unique_terms_total": 114,
-    "total_occurrences": 5533,
+    "total_occurrences": 5642,
     "terms_in_multiple_corpora": 77,
-    "max_corpus_coverage": 15
+    "max_corpus_coverage": 16
    },
    "persons": {
     "file": "index_persons_all.json",
     "present": true,
-    "corpora_with_data": 15,
+    "corpora_with_data": 16,
     "unique_terms_total": 90,
-    "total_occurrences": 3149,
-    "terms_in_multiple_corpora": 59,
-    "max_corpus_coverage": 14
+    "total_occurrences": 3351,
+    "terms_in_multiple_corpora": 61,
+    "max_corpus_coverage": 15
    },
    "places": {
     "file": "index_places_all.json",
     "present": true,
-    "corpora_with_data": 15,
-    "unique_terms_total": 73,
-    "total_occurrences": 939,
-    "terms_in_multiple_corpora": 38,
+    "corpora_with_data": 16,
+    "unique_terms_total": 74,
+    "total_occurrences": 964,
+    "terms_in_multiple_corpora": 42,
     "max_corpus_coverage": 12
    }
   }

@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "category": "空海著作・性霊集編纂物（kukai works）",
+  "source_corpus": "hotsubodaishinron-sho-vol1.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-15",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 33268,
+  "summary": {
+    "unique_terms": 4,
+    "total_occurrences": 10
+  },
+  "entries": [
+    {
+      "term": "菩提心論",
+      "aliases": [],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の蔵〔毘那耶蔵・ヴィナヤ蔵〕〉に対して、『釈摩訶衍論』とこの『菩提心論』とを〈論の蔵〔阿毘達磨蔵・アビダルマ蔵〕〉に当て、これを真言",
+          "context_position": 1611,
+          "raw_form": "菩提心論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "は訳者であって、作者ではない。だから高祖も方々で「龍猛菩薩の『菩提心論』」と引いて証としておられる。『貞元録』なども同じく〔龍樹の作",
+          "context_position": 5593,
+          "raw_form": "菩提心論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "は、この論を不空の作だと判じた。智証の『疑問』にいわく――〈『菩提心論』は龍猛の作とも、不空の編集〔集〕ともいうが、二説のうち後の説",
+          "context_position": 5685,
+          "raw_form": "菩提心論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "。昔のすぐれた人〔古徳〕のある者がいい、ある目録にもいう、「『菩提心論』は不空の編集である。だから龍樹の説ではない」と。この説は用い",
+          "context_position": 6610,
+          "raw_form": "菩提心論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "の意である。これについて古来の一説では、三蔵〔不空〕が訳した『菩提心論』に密蔵肝心の菩提心の意味があらわれるから、秘密の意味はあの論",
+          "context_position": 19466,
+          "raw_form": "菩提心論"
+        }
+      ]
+    },
+    {
+      "term": "即身成仏義",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "られる。だからこそこの論を密蔵肝心の論と定められたのである。『即身成仏義』では、金剛界・胎蔵の両部の大経とあわせてこの論の文を引いて証",
+          "context_position": 2871,
+          "raw_form": "即身成仏義"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "、「菩提」はまさしく「覚者」を意味する。それなのに、どうして『即身成仏義』は「没駄〔ブッダ〕」と「冒地〔ボーディ〕」とを一字の転じたも",
+          "context_position": 13634,
+          "raw_form": "即身成仏義"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "」はまさしく「覚」と訳すべきだ、というものである。それなのに『即身成仏義』が「覚」を「没駄」の訳語とし、「冒地」を「知」と訳すと釈して",
+          "context_position": 14027,
+          "raw_form": "即身成仏義"
+        }
+      ]
+    },
+    {
+      "term": "十住心論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "、五部〔金剛界の五つの部族〕の諸尊をみな「金剛」と名づける。『十住心論』の巻十に〈「金剛」とは、五部の諸尊が手にする法界のしるし〔標",
+          "context_position": 9817,
+          "raw_form": "十住心論"
+        }
+      ]
+    },
+    {
+      "term": "弁顕密二教論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol1",
+          "context": "定められたのは、ほかでもなく密蔵の肝心を説く論だからである。『弁顕密二教論』の上巻にいわく――〈この論は龍樹大聖の著した千部の論のなかの",
+          "context_position": 2068,
+          "raw_form": "弁顕密二教論"
+        }
+      ]
+    }
+  ],
+  "classification_table": {
+    "梵字悉曇字母并びに釈義": "空海著作",
+    "古今文字讃": "空海請来書",
+    "古今篆隷の文体": "空海請来書",
+    "続性霊集補闕鈔": "性霊集編纂物",
+    "大広智の影の讃": "idx12篇名（空海碑文）",
+    "大広智不空三蔵の影の讃": "idx12篇名（空海碑文・括弧前）",
+    "弁顕密二教論": "空海著作",
+    "吽字義": "空海著作",
+    "即身成仏義": "空海著作",
+    "声字実相義": "空海著作",
+    "般若心経秘鍵": "空海著作",
+    "秘蔵宝鑰": "空海著作",
+    "十住心論": "空海著作",
+    "秘密曼荼羅十住心論": "空海著作",
+    "三教指帰": "空海著作",
+    "聾瞽指帰": "空海著作",
+    "御請来目録": "空海著作",
+    "性霊集": "空海関連（弟子真済編）",
+    "遍照発揮性霊集": "空海関連（弟子真済編）",
+    "菩提心論": "空海関連（不空訳・真言宗根本論書）"
+  }
+}

@@ -19,17 +19,18 @@
     "hizoki",
     "yugikyo",
     "rishikyo",
-    "rishushaku"
+    "rishushaku",
+    "hotsubodaishinron-sho-vol1"
   ],
-  "corpora_count": 15,
-  "corpora_with_data": 15,
+  "corpora_count": 16,
+  "corpora_with_data": 16,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 73,
-    "total_occurrences": 939,
-    "terms_in_multiple_corpora": 38,
+    "unique_terms_total": 74,
+    "total_occurrences": 964,
+    "terms_in_multiple_corpora": 42,
     "max_corpus_coverage": 12,
     "by_corpus": {
       "shoryoshu_miyasaka": {
@@ -105,6 +106,11 @@
       "rishushaku": {
         "unique": 9,
         "occurrences": 22,
+        "present": true
+      },
+      "hotsubodaishinron-sho-vol1": {
+        "unique": 15,
+        "occurrences": 25,
         "present": true
       }
     }
@@ -221,11 +227,12 @@
     },
     {
       "canonical": "日本",
-      "total_occurrence_count": 64,
-      "covered_corpora_count": 4,
+      "total_occurrence_count": 65,
+      "covered_corpora_count": 5,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
+        "hotsubodaishinron-sho-vol1",
         "sankyo-shiki",
         "shoryoshu_miyasaka"
       ],
@@ -233,7 +240,8 @@
         "shoryoshu_miyasaka": 60,
         "hizo-houyaku": 1,
         "dainichikyo-sho-vol1": 2,
-        "sankyo-shiki": 1
+        "sankyo-shiki": 1,
+        "hotsubodaishinron-sho-vol1": 1
       },
       "metadata": {
         "subcategory": "country_japan",
@@ -249,14 +257,15 @@
     },
     {
       "canonical": "安楽",
-      "total_occurrence_count": 58,
-      "covered_corpora_count": 11,
+      "total_occurrence_count": 59,
+      "covered_corpora_count": 12,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
+        "hotsubodaishinron-sho-vol1",
         "jujushinron",
         "rishikyo",
         "rishushaku",
@@ -275,7 +284,8 @@
         "hizoki": 1,
         "yugikyo": 2,
         "rishikyo": 9,
-        "rishushaku": 8
+        "rishushaku": 8,
+        "hotsubodaishinron-sho-vol1": 1
       },
       "metadata": {
         "subcategory": "cosmological_realm",
@@ -328,6 +338,29 @@
       }
     },
     {
+      "canonical": "漢",
+      "total_occurrence_count": 35,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "hizoki",
+        "hotsubodaishinron-sho-vol1",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 19,
+        "hizo-houyaku": 2,
+        "sankyo-shiki": 9,
+        "hizoki": 4,
+        "hotsubodaishinron-sho-vol1": 1
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国王朝。前漢・後漢。"
+      }
+    },
+    {
       "canonical": "殷",
       "total_occurrence_count": 34,
       "covered_corpora_count": 6,
@@ -353,27 +386,6 @@
         "aliases": [
           "商"
         ]
-      }
-    },
-    {
-      "canonical": "漢",
-      "total_occurrence_count": 34,
-      "covered_corpora_count": 4,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "hizoki",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 19,
-        "hizo-houyaku": 2,
-        "sankyo-shiki": 9,
-        "hizoki": 4
-      },
-      "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "中国王朝。前漢・後漢。"
       }
     },
     {
@@ -403,13 +415,15 @@
     },
     {
       "canonical": "長安",
-      "total_occurrence_count": 22,
-      "covered_corpora_count": 1,
+      "total_occurrence_count": 23,
+      "covered_corpora_count": 2,
       "covered_corpora": [
+        "hotsubodaishinron-sho-vol1",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 22
+        "shoryoshu_miyasaka": 22,
+        "hotsubodaishinron-sho-vol1": 1
       },
       "metadata": {
         "subcategory": "capital_china",
@@ -418,10 +432,11 @@
     },
     {
       "canonical": "夏",
-      "total_occurrence_count": 19,
-      "covered_corpora_count": 4,
+      "total_occurrence_count": 20,
+      "covered_corpora_count": 5,
       "covered_corpora": [
         "hizo-houyaku",
+        "hotsubodaishinron-sho-vol1",
         "jujushinron",
         "sankyo-shiki",
         "shoryoshu_miyasaka"
@@ -430,7 +445,8 @@
         "shoryoshu_miyasaka": 7,
         "hizo-houyaku": 4,
         "sankyo-shiki": 6,
-        "jujushinron": 2
+        "jujushinron": 2,
+        "hotsubodaishinron-sho-vol1": 1
       },
       "metadata": {
         "subcategory": "country_dynasty",
@@ -458,11 +474,12 @@
     },
     {
       "canonical": "天竺",
-      "total_occurrence_count": 17,
-      "covered_corpora_count": 4,
+      "total_occurrence_count": 18,
+      "covered_corpora_count": 5,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hizoki",
+        "hotsubodaishinron-sho-vol1",
         "jujushinron",
         "shoryoshu_miyasaka"
       ],
@@ -470,7 +487,8 @@
         "shoryoshu_miyasaka": 7,
         "dainichikyo-sho-vol1": 1,
         "jujushinron": 4,
-        "hizoki": 5
+        "hizoki": 5,
+        "hotsubodaishinron-sho-vol1": 1
       },
       "metadata": {
         "subcategory": "country_india",
@@ -483,10 +501,11 @@
     },
     {
       "canonical": "秦",
-      "total_occurrence_count": 16,
-      "covered_corpora_count": 4,
+      "total_occurrence_count": 17,
+      "covered_corpora_count": 5,
       "covered_corpora": [
         "hizo-houyaku",
+        "hotsubodaishinron-sho-vol1",
         "jujushinron",
         "sankyo-shiki",
         "shoryoshu_miyasaka"
@@ -495,7 +514,8 @@
         "shoryoshu_miyasaka": 10,
         "hizo-houyaku": 2,
         "sankyo-shiki": 3,
-        "jujushinron": 1
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol1": 1
       },
       "metadata": {
         "subcategory": "country_dynasty",
@@ -526,6 +546,32 @@
       }
     },
     {
+      "canonical": "震旦",
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol1",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 13,
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol1": 1
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "中国の異称。",
+        "aliases": [
+          "支那",
+          "神州",
+          "唐土",
+          "中華",
+          "華夏"
+        ]
+      }
+    },
+    {
       "canonical": "霊鷲山",
       "total_occurrence_count": 15,
       "covered_corpora_count": 3,
@@ -550,6 +596,25 @@
       }
     },
     {
+      "canonical": "青龍寺",
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol1",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 11,
+        "jujushinron": 2,
+        "hotsubodaishinron-sho-vol1": 2
+      },
+      "metadata": {
+        "subcategory": "temple_china",
+        "definition": "長安にあった密教の中心寺院。恵果阿闍梨の住所。"
+      }
+    },
+    {
       "canonical": "楚",
       "total_occurrence_count": 14,
       "covered_corpora_count": 3,
@@ -566,30 +631,6 @@
       "metadata": {
         "subcategory": "country_china",
         "definition": "春秋戦国の南方の大国。"
-      }
-    },
-    {
-      "canonical": "震旦",
-      "total_occurrence_count": 14,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "jujushinron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 13,
-        "jujushinron": 1
-      },
-      "metadata": {
-        "subcategory": "country_china",
-        "definition": "中国の異称。",
-        "aliases": [
-          "支那",
-          "神州",
-          "唐土",
-          "中華",
-          "華夏"
-        ]
       }
     },
     {
@@ -611,23 +652,6 @@
       "metadata": {
         "subcategory": "cosmological_realm",
         "definition": "阿弥陀如来の西方浄土。"
-      }
-    },
-    {
-      "canonical": "青龍寺",
-      "total_occurrence_count": 13,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "jujushinron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 11,
-        "jujushinron": 2
-      },
-      "metadata": {
-        "subcategory": "temple_china",
-        "definition": "長安にあった密教の中心寺院。恵果阿闍梨の住所。"
       }
     },
     {
@@ -675,6 +699,44 @@
       }
     },
     {
+      "canonical": "大興善寺",
+      "total_occurrence_count": 10,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol1",
+        "rishikyo",
+        "rishushaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "rishikyo": 1,
+        "rishushaku": 2,
+        "hotsubodaishinron-sho-vol1": 5
+      },
+      "metadata": {
+        "subcategory": "temple_china",
+        "definition": "長安。不空三蔵の住所。密教伝来の中心。"
+      }
+    },
+    {
+      "canonical": "西域",
+      "total_occurrence_count": 10,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol1",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "hotsubodaishinron-sho-vol1": 5
+      },
+      "metadata": {
+        "subcategory": "country_western_region",
+        "definition": "中国西方諸国の総称。"
+      }
+    },
+    {
       "canonical": "高野山",
       "total_occurrence_count": 10,
       "covered_corpora_count": 2,
@@ -712,6 +774,26 @@
       }
     },
     {
+      "canonical": "東寺",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol1",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8,
+        "hotsubodaishinron-sho-vol1": 1
+      },
+      "metadata": {
+        "subcategory": "temple_japan",
+        "definition": "京都。空海に下賜された真言宗根本道場。",
+        "aliases": [
+          "教王護国寺"
+        ]
+      }
+    },
+    {
       "canonical": "神護寺",
       "total_occurrence_count": 9,
       "covered_corpora_count": 1,
@@ -741,24 +823,6 @@
         "definition": "平城京。奈良。",
         "aliases": [
           "平城京"
-        ]
-      }
-    },
-    {
-      "canonical": "東寺",
-      "total_occurrence_count": 8,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 8
-      },
-      "metadata": {
-        "subcategory": "temple_japan",
-        "definition": "京都。空海に下賜された真言宗根本道場。",
-        "aliases": [
-          "教王護国寺"
         ]
       }
     },
@@ -966,22 +1030,24 @@
       }
     },
     {
-      "canonical": "大興善寺",
+      "canonical": "隋",
       "total_occurrence_count": 5,
-      "covered_corpora_count": 3,
+      "covered_corpora_count": 4,
       "covered_corpora": [
-        "rishikyo",
-        "rishushaku",
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol1",
+        "jujushinron",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 2,
-        "rishikyo": 1,
-        "rishushaku": 2
+        "shoryoshu_miyasaka": 1,
+        "hizo-houyaku": 1,
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol1": 2
       },
       "metadata": {
-        "subcategory": "temple_china",
-        "definition": "長安。不空三蔵の住所。密教伝来の中心。"
+        "subcategory": "country_dynasty",
+        "definition": "中国王朝。唐の前。"
       }
     },
     {
@@ -1001,21 +1067,6 @@
       "metadata": {
         "subcategory": "country_china",
         "definition": "春秋戦国の東方の大国。"
-      }
-    },
-    {
-      "canonical": "西域",
-      "total_occurrence_count": 5,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 5
-      },
-      "metadata": {
-        "subcategory": "country_western_region",
-        "definition": "中国西方諸国の総称。"
       }
     },
     {
@@ -1052,6 +1103,26 @@
         "definition": "江西省。中国の名山。",
         "aliases": [
           "盧山"
+        ]
+      }
+    },
+    {
+      "canonical": "大慈恩寺",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol1",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "hotsubodaishinron-sho-vol1": 1
+      },
+      "metadata": {
+        "subcategory": "temple_china",
+        "definition": "長安。玄奘の住所。",
+        "aliases": [
+          "慈恩寺"
         ]
       }
     },
@@ -1141,25 +1212,6 @@
       }
     },
     {
-      "canonical": "隋",
-      "total_occurrence_count": 3,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "jujushinron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "hizo-houyaku": 1,
-        "jujushinron": 1
-      },
-      "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "中国王朝。唐の前。"
-      }
-    },
-    {
       "canonical": "魏",
       "total_occurrence_count": 3,
       "covered_corpora_count": 2,
@@ -1207,24 +1259,6 @@
       "metadata": {
         "subcategory": "capital_japan",
         "definition": "奈良。北嶺（比叡山）に対する呼称。"
-      }
-    },
-    {
-      "canonical": "大慈恩寺",
-      "total_occurrence_count": 3,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 3
-      },
-      "metadata": {
-        "subcategory": "temple_china",
-        "definition": "長安。玄奘の住所。",
-        "aliases": [
-          "慈恩寺"
-        ]
       }
     },
     {
@@ -1430,6 +1464,21 @@
         "aliases": [
           "吉野山"
         ]
+      }
+    },
+    {
+      "canonical": "宋",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol1"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol1": 1
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "南朝の宋（または春秋宋）。"
       }
     },
     {

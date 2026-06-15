@@ -59,6 +59,7 @@ DICT_CORPUS_LIST = [
     'yugikyo.json',  # 2026-06-12 追加（瑜祇経 横断索引化・12 著作目）
     'rishikyo.json',  # 2026-06-15 追加（理趣経 横断索引化・13 著作目）
     'rishushaku.json',  # 2026-06-15 追加（理趣釈 横断索引化・14 著作目の dict 型）
+    'hotsubodaishinron-sho-vol1.json',  # 2026-06-15 追加（発菩提心論鈔 第一巻 横断索引化・15 著作目の dict 型）
 ]
 
 # ====== 戒名適合一字辞書（性霊集版と完全同期）======
