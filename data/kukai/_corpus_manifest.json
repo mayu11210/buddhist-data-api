@@ -614,26 +614,26 @@
   },
   {
    "filename": "rishikyo.json",
-   "title": "理趣経・理趣釈",
-   "taisho_ref": "未調査",
-   "role": "excerpt_stub",
-   "type": "dict",
-   "schema_ref": "_dev_references/schemas/kukai_corpus_dict.schema.json",
+   "title": "理趣経（大楽金剛不空真実三摩耶経）",
+   "taisho_ref": "T0243 / vol.8（不空訳）",
+   "role": "primary_corpus",
+   "type": "dict_paragraphs",
+   "schema_ref": null,
    "data_status": {
     "kaimyo_excerpt": true,
-    "kakikudashi": false,
-    "gendaigoyaku": false,
-    "genten": false,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": true,
     "specialty_sections": []
    },
    "char_counts": {
     "text": 326,
-    "kakikudashi": 0,
-    "gendaigoyaku": 0,
-    "genten": 0
+    "kakikudashi": 5394,
+    "gendaigoyaku": 8355,
+    "genten": 3466
    },
-   "role_complete": false,
-   "notes": "未着手スタブ。text のみ（kaimyo-app 引用集）。本格取込は将来。"
+   "role_complete": true,
+   "notes": "2026-06-14 Phase1 本格取込（excerpt_stub から昇格）。書き下し底本：ユーザー提供 doc『理趣経 書き下し』、genten：CBETA T0243（Chrome 経由取得・校勘記号除去）、現代語訳：butten-yasashii-yaku。19 段落（k001-k019・首題/序分/正宗分/流通分）。横断索引化（Phase2）・motif 抽出（Phase3）は未着手。理趣釈は別途・未取込。"
   },
   {
    "filename": "sankyo-shiki.json",
