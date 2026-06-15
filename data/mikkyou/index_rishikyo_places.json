@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "rishikyo.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-15",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 8446,
+  "summary": {
+    "unique_terms": 3,
+    "unique_places": 3,
+    "total_occurrences": 11,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 2,
+        "occurrences": 10
+      },
+      "temple_china": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 9
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "こと〔荘厳〕も、心のうるおい〔意滋沢〕も、光〔光明〕も、身の安楽〔身楽〕も、色・声・香・味の感覚も——それらはみな清らかであ",
+          "context_position": 1094,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "る。暮らしをささえるほどこし〔資生施〕によって、身と口と心の安楽を得る。このとき虚空蔵の大菩薩は、その意味をさらに示そうと、",
+          "context_position": 3641,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "死のなかに身をおき〔常処生死〕、いっさいを救いおさめ、利益し安楽にして、もっともすぐれたきわみをことごとく成しとげる。なぜか",
+          "context_position": 7315,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "そのまま清らかさを得て〔大欲にして清浄を得て〕、 　大いなる安楽とゆたかさにみち〔大安楽にして富饒〕、 　三界に自在を得て〔",
+          "context_position": 7772,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "大欲にして清浄を得て〕、 　大いなる安楽とゆたかさにみち〔大安楽にして富饒〕、 　三界に自在を得て〔三界に自在を得て〕、 　",
+          "context_position": 7784,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "、毎日の明け方〔晨朝〕にとなえ、あるいは聴く者は、いっさいの安楽と心の悦び〔安楽悦意〕、大いなる悦びの金剛のごとく空しからぬ",
+          "context_position": 7902,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "晨朝〕にとなえ、あるいは聴く者は、いっさいの安楽と心の悦び〔安楽悦意〕、大いなる悦びの金剛のごとく空しからぬ境地〔大楽金剛不",
+          "context_position": 7910,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "、大いなる覚者よ〔大薩埵〕。 　よいかな、よいかな、大いなる安楽よ〔大安楽〕。 　よいかな、よいかな、大いなる教えよ〔摩訶衍",
+          "context_position": 8185,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "覚者よ〔大薩埵〕。 　よいかな、よいかな、大いなる安楽よ〔大安楽〕。 　よいかな、よいかな、大いなる教えよ〔摩訶衍・大乗〕。",
+          "context_position": 8190,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "大興善寺",
+      "aliases": [],
+      "subcategory": "temple_china",
+      "definition": "長安。不空三蔵の住所。密教伝来の中心。",
+      "matched_forms": [
+        {
+          "form": "大興善寺",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "りしゅほん／般若波羅蜜多の深いすじみち（理趣）を説く章〕。 大興善寺の三蔵沙門〔さんぞうしゃもん・経律論の三蔵に通じた訳経僧〕、",
+          "context_position": 85,
+          "matched_form": "大興善寺"
+        }
+      ]
+    },
+    {
+      "canonical": "欲界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最下。欲望が支配する世界。",
+      "matched_forms": [
+        {
+          "form": "欲界",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "が金剛のように堅固な大日如来〔大毘盧遮那如来〕——その仏が、欲界のいただきの他化自在天〔たけじざいてん〕の王宮におられた。そ",
+          "context_position": 491,
+          "matched_form": "欲界"
+        }
+      ]
+    }
+  ]
+}

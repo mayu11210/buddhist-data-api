@@ -3,7 +3,7 @@
   "category": "kaimyo_jukugo",
   "category_description": "戒名向け熟語（3 起点合成 + スコアリング）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-12",
+  "generated_at": "2026-06-15",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -17,18 +17,19 @@
     "bodaishinron",
     "jujushinron",
     "hizoki",
-    "yugikyo"
+    "yugikyo",
+    "rishikyo"
   ],
-  "corpora_count": 13,
-  "corpora_with_data": 13,
+  "corpora_count": 14,
+  "corpora_with_data": 14,
   "missing_corpora": [],
   "term_key": "jukugo",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 114,
-    "total_occurrences": 5380,
+    "total_occurrences": 5391,
     "terms_in_multiple_corpora": 77,
-    "max_corpus_coverage": 13,
+    "max_corpus_coverage": 14,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 111,
@@ -94,14 +95,19 @@
         "unique": 11,
         "occurrences": 146,
         "present": true
+      },
+      "rishikyo": {
+        "unique": 11,
+        "occurrences": 11,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "jukugo": "大日",
-      "total_occurrence_count": 673,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 676,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -110,6 +116,7 @@
         "hizoki",
         "jujushinron",
         "nikyo-ron",
+        "rishikyo",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
@@ -128,7 +135,8 @@
         "bodaishinron": 8,
         "jujushinron": 82,
         "hizoki": 3,
-        "yugikyo": 4
+        "yugikyo": 4,
+        "rishikyo": 3
       },
       "metadata": {
         "source_tag": "seed_terms",
@@ -141,8 +149,8 @@
     },
     {
       "jukugo": "真言",
-      "total_occurrence_count": 640,
-      "covered_corpora_count": 13,
+      "total_occurrence_count": 646,
+      "covered_corpora_count": 14,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -151,6 +159,7 @@
         "hizoki",
         "jujushinron",
         "nikyo-ron",
+        "rishikyo",
         "sankyo-shiki",
         "shoji-jisso",
         "shoryoshu_miyasaka",
@@ -171,7 +180,8 @@
         "bodaishinron": 15,
         "jujushinron": 158,
         "hizoki": 69,
-        "yugikyo": 117
+        "yugikyo": 117,
+        "rishikyo": 6
       },
       "metadata": {
         "source_tag": "seed_terms",
@@ -410,8 +420,8 @@
     },
     {
       "jukugo": "遮那",
-      "total_occurrence_count": 154,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 156,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -419,6 +429,7 @@
         "hizoki",
         "jujushinron",
         "nikyo-ron",
+        "rishikyo",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu"
@@ -432,7 +443,8 @@
         "dainichikyo-sho-vol1": 42,
         "bodaishinron": 2,
         "jujushinron": 30,
-        "hizoki": 24
+        "hizoki": 24,
+        "rishikyo": 2
       },
       "metadata": {
         "source_tag": "seed_terms",

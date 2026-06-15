@@ -3,7 +3,7 @@
   "category": "places",
   "category_description": "地名（寺院・山・国・王朝・聖地・宇宙論界）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-12",
+  "generated_at": "2026-06-15",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -17,17 +17,18 @@
     "bodaishinron",
     "jujushinron",
     "hizoki",
-    "yugikyo"
+    "yugikyo",
+    "rishikyo"
   ],
-  "corpora_count": 13,
-  "corpora_with_data": 13,
+  "corpora_count": 14,
+  "corpora_with_data": 14,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 73,
-    "total_occurrences": 906,
-    "terms_in_multiple_corpora": 37,
+    "total_occurrences": 917,
+    "terms_in_multiple_corpora": 38,
     "max_corpus_coverage": 11,
     "by_corpus": {
       "shoryoshu_miyasaka": {
@@ -94,19 +95,25 @@
         "unique": 9,
         "occurrences": 11,
         "present": true
+      },
+      "rishikyo": {
+        "unique": 3,
+        "occurrences": 11,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "canonical": "欲界",
-      "total_occurrence_count": 93,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 94,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
         "jujushinron",
+        "rishikyo",
         "shoji-jisso",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
@@ -122,7 +129,8 @@
         "dainichikyo-sho-vol1": 4,
         "bodaishinron": 2,
         "jujushinron": 70,
-        "yugikyo": 1
+        "yugikyo": 1,
+        "rishikyo": 1
       },
       "metadata": {
         "subcategory": "cosmological_realm",
@@ -269,8 +277,8 @@
     },
     {
       "canonical": "安楽",
-      "total_occurrence_count": 41,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 50,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -278,6 +286,7 @@
         "hizo-houyaku",
         "hizoki",
         "jujushinron",
+        "rishikyo",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu",
         "yugikyo"
@@ -291,7 +300,8 @@
         "bodaishinron": 3,
         "jujushinron": 16,
         "hizoki": 1,
-        "yugikyo": 2
+        "yugikyo": 2,
+        "rishikyo": 9
       },
       "metadata": {
         "subcategory": "cosmological_realm",
@@ -1109,6 +1119,23 @@
       }
     },
     {
+      "canonical": "大興善寺",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "rishikyo",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "rishikyo": 1
+      },
+      "metadata": {
+        "subcategory": "temple_china",
+        "definition": "長安。不空三蔵の住所。密教伝来の中心。"
+      }
+    },
+    {
       "canonical": "魏",
       "total_occurrence_count": 3,
       "covered_corpora_count": 2,
@@ -1256,21 +1283,6 @@
       "metadata": {
         "subcategory": "province_japan",
         "definition": "香川県の旧国。空海生地。"
-      }
-    },
-    {
-      "canonical": "大興善寺",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 2
-      },
-      "metadata": {
-        "subcategory": "temple_china",
-        "definition": "長安。不空三蔵の住所。密教伝来の中心。"
       }
     },
     {

@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "rishikyo.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-15",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 8446,
+  "summary": {
+    "unique_terms": 10,
+    "unique_persons": 10,
+    "total_occurrences": 34,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 5,
+        "occurrences": 20
+      },
+      "buddhist_deva": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "buddhist_master_china": {
+        "unique": 2,
+        "occurrences": 10
+      },
+      "buddhist_master_india": {
+        "unique": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 9
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "『大楽金剛不空真実三摩耶経 般若波羅蜜多理趣品』〔だいらくこんごうふくうし",
+          "context_position": 5,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "沙門〔さんぞうしゃもん・経律論の三蔵に通じた訳経僧〕、大広智不空〔だいこうち・ふくう三蔵。アモーガヴァジュラ〕が、勅命を奉じ",
+          "context_position": 122,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "て、大いなる悦びの、金剛のように空しからぬ誓いの心〔大楽金剛不空三摩耶心〕を説かれた——  ウン〔hūṃ／大楽金剛不空三摩耶",
+          "context_position": 1795,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "楽金剛不空三摩耶心〕を説かれた——  ウン〔hūṃ／大楽金剛不空三摩耶心。金剛薩埵の根本の種子〕。 つぎに世尊・大日如来〔毘",
+          "context_position": 1822,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "いのはたらきにおいてむなしからぬ誓いの、いっさいの金剛の心〔不空三摩耶一切金剛心〕を説かれた——  オン〔oṃ／虚空庫菩薩の",
+          "context_position": 5207,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "三摩耶加持の三摩地〕に入り、いっさいのむなしからぬ誓いの心〔不空三摩耶心〕を説かれた——  ウン〔hūṃ／一切平等建立の心。",
+          "context_position": 5949,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "いなる悦びの、金剛のごとく空しからぬ本性のすじみち〔大楽金剛不空三摩耶金剛法性の般若の理趣〕を説かれた。すなわち——菩薩は、",
+          "context_position": 7012,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "楽悦意〕、大いなる悦びの金剛のごとく空しからぬ境地〔大楽金剛不空三昧〕、きわまりの成就〔究竟の悉地〕を得て、この世であらゆる",
+          "context_position": 7941,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "如来・執金剛の位を得るであろう——  ウン〔hūṃ／大楽金剛不空三摩耶の根本心。金剛薩埵の種子〕。 そのとき、いっさいの如来",
+          "context_position": 8028,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "観音",
+      "aliases": [
+        "観世音",
+        "観自在",
+        "avalokiteśvara",
+        "Avalokiteśvara"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "慈悲を司る菩薩。",
+      "sanskrit_canonical": "avalokiteśvara",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "観自在",
+          "count": 5
+        },
+        {
+          "form": "観音",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "たちが仏とともにいた。すなわち、金剛手菩薩〔こんごうしゅ〕・観自在菩薩〔観音〕・虚空蔵菩薩・金剛拳菩薩・文殊師利菩薩・纔発心転",
+          "context_position": 673,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "清浄の法性を得たる如来〕は、すべてのものが平等であると見る、観自在の智慧の印から生まれるすじみち〔平等観自在智印を出生する般若",
+          "context_position": 2998,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "平等であると見る、観自在の智慧の印から生まれるすじみち〔平等観自在智印を出生する般若理趣〕を説かれた。すなわち——世間のいっさ",
+          "context_position": 3019,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "華の如し〕、すみやかにこの上ない正しいさとりを得る。このとき観自在の大菩薩は、その意味をさらに示そうと、にこやかに微笑し、花ひ",
+          "context_position": 3321,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "すがたと心〔種々の色心〕を説かれた——  キリク〔hrīḥ／観自在（観音）の心。清浄をあらわす蓮華部の種子〕。 つぎに世尊、三",
+          "context_position": 3431,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "もにいた。すなわち、金剛手菩薩〔こんごうしゅ〕・観自在菩薩〔観音〕・虚空蔵菩薩・金剛拳菩薩・文殊師利菩薩・纔発心転法輪菩薩〔",
+          "context_position": 679,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "心〔種々の色心〕を説かれた——  キリク〔hrīḥ／観自在（観音）の心。清浄をあらわす蓮華部の種子〕。 つぎに世尊、三界すべ",
+          "context_position": 3435,
+          "matched_form": "観音"
+        }
+      ]
+    },
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日如来",
+          "count": 3
+        },
+        {
+          "form": "毘盧遮那",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "三世〕、身と口と心のはたらき〔身語意業〕が金剛のように堅固な大日如来〔大毘盧遮那如来〕——その仏が、欲界のいただきの他化自在天〔",
+          "context_position": 471,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "大楽金剛不空三摩耶心。金剛薩埵の根本の種子〕。 つぎに世尊・大日如来〔毘盧遮那如来〕は、いっさいの如来のしずかな本性〔寂静法性〕",
+          "context_position": 1848,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "、仏と菩薩の行をことごとくきわめるであろう。  つぎに世尊・大日如来は、いっさいの秘密の本性、言葉あそびを離れたさとりを得た如来",
+          "context_position": 6903,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "口と心のはたらき〔身語意業〕が金剛のように堅固な大日如来〔大毘盧遮那如来〕——その仏が、欲界のいただきの他化自在天〔たけじざいて",
+          "context_position": 477,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "空三摩耶心。金剛薩埵の根本の種子〕。 つぎに世尊・大日如来〔毘盧遮那如来〕は、いっさいの如来のしずかな本性〔寂静法性〕から、まさ",
+          "context_position": 1853,
+          "matched_form": "毘盧遮那"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊師利",
+          "count": 3
+        },
+        {
+          "form": "文殊",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "こんごうしゅ〕・観自在菩薩〔観音〕・虚空蔵菩薩・金剛拳菩薩・文殊師利菩薩・纔発心転法輪菩薩〔さいほっしんてんぼうりん・発心してた",
+          "context_position": 695,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "は光である〔光明〕、智慧の完成が清らかだからである。このとき文殊師利の童子〔文殊師利童真〕は、その意味をさらに示そうと、にこやか",
+          "context_position": 4442,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "〕、智慧の完成が清らかだからである。このとき文殊師利の童子〔文殊師利童真〕は、その意味をさらに示そうと、にこやかに微笑し、みずか",
+          "context_position": 4450,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "ぐれた心〔般若波羅蜜多最勝心〕を説かれた——  アン〔aṃ／文殊の心。智慧の剣をあらわす種子〕。 つぎに世尊、諸仏を大いなる",
+          "context_position": 4581,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "虚空蔵",
+      "aliases": [
+        "虚空蔵菩薩",
+        "ākāśagarbha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧と福徳を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "虚空蔵",
+          "count": 2
+        },
+        {
+          "form": "虚空蔵菩薩",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "。すなわち、金剛手菩薩〔こんごうしゅ〕・観自在菩薩〔観音〕・虚空蔵菩薩・金剛拳菩薩・文殊師利菩薩・纔発心転法輪菩薩〔さいほっしんて",
+          "context_position": 683,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "ほどこし〔資生施〕によって、身と口と心の安楽を得る。このとき虚空蔵の大菩薩は、その意味をさらに示そうと、にこやかに微笑し、金剛",
+          "context_position": 3651,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "宝の心〔灌頂三摩耶宝心〕を説かれた——  タラン〔trāḥ／虚空蔵（宝部）の心。灌頂の宝をあらわす種子〕。 つぎに世尊、諸仏の",
+          "context_position": 3748,
+          "matched_form": "虚空蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "夜叉",
+      "aliases": [
+        "yakṣa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "八部衆の一。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "夜叉",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "く菩薩〕は、その意味をさらに示そうと、にこやかに微笑し、金剛夜叉〔こんごうやしゃ〕のすがたとなって金剛の牙〔金剛牙〕をたもち",
+          "context_position": 5561,
+          "matched_form": "夜叉"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "いの心〔金剛忿怒大笑心〕を説かれた——  カク〔haḥ／金剛夜叉（摧一切魔）の心。忿怒の大笑をあらわす種子〕。 つぎに世尊、",
+          "context_position": 5653,
+          "matched_form": "夜叉"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "なわち——すべての生きものは如来をやどす蔵〔如来蔵〕である。普賢菩薩がいっさいの自己〔一切の我〕であるからだ。すべての生きも",
+          "context_position": 6084,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "法蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第三祖。賢首大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "法蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "頂を受けているからだ。すべての生きものはたえなる教えの蔵〔妙法蔵〕である。あらゆる言葉をめぐらすことができるからだ。すべての",
+          "context_position": 6166,
+          "matched_form": "法蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦牟尼",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "あらわす阿字系の種子〕。 つぎに、しずめがたいものをしずめる釈迦牟尼如来〔調伏難調〕は、あらゆるものが平等であるという、もっとも",
+          "context_position": 2428,
+          "matched_form": "釈迦牟尼"
+        }
+      ]
+    },
+    {
+      "canonical": "阿難",
+      "aliases": [
+        "阿難陀",
+        "ānanda",
+        "Ānanda"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。多聞第一。",
+      "sanskrit_canonical": "ānanda",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "阿難",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "ガヴァジュラ〕が、勅命を奉じて漢訳した〔奉詔訳〕。 わたし〔阿難〕はこのように聞いた〔如是我聞〕。あるとき世尊〔薄伽梵・バガ",
+          "context_position": 170,
+          "matched_form": "阿難"
+        }
+      ]
+    }
+  ]
+}

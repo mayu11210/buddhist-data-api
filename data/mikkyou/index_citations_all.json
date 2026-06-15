@@ -3,7 +3,7 @@
   "category": "citations",
   "category_description": "典故書名（『〜』形式・他者著作）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-12",
+  "generated_at": "2026-06-15",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -17,16 +17,17 @@
     "bodaishinron",
     "jujushinron",
     "hizoki",
-    "yugikyo"
+    "yugikyo",
+    "rishikyo"
   ],
-  "corpora_count": 13,
-  "corpora_with_data": 13,
+  "corpora_count": 14,
+  "corpora_with_data": 14,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 547,
-    "total_occurrences": 2360,
+    "unique_terms_total": 548,
+    "total_occurrences": 2361,
     "terms_in_multiple_corpora": 84,
     "max_corpus_coverage": 11,
     "by_corpus": {
@@ -93,6 +94,11 @@
       "yugikyo": {
         "unique": 0,
         "occurrences": 0,
+        "present": true
+      },
+      "rishikyo": {
+        "unique": 1,
+        "occurrences": 1,
         "present": true
       }
     }
@@ -3673,6 +3679,17 @@
       ],
       "by_corpus": {
         "nikyo-ron": 1
+      }
+    },
+    {
+      "term": "大楽金剛不空真実三摩耶経 般若波羅蜜多理趣品",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishikyo"
+      ],
+      "by_corpus": {
+        "rishikyo": 1
       }
     },
     {

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "rishikyo.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-15",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 8446,
+  "summary": {
+    "unique_terms": 1,
+    "total_occurrences": 1
+  },
+  "entries": [
+    {
+      "term": "大楽金剛不空真実三摩耶経 般若波羅蜜多理趣品",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "『大楽金剛不空真実三摩耶経 般若波羅蜜多理趣品』〔だいらくこんごうふくうしんじつさまやきょう・はんにゃはらみ",
+          "context_position": 0,
+          "raw_form": "大楽金剛不空真実三摩耶経 般若波羅蜜多理趣品"
+        }
+      ]
+    }
+  ]
+}

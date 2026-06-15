@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "rishikyo.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-15",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 8446,
+  "summary": {
+    "unique_terms": 8,
+    "unique_canonicals": 8,
+    "total_occurrences": 12,
+    "with_diacritics_count": 6,
+    "ascii_only_count": 2,
+    "multi_form_canonicals": 0
+  },
+  "entries": [
+    {
+      "canonical": "hūṃ",
+      "representative_form": "hūṃ",
+      "aliases": [
+        {
+          "form": "hūṃ",
+          "count": 5
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "らぬ誓いの心〔大楽金剛不空三摩耶心〕を説かれた——  ウン〔hūṃ／大楽金剛不空三摩耶心。金剛薩埵の根本の種子〕。 つぎに世尊",
+          "context_position": 1814,
+          "sanskrit_form": "hūṃ"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "この金剛の吽迦羅の心〔金剛吽迦羅心〕を説かれた——  ウン〔hūṃ／降三世明王の心。いっさいの障りを摧く忿怒の種子〕。 つぎに",
+          "context_position": 2914,
+          "sanskrit_form": "hūṃ"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "、いっさいの金剛の心〔金剛三摩耶心〕を説かれた——  ウン〔hūṃ／纔発心転法輪菩薩の心。法輪をめぐらす種子〕。 つぎに世尊、",
+          "context_position": 4870,
+          "sanskrit_form": "hūṃ"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "むなしからぬ誓いの心〔不空三摩耶心〕を説かれた——  ウン〔hūṃ／一切平等建立の心。金剛薩埵の根本種子〕。 つぎに世尊・如来",
+          "context_position": 5968,
+          "sanskrit_form": "hūṃ"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "として生まれて、如来・執金剛の位を得るであろう——  ウン〔hūṃ／大楽金剛不空三摩耶の根本心。金剛薩埵の種子〕。 そのとき、",
+          "context_position": 8020,
+          "sanskrit_form": "hūṃ"
+        }
+      ]
+    },
+    {
+      "canonical": "haḥ",
+      "representative_form": "haḥ",
+      "aliases": [
+        {
+          "form": "haḥ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "の大いなる笑いの心〔金剛忿怒大笑心〕を説かれた——  カク〔haḥ／金剛夜叉（摧一切魔）の心。忿怒の大笑をあらわす種子〕。 つ",
+          "context_position": 5647,
+          "sanskrit_form": "haḥ"
+        }
+      ]
+    },
+    {
+      "canonical": "haṃ",
+      "representative_form": "haṃ",
+      "aliases": [
+        {
+          "form": "haṃ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "〔四姉妹女天〕は、みずからの心の真言をささげた——  カン〔haṃ／四姉妹女天の心真言〕。 つぎに世尊、はかりしれずきわまりな",
+          "context_position": 6607,
+          "sanskrit_form": "haṃ"
+        }
+      ]
+    },
+    {
+      "canonical": "hrīḥ",
+      "representative_form": "hrīḥ",
+      "aliases": [
+        {
+          "form": "hrīḥ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "さまざまなすがたと心〔種々の色心〕を説かれた——  キリク〔hrīḥ／観自在（観音）の心。清浄をあらわす蓮華部の種子〕。 つぎに",
+          "context_position": 3426,
+          "sanskrit_form": "hrīḥ"
+        }
+      ]
+    },
+    {
+      "canonical": "sarva",
+      "representative_form": "sarva",
+      "aliases": [
+        {
+          "form": "sarva",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "て、みずからの心の真言〔自心真言〕をささげた——  サラバ〔sarva／末度迦羅天三兄弟の心真言〕。 そのとき、四姉妹の女神たち〔",
+          "context_position": 6543,
+          "sanskrit_form": "sarva"
+        }
+      ]
+    },
+    {
+      "canonical": "triṭ",
+      "representative_form": "triṭ",
+      "aliases": [
+        {
+          "form": "triṭ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "ずからのまことの心〔金剛自在自真実心〕を説いた——  チリ〔triṭ／外金剛部の心。天部の自在をあらわす種子〕。 そのとき、七母",
+          "context_position": 6326,
+          "sanskrit_form": "triṭ"
+        }
+      ]
+    },
+    {
+      "canonical": "trāḥ",
+      "representative_form": "trāḥ",
+      "aliases": [
+        {
+          "form": "trāḥ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "をあらわす宝の心〔灌頂三摩耶宝心〕を説かれた——  タラン〔trāḥ／虚空蔵（宝部）の心。灌頂の宝をあらわす種子〕。 つぎに世尊",
+          "context_position": 3743,
+          "sanskrit_form": "trāḥ"
+        }
+      ]
+    },
+    {
+      "canonical": "vyak",
+      "representative_form": "vyak",
+      "aliases": [
+        {
+          "form": "vyak",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "・摂入・能殺・能成の三摩耶真実心〕をささげた——  ビャク〔vyak／七母女天の心真言〕。 そのとき、末度迦羅天〔までからてん〕",
+          "context_position": 6462,
+          "sanskrit_form": "vyak"
+        }
+      ]
+    }
+  ]
+}

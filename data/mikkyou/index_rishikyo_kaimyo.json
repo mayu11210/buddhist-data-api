@@ -1,0 +1,299 @@
+{
+  "schema_version": "1.2",
+  "category": "戒名向け熟語索引",
+  "source_corpus": "rishikyo.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-15",
+  "extraction_strategy": "起点 1（密教教学用語の戒名適合 11 語）+ 起点 2（梵語の漢訳対応）+ 起点 3（補注内 2 字漢語熟語のホワイトリスト抽出）",
+  "scoring_rule": "kaimyo_score = freq(log10×12, 上限25) + doctrinal(seed_terms=30 / seed_sanskrit=20 / paren_doctrinal=10) + ichiji(KAIMYO_ICHIJI 含字数 × 8, 上限16) + aesthetic(美字構成・最大4)",
+  "review_policy": "needs_human_review=true の語は kaimyo-app 連携前に専門家校閲を要する",
+  "dictionary_sizes": {
+    "kaimyo_ichiji": 85,
+    "sanskrit_to_kaimyo_jukugo": 51,
+    "doctrinal_2char_whitelist": 151,
+    "kaimyo_noise": 140
+  },
+  "gendaigoyaku_length": 8446,
+  "summary": {
+    "unique_terms": 11,
+    "unique_jukugo": 11,
+    "total_occurrences": 11,
+    "seed_terms_count": 11,
+    "seed_sanskrit_count": 0,
+    "paren_doctrinal_count": 0,
+    "needs_review_count": 0,
+    "matched_jukugo_count": 3
+  },
+  "entries": [
+    {
+      "jukugo": "真言",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "seed_sanskrit": "mantra",
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "kaimyo_score": 58.14,
+      "freq_score": 10.14,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "摩耶真実心〕をささげた——  ビャク〔vyak／七母女天の心真言〕。 そのとき、末度迦羅天〔までからてん〕の三兄弟たちは、親",
+          "context_position": 6473,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "らてん〕の三兄弟たちは、親しく仏の足を礼して、みずからの心の真言〔自心真言〕をささげた——  サラバ〔sarva／末度迦羅天",
+          "context_position": 6522,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "三兄弟たちは、親しく仏の足を礼して、みずからの心の真言〔自心真言〕をささげた——  サラバ〔sarva／末度迦羅天三兄弟の心",
+          "context_position": 6527,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "〕をささげた——  サラバ〔sarva／末度迦羅天三兄弟の心真言〕。 そのとき、四姉妹の女神たち〔四姉妹女天〕は、みずからの",
+          "context_position": 6559,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": " そのとき、四姉妹の女神たち〔四姉妹女天〕は、みずからの心の真言をささげた——  カン〔haṃ／四姉妹女天の心真言〕。 つぎ",
+          "context_position": 6593,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "からの心の真言をささげた——  カン〔haṃ／四姉妹女天の心真言〕。 つぎに世尊、はかりしれずきわまりない如来〔無量無辺究竟",
+          "context_position": 6618,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大日",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "seed_sanskrit": "Mahāvairocana",
+      "kaimyo_chars": [
+        "大"
+      ],
+      "kaimyo_score": 45.22,
+      "freq_score": 7.22,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "三世〕、身と口と心のはたらき〔身語意業〕が金剛のように堅固な大日如来〔大毘盧遮那如来〕——その仏が、欲界のいただきの他化自在",
+          "context_position": 471,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "大楽金剛不空三摩耶心。金剛薩埵の根本の種子〕。 つぎに世尊・大日如来〔毘盧遮那如来〕は、いっさいの如来のしずかな本性〔寂静法",
+          "context_position": 1848,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "、仏と菩薩の行をことごとくきわめるであろう。  つぎに世尊・大日如来は、いっさいの秘密の本性、言葉あそびを離れたさとりを得た",
+          "context_position": 6903,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "遮那",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "seed_sanskrit": "Vairocana",
+      "kaimyo_chars": [],
+      "kaimyo_score": 35.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "rishikyo",
+          "context": "心のはたらき〔身語意業〕が金剛のように堅固な大日如来〔大毘盧遮那如来〕——その仏が、欲界のいただきの他化自在天〔たけじざいて",
+          "context_position": 479,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "rishikyo",
+          "context": "摩耶心。金剛薩埵の根本の種子〕。 つぎに世尊・大日如来〔毘盧遮那如来〕は、いっさいの如来のしずかな本性〔寂静法性〕から、まさ",
+          "context_position": 1855,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "seed_sanskrit": "mahā-karuṇā",
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "kaimyo_score": 50.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "無縁慈悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "seed_sanskrit": "an-ārambaṇa-karuṇā",
+      "kaimyo_chars": [
+        "無",
+        "慈",
+        "悲"
+      ],
+      "kaimyo_score": 46.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "法身",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "seed_sanskrit": "dharmakāya",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 40.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "三密",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "seed_sanskrit": "trīṇi guhyāni",
+      "kaimyo_chars": [
+        "密"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "即身成仏",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "seed_sanskrit": "sa-deha-prāpti-buddhatva",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "智剣",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "seed_sanskrit": "jñāna-khaḍga",
+      "kaimyo_chars": [
+        "智"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "法界",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "宇宙の真実相。一切法の根本領域。",
+      "seed_sanskrit": "dharma-dhātu",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "玄機",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "seed_sanskrit": "—",
+      "kaimyo_chars": [
+        "玄"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

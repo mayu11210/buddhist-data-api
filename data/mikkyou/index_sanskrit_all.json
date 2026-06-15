@@ -3,7 +3,7 @@
   "category": "sanskrit",
   "category_description": "梵語 IAST",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-12",
+  "generated_at": "2026-06-15",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -17,17 +17,18 @@
     "bodaishinron",
     "jujushinron",
     "hizoki",
-    "yugikyo"
+    "yugikyo",
+    "rishikyo"
   ],
-  "corpora_count": 13,
-  "corpora_with_data": 13,
+  "corpora_count": 14,
+  "corpora_with_data": 14,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 1743,
-    "total_occurrences": 2672,
-    "terms_in_multiple_corpora": 141,
+    "unique_terms_total": 1750,
+    "total_occurrences": 2684,
+    "terms_in_multiple_corpora": 142,
     "max_corpus_coverage": 4,
     "by_corpus": {
       "shoryoshu_miyasaka": {
@@ -93,6 +94,11 @@
       "yugikyo": {
         "unique": 0,
         "occurrences": 0,
+        "present": true
+      },
+      "rishikyo": {
+        "unique": 8,
+        "occurrences": 12,
         "present": true
       }
     }
@@ -663,6 +669,22 @@
       "by_corpus": {
         "shoryoshu_miyasaka": 5,
         "dainichikyo-sho-vol1": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
+      "canonical": "hūṃ",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "rishikyo",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "rishikyo": 5
       },
       "metadata": {
         "has_diacritics": true
@@ -11933,6 +11955,34 @@
       }
     },
     {
+      "canonical": "haḥ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishikyo"
+      ],
+      "by_corpus": {
+        "rishikyo": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
+      "canonical": "haṃ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishikyo"
+      ],
+      "by_corpus": {
+        "rishikyo": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
       "canonical": "hetu-karma",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -12045,6 +12095,20 @@
       }
     },
     {
+      "canonical": "hrīḥ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishikyo"
+      ],
+      "by_corpus": {
+        "rishikyo": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
       "canonical": "hāni",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -12074,20 +12138,6 @@
     },
     {
       "canonical": "hīnayāna",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1
-      },
-      "metadata": {
-        "has_diacritics": true
-      }
-    },
-    {
-      "canonical": "hūṃ",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
@@ -18387,6 +18437,20 @@
       }
     },
     {
+      "canonical": "sarva",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishikyo"
+      ],
+      "by_corpus": {
+        "rishikyo": 1
+      },
+      "metadata": {
+        "has_diacritics": false
+      }
+    },
+    {
       "canonical": "sarva-ajñāna",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -21117,6 +21181,20 @@
       }
     },
     {
+      "canonical": "triṭ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishikyo"
+      ],
+      "by_corpus": {
+        "rishikyo": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
       "canonical": "trāyastriṃśa",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -21125,6 +21203,20 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
+      "canonical": "trāḥ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishikyo"
+      ],
+      "by_corpus": {
+        "rishikyo": 1
       },
       "metadata": {
         "has_diacritics": true
@@ -22920,6 +23012,20 @@
       },
       "metadata": {
         "has_diacritics": true
+      }
+    },
+    {
+      "canonical": "vyak",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "rishikyo"
+      ],
+      "by_corpus": {
+        "rishikyo": 1
+      },
+      "metadata": {
+        "has_diacritics": false
       }
     },
     {

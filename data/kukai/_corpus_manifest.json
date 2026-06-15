@@ -35,13 +35,13 @@
   "genten_present": 10,
   "with_specialty_sections": 5,
   "indexed_corpora": {
-   "terms": 13,
-   "citations": 13,
-   "kukai_works": 13,
-   "sanskrit": 13,
-   "kaimyo_jukugo": 13,
-   "persons": 13,
-   "places": 13
+   "terms": 14,
+   "citations": 14,
+   "kukai_works": 14,
+   "sanskrit": 14,
+   "kaimyo_jukugo": 14,
+   "persons": 14,
+   "places": 14
   }
  },
  "files": [
@@ -633,7 +633,59 @@
     "genten": 3466
    },
    "role_complete": true,
-   "notes": "2026-06-14 Phase1 本格取込（excerpt_stub から昇格）。書き下し底本：ユーザー提供 doc『理趣経 書き下し』、genten：CBETA T0243（Chrome 経由取得・校勘記号除去）、現代語訳：butten-yasashii-yaku。19 段落（k001-k019・首題/序分/正宗分/流通分）。横断索引化（Phase2）・motif 抽出（Phase3）は未着手。理趣釈は別途・未取込。"
+   "notes": "2026-06-14 Phase1 本格取込（excerpt_stub から昇格）。書き下し底本：ユーザー提供 doc『理趣経 書き下し』、genten：CBETA T0243（Chrome 経由取得・校勘記号除去）、現代語訳：butten-yasashii-yaku。19 段落（k001-k019・首題/序分/正宗分/流通分）。横断索引化（Phase2）・motif 抽出（Phase3）は未着手。理趣釈は別途・未取込。",
+   "index_status": {
+    "terms": {
+     "file": "index_rishikyo_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 16,
+     "matched_term_count": 6,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_rishikyo_citations.json",
+     "present": true,
+     "unique_terms": 1,
+     "total_occurrences": 1
+    },
+    "kukai_works": {
+     "file": "index_rishikyo_kukai_works.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0
+    },
+    "sanskrit": {
+     "file": "index_rishikyo_sanskrit.json",
+     "present": true,
+     "unique_terms": 8,
+     "total_occurrences": 12,
+     "with_diacritics_count": 6,
+     "ascii_only_count": 2
+    },
+    "kaimyo_jukugo": {
+     "file": "index_rishikyo_kaimyo.json",
+     "present": true,
+     "unique_terms": 11,
+     "total_occurrences": 11,
+     "needs_review_count": 0,
+     "matched_jukugo_count": 3
+    },
+    "persons": {
+     "file": "index_rishikyo_persons.json",
+     "present": true,
+     "unique_terms": 10,
+     "total_occurrences": 34,
+     "subcategory_count": 4
+    },
+    "places": {
+     "file": "index_rishikyo_places.json",
+     "present": true,
+     "unique_terms": 3,
+     "total_occurrences": 11,
+     "subcategory_count": 2
+    }
+   }
   },
   {
    "filename": "sankyo-shiki.json",
@@ -1391,7 +1443,7 @@
   }
  },
  "aggregate_indices": {
-  "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。 2026-06-10 秘蔵記横断索引化で hizoki を 12 著作目として追加し 12 著作に拡張。 2026-06-12 瑜祇経横断索引化で yugikyo を 13 著作目として追加し 13 著作に拡張。",
+  "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。 2026-06-10 秘蔵記横断索引化で hizoki を 12 著作目として追加し 12 著作に拡張。 2026-06-12 瑜祇経横断索引化で yugikyo を 13 著作目として追加し 13 著作に拡張。 2026-06-15 理趣経横断索引化で rishikyo を 14 著作目として追加し 14 著作に拡張。",
   "storage_dir": "data/mikkyou/",
   "naming_pattern": "index_<category>_all.json",
   "source_corpora": [
@@ -1407,32 +1459,33 @@
    "bodaishinron",
    "jujushinron",
    "hizoki",
-   "yugikyo"
+   "yugikyo",
+   "rishikyo"
   ],
-  "corpora_count": 13,
+  "corpora_count": 14,
   "files": {
    "terms": {
     "file": "index_terms_all.json",
     "present": true,
-    "corpora_with_data": 13,
+    "corpora_with_data": 14,
     "unique_terms_total": 19,
-    "total_occurrences": 3257,
+    "total_occurrences": 3273,
     "terms_in_multiple_corpora": 17,
-    "max_corpus_coverage": 13
+    "max_corpus_coverage": 14
    },
    "citations": {
     "file": "index_citations_all.json",
     "present": true,
-    "corpora_with_data": 13,
-    "unique_terms_total": 547,
-    "total_occurrences": 2360,
+    "corpora_with_data": 14,
+    "unique_terms_total": 548,
+    "total_occurrences": 2361,
     "terms_in_multiple_corpora": 84,
     "max_corpus_coverage": 11
    },
    "kukai_works": {
     "file": "index_kukai_works_all.json",
     "present": true,
-    "corpora_with_data": 13,
+    "corpora_with_data": 14,
     "unique_terms_total": 13,
     "total_occurrences": 55,
     "terms_in_multiple_corpora": 3,
@@ -1441,37 +1494,37 @@
    "sanskrit": {
     "file": "index_sanskrit_all.json",
     "present": true,
-    "corpora_with_data": 13,
-    "unique_terms_total": 1743,
-    "total_occurrences": 2672,
-    "terms_in_multiple_corpora": 141,
+    "corpora_with_data": 14,
+    "unique_terms_total": 1750,
+    "total_occurrences": 2684,
+    "terms_in_multiple_corpora": 142,
     "max_corpus_coverage": 4
    },
    "kaimyo_jukugo": {
     "file": "index_kaimyo_jukugo_all.json",
     "present": true,
-    "corpora_with_data": 13,
+    "corpora_with_data": 14,
     "unique_terms_total": 114,
-    "total_occurrences": 5380,
+    "total_occurrences": 5391,
     "terms_in_multiple_corpora": 77,
-    "max_corpus_coverage": 13
+    "max_corpus_coverage": 14
    },
    "persons": {
     "file": "index_persons_all.json",
     "present": true,
-    "corpora_with_data": 13,
+    "corpora_with_data": 14,
     "unique_terms_total": 90,
-    "total_occurrences": 2975,
+    "total_occurrences": 3009,
     "terms_in_multiple_corpora": 59,
-    "max_corpus_coverage": 12
+    "max_corpus_coverage": 13
    },
    "places": {
     "file": "index_places_all.json",
     "present": true,
-    "corpora_with_data": 13,
+    "corpora_with_data": 14,
     "unique_terms_total": 73,
-    "total_occurrences": 906,
-    "terms_in_multiple_corpora": 37,
+    "total_occurrences": 917,
+    "terms_in_multiple_corpora": 38,
     "max_corpus_coverage": 11
    }
   }
