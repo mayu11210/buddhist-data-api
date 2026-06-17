@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "hotsubodaishinron-sho-vol3.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-17",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 28118,
+  "summary": {
+    "unique_terms": 1,
+    "unique_canonicals": 1,
+    "total_occurrences": 1,
+    "with_diacritics_count": 1,
+    "ascii_only_count": 0,
+    "multi_form_canonicals": 0
+  },
+  "entries": [
+    {
+      "canonical": "saṃ",
+      "representative_form": "saṃ",
+      "aliases": [
+        {
+          "form": "saṃ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "ちマ字〔ma〕の義である。行願とは誓いの義、すなわちサン字〔saṃ〕の義である。三摩地は五部〔金剛界の五部〕の秘密の観、これで",
+          "context_position": 8309,
+          "sanskrit_form": "saṃ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "category": "空海著作・性霊集編纂物（kukai works）",
+  "source_corpus": "hotsubodaishinron-sho-vol3.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-17",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 28118,
+  "summary": {
+    "unique_terms": 6,
+    "total_occurrences": 13
+  },
+  "entries": [
+    {
+      "term": "即身成仏義",
+      "aliases": [],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "れである。いわゆる『金剛頂』十万頌の経などがこれである」と。『即身成仏義』にこうある――「『この三摩地を説く』とは、法身自証の三摩地で",
+          "context_position": 9378,
+          "raw_form": "即身成仏義"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "が真言法にかぎるという義は確定している〔治定〕。だから高祖は『即身成仏義』では「真言法の中に即身成仏する」と引いて「惟」の字を除いてい",
+          "context_position": 12723,
+          "raw_form": "即身成仏義"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "かに大覚の位を証る〔父母所生身速証大覚位〕」とある。 　一、『即身成仏義』には、「六大無礙にして常に瑜伽なり」などの二頌八句〔即身頌・",
+          "context_position": 13041,
+          "raw_form": "即身成仏義"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "、身と心を見比べて勝劣を判ずるが、今の論主の御釈および高祖の『即身成仏義』の題額〔表題〕は一つにそろっているから、同列に論じて突き合わ",
+          "context_position": 13199,
+          "raw_form": "即身成仏義"
+        }
+      ]
+    },
+    {
+      "term": "菩提心論",
+      "aliases": [],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "提心論鈔 第三。 「既に是くの如き心を発し已りて」等の文〔＝『菩提心論』の本文を一句ずつ牒げて、その注釈に入る〕。 「既に是くの如き",
+          "context_position": 95,
+          "raw_form": "菩提心論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "た〔講説した〕。 「既に是くの如き心を発し已りて」等の文〔＝『菩提心論』の本文をこの句から牒げて、注釈に入る〕。 ここまでで、信心を",
+          "context_position": 770,
+          "raw_form": "菩提心論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "る」と釈されたのだ、と心得るべきである。 　またあるお釈に、『菩提心論』を引いてこうある――「諸仏如来は勝義・行願・三摩地を戒とする",
+          "context_position": 8227,
+          "raw_form": "菩提心論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "華すら及ばない、まして他の教えはなおさらだ」と。また「龍猛の『菩提心論』にいう、『ただ真言法の中にのみ即身成仏する、ゆえにこの三摩地",
+          "context_position": 9794,
+          "raw_form": "菩提心論"
+        }
+      ]
+    },
+    {
+      "term": "弁顕密二教論",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "て、高祖〔空海〕は処々の解釈で、みなこの意を釈しておられる。『弁顕密二教論』はこの論文を引いて証とし、たとえてこう言う――「この論は龍樹",
+          "context_position": 9159,
+          "raw_form": "弁顕密二教論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "於諸教中〕」という文。 「諸教」とは、もろもろの顕教である。『弁顕密二教論』に「『諸教』とは他受用身が説く顕教である」とある。もし他門の",
+          "context_position": 14499,
+          "raw_form": "弁顕密二教論"
+        }
+      ]
+    },
+    {
+      "term": "十住心論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "『大日経』に「いかなるか真言の法教〔云何真言法教〕」とある。『十住心論』に「真言とは、ひとまず語密に就いて名を得る」とある。あるお釈",
+          "context_position": 12038,
+          "raw_form": "十住心論"
+        }
+      ]
+    },
+    {
+      "term": "性霊集",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "証の三摩地である。『諸教』とは他受用身が説く顕教である」と。『性霊集』巻九にこうある――「また龍猛菩薩がいう、『自証三摩地の法は、",
+          "context_position": 9439,
+          "raw_form": "性霊集"
+        }
+      ]
+    },
+    {
+      "term": "秘蔵宝鑰",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "。もし〔生起の〕次第に約せば「願行」というべきである。よって『秘蔵宝鑰』には「四弘の願行は、後の身の勝れた果を仰ぐ」とあり、香象〔法",
+          "context_position": 22332,
+          "raw_form": "秘蔵宝鑰"
+        }
+      ]
+    }
+  ],
+  "classification_table": {
+    "梵字悉曇字母并びに釈義": "空海著作",
+    "古今文字讃": "空海請来書",
+    "古今篆隷の文体": "空海請来書",
+    "続性霊集補闕鈔": "性霊集編纂物",
+    "大広智の影の讃": "idx12篇名（空海碑文）",
+    "大広智不空三蔵の影の讃": "idx12篇名（空海碑文・括弧前）",
+    "弁顕密二教論": "空海著作",
+    "吽字義": "空海著作",
+    "即身成仏義": "空海著作",
+    "声字実相義": "空海著作",
+    "般若心経秘鍵": "空海著作",
+    "秘蔵宝鑰": "空海著作",
+    "十住心論": "空海著作",
+    "秘密曼荼羅十住心論": "空海著作",
+    "三教指帰": "空海著作",
+    "聾瞽指帰": "空海著作",
+    "御請来目録": "空海著作",
+    "性霊集": "空海関連（弟子真済編）",
+    "遍照発揮性霊集": "空海関連（弟子真済編）",
+    "菩提心論": "空海関連（不空訳・真言宗根本論書）"
+  }
+}

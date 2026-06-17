@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol3.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-17",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 28118,
+  "summary": {
+    "unique_terms": 2,
+    "unique_places": 2,
+    "total_occurrences": 29,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 1,
+        "occurrences": 28
+      },
+      "mountain_japan": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 28
+        }
+      ],
+      "occurrence_count": 28,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "るべきである。 　四には、行願の中の利益〔利〕は大慈の弥勒、安楽〔楽〕は大悲の観音、勝義は文殊、第三の菩提心は普賢、すなわち",
+          "context_position": 17640,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "だく。我れ、まさに余すところなき有情界〔無余有情界〕を利益し安楽にしよう、と。十方の含識〔いのちあるもの〕を観ること、なお己",
+          "context_position": 19422,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "、一切衆生を己が身のように観るから、同体の大悲に住して利益・安楽の心を起こすのである。高祖のあるお釈に「二に大悲心とは、また",
+          "context_position": 20033,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "ない」の意である。「このような心〔如是心〕」とは、下の利益・安楽の心を指す。 　「我れ、まさに余すところなき有情界を利益しよ",
+          "context_position": 20512,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "情界〕」の文。これは正しく誓願を明かす。これについて、利益と安楽の違いのことは、世間・出世間の福・智など、幾重もの分別が、慈",
+          "context_position": 20583,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "が、慈恩〔基〕の『唯識述記』に見える。こまかには、下の利益・安楽の釈の段で述べるべきか。「余すところなき有情界〔無余有情界〕",
+          "context_position": 20642,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "ある解釈〔一義〕では「行を願ず」と文を読む。この意は、利益・安楽の他を化す行〔化他の行〕を、内に誓願する義である。ある解釈〔",
+          "context_position": 22555,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "、一切衆生を己が身のように観るから、同体の大悲に住して利益・安楽の心を発すのである。大師のあるお釈にこうある――「二に大悲心",
+          "context_position": 22944,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "このような心をいだく〔常懐如是心〕」とは、すなわち常に利益・安楽の心に住すべき義である。「常にいだく」とは、上の「諸仏菩薩は",
+          "context_position": 23471,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "布する経のようなものではない」と。「このような心」とは利益・安楽の心である。「このような〔如是〕」とは下を指す言である。 　",
+          "context_position": 23777,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "指す言である。 　「我れ、まさに余すところなき有情界を利益し安楽にしよう〔我当利益安楽無余有情界〕」の文。これは正しく誓願を",
+          "context_position": 23830,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "れ、まさに余すところなき有情界を利益し安楽にしよう〔我当利益安楽無余有情界〕」の文。これは正しく誓願を明かす。「我」とは真言",
+          "context_position": 23841,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "そもそも顕・密は異なるとはいえ、菩薩・大士の心がまえは利益・安楽を根本とする。『大品般若経』巻六にこうある――「須菩提よ、菩",
+          "context_position": 23909,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "る――「須菩提よ、菩薩摩訶薩は、一切衆生の中に、まさに利益・安楽の心を生ずべきである。どのようなのを利益・安楽の心と名づける",
+          "context_position": 23961,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "、まさに利益・安楽の心を生ずべきである。どのようなのを利益・安楽の心と名づけるか。一切衆生を救済して一切衆生を捨てない、乃至",
+          "context_position": 23984,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "、乃至、この心がある。これを菩薩摩訶薩が一切衆生の中に利益・安楽の心を生ずと名づける」と。この段では、真言行者に約して利益・",
+          "context_position": 24043,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "の心を生ずと名づける」と。この段では、真言行者に約して利益・安楽の義を釈された。よって顕・密の説き方はおおむね同じである。ま",
+          "context_position": 24075,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "また『金剛頂経』に「正法輪を転じ、乃至、一切を救済して利益・安楽にし、余すところなき有情界を尽くす」とある。 　これについて",
+          "context_position": 24136,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "ころなき有情界を尽くす」とある。 　これについて、その利益・安楽の違いのこと。ある解釈〔一義〕では、出世間の益を与えるのを「",
+          "context_position": 24174,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "出世間の益を与えるのを「利益」と名づけ、世間の楽を施すのを「安楽」というと義を取る。世親の『摂大乗論』に「一切出世間の事を得",
+          "context_position": 24224,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "せるのを『利益』の意と名づけ、世間の勝れた事を得させるのを『安楽』の意と名づける」とある。この意ははっきりしている。ただし、",
+          "context_position": 24287,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "る」とある。この意ははっきりしている。ただし、この段の利益・安楽の二段の意は、必ずしも「安楽＝世間の事」にかぎると見ない。な",
+          "context_position": 24326,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "している。ただし、この段の利益・安楽の二段の意は、必ずしも「安楽＝世間の事」にかぎると見ない。なぜなら、〔下に〕「その親しさ",
+          "context_position": 24340,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "るからである。ある解釈〔一義〕にいう。利益は出世間にかぎり、安楽は世間・出世間に通じる、と義を取る。これはおおむねこの段の釈",
+          "context_position": 24449,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "衆生の楽の欲するところに随って、乃至、顕教などを与えるのを「安楽」という、と義を取る。『梵網古迹』には「福を修し恵を生ずるの",
+          "context_position": 24556,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "を『楽』と名づける」とある。 　『唯識述記』巻一には、利益・安楽について幾重もの分別をなす。その釈にこうある――「一には、利",
+          "context_position": 24639,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "「一には、利は利益、すなわち後に済う〔後済〕ことである。楽は安楽、すなわち現に済う〔現済〕ことである。二には、あるいは現の益",
+          "context_position": 24695,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "まれる側の世界である。意は、余すところなき世界の有情を利益し安楽にする、という釈である。これについて、『大智度論』の中では、",
+          "context_position": 25461,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "比叡山",
+      "aliases": [
+        "叡山",
+        "北嶺"
+      ],
+      "subcategory": "mountain_japan",
+      "definition": "近江・山城。最澄開創の天台宗根本道場。",
+      "matched_forms": [
+        {
+          "form": "比叡山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol3",
+          "context": "かれないことは、その道理が十分に成り立っている。他門の山門〔比叡山〕の慈覚〔円仁〕などの意も、おおむねこの義と同じである。智証",
+          "context_position": 9631,
+          "matched_form": "比叡山"
+        }
+      ]
+    }
+  ]
+}

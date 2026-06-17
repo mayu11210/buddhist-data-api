@@ -57,6 +57,7 @@ ALL_CORPORA = [
     'rishushaku',  # 2026-06-15 追加（理趣釈 横断索引化・性霊集含め 15 著作目）
     'hotsubodaishinron-sho-vol1',  # 2026-06-15 追加（発菩提心論鈔 第一巻 横断索引化・性霊集含め 16 著作目）
     'dainichikyo-sho-vol2',  # 2026-06-17 追加（大日経疏 巻第二 横断索引化・性霊集含め 17 著作目）
+    'hotsubodaishinron-sho-vol3',  # 2026-06-17 追加（発菩提心論鈔 第三巻 横断索引化・性霊集含め 18 著作目）
 ]
 
 

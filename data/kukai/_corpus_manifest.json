@@ -35,13 +35,13 @@
   "genten_present": 12,
   "with_specialty_sections": 5,
   "indexed_corpora": {
-   "terms": 17,
-   "citations": 17,
-   "kukai_works": 17,
-   "sanskrit": 17,
-   "kaimyo_jukugo": 17,
-   "persons": 17,
-   "places": 17
+   "terms": 18,
+   "citations": 18,
+   "kukai_works": 18,
+   "sanskrit": 18,
+   "kaimyo_jukugo": 18,
+   "persons": 18,
+   "places": 18
   }
  },
  "files": [
@@ -1665,6 +1665,58 @@
    "notes": "書き下しデータ化スキルで取込。段落単位 kakikudashi＋gendaigoyaku、outline／base_text_ref 付き。",
    "relations": {
     "commentary_of": "bodaishinron.json"
+   },
+   "index_status": {
+    "terms": {
+     "file": "index_hotsubodaishinron-sho-vol3_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 300,
+     "matched_term_count": 12,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_hotsubodaishinron-sho-vol3_citations.json",
+     "present": true,
+     "unique_terms": 51,
+     "total_occurrences": 106
+    },
+    "kukai_works": {
+     "file": "index_hotsubodaishinron-sho-vol3_kukai_works.json",
+     "present": true,
+     "unique_terms": 6,
+     "total_occurrences": 13
+    },
+    "sanskrit": {
+     "file": "index_hotsubodaishinron-sho-vol3_sanskrit.json",
+     "present": true,
+     "unique_terms": 1,
+     "total_occurrences": 1,
+     "with_diacritics_count": 1,
+     "ascii_only_count": 0
+    },
+    "kaimyo_jukugo": {
+     "file": "index_hotsubodaishinron-sho-vol3_kaimyo.json",
+     "present": true,
+     "unique_terms": 11,
+     "total_occurrences": 183,
+     "needs_review_count": 0,
+     "matched_jukugo_count": 8
+    },
+    "persons": {
+     "file": "index_hotsubodaishinron-sho-vol3_persons.json",
+     "present": true,
+     "unique_terms": 14,
+     "total_occurrences": 65,
+     "subcategory_count": 4
+    },
+    "places": {
+     "file": "index_hotsubodaishinron-sho-vol3_places.json",
+     "present": true,
+     "unique_terms": 2,
+     "total_occurrences": 29,
+     "subcategory_count": 2
+    }
    }
   }
  ],
@@ -1701,7 +1753,7 @@
   }
  },
  "aggregate_indices": {
-  "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。 2026-06-10 秘蔵記横断索引化で hizoki を 12 著作目として追加し 12 著作に拡張。 2026-06-12 瑜祇経横断索引化で yugikyo を 13 著作目として追加し 13 著作に拡張。 2026-06-15 理趣経横断索引化で rishikyo を 14 著作目として追加し 14 著作に拡張。 2026-06-15 理趣釈横断索引化で rishushaku を 15 著作目として追加し 15 著作に拡張。 2026-06-15 発菩提心論鈔横断索引化で hotsubodaishinron-sho-vol1 を 16 著作目として追加し 16 著作に拡張。 2026-06-17 大日経疏 巻第二横断索引化で dainichikyo-sho-vol2 を 17 著作目として追加し 17 著作に拡張。",
+  "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。 2026-06-10 秘蔵記横断索引化で hizoki を 12 著作目として追加し 12 著作に拡張。 2026-06-12 瑜祇経横断索引化で yugikyo を 13 著作目として追加し 13 著作に拡張。 2026-06-15 理趣経横断索引化で rishikyo を 14 著作目として追加し 14 著作に拡張。 2026-06-15 理趣釈横断索引化で rishushaku を 15 著作目として追加し 15 著作に拡張。 2026-06-15 発菩提心論鈔横断索引化で hotsubodaishinron-sho-vol1 を 16 著作目として追加し 16 著作に拡張。 2026-06-17 大日経疏 巻第二横断索引化で dainichikyo-sho-vol2 を 17 著作目として追加し 17 著作に拡張。 2026-06-17 発菩提心論鈔 第三巻横断索引化で hotsubodaishinron-sho-vol3 を 18 著作目として追加し 18 著作に拡張。",
   "storage_dir": "data/mikkyou/",
   "naming_pattern": "index_<category>_all.json",
   "source_corpora": [
@@ -1721,9 +1773,10 @@
    "rishikyo",
    "rishushaku",
    "hotsubodaishinron-sho-vol1",
-   "dainichikyo-sho-vol2"
+   "dainichikyo-sho-vol2",
+   "hotsubodaishinron-sho-vol3"
   ],
-  "corpora_count": 17,
+  "corpora_count": 18,
   "files": {
    "terms": {
     "file": "index_terms_all.json",

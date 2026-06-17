@@ -21,18 +21,19 @@
     "rishikyo",
     "rishushaku",
     "hotsubodaishinron-sho-vol1",
-    "dainichikyo-sho-vol2"
+    "dainichikyo-sho-vol2",
+    "hotsubodaishinron-sho-vol3"
   ],
-  "corpora_count": 17,
-  "corpora_with_data": 17,
+  "corpora_count": 18,
+  "corpora_with_data": 18,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 980,
-    "terms_in_multiple_corpora": 42,
-    "max_corpus_coverage": 13,
+    "total_occurrences": 1009,
+    "terms_in_multiple_corpora": 43,
+    "max_corpus_coverage": 14,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -118,6 +119,11 @@
         "unique": 4,
         "occurrences": 16,
         "present": true
+      },
+      "hotsubodaishinron-sho-vol3": {
+        "unique": 2,
+        "occurrences": 29,
+        "present": true
       }
     }
   },
@@ -155,6 +161,50 @@
       "metadata": {
         "subcategory": "cosmological_realm",
         "definition": "三界の最下。欲望が支配する世界。"
+      }
+    },
+    {
+      "canonical": "安楽",
+      "total_occurrence_count": 93,
+      "covered_corpora_count": 14,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol2",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "hizoki",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3",
+        "jujushinron",
+        "rishikyo",
+        "rishushaku",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "sokushin-jobutsu": 2,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 8,
+        "dainichikyo-sho-vol1": 1,
+        "bodaishinron": 3,
+        "jujushinron": 16,
+        "hizoki": 1,
+        "yugikyo": 2,
+        "rishikyo": 9,
+        "rishushaku": 8,
+        "hotsubodaishinron-sho-vol1": 1,
+        "dainichikyo-sho-vol2": 6,
+        "hotsubodaishinron-sho-vol3": 28
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "極楽浄土の異称。",
+        "aliases": [
+          "安楽国"
+        ]
       }
     },
     {
@@ -229,48 +279,6 @@
       "metadata": {
         "subcategory": "cosmological_realm",
         "definition": "三界の最上。色身のない世界。"
-      }
-    },
-    {
-      "canonical": "安楽",
-      "total_occurrence_count": 65,
-      "covered_corpora_count": 13,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "dainichikyo-sho-vol2",
-        "hannya-hiken",
-        "hizo-houyaku",
-        "hizoki",
-        "hotsubodaishinron-sho-vol1",
-        "jujushinron",
-        "rishikyo",
-        "rishushaku",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "sokushin-jobutsu": 2,
-        "hannya-hiken": 1,
-        "hizo-houyaku": 8,
-        "dainichikyo-sho-vol1": 1,
-        "bodaishinron": 3,
-        "jujushinron": 16,
-        "hizoki": 1,
-        "yugikyo": 2,
-        "rishikyo": 9,
-        "rishushaku": 8,
-        "hotsubodaishinron-sho-vol1": 1,
-        "dainichikyo-sho-vol2": 6
-      },
-      "metadata": {
-        "subcategory": "cosmological_realm",
-        "definition": "極楽浄土の異称。",
-        "aliases": [
-          "安楽国"
-        ]
       }
     },
     {
@@ -1341,6 +1349,27 @@
       }
     },
     {
+      "canonical": "比叡山",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "hotsubodaishinron-sho-vol3": 1
+      },
+      "metadata": {
+        "subcategory": "mountain_japan",
+        "definition": "近江・山城。最澄開創の天台宗根本道場。",
+        "aliases": [
+          "叡山",
+          "北嶺"
+        ]
+      }
+    },
+    {
       "canonical": "讃岐",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
@@ -1523,25 +1552,6 @@
       "metadata": {
         "subcategory": "province_japan",
         "definition": "兵庫県南西部の旧国。"
-      }
-    },
-    {
-      "canonical": "比叡山",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1
-      },
-      "metadata": {
-        "subcategory": "mountain_japan",
-        "definition": "近江・山城。最澄開創の天台宗根本道場。",
-        "aliases": [
-          "叡山",
-          "北嶺"
-        ]
       }
     },
     {

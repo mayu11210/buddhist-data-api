@@ -21,16 +21,17 @@
     "rishikyo",
     "rishushaku",
     "hotsubodaishinron-sho-vol1",
-    "dainichikyo-sho-vol2"
+    "dainichikyo-sho-vol2",
+    "hotsubodaishinron-sho-vol3"
   ],
-  "corpora_count": 17,
-  "corpora_with_data": 17,
+  "corpora_count": 18,
+  "corpora_with_data": 18,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 1750,
-    "total_occurrences": 2684,
+    "unique_terms_total": 1751,
+    "total_occurrences": 2685,
     "terms_in_multiple_corpora": 142,
     "max_corpus_coverage": 4,
     "by_corpus": {
@@ -117,6 +118,11 @@
       "dainichikyo-sho-vol2": {
         "unique": 0,
         "occurrences": 0,
+        "present": true
+      },
+      "hotsubodaishinron-sho-vol3": {
+        "unique": 1,
+        "occurrences": 1,
         "present": true
       }
     }
@@ -19177,6 +19183,20 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
+      "canonical": "saṃ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
       },
       "metadata": {
         "has_diacritics": true

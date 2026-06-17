@@ -21,18 +21,19 @@
     "rishikyo",
     "rishushaku",
     "hotsubodaishinron-sho-vol1",
-    "dainichikyo-sho-vol2"
+    "dainichikyo-sho-vol2",
+    "hotsubodaishinron-sho-vol3"
   ],
-  "corpora_count": 17,
-  "corpora_with_data": 17,
+  "corpora_count": 18,
+  "corpora_with_data": 18,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 624,
-    "total_occurrences": 2605,
-    "terms_in_multiple_corpora": 104,
-    "max_corpus_coverage": 12,
+    "unique_terms_total": 650,
+    "total_occurrences": 2711,
+    "terms_in_multiple_corpora": 112,
+    "max_corpus_coverage": 13,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 237,
@@ -118,14 +119,19 @@
         "unique": 13,
         "occurrences": 21,
         "present": true
+      },
+      "hotsubodaishinron-sho-vol3": {
+        "unique": 51,
+        "occurrences": 106,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "term": "大日経",
-      "total_occurrence_count": 135,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 140,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -133,6 +139,7 @@
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
@@ -152,13 +159,14 @@
         "bodaishinron": 5,
         "jujushinron": 17,
         "hizoki": 1,
-        "hotsubodaishinron-sho-vol1": 12
+        "hotsubodaishinron-sho-vol1": 12,
+        "hotsubodaishinron-sho-vol3": 5
       }
     },
     {
       "term": "法華経",
-      "total_occurrence_count": 135,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 136,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -166,6 +174,7 @@
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "nikyo-ron",
         "sankyo-shiki",
@@ -185,7 +194,8 @@
         "bodaishinron": 1,
         "jujushinron": 16,
         "hizoki": 1,
-        "hotsubodaishinron-sho-vol1": 1
+        "hotsubodaishinron-sho-vol1": 1,
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -207,12 +217,13 @@
     },
     {
       "term": "大智度論",
-      "total_occurrence_count": 95,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 96,
+      "covered_corpora_count": 9,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
@@ -227,7 +238,8 @@
         "hizo-houyaku": 5,
         "dainichikyo-sho-vol1": 25,
         "jujushinron": 18,
-        "hotsubodaishinron-sho-vol1": 1
+        "hotsubodaishinron-sho-vol1": 1,
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -247,14 +259,15 @@
     },
     {
       "term": "華厳経",
-      "total_occurrence_count": 86,
-      "covered_corpora_count": 10,
+      "total_occurrence_count": 87,
+      "covered_corpora_count": 11,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
@@ -271,17 +284,19 @@
         "dainichikyo-sho-vol1": 4,
         "bodaishinron": 3,
         "jujushinron": 44,
-        "hotsubodaishinron-sho-vol1": 5
+        "hotsubodaishinron-sho-vol1": 5,
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
       "term": "涅槃経",
-      "total_occurrence_count": 71,
-      "covered_corpora_count": 7,
+      "total_occurrence_count": 72,
+      "covered_corpora_count": 8,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
+        "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "nikyo-ron",
         "sankyo-shiki",
@@ -294,7 +309,8 @@
         "dainichikyo-sho-vol1": 6,
         "sankyo-shiki": 1,
         "bodaishinron": 2,
-        "jujushinron": 11
+        "jujushinron": 11,
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -325,8 +341,8 @@
     },
     {
       "term": "金剛頂経",
-      "total_occurrence_count": 47,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 54,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -334,6 +350,7 @@
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "nikyo-ron",
         "shoji-jisso",
@@ -353,19 +370,21 @@
         "bodaishinron": 2,
         "jujushinron": 6,
         "hizoki": 2,
-        "hotsubodaishinron-sho-vol1": 11
+        "hotsubodaishinron-sho-vol1": 11,
+        "hotsubodaishinron-sho-vol3": 7
       }
     },
     {
       "term": "大日経疏",
-      "total_occurrence_count": 47,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 50,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "shoji-jisso",
         "shoryoshu_miyasaka",
@@ -380,7 +399,8 @@
         "dainichikyo-sho-vol1": 4,
         "bodaishinron": 1,
         "jujushinron": 4,
-        "hotsubodaishinron-sho-vol1": 11
+        "hotsubodaishinron-sho-vol1": 11,
+        "hotsubodaishinron-sho-vol3": 3
       }
     },
     {
@@ -454,44 +474,13 @@
       }
     },
     {
-      "term": "正理論",
-      "total_occurrence_count": 32,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "jujushinron"
-      ],
-      "by_corpus": {
-        "jujushinron": 32
-      }
-    },
-    {
-      "term": "釈摩訶衍論",
-      "total_occurrence_count": 30,
-      "covered_corpora_count": 6,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "hotsubodaishinron-sho-vol1",
-        "jujushinron",
-        "nikyo-ron",
-        "shoji-jisso",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "nikyo-ron": 10,
-        "ujiji": 1,
-        "shoji-jisso": 2,
-        "hizo-houyaku": 10,
-        "jujushinron": 1,
-        "hotsubodaishinron-sho-vol1": 6
-      }
-    },
-    {
       "term": "瑜伽師地論",
-      "total_occurrence_count": 28,
-      "covered_corpora_count": 6,
+      "total_occurrence_count": 34,
+      "covered_corpora_count": 7,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "shoji-jisso",
         "shoryoshu_miyasaka",
@@ -503,22 +492,59 @@
         "shoji-jisso": 2,
         "dainichikyo-sho-vol1": 1,
         "jujushinron": 14,
-        "hotsubodaishinron-sho-vol1": 5
+        "hotsubodaishinron-sho-vol1": 5,
+        "hotsubodaishinron-sho-vol3": 6
+      }
+    },
+    {
+      "term": "釈摩訶衍論",
+      "total_occurrence_count": 32,
+      "covered_corpora_count": 7,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3",
+        "jujushinron",
+        "nikyo-ron",
+        "shoji-jisso",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 10,
+        "ujiji": 1,
+        "shoji-jisso": 2,
+        "hizo-houyaku": 10,
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol1": 6,
+        "hotsubodaishinron-sho-vol3": 2
+      }
+    },
+    {
+      "term": "正理論",
+      "total_occurrence_count": 32,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 32
       }
     },
     {
       "term": "仁王経",
-      "total_occurrence_count": 28,
-      "covered_corpora_count": 3,
+      "total_occurrence_count": 31,
+      "covered_corpora_count": 4,
       "covered_corpora": [
         "hizo-houyaku",
+        "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 9,
         "hizo-houyaku": 1,
-        "jujushinron": 18
+        "jujushinron": 18,
+        "hotsubodaishinron-sho-vol3": 3
       }
     },
     {
@@ -600,15 +626,17 @@
     },
     {
       "term": "唯識論",
-      "total_occurrence_count": 20,
-      "covered_corpora_count": 2,
+      "total_occurrence_count": 23,
+      "covered_corpora_count": 3,
       "covered_corpora": [
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3",
         "jujushinron"
       ],
       "by_corpus": {
         "jujushinron": 19,
-        "hotsubodaishinron-sho-vol1": 1
+        "hotsubodaishinron-sho-vol1": 1,
+        "hotsubodaishinron-sho-vol3": 3
       }
     },
     {
@@ -805,6 +833,57 @@
       }
     },
     {
+      "term": "起信論",
+      "total_occurrence_count": 11,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3",
+        "jujushinron",
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "nikyo-ron": 2,
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol1": 3,
+        "hotsubodaishinron-sho-vol3": 4
+      }
+    },
+    {
+      "term": "梵網経",
+      "total_occurrence_count": 11,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol3",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 1,
+        "hotsubodaishinron-sho-vol3": 2
+      }
+    },
+    {
+      "term": "法華",
+      "total_occurrence_count": 11,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2",
+        "hotsubodaishinron-sho-vol3",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "dainichikyo-sho-vol2": 1,
+        "hotsubodaishinron-sho-vol3": 9
+      }
+    },
+    {
       "term": "金剛般若経",
       "total_occurrence_count": 10,
       "covered_corpora_count": 3,
@@ -865,18 +944,29 @@
       }
     },
     {
-      "term": "梵網経",
+      "term": "心地観経",
       "total_occurrence_count": 9,
-      "covered_corpora_count": 3,
+      "covered_corpora_count": 2,
       "covered_corpora": [
-        "hizo-houyaku",
-        "sankyo-shiki",
+        "hotsubodaishinron-sho-vol3",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "hizo-houyaku": 1,
-        "sankyo-shiki": 1
+        "shoryoshu_miyasaka": 6,
+        "hotsubodaishinron-sho-vol3": 3
+      }
+    },
+    {
+      "term": "楽",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "hotsubodaishinron-sho-vol3": 7
       }
     },
     {
@@ -910,6 +1000,19 @@
       }
     },
     {
+      "term": "菩提心義",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol1": 7,
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
       "term": "守護国界主陀羅尼経",
       "total_occurrence_count": 7,
       "covered_corpora_count": 5,
@@ -926,23 +1029,6 @@
         "ujiji": 3,
         "hizo-houyaku": 1,
         "jujushinron": 1
-      }
-    },
-    {
-      "term": "起信論",
-      "total_occurrence_count": 7,
-      "covered_corpora_count": 4,
-      "covered_corpora": [
-        "hotsubodaishinron-sho-vol1",
-        "jujushinron",
-        "nikyo-ron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "nikyo-ron": 2,
-        "jujushinron": 1,
-        "hotsubodaishinron-sho-vol1": 3
       }
     },
     {
@@ -1015,6 +1101,17 @@
       }
     },
     {
+      "term": "利",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 7
+      }
+    },
+    {
       "term": "古事記",
       "total_occurrence_count": 7,
       "covered_corpora_count": 1,
@@ -1037,17 +1134,6 @@
       }
     },
     {
-      "term": "菩提心義",
-      "total_occurrence_count": 7,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "hotsubodaishinron-sho-vol1"
-      ],
-      "by_corpus": {
-        "hotsubodaishinron-sho-vol1": 7
-      }
-    },
-    {
       "term": "十二門論",
       "total_occurrence_count": 6,
       "covered_corpora_count": 4,
@@ -1062,6 +1148,23 @@
         "dainichikyo-sho-vol1": 1,
         "jujushinron": 3,
         "hotsubodaishinron-sho-vol1": 1
+      }
+    },
+    {
+      "term": "大品般若経",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol3",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 2,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 2,
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -1128,17 +1231,6 @@
       }
     },
     {
-      "term": "心地観経",
-      "total_occurrence_count": 6,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 6
-      }
-    },
-    {
       "term": "性霊集",
       "total_occurrence_count": 6,
       "covered_corpora_count": 1,
@@ -1194,18 +1286,35 @@
       }
     },
     {
-      "term": "大品般若経",
+      "term": "摂大乗論",
       "total_occurrence_count": 5,
-      "covered_corpora_count": 3,
+      "covered_corpora_count": 4,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
-        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol3",
+        "jujushinron",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 2,
-        "hizo-houyaku": 1,
-        "dainichikyo-sho-vol1": 2
+        "shoryoshu_miyasaka": 1,
+        "dainichikyo-sho-vol1": 1,
+        "jujushinron": 2,
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
+      "term": "五教章",
+      "total_occurrence_count": 5,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3",
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "nikyo-ron": 3,
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -1352,21 +1461,6 @@
       }
     },
     {
-      "term": "摂大乗論",
-      "total_occurrence_count": 4,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "jujushinron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "dainichikyo-sho-vol1": 1,
-        "jujushinron": 2
-      }
-    },
-    {
       "term": "春秋",
       "total_occurrence_count": 4,
       "covered_corpora_count": 3,
@@ -1382,19 +1476,6 @@
       }
     },
     {
-      "term": "五教章",
-      "total_occurrence_count": 4,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "nikyo-ron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "nikyo-ron": 3
-      }
-    },
-    {
       "term": "仏地経",
       "total_occurrence_count": 4,
       "covered_corpora_count": 2,
@@ -1405,6 +1486,19 @@
       "by_corpus": {
         "jujushinron": 3,
         "hotsubodaishinron-sho-vol1": 1
+      }
+    },
+    {
+      "term": "仏地論",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol1": 3,
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -1650,6 +1744,32 @@
       }
     },
     {
+      "term": "唯識述記",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol1": 1,
+        "hotsubodaishinron-sho-vol3": 2
+      }
+    },
+    {
+      "term": "無量義経",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3",
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol3": 2
+      }
+    },
+    {
       "term": "礼",
       "total_occurrence_count": 3,
       "covered_corpora_count": 2,
@@ -1774,17 +1894,6 @@
       }
     },
     {
-      "term": "仏地論",
-      "total_occurrence_count": 3,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "hotsubodaishinron-sho-vol1"
-      ],
-      "by_corpus": {
-        "hotsubodaishinron-sho-vol1": 3
-      }
-    },
-    {
       "term": "円覚経疏",
       "total_occurrence_count": 3,
       "covered_corpora_count": 1,
@@ -1892,6 +2001,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 3
+      }
+    },
+    {
+      "term": "諸教",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 3
       }
     },
     {
@@ -2097,19 +2217,6 @@
       }
     },
     {
-      "term": "法華",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "dainichikyo-sho-vol2",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "dainichikyo-sho-vol2": 1
-      }
-    },
-    {
       "term": "法華遊意",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
@@ -2201,6 +2308,19 @@
       }
     },
     {
+      "term": "金剛頂",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
       "term": "金剛頂一切如来真実摂大乗現証大教王経",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
@@ -2263,6 +2383,19 @@
       "by_corpus": {
         "dainichikyo-sho-vol1": 1,
         "dainichikyo-sho-vol2": 1
+      }
+    },
+    {
+      "term": "顕揚論",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3",
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -2340,6 +2473,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol1": 2
+      }
+    },
+    {
+      "term": "入道章",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 2
       }
     },
     {
@@ -2629,17 +2773,6 @@
       }
     },
     {
-      "term": "楽",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 2
-      }
-    },
-    {
       "term": "正理論〔順正理論〕",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -2692,6 +2825,17 @@
       ],
       "by_corpus": {
         "hannya-hiken": 2
+      }
+    },
+    {
+      "term": "胎経",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 2
       }
     },
     {
@@ -2769,6 +2913,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "諸教の中には欠いて書かない",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 2
       }
     },
     {
@@ -2882,6 +3037,39 @@
       }
     },
     {
+      "term": "この三摩地の法を説き、諸教の中には欠いて書かない",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
+      "term": "この三摩地の法を説く〔是説三摩地法〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
+      "term": "この三摩地を説く",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
       "term": "すでに受職位の境界を得た〔已得受職位の境界〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -2912,6 +3100,17 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "ただ真言法の中にのみ即身成仏する",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -3289,6 +3488,17 @@
       }
     },
     {
+      "term": "仁王経疏",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
       "term": "仁王般若陀羅尼釈",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3465,6 +3675,17 @@
       }
     },
     {
+      "term": "倫記",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
       "term": "倶舎論〔くしゃろん〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3605,6 +3826,17 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "利益",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -3762,6 +3994,17 @@
       }
     },
     {
+      "term": "即身義",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
       "term": "厚厳経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3913,17 +4156,6 @@
       ],
       "by_corpus": {
         "jujushinron": 1
-      }
-    },
-    {
-      "term": "唯識述記",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "hotsubodaishinron-sho-vol1"
-      ],
-      "by_corpus": {
-        "hotsubodaishinron-sho-vol1": 1
       }
     },
     {
@@ -4125,6 +4357,17 @@
       }
     },
     {
+      "term": "大乗の中の王、秘密の中の最も秘密〔秘が中の最秘〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
       "term": "大乗入道章",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4232,6 +4475,17 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "大日経私記",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -4642,6 +4896,17 @@
       }
     },
     {
+      "term": "安楽",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
       "term": "宗輪論",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4661,6 +4926,17 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "宗鏡録",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -4796,6 +5072,17 @@
       }
     },
     {
+      "term": "常に想う",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
       "term": "常相・無常相",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4804,6 +5091,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "平等",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -5123,6 +5421,17 @@
       ],
       "by_corpus": {
         "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "教王経疏",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -5489,6 +5798,17 @@
       }
     },
     {
+      "term": "梵網古迹",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
       "term": "梵網経開題",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -5519,6 +5839,17 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "欠いて",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -5907,17 +6238,6 @@
       }
     },
     {
-      "term": "無量義経",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "jujushinron"
-      ],
-      "by_corpus": {
-        "jujushinron": 1
-      }
-    },
-    {
       "term": "牙種〔がしゅ・芽の段階〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -6124,6 +6444,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "真言二字義",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -6413,6 +6744,17 @@
       }
     },
     {
+      "term": "自証三摩地の法は、諸教の中に欠いて書かない",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
       "term": "般若心経秘鍵",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -6663,6 +7005,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol1": 1
+      }
+    },
+    {
+      "term": "蘇悉地経疏",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -7029,6 +7382,17 @@
       }
     },
     {
+      "term": "釈氏行願法",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
       "term": "金剛三昧経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -7048,17 +7412,6 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol1": 1
-      }
-    },
-    {
-      "term": "金剛頂",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1
       }
     },
     {
@@ -7327,17 +7680,6 @@
     },
     {
       "term": "順正理論",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "jujushinron"
-      ],
-      "by_corpus": {
-        "jujushinron": 1
-      }
-    },
-    {
-      "term": "顕揚論",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
