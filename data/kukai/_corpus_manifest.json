@@ -35,13 +35,13 @@
   "genten_present": 12,
   "with_specialty_sections": 5,
   "indexed_corpora": {
-   "terms": 16,
-   "citations": 16,
-   "kukai_works": 16,
-   "sanskrit": 16,
-   "kaimyo_jukugo": 16,
-   "persons": 16,
-   "places": 16
+   "terms": 17,
+   "citations": 17,
+   "kukai_works": 17,
+   "sanskrit": 17,
+   "kaimyo_jukugo": 17,
+   "persons": 17,
+   "places": 17
   }
  },
  "files": [
@@ -1588,7 +1588,59 @@
     "genten": 21101
    },
    "role_complete": true,
-   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成佛神変加持経疏 巻第二』（大日経 入真言門住心品之余の注釈）。段落単位 kakikudashi＋gendaigoyaku、outline 10 区分付き。書き下しの底本：ユーザー提供 doc。現代語訳は butten-yasashii-yaku で全 106 段を 12 バッチ訳出（2026-06-15）。genten（漢文原典）は CBETA 線上閱讀 T1796_002（大正蔵 vol.39 巻第二）より取得・後送充填（2026-06-17、校勘 anchor 除去・夾註は〔 〕温存・標點本文）。Phase2 横断索引化／Phase3 motif 抽出は未着手。"
+   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成佛神変加持経疏 巻第二』（大日経 入真言門住心品之余の注釈）。段落単位 kakikudashi＋gendaigoyaku、outline 10 区分付き。書き下しの底本：ユーザー提供 doc。現代語訳は butten-yasashii-yaku で全 106 段を 12 バッチ訳出（2026-06-15）。genten（漢文原典）は CBETA 線上閱讀 T1796_002（大正蔵 vol.39 巻第二）より取得・後送充填（2026-06-17、校勘 anchor 除去・夾註は〔 〕温存・標點本文）。Phase2 横断索引化／Phase3 motif 抽出は未着手。",
+   "index_status": {
+    "terms": {
+     "file": "index_dainichikyo-sho-vol2_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 42,
+     "matched_term_count": 10,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_dainichikyo-sho-vol2_citations.json",
+     "present": true,
+     "unique_terms": 13,
+     "total_occurrences": 21
+    },
+    "kukai_works": {
+     "file": "index_dainichikyo-sho-vol2_kukai_works.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0
+    },
+    "sanskrit": {
+     "file": "index_dainichikyo-sho-vol2_sanskrit.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0,
+     "with_diacritics_count": 0,
+     "ascii_only_count": 0
+    },
+    "kaimyo_jukugo": {
+     "file": "index_dainichikyo-sho-vol2_kaimyo.json",
+     "present": true,
+     "unique_terms": 11,
+     "total_occurrences": 29,
+     "needs_review_count": 0,
+     "matched_jukugo_count": 6
+    },
+    "persons": {
+     "file": "index_dainichikyo-sho-vol2_persons.json",
+     "present": true,
+     "unique_terms": 11,
+     "total_occurrences": 24,
+     "subcategory_count": 4
+    },
+    "places": {
+     "file": "index_dainichikyo-sho-vol2_places.json",
+     "present": true,
+     "unique_terms": 4,
+     "total_occurrences": 16,
+     "subcategory_count": 3
+    }
+   }
   }
  ],
  "index_definitions": {
@@ -1624,7 +1676,7 @@
   }
  },
  "aggregate_indices": {
-  "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。 2026-06-10 秘蔵記横断索引化で hizoki を 12 著作目として追加し 12 著作に拡張。 2026-06-12 瑜祇経横断索引化で yugikyo を 13 著作目として追加し 13 著作に拡張。 2026-06-15 理趣経横断索引化で rishikyo を 14 著作目として追加し 14 著作に拡張。 2026-06-15 理趣釈横断索引化で rishushaku を 15 著作目として追加し 15 著作に拡張。 2026-06-15 発菩提心論鈔横断索引化で hotsubodaishinron-sho-vol1 を 16 著作目として追加し 16 著作に拡張。",
+  "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。 2026-06-10 秘蔵記横断索引化で hizoki を 12 著作目として追加し 12 著作に拡張。 2026-06-12 瑜祇経横断索引化で yugikyo を 13 著作目として追加し 13 著作に拡張。 2026-06-15 理趣経横断索引化で rishikyo を 14 著作目として追加し 14 著作に拡張。 2026-06-15 理趣釈横断索引化で rishushaku を 15 著作目として追加し 15 著作に拡張。 2026-06-15 発菩提心論鈔横断索引化で hotsubodaishinron-sho-vol1 を 16 著作目として追加し 16 著作に拡張。 2026-06-17 大日経疏 巻第二横断索引化で dainichikyo-sho-vol2 を 17 著作目として追加し 17 著作に拡張。",
   "storage_dir": "data/mikkyou/",
   "naming_pattern": "index_<category>_all.json",
   "source_corpora": [
@@ -1643,9 +1695,10 @@
    "yugikyo",
    "rishikyo",
    "rishushaku",
-   "hotsubodaishinron-sho-vol1"
+   "hotsubodaishinron-sho-vol1",
+   "dainichikyo-sho-vol2"
   ],
-  "corpora_count": 16,
+  "corpora_count": 17,
   "files": {
    "terms": {
     "file": "index_terms_all.json",

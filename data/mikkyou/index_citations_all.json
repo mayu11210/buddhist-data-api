@@ -3,7 +3,7 @@
   "category": "citations",
   "category_description": "典故書名（『〜』形式・他者著作）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-15",
+  "generated_at": "2026-06-17",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -20,17 +20,18 @@
     "yugikyo",
     "rishikyo",
     "rishushaku",
-    "hotsubodaishinron-sho-vol1"
+    "hotsubodaishinron-sho-vol1",
+    "dainichikyo-sho-vol2"
   ],
-  "corpora_count": 16,
-  "corpora_with_data": 16,
+  "corpora_count": 17,
+  "corpora_with_data": 17,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 616,
-    "total_occurrences": 2584,
-    "terms_in_multiple_corpora": 101,
+    "unique_terms_total": 624,
+    "total_occurrences": 2605,
+    "terms_in_multiple_corpora": 104,
     "max_corpus_coverage": 12,
     "by_corpus": {
       "shoryoshu_miyasaka": {
@@ -111,6 +112,11 @@
       "hotsubodaishinron-sho-vol1": {
         "unique": 95,
         "occurrences": 210,
+        "present": true
+      },
+      "dainichikyo-sho-vol2": {
+        "unique": 13,
+        "occurrences": 21,
         "present": true
       }
     }
@@ -1059,6 +1065,21 @@
       }
     },
     {
+      "term": "華厳",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2",
+        "shoji-jisso",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "shoji-jisso": 1,
+        "dainichikyo-sho-vol2": 4
+      }
+    },
+    {
       "term": "周礼",
       "total_occurrence_count": 6,
       "covered_corpora_count": 2,
@@ -1126,6 +1147,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 6
+      }
+    },
+    {
+      "term": "智度〔大智度論〕",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol2": 6
       }
     },
     {
@@ -1603,6 +1635,21 @@
       }
     },
     {
+      "term": "仏性論",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2",
+        "hizo-houyaku",
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 1,
+        "jujushinron": 1,
+        "dainichikyo-sho-vol2": 1
+      }
+    },
+    {
       "term": "礼",
       "total_occurrence_count": 3,
       "covered_corpora_count": 2,
@@ -1907,19 +1954,6 @@
       }
     },
     {
-      "term": "仏性論",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "jujushinron"
-      ],
-      "by_corpus": {
-        "hizo-houyaku": 1,
-        "jujushinron": 1
-      }
-    },
-    {
       "term": "俱舎論",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
@@ -2063,6 +2097,19 @@
       }
     },
     {
+      "term": "法華",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "dainichikyo-sho-vol2": 1
+      }
+    },
+    {
       "term": "法華遊意",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
@@ -2089,6 +2136,19 @@
       }
     },
     {
+      "term": "般若",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol2"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1,
+        "dainichikyo-sho-vol2": 1
+      }
+    },
+    {
       "term": "菩提場経",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
@@ -2099,19 +2159,6 @@
       "by_corpus": {
         "nikyo-ron": 1,
         "jujushinron": 1
-      }
-    },
-    {
-      "term": "華厳",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "shoji-jisso",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "shoji-jisso": 1
       }
     },
     {
@@ -2203,6 +2250,19 @@
       "by_corpus": {
         "shoryoshu_miyasaka": 1,
         "hotsubodaishinron-sho-vol1": 1
+      }
+    },
+    {
+      "term": "阿含",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol2"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1,
+        "dainichikyo-sho-vol2": 1
       }
     },
     {
@@ -3273,6 +3333,17 @@
       }
     },
     {
+      "term": "仏性論〔ぶっしょうろん〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol2": 1
+      }
+    },
+    {
       "term": "仏所行讃",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -3534,6 +3605,17 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "勝鬘〔しょうまん〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol2": 1
       }
     },
     {
@@ -4087,6 +4169,17 @@
       }
     },
     {
+      "term": "大乗荘厳経論〔だいじょうしょうごんきょうろん〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol2": 1
+      }
+    },
+    {
       "term": "大仏頂経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4282,6 +4375,17 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "大般若",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol2": 1
       }
     },
     {
@@ -4557,6 +4661,17 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "宝性〔ほうしょう〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol2": 1
       }
     },
     {
@@ -5385,6 +5500,17 @@
       }
     },
     {
+      "term": "楞伽〔りょうが〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol2": 1
+      }
+    },
+    {
       "term": "極無自性心",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -5492,17 +5618,6 @@
       ],
       "by_corpus": {
         "jujushinron": 1
-      }
-    },
-    {
-      "term": "法華",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1
       }
     },
     {
@@ -6298,17 +6413,6 @@
       }
     },
     {
-      "term": "般若",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol1": 1
-      }
-    },
-    {
       "term": "般若心経秘鍵",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -6647,6 +6751,17 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "解深密〔げじんみつ〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol2": 1
       }
     },
     {
@@ -7113,17 +7228,6 @@
     },
     {
       "term": "開曉の者",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol1": 1
-      }
-    },
-    {
-      "term": "阿含",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [

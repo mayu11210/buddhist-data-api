@@ -1,0 +1,425 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "dainichikyo-sho-vol2.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-17",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 47369,
+  "summary": {
+    "unique_terms": 11,
+    "unique_persons": 11,
+    "total_occurrences": 24,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 3,
+        "occurrences": 7
+      },
+      "buddhist_deva": {
+        "unique": 4,
+        "occurrences": 9
+      },
+      "buddhist_master_china": {
+        "unique": 2,
+        "occurrences": 5
+      },
+      "buddhist_master_india": {
+        "unique": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 2
+        },
+        {
+          "form": "大日",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "らの如来の功徳は皆すでに成就している。なぜなら、すなわちこれ毘盧遮那のそなわった体としての法身〔具体法身〕だからだ。だから経に「",
+          "context_position": 40364,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "いと悟った。いまは、この心はすなわち如来の自然智であり、また毘盧遮那のあらゆる身に遍く〔遍一切身〕と観じる。心がこのようであるの",
+          "context_position": 41541,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "してその自性が幻のようだと了知することを明かす。最もこの経〔大日経〕とよく合う〔符会〕。だから詳しくこれを引いた。まさに知る",
+          "context_position": 37946,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "を離れて、よくあの果を成すというなら、そのような処はない。「大日経王」と称する理由は、これ〔=種子と因縁を明かすこと〕のため",
+          "context_position": 46715,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "玄奘",
+      "aliases": [
+        "三蔵法師",
+        "玄奘三蔵"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "唐代の訳経僧。西天取経の主役。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "玄奘",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "すなわち人から生じる、と考えるのでそれを名とした。唐の三蔵〔玄奘〕が「意生」と訳すのは誤りである。末那〔まな〕は「意」のこと",
+          "context_position": 4086,
+          "matched_form": "玄奘"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "、いまは「末奴（まぬ）」と言う。声が転じて意味が別である。〔玄奘の訳は〕誤りである。 経に「摩納婆（まなば）」というのは、こ",
+          "context_position": 4149,
+          "matched_form": "玄奘"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "その身を成すのは、像がすでに飾られたようなものだ。唐の三蔵〔玄奘〕が翻訳して「儒童（じゅどう）」とするのは誤りである。儒童と",
+          "context_position": 4464,
+          "matched_form": "玄奘"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "）」と言い、こちら〔摩納婆〕は「納」の字で意味が別である。〔玄奘の訳は〕誤りである。 経に「常定生（じょうじょうしょう）」と",
+          "context_position": 4538,
+          "matched_form": "玄奘"
+        }
+      ]
+    },
+    {
+      "canonical": "阿修羅",
+      "aliases": [
+        "asura"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "六道の一・阿修羅道の住人。八部衆。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "阿修羅",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "ってはならない。それが対治である。 第十六に、どのようなのが阿修羅心〔あしゅらしん〕か。「いわく、生死〔迷いの世界〕にとどまろ",
+          "context_position": 15404,
+          "matched_form": "阿修羅"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "とができない。もし行者にこの相貌があれば、まさに知るべきだ、阿修羅心と名づけると。また前世にかつてこの境涯に生まれたことによっ",
+          "context_position": 15584,
+          "matched_form": "阿修羅"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "とによってこの習慣がある。無常・苦などを観察するのが、これ〔阿修羅心〕の対治である。 第十七に、どのようなのが龍心か。「広大な",
+          "context_position": 15643,
+          "matched_form": "阿修羅"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "に入ることをなす法に順じ修める」というのは――もろもろの龍や阿修羅などは皆地下、あるいは海底の深い洞窟の中にいる。多くの神仙の",
+          "context_position": 22396,
+          "matched_form": "阿修羅"
+        }
+      ]
+    },
+    {
+      "canonical": "梵天",
+      "aliases": [
+        "brahmā",
+        "Brahmā"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "色界初禅天の主。",
+      "sanskrit_canonical": "brahmā",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "梵天",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "思い込み、最初に我なるものがあると立てる。これより以来、この梵天王こそが世間を造るのだ、と考えるようになった。このように次々",
+          "context_position": 5608,
+          "matched_form": "梵天"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "だ。倶吠囉〔くべいら〕などは皆、世の人が崇め祀る大天である。梵天后とは世間が尊び祀る神である。けれども仏法の中では梵王は欲を",
+          "context_position": 8438,
+          "matched_form": "梵天"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "う、「もしこの菩薩が成仏するとき、我は常に鉢を献じよう」と。梵天もまたこの念を生じる、「もしこの菩薩が成仏するとき、我はまさ",
+          "context_position": 41278,
+          "matched_form": "梵天"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "〕のことである。外道はこの天を、湛然（たんねん）として常住・不動でありながら、補佐の働き〔輔相〕をもって万物を造り成すものと",
+          "context_position": 105,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "順心・寂静心・調伏心・寂滅心・謙下心〔けんげしん〕・潤沢心・不動心・不濁心を得る。次にまた十種の、もろもろの地を浄める法〔浄",
+          "context_position": 45348,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦牟尼",
+          "count": 1
+        },
+        {
+          "form": "釈迦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "る」というのである。すでに行者がこの心を得るとき、すなわち「釈迦牟尼の浄土は壊れない」と知り、仏の寿量〔じゅりょう・寿命〕が長く",
+          "context_position": 40676,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "を比べられる者はいない、と思う。もし自ら気づいたなら、まさに釈迦師子〔仏の獅子のごとき心〕を起こすべきだ。まさに一切衆生に、",
+          "context_position": 21090,
+          "matched_form": "釈迦"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈天",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "敬い信じる心を生じる。だから、釈提桓因〔しゃくだいかんいん・帝釈天〕はこのような願を起こしていう、「いまこの上人〔しょうにん〕",
+          "context_position": 41160,
+          "matched_form": "帝釈天"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "心に入る事も、また同じだ。まだ無数阿僧祇劫において、つぶさに普賢のもろもろの行を修め、大悲方便を満足していないとはいえ、これ",
+          "context_position": 40302,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "湛然",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "天台宗中興の祖。妙楽大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "湛然",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "のは、那羅延天〔ならえんてん〕のことである。外道はこの天を、湛然（たんねん）として常住・不動でありながら、補佐の働き〔輔相〕",
+          "context_position": 91,
+          "matched_form": "湛然"
+        }
+      ]
+    },
+    {
+      "canonical": "羅刹",
+      "aliases": [
+        "rākṣasa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "悪鬼神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "羅刹",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "だ。これが〔烏心の〕対治である。 第三十九に、どのようなのが羅刹心〔らせつしん〕か。「いわく、善の中に不善を起こす」というの",
+          "context_position": 21772,
+          "matched_form": "羅刹"
+        }
+      ]
+    },
+    {
+      "canonical": "舎利弗",
+      "aliases": [
+        "舎利子",
+        "śāriputra",
+        "Śāriputra"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。智慧第一。",
+      "sanskrit_canonical": "śāriputra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "舎利弗",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "では、この心を証するとき、すなわち「仏」と名づける。だから、舎利弗〔しゃりほつ〕などの一切の声聞・縁覚は、その智の力を尽くして",
+          "context_position": 40577,
+          "matched_form": "舎利弗"
+        }
+      ]
+    }
+  ]
+}

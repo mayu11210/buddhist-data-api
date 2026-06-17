@@ -1,0 +1,503 @@
+{
+  "schema_version": "1.0",
+  "category": "密教教学用語（mikkyo terms）",
+  "source_corpus": "dainichikyo-sho-vol2.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-17",
+  "extraction_strategy": "辞書ベース（19 語）+ 長語優先 substring 走査 + 周辺梵語注記抽出",
+  "dictionary_size": 19,
+  "gendaigoyaku_length": 47369,
+  "summary": {
+    "unique_terms": 19,
+    "total_occurrences": 42,
+    "kaimyo_suitable_count": 11,
+    "matched_term_count": 10
+  },
+  "entries": [
+    {
+      "term": "真言",
+      "term_kana": "",
+      "sanskrit": "mantra",
+      "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "occurrence_count": 10,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "「入真言門住心品（にゅうしんごんもんじゅうしんぼん）第一」の余（よ）",
+          "context_position": 2,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "、かつて上界に生まれたことによってこの習慣〔習〕がある。もし真言の行者が、遠大の果〔さとりの果報〕を期せず、ただ自分の心の願",
+          "context_position": 15297,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "者はまた常に念をかけて、その本尊のようになることを願う。もし真言の行者が、しばしばこのような悉地を念じて「我は念うままに成就",
+          "context_position": 16480,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "重の細かい妄執〔細妄執〕を越えるのを二阿僧祇劫と名づける。「真言門の行者が、さらに一劫を越える」とは、さらに百六十心などの一",
+          "context_position": 29673,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "妙さをさとることができない。 経にいう、「さらに、秘密主よ、真言門に菩薩の行を修行するもろもろの菩薩は、無量無数の百千倶胝那",
+          "context_position": 39484,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "もある。いまこの教えのもろもろの菩薩は、そうではない。直ちに真言を乗りものとして、浄菩提心の門に飛び入る〔超入〕。もしこの心",
+          "context_position": 39771,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "た世尊が、先に広く上のようなもろもろの心の相を説いた理由は、真言門のもろもろの観行の人に、もしこのような境界に行き至ったとき",
+          "context_position": 40008,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "なぜなら、すなわちこれ転輪王のそなわった体〔具体〕だからだ。真言の行者がはじめて浄菩提心に入る事も、また同じだ。まだ無数阿僧",
+          "context_position": 40259,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "とを請おう」と。だから「親しく近づき敬い礼す」という。すでに真言門に入る徳を讃え終わった。さて、行者はまた何の法によってこの",
+          "context_position": 41348,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "によって、世間の広大の供養を受けるに堪える。もし行者を、直に真言門に従って心の宝を見ることができるようにするのは、仙人が呪術",
+          "context_position": 44063,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法界",
+      "term_kana": "",
+      "sanskrit": "dharma-dhātu",
+      "definition": "宇宙の真実相。一切法の根本領域。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "界"
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "他」の意味でもある。いわゆる他縁乗とは、平等の大誓を起こし、法界の衆生のために菩薩道を行う。ひいては、もろもろの一闡提〔いっ",
+          "context_position": 34393,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "の菩薩は、よく畢竟じて浄い心〔畢竟浄心〕の中で、あまねく十方法界のもろもろの仏菩薩を集め会わせ、また自らよくあまねく十方に詣",
+          "context_position": 40863,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "って相続して生じる」という。すでに因縁を壊さないで、すなわち法界に入る。また法界を動かさないで、すなわち縁起する。まさに知る",
+          "context_position": 41851,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "る」という。すでに因縁を壊さないで、すなわち法界に入る。また法界を動かさないで、すなわち縁起する。まさに知るべきだ、因縁の生",
+          "context_position": 41859,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "で、すなわち縁起する。まさに知るべきだ、因縁の生滅はすなわち法界の生滅であり、法界の不生不滅はすなわち因縁の不生不滅である。",
+          "context_position": 41897,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "る。まさに知るべきだ、因縁の生滅はすなわち法界の生滅であり、法界の不生不滅はすなわち因縁の不生不滅である。だから「有為・無為",
+          "context_position": 41906,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "上は大悲と万行をいよいよ修める。すなわちこれ、無尽の大願が十法界において根を生じるのである。ひいては次第に増し長じ、第八地に",
+          "context_position": 44923,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大悲",
+      "term_kana": "",
+      "sanskrit": "mahā-karuṇā",
+      "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "から「無生分の法」と名づける。行者が自ら気づいたなら、まさに大悲のもろもろの善を起こして、断滅の空〔何もないとする虚無〕を離",
+          "context_position": 24788,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "深い。だから生死においてそれほど慌てない。けれども方便の力で大悲を起こすことができない。菩薩はこのような法を悟るとき、この心",
+          "context_position": 31225,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "伏摂受〕、あまねく同じくこの乗に入れるべきだ、と。この無縁の大悲によるので「他縁乗」と名づける。また無縁乗とは、この阿僧祇に",
+          "context_position": 34510,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "まだ無数阿僧祇劫において、つぶさに普賢のもろもろの行を修め、大悲方便を満足していないとはいえ、これらの如来の功徳は皆すでに成",
+          "context_position": 40315,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "。これによって、すなわちこれ菩提心を因とする。二地より以上は大悲と万行をいよいよ修める。すなわちこれ、無尽の大願が十法界にお",
+          "context_position": 44895,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "うなのを「因縁」と名づける。すでに安住し終わって、さまざまな大悲と万行でこの地を浄め治める〔浄治する〕のを「根」と名づけ、地",
+          "context_position": 45098,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "本不生",
+      "term_kana": "",
+      "sanskrit": "ādyanutpāda",
+      "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "て生じた生は本性がない〔無性〕。すなわちこれ、色は本来不生〔本不生〕である。 次の句の「浮泡〔ふほう・浮く泡〕」とは――夏の暴",
+          "context_position": 32206,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "〔唯識の性〕を悟るからである。 「心主は自在であって、自心の本不生をさとる」というのは――心主とはすなわち心王〔しんのう・心の",
+          "context_position": 38480,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "なものだ。だから、この性が浄らかなとき、すなわちよく自ら心の本不生をさとる。なぜなら、心は前と後の際〔前後際〕にともに得られな",
+          "context_position": 38761,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "こり滅するとはいえ、しかし心の性は常に生も滅もない。この心の本不生をさとれば、すなわちしだいに阿字門に入る。そのとき、さらに百",
+          "context_position": 38995,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "のは、すなわち自性がない。もし自性が無いものは、すなわちこれ本不生である。本不生はすなわちこれ心の実際である。心の実際もまた得",
+          "context_position": 42308,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "自性がない。もし自性が無いものは、すなわちこれ本不生である。本不生はすなわちこれ心の実際である。心の実際もまた得られない。だか",
+          "context_position": 42315,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "心王",
+      "term_kana": "",
+      "sanskrit": "citta-rāja",
+      "definition": "八識の根本識。心の主体・統括者。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "あって、自心の本不生をさとる」というのは――心主とはすなわち心王〔しんのう・心の中心〕である。有にも無にもとどこおらないので",
+          "context_position": 38503,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "開け明らかになり、前の劫にいよいよ勝ること〔倍勝〕を明かす。心王は、ちょうど池の水の性質がもとから清浄なようなものだ。心数〔",
+          "context_position": 38657,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "、波浪の因縁が尽きるとき、水の性は後に無いのでもないように、心王もまた同じく前後の際がない。前後の際を断つからである。さらに",
+          "context_position": 38911,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "阿字",
+      "term_kana": "",
+      "sanskrit": "a-kāra",
+      "definition": "密教根本字。梵語五十字門の最初の字。本不生を象徴。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "に住み処は無い。果がまた種となり、次々に育っても、しかもなお阿字門を出ない。だから「最上大乗の句である心の続生〔つづいて生じ",
+          "context_position": 11073,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "常に生も滅もない。この心の本不生をさとれば、すなわちしだいに阿字門に入る。そのとき、さらに百六十心などの塵や砂ほどの上煩悩〔",
+          "context_position": 39012,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "観じる。心がこのようであるので、諸法もまた同じだ。根と塵は皆阿字門に入る。だから「根と境を離れる」という。影像は常寂滅光〔じ",
+          "context_position": 41591,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大日",
+      "term_kana": "",
+      "sanskrit": "Mahāvairocana",
+      "definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "日"
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "してその自性が幻のようだと了知することを明かす。最もこの経〔大日経〕とよく合う〔符会〕。だから詳しくこれを引いた。まさに知る",
+          "context_position": 37946,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "を離れて、よくあの果を成すというなら、そのような処はない。「大日経王」と称する理由は、これ〔=種子と因縁を明かすこと〕のため",
+          "context_position": 46715,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法身",
+      "term_kana": "",
+      "sanskrit": "dharmakāya",
+      "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "身"
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "ている。なぜなら、すなわちこれ毘盧遮那のそなわった体としての法身〔具体法身〕だからだ。だから経に「無量無数劫……智慧方便を皆",
+          "context_position": 40379,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "ぜなら、すなわちこれ毘盧遮那のそなわった体としての法身〔具体法身〕だからだ。だから経に「無量無数劫……智慧方便を皆ことごとく",
+          "context_position": 40384,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "遮那",
+      "term_kana": "",
+      "sanskrit": "Vairocana",
+      "definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "遮",
+        "那"
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "如来の功徳は皆すでに成就している。なぜなら、すなわちこれ毘盧遮那のそなわった体としての法身〔具体法身〕だからだ。だから経に「",
+          "context_position": 40366,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "悟った。いまは、この心はすなわち如来の自然智であり、また毘盧遮那のあらゆる身に遍く〔遍一切身〕と観じる。心がこのようであるの",
+          "context_position": 41543,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "密教",
+      "term_kana": "",
+      "sanskrit": "guhya-mantra-yāna",
+      "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol2",
+          "context": "=通常の華厳の十地説にとどまる〕。もし金剛頂の十六大菩薩〔=密教の意味〕を説けば、おのずからまさに深秘の門を証り知るべきだ。",
+          "context_position": 46451,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三密",
+      "term_kana": "",
+      "sanskrit": "trīṇi guhyāni",
+      "definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "密"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "三摩地",
+      "term_kana": "",
+      "sanskrit": "samādhi",
+      "definition": "禅定。心を一境に住して散乱を離れた状態。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "即身",
+      "term_kana": "",
+      "sanskrit": "sa-deha",
+      "definition": "即身成仏の略。父母所生の身のまま現生で仏となる。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "即身成仏",
+      "term_kana": "",
+      "sanskrit": "sa-deha-prāpti-buddhatva",
+      "definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "成",
+        "仏"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "大空三昧",
+      "term_kana": "",
+      "sanskrit": "mahā-śūnyatā-samādhi",
+      "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "智剣",
+      "term_kana": "",
+      "sanskrit": "jñāna-khaḍga",
+      "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "智",
+        "剣"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "無縁慈悲",
+      "term_kana": "",
+      "sanskrit": "an-ārambaṇa-karuṇā",
+      "definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "慈",
+        "悲"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "玄機",
+      "term_kana": "",
+      "sanskrit": "—",
+      "definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "玄",
+        "機"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "阿字本不生",
+      "term_kana": "",
+      "sanskrit": "ā-di-an-utpāda",
+      "definition": "密教根本教義。阿字（a-kāra）が本来不生（不滅）であることを観じ、万物の本源を悟る。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}
