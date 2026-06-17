@@ -1845,3 +1845,22 @@ retrofit:dainichikyo-sho-vol2_rendou_scan）。除外〔直接連動未満ゆえ
 (2) 非文藝（経典注釈）、(3) 経典本文／注釈系の三軸が hizoki／理趣経本文・理趣釈／発菩提心論鈔／
 大日経本文と同じく「意図的未設定」側に収束する。将来 retrofit 可。motifs_without_gendai_gabun_intentional
 に dainichikyo-sho-vol2_m2526-m2630（8 ラウンド分のキー）を記載済。motifs.json は本裁定では不変。
+
+
+### 補注 RR（発菩提心論鈔 第三巻 連動軸 retrofit・2026-06-17）
+
+vol3 motif 抽出 完走（R1-R4・m2631-m2655・25件）後の連動軸スキャン。**新規 sg-id なし＝既存軸被覆拡張**（第一巻 retrofit 36 同型）。vol3 は『菩提心論』の注釈ゆえ既存中心成句軸と親子連動。**直接連動〔核心・術語 verbatim〕の 7 motif に限定**・連動タグ +21（タグのみ変更・total 2686 不変・famous 31 不変）：
+
+- m2632（四種の心・菩提心は万行の根源・核心）→ sg22 三種菩提心〔m506+m581〕
+- m2639（勝義行願三摩地為戒・父母所生身速証無上覚）→ sg22〔m506+m581〕／sg03 即身成仏〔m533〕
+- m2644（三門の名字・大定智悲・核心）→ sg22〔m506+m581〕
+- m2641（即身成仏は真言法のみ・顕密分斉・父母所生・核心）→ sg18 顕密二教〔m571〕／sg03〔m533〕
+- m2642（於諸教中＝顕教・他受用）→ sg18〔m571〕
+- m2647（三句配釈：菩提心因・大悲根・方便究竟）→ sg07 三句法門〔m713〕
+- m2640（乃至成仏無時暫忘・三句配釈・方便究竟）→ sg07〔m713〕
+
+m2639・m2641 は多系統連動。除外（直接連動未満で温存）：sg22 に触れる残 vol3 motif（三種菩提心論全般ゆえ被覆過多回避）。巻き戻り検知 assert（m506 典籍曰く／対象元タグ温存／vol3 25件温存）全 pass。schema_history +1（origin: retrofit:hotsubodaishinron-sho-vol3_rendou_scan）。
+
+### 補注 SS（発菩提心論鈔 第三巻 gabun 要否裁定・2026-06-17）
+
+vol3 全 25 motif（m2631-m2655）の text_gendai_gabun は **意図的未設定を継続**。根拠＝著者は宥快（**非空海**）の経典注釈系で、全件 引用形式:典籍曰く・非文藝（経典注釈）。第一巻（宥快）・hizoki・理趣釈・大日経疏 巻第二と同運用。将来 retrofit 可。motifs_without_gendai_gabun_intentional に hotsubodaishinron-sho-vol3_m2631-m2637／_m2638-m2655 記載済。motifs.json は本裁定では不変。
