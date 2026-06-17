@@ -32,7 +32,7 @@
   "role_complete_files": 16,
   "kakikudashi_present": 15,
   "gendaigoyaku_present": 15,
-  "genten_present": 11,
+  "genten_present": 12,
   "with_specialty_sections": 5,
   "indexed_corpora": {
    "terms": 16,
@@ -1571,24 +1571,24 @@
   {
    "filename": "dainichikyo-sho-vol2.json",
    "title": "大日経疏巻第二",
-   "taisho_ref": "T1796 / vol.39（巻第二・書き下しのみ・genten 後送）",
+   "taisho_ref": "T1796 / vol.39（巻第二）",
    "role": "primary_corpus",
    "type": "dict_paragraphs",
    "data_status": {
     "kaimyo_excerpt": false,
     "kakikudashi": true,
     "gendaigoyaku": true,
-    "genten": false,
-    "genten_unavailable_reason": "漢文原典は未収録（書き下しのみ）。将来 SAT/CBETA 大正蔵 T1796〔vol.39〕巻第二より取得可。底本：ユーザー提供 doc『大毘盧遮那成佛神変加持経疏 巻第二』。",
+    "genten": true,
     "specialty_sections": []
    },
    "char_counts": {
     "kakikudashi": 38464,
     "gendaigoyaku": 47264,
-    "paragraphs": 106
+    "paragraphs": 106,
+    "genten": 21101
    },
    "role_complete": true,
-   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成佛神変加持経疏 巻第二』（大日経 入真言門住心品之余の注釈）。段落単位 kakikudashi＋gendaigoyaku、outline 10 区分付き。底本：ユーザー提供 doc 書き下し。現代語訳は butten-yasashii-yaku で全 106 段を 12 バッチ訳出（2026-06-15）。genten（漢文原典）は未収録・将来 SAT/CBETA T1796 vol.39 巻第二より後送可。Phase2 横断索引化／Phase3 motif 抽出は未着手。"
+   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成佛神変加持経疏 巻第二』（大日経 入真言門住心品之余の注釈）。段落単位 kakikudashi＋gendaigoyaku、outline 10 区分付き。書き下しの底本：ユーザー提供 doc。現代語訳は butten-yasashii-yaku で全 106 段を 12 バッチ訳出（2026-06-15）。genten（漢文原典）は CBETA 線上閱讀 T1796_002（大正蔵 vol.39 巻第二）より取得・後送充填（2026-06-17、校勘 anchor 除去・夾註は〔 〕温存・標點本文）。Phase2 横断索引化／Phase3 motif 抽出は未着手。"
   }
  ],
  "index_definitions": {
