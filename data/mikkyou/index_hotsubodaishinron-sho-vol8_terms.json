@@ -1,0 +1,634 @@
+{
+  "schema_version": "1.0",
+  "category": "密教教学用語（mikkyo terms）",
+  "source_corpus": "hotsubodaishinron-sho-vol8.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "辞書ベース（19 語）+ 長語優先 substring 走査 + 周辺梵語注記抽出",
+  "dictionary_size": 19,
+  "gendaigoyaku_length": 16477,
+  "summary": {
+    "unique_terms": 19,
+    "total_occurrences": 64,
+    "kaimyo_suitable_count": 11,
+    "matched_term_count": 9
+  },
+  "entries": [
+    {
+      "term": "遮那",
+      "term_kana": "",
+      "sanskrit": "Vairocana",
+      "definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "遮",
+        "那"
+      ],
+      "occurrence_count": 14,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "べし、無自性なるが故に〔法已応捨無自性故〕」の文。 「大毘盧遮那のごとし〔如大毘盧遮那〕」等の文。 「諸法は無相にして、虚空",
+          "context_position": 631,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "〔法已応捨無自性故〕」の文。 「大毘盧遮那のごとし〔如大毘盧遮那〕」等の文。 「諸法は無相にして、虚空の相と為す〔諸法無相為",
+          "context_position": 642,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "に「それ迷途〔夫迷途〕」以下は正しく旨陳の解釈、後に「大毘盧遮那のごとし〔如大毘盧遮那〕」以下は引証である。「前には相説をも",
+          "context_position": 3616,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "」以下は正しく旨陳の解釈、後に「大毘盧遮那のごとし〔如大毘盧遮那〕」以下は引証である。「前には相説をもって〔前以相説〕」とは",
+          "context_position": 3627,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "合するからである。ただし第九の住心に引証するときは、「大毘盧遮那のごとし、乃至、知って随うことなかれ〔如大毘盧遮那乃至知而勿",
+          "context_position": 5842,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "、「大毘盧遮那のごとし、乃至、知って随うことなかれ〔如大毘盧遮那乃至知而勿随〕」の論文を、「乃至」の言を置いてともには引かれ",
+          "context_position": 5867,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "文にこれ無い。このように異なりがある。これについて、「大毘盧遮那のごとし〔如大毘盧遮那〕」等の文をつぶさに引きたまわないこと",
+          "context_position": 6102,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "に異なりがある。これについて、「大毘盧遮那のごとし〔如大毘盧遮那〕」等の文をつぶさに引きたまわないことは、繁文〔煩わしく長い",
+          "context_position": 6113,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "らば三密の説法という用大の義は相違無いものである。 「大毘盧遮那のごとし〔如大毘盧遮那〕」等の文。 これは引証である。『大日",
+          "context_position": 13863,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "大の義は相違無いものである。 「大毘盧遮那のごとし〔如大毘盧遮那〕」等の文。 これは引証である。『大日経』の第一の住心品の文",
+          "context_position": 13874,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "のである。それについて、かの経の具〔つぶさ〕な題には「大毘盧遮那成仏神変加持経 因陀羅王〔大毘盧遮那成仏神変加持経因陀羅王〕",
+          "context_position": 14662,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "つぶさ〕な題には「大毘盧遮那成仏神変加持経 因陀羅王〔大毘盧遮那成仏神変加持経因陀羅王〕」とある。しかるを今は略して「大毘盧",
+          "context_position": 14680,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "成仏神変加持経因陀羅王〕」とある。しかるを今は略して「大毘盧遮那成仏経〔大毘盧遮那成仏経〕」と引証したまうのである。 「諸法",
+          "context_position": 14712,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "羅王〕」とある。しかるを今は略して「大毘盧遮那成仏経〔大毘盧遮那成仏経〕」と引証したまうのである。 「諸法は無相にして、虚空",
+          "context_position": 14721,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "真言",
+      "term_kana": "",
+      "sanskrit": "mantra",
+      "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "occurrence_count": 13,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "るのである。ただし「もし覚悟し已りて〔若覚悟已〕」等は、まず真言行者の観を明かす。だから九種の住心を統べ論ずることは、一往は",
+          "context_position": 2343,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "じ、旨陳は染浄の諸法を空ずるので、このように分別する。自門〔真言宗〕の学者の一義には、相説は有相の観、旨陳は無相の観と義を取",
+          "context_position": 3957,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "もし覚悟し〔若覚悟〕」等は無自性を顕す。一、相説・旨陳ともに真言行者の観相を明かす。しかるを『秘蔵宝鑰』に、以下の論釈をもっ",
+          "context_position": 4944,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "・第九の住心に引証したまうことはいかに。答える。釈段の意は、真言行者の大空不生の観心を明かす。しかしながら、浅略の一分〔浅い",
+          "context_position": 5009,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "にわたるので、引証したまうのである。たとえば『大日経』所説の真言行者の浄菩提心観の文を、第八の住心に引証したまうようなもので",
+          "context_position": 5085,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "に引証したまう。これはすなわち、華厳の極無自性の義の一分が、真言行者の無自性の観に符合するからである。ただし第九の住心に引証",
+          "context_position": 5800,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "「所以に十方〔所以十方〕」等の文は、勝義・行願を戒と為す義が真言行者に限るので、これを脱せられる。「自心の性を具す〔具自心性",
+          "context_position": 6189,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "においてこのように万徳を具することは、皆な理性に約するので、真言行者の事〔具体的な行〕とつぶさに区別しようとするために、「自",
+          "context_position": 6297,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "論文を第七・第九の住心に引証したまう意は、第七の住心以上を、真言行者一具〔ひとそろい〕の能観の心に属すと見られる。ただし、心",
+          "context_position": 6634,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "を談じ、華厳には法界縁起を明かす。今この一段の文は、正しくは真言行者の無自性の観門を明かし、兼ねては第九の住心に証する。どう",
+          "context_position": 8558,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "ともに融け合う〕の道理に約して覚悟の義を見るべきである。もし真言行者の観心に約すならば、遮情・表徳の二門があるはずである。遮",
+          "context_position": 9418,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "は報身・応身二身の説く教法である。どうしてこの中に法身が説く真言密教が有るのか。答える。おおよそ体・用の相望〔関係〕は重々〔",
+          "context_position": 13657,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "、遮情の一面を取って第八・第九の住心にも証せられるのである。真言行者は、あわせて遮情・表徳の実義に通達すべきである。次の下の",
+          "context_position": 15602,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大日",
+      "term_kana": "",
+      "sanskrit": "Mahāvairocana",
+      "definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "日"
+      ],
+      "occurrence_count": 10,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "第七の住心以上にわたるので、引証したまうのである。たとえば『大日経』所説の真言行者の浄菩提心観の文を、第八の住心に引証したま",
+          "context_position": 5078,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "中に第八の住心は無い、と義を取る。一義に言う。この段に引く『大日経』の「諸法は無相にして虚空の相と謂う〔諸法無相謂虚空相〕」",
+          "context_position": 5571,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "を展転して離れ分ければ、無量無辺の煩悩と成ることを明かす。『大日経』の意によれば、貪・瞋・痴・慢・疑の五つの根本煩悩を本とす",
+          "context_position": 7682,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "『用』とする」と。この段の論釈はまったくこの意である。また『大日経開題』に言う。「下転とは、本覚の神心より縁に随って流転し、",
+          "context_position": 11076,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "理を「津」と言う。これらの意によってこの了簡がある。ただし『大日経疏』の第四に言う。「もしこれ邪正が雑り信ずるならば、すなわ",
+          "context_position": 12150,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "ず、金剛の一を乗とする〔諸法不如教壊金剛一為乗〕」と説く。『大日経疏』に「もしは声、もしは字、挙体不生〔そのままで不生〕」と",
+          "context_position": 12881,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "遮那のごとし〔如大毘盧遮那〕」等の文。 これは引証である。『大日経』の第一の住心品の文である。かの経と今の引証とは一字相違す",
+          "context_position": 13893,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "であると説く、この両節が見られる。今引くのはかの意である。『大日経疏』に言う。「すなわちこれ、諸法もまたまた菩提の相のようで",
+          "context_position": 15065,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "具しないことが無いので「無相」と言う、と意得るべきである。『大日経疏』に、今の経文の上の「何をもっての故に、虚空の相はこれ菩",
+          "context_position": 15273,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "。中間に結成の釈を作って前後を兼ねるのである。たとえば下に『大日経』の三句の説文を引証したまうについて、勝義・行願と三摩地と",
+          "context_position": 16286,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法身",
+      "term_kana": "",
+      "sanskrit": "dharmakāya",
+      "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "身"
+      ],
+      "occurrence_count": 8,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "の文。 これは正しく縁起を示す。「真」とは真身すなわち体大の法身である。「用を起こす〔起用〕」とは用大すなわち報身・応身の二",
+          "context_position": 10688,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "め化する相を明かす。『起信論』に言う。「諸仏如来は、ただこれ法身智相の身であって、第一義諦であり、世諦の境界が有ることが無い",
+          "context_position": 10974,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "捨の義があるはずである。随って大師は「『人』とは、謂く、四種法身。『法』とは、謂く、一切諸法。一法界・一真如・一菩提より、乃",
+          "context_position": 13087,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "不可説不可説の微塵数の法に至るまでこれである。このように四種法身はその数が無量であるとはいえ、体はすなわち一相一味であって、",
+          "context_position": 13156,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "ば今の法門は報身・応身二身の説く教法である。どうしてこの中に法身が説く真言密教が有るのか。答える。おおよそ体・用の相望〔関係",
+          "context_position": 13652,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "用の相望〔関係〕は重々〔幾重も〕である。三身の相望のときは、法身は体大、報身・応身は用大である。もしこの義によれば、自宗にお",
+          "context_position": 13707,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "身・応身は用大である。もしこの義によれば、自宗においても四種法身の説く教法があるはずである。だから報身・応身二身に用大の説法",
+          "context_position": 13744,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "。だから報身・応身二身に用大の説法が有ることは相違無い。また法身の上において体・相・用がある。六大はこれ体、四曼はこれ相、三",
+          "context_position": 13789,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大悲",
+      "term_kana": "",
+      "sanskrit": "mahā-karuṇā",
+      "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "ず。このように展転して五道の中に生ず。菩薩はこれを見已わって大悲の心を生じ、『我れ衆生において益する所無からんとす。世の楽を",
+          "context_position": 8943,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": " 「諸仏の慈悲〔諸仏慈悲〕」の文。 これは一切の如来の後得の大悲〔さとりの後に起こる大悲〕である。 「真より用を起こす〔従真",
+          "context_position": 10621,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "〕」の文。 これは一切の如来の後得の大悲〔さとりの後に起こる大悲〕である。 「真より用を起こす〔従真起用〕」等の文。 これは",
+          "context_position": 10633,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "体智〔根本智〕を流出し、正体智より後得智を流出し、後得智より大悲心を流出し、大悲心より十二分教を流出する」と。これはつぶさに",
+          "context_position": 10815,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "流出し、正体智より後得智を流出し、後得智より大悲心を流出し、大悲心より十二分教を流出する」と。これはつぶさに縁起の次第を明か",
+          "context_position": 10823,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "分に神通変化を作す。並びにこれ迷少の神変である。法仏の如来は大悲・大定より、能く難思〔思いはかり難い〕の事を作す。聾蟄〔耳し",
+          "context_position": 11157,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "諸法無相為虚空相〕」の文。 この文は、三句〔菩提心を因とし、大悲を根とし、方便を究竟とす〕の中の、菩提心を別に説く結びの文で",
+          "context_position": 14789,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三密",
+      "term_kana": "",
+      "sanskrit": "trīṇi guhyāni",
+      "definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "密"
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "の門に絶し、心行の処を滅するけれども、寂滅の津において、この三密の本法において、どうしてかつて絶え減ずることがあろうか」とあ",
+          "context_position": 12078,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "宗の意は、声・字がそのまま体すなわち実相であって、法仏平等の三密である。だから声・字を捨てて実相を求めることは無い。だから経",
+          "context_position": 12804,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "まで不生〕」と釈し、大師は「いわゆる声字実相とは、法仏平等の三密、衆生本有の曼荼である」と判じたまう。随って相説・旨陳は不同",
+          "context_position": 12936,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "身の上において体・相・用がある。六大はこれ体、四曼はこれ相、三密はこれ用である。それならば三密の説法という用大の義は相違無い",
+          "context_position": 13820,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "。六大はこれ体、四曼はこれ相、三密はこれ用である。それならば三密の説法という用大の義は相違無いものである。 「大毘盧遮那のご",
+          "context_position": 13835,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "密教",
+      "term_kana": "",
+      "sanskrit": "guhya-mantra-yāna",
+      "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "、密の中にもまた機に逗う義がある。『性霊集』に言う。「顕教・密教は機に逗って滅〔さとり〕を証す」と。あるところの御釈に言う。",
+          "context_position": 13499,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "ところの御釈に言う。「二乗・三乗の車は機に随って授け、顕教・密教の栰は器に任せて施す」と。問うて言う。上に「真より用を起こす",
+          "context_position": 13551,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "身・応身二身の説く教法である。どうしてこの中に法身が説く真言密教が有るのか。答える。おおよそ体・用の相望〔関係〕は重々〔幾重",
+          "context_position": 13659,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法界",
+      "term_kana": "",
+      "sanskrit": "dharma-dhātu",
+      "definition": "宇宙の真実相。一切法の根本領域。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "界"
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "准じて知るべきである。また自宗の意は六大縁起を談じ、華厳には法界縁起を明かす。今この一段の文は、正しくは真言行者の無自性の観",
+          "context_position": 8536,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "かされるのか。答える。下に転じて妄を成すときには、六大縁起も法界縁起も皆な妄を縁として成立するはずである。だから、しばらく妄",
+          "context_position": 8647,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "「『人』とは、謂く、四種法身。『法』とは、謂く、一切諸法。一法界・一真如・一菩提より、乃至、八万四千の不可説不可説の微塵数の",
+          "context_position": 13105,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三摩地",
+      "term_kana": "",
+      "sanskrit": "samādhi",
+      "definition": "禅定。心を一境に住して散乱を離れた状態。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "に『大日経』の三句の説文を引証したまうについて、勝義・行願と三摩地との中間にこの文を引証して、前後の三種の菩提心に証せられると",
+          "context_position": 16314,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "即身",
+      "term_kana": "",
+      "sanskrit": "sa-deha",
+      "definition": "即身成仏の略。父母所生の身のまま現生で仏となる。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "即身成仏",
+      "term_kana": "",
+      "sanskrit": "sa-deha-prāpti-buddhatva",
+      "definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "成",
+        "仏"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "大空三昧",
+      "term_kana": "",
+      "sanskrit": "mahā-śūnyatā-samādhi",
+      "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "心王",
+      "term_kana": "",
+      "sanskrit": "citta-rāja",
+      "definition": "八識の根本識。心の主体・統括者。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "智剣",
+      "term_kana": "",
+      "sanskrit": "jñāna-khaḍga",
+      "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "智",
+        "剣"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "本不生",
+      "term_kana": "",
+      "sanskrit": "ādyanutpāda",
+      "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "無縁慈悲",
+      "term_kana": "",
+      "sanskrit": "an-ārambaṇa-karuṇā",
+      "definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "慈",
+        "悲"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "玄機",
+      "term_kana": "",
+      "sanskrit": "—",
+      "definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "玄",
+        "機"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "阿字",
+      "term_kana": "",
+      "sanskrit": "a-kāra",
+      "definition": "密教根本字。梵語五十字門の最初の字。本不生を象徴。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "阿字本不生",
+      "term_kana": "",
+      "sanskrit": "ā-di-an-utpāda",
+      "definition": "密教根本教義。阿字（a-kāra）が本来不生（不滅）であることを観じ、万物の本源を悟る。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

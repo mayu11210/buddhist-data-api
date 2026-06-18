@@ -1,0 +1,296 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol8.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 16477,
+  "summary": {
+    "unique_terms": 4,
+    "unique_persons": 4,
+    "total_occurrences": 27,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 1,
+        "occurrences": 24
+      },
+      "buddhist_master_china": {
+        "unique": 2,
+        "occurrences": 2
+      },
+      "buddhist_master_japan": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 14
+        },
+        {
+          "form": "大日",
+          "count": 10
+        }
+      ],
+      "occurrence_count": 24,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "捨つべし、無自性なるが故に〔法已応捨無自性故〕」の文。 「大毘盧遮那のごとし〔如大毘盧遮那〕」等の文。 「諸法は無相にして、虚空",
+          "context_position": 629,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "故に〔法已応捨無自性故〕」の文。 「大毘盧遮那のごとし〔如大毘盧遮那〕」等の文。 「諸法は無相にして、虚空の相と為す〔諸法無相為",
+          "context_position": 640,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "、次に「それ迷途〔夫迷途〕」以下は正しく旨陳の解釈、後に「大毘盧遮那のごとし〔如大毘盧遮那〕」以下は引証である。「前には相説をも",
+          "context_position": 3614,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "途〕」以下は正しく旨陳の解釈、後に「大毘盧遮那のごとし〔如大毘盧遮那〕」以下は引証である。「前には相説をもって〔前以相説〕」とは",
+          "context_position": 3625,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "に符合するからである。ただし第九の住心に引証するときは、「大毘盧遮那のごとし、乃至、知って随うことなかれ〔如大毘盧遮那乃至知而勿",
+          "context_position": 5840,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "きは、「大毘盧遮那のごとし、乃至、知って随うことなかれ〔如大毘盧遮那乃至知而勿随〕」の論文を、「乃至」の言を置いてともには引かれ",
+          "context_position": 5865,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "、論文にこれ無い。このように異なりがある。これについて、「大毘盧遮那のごとし〔如大毘盧遮那〕」等の文をつぶさに引きたまわないこと",
+          "context_position": 6100,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "ように異なりがある。これについて、「大毘盧遮那のごとし〔如大毘盧遮那〕」等の文をつぶさに引きたまわないことは、繁文〔煩わしく長い",
+          "context_position": 6111,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "れならば三密の説法という用大の義は相違無いものである。 「大毘盧遮那のごとし〔如大毘盧遮那〕」等の文。 これは引証である。『大日",
+          "context_position": 13861,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "う用大の義は相違無いものである。 「大毘盧遮那のごとし〔如大毘盧遮那〕」等の文。 これは引証である。『大日経』の第一の住心品の文",
+          "context_position": 13872,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "れるのである。それについて、かの経の具〔つぶさ〕な題には「大毘盧遮那成仏神変加持経 因陀羅王〔大毘盧遮那成仏神変加持経因陀羅王〕",
+          "context_position": 14660,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "具〔つぶさ〕な題には「大毘盧遮那成仏神変加持経 因陀羅王〔大毘盧遮那成仏神変加持経因陀羅王〕」とある。しかるを今は略して「大毘盧",
+          "context_position": 14678,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "遮那成仏神変加持経因陀羅王〕」とある。しかるを今は略して「大毘盧遮那成仏経〔大毘盧遮那成仏経〕」と引証したまうのである。 「諸法",
+          "context_position": 14710,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "因陀羅王〕」とある。しかるを今は略して「大毘盧遮那成仏経〔大毘盧遮那成仏経〕」と引証したまうのである。 「諸法は無相にして、虚空",
+          "context_position": 14719,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "第七の住心以上にわたるので、引証したまうのである。たとえば『大日経』所説の真言行者の浄菩提心観の文を、第八の住心に引証したま",
+          "context_position": 5078,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "中に第八の住心は無い、と義を取る。一義に言う。この段に引く『大日経』の「諸法は無相にして虚空の相と謂う〔諸法無相謂虚空相〕」",
+          "context_position": 5571,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "を展転して離れ分ければ、無量無辺の煩悩と成ることを明かす。『大日経』の意によれば、貪・瞋・痴・慢・疑の五つの根本煩悩を本とす",
+          "context_position": 7682,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "『用』とする」と。この段の論釈はまったくこの意である。また『大日経開題』に言う。「下転とは、本覚の神心より縁に随って流転し、",
+          "context_position": 11076,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "理を「津」と言う。これらの意によってこの了簡がある。ただし『大日経疏』の第四に言う。「もしこれ邪正が雑り信ずるならば、すなわ",
+          "context_position": 12150,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "ず、金剛の一を乗とする〔諸法不如教壊金剛一為乗〕」と説く。『大日経疏』に「もしは声、もしは字、挙体不生〔そのままで不生〕」と",
+          "context_position": 12881,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "遮那のごとし〔如大毘盧遮那〕」等の文。 これは引証である。『大日経』の第一の住心品の文である。かの経と今の引証とは一字相違す",
+          "context_position": 13893,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "であると説く、この両節が見られる。今引くのはかの意である。『大日経疏』に言う。「すなわちこれ、諸法もまたまた菩提の相のようで",
+          "context_position": 15065,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "具しないことが無いので「無相」と言う、と意得るべきである。『大日経疏』に、今の経文の上の「何をもっての故に、虚空の相はこれ菩",
+          "context_position": 15273,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "。中間に結成の釈を作って前後を兼ねるのである。たとえば下に『大日経』の三句の説文を引証したまうについて、勝義・行願と三摩地と",
+          "context_position": 16286,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空三蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "げられるのは、一往は意得難い。これについて一義に言う。訳者の不空三蔵は、多くは法相新家の性相〔法相宗の新訳系の教理〕を用いられる",
+          "context_position": 8241,
+          "matched_form": "不空三蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "澄観",
+      "aliases": [
+        "清涼大師"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第四祖。清涼山に住す。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "澄観",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "〕」とは用大すなわち報身・応身の二身などである。華厳の清涼〔澄観〕の釈に言う。「問う。何によってこの十二分の教えがあるのか。",
+          "context_position": 10733,
+          "matched_form": "澄観"
+        }
+      ]
+    },
+    {
+      "canonical": "空海",
+      "aliases": [
+        "弘法大師",
+        "遍照金剛",
+        "大遍照金剛"
+      ],
+      "subcategory": "buddhist_master_japan",
+      "definition": "真言宗開祖。性霊集の主たる撰者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "空海",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol8",
+          "context": "ては一致するものである。それについて、この論によって、高祖〔空海〕は相説の十住心・旨陳の十住心・相説旨陳合論の十住心を立てら",
+          "context_position": 1887,
+          "matched_form": "空海"
+        }
+      ]
+    }
+  ]
+}

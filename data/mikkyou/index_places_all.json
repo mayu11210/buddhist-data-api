@@ -27,18 +27,19 @@
     "hotsubodaishinron-sho-vol2",
     "hotsubodaishinron-sho-vol5",
     "hotsubodaishinron-sho-vol6",
-    "hotsubodaishinron-sho-vol7"
+    "hotsubodaishinron-sho-vol7",
+    "hotsubodaishinron-sho-vol8"
   ],
-  "corpora_count": 23,
-  "corpora_with_data": 23,
+  "corpora_count": 24,
+  "corpora_with_data": 24,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1128,
+    "total_occurrences": 1132,
     "terms_in_multiple_corpora": 45,
-    "max_corpus_coverage": 16,
+    "max_corpus_coverage": 17,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -154,14 +155,19 @@
         "unique": 3,
         "occurrences": 21,
         "present": true
+      },
+      "hotsubodaishinron-sho-vol8": {
+        "unique": 3,
+        "occurrences": 4,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "canonical": "安楽",
-      "total_occurrence_count": 172,
-      "covered_corpora_count": 16,
+      "total_occurrence_count": 173,
+      "covered_corpora_count": 17,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -173,6 +179,7 @@
         "hotsubodaishinron-sho-vol3",
         "hotsubodaishinron-sho-vol4",
         "hotsubodaishinron-sho-vol7",
+        "hotsubodaishinron-sho-vol8",
         "jujushinron",
         "rishikyo",
         "rishushaku",
@@ -196,7 +203,8 @@
         "dainichikyo-sho-vol2": 6,
         "hotsubodaishinron-sho-vol3": 28,
         "hotsubodaishinron-sho-vol4": 60,
-        "hotsubodaishinron-sho-vol7": 19
+        "hotsubodaishinron-sho-vol7": 19,
+        "hotsubodaishinron-sho-vol8": 1
       },
       "metadata": {
         "subcategory": "cosmological_realm",
@@ -532,6 +540,29 @@
       }
     },
     {
+      "canonical": "陳",
+      "total_occurrence_count": 22,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol8",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 13,
+        "hizo-houyaku": 4,
+        "jujushinron": 2,
+        "hotsubodaishinron-sho-vol2": 1,
+        "hotsubodaishinron-sho-vol8": 2
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "南朝の王朝。"
+      }
+    },
+    {
       "canonical": "秦",
       "total_occurrence_count": 20,
       "covered_corpora_count": 7,
@@ -556,27 +587,6 @@
       "metadata": {
         "subcategory": "country_dynasty",
         "definition": "中国王朝。始皇帝による天下統一。"
-      }
-    },
-    {
-      "canonical": "陳",
-      "total_occurrence_count": 20,
-      "covered_corpora_count": 4,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "hotsubodaishinron-sho-vol2",
-        "jujushinron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 13,
-        "hizo-houyaku": 4,
-        "jujushinron": 2,
-        "hotsubodaishinron-sho-vol2": 1
-      },
-      "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "南朝の王朝。"
       }
     },
     {
@@ -832,6 +842,25 @@
       }
     },
     {
+      "canonical": "梁",
+      "total_occurrence_count": 10,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol8",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8,
+        "hotsubodaishinron-sho-vol2": 1,
+        "hotsubodaishinron-sho-vol8": 1
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "南朝の王朝。"
+      }
+    },
+    {
       "canonical": "西域",
       "total_occurrence_count": 10,
       "covered_corpora_count": 2,
@@ -883,23 +912,6 @@
         "aliases": [
           "平安京"
         ]
-      }
-    },
-    {
-      "canonical": "梁",
-      "total_occurrence_count": 9,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "hotsubodaishinron-sho-vol2",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 8,
-        "hotsubodaishinron-sho-vol2": 1
-      },
-      "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "南朝の王朝。"
       }
     },
     {
