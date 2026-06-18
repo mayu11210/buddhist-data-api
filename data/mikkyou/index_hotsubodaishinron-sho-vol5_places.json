@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol5.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 17493,
+  "summary": {
+    "unique_terms": 4,
+    "unique_places": 4,
+    "total_occurrences": 19,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 3,
+        "occurrences": 16
+      },
+      "country_dynasty": {
+        "unique": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "無色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最上。色身のない世界。",
+      "matched_forms": [
+        {
+          "form": "無色界",
+          "count": 7
+        }
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "る」という。『心地観経』の第六にいう、「あるいは菩薩あって、無色界をもって、しかも恐怖とする。三界の中で最も寂静であること、な",
+          "context_position": 10371,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "て、もって涅槃の解とする。勝処であるがゆえに」という。これは無色界の四空処を涅槃と計す。『智論』には「四禅比丘が四禅を得て涅槃",
+          "context_position": 10575,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "外道三昧欲尽有還没〕」の御釈はこの意である。三界とは欲・色・無色界である。『法苑珠林』の第二にいう、「初めに欲界とは、欲に四種",
+          "context_position": 13201,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "う。第二の色界は、色が強く欲が微なるゆえに色界と号す。第三の無色界は、色が絶え欲が劣なるゆえに無色界と名づける」という。 「煩",
+          "context_position": 13375,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "るゆえに色界と号す。第三の無色界は、色が絶え欲が劣なるゆえに無色界と名づける」という。 「煩悩なお存す〔煩悩尚存〕」の文。 こ",
+          "context_position": 13392,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "る。大師は「問う。諸の外道は同じく三学を修し、彼の二界〔色・無色界〕に生じ、空三昧を証して言亡・盧絶〔言葉や思慮を絶する〕す。",
+          "context_position": 13538,
+          "matched_form": "無色界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "しく潤業の煩悩に当たる。『成実論』第八にいう、「また人が色・無色界に在り、これを泥洹〔涅槃〕無しといって、無上の法を謗す」とい",
+          "context_position": 14218,
+          "matched_form": "無色界"
+        }
+      ]
+    },
+    {
+      "canonical": "欲界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最下。欲望が支配する世界。",
+      "matched_forms": [
+        {
+          "form": "欲界",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "界を究竟と計す。『首楞厳経』には五現涅槃の義を説く。いわく、欲界と四禅とである。これは欲・色の二界に通じる。『首楞厳経』の第",
+          "context_position": 10651,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "首楞厳経』の第十にいう、「この人は五涅槃論に墜入す。あるいは欲界をもって正転依とする。円明を観見して愛慕を生ずるがゆえに。あ",
+          "context_position": 10706,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "とは欲・色・無色界である。『法苑珠林』の第二にいう、「初めに欲界とは、欲に四種ある。一にはこれ情欲、二にはこれ色欲、三にはこ",
+          "context_position": 13225,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "欲、二にはこれ色欲である。無色に一つある、情欲である。初め〔欲界〕は四つを具す。欲が強く色が微なるゆえに欲界という。第二の色",
+          "context_position": 13319,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "欲である。初め〔欲界〕は四つを具す。欲が強く色が微なるゆえに欲界という。第二の色界は、色が強く欲が微なるゆえに色界と号す。第",
+          "context_position": 13341,
+          "matched_form": "欲界"
+        }
+      ]
+    },
+    {
+      "canonical": "色界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の中。色身があるが欲望のない世界。",
+      "matched_forms": [
+        {
+          "form": "色界",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "智論』には「四禅比丘が四禅を得て涅槃と計す」と見える。これは色界を究竟と計す。『首楞厳経』には五現涅槃の義を説く。いわく、欲",
+          "context_position": 10620,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "二にはこれ色欲、三にはこれ食欲、四にはこれ淫欲である。二には色界に二つある。一にはこれ情欲、二にはこれ色欲である。無色に一つ",
+          "context_position": 13275,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "界〕は四つを具す。欲が強く色が微なるゆえに欲界という。第二の色界は、色が強く欲が微なるゆえに色界と号す。第三の無色界は、色が",
+          "context_position": 13350,
+          "matched_form": "色界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "なるゆえに欲界という。第二の色界は、色が強く欲が微なるゆえに色界と号す。第三の無色界は、色が絶え欲が劣なるゆえに無色界と名づ",
+          "context_position": 13366,
+          "matched_form": "色界"
+        }
+      ]
+    },
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "商",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "これらの意である。利養のこと。疏家〔大日経疏〕が六十心の中の商人心を釈していう、「いかんが商人心なる。いわく、順修と、初め",
+          "context_position": 4374,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "疏家〔大日経疏〕が六十心の中の商人心を釈していう、「いかんが商人心なる。いわく、順修と、初めに収集して後に分析する法とは、",
+          "context_position": 4389,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "なる。いわく、順修と、初めに収集して後に分析する法とは、世の商人がまず務めて貨物を儲聚して、しかして後にこれを思惟・分析し",
+          "context_position": 4422,
+          "matched_form": "商"
+        }
+      ]
+    }
+  ]
+}

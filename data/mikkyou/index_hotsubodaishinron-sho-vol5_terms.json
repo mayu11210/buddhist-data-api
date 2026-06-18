@@ -1,0 +1,438 @@
+{
+  "schema_version": "1.0",
+  "category": "密教教学用語（mikkyo terms）",
+  "source_corpus": "hotsubodaishinron-sho-vol5.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "辞書ベース（19 語）+ 長語優先 substring 走査 + 周辺梵語注記抽出",
+  "dictionary_size": 19,
+  "gendaigoyaku_length": 17493,
+  "summary": {
+    "unique_terms": 19,
+    "total_occurrences": 32,
+    "kaimyo_suitable_count": 11,
+    "matched_term_count": 5
+  },
+  "entries": [
+    {
+      "term": "真言",
+      "term_kana": "",
+      "sanskrit": "mantra",
+      "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "occurrence_count": 17,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "一、この三種〔貪・瞋・痴〕を毒と名づけることを論じる項。 「真言の行人〔真言行人〕」等の文。 一、第一の住心に一分の「如実に",
+          "context_position": 409,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "〔貪・瞋・痴〕を毒と名づけることを論じる項。 「真言の行人〔真言行人〕」等の文。 一、第一の住心に一分の「如実に自心を知る」",
+          "context_position": 415,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "天に生じて、もって究竟と為す〔或復生天以為究竟〕」の文。 「真言の行人〔真言行人〕」等の文。 「まさに彼を観ずべし〔応観彼〕",
+          "context_position": 675,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "もって究竟と為す〔或復生天以為究竟〕」の文。 「真言の行人〔真言行人〕」等の文。 「まさに彼を観ずべし〔応観彼〕」等の文。 ",
+          "context_position": 681,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "二勝義者〕」等の文。 これまで、行願の菩提心の釈の終わり、「真言の行者が方便して引き進める〔真言行者方便引進〕」に至るまでの",
+          "context_position": 1047,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "行願の菩提心の釈の終わり、「真言の行者が方便して引き進める〔真言行者方便引進〕」に至るまでの料簡が終わった。以下、勝義の菩提",
+          "context_position": 1063,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "行の道を行ずるをば、未だ最上の浄菩提心と名づけない。この故に真言門の菩薩は、この諸の住心等を超えて菩提心を発し、菩提の行を行",
+          "context_position": 1519,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "ある。高祖が「九種住心は自性なし、転深・転妙、皆これ因なり。真言密教は法身の説、秘密・金剛・最勝の心」と釈したまう。この意で",
+          "context_position": 1987,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "って、かつて後身の三途の極苦に墜ちんことを知らない。この故に真言の有智の人は楽着すべきでない」という。これは全く当段の論文の",
+          "context_position": 3791,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "』という」という。五欲の行相は、これらの釈が分明である。 「真言の行人〔真言行人〕」等の文。 以下は行人の観を勧める。それに",
+          "context_position": 6316,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "いう。五欲の行相は、これらの釈が分明である。 「真言の行人〔真言行人〕」等の文。 以下は行人の観を勧める。それについて、「誠",
+          "context_position": 6322,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "ついて、一義にいう。至極の厭・捨の義である。一処の御釈には「真言の有智の人は楽着すべきでない」という。この意である。一義にい",
+          "context_position": 6414,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "・輪廻す」という。これは欲・色の二界に通じて究竟と計す。 「真言の行人〔真言行人〕」等の文。 以下は行人の観を明かす。 「ま",
+          "context_position": 10895,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "いう。これは欲・色の二界に通じて究竟と計す。 「真言の行人〔真言行人〕」等の文。 以下は行人の観を明かす。 「まさに彼を観ず",
+          "context_position": 10901,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "も、初めには声聞・縁覚を挙げ、後に能観の想を明かされるとき「真言の行者はまさに二乗の人を観ずべし〔真言行者当観二乗之人〕」等",
+          "context_position": 11516,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "の想を明かされるとき「真言の行者はまさに二乗の人を観ずべし〔真言行者当観二乗之人〕」等と釈して、広く二類を挙げて所観とする。",
+          "context_position": 11535,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "の句を、「悪念旋起」の上に文を廻して読むべきである。意は、「真言の行人はまさに彼らを観ずべし。未だ三界を離れず、煩悩なお存し",
+          "context_position": 12926,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大日",
+      "term_kana": "",
+      "sanskrit": "Mahāvairocana",
+      "definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "日"
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "じて、自性がないと捨劣得勝するを勝義心と名づけると見える。『大日経疏』にいう、「梵には『波羅磨他〔パラマールタ〕』という。翻",
+          "context_position": 1818,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "三悪趣の分斎である。もし心品を論ずれば、広く六趣に通じる。『大日経』には三十種の外道を挙げて第一の住心の体とする。当段に、凡",
+          "context_position": 3885,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "て、色心の雑類が各々差別である。ゆえに異生という」という。『大日経疏』の釈もこれに同じ。『大乗義章』の第六にいう、「『凡』と",
+          "context_position": 4060,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "る」という。名聞の義は、これらの意である。利養のこと。疏家〔大日経疏〕が六十心の中の商人心を釈していう、「いかんが商人心なる",
+          "context_position": 4362,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "。今は彼の二種の中では人仙を明かされると意得るべきである。『大日経疏』にいう、「持明仙とは、これ余の薬力等の所成である。悉地",
+          "context_position": 7538,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "外の外道は世間三種の住心、内の外道は声聞・縁覚である。また『大日経疏』に「およそ一切の内証秘密の法を了せざる者は、皆これ外道",
+          "context_position": 8409,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "ある。薬物等はこれ因である。ただし生天には因行を挙げない。『大日経』に「彼の護戒・生天、これ第七の受用種子」と説く。彼は戒を",
+          "context_position": 8859,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "天に生ず〔或復生天〕」の天には三界の諸天があるべきである。『大日経』の彼の「護戒・生天」の文について、大師が三界の諸天を釈し",
+          "context_position": 9835,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "て究竟とする。劫尽き命終して地獄に墜するがゆえに」という。『大日経疏』にいう、「また諸の外道は、非想処をすなわちこれ涅槃なり",
+          "context_position": 10450,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法身",
+      "term_kana": "",
+      "sanskrit": "dharmakāya",
+      "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "身"
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "が「九種住心は自性なし、転深・転妙、皆これ因なり。真言密教は法身の説、秘密・金剛・最勝の心」と釈したまう。この意である。他門",
+          "context_position": 1992,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "自性心は、法界を融して三世間の身を証し、帝網に等しくして一大法身を得る、というが、なおこれ成仏の因、初心の仏である」という。",
+          "context_position": 3263,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "秘密の法を了せざる者は、皆これ外道である」という。この意は、法身内証の秘密を知らなければ、九種住心をことごとく外道と名づける",
+          "context_position": 8454,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法界",
+      "term_kana": "",
+      "sanskrit": "dharma-dhātu",
+      "definition": "宇宙の真実相。一切法の根本領域。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "界"
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "異生羝羊の凡夫は、もっぱら十不善等の業を造る。極無自性心は、法界を融して三世間の身を証し、帝網に等しくして一大法身を得る、と",
+          "context_position": 3238,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "るに喩えて、貪・瞋・痴の煩悩を毒と名づけると見える。天台の『法界次第』の一にいう、「毒は沈毒〔深く沈む毒〕を義とする。悩壊〔",
+          "context_position": 5514,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "密教",
+      "term_kana": "",
+      "sanskrit": "guhya-mantra-yāna",
+      "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "。高祖が「九種住心は自性なし、転深・転妙、皆これ因なり。真言密教は法身の説、秘密・金剛・最勝の心」と釈したまう。この意である",
+          "context_position": 1989,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三密",
+      "term_kana": "",
+      "sanskrit": "trīṇi guhyāni",
+      "definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "密"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "三摩地",
+      "term_kana": "",
+      "sanskrit": "samādhi",
+      "definition": "禅定。心を一境に住して散乱を離れた状態。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "即身",
+      "term_kana": "",
+      "sanskrit": "sa-deha",
+      "definition": "即身成仏の略。父母所生の身のまま現生で仏となる。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "即身成仏",
+      "term_kana": "",
+      "sanskrit": "sa-deha-prāpti-buddhatva",
+      "definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "成",
+        "仏"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "大悲",
+      "term_kana": "",
+      "sanskrit": "mahā-karuṇā",
+      "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "大空三昧",
+      "term_kana": "",
+      "sanskrit": "mahā-śūnyatā-samādhi",
+      "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "心王",
+      "term_kana": "",
+      "sanskrit": "citta-rāja",
+      "definition": "八識の根本識。心の主体・統括者。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "智剣",
+      "term_kana": "",
+      "sanskrit": "jñāna-khaḍga",
+      "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "智",
+        "剣"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "本不生",
+      "term_kana": "",
+      "sanskrit": "ādyanutpāda",
+      "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "無縁慈悲",
+      "term_kana": "",
+      "sanskrit": "an-ārambaṇa-karuṇā",
+      "definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "慈",
+        "悲"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "玄機",
+      "term_kana": "",
+      "sanskrit": "—",
+      "definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "玄",
+        "機"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "遮那",
+      "term_kana": "",
+      "sanskrit": "Vairocana",
+      "definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "遮",
+        "那"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "阿字",
+      "term_kana": "",
+      "sanskrit": "a-kāra",
+      "definition": "密教根本字。梵語五十字門の最初の字。本不生を象徴。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "阿字本不生",
+      "term_kana": "",
+      "sanskrit": "ā-di-an-utpāda",
+      "definition": "密教根本教義。阿字（a-kāra）が本来不生（不滅）であることを観じ、万物の本源を悟る。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

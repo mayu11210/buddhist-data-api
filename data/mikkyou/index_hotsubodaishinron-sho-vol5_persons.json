@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol5.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 17493,
+  "summary": {
+    "unique_terms": 4,
+    "unique_persons": 4,
+    "total_occurrences": 12,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 2,
+        "occurrences": 10
+      },
+      "buddhist_deva": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "buddhist_master_china": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日",
+          "count": 9
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "じて、自性がないと捨劣得勝するを勝義心と名づけると見える。『大日経疏』にいう、「梵には『波羅磨他〔パラマールタ〕』という。翻",
+          "context_position": 1818,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "三悪趣の分斎である。もし心品を論ずれば、広く六趣に通じる。『大日経』には三十種の外道を挙げて第一の住心の体とする。当段に、凡",
+          "context_position": 3885,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "て、色心の雑類が各々差別である。ゆえに異生という」という。『大日経疏』の釈もこれに同じ。『大乗義章』の第六にいう、「『凡』と",
+          "context_position": 4060,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "る」という。名聞の義は、これらの意である。利養のこと。疏家〔大日経疏〕が六十心の中の商人心を釈していう、「いかんが商人心なる",
+          "context_position": 4362,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "。今は彼の二種の中では人仙を明かされると意得るべきである。『大日経疏』にいう、「持明仙とは、これ余の薬力等の所成である。悉地",
+          "context_position": 7538,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "外の外道は世間三種の住心、内の外道は声聞・縁覚である。また『大日経疏』に「およそ一切の内証秘密の法を了せざる者は、皆これ外道",
+          "context_position": 8409,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "ある。薬物等はこれ因である。ただし生天には因行を挙げない。『大日経』に「彼の護戒・生天、これ第七の受用種子」と説く。彼は戒を",
+          "context_position": 8859,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "天に生ず〔或復生天〕」の天には三界の諸天があるべきである。『大日経』の彼の「護戒・生天」の文について、大師が三界の諸天を釈し",
+          "context_position": 9835,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "て究竟とする。劫尽き命終して地獄に墜するがゆえに」という。『大日経疏』にいう、「また諸の外道は、非想処をすなわちこれ涅槃なり",
+          "context_position": 10450,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "夜叉",
+      "aliases": [
+        "yakṣa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "八部衆の一。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "夜叉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "ーダ〕・事火の類である。苦行を勤修して五通の神仙となる。また夜叉持明がある。これ彼の類の中で福徳最勝にして、天趣の所摂たる者",
+          "context_position": 7647,
+          "matched_form": "夜叉"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "の原由について論じる項。 『経律異相』の三十九にいう、「仏が文殊に告ぐ。『汝、世間に外道を建立することを聞かんと欲うや。過去",
+          "context_position": 16276,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "澄観",
+      "aliases": [
+        "清涼大師"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第四祖。清涼山に住す。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "澄観",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol5",
+          "context": "鈔にいう、「『身体に著せざる門〔不著身体門〕』等とは、清涼〔澄観〕がいう、それ禅定は虚凝にして湛なること停海のごとし。高く聖",
+          "context_position": 5976,
+          "matched_form": "澄観"
+        }
+      ]
+    }
+  ]
+}

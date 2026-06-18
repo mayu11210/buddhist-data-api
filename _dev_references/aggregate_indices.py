@@ -60,6 +60,7 @@ ALL_CORPORA = [
     'hotsubodaishinron-sho-vol3',  # 2026-06-17 追加（発菩提心論鈔 第三巻 横断索引化・性霊集含め 18 著作目）
     'hotsubodaishinron-sho-vol4',  # 2026-06-18 追加（発菩提心論鈔 第四巻 横断索引化・性霊集含め 19 著作目）
     'hotsubodaishinron-sho-vol2',  # 2026-06-18 追加（発菩提心論鈔 第二巻 横断索引化・性霊集含め 20 著作目）
+    'hotsubodaishinron-sho-vol5',  # 2026-06-18 追加（発菩提心論鈔 第五巻 横断索引化・性霊集含め 21 著作目）
 ]
 
 
