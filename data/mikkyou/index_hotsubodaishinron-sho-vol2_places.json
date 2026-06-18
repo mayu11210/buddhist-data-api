@@ -1,0 +1,299 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol2.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 25865,
+  "summary": {
+    "unique_terms": 10,
+    "unique_places": 10,
+    "total_occurrences": 13,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "country_dynasty": {
+        "unique": 5,
+        "occurrences": 6
+      },
+      "country_india": {
+        "unique": 2,
+        "occurrences": 2
+      },
+      "mountain_buddhist": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "temple_japan": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "欲界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最下。欲望が支配する世界。",
+      "matched_forms": [
+        {
+          "form": "欲界",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "『大智律師業疏記』の二下にいう、「欲魔はすなわち天魔である。欲界天の頂きに住す。出離を求めることがあれば、すなわち愁悩を懐い",
+          "context_position": 15268,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "が『大集経』を説きたまう処である」という。これらは、しばらく欲界の頂の魔に約するのである。三種の摩醯首羅に約せば、この外に初",
+          "context_position": 15802,
+          "matched_form": "欲界"
+        }
+      ]
+    },
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "商",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "むる行〔作経栄財物行〕」の文。 『大日経疏』にいう、「『何ぞ商人心〔なんしょうにんしん〕』。いわく、初めには収集して後には",
+          "context_position": 24297,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "。いわく、初めには収集して後には分析する法を順修すとは、世の商人がまず務めて貨物を儲聚〔ためあつめ〕て、しかして後にこれを",
+          "context_position": 24342,
+          "matched_form": "商"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "して毘沙遮〔大自在天〕・摩醯首羅を降伏せしむ」という。二には須弥の頂。『寿命経』の中に「仏が須弥の頂に下って、降三世〔明王〕",
+          "context_position": 15080,
+          "matched_form": "須弥"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "を降伏せしむ」という。二には須弥の頂。『寿命経』の中に「仏が須弥の頂に下って、降三世〔明王〕をして大天〔大自在天〕および后妃",
+          "context_position": 15096,
+          "matched_form": "須弥"
+        }
+      ]
+    },
+    {
+      "canonical": "中天竺",
+      "aliases": [],
+      "subcategory": "country_india",
+      "definition": "中インド。",
+      "matched_forms": [
+        {
+          "form": "中天竺",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "〔大自在天〕および后妃を降伏せしむ」という。三には南閻浮提・中天竺の菩提樹下にして、化身の仏が降魔・成道したまうのである。 一",
+          "context_position": 15147,
+          "matched_form": "中天竺"
+        }
+      ]
+    },
+    {
+      "canonical": "天竺",
+      "aliases": [
+        "印度",
+        "身毒"
+      ],
+      "subcategory": "country_india",
+      "definition": "インドの古称。",
+      "matched_forms": [
+        {
+          "form": "天竺",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "の中に三段の分別が見える。よって大唐の人師の解釈が、はるかに天竺の論師の所判に符合する。それより以来、諸師が経論に三分の科判",
+          "context_position": 1822,
+          "matched_form": "天竺"
+        }
+      ]
+    },
+    {
+      "canonical": "東寺",
+      "aliases": [
+        "教王護国寺"
+      ],
+      "subcategory": "temple_japan",
+      "definition": "京都。空海に下賜された真言宗根本道場。",
+      "matched_forms": [
+        {
+          "form": "東寺",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "相付し、真言・密印は仏々〔仏代々〕相伝す」という。また先賢が東寺の真言宗において十の殊勝を立てる中で、相承殊勝を一科とする。",
+          "context_position": 2881,
+          "matched_form": "東寺"
+        }
+      ]
+    },
+    {
+      "canonical": "梁",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "南朝の王朝。",
+      "matched_forms": [
+        {
+          "form": "梁",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "決』にいう、「旧訳の経論には『魔』の字が『石』に従う〔磨〕。梁の武帝は『鬼』に従う〔魔〕。何となれば悩ますがゆえなり」とい",
+          "context_position": 16330,
+          "matched_form": "梁"
+        }
+      ]
+    },
+    {
+      "canonical": "漢",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。前漢・後漢。",
+      "matched_forms": [
+        {
+          "form": "漢",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "ある。良賁の『仁王経疏』にいう、「梵に『魔羅』という。ここ〔漢〕には『害』という。人の善品を害するゆえに魔と名づける」とい",
+          "context_position": 16148,
+          "matched_form": "漢"
+        }
+      ]
+    },
+    {
+      "canonical": "秦",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。始皇帝による天下統一。",
+      "matched_forms": [
+        {
+          "form": "秦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "魔の翻名について論じる項。 『智論』六十八にいう、「魔とは、秦には『能奪命者』という。死魔は実によく命を奪うが、余の者もま",
+          "context_position": 15964,
+          "matched_form": "秦"
+        }
+      ]
+    },
+    {
+      "canonical": "陳",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "南朝の王朝。",
+      "matched_forms": [
+        {
+          "form": "陳",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "・理由〕がある。ゆえに初めに序分を明かす。序分が既に終わって陳べる所があるべきがゆえに、次に正宗を明かす。宗義が既に彰れて",
+          "context_position": 1645,
+          "matched_form": "陳"
+        }
+      ]
+    }
+  ]
+}

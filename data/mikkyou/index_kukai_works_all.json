@@ -23,18 +23,19 @@
     "hotsubodaishinron-sho-vol1",
     "dainichikyo-sho-vol2",
     "hotsubodaishinron-sho-vol3",
-    "hotsubodaishinron-sho-vol4"
+    "hotsubodaishinron-sho-vol4",
+    "hotsubodaishinron-sho-vol2"
   ],
-  "corpora_count": 19,
-  "corpora_with_data": 19,
+  "corpora_count": 20,
+  "corpora_with_data": 20,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 14,
-    "total_occurrences": 79,
+    "total_occurrences": 86,
     "terms_in_multiple_corpora": 6,
-    "max_corpus_coverage": 7,
+    "max_corpus_coverage": 8,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 5,
@@ -130,18 +131,24 @@
         "unique": 1,
         "occurrences": 1,
         "present": true
+      },
+      "hotsubodaishinron-sho-vol2": {
+        "unique": 4,
+        "occurrences": 7,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "term": "菩提心論",
-      "total_occurrence_count": 35,
-      "covered_corpora_count": 7,
+      "total_occurrence_count": 36,
+      "covered_corpora_count": 8,
       "covered_corpora": [
         "hannya-hiken",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "nikyo-ron",
@@ -154,16 +161,18 @@
         "hizo-houyaku": 14,
         "jujushinron": 2,
         "hotsubodaishinron-sho-vol1": 5,
-        "hotsubodaishinron-sho-vol3": 4
+        "hotsubodaishinron-sho-vol3": 4,
+        "hotsubodaishinron-sho-vol2": 1
       }
     },
     {
       "term": "即身成仏義",
-      "total_occurrence_count": 14,
-      "covered_corpora_count": 4,
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 5,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "shoji-jisso"
       ],
@@ -171,7 +180,25 @@
         "shoji-jisso": 2,
         "dainichikyo-sho-vol1": 5,
         "hotsubodaishinron-sho-vol1": 3,
-        "hotsubodaishinron-sho-vol3": 4
+        "hotsubodaishinron-sho-vol3": 4,
+        "hotsubodaishinron-sho-vol2": 1
+      }
+    },
+    {
+      "term": "十住心論",
+      "total_occurrence_count": 11,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "hizo-houyaku": 5,
+        "hotsubodaishinron-sho-vol1": 1,
+        "hotsubodaishinron-sho-vol3": 1,
+        "hotsubodaishinron-sho-vol2": 4
       }
     },
     {
@@ -194,31 +221,18 @@
       }
     },
     {
-      "term": "十住心論",
-      "total_occurrence_count": 7,
+      "term": "秘蔵宝鑰",
+      "total_occurrence_count": 4,
       "covered_corpora_count": 3,
       "covered_corpora": [
-        "hizo-houyaku",
-        "hotsubodaishinron-sho-vol1",
-        "hotsubodaishinron-sho-vol3"
-      ],
-      "by_corpus": {
-        "hizo-houyaku": 5,
-        "hotsubodaishinron-sho-vol1": 1,
-        "hotsubodaishinron-sho-vol3": 1
-      }
-    },
-    {
-      "term": "秘蔵宝鑰",
-      "total_occurrence_count": 3,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
+        "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "nikyo-ron"
       ],
       "by_corpus": {
         "nikyo-ron": 2,
-        "hotsubodaishinron-sho-vol3": 1
+        "hotsubodaishinron-sho-vol3": 1,
+        "hotsubodaishinron-sho-vol2": 1
       }
     },
     {

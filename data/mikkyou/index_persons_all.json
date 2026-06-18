@@ -23,18 +23,19 @@
     "hotsubodaishinron-sho-vol1",
     "dainichikyo-sho-vol2",
     "hotsubodaishinron-sho-vol3",
-    "hotsubodaishinron-sho-vol4"
+    "hotsubodaishinron-sho-vol4",
+    "hotsubodaishinron-sho-vol2"
   ],
-  "corpora_count": 19,
-  "corpora_with_data": 19,
+  "corpora_count": 20,
+  "corpora_with_data": 20,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 91,
-    "total_occurrences": 3467,
+    "total_occurrences": 3558,
     "terms_in_multiple_corpora": 61,
-    "max_corpus_coverage": 18,
+    "max_corpus_coverage": 19,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 81,
@@ -130,14 +131,19 @@
         "unique": 7,
         "occurrences": 27,
         "present": true
+      },
+      "hotsubodaishinron-sho-vol2": {
+        "unique": 17,
+        "occurrences": 91,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "canonical": "大日如来",
-      "total_occurrence_count": 961,
-      "covered_corpora_count": 18,
+      "total_occurrence_count": 1016,
+      "covered_corpora_count": 19,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -146,6 +152,7 @@
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "hotsubodaishinron-sho-vol4",
         "jujushinron",
@@ -176,7 +183,8 @@
         "hotsubodaishinron-sho-vol1": 41,
         "dainichikyo-sho-vol2": 4,
         "hotsubodaishinron-sho-vol3": 20,
-        "hotsubodaishinron-sho-vol4": 10
+        "hotsubodaishinron-sho-vol4": 10,
+        "hotsubodaishinron-sho-vol2": 55
       },
       "metadata": {
         "subcategory": "buddhist_buddha_bodhisattva",
@@ -195,13 +203,14 @@
     },
     {
       "canonical": "空海",
-      "total_occurrence_count": 363,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 364,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "hotsubodaishinron-sho-vol4",
         "jujushinron",
@@ -223,7 +232,8 @@
         "jujushinron": 12,
         "hotsubodaishinron-sho-vol1": 5,
         "hotsubodaishinron-sho-vol3": 3,
-        "hotsubodaishinron-sho-vol4": 3
+        "hotsubodaishinron-sho-vol4": 3,
+        "hotsubodaishinron-sho-vol2": 1
       },
       "metadata": {
         "subcategory": "buddhist_master_japan",
@@ -237,8 +247,8 @@
     },
     {
       "canonical": "釈迦",
-      "total_occurrence_count": 204,
-      "covered_corpora_count": 16,
+      "total_occurrence_count": 208,
+      "covered_corpora_count": 17,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
@@ -246,6 +256,7 @@
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
         "jujushinron",
         "nikyo-ron",
         "rishikyo",
@@ -273,7 +284,8 @@
         "rishikyo": 1,
         "rishushaku": 5,
         "hotsubodaishinron-sho-vol1": 4,
-        "dainichikyo-sho-vol2": 2
+        "dainichikyo-sho-vol2": 2,
+        "hotsubodaishinron-sho-vol2": 4
       },
       "metadata": {
         "subcategory": "buddhist_master_india",
@@ -289,58 +301,9 @@
       }
     },
     {
-      "canonical": "普賢",
-      "total_occurrence_count": 151,
-      "covered_corpora_count": 16,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "dainichikyo-sho-vol2",
-        "hannya-hiken",
-        "hizo-houyaku",
-        "hizoki",
-        "hotsubodaishinron-sho-vol1",
-        "hotsubodaishinron-sho-vol3",
-        "hotsubodaishinron-sho-vol4",
-        "jujushinron",
-        "nikyo-ron",
-        "rishikyo",
-        "rishushaku",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 15,
-        "nikyo-ron": 11,
-        "sokushin-jobutsu": 2,
-        "hannya-hiken": 9,
-        "hizo-houyaku": 12,
-        "dainichikyo-sho-vol1": 14,
-        "bodaishinron": 6,
-        "jujushinron": 28,
-        "hizoki": 9,
-        "yugikyo": 14,
-        "rishikyo": 1,
-        "rishushaku": 13,
-        "hotsubodaishinron-sho-vol1": 4,
-        "dainichikyo-sho-vol2": 1,
-        "hotsubodaishinron-sho-vol3": 9,
-        "hotsubodaishinron-sho-vol4": 3
-      },
-      "metadata": {
-        "subcategory": "buddhist_buddha_bodhisattva",
-        "definition": "行を司る菩薩。",
-        "aliases": [
-          "samantabhadra",
-          "Samantabhadra"
-        ]
-      }
-    },
-    {
       "canonical": "不空",
-      "total_occurrence_count": 150,
-      "covered_corpora_count": 16,
+      "total_occurrence_count": 156,
+      "covered_corpora_count": 17,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -348,6 +311,7 @@
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "nikyo-ron",
@@ -375,7 +339,8 @@
         "rishikyo": 9,
         "rishushaku": 23,
         "hotsubodaishinron-sho-vol1": 42,
-        "hotsubodaishinron-sho-vol3": 5
+        "hotsubodaishinron-sho-vol3": 5,
+        "hotsubodaishinron-sho-vol2": 6
       },
       "metadata": {
         "subcategory": "buddhist_master_china",
@@ -390,12 +355,64 @@
       }
     },
     {
+      "canonical": "普賢",
+      "total_occurrence_count": 152,
+      "covered_corpora_count": 17,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol2",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "hizoki",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol3",
+        "hotsubodaishinron-sho-vol4",
+        "jujushinron",
+        "nikyo-ron",
+        "rishikyo",
+        "rishushaku",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 15,
+        "nikyo-ron": 11,
+        "sokushin-jobutsu": 2,
+        "hannya-hiken": 9,
+        "hizo-houyaku": 12,
+        "dainichikyo-sho-vol1": 14,
+        "bodaishinron": 6,
+        "jujushinron": 28,
+        "hizoki": 9,
+        "yugikyo": 14,
+        "rishikyo": 1,
+        "rishushaku": 13,
+        "hotsubodaishinron-sho-vol1": 4,
+        "dainichikyo-sho-vol2": 1,
+        "hotsubodaishinron-sho-vol3": 9,
+        "hotsubodaishinron-sho-vol4": 3,
+        "hotsubodaishinron-sho-vol2": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_buddha_bodhisattva",
+        "definition": "行を司る菩薩。",
+        "aliases": [
+          "samantabhadra",
+          "Samantabhadra"
+        ]
+      }
+    },
+    {
       "canonical": "龍樹",
-      "total_occurrence_count": 142,
-      "covered_corpora_count": 7,
+      "total_occurrence_count": 150,
+      "covered_corpora_count": 8,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "hotsubodaishinron-sho-vol4",
         "jujushinron",
@@ -409,7 +426,8 @@
         "jujushinron": 10,
         "hotsubodaishinron-sho-vol1": 80,
         "hotsubodaishinron-sho-vol3": 5,
-        "hotsubodaishinron-sho-vol4": 2
+        "hotsubodaishinron-sho-vol4": 2,
+        "hotsubodaishinron-sho-vol2": 8
       },
       "metadata": {
         "subcategory": "buddhist_master_india",
@@ -424,13 +442,14 @@
     },
     {
       "canonical": "観音",
-      "total_occurrence_count": 121,
-      "covered_corpora_count": 10,
+      "total_occurrence_count": 123,
+      "covered_corpora_count": 11,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
+        "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "rishikyo",
@@ -448,7 +467,8 @@
         "yugikyo": 5,
         "rishikyo": 7,
         "rishushaku": 20,
-        "hotsubodaishinron-sho-vol3": 5
+        "hotsubodaishinron-sho-vol3": 5,
+        "hotsubodaishinron-sho-vol2": 2
       },
       "metadata": {
         "subcategory": "buddhist_buddha_bodhisattva",
@@ -488,14 +508,15 @@
     },
     {
       "canonical": "文殊",
-      "total_occurrence_count": 83,
-      "covered_corpora_count": 13,
+      "total_occurrence_count": 84,
+      "covered_corpora_count": 14,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "nikyo-ron",
@@ -518,7 +539,8 @@
         "rishikyo": 4,
         "rishushaku": 11,
         "hotsubodaishinron-sho-vol1": 1,
-        "hotsubodaishinron-sho-vol3": 8
+        "hotsubodaishinron-sho-vol3": 8,
+        "hotsubodaishinron-sho-vol2": 1
       },
       "metadata": {
         "subcategory": "buddhist_buddha_bodhisattva",
@@ -579,14 +601,15 @@
     },
     {
       "canonical": "弥勒",
-      "total_occurrence_count": 63,
-      "covered_corpora_count": 11,
+      "total_occurrence_count": 64,
+      "covered_corpora_count": 12,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "jujushinron",
         "nikyo-ron",
@@ -605,7 +628,8 @@
         "hizoki": 3,
         "rishushaku": 2,
         "hotsubodaishinron-sho-vol1": 1,
-        "hotsubodaishinron-sho-vol3": 1
+        "hotsubodaishinron-sho-vol3": 1,
+        "hotsubodaishinron-sho-vol2": 1
       },
       "metadata": {
         "subcategory": "buddhist_buddha_bodhisattva",
@@ -641,14 +665,15 @@
     },
     {
       "canonical": "不動",
-      "total_occurrence_count": 50,
-      "covered_corpora_count": 11,
+      "total_occurrence_count": 51,
+      "covered_corpora_count": 12,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
         "jujushinron",
         "nikyo-ron",
         "shoryoshu_miyasaka",
@@ -667,7 +692,8 @@
         "hizoki": 4,
         "yugikyo": 4,
         "hotsubodaishinron-sho-vol1": 1,
-        "dainichikyo-sho-vol2": 2
+        "dainichikyo-sho-vol2": 2,
+        "hotsubodaishinron-sho-vol2": 1
       },
       "metadata": {
         "subcategory": "buddhist_buddha_bodhisattva",
@@ -786,9 +812,10 @@
     },
     {
       "canonical": "恵果",
-      "total_occurrence_count": 42,
-      "covered_corpora_count": 4,
+      "total_occurrence_count": 43,
+      "covered_corpora_count": 5,
       "covered_corpora": [
+        "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol4",
         "jujushinron",
         "nikyo-ron",
@@ -798,7 +825,8 @@
         "shoryoshu_miyasaka": 38,
         "nikyo-ron": 1,
         "jujushinron": 1,
-        "hotsubodaishinron-sho-vol4": 2
+        "hotsubodaishinron-sho-vol4": 2,
+        "hotsubodaishinron-sho-vol2": 1
       },
       "metadata": {
         "subcategory": "buddhist_master_china",
@@ -883,11 +911,12 @@
     },
     {
       "canonical": "法蔵",
-      "total_occurrence_count": 28,
-      "covered_corpora_count": 10,
+      "total_occurrence_count": 29,
+      "covered_corpora_count": 11,
       "covered_corpora": [
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "hotsubodaishinron-sho-vol4",
         "jujushinron",
@@ -907,7 +936,8 @@
         "rishushaku": 4,
         "hotsubodaishinron-sho-vol1": 4,
         "hotsubodaishinron-sho-vol3": 2,
-        "hotsubodaishinron-sho-vol4": 3
+        "hotsubodaishinron-sho-vol4": 3,
+        "hotsubodaishinron-sho-vol2": 1
       },
       "metadata": {
         "subcategory": "buddhist_master_china",
@@ -915,48 +945,14 @@
       }
     },
     {
-      "canonical": "善無畏",
-      "total_occurrence_count": 26,
-      "covered_corpora_count": 9,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hannya-hiken",
-        "hizo-houyaku",
-        "hotsubodaishinron-sho-vol1",
-        "hotsubodaishinron-sho-vol3",
-        "jujushinron",
-        "nikyo-ron",
-        "shoji-jisso",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 5,
-        "nikyo-ron": 1,
-        "shoji-jisso": 1,
-        "hannya-hiken": 1,
-        "hizo-houyaku": 1,
-        "dainichikyo-sho-vol1": 4,
-        "jujushinron": 8,
-        "hotsubodaishinron-sho-vol1": 4,
-        "hotsubodaishinron-sho-vol3": 1
-      },
-      "metadata": {
-        "subcategory": "buddhist_master_china",
-        "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
-        "aliases": [
-          "śubhakarasiṃha",
-          "Śubhakarasiṃha"
-        ]
-      }
-    },
-    {
       "canonical": "金剛智",
-      "total_occurrence_count": 24,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 28,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
+        "hotsubodaishinron-sho-vol2",
         "jujushinron",
         "nikyo-ron",
         "rishushaku",
@@ -973,7 +969,8 @@
         "bodaishinron": 1,
         "jujushinron": 1,
         "yugikyo": 3,
-        "rishushaku": 1
+        "rishushaku": 1,
+        "hotsubodaishinron-sho-vol2": 4
       },
       "metadata": {
         "subcategory": "buddhist_master_china",
@@ -983,6 +980,43 @@
           "Vajrabodhi"
         ],
         "sanskrit_canonical": "vajrabodhi"
+      }
+    },
+    {
+      "canonical": "善無畏",
+      "total_occurrence_count": 27,
+      "covered_corpora_count": 10,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol3",
+        "jujushinron",
+        "nikyo-ron",
+        "shoji-jisso",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "nikyo-ron": 1,
+        "shoji-jisso": 1,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 1,
+        "dainichikyo-sho-vol1": 4,
+        "jujushinron": 8,
+        "hotsubodaishinron-sho-vol1": 4,
+        "hotsubodaishinron-sho-vol3": 1,
+        "hotsubodaishinron-sho-vol2": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+        "aliases": [
+          "śubhakarasiṃha",
+          "Śubhakarasiṃha"
+        ]
       }
     },
     {
@@ -1199,6 +1233,37 @@
       }
     },
     {
+      "canonical": "迦葉",
+      "total_occurrence_count": 19,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol2",
+        "jujushinron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 5,
+        "hizo-houyaku": 2,
+        "dainichikyo-sho-vol1": 7,
+        "sankyo-shiki": 3,
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol2": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_india",
+        "definition": "釈迦十大弟子の筆頭。頭陀第一。",
+        "aliases": [
+          "摩訶迦葉",
+          "kāśyapa",
+          "Kāśyapa"
+        ],
+        "sanskrit_canonical": "kāśyapa"
+      }
+    },
+    {
       "canonical": "堯",
       "total_occurrence_count": 19,
       "covered_corpora_count": 3,
@@ -1246,35 +1311,6 @@
           "天台大師",
           "智者大師"
         ]
-      }
-    },
-    {
-      "canonical": "迦葉",
-      "total_occurrence_count": 18,
-      "covered_corpora_count": 5,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "jujushinron",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 5,
-        "hizo-houyaku": 2,
-        "dainichikyo-sho-vol1": 7,
-        "sankyo-shiki": 3,
-        "jujushinron": 1
-      },
-      "metadata": {
-        "subcategory": "buddhist_master_india",
-        "definition": "釈迦十大弟子の筆頭。頭陀第一。",
-        "aliases": [
-          "摩訶迦葉",
-          "kāśyapa",
-          "Kāśyapa"
-        ],
-        "sanskrit_canonical": "kāśyapa"
       }
     },
     {
@@ -1497,6 +1533,33 @@
       }
     },
     {
+      "canonical": "吉蔵",
+      "total_occurrence_count": 11,
+      "covered_corpora_count": 7,
+      "covered_corpora": [
+        "hannya-hiken",
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol3",
+        "jujushinron",
+        "nikyo-ron"
+      ],
+      "by_corpus": {
+        "nikyo-ron": 2,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 1,
+        "jujushinron": 4,
+        "hotsubodaishinron-sho-vol1": 1,
+        "hotsubodaishinron-sho-vol3": 1,
+        "hotsubodaishinron-sho-vol2": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "三論宗の大成者。嘉祥大師。"
+      }
+    },
+    {
       "canonical": "湛然",
       "total_occurrence_count": 11,
       "covered_corpora_count": 5,
@@ -1542,31 +1605,6 @@
           "kiṃnara",
           "kinnara"
         ]
-      }
-    },
-    {
-      "canonical": "吉蔵",
-      "total_occurrence_count": 10,
-      "covered_corpora_count": 6,
-      "covered_corpora": [
-        "hannya-hiken",
-        "hizo-houyaku",
-        "hotsubodaishinron-sho-vol1",
-        "hotsubodaishinron-sho-vol3",
-        "jujushinron",
-        "nikyo-ron"
-      ],
-      "by_corpus": {
-        "nikyo-ron": 2,
-        "hannya-hiken": 1,
-        "hizo-houyaku": 1,
-        "jujushinron": 4,
-        "hotsubodaishinron-sho-vol1": 1,
-        "hotsubodaishinron-sho-vol3": 1
-      },
-      "metadata": {
-        "subcategory": "buddhist_master_china",
-        "definition": "三論宗の大成者。嘉祥大師。"
       }
     },
     {
@@ -1616,6 +1654,31 @@
       }
     },
     {
+      "canonical": "龍智",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol1": 2,
+        "hotsubodaishinron-sho-vol2": 2
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_india",
+        "definition": "密教付法第四祖。龍樹の弟子。",
+        "aliases": [
+          "nāgabodhi",
+          "Nāgabodhi"
+        ]
+      }
+    },
+    {
       "canonical": "勤操",
       "total_occurrence_count": 8,
       "covered_corpora_count": 1,
@@ -1660,29 +1723,6 @@
       "metadata": {
         "subcategory": "chinese_classical",
         "definition": "戦国時代楚の文人。屈原の弟子と伝承。"
-      }
-    },
-    {
-      "canonical": "龍智",
-      "total_occurrence_count": 6,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "hotsubodaishinron-sho-vol1",
-        "jujushinron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 3,
-        "jujushinron": 1,
-        "hotsubodaishinron-sho-vol1": 2
-      },
-      "metadata": {
-        "subcategory": "buddhist_master_india",
-        "definition": "密教付法第四祖。龍樹の弟子。",
-        "aliases": [
-          "nāgabodhi",
-          "Nāgabodhi"
-        ]
       }
     },
     {

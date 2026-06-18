@@ -1,0 +1,850 @@
+{
+  "schema_version": "1.2",
+  "category": "戒名向け熟語索引",
+  "source_corpus": "hotsubodaishinron-sho-vol2.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "起点 1（密教教学用語の戒名適合 11 語）+ 起点 2（梵語の漢訳対応）+ 起点 3（補注内 2 字漢語熟語のホワイトリスト抽出）",
+  "scoring_rule": "kaimyo_score = freq(log10×12, 上限25) + doctrinal(seed_terms=30 / seed_sanskrit=20 / paren_doctrinal=10) + ichiji(KAIMYO_ICHIJI 含字数 × 8, 上限16) + aesthetic(美字構成・最大4)",
+  "review_policy": "needs_human_review=true の語は kaimyo-app 連携前に専門家校閲を要する",
+  "dictionary_sizes": {
+    "kaimyo_ichiji": 85,
+    "sanskrit_to_kaimyo_jukugo": 51,
+    "doctrinal_2char_whitelist": 151,
+    "kaimyo_noise": 140
+  },
+  "gendaigoyaku_length": 25865,
+  "summary": {
+    "unique_terms": 11,
+    "unique_jukugo": 11,
+    "total_occurrences": 102,
+    "seed_terms_count": 11,
+    "seed_sanskrit_count": 0,
+    "paren_doctrinal_count": 0,
+    "needs_review_count": 0,
+    "matched_jukugo_count": 8
+  },
+  "entries": [
+    {
+      "jukugo": "大日",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "seed_sanskrit": "Mahāvairocana",
+      "kaimyo_chars": [
+        "大"
+      ],
+      "kaimyo_score": 55.9,
+      "freq_score": 17.9,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 30,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "阿闍梨とは妙吉祥〔文殊〕を指すと義を取る。これは海雲の記に「大日・金剛手・妙吉祥・龍樹等」と相承の次第を列ねるゆえに、龍樹所",
+          "context_position": 3222,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "けて、しかしてこの論を造る。海雲阿闍梨の金剛界の相承にいう、大日如来は金剛手に付し、金剛手は妙吉祥に付し、妙吉祥は龍樹に付し",
+          "context_position": 3407,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "。自門の中においてまた両義が見える。一義にいう、大阿闍梨とは大日を指す。龍猛の直師〔直接の師〕は金剛薩埵であるが、根本に約し",
+          "context_position": 3564,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "指す。龍猛の直師〔直接の師〕は金剛薩埵であるが、根本に約して大日を挙げる。密義は法身の説を規模とするゆえに、もっとも大日を指",
+          "context_position": 3597,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "して大日を挙げる。密義は法身の説を規模とするゆえに、もっとも大日を指すべきである。例えば『百法論』に「世尊の言のごとし」とい",
+          "context_position": 3625,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "」と名づける。またいう、「久しからずして大金剛阿闍梨位・法性大日の身を得べし」という。『大日経疏』には「乃至、毘盧遮那、これ",
+          "context_position": 3970,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "しからずして大金剛阿闍梨位・法性大日の身を得べし」という。『大日経疏』には「乃至、毘盧遮那、これを深秘の阿闍梨と名づける」と",
+          "context_position": 3984,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "、現生に世・出世間の悉地を成就することを得しめよ」という。『大日経』に弟子の相を説くとして「妙恵をもって身を厳る」という。『",
+          "context_position": 5408,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "、なんぞよく不思議の法を聞き、難信の教を信じよう」という。『大日経』の開題にいう、「上々決定の信解、空々無著の心智でなければ",
+          "context_position": 5495,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "大度量あって勇鋭にして、前の諸の住宮を楽わなければ、すなわち大日所乗の一体速疾神通の宝輅〔宝の車〕を許すべし」という。一処の",
+          "context_position": 5661,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "えに、大智慧海の中において秘密法を略出す」という。その上、『大日経』には「甚深無相の法は劣恵の堪えざる所であり、彼ら〔劣恵の",
+          "context_position": 6027,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "かりといえども、別して真如を開出して四信と立てるがごとし。『大日経疏』にいう、「機に差えて〔取り違えて〕授ければ、あるいは彼",
+          "context_position": 6583,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "鈍根と称し、もっぱら智根あるを利根と名づけて分別する。疏家〔大日経疏の著者〕の意は、信等の五根に各々利・鈍があると見える。よ",
+          "context_position": 6992,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "大悲決定をもって、永く外道・二乗の境界を超えたり」という。『大日経疏』には「声聞・縁覚の一切の法門は、大悲を遠離して自ら出要",
+          "context_position": 7639,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "を取る。一義にいう。外道は広く九種住心に通じるべきである。『大日経疏』にいう、「およそ一切の内証秘密の法を了せざる者は、みな",
+          "context_position": 8250,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "とする」という。この意では、道は内道〔仏道〕と見える。疏家〔大日経疏〕の御釈にいう、「なおこれ邪見の心をもって理外〔真理の外",
+          "context_position": 8843,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "は一切善法の本である。ゆえに六度の妙行には精進を体とする。『大日経疏』の末の巻に「精進はこれ一切善法の根本」等という。「無惑",
+          "context_position": 9375,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "るべきである。余教に「仏乗」の名字を立てるのは真実でない。『大日経疏』にいう、「浄仏というは、声聞法の中には阿羅漢を名づけて",
+          "context_position": 9883,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "界を面〔おもて〕とし、九尊心王は胎蔵に約すと見える。この外、大日一尊を心王とし、四仏以下をことごとく心数に属すかどうかは一つ",
+          "context_position": 10975,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "釈すとして「諸尊はみな大毘盧遮那の仏身に同じ」という。これは大日一尊を心王とする義に符順する。ただし高祖は処々の御釈に分明に",
+          "context_position": 11405,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "ゆえに。最初より倶時に三種の菩提心を発すべしと見える。一、『大日経疏』に「応に菩提心を発すべし〔応発菩提心〕」の経文を釈すと",
+          "context_position": 12213,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "志求阿耨多羅……不求余果〕」の心が決定するをいうのである。『大日経疏』に「応に菩提心を発すべし〔応発菩提心〕」とは「決定の誓",
+          "context_position": 13042,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "仏の秘号と開見〔開き現れる〕するを魔宮震動というのである。『大日経疏』に六種震動の義について浅略・深秘の釈を作す。それに准じ",
+          "context_position": 13990,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "魔に四種〔蘊魔・煩悩魔・死魔・天魔〕がある事を論じる項。 『大日経』にいう、「四魔を降伏して六種に解脱す」という。『大智律師",
+          "context_position": 15211,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "経ないが、しばらく発心の功能を歎ずる一辺である。したがって『大日経疏』の十一にいう、「具戒〔戒を具する〕によるがゆえには、常",
+          "context_position": 18084,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "王に帰して釈を作したまうのである。菩提心が心王であることは『大日経疏』に見える。「次と為す〔為次〕」の文。これについて一義に",
+          "context_position": 21329,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "文。 「諸尊」とは上の諸菩薩である。「大毘盧遮那」とは心王・大日尊である。およそ諸尊がみな大日の体性であること、『聖位経』に",
+          "context_position": 21539,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "ある。「大毘盧遮那」とは心王・大日尊である。およそ諸尊がみな大日の体性であること、『聖位経』にいう、「自性身および受用・変化",
+          "context_position": 21554,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "現に菩提を証す内眷属にして、毘盧遮那の互体である」という。『大日経疏』にいう、「毘盧遮那と鬼・畜とは、その身が平等である」と",
+          "context_position": 21735,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "。 「経営して財物を栄えしむる行〔作経栄財物行〕」の文。 『大日経疏』にいう、「『何ぞ商人心〔なんしょうにんしん〕』。いわく",
+          "context_position": 24284,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "遮那",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "seed_sanskrit": "Vairocana",
+      "kaimyo_chars": [],
+      "kaimyo_score": 46.98,
+      "freq_score": 16.98,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 25,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "に師説を表す。『付法伝』上巻にいう、「上は高祖の法身・大毘盧遮那如来から、下は青龍の阿闍梨〔恵果〕に至るまで、嫡々〔代々正統",
+          "context_position": 2634,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "・法性大日の身を得べし」という。『大日経疏』には「乃至、毘盧遮那、これを深秘の阿闍梨と名づける」という。またいう、「ただ大毘",
+          "context_position": 3997,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "これを深秘の阿闍梨と名づける」という。またいう、「ただ大毘盧遮那をば究竟阿闍梨と名づけることを得る」という。『十住心論』十に",
+          "context_position": 4030,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "名づけることを得る」という。『十住心論』十にいう、「摩訶毘盧遮那は究竟大阿闍梨、金剛薩埵は大阿闍梨耶」という。『付法伝』もこ",
+          "context_position": 4070,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "を明かすに、法説・譬説・合説の三段が見える。初めから「大毘盧遮那の仏身〔大毘盧遮那仏身〕」に至るまでが法説である。「まさに是",
+          "context_position": 10309,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "譬説・合説の三段が見える。初めから「大毘盧遮那の仏身〔大毘盧遮那仏身〕」に至るまでが法説である。「まさに是くの如き心を発すべ",
+          "context_position": 10318,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "本の『即身成仏義』にいう、「金剛界の七十三尊においては、毘盧遮那はこれ心王、余の七十二尊はこれ心数である。胎蔵界会の五百尊に",
+          "context_position": 11045,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "の七十二尊はこれ心数である。胎蔵界会の五百尊においては、毘盧遮那を心王と名づけ、余の四百九十九尊を心数と名づける」という。ま",
+          "context_position": 11084,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "に心数の菩提心が心王に同ずる義を釈すとして「諸尊はみな大毘盧遮那の仏身に同じ」という。これは大日一尊を心王とする義に符順する",
+          "context_position": 11389,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "とすべきでない。当段の御釈は、心王の根本について、まず大毘盧遮那仏を挙げられたと見るべきか。もしまた、五仏・四菩薩・一毘盧遮",
+          "context_position": 11559,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "那仏を挙げられたと見るべきか。もしまた、五仏・四菩薩・一毘盧遮那の道理をもって、五仏ともに大毘盧遮那仏と御釈があると見るに相",
+          "context_position": 11590,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "た、五仏・四菩薩・一毘盧遮那の道理をもって、五仏ともに大毘盧遮那仏と御釈があると見るに相違ない。したがって心数を挙げられたと",
+          "context_position": 11608,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "既に「もし瑜伽中の諸尊の身を成ぜんと願わば、諸尊はみな大毘盧遮那の仏身に同じ」と釈したまうゆえに、なぜ心数の果をもって所簡と",
+          "context_position": 12799,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "中の王たる輪王等に同じて三十二相を現ずるのである。よって毘盧遮那の三身の果位を証するを「常在人天」というのである。七義にいう",
+          "context_position": 18567,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "〕すと見える。その上、因由を述べられるとき「諸尊はみな大毘盧遮那の仏身に同じ〔諸尊皆同大毘盧遮那仏身〕」というゆえに、上の発",
+          "context_position": 19489,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "られるとき「諸尊はみな大毘盧遮那の仏身に同じ〔諸尊皆同大毘盧遮那仏身〕」というゆえに、上の発心は心王・大毘盧遮那仏身を成ぜん",
+          "context_position": 19505,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "尊皆同大毘盧遮那仏身〕」というゆえに、上の発心は心王・大毘盧遮那仏身を成ぜんと願うと見える。ただし、上に別して人・法について",
+          "context_position": 19529,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "「発菩提心」の義は相違あるべきでない。しかるを、「みな大毘盧遮那に同じ」を由として「発菩提心」と名づける義を釈したまうことが",
+          "context_position": 21059,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "に果徳である。よって菩薩の因位に相応しない。ゆえに果徳の毘盧遮那に帰して釈を作すのである。一義にいう。毘盧遮那はこれ菩提心の",
+          "context_position": 21206,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "えに果徳の毘盧遮那に帰して釈を作すのである。一義にいう。毘盧遮那はこれ菩提心の本であるがゆえに、彼を由として「発菩提心」と名",
+          "context_position": 21229,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "諸尊皆同〕」等の文。 「諸尊」とは上の諸菩薩である。「大毘盧遮那」とは心王・大日尊である。およそ諸尊がみな大日の体性であるこ",
+          "context_position": 21531,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "は、ならびにこれ法仏である。現に菩提を証す内眷属にして、毘盧遮那の互体である」という。『大日経疏』にいう、「毘盧遮那と鬼・畜",
+          "context_position": 21721,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "て、毘盧遮那の互体である」という。『大日経疏』にいう、「毘盧遮那と鬼・畜とは、その身が平等である」という。またいう、「乃至、",
+          "context_position": 21747,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "」という。またいう、「乃至、諸の世天等は、ことごとくこれ毘盧遮那である」という。これらの諸文が分明である。それについて、自宗",
+          "context_position": 21795,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "普門に入らず」という義ならば、今の御釈は、諸尊がしばらく毘盧遮那の一徳に同ずる義であるべきである。よって分同〔部分的に同じ〕",
+          "context_position": 21939,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "真言",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "seed_sanskrit": "mantra",
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "kaimyo_score": 64.34,
+      "freq_score": 16.34,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 22,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "う。『宗秘論』にいう、「玉印・金箱は帝々〔帝王代々〕相付し、真言・密印は仏々〔仏代々〕相伝す」という。また先賢が東寺の真言宗",
+          "context_position": 2855,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "、真言・密印は仏々〔仏代々〕相伝す」という。また先賢が東寺の真言宗において十の殊勝を立てる中で、相承殊勝を一科とする。もっぱ",
+          "context_position": 2884,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "上智之人〕」の文。 これは上根上智の人を表す。これについて、真言の正所被の機は上根上智に限るか、また下根下智に通じるか、とい",
+          "context_position": 5148,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "不同である。一義にいう。一生頓悟〔一生のうちにさとる〕の人を真言の正所被の機と定める。しかるに、劣恵〔劣った智恵〕・愚鈍の族",
+          "context_position": 5251,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "べきである。ことさら重障・根鈍の衆生を速疾頓悟せしめるのを、真言不思議の教力とする。したがって『金剛頂経』にいう、「ただ鈍根",
+          "context_position": 5956,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "説を存す」という。またいう、「上・中・下の三根の衆生のために真言を説く」という。また『六度経』にいう、「もし彼の有情が契経・",
+          "context_position": 6115,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "いてこれを挙げられる義を取る。あるいは、顕・密対弁のときに、真言の行者を通の上々智観と定められる義の辺に会して意を得るべきで",
+          "context_position": 6365,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "んで、真正の発心を明かす。今この意である。それについて、今は真言の行者の発心のすがたを明かす。ゆえに簡ぶ所の法は、広く前の九",
+          "context_position": 7873,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "境界を知らず、九種住心をことごとく外道と名づけると見える。『真言問答』にいう、「問う。経に『諸仏の大秘密は外道の識ること能わ",
+          "context_position": 8334,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "の内といい、浅を内の外という。問う。なぜこれをいうか。答う。真言教は諸仏の自内証の教えであるがゆえに内の内という。顕教は機に",
+          "context_position": 8597,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "し〔宜修仏乗〕」とは、これは正しく修行を勧める。「仏乗」とは真言秘密の仏乗を指す。それについて、声聞・縁覚の二乗も、分〔分際",
+          "context_position": 9626,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "仏乗に限るのか。答う。「仏乗」の名字を立てること、その実義は真言の自宗に限るべきである。余教に「仏乗」の名字を立てるのは真実",
+          "context_position": 9846,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "円鏡智を心王とする。今なぜ独りこれを心所に摂するのか。答う。真言宗の法の中にこのように説くがゆえに、大円鏡智を心所に摂す。問",
+          "context_position": 11219,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "発す義を釈すゆえに、これに対して「不求余果」と簡ぶ所は、広く真言の中の一門・心数の果ならびに顕乗の分々の果に通じて意得るべし",
+          "context_position": 12704,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "実にして虚〔いつわり〕でないことを明かすのである。今この宗〔真言宗〕の秘密の釈の中によれば、六種とは貪・瞋・痴・見・慢・疑の",
+          "context_position": 14114,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "ある。ある一義にいう。両部の五仏を合して「十方諸仏」という。真言の行者が誓心決定の位に、彼の五智を一心に開くゆえに、「皆悉証",
+          "context_position": 16780,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "決定すれば、必ず即身成仏すべきである。これによって下に「ただ真言法の中にのみ即身成仏す〔惟真言法中即身成仏〕」という。またい",
+          "context_position": 16987,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "である。これによって下に「ただ真言法の中にのみ即身成仏す〔惟真言法中即身成仏〕」という。またいう、「もし心が決定して教のごと",
+          "context_position": 17002,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "乗等を顕す。得益には劣を挙げて勝を顕すのである。三義にいう。真言の行者は発心以後、人・天の生を経ないが、しばらく発心の功能を",
+          "context_position": 18037,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "すとして「人は三賢、天は十地である」という。それに準ずるに、真言の行者は発心以後に三賢・十聖の次位を経るとき、菩薩の妙楽を得",
+          "context_position": 18265,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "、菩薩の妙楽を得るを「常在人天」というのである。五義にいう。真言の行者は一生頓悟の上に、人・天の師となって衆生を勧導する化他",
+          "context_position": 18319,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "三身の果位を証するを「常在人天」というのである。七義にいう。真言の行者は即身成仏するが、人・天の当体を動ぜないゆえに「常在人",
+          "context_position": 18600,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "seed_sanskrit": "mahā-karuṇā",
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "kaimyo_score": 60.84,
+      "freq_score": 10.84,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "外道・二乗の自利の心を所離とするのである。ゆえに下の御釈に「大悲決定をもって、永く外道・二乗の境界を超えたり」という。『大日",
+          "context_position": 7609,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "えたり」という。『大日経疏』には「声聞・縁覚の一切の法門は、大悲を遠離して自ら出要を求むるをもってす」という。一処の御釈にい",
+          "context_position": 7660,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "、「外道を摧伏〔うちくだき〕し、二乗を超越せん。誓って諸仏の大悲・行願を求む」という。これらの意である。天台『摩訶止観』に、",
+          "context_position": 7723,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "に、今の「菩薩」の語は広く外部の諸尊等にも通じる。みな大智・大悲の徳を具するゆえに、菩薩と称するに相違ない。「もし願わば〔若",
+          "context_position": 20208,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "潔白・分明なるがごとし」という。善・悪は行願心に譬う。行願・大悲の門には、善・悪に同じて摂化・利生の事業を作すゆえである。五",
+          "context_position": 23271,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "のときは、名官は勝義、財宝は三摩地、悪は行願心である。行願・大悲の門には、悪にも同じて四摂・利他の方便があるゆえに。善は第一",
+          "context_position": 23410,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "譬う。狂人解毒は行願の菩提心に譬え、教薬によって三毒を解し、大悲・行願の心を発す義に符順する。遊客は勝義心に譬う。染・浄の諸",
+          "context_position": 24678,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法身",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "seed_sanskrit": "dharmakāya",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 50.84,
+      "freq_score": 10.84,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "持不忘〕」の文／「魔宮震動す〔魔宮震動〕」の文。 一、三身〔法身・報身・応身〕の成道と降魔について論じる項。 一、降魔の所在",
+          "context_position": 547,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "。ゆえに最初に師説を表す。『付法伝』上巻にいう、「上は高祖の法身・大毘盧遮那如来から、下は青龍の阿闍梨〔恵果〕に至るまで、嫡",
+          "context_position": 2628,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "接の師〕は金剛薩埵であるが、根本に約して大日を挙げる。密義は法身の説を規模とするゆえに、もっとも大日を指すべきである。例えば",
+          "context_position": 3607,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "・応化の業用であるがゆえに、その義が少し殊なる。 一、三身〔法身・報身・応身〕の成道と降魔について論じる項。 応身の八相の化",
+          "context_position": 14757,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "は、一経の所説の本有倶生障・自我所生障・本有倶本輪の三障が、法身の性徳となるを、自性の降魔というのである。 一、降魔の所在に",
+          "context_position": 14976,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "。六義にいう。三身の仏果を指して「常在人天」というのである。法身・報身の二身はこれ天上の教主である。報身の八万四千の相好はこ",
+          "context_position": 18449,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "れ天上の教主である。報身の八万四千の相好はこれ天衆に同ずる。法身をも疏に「首陀会天に符同する像」と釈す。ゆえにこれもまた天衆",
+          "context_position": 18489,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "即身成仏",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "seed_sanskrit": "sa-deha-prāpti-buddhatva",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 48.14,
+      "freq_score": 10.14,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "下をことごとく心数に属すかどうかは一つの尋ねである。一本の『即身成仏義』にいう、「金剛界の七十三尊においては、毘盧遮那はこれ心王",
+          "context_position": 11018,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "の処〕」以下は誓心不忘の徳を明かす。それについて、自宗の意は即身成仏を宗旨とする。したがって上根上智の人が誓心決定すれば、必ず即",
+          "context_position": 16932,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "仏を宗旨とする。したがって上根上智の人が誓心決定すれば、必ず即身成仏すべきである。これによって下に「ただ真言法の中にのみ即身成仏",
+          "context_position": 16965,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "即身成仏すべきである。これによって下に「ただ真言法の中にのみ即身成仏す〔惟真言法中即身成仏〕」という。またいう、「もし心が決定し",
+          "context_position": 16995,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "これによって下に「ただ真言法の中にのみ即身成仏す〔惟真言法中即身成仏〕」という。またいう、「もし心が決定して教のごとく修行すれば",
+          "context_position": 17006,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "証するを「常在人天」というのである。七義にいう。真言の行者は即身成仏するが、人・天の当体を動ぜないゆえに「常在人天」等というので",
+          "context_position": 18606,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法界",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "宇宙の真実相。一切法の根本領域。",
+      "seed_sanskrit": "dharma-dhātu",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 46.39,
+      "freq_score": 8.39,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "いう、「問う。五智を心王・心所に分かつしかたはいかん。答う。法界体性智はこれ心王、余の四智はこれ心所である。問う。諸宗はみな",
+          "context_position": 11156,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "証文はいかん。答う。『菩提心論』にいう、ここにおいて印成せる法界体性の中より四仏を流出す、と。ゆえに能出を心王とし、所出の智",
+          "context_position": 11285,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "提心〕」の経文を釈すとして「一向に一切智智を志求し、必ず普く法界の衆生を度すべし」という。これは上求菩提・下化衆生の二利の心",
+          "context_position": 12264,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "らば、今も利・鈍に通じて意得るべきである。譬えのこと、天台『法界次第』にいう、「事を借りて理を正し、もって迷情を暁〔さと〕ら",
+          "context_position": 22596,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "三密",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "seed_sanskrit": "trīṇi guhyāni",
+      "kaimyo_chars": [
+        "密"
+      ],
+      "kaimyo_score": 41.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "「輪王種性の大機の菩薩でなければ、誰がよく五智を一心に開き、三密を凡身に得よう」という。かくのごとく等の諸文が分明である。こ",
+          "context_position": 5799,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "無縁慈悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "seed_sanskrit": "an-ārambaṇa-karuṇā",
+      "kaimyo_chars": [
+        "無",
+        "慈",
+        "悲"
+      ],
+      "kaimyo_score": 46.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "智剣",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "seed_sanskrit": "jñāna-khaḍga",
+      "kaimyo_chars": [
+        "智"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "玄機",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "seed_sanskrit": "—",
+      "kaimyo_chars": [
+        "玄"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

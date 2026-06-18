@@ -1,0 +1,958 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol2.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 25865,
+  "summary": {
+    "unique_terms": 17,
+    "unique_persons": 17,
+    "total_occurrences": 91,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 6,
+        "occurrences": 61
+      },
+      "buddhist_master_china": {
+        "unique": 6,
+        "occurrences": 14
+      },
+      "buddhist_master_india": {
+        "unique": 4,
+        "occurrences": 15
+      },
+      "buddhist_master_japan": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日",
+          "count": 29
+        },
+        {
+          "form": "毘盧遮那",
+          "count": 25
+        },
+        {
+          "form": "大日如来",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 55,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "けて、しかしてこの論を造る。海雲阿闍梨の金剛界の相承にいう、大日如来は金剛手に付し、金剛手は妙吉祥に付し、妙吉祥は龍樹に付し、龍",
+          "context_position": 3407,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "最初に師説を表す。『付法伝』上巻にいう、「上は高祖の法身・大毘盧遮那如来から、下は青龍の阿闍梨〔恵果〕に至るまで、嫡々〔代々正統",
+          "context_position": 2632,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "梨位・法性大日の身を得べし」という。『大日経疏』には「乃至、毘盧遮那、これを深秘の阿闍梨と名づける」という。またいう、「ただ大毘",
+          "context_position": 3995,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "那、これを深秘の阿闍梨と名づける」という。またいう、「ただ大毘盧遮那をば究竟阿闍梨と名づけることを得る」という。『十住心論』十に",
+          "context_position": 4028,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "梨と名づけることを得る」という。『十住心論』十にいう、「摩訶毘盧遮那は究竟大阿闍梨、金剛薩埵は大阿闍梨耶」という。『付法伝』もこ",
+          "context_position": 4068,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "発心を明かすに、法説・譬説・合説の三段が見える。初めから「大毘盧遮那の仏身〔大毘盧遮那仏身〕」に至るまでが法説である。「まさに是",
+          "context_position": 10307,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "説・譬説・合説の三段が見える。初めから「大毘盧遮那の仏身〔大毘盧遮那仏身〕」に至るまでが法説である。「まさに是くの如き心を発すべ",
+          "context_position": 10316,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "。一本の『即身成仏義』にいう、「金剛界の七十三尊においては、毘盧遮那はこれ心王、余の七十二尊はこれ心数である。胎蔵界会の五百尊に",
+          "context_position": 11043,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "、余の七十二尊はこれ心数である。胎蔵界会の五百尊においては、毘盧遮那を心王と名づけ、余の四百九十九尊を心数と名づける」という。ま",
+          "context_position": 11082,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "、下に心数の菩提心が心王に同ずる義を釈すとして「諸尊はみな大毘盧遮那の仏身に同じ」という。これは大日一尊を心王とする義に符順する",
+          "context_position": 11387,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "証拠とすべきでない。当段の御釈は、心王の根本について、まず大毘盧遮那仏を挙げられたと見るべきか。もしまた、五仏・四菩薩・一毘盧遮",
+          "context_position": 11557,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "盧遮那仏を挙げられたと見るべきか。もしまた、五仏・四菩薩・一毘盧遮那の道理をもって、五仏ともに大毘盧遮那仏と御釈があると見るに相",
+          "context_position": 11588,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "しまた、五仏・四菩薩・一毘盧遮那の道理をもって、五仏ともに大毘盧遮那仏と御釈があると見るに相違ない。したがって心数を挙げられたと",
+          "context_position": 11606,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "下に既に「もし瑜伽中の諸尊の身を成ぜんと願わば、諸尊はみな大毘盧遮那の仏身に同じ」と釈したまうゆえに、なぜ心数の果をもって所簡と",
+          "context_position": 12797,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "れ人中の王たる輪王等に同じて三十二相を現ずるのである。よって毘盧遮那の三身の果位を証するを「常在人天」というのである。七義にいう",
+          "context_position": 18565,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "顕す〕すと見える。その上、因由を述べられるとき「諸尊はみな大毘盧遮那の仏身に同じ〔諸尊皆同大毘盧遮那仏身〕」というゆえに、上の発",
+          "context_position": 19487,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "述べられるとき「諸尊はみな大毘盧遮那の仏身に同じ〔諸尊皆同大毘盧遮那仏身〕」というゆえに、上の発心は心王・大毘盧遮那仏身を成ぜん",
+          "context_position": 19503,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "〔諸尊皆同大毘盧遮那仏身〕」というゆえに、上の発心は心王・大毘盧遮那仏身を成ぜんと願うと見える。ただし、上に別して人・法について",
+          "context_position": 19527,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "々に「発菩提心」の義は相違あるべきでない。しかるを、「みな大毘盧遮那に同じ」を由として「発菩提心」と名づける義を釈したまうことが",
+          "context_position": 21057,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "ゆえに果徳である。よって菩薩の因位に相応しない。ゆえに果徳の毘盧遮那に帰して釈を作すのである。一義にいう。毘盧遮那はこれ菩提心の",
+          "context_position": 21204,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "。ゆえに果徳の毘盧遮那に帰して釈を作すのである。一義にいう。毘盧遮那はこれ菩提心の本であるがゆえに、彼を由として「発菩提心」と名",
+          "context_position": 21227,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "じ〔諸尊皆同〕」等の文。 「諸尊」とは上の諸菩薩である。「大毘盧遮那」とは心王・大日尊である。およそ諸尊がみな大日の体性であるこ",
+          "context_position": 21529,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "七尊は、ならびにこれ法仏である。現に菩提を証す内眷属にして、毘盧遮那の互体である」という。『大日経疏』にいう、「毘盧遮那と鬼・畜",
+          "context_position": 21719,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "にして、毘盧遮那の互体である」という。『大日経疏』にいう、「毘盧遮那と鬼・畜とは、その身が平等である」という。またいう、「乃至、",
+          "context_position": 21745,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "ある」という。またいう、「乃至、諸の世天等は、ことごとくこれ毘盧遮那である」という。これらの諸文が分明である。それについて、自宗",
+          "context_position": 21793,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "門即普門に入らず」という義ならば、今の御釈は、諸尊がしばらく毘盧遮那の一徳に同ずる義であるべきである。よって分同〔部分的に同じ〕",
+          "context_position": 21937,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "阿闍梨とは妙吉祥〔文殊〕を指すと義を取る。これは海雲の記に「大日・金剛手・妙吉祥・龍樹等」と相承の次第を列ねるゆえに、龍樹所",
+          "context_position": 3222,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "。自門の中においてまた両義が見える。一義にいう、大阿闍梨とは大日を指す。龍猛の直師〔直接の師〕は金剛薩埵であるが、根本に約し",
+          "context_position": 3564,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "指す。龍猛の直師〔直接の師〕は金剛薩埵であるが、根本に約して大日を挙げる。密義は法身の説を規模とするゆえに、もっとも大日を指",
+          "context_position": 3597,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "して大日を挙げる。密義は法身の説を規模とするゆえに、もっとも大日を指すべきである。例えば『百法論』に「世尊の言のごとし」とい",
+          "context_position": 3625,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "」と名づける。またいう、「久しからずして大金剛阿闍梨位・法性大日の身を得べし」という。『大日経疏』には「乃至、毘盧遮那、これ",
+          "context_position": 3970,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "しからずして大金剛阿闍梨位・法性大日の身を得べし」という。『大日経疏』には「乃至、毘盧遮那、これを深秘の阿闍梨と名づける」と",
+          "context_position": 3984,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "、現生に世・出世間の悉地を成就することを得しめよ」という。『大日経』に弟子の相を説くとして「妙恵をもって身を厳る」という。『",
+          "context_position": 5408,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "、なんぞよく不思議の法を聞き、難信の教を信じよう」という。『大日経』の開題にいう、「上々決定の信解、空々無著の心智でなければ",
+          "context_position": 5495,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "大度量あって勇鋭にして、前の諸の住宮を楽わなければ、すなわち大日所乗の一体速疾神通の宝輅〔宝の車〕を許すべし」という。一処の",
+          "context_position": 5661,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "えに、大智慧海の中において秘密法を略出す」という。その上、『大日経』には「甚深無相の法は劣恵の堪えざる所であり、彼ら〔劣恵の",
+          "context_position": 6027,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "かりといえども、別して真如を開出して四信と立てるがごとし。『大日経疏』にいう、「機に差えて〔取り違えて〕授ければ、あるいは彼",
+          "context_position": 6583,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "鈍根と称し、もっぱら智根あるを利根と名づけて分別する。疏家〔大日経疏の著者〕の意は、信等の五根に各々利・鈍があると見える。よ",
+          "context_position": 6992,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "大悲決定をもって、永く外道・二乗の境界を超えたり」という。『大日経疏』には「声聞・縁覚の一切の法門は、大悲を遠離して自ら出要",
+          "context_position": 7639,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "を取る。一義にいう。外道は広く九種住心に通じるべきである。『大日経疏』にいう、「およそ一切の内証秘密の法を了せざる者は、みな",
+          "context_position": 8250,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "とする」という。この意では、道は内道〔仏道〕と見える。疏家〔大日経疏〕の御釈にいう、「なおこれ邪見の心をもって理外〔真理の外",
+          "context_position": 8843,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "は一切善法の本である。ゆえに六度の妙行には精進を体とする。『大日経疏』の末の巻に「精進はこれ一切善法の根本」等という。「無惑",
+          "context_position": 9375,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "るべきである。余教に「仏乗」の名字を立てるのは真実でない。『大日経疏』にいう、「浄仏というは、声聞法の中には阿羅漢を名づけて",
+          "context_position": 9883,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "界を面〔おもて〕とし、九尊心王は胎蔵に約すと見える。この外、大日一尊を心王とし、四仏以下をことごとく心数に属すかどうかは一つ",
+          "context_position": 10975,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "釈すとして「諸尊はみな大毘盧遮那の仏身に同じ」という。これは大日一尊を心王とする義に符順する。ただし高祖は処々の御釈に分明に",
+          "context_position": 11405,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "ゆえに。最初より倶時に三種の菩提心を発すべしと見える。一、『大日経疏』に「応に菩提心を発すべし〔応発菩提心〕」の経文を釈すと",
+          "context_position": 12213,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "志求阿耨多羅……不求余果〕」の心が決定するをいうのである。『大日経疏』に「応に菩提心を発すべし〔応発菩提心〕」とは「決定の誓",
+          "context_position": 13042,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "仏の秘号と開見〔開き現れる〕するを魔宮震動というのである。『大日経疏』に六種震動の義について浅略・深秘の釈を作す。それに准じ",
+          "context_position": 13990,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "魔に四種〔蘊魔・煩悩魔・死魔・天魔〕がある事を論じる項。 『大日経』にいう、「四魔を降伏して六種に解脱す」という。『大智律師",
+          "context_position": 15211,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "経ないが、しばらく発心の功能を歎ずる一辺である。したがって『大日経疏』の十一にいう、「具戒〔戒を具する〕によるがゆえには、常",
+          "context_position": 18084,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "王に帰して釈を作したまうのである。菩提心が心王であることは『大日経疏』に見える。「次と為す〔為次〕」の文。これについて一義に",
+          "context_position": 21329,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "文。 「諸尊」とは上の諸菩薩である。「大毘盧遮那」とは心王・大日尊である。およそ諸尊がみな大日の体性であること、『聖位経』に",
+          "context_position": 21539,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "ある。「大毘盧遮那」とは心王・大日尊である。およそ諸尊がみな大日の体性であること、『聖位経』にいう、「自性身および受用・変化",
+          "context_position": 21554,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "現に菩提を証す内眷属にして、毘盧遮那の互体である」という。『大日経疏』にいう、「毘盧遮那と鬼・畜とは、その身が平等である」と",
+          "context_position": 21735,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "。 「経営して財物を栄えしむる行〔作経栄財物行〕」の文。 『大日経疏』にいう、「『何ぞ商人心〔なんしょうにんしん〕』。いわく",
+          "context_position": 24284,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "龍樹",
+      "aliases": [
+        "龍猛",
+        "nāgārjuna",
+        "Nāgārjuna"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "中観派の祖。空海から見て付法第三祖（龍猛）。",
+      "sanskrit_canonical": "nāgārjuna",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "龍樹",
+          "count": 5
+        },
+        {
+          "form": "龍猛",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 8,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "〕を指すと義を取る。これは海雲の記に「大日・金剛手・妙吉祥・龍樹等」と相承の次第を列ねるゆえに、龍樹所造の論と定めて、しかも",
+          "context_position": 3233,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "「大日・金剛手・妙吉祥・龍樹等」と相承の次第を列ねるゆえに、龍樹所造の論と定めて、しかも大阿闍梨を妙吉祥菩薩と義を取る。ただ",
+          "context_position": 3251,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "提心論義』にいう、「初めに大阿闍梨というはこれ妙吉祥である。龍樹が妙吉祥に承けて、しかしてこの論を造る。海雲阿闍梨の金剛界の",
+          "context_position": 3369,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "いう、大日如来は金剛手に付し、金剛手は妙吉祥に付し、妙吉祥は龍樹に付し、龍樹は龍智に付し、龍智は金剛智に付し、金剛智は不空智",
+          "context_position": 3434,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "来は金剛手に付し、金剛手は妙吉祥に付し、妙吉祥は龍樹に付し、龍樹は龍智に付し、龍智は金剛智に付し、金剛智は不空智に付し、不空",
+          "context_position": 3440,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "次第するがゆえに。真頂等もまたこの義を存す。ただしこれらは「龍猛菩薩造」の文に違するがゆえに誤りである。安然は、大阿闍梨とは",
+          "context_position": 3165,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "おいてまた両義が見える。一義にいう、大阿闍梨とは大日を指す。龍猛の直師〔直接の師〕は金剛薩埵であるが、根本に約して大日を挙げ",
+          "context_position": 3570,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "に準拠すべきである。一義にいう、付法相承が金薩〔金剛薩埵〕・龍猛と次第するゆえに、大阿闍梨の語は金薩を指すべきである。およそ",
+          "context_position": 3761,
+          "matched_form": "龍猛"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 6
+        }
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "梨云〕」等の文。 これまで、題額〔題号〕の初めから訳者の号〔不空奉詔訳〕の終わりに至るまでの料簡〔検討〕が終わった。以下、本",
+          "context_position": 1108,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "門の義が不同である。智証等の意によれば、この論〔菩提心論〕を不空の集〔編集〕と定めるゆえに、大阿闍梨はすなわち金剛智を指すと",
+          "context_position": 3082,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "はすなわち金剛智を指すと意得るべきである。付法相承が金剛智・不空と次第するがゆえに。真頂等もまたこの義を存す。ただしこれらは",
+          "context_position": 3132,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "て、しかも大阿闍梨を妙吉祥菩薩と義を取る。ただし海雲の記は、不空の『出生義』、貞元の録、高祖〔空海〕の御釈等に相違するがゆえ",
+          "context_position": 3290,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "は龍樹に付し、龍樹は龍智に付し、龍智は金剛智に付し、金剛智は不空智に付し、不空智は善無畏に付す」という。次上〔今挙げた〕の義",
+          "context_position": 3463,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "龍樹は龍智に付し、龍智は金剛智に付し、金剛智は不空智に付し、不空智は善無畏に付す」という。次上〔今挙げた〕の義はいずれも自門",
+          "context_position": 3470,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "加持力の致す所である。法の最上はここに顕れている。生身の仏〔釈迦〕の所説の教えはこのようではない。迦葉から師子〔尊者〕に至っ",
+          "context_position": 2719,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "いうがごとし。彼の論は天親菩薩の所造である。付法相承の次第は釈迦・弥勒・無著・天親である。しかりといえども、中間の二代を超え",
+          "context_position": 3686,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "弥勒・無著・天親である。しかりといえども、中間の二代を超えて釈迦世尊を挙げる。今これに準拠すべきである。一義にいう、付法相承",
+          "context_position": 3719,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "心が大いに懊悩〔苦悩〕して、しかも自ら念言すらく、沙門瞿曇〔釈迦〕が今、樹下に在って五欲を捨て、端坐思惟して、久しからずして",
+          "context_position": 14404,
+          "matched_form": "釈迦"
+        }
+      ]
+    },
+    {
+      "canonical": "金剛智",
+      "aliases": [
+        "vajrabodhi",
+        "Vajrabodhi"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第五祖。金剛界の伝持。",
+      "sanskrit_canonical": "vajrabodhi",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "金剛智",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "提心論〕を不空の集〔編集〕と定めるゆえに、大阿闍梨はすなわち金剛智を指すと意得るべきである。付法相承が金剛智・不空と次第するが",
+          "context_position": 3107,
+          "matched_form": "金剛智"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "大阿闍梨はすなわち金剛智を指すと意得るべきである。付法相承が金剛智・不空と次第するがゆえに。真頂等もまたこの義を存す。ただしこ",
+          "context_position": 3128,
+          "matched_form": "金剛智"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "は妙吉祥に付し、妙吉祥は龍樹に付し、龍樹は龍智に付し、龍智は金剛智に付し、金剛智は不空智に付し、不空智は善無畏に付す」という。",
+          "context_position": 3452,
+          "matched_form": "金剛智"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "、妙吉祥は龍樹に付し、龍樹は龍智に付し、龍智は金剛智に付し、金剛智は不空智に付し、不空智は善無畏に付す」という。次上〔今挙げた",
+          "context_position": 3459,
+          "matched_form": "金剛智"
+        }
+      ]
+    },
+    {
+      "canonical": "観音",
+      "aliases": [
+        "観世音",
+        "観自在",
+        "avalokiteśvara",
+        "Avalokiteśvara"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "慈悲を司る菩薩。",
+      "sanskrit_canonical": "avalokiteśvara",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "観自在",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "げられるのである。『般若心経』五分の中の初め、人法総通分に「観自在菩薩、深般若波羅蜜多を行ず」という。この意である。観自在菩薩",
+          "context_position": 4870,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "に「観自在菩薩、深般若波羅蜜多を行ず」という。この意である。観自在菩薩は能修の人、般若波羅蜜は所修の法である。この外にまた、『",
+          "context_position": 4898,
+          "matched_form": "観自在"
+        }
+      ]
+    },
+    {
+      "canonical": "龍智",
+      "aliases": [
+        "nāgabodhi",
+        "Nāgabodhi"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "密教付法第四祖。龍樹の弟子。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "龍智",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "剛手に付し、金剛手は妙吉祥に付し、妙吉祥は龍樹に付し、龍樹は龍智に付し、龍智は金剛智に付し、金剛智は不空智に付し、不空智は善",
+          "context_position": 3443,
+          "matched_form": "龍智"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "金剛手は妙吉祥に付し、妙吉祥は龍樹に付し、龍樹は龍智に付し、龍智は金剛智に付し、金剛智は不空智に付し、不空智は善無畏に付す」",
+          "context_position": 3449,
+          "matched_form": "龍智"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "る項。 一には第四禅。『金剛頂経』に「仏が初めて成道のとき、不動〔明王〕をして毘沙遮〔大自在天〕・摩醯首羅を降伏せしむ」とい",
+          "context_position": 15043,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "吉蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "三論宗の大成者。嘉祥大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "吉蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "方便あり・巧方便なしの二類を出す。それを見るべし。また嘉祥〔吉蔵〕の『大乗玄論』に、巧恵ある者は二諦を学んで無所得を成ずと見",
+          "context_position": 9250,
+          "matched_form": "吉蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "智に付し、龍智は金剛智に付し、金剛智は不空智に付し、不空智は善無畏に付す」という。次上〔今挙げた〕の義はいずれも自門の嫡々相承",
+          "context_position": 3474,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "弥勒",
+      "aliases": [
+        "弥勒菩薩",
+        "慈氏",
+        "maitreya",
+        "Maitreya"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "未来仏。兜率天で待機。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "弥勒",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "ごとし。彼の論は天親菩薩の所造である。付法相承の次第は釈迦・弥勒・無著・天親である。しかりといえども、中間の二代を超えて釈迦",
+          "context_position": 3689,
+          "matched_form": "弥勒"
+        }
+      ]
+    },
+    {
+      "canonical": "恵果",
+      "aliases": [
+        "恵果阿闍梨",
+        "恵果和尚"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第七祖。空海の師。青龍寺の大徳。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "恵果",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "う、「上は高祖の法身・大毘盧遮那如来から、下は青龍の阿闍梨〔恵果〕に至るまで、嫡々〔代々正統に〕相続して今まで絶えない。これ",
+          "context_position": 2650,
+          "matched_form": "恵果"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "の文に違するがゆえに誤りである。安然は、大阿闍梨とは妙吉祥〔文殊〕を指すと義を取る。これは海雲の記に「大日・金剛手・妙吉祥・",
+          "context_position": 3201,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "る。この義は大いなる謬りである。一巻の『金剛頂経』にこれを「普賢・金剛薩埵・三昧耶・三十七智・深密相応の阿闍梨」と名づける。",
+          "context_position": 3915,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "法蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第三祖。賢首大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "法蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "』という。人の善品を害するゆえに魔と名づける」という。香象〔法蔵〕の『起信論疏』には「魔とは天魔、ここには『障碍』という」と",
+          "context_position": 16184,
+          "matched_form": "法蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "空海",
+      "aliases": [
+        "弘法大師",
+        "遍照金剛",
+        "大遍照金剛"
+      ],
+      "subcategory": "buddhist_master_japan",
+      "definition": "真言宗開祖。性霊集の主たる撰者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "空海",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "を取る。ただし海雲の記は、不空の『出生義』、貞元の録、高祖〔空海〕の御釈等に相違するがゆえに、これは正伝ではない。安然の『菩",
+          "context_position": 3307,
+          "matched_form": "空海"
+        }
+      ]
+    },
+    {
+      "canonical": "迦葉",
+      "aliases": [
+        "摩訶迦葉",
+        "kāśyapa",
+        "Kāśyapa"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子の筆頭。頭陀第一。",
+      "sanskrit_canonical": "kāśyapa",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "迦葉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "顕れている。生身の仏〔釈迦〕の所説の教えはこのようではない。迦葉から師子〔尊者〕に至って付法が絶えた。これにより空・有等の諍",
+          "context_position": 2738,
+          "matched_form": "迦葉"
+        }
+      ]
+    }
+  ]
+}

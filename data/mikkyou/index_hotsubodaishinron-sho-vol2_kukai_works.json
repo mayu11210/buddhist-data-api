@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "category": "空海著作・性霊集編纂物（kukai works）",
+  "source_corpus": "hotsubodaishinron-sho-vol2.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 25865,
+  "summary": {
+    "unique_terms": 4,
+    "total_occurrences": 7
+  },
+  "entries": [
+    {
+      "term": "十住心論",
+      "aliases": [],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "「ただ大毘盧遮那をば究竟阿闍梨と名づけることを得る」という。『十住心論』十にいう、「摩訶毘盧遮那は究竟大阿闍梨、金剛薩埵は大阿闍梨耶",
+          "context_position": 4054,
+          "raw_form": "十住心論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "く修すれば、すなわち頓に十地を超え、頓に仏地に入る」という。『十住心論』一にいう、「もし衆生あって輪王種性に生じ、大度量あって勇鋭に",
+          "context_position": 5604,
+          "raw_form": "十住心論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "出す。これすなわち、螟蛉〔小虫〕と大鵬の待対〔対比〕である。『十住心論』序には「前の諸の住宮を楽わず」という。これは広く九種住心を所",
+          "context_position": 8107,
+          "raw_form": "十住心論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "仏の名を得るが、後の勝れた乗に望めば戯論となる」という。また『十住心論』には、一道〔第八住心〕・極無〔第九住心〕をもって権仏〔仮の仏",
+          "context_position": 10050,
+          "raw_form": "十住心論"
+        }
+      ]
+    },
+    {
+      "term": "即身成仏義",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "以下をことごとく心数に属すかどうかは一つの尋ねである。一本の『即身成仏義』にいう、「金剛界の七十三尊においては、毘盧遮那はこれ心王、余",
+          "context_position": 11017,
+          "raw_form": "即身成仏義"
+        }
+      ]
+    },
+    {
+      "term": "秘蔵宝鑰",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "心の名を明かす。ゆえに『浄』の字をもってこれを表す」という。『秘蔵宝鑰』に「乗々〔それぞれの乗〕が自乗に仏の名を得るが、後の勝れた乗",
+          "context_position": 9998,
+          "raw_form": "秘蔵宝鑰"
+        }
+      ]
+    },
+    {
+      "term": "菩提心論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol2",
+          "context": "ゆえに、大円鏡智を心所に摂す。問う。その証文はいかん。答う。『菩提心論』にいう、ここにおいて印成せる法界体性の中より四仏を流出す、と",
+          "context_position": 11265,
+          "raw_form": "菩提心論"
+        }
+      ]
+    }
+  ],
+  "classification_table": {
+    "梵字悉曇字母并びに釈義": "空海著作",
+    "古今文字讃": "空海請来書",
+    "古今篆隷の文体": "空海請来書",
+    "続性霊集補闕鈔": "性霊集編纂物",
+    "大広智の影の讃": "idx12篇名（空海碑文）",
+    "大広智不空三蔵の影の讃": "idx12篇名（空海碑文・括弧前）",
+    "弁顕密二教論": "空海著作",
+    "吽字義": "空海著作",
+    "即身成仏義": "空海著作",
+    "声字実相義": "空海著作",
+    "般若心経秘鍵": "空海著作",
+    "秘蔵宝鑰": "空海著作",
+    "十住心論": "空海著作",
+    "秘密曼荼羅十住心論": "空海著作",
+    "三教指帰": "空海著作",
+    "聾瞽指帰": "空海著作",
+    "御請来目録": "空海著作",
+    "性霊集": "空海関連（弟子真済編）",
+    "遍照発揮性霊集": "空海関連（弟子真済編）",
+    "菩提心論": "空海関連（不空訳・真言宗根本論書）"
+  }
+}
