@@ -1,0 +1,516 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol4.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 18776,
+  "summary": {
+    "unique_terms": 4,
+    "unique_places": 4,
+    "total_occurrences": 65,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 1,
+        "occurrences": 60
+      },
+      "country_dynasty": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "mountain_buddhist": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "temple_china": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 60
+        }
+      ],
+      "occurrence_count": 60,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "然智・無碍智〔一切智自然智無碍智〕」等の文。 「いうところの安楽とは、乃至、方便して引き進める〔所言安楽者乃至方便引進〕」の",
+          "context_position": 542,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "文。 「いうところの安楽とは、乃至、方便して引き進める〔所言安楽者乃至方便引進〕」の文。 「いわく、行人……ゆえにあえて軽ん",
+          "context_position": 562,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "親〕」の文。 「衆生は愚昧にして〔衆生愚昧〕」等の文。 一、安楽の釈の一段について、四摂〔布施・愛語・利行・同事〕に分けて論",
+          "context_position": 810,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "至るまでの料簡〔検討〕が終わった。以下、利益の釈の始めから、安楽の釈の終わり、すなわち「真言の行者が方便して引き進める〔方便",
+          "context_position": 1010,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "。この一段の文は、初めには利益の釈であり、後の「いうところの安楽とは〔所言安楽〕」以下は安楽の釈である。両節の区分は分明であ",
+          "context_position": 1104,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "は、初めには利益の釈であり、後の「いうところの安楽とは〔所言安楽〕」以下は安楽の釈である。両節の区分は分明である。 「いうと",
+          "context_position": 1111,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "益の釈であり、後の「いうところの安楽とは〔所言安楽〕」以下は安楽の釈である。両節の区分は分明である。 「いうところの利益とは",
+          "context_position": 1118,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "者〕」等の文。 上は願を釈し、以下は行を釈す。行の中に利益・安楽の二行が分明である。名字の上では「行・願」と表し、釈の順序で",
+          "context_position": 1185,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "菩薩はいずれの願もみな利他である。よって無余の有情界を利益し安楽せんと願うところに、「福智無辺誓願集」等の余の四種の願もある",
+          "context_position": 1690,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "にいう、論文を願と行との二段に分けるべきではない。上は利益・安楽の総釈、「いうところの利益とは」以下は別釈と分別する。この総",
+          "context_position": 1876,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "誓った願を牒する〔受けて引く〕のである。それについて、利益・安楽の語について経論の施設〔説きかた〕は一様でない。しかしながら",
+          "context_position": 2031,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "しかしながら当段の意は、利益はもっぱら出世〔出世間〕に約し、安楽は「乃至、身命すら惜しまず、其れをして安んじ在らしめ、悦楽せ",
+          "context_position": 2087,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "〕」と釈したまう。ゆえにまず世間に約すと見える。ただし世間の安楽を因として出世の安楽を与うと見える。一義にいう、利益はもっぱ",
+          "context_position": 2168,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "えにまず世間に約すと見える。ただし世間の安楽を因として出世の安楽を与うと見える。一義にいう、利益はもっぱら出世に約し、安楽は",
+          "context_position": 2178,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "の安楽を与うと見える。一義にいう、利益はもっぱら出世に約し、安楽は世・出世に通ずと義を取る。 「一切有情を勧め発さしめんがた",
+          "context_position": 2207,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "々の配釈が、義に随って料簡があるはずである。 「いうところの安楽とは、乃至、方便して引き進める〔所言安楽者乃至方便引進〕」の",
+          "context_position": 11540,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "る。 「いうところの安楽とは、乃至、方便して引き進める〔所言安楽者乃至方便引進〕」の文。 この一段は安楽の行を釈す。それにつ",
+          "context_position": 11560,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "して引き進める〔所言安楽者乃至方便引進〕」の文。 この一段は安楽の行を釈す。それについて、「いうところの安楽とは〔所言安楽〕",
+          "context_position": 11580,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "文。 この一段は安楽の行を釈す。それについて、「いうところの安楽とは〔所言安楽〕」は、上の誓った所の行を牒する。すなわち「安",
+          "context_position": 11602,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "は安楽の行を釈す。それについて、「いうところの安楽とは〔所言安楽〕」は、上の誓った所の行を牒する。すなわち「安楽無余有情界」",
+          "context_position": 11609,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "楽とは〔所言安楽〕」は、上の誓った所の行を牒する。すなわち「安楽無余有情界」の安楽に当たるのである。「安楽」の語について、彼",
+          "context_position": 11633,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "」は、上の誓った所の行を牒する。すなわち「安楽無余有情界」の安楽に当たるのである。「安楽」の語について、彼の『法華〔経〕』の",
+          "context_position": 11642,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "牒する。すなわち「安楽無余有情界」の安楽に当たるのである。「安楽」の語について、彼の『法華〔経〕』の安楽行品には、有相安楽行",
+          "context_position": 11654,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "に当たるのである。「安楽」の語について、彼の『法華〔経〕』の安楽行品には、有相安楽行・無相安楽行の二種の行体を説く。彼の経文",
+          "context_position": 11674,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "「安楽」の語について、彼の『法華〔経〕』の安楽行品には、有相安楽行・無相安楽行の二種の行体を説く。彼の経文に「もし菩薩摩訶薩",
+          "context_position": 11683,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "について、彼の『法華〔経〕』の安楽行品には、有相安楽行・無相安楽行の二種の行体を説く。彼の経文に「もし菩薩摩訶薩、忍辱地に住",
+          "context_position": 11689,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "分別せず、これを菩薩摩訶薩の行と名づく」という。これは無相の安楽行を説くのである。また天台の『〔法華〕文句』には身・心に約し",
+          "context_position": 11772,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "説くのである。また天台の『〔法華〕文句』には身・心に約して「安楽」の二字を釈す。ただし彼らは「安楽」の名字が同じであるが、当",
+          "context_position": 11806,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "文句』には身・心に約して「安楽」の二字を釈す。ただし彼らは「安楽」の名字が同じであるが、当段の意趣とは少し相替わる。その故は",
+          "context_position": 11823,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "字が同じであるが、当段の意趣とは少し相替わる。その故は、彼の安楽行には身・口・意・慈悲等の四種を開いて、広く自利の安楽行を説",
+          "context_position": 11858,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "、彼の安楽行には身・口・意・慈悲等の四種を開いて、広く自利の安楽行を説く。今はもっぱら菩薩の利他門に約して、衆生をして悦楽せ",
+          "context_position": 11885,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "の義が各別である。所詮、彼は能行の人の身・心に約してもっぱら安楽の義を説き、今は所度の衆生について安楽の義を釈せられると見え",
+          "context_position": 11960,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "身・心に約してもっぱら安楽の義を説き、今は所度の衆生について安楽の義を釈せられると見える。それについて、「安楽」の二字のこと",
+          "context_position": 11979,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "の衆生について安楽の義を釈せられると見える。それについて、「安楽」の二字のこと。『文句』の釈に准じて義を取らば、今も所度の有",
+          "context_position": 12002,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "度の有情の身・心に約して分別すべきか。自・他は不同であるが、安楽を身・心に分別することは相違しないはずである。もしまた、「安",
+          "context_position": 12061,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "楽を身・心に分別することは相違しないはずである。もしまた、「安楽」の二字は必ずしも通用して〔ひとまとめにして〕分別すべきでな",
+          "context_position": 12092,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "むと義を取る。「いわく、行人〔謂行人〕」等の文。以下は正しく安楽の行相を釈す。中において、初めには世間の安楽を明かし、後の「",
+          "context_position": 12271,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "文。以下は正しく安楽の行相を釈す。中において、初めには世間の安楽を明かし、後の「既親近〔已〕」以下は出世の安楽を釈す。 「い",
+          "context_position": 12293,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "初めには世間の安楽を明かし、後の「既親近〔已〕」以下は出世の安楽を釈す。 「いわく、行人……ゆえにあえて軽んじ侮らない〔謂行",
+          "context_position": 12316,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "た大悲門の中において〔又於大悲門中〕」等の文。 以下は正しく安楽の行を明かす。この中に、初めには総表〔総じての表示〕、「衆生",
+          "context_position": 13065,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "中においてまた悲・智を分かつとき、上の利益は智門に約し、今の安楽は大悲門に約すゆえに、上の大智に対して「大悲門中」等と御釈が",
+          "context_position": 13221,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "義を取る。意は、上の利益の大智門をもって衆生を度すに堪えず、安楽の大悲門の中において度すべき、という論釈と義を取る。およそ悲",
+          "context_position": 13286,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "のごときは大悲の徳と見える。今は行願・大悲の中に、また利益・安楽という悲・智の二門があると意得るべきである。一義にいう。上の",
+          "context_position": 13431,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "門があると意得るべきである。一義にいう。上の利益は大慈、今の安楽は大悲である。ゆえに上の大慈に対して「大悲門中」と釈したまう",
+          "context_position": 13471,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "もに抜苦・与楽の義があるはずである。よって今は大悲門について安楽の義を釈せられるのである。一義にいう。利益・安楽はともに行願",
+          "context_position": 13577,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "悲門について安楽の義を釈せられるのである。一義にいう。利益・安楽はともに行願・大悲の中の二行である。しかるに、上の利益の大悲",
+          "context_position": 13601,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "悲の中の二行である。しかるに、上の利益の大悲に堪えない人を、安楽の大悲をもって度すべし、という意である。また「大悲の門」の語",
+          "context_position": 13641,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "義が符順する。ある一義にいう。上の利益は大悲・抜苦の義、今の安楽は大慈・与楽の義である。しかるに大慈・与楽の中において、また",
+          "context_position": 13714,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "てまた「大悲門において」というのである。この義ならば、ともに安楽の中の二行を待対する〔対比する〕又の語と意得るべきである。 ",
+          "context_position": 13892,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "んじ在らしめ〔令其安在〕」以下は、所化〔教化される側〕の機の安楽の相を明かす。 「衆生の願に随って、乃至、惜しまない〔随衆生",
+          "context_position": 14041,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "在らしめ、悦楽せしむ〔令其安在使令悦楽〕」の文。これは世間の安楽の行を結成する。「既に親近し已りて〔既親近已〕」等の文。以下",
+          "context_position": 16040,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "成する。「既に親近し已りて〔既親近已〕」等の文。以下は出世の安楽の行を明かす。「既に親近し已りて、師の言を信任す〔既親近已信",
+          "context_position": 16076,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "えに「一切有情を勧発して、悉く無上菩提に安住せしむ」という。安楽は鈍根の人に対するゆえに、檀施をもって親近せしめ、親近の後に",
+          "context_position": 16529,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "檀施をもって親近せしめ、親近の後に教導する。委細に論ずれば、安楽の中にまた利・鈍がある。ゆえに「其の相親しきに因りて、また教",
+          "context_position": 16574,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "これについて学者がさまざまの義を存す。一義にいう。釈に利益・安楽の二段を分かち、機に利・鈍の二重の浅深があるが、能化の教法は",
+          "context_position": 16757,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "直に最上乗教をもって一切有情を勧発して無上菩提に安住せしむ。安楽の釈の中の二重の起尽〔展開〕は、直入の機ではないがゆえに、施",
+          "context_position": 16856,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "。一義にいう。利益の段は真言をもって衆生を度する義を明かし、安楽の段は衆生の楽欲に随って前九〔九種住心〕の教法をもって、応に",
+          "context_position": 16980,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "法をもって度を得さしめず」といって、もっぱら小乗を嫌われる。安楽の釈の意は、広く二乗・人天等の教法をもって衆生を度すべき義を",
+          "context_position": 17117,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "の行者の本意に任せてもっぱら真言の教法を示す義に子細はない。安楽の意は、初めに機根を引摂して密教を示し、後の「衆生愚昧」以下",
+          "context_position": 17247,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "に、第三に勝義心を発す」という。この御釈は分明である。 一、安楽の釈の一段について、四摂〔布施・愛語・利行・同事〕に分けて論",
+          "context_position": 17641,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "秦",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。始皇帝による天下統一。",
+      "matched_forms": [
+        {
+          "form": "秦",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "そ振旦〔中国〕の翻訳について、総じて四本の不同がある。一には秦の代の覚賢三蔵〔仏駄跋陀羅〕の訳、すなわち六十巻、これを秦経",
+          "context_position": 7757,
+          "matched_form": "秦"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "理・智を並べ出す。よってその義が周備〔完備〕している。流布の秦・唐両訳の経は、しばらく智を挙げて理を兼ねると意得るべきであ",
+          "context_position": 8775,
+          "matched_form": "秦"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 1
+        },
+        {
+          "form": "須弥",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "六度経』にいう、「我れ昔すでに一切の身命を捨てること妙高山〔須弥山〕のごとし。我がこの身を観ずるに、なお芥子のごとし。身命すら",
+          "context_position": 14980,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "ある。五に普眼経、すなわち善財童子が見たもの。大海の量の墨、須弥を集めた筆をもって、この普眼法門一品の中の一門、一門の中の一",
+          "context_position": 7412,
+          "matched_form": "須弥"
+        }
+      ]
+    },
+    {
+      "canonical": "青龍寺",
+      "aliases": [],
+      "subcategory": "temple_china",
+      "definition": "長安にあった密教の中心寺院。恵果阿闍梨の住所。",
+      "matched_forms": [
+        {
+          "form": "青龍寺",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "に随う摂化〔教化〕の方便が欠けるはずである。したがって大師が青龍寺〔の恵果〕の徳行を釈したまうとき、「貪を済うに財をもってす」",
+          "context_position": 15764,
+          "matched_form": "青龍寺"
+        }
+      ]
+    }
+  ]
+}

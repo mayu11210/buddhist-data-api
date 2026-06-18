@@ -3,7 +3,7 @@
   "category": "sanskrit",
   "category_description": "梵語 IAST",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-17",
+  "generated_at": "2026-06-18",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -22,10 +22,11 @@
     "rishushaku",
     "hotsubodaishinron-sho-vol1",
     "dainichikyo-sho-vol2",
-    "hotsubodaishinron-sho-vol3"
+    "hotsubodaishinron-sho-vol3",
+    "hotsubodaishinron-sho-vol4"
   ],
-  "corpora_count": 18,
-  "corpora_with_data": 18,
+  "corpora_count": 19,
+  "corpora_with_data": 19,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
@@ -123,6 +124,11 @@
       "hotsubodaishinron-sho-vol3": {
         "unique": 1,
         "occurrences": 1,
+        "present": true
+      },
+      "hotsubodaishinron-sho-vol4": {
+        "unique": 0,
+        "occurrences": 0,
         "present": true
       }
     }

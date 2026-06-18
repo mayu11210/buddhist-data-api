@@ -3,7 +3,7 @@
   "category": "places",
   "category_description": "地名（寺院・山・国・王朝・聖地・宇宙論界）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-17",
+  "generated_at": "2026-06-18",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -22,18 +22,19 @@
     "rishushaku",
     "hotsubodaishinron-sho-vol1",
     "dainichikyo-sho-vol2",
-    "hotsubodaishinron-sho-vol3"
+    "hotsubodaishinron-sho-vol3",
+    "hotsubodaishinron-sho-vol4"
   ],
-  "corpora_count": 18,
-  "corpora_with_data": 18,
+  "corpora_count": 19,
+  "corpora_with_data": 19,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1009,
+    "total_occurrences": 1074,
     "terms_in_multiple_corpora": 43,
-    "max_corpus_coverage": 14,
+    "max_corpus_coverage": 15,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -124,10 +125,61 @@
         "unique": 2,
         "occurrences": 29,
         "present": true
+      },
+      "hotsubodaishinron-sho-vol4": {
+        "unique": 4,
+        "occurrences": 65,
+        "present": true
       }
     }
   },
   "entries": [
+    {
+      "canonical": "安楽",
+      "total_occurrence_count": 153,
+      "covered_corpora_count": 15,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol2",
+        "hannya-hiken",
+        "hizo-houyaku",
+        "hizoki",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol3",
+        "hotsubodaishinron-sho-vol4",
+        "jujushinron",
+        "rishikyo",
+        "rishushaku",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "sokushin-jobutsu": 2,
+        "hannya-hiken": 1,
+        "hizo-houyaku": 8,
+        "dainichikyo-sho-vol1": 1,
+        "bodaishinron": 3,
+        "jujushinron": 16,
+        "hizoki": 1,
+        "yugikyo": 2,
+        "rishikyo": 9,
+        "rishushaku": 8,
+        "hotsubodaishinron-sho-vol1": 1,
+        "dainichikyo-sho-vol2": 6,
+        "hotsubodaishinron-sho-vol3": 28,
+        "hotsubodaishinron-sho-vol4": 60
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "極楽浄土の異称。",
+        "aliases": [
+          "安楽国"
+        ]
+      }
+    },
     {
       "canonical": "欲界",
       "total_occurrence_count": 98,
@@ -161,50 +213,6 @@
       "metadata": {
         "subcategory": "cosmological_realm",
         "definition": "三界の最下。欲望が支配する世界。"
-      }
-    },
-    {
-      "canonical": "安楽",
-      "total_occurrence_count": 93,
-      "covered_corpora_count": 14,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "dainichikyo-sho-vol2",
-        "hannya-hiken",
-        "hizo-houyaku",
-        "hizoki",
-        "hotsubodaishinron-sho-vol1",
-        "hotsubodaishinron-sho-vol3",
-        "jujushinron",
-        "rishikyo",
-        "rishushaku",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "sokushin-jobutsu": 2,
-        "hannya-hiken": 1,
-        "hizo-houyaku": 8,
-        "dainichikyo-sho-vol1": 1,
-        "bodaishinron": 3,
-        "jujushinron": 16,
-        "hizoki": 1,
-        "yugikyo": 2,
-        "rishikyo": 9,
-        "rishushaku": 8,
-        "hotsubodaishinron-sho-vol1": 1,
-        "dainichikyo-sho-vol2": 6,
-        "hotsubodaishinron-sho-vol3": 28
-      },
-      "metadata": {
-        "subcategory": "cosmological_realm",
-        "definition": "極楽浄土の異称。",
-        "aliases": [
-          "安楽国"
-        ]
       }
     },
     {
@@ -313,14 +321,15 @@
     },
     {
       "canonical": "須弥山",
-      "total_occurrence_count": 57,
-      "covered_corpora_count": 13,
+      "total_occurrence_count": 59,
+      "covered_corpora_count": 14,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "hizo-houyaku",
         "hizoki",
+        "hotsubodaishinron-sho-vol4",
         "jujushinron",
         "nikyo-ron",
         "rishushaku",
@@ -343,7 +352,8 @@
         "hizoki": 2,
         "yugikyo": 1,
         "rishushaku": 2,
-        "dainichikyo-sho-vol2": 2
+        "dainichikyo-sho-vol2": 2,
+        "hotsubodaishinron-sho-vol4": 2
       },
       "metadata": {
         "subcategory": "mountain_buddhist",
@@ -476,6 +486,31 @@
       }
     },
     {
+      "canonical": "秦",
+      "total_occurrence_count": 19,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol4",
+        "jujushinron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 10,
+        "hizo-houyaku": 2,
+        "sankyo-shiki": 3,
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol1": 1,
+        "hotsubodaishinron-sho-vol4": 2
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国王朝。始皇帝による天下統一。"
+      }
+    },
+    {
       "canonical": "陳",
       "total_occurrence_count": 19,
       "covered_corpora_count": 3,
@@ -522,26 +557,24 @@
       }
     },
     {
-      "canonical": "秦",
-      "total_occurrence_count": 17,
-      "covered_corpora_count": 5,
+      "canonical": "青龍寺",
+      "total_occurrence_count": 16,
+      "covered_corpora_count": 4,
       "covered_corpora": [
-        "hizo-houyaku",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol4",
         "jujushinron",
-        "sankyo-shiki",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 10,
-        "hizo-houyaku": 2,
-        "sankyo-shiki": 3,
-        "jujushinron": 1,
-        "hotsubodaishinron-sho-vol1": 1
+        "shoryoshu_miyasaka": 11,
+        "jujushinron": 2,
+        "hotsubodaishinron-sho-vol1": 2,
+        "hotsubodaishinron-sho-vol4": 1
       },
       "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "中国王朝。始皇帝による天下統一。"
+        "subcategory": "temple_china",
+        "definition": "長安にあった密教の中心寺院。恵果阿闍梨の住所。"
       }
     },
     {
@@ -615,25 +648,6 @@
           "耆闍崛山",
           "gṛdhrakūṭa"
         ]
-      }
-    },
-    {
-      "canonical": "青龍寺",
-      "total_occurrence_count": 15,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "hotsubodaishinron-sho-vol1",
-        "jujushinron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 11,
-        "jujushinron": 2,
-        "hotsubodaishinron-sho-vol1": 2
-      },
-      "metadata": {
-        "subcategory": "temple_china",
-        "definition": "長安にあった密教の中心寺院。恵果阿闍梨の住所。"
       }
     },
     {

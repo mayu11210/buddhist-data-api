@@ -3,7 +3,7 @@
   "category": "kukai_works",
   "category_description": "空海著作・性霊集編纂物（自著言及）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-17",
+  "generated_at": "2026-06-18",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -22,17 +22,18 @@
     "rishushaku",
     "hotsubodaishinron-sho-vol1",
     "dainichikyo-sho-vol2",
-    "hotsubodaishinron-sho-vol3"
+    "hotsubodaishinron-sho-vol3",
+    "hotsubodaishinron-sho-vol4"
   ],
-  "corpora_count": 18,
-  "corpora_with_data": 18,
+  "corpora_count": 19,
+  "corpora_with_data": 19,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 14,
-    "total_occurrences": 78,
-    "terms_in_multiple_corpora": 5,
+    "total_occurrences": 79,
+    "terms_in_multiple_corpora": 6,
     "max_corpus_coverage": 7,
     "by_corpus": {
       "shoryoshu_miyasaka": {
@@ -123,6 +124,11 @@
       "hotsubodaishinron-sho-vol3": {
         "unique": 6,
         "occurrences": 13,
+        "present": true
+      },
+      "hotsubodaishinron-sho-vol4": {
+        "unique": 1,
+        "occurrences": 1,
         "present": true
       }
     }
@@ -227,6 +233,19 @@
       }
     },
     {
+      "term": "性霊集",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol3",
+        "hotsubodaishinron-sho-vol4"
+      ],
+      "by_corpus": {
+        "hotsubodaishinron-sho-vol3": 1,
+        "hotsubodaishinron-sho-vol4": 1
+      }
+    },
+    {
       "term": "三教指帰",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -268,17 +287,6 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
-      }
-    },
-    {
-      "term": "性霊集",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "hotsubodaishinron-sho-vol3"
-      ],
-      "by_corpus": {
-        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {

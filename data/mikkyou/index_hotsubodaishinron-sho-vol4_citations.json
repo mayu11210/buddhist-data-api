@@ -1,0 +1,829 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "hotsubodaishinron-sho-vol4.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 18776,
+  "summary": {
+    "unique_terms": 48,
+    "total_occurrences": 79
+  },
+  "entries": [
+    {
+      "term": "華厳経",
+      "aliases": [],
+      "occurrence_count": 8,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "得さしめざるが故に〔是故不以二乗之法而令得度故〕」の文。 「『華厳経』にいう、一として真如の智恵を具えない衆生はない〔華厳経云無一",
+          "context_position": 326,
+          "raw_form": "華厳経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": " 一、『華厳〔経〕』の名づけ〔得名〕について論じる項。 一、『華厳経』を『雑花経』と名づけることについて論じる項。 「ただ妄想・顛",
+          "context_position": 405,
+          "raw_form": "華厳経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "得度故〕」の文。 これは上の因由を結成〔結論づける〕。「故に『華厳経』にいう〔故華厳経云〕」等の文。これは経文を引証して、上の因由",
+          "context_position": 6418,
+          "raw_form": "華厳経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "を引かれる中で、多く『華厳』の文を証す。また引証の中で最初に『華厳経』を挙げられることは、『華厳』はこれ『金剛頂経』の浅略である。",
+          "context_position": 6897,
+          "raw_form": "華厳経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "〔かなう〕がゆえに、かくのごとく御引証があると義を取る。 「『華厳経』にいう、一として真如の智恵を具えない衆生はない〔華厳経云無一",
+          "context_position": 6998,
+          "raw_form": "華厳経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "恵〕」の文。 これは一切衆生が仏智を具足する義を説く。およそ『華厳経』にはその部類が多い。清涼〔澄観〕の『略策』に十重の差別を挙げ",
+          "context_position": 7071,
+          "raw_form": "華厳経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "かに〔成就〕して、彼の十身を飾るのが厳である」という。 一、『華厳経』を『雑花経』と名づけることについて論じる項。 「一として真如",
+          "context_position": 8404,
+          "raw_form": "華厳経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "着を証得しない衆生はない。顛倒は二に通ず」という。これは今の『華厳経』の文について釈を作す処である。所詮、かくのごとくの名字におい",
+          "context_position": 10253,
+          "raw_form": "華厳経"
+        }
+      ]
+    },
+    {
+      "term": "釈摩訶衍論",
+      "aliases": [],
+      "occurrence_count": 8,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "釈す。あるいは「二乗の人は法執あるが故に成仏を得ず」という。『釈摩訶衍論』には、因縁分の中に「二乗の人を一・二・六・八の四処に取る」由",
+          "context_position": 2998,
+          "raw_form": "釈摩訶衍論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "経』には「終に小乗をもって衆生を済度せず」という。『十住論』『釈摩訶衍論』等の論釈は上のとおりである。また『梵網古迹』には「『大集経』",
+          "context_position": 3567,
+          "raw_form": "釈摩訶衍論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "の「有性・無性、斉しく仏道を成ず〔有性無性斎成仏道〕」の説、『釈摩訶衍論』の「一切衆生みな本覚あり〔一切衆生皆有本覚〕」の御釈、これら",
+          "context_position": 4930,
+          "raw_form": "釈摩訶衍論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "という。これらの意は分明である。それについて、如来蔵のこと。『釈摩訶衍論』には、つぶさに十如来蔵を釈す。よって機に随って浅深が不同であ",
+          "context_position": 5594,
+          "raw_form": "釈摩訶衍論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "義であるべきである。必ずしも隠覆の義に限るべきでない。およそ『釈摩訶衍論』の意には、十如来蔵に随って「蔵」の義が一様でない。論の第二巻",
+          "context_position": 6306,
+          "raw_form": "釈摩訶衍論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "論』には「一切衆生悉く真如あり〔一切衆生悉有真如〕」という。『釈摩訶衍論』には「一切衆生みな本覚あり〔一切衆生皆有本覚〕」という。今の",
+          "context_position": 8704,
+          "raw_form": "釈摩訶衍論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "は分明である。それについて、財施・法施・無畏施の三種がある。『釈摩訶衍論』には財物施・随応施・教法施と名づける。その中に、当段の施は財",
+          "context_position": 14136,
+          "raw_form": "釈摩訶衍論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "べし」に至るは法施。「衆生は愚昧にして」以下は無畏施である。『釈摩訶衍論』に明かす所の随応施は、無畏施と大同である。彼の随応施の釈にい",
+          "context_position": 18174,
+          "raw_form": "釈摩訶衍論"
+        }
+      ]
+    },
+    {
+      "term": "大日経",
+      "aliases": [],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "を発せば、真言の行を修する菩薩の法器となるをもって」という。『大日経』の疏〔『大日経疏』〕にいう、「一闡提〔成仏の見込みなしとされ",
+          "context_position": 5480,
+          "raw_form": "大日経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "、立てる所の義を成立したまう。勝義・行願の二段には、『華厳』『大日経』『観経』『涅槃経』の四種の経を引き、第三の三摩地菩提心には、",
+          "context_position": 6654,
+          "raw_form": "大日経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "刹塵智を一切智と名づける。自然智とは、胎蔵本有の智体を指す。『大日経』の疏に中台大日を釈すとして「行者の無師智の毘盧遮那」という。",
+          "context_position": 11426,
+          "raw_form": "大日経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "いう論釈と義を取る。およそ悲・智の分別に重々があること。彼の『大日経』所説の内眷属について、疏に「一向にこれ如来の智印である」と釈",
+          "context_position": 13334,
+          "raw_form": "大日経"
+        }
+      ]
+    },
+    {
+      "term": "涅槃経",
+      "aliases": [],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "論〔宗〕以上は「一切衆生悉有仏性」の義を存す〔保つ〕。よって『涅槃経』の「一切衆生悉有仏性」の文、『円覚経』の「有性・無性、斉しく",
+          "context_position": 4876,
+          "raw_form": "涅槃経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "明である。当段の論釈はこの意である。しかるに法相宗の意は、「『涅槃経』は理性および少分の一切に拠る」と釈して、「一切衆生仏性具足」",
+          "context_position": 5019,
+          "raw_form": "涅槃経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "立したまう。勝義・行願の二段には、『華厳』『大日経』『観経』『涅槃経』の四種の経を引き、第三の三摩地菩提心には、両部の大経および『",
+          "context_position": 6663,
+          "raw_form": "涅槃経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "よび相を分別するを妄想と名づける」という。 一、顛倒の事。 『涅槃経』には四顛倒の義を明かす。慈恩〔基〕の『般若心経幽贊』には七種",
+          "context_position": 10507,
+          "raw_form": "涅槃経"
+        }
+      ]
+    },
+    {
+      "term": "華厳",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "引証して、立てる所の義を成立したまう。勝義・行願の二段には、『華厳』『大日経』『観経』『涅槃経』の四種の経を引き、第三の三摩地菩",
+          "context_position": 6650,
+          "raw_form": "華厳"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "る。それについて、勝義・行願の釈段に諸経を引かれる中で、多く『華厳』の文を証す。また引証の中で最初に『華厳経』を挙げられることは",
+          "context_position": 6877,
+          "raw_form": "華厳"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "文を証す。また引証の中で最初に『華厳経』を挙げられることは、『華厳』はこれ『金剛頂経』の浅略である。この論〔菩提心論〕は金剛頂部",
+          "context_position": 6912,
+          "raw_form": "華厳"
+        }
+      ]
+    },
+    {
+      "term": "起信論",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "ら理を挙げ、智を挙げることが、出没不定〔一定しない〕である。『起信論』には「一切衆生悉く真如あり〔一切衆生悉有真如〕」という。『釈",
+          "context_position": 8671,
+          "raw_form": "起信論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "。真如の理を証する智なるがゆえに「真如智恵」というのである。『起信論』にいう、「『釈論』の四にいう、彼の煩悩碍は多く散動の性であり",
+          "context_position": 9202,
+          "raw_form": "起信論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "は、身命を捨てて布施を行じ、妻子を許して他人に与う」という。『起信論』にいう、「いかんが施門を修行するか。もし一切の来たり求索する",
+          "context_position": 14639,
+          "raw_form": "起信論"
+        }
+      ]
+    },
+    {
+      "term": "円覚経",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "を存す〔保つ〕。よって『涅槃経』の「一切衆生悉有仏性」の文、『円覚経』の「有性・無性、斉しく仏道を成ず〔有性無性斎成仏道〕」の説、",
+          "context_position": 4895,
+          "raw_form": "円覚経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "〔権教・小乗〕に約す。顛倒は二〔凡夫と権小〕に通ずる。宗密の『円覚経』の疏抄にいう、「仏子よ、一として、凡夫の妄想・権小の執着を証",
+          "context_position": 10191,
+          "raw_form": "円覚経"
+        }
+      ]
+    },
+    {
+      "term": "大日経疏",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "行を修する菩薩の法器となるをもって」という。『大日経』の疏〔『大日経疏』〕にいう、「一闡提〔成仏の見込みなしとされる者〕に、明らかに",
+          "context_position": 5488,
+          "raw_form": "大日経疏"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "貪を済うには財をもってし、愚を導くには法をもってす」という。『大日経疏』にいう、「もしこれら乏しき所があれば、我れはなお身命を恡まず",
+          "context_position": 14892,
+          "raw_form": "大日経疏"
+        }
+      ]
+    },
+    {
+      "term": "探玄記",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "ある。義の契当に随って了簡すべきである。 一、香象〔法蔵〕の『探玄記』、清涼〔澄観〕の『大疏演義抄』等の釈を見るべきである。 一、",
+          "context_position": 10337,
+          "raw_form": "探玄記"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "はその意が同じであるから、義において相違はない。これについて『探玄記』の十二にいう、「一切智とはこれ始覚智、無師智とはこれ本覚智、",
+          "context_position": 11045,
+          "raw_form": "探玄記"
+        }
+      ]
+    },
+    {
+      "term": "法華〔経〕",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "余有情界」の安楽に当たるのである。「安楽」の語について、彼の『法華〔経〕』の安楽行品には、有相安楽行・無相安楽行の二種の行体を説く。彼",
+          "context_position": 11666,
+          "raw_form": "法華〔経〕"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "て軽慢せず〔不敢軽慢〕」の文。これは正しく不軽の行を明かす。『法華〔経〕』の第七にいう、「その時に一の菩薩比丘あり、常不軽と名づく。得",
+          "context_position": 12542,
+          "raw_form": "法華〔経〕"
+        }
+      ]
+    },
+    {
+      "term": "華厳〔経〕",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "い衆生はない〔華厳経云無一衆生而不具真如智恵〕」の文。 一、『華厳〔経〕』の名づけ〔得名〕について論じる項。 一、『華厳経』を『雑花経",
+          "context_position": 378,
+          "raw_form": "華厳〔経〕"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "」という。これは当段の引く所と文言が大いに不同である。 一、『華厳〔経〕』の名づけ〔得名〕について論じる項。 清涼〔澄観〕の釈にいう、",
+          "context_position": 8299,
+          "raw_form": "華厳〔経〕"
+        }
+      ]
+    },
+    {
+      "term": "釈経",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "して、一切衆生は無上菩提の法器でないものはない」という。また『釈経』にいう、「阿闍梨が弟子の心中の本有如来蔵性を加持して金剛加持",
+          "context_position": 5416,
+          "raw_form": "釈経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "身・口・意の金剛を修す」という。これらの意は分明である。また『釈経』にいう、「いわゆる一切有情は如来蔵なり。普賢菩薩の一切我なる",
+          "context_position": 6047,
+          "raw_form": "釈経"
+        }
+      ]
+    },
+    {
+      "term": "雑花経",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "〔経〕』の名づけ〔得名〕について論じる項。 一、『華厳経』を『雑花経』と名づけることについて論じる項。 「ただ妄想・顛倒〔但以妄想",
+          "context_position": 411,
+          "raw_form": "雑花経"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "して、彼の十身を飾るのが厳である」という。 一、『華厳経』を『雑花経』と名づけることについて論じる項。 「一として真如の智恵を具え",
+          "context_position": 8410,
+          "raw_form": "雑花経"
+        }
+      ]
+    },
+    {
+      "term": "〔弁顕密〕二教論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "って、真言の行者において兼修すべきでない。これをもって大師は『〔弁顕密〕二教論』に、諸の顕教の行果を明かすとして「行を談ずれば六度を宗と為し",
+          "context_position": 15162,
+          "raw_form": "〔弁顕密〕二教論"
+        }
+      ]
+    },
+    {
+      "term": "〔摩訶止観〕弘決",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "には「みな性に背くによるがゆえに顛倒と名づく」という。天台の『〔摩訶止観〕弘決』にいう、「顛倒とは、顛は即ち頂である。頂を下に堕すゆえに顛倒",
+          "context_position": 10589,
+          "raw_form": "〔摩訶止観〕弘決"
+        }
+      ]
+    },
+    {
+      "term": "〔法華〕文句",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "名づく」という。これは無相の安楽行を説くのである。また天台の『〔法華〕文句』には身・心に約して「安楽」の二字を釈す。ただし彼らは「安楽」",
+          "context_position": 11788,
+          "raw_form": "〔法華〕文句"
+        }
+      ]
+    },
+    {
+      "term": "〔法華〕玄贊",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "の衆生において不軽の行を修すと意得るべきである。慈恩〔基〕の『〔法華〕玄贊』の第十にいう、「『我れ深く汝らを敬って、あえて驕慢せず』とは",
+          "context_position": 12810,
+          "raw_form": "〔法華〕玄贊"
+        }
+      ]
+    },
+    {
+      "term": "修習の人、無余の有情界〔修習之人無余有情界〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "』とは何れの願か。答う。しばらく彼の論〔菩提心論〕に依らば、『修習の人、無余の有情界〔修習之人無余有情界〕』という〔取意〕。これを発願と名づく。『利益』というは『有情を",
+          "context_position": 1368,
+          "raw_form": "修習の人、無余の有情界〔修習之人無余有情界〕"
+        }
+      ]
+    },
+    {
+      "term": "六度経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "はなお身命を恡まず、難行・苦行してこれを利楽すべし」という。『六度経』にいう、「我れ昔すでに一切の身命を捨てること妙高山〔須弥山〕",
+          "context_position": 14949,
+          "raw_form": "六度経"
+        }
+      ]
+    },
+    {
+      "term": "利益",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "〔修習之人無余有情界〕』という〔取意〕。これを発願と名づく。『利益』というは『有情を勧発し、安在悦楽せしむ〔勧発有情安在悦楽〕』",
+          "context_position": 1410,
+          "raw_form": "利益"
+        }
+      ]
+    },
+    {
+      "term": "勝鬘経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "足するを名づけて法身と為し、如来蔵と名づく」という。この外、『勝鬘経』にいう、「隠れたるを如来〔蔵〕と名づけ、顕れたるを法身と名づ",
+          "context_position": 5711,
+          "raw_form": "勝鬘経"
+        }
+      ]
+    },
+    {
+      "term": "十住毘婆沙論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "類の衆生に超過することを顕示せんと欲うがための故に」という。『十住毘婆沙論』には「もし二乗地に堕すれば、畢竟じて仏道を遮す〔さまたげる〕",
+          "context_position": 3121,
+          "raw_form": "十住毘婆沙論"
+        }
+      ]
+    },
+    {
+      "term": "十住論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "って『法華経』には「終に小乗をもって衆生を済度せず」という。『十住論』『釈摩訶衍論』等の論釈は上のとおりである。また『梵網古迹』に",
+          "context_position": 3562,
+          "raw_form": "十住論"
+        }
+      ]
+    },
+    {
+      "term": "千手儀軌",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "、六大を指して「仏性・法性・真如・如来蔵等」という。また経〔『千手儀軌』〕にいう、「六道・四生の一切有情はみな如来蔵を具す。三種の身",
+          "context_position": 5982,
+          "raw_form": "千手儀軌"
+        }
+      ]
+    },
+    {
+      "term": "即身〔成仏〕義",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "る。またこの理・智は両部〔金剛界・胎蔵〕の体性である。異本の『即身〔成仏〕義』に、「一切衆生の自身の中に金剛界・胎蔵の曼荼羅があり、因果を",
+          "context_position": 9616,
+          "raw_form": "即身〔成仏〕義"
+        }
+      ]
+    },
+    {
+      "term": "大乗義章",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "〕の『大疏演義抄』等の釈を見るべきである。 一、妄想の事。 『大乗義章』にいう、「妄想というは、いわゆる凡夫の実に迷う心である。諸法",
+          "context_position": 10378,
+          "raw_form": "大乗義章"
+        }
+      ]
+    },
+    {
+      "term": "大疏演義抄",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "すべきである。 一、香象〔法蔵〕の『探玄記』、清涼〔澄観〕の『大疏演義抄』等の釈を見るべきである。 一、妄想の事。 『大乗義章』にいう",
+          "context_position": 10350,
+          "raw_form": "大疏演義抄"
+        }
+      ]
+    },
+    {
+      "term": "大集経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "摩訶衍論』等の論釈は上のとおりである。また『梵網古迹』には「『大集経』にいうがごとし。小乗を勧学すれば、これ魔業なり」という。当段",
+          "context_position": 3599,
+          "raw_form": "大集経"
+        }
+      ]
+    },
+    {
+      "term": "守護経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "れ根本無明である。執着は人・法二執、すなわち枝末無明である。『守護経』の第三に「問う。煩悩は何をもって本とするか。仏のたまわく、種",
+          "context_position": 9937,
+          "raw_form": "守護経"
+        }
+      ]
+    },
+    {
+      "term": "広雅",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "顛倒とは、顛は即ち頂である。頂を下に堕すゆえに顛倒と名づく。『広雅』にいう、顛は倒なり」という。 「もし妄想を離れれば〔若離妄想",
+          "context_position": 10634,
+          "raw_form": "広雅"
+        }
+      ]
+    },
+    {
+      "term": "我れ深く汝らを敬って、あえて驕慢せず",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "得るべきである。慈恩〔基〕の『〔法華〕玄贊』の第十にいう、「『我れ深く汝らを敬って、あえて驕慢せず』とは、仏の本種性があるがゆえに、これ法身・如来蔵を敬うのであ",
+          "context_position": 12826,
+          "raw_form": "我れ深く汝らを敬って、あえて驕慢せず"
+        }
+      ]
+    },
+    {
+      "term": "所行",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "されば〔空海の〕『菩提心論義』にいう、「問う。しばらく初めの『所行』とは何れの行か。『発願』とは何れの願か。答う。しばらく彼の論",
+          "context_position": 1323,
+          "raw_form": "所行"
+        }
+      ]
+    },
+    {
+      "term": "文句",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "義を釈せられると見える。それについて、「安楽」の二字のこと。『文句』の釈に准じて義を取らば、今も所度の有情の身・心に約して分別す",
+          "context_position": 12012,
+          "raw_form": "文句"
+        }
+      ]
+    },
+    {
+      "term": "有情を勧発し、安在悦楽せしむ〔勧発有情安在悦楽〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "情界〕』という〔取意〕。これを発願と名づく。『利益』というは『有情を勧発し、安在悦楽せしむ〔勧発有情安在悦楽〕』という〔取意〕。これを所行と名づく」と。この釈は分明である。",
+          "context_position": 1418,
+          "raw_form": "有情を勧発し、安在悦楽せしむ〔勧発有情安在悦楽〕"
+        }
+      ]
+    },
+    {
+      "term": "梵網古迹",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "う。『十住論』『釈摩訶衍論』等の論釈は上のとおりである。また『梵網古迹』には「『大集経』にいうがごとし。小乗を勧学すれば、これ魔業な",
+          "context_position": 3590,
+          "raw_form": "梵網古迹"
+        }
+      ]
+    },
+    {
+      "term": "法華",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "するがゆえに、衆生において不軽の行を修すと意得るべきである。『法華』の文も、深秘の意をもって義を取らば、かくのごとく深秘の不軽行",
+          "context_position": 12988,
+          "raw_form": "法華"
+        }
+      ]
+    },
+    {
+      "term": "法華経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "相違するから、小乗をもっては衆生を度すべきでない。したがって『法華経』には「終に小乗をもって衆生を済度せず」という。『十住論』『釈",
+          "context_position": 3534,
+          "raw_form": "法華経"
+        }
+      ]
+    },
+    {
+      "term": "略策",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "義を説く。およそ『華厳経』にはその部類が多い。清涼〔澄観〕の『略策』に十重の差別を挙げる。彼の釈にいう、「問う。聖教の詮〔説きあ",
+          "context_position": 7093,
+          "raw_form": "略策"
+        }
+      ]
+    },
+    {
+      "term": "発願",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "論義』にいう、「問う。しばらく初めの『所行』とは何れの行か。『発願』とは何れの願か。答う。しばらく彼の論〔菩提心論〕に依らば、『",
+          "context_position": 1335,
+          "raw_form": "発願"
+        }
+      ]
+    },
+    {
+      "term": "般若",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "自〕の義門を明かす。ゆえにもっぱら両部の大経を引証したまう。『般若』の文も深秘に約して御引証があると見える。それについて、勝義・",
+          "context_position": 6825,
+          "raw_form": "般若"
+        }
+      ]
+    },
+    {
+      "term": "般若心経幽贊",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "、顛倒の事。 『涅槃経』には四顛倒の義を明かす。慈恩〔基〕の『般若心経幽贊』には七種の顛倒を釈す。提婆の『般若心経注』には「みな性に背く",
+          "context_position": 10530,
+          "raw_form": "般若心経幽贊"
+        }
+      ]
+    },
+    {
+      "term": "般若心経注",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "す。慈恩〔基〕の『般若心経幽贊』には七種の顛倒を釈す。提婆の『般若心経注』には「みな性に背くによるがゆえに顛倒と名づく」という。天台の",
+          "context_position": 10552,
+          "raw_form": "般若心経注"
+        }
+      ]
+    },
+    {
+      "term": "般若経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "』の四種の経を引き、第三の三摩地菩提心には、両部の大経および『般若経』の十六空をもって十六大菩薩の義を証したまう。よって引く所に六",
+          "context_position": 6697,
+          "raw_form": "般若経"
+        }
+      ]
+    },
+    {
+      "term": "菩提心論義",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "文を二段に分け、次のように行・願の釈とする。されば〔空海の〕『菩提心論義』にいう、「問う。しばらく初めの『所行』とは何れの行か。『発願",
+          "context_position": 1301,
+          "raw_form": "菩提心論義"
+        }
+      ]
+    },
+    {
+      "term": "観智儀軌",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "みな無上菩提に至るべき法器〔法を受ける器〕である義を明かす。『観智儀軌』にいう、「一切衆生の身中にみな仏性あり。如来蔵を具して、一切",
+          "context_position": 5355,
+          "raw_form": "観智儀軌"
+        }
+      ]
+    },
+    {
+      "term": "観経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "の義を成立したまう。勝義・行願の二段には、『華厳』『大日経』『観経』『涅槃経』の四種の経を引き、第三の三摩地菩提心には、両部の大",
+          "context_position": 6659,
+          "raw_form": "観経"
+        }
+      ]
+    },
+    {
+      "term": "釈論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "なるがゆえに「真如智恵」というのである。『起信論』にいう、「『釈論』の四にいう、彼の煩悩碍は多く散動の性であり、この真如智は直ち",
+          "context_position": 9212,
+          "raw_form": "釈論"
+        }
+      ]
+    },
+    {
+      "term": "金剛頂経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "引証の中で最初に『華厳経』を挙げられることは、『華厳』はこれ『金剛頂経』の浅略である。この論〔菩提心論〕は金剛頂部の論蔵であるから、",
+          "context_position": 6919,
+          "raw_form": "金剛頂経"
+        }
+      ]
+    }
+  ]
+}

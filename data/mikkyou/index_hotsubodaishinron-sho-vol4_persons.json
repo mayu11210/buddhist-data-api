@@ -1,0 +1,360 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol4.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 18776,
+  "summary": {
+    "unique_terms": 7,
+    "unique_persons": 7,
+    "total_occurrences": 27,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 2,
+        "occurrences": 13
+      },
+      "buddhist_master_china": {
+        "unique": 3,
+        "occurrences": 9
+      },
+      "buddhist_master_india": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "buddhist_master_japan": {
+        "unique": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日",
+          "count": 7
+        },
+        {
+          "form": "毘盧遮那",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 10,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "異なり、施設〔説きかた〕もまた殊なる。八に主伴の経、遮那仏〔毘盧遮那〕の説のごときは、すなわち十方の仏を伴とする。九には眷属の経",
+          "context_position": 7588,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "を指す。『大日経』の疏に中台大日を釈すとして「行者の無師智の毘盧遮那」という。自然智と無師智とはその義が同じである。無碍智とは、",
+          "context_position": 11452,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "し自宗〔真言宗〕の意によれば、一切衆生の色心の実相は常にこれ毘盧遮那・平等智身であるがゆえに、両部の理智・五部の五智等の徳を具足",
+          "context_position": 12920,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "発せば、真言の行を修する菩薩の法器となるをもって」という。『大日経』の疏〔『大日経疏』〕にいう、「一闡提〔成仏の見込みなしと",
+          "context_position": 5481,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "を修する菩薩の法器となるをもって」という。『大日経』の疏〔『大日経疏』〕にいう、「一闡提〔成仏の見込みなしとされる者〕に、明",
+          "context_position": 5489,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "立てる所の義を成立したまう。勝義・行願の二段には、『華厳』『大日経』『観経』『涅槃経』の四種の経を引き、第三の三摩地菩提心に",
+          "context_position": 6655,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "塵智を一切智と名づける。自然智とは、胎蔵本有の智体を指す。『大日経』の疏に中台大日を釈すとして「行者の無師智の毘盧遮那」とい",
+          "context_position": 11427,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "ける。自然智とは、胎蔵本有の智体を指す。『大日経』の疏に中台大日を釈すとして「行者の無師智の毘盧遮那」という。自然智と無師智",
+          "context_position": 11436,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "う論釈と義を取る。およそ悲・智の分別に重々があること。彼の『大日経』所説の内眷属について、疏に「一向にこれ如来の智印である」",
+          "context_position": 13335,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "を済うには財をもってし、愚を導くには法をもってす」という。『大日経疏』にいう、「もしこれら乏しき所があれば、我れはなお身命を",
+          "context_position": 14893,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "澄観",
+      "aliases": [
+        "清涼大師"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第四祖。清涼山に住す。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "澄観",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "の五性各別の義は、しばらく暫時の五性と義を取る。華厳の清涼〔澄観〕は「新熏は即ち五〔性〕、本有は無二」と釈す。まことに教に権",
+          "context_position": 5175,
+          "matched_form": "澄観"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "具足する義を説く。およそ『華厳経』にはその部類が多い。清涼〔澄観〕の『略策』に十重の差別を挙げる。彼の釈にいう、「問う。聖教",
+          "context_position": 7089,
+          "matched_form": "澄観"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "一、『華厳〔経〕』の名づけ〔得名〕について論じる項。 清涼〔澄観〕の釈にいう、「万行を芬敷〔広く咲かせ〕して衆徳を栄燿〔輝か",
+          "context_position": 8327,
+          "matched_form": "澄観"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "って了簡すべきである。 一、香象〔法蔵〕の『探玄記』、清涼〔澄観〕の『大疏演義抄』等の釈を見るべきである。 一、妄想の事。 ",
+          "context_position": 10346,
+          "matched_form": "澄観"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "である。また『釈経』にいう、「いわゆる一切有情は如来蔵なり。普賢菩薩の一切我なるをもっての故に」とは、一切有情は大円鏡智の性",
+          "context_position": 6071,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "離れず、この故に如来は「一切有情は如来蔵なり」と説きたまう。普賢菩薩と同一の体なるをもってである、という。この文ならびに上の",
+          "context_position": 6134,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "ならびに上の「六道四生の一切有情はみな如来蔵を具す」の文は、普賢の大菩提心をもって如来蔵と号する。もし四菩薩・四智の内証に約",
+          "context_position": 6190,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "法蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第三祖。賢首大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "法蔵",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "と号する。もし四菩薩・四智の内証に約せば、如来蔵・金剛蔵・妙法蔵・羯磨蔵等というべきである。「蔵」の義は、諸徳を含蔵する〔多",
+          "context_position": 6234,
+          "matched_form": "法蔵"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "陀の訳、これもまた八十巻。四には前の第三の本について、賢首〔法蔵〕と日照が校勘して欠を補う。この外、般若三蔵の訳が四十華厳で",
+          "context_position": 7858,
+          "matched_form": "法蔵"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "の層〕がある。義の契当に随って了簡すべきである。 一、香象〔法蔵〕の『探玄記』、清涼〔澄観〕の『大疏演義抄』等の釈を見るべき",
+          "context_position": 10333,
+          "matched_form": "法蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "空海",
+      "aliases": [
+        "弘法大師",
+        "遍照金剛",
+        "大遍照金剛"
+      ],
+      "subcategory": "buddhist_master_japan",
+      "definition": "真言宗開祖。性霊集の主たる撰者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "空海",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "人師も論文を二段に分け、次のように行・願の釈とする。されば〔空海の〕『菩提心論義』にいう、「問う。しばらく初めの『所行』とは",
+          "context_position": 1297,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "相反するから、まず二乗を挙げられるのである。したがって大師〔空海〕も「大悲心」または「行願心」と名づける。いわく「外道・二乗",
+          "context_position": 3219,
+          "matched_form": "空海"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "自利・利他を念じて菩提に回向するがゆえに」という。また大師〔空海〕が恵果〔阿闍梨〕の徳行を釈したまうときに、「貪を済うには財",
+          "context_position": 14837,
+          "matched_form": "空海"
+        }
+      ]
+    },
+    {
+      "canonical": "恵果",
+      "aliases": [
+        "恵果阿闍梨",
+        "恵果和尚"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第七祖。空海の師。青龍寺の大徳。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "恵果",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "他を念じて菩提に回向するがゆえに」という。また大師〔空海〕が恵果〔阿闍梨〕の徳行を釈したまうときに、「貪を済うには財をもって",
+          "context_position": 14841,
+          "matched_form": "恵果"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "〔教化〕の方便が欠けるはずである。したがって大師が青龍寺〔の恵果〕の徳行を釈したまうとき、「貪を済うに財をもってす」という。",
+          "context_position": 15769,
+          "matched_form": "恵果"
+        }
+      ]
+    },
+    {
+      "canonical": "龍樹",
+      "aliases": [
+        "龍猛",
+        "nāgārjuna",
+        "Nāgārjuna"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "中観派の祖。空海から見て付法第三祖（龍猛）。",
+      "sanskrit_canonical": "nāgārjuna",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "龍樹",
+          "count": 1
+        },
+        {
+          "form": "龍猛",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "〕で、十万偈の文、四十八品である。三に中本の経、すなわち彼〔龍樹〕が見た本で、四十九万八千八百の偈、一千二百品がある。四に上",
+          "context_position": 7316,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol4",
+          "context": "大士に対して声聞・縁覚を簡ぶ〔区別して退ける〕ことは、論主〔龍猛〕の所々の御釈に行きわたっている。当論〔菩提心論〕の上には「",
+          "context_position": 2869,
+          "matched_form": "龍猛"
+        }
+      ]
+    }
+  ]
+}
