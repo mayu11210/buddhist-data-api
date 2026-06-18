@@ -22,16 +22,16 @@
   "specialty_sections": "その著作固有の専門サブセクション名のリスト（吽字義 ji_gi 等。倉庫原則「データを限定しない」で温存）"
  },
  "summary": {
-  "total_files": 30,
+  "total_files": 31,
   "role_breakdown": {
-   "primary_corpus": 17,
+   "primary_corpus": 18,
    "auxiliary_meta": 1,
    "specialty_meta": 1,
    "excerpt_stub": 5
   },
-  "role_complete_files": 18,
-  "kakikudashi_present": 17,
-  "gendaigoyaku_present": 17,
+  "role_complete_files": 19,
+  "kakikudashi_present": 18,
+  "gendaigoyaku_present": 18,
   "genten_present": 12,
   "with_specialty_sections": 5,
   "indexed_corpora": {
@@ -1566,6 +1566,31 @@
      "total_occurrences": 25,
      "subcategory_count": 9
     }
+   }
+  },
+  {
+   "filename": "hotsubodaishinron-sho-vol2.json",
+   "title": "発菩提心論鈔 第二巻",
+   "taisho_ref": "（注釈書・書き下し取込）",
+   "role": "primary_corpus",
+   "type": "dict_paragraphs",
+   "data_status": {
+    "kaimyo_excerpt": false,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": false,
+    "genten_unavailable_reason": "漢文原典は未収録（書き下し文のみ）。底本：ユーザー提供 doc『発菩提心論鈔 第二 宥快』宥快。",
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "kakikudashi": 19200,
+    "gendaigoyaku": 25755,
+    "paragraphs": 111
+   },
+   "role_complete": true,
+   "notes": "書き下しデータ化スキルで取込。段落単位 kakikudashi＋gendaigoyaku、outline／base_text_ref 付き。",
+   "relations": {
+    "commentary_of": "bodaishinron.json"
    }
   },
   {
