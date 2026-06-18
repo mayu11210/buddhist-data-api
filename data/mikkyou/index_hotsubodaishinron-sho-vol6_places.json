@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol6.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 21214,
+  "summary": {
+    "unique_terms": 1,
+    "unique_places": 1,
+    "total_occurrences": 1,
+    "by_subcategory": {
+      "country_dynasty": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "漢",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。前漢・後漢。",
+      "matched_forms": [
+        {
+          "form": "漢",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "、「縁覚というは、外国の正音には『辟支仏』と名づける。ここ〔漢〕には辟支を翻して『因縁』と名づけ、仏をば『覚』とする。縁覚",
+          "context_position": 5119,
+          "matched_form": "漢"
+        }
+      ]
+    }
+  ]
+}

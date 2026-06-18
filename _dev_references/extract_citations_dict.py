@@ -55,6 +55,7 @@ DICT_CORPUS_LIST = [
     'hotsubodaishinron-sho-vol4.json',  # 2026-06-18 追加（発菩提心論鈔 第四巻 横断索引化・19 著作目の dict 型）
     'hotsubodaishinron-sho-vol2.json',  # 2026-06-18 追加（発菩提心論鈔 第二巻 横断索引化・20 著作目の dict 型）
     'hotsubodaishinron-sho-vol5.json',  # 2026-06-18 追加（発菩提心論鈔 第五巻 横断索引化・21 著作目の dict 型）
+    'hotsubodaishinron-sho-vol6.json',  # 2026-06-18 追加（発菩提心論鈔 第六巻 横断索引化・22 著作目の dict 型）
 ]
 
 # ====== 抽出パターン ======

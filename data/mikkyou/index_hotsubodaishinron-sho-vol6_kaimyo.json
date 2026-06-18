@@ -1,0 +1,324 @@
+{
+  "schema_version": "1.2",
+  "category": "戒名向け熟語索引",
+  "source_corpus": "hotsubodaishinron-sho-vol6.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "起点 1（密教教学用語の戒名適合 11 語）+ 起点 2（梵語の漢訳対応）+ 起点 3（補注内 2 字漢語熟語のホワイトリスト抽出）",
+  "scoring_rule": "kaimyo_score = freq(log10×12, 上限25) + doctrinal(seed_terms=30 / seed_sanskrit=20 / paren_doctrinal=10) + ichiji(KAIMYO_ICHIJI 含字数 × 8, 上限16) + aesthetic(美字構成・最大4)",
+  "review_policy": "needs_human_review=true の語は kaimyo-app 連携前に専門家校閲を要する",
+  "dictionary_sizes": {
+    "kaimyo_ichiji": 85,
+    "sanskrit_to_kaimyo_jukugo": 51,
+    "doctrinal_2char_whitelist": 151,
+    "kaimyo_noise": 140
+  },
+  "gendaigoyaku_length": 21214,
+  "summary": {
+    "unique_terms": 11,
+    "unique_jukugo": 11,
+    "total_occurrences": 15,
+    "seed_terms_count": 11,
+    "seed_sanskrit_count": 0,
+    "paren_doctrinal_count": 0,
+    "needs_review_count": 0,
+    "matched_jukugo_count": 4
+  },
+  "entries": [
+    {
+      "jukugo": "真言",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "seed_sanskrit": "mantra",
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "kaimyo_score": 58.84,
+      "freq_score": 10.84,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "趣本涅槃〕」の文。 「もって究竟と為す〔以為究竟〕」の文／「真言の行者〔真言行者〕」等の文。 「二乗の人、乃至、その他を知ら",
+          "context_position": 421,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "の文。 「もって究竟と為す〔以為究竟〕」の文／「真言の行者〔真言行者〕」等の文。 「二乗の人、乃至、その他を知らず〔二乗……",
+          "context_position": 427,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "きである。この一段の文は、初めには二乗の行相を明かし、後の「真言の行者〔真言行者〕」以下は行人の観を勧める。両節が分明である",
+          "context_position": 1201,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "の一段の文は、初めには二乗の行相を明かし、後の「真言の行者〔真言行者〕」以下は行人の観を勧める。両節が分明である。委細の子段",
+          "context_position": 1207,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "の法ありと見る。生死を怖畏し、妄りに涅槃を取る」という。 「真言の行者〔真言行者〕」等の文。 以下は真言の行人の観相を明かす",
+          "context_position": 11527,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "る。生死を怖畏し、妄りに涅槃を取る」という。 「真言の行者〔真言行者〕」等の文。 以下は真言の行人の観相を明かす。 「二乗の",
+          "context_position": 11533,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "を取る」という。 「真言の行者〔真言行者〕」等の文。 以下は真言の行人の観相を明かす。 「二乗の人、乃至、その他を知らず〔二",
+          "context_position": 11547,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大日",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "seed_sanskrit": "Mahāvairocana",
+      "kaimyo_chars": [
+        "大"
+      ],
+      "kaimyo_score": 46.39,
+      "freq_score": 8.39,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "空ではない。よって実には人空・法有の分斎であると義を取る。『大日経疏』に「譬えば樹によって、すなわち樹の影が現ずることがある",
+          "context_position": 9368,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "我と説く」という。これはならびに二乗を釈す。それについて、『大日経疏』には「声聞・縁覚は清浄なることを得るが、未だ一切清浄な",
+          "context_position": 11923,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "」という。これらの意である。「湛然常寂〔湛然常寂〕」とは、『大日経疏』に「『湛寂』というは、『寂』はこれ不生の義である。いわ",
+          "context_position": 13516,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "し大乗真実の涅槃に望むるときは、真実の寂滅ではない。よって『大日経疏』に「二乗の人等は、永く諸行の輪廻を断じて涅槃の証を得る",
+          "context_position": 13644,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "seed_sanskrit": "mahā-karuṇā",
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "kaimyo_score": 57.22,
+      "freq_score": 7.22,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "十善をもって自利の行を修す。智恵狭劣なるをもって三界を怖る。大悲を欠き、他に従って声を聞いて解了することを得る。ゆえに声聞と",
+          "context_position": 2539,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "信に回心すべき義が分明である。ただし人執已断の二乗であるが、大悲を発起することはなお直往の十信に及び難い。況や初住以上の深位",
+          "context_position": 19521,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "発起することはなお直往の十信に及び難い。況や初住以上の深位の大悲を起こすべきでない。よって十信に回心すべきである。ただし『法",
+          "context_position": 19554,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "遮那",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "seed_sanskrit": "Vairocana",
+      "kaimyo_chars": [],
+      "kaimyo_score": 33.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "これ真如と達す。乃至、自宗の意は、色・心の実相は常にこれ毘盧遮那と知る。ゆえに五蘊に即して実相を見る。二乗は智恵狭劣にして、",
+          "context_position": 9709,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "無縁慈悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "seed_sanskrit": "an-ārambaṇa-karuṇā",
+      "kaimyo_chars": [
+        "無",
+        "慈",
+        "悲"
+      ],
+      "kaimyo_score": 46.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "法身",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "seed_sanskrit": "dharmakāya",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 40.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "三密",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "seed_sanskrit": "trīṇi guhyāni",
+      "kaimyo_chars": [
+        "密"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "即身成仏",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "seed_sanskrit": "sa-deha-prāpti-buddhatva",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "智剣",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "seed_sanskrit": "jñāna-khaḍga",
+      "kaimyo_chars": [
+        "智"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "法界",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "宇宙の真実相。一切法の根本領域。",
+      "seed_sanskrit": "dharma-dhātu",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "玄機",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "seed_sanskrit": "—",
+      "kaimyo_chars": [
+        "玄"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

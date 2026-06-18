@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "category": "空海著作・性霊集編纂物（kukai works）",
+  "source_corpus": "hotsubodaishinron-sho-vol6.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 21214,
+  "summary": {
+    "unique_terms": 5,
+    "total_occurrences": 11
+  },
+  "entries": [
+    {
+      "term": "十住心論",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "。『秘蔵宝鑰』には「三蔵を広く張り、四諦を普く観ず」という。『十住心論』には「四諦・四念にその観を瑩〔みが〕き、六通・八解にその証を",
+          "context_position": 2143,
+          "raw_form": "十住心論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "来の音声である。「聞」は能聞に約す、すなわち小乗の人である。『十住心論』にいう、「四に名を釈せば、『華厳経』にいう、上品の十善をもっ",
+          "context_position": 2478,
+          "raw_form": "十住心論"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "に滞って、限るに劫数をもってす〔沈空滞寂限以劫数〕」という。『十住心論』に「生死を厭怖し、身・智を灰滅して、湛寂を勤楽し、虚空に等同",
+          "context_position": 13296,
+          "raw_form": "十住心論"
+        }
+      ]
+    },
+    {
+      "term": "秘蔵宝鑰",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "いう。あるいは「四諦の法輪は、苦・空を羊車に驚かす」という。『秘蔵宝鑰』には「三蔵を広く張り、四諦を普く観ず」という。『十住心論』に",
+          "context_position": 2114,
+          "raw_form": "秘蔵宝鑰"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "段生死を出て、永く涅槃に至るを、二乗解脱と名づける」という。『秘蔵宝鑰』には「遂に乃ち五蘊の泡・露を厭い、三途の塗炭を悪み、等持の清",
+          "context_position": 8176,
+          "raw_form": "秘蔵宝鑰"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "。譬えば昏酔の人が、酒が悄然として後に覚るがごとし」という。『秘蔵宝鑰』に「身を灰にし智を滅して大虚空のごとし。湛然として久しく三昧",
+          "context_position": 15126,
+          "raw_form": "秘蔵宝鑰"
+        }
+      ]
+    },
+    {
+      "term": "吽字義",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "念にその観を瑩〔みが〕き、六通・八解にその証を得る」という。『吽字義』にいう、「声聞の人の四諦の法・五停心観・七方便等、これはこれ",
+          "context_position": 2186,
+          "raw_form": "吽字義"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "釈段に「二乗の人は法執あるがゆえに、久々に理を証す」という。『吽字義』にいう、「決定・不定、軽・重の差はあれども、空しく劫数を歴て",
+          "context_position": 13050,
+          "raw_form": "吽字義"
+        }
+      ]
+    },
+    {
+      "term": "般若心経秘鍵",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "も断惑・証理が大同である。ゆえに一処に合論せられるのである。『般若心経秘鍵』にも、分別諸乗分の中に二乗を合して一種とし、建・絶・相・二・",
+          "context_position": 1707,
+          "raw_form": "般若心経秘鍵"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "ず。別して論ずるときは、四諦をもって声聞の所観とする。ゆえに『般若心経秘鍵』には「無苦集滅道、これこの一句五字は、すなわち声に依って道を",
+          "context_position": 2031,
+          "raw_form": "般若心経秘鍵"
+        }
+      ]
+    },
+    {
+      "term": "菩提心論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "が交参〔入り交じる〕している。ゆえに大師は第四の住心の下に「『菩提心論』の証文は下の文より心を雑え挙げている。ゆえに別に抄せず、行相",
+          "context_position": 1554,
+          "raw_form": "菩提心論"
+        }
+      ]
+    }
+  ],
+  "classification_table": {
+    "梵字悉曇字母并びに釈義": "空海著作",
+    "古今文字讃": "空海請来書",
+    "古今篆隷の文体": "空海請来書",
+    "続性霊集補闕鈔": "性霊集編纂物",
+    "大広智の影の讃": "idx12篇名（空海碑文）",
+    "大広智不空三蔵の影の讃": "idx12篇名（空海碑文・括弧前）",
+    "弁顕密二教論": "空海著作",
+    "吽字義": "空海著作",
+    "即身成仏義": "空海著作",
+    "声字実相義": "空海著作",
+    "般若心経秘鍵": "空海著作",
+    "秘蔵宝鑰": "空海著作",
+    "十住心論": "空海著作",
+    "秘密曼荼羅十住心論": "空海著作",
+    "三教指帰": "空海著作",
+    "聾瞽指帰": "空海著作",
+    "御請来目録": "空海著作",
+    "性霊集": "空海関連（弟子真済編）",
+    "遍照発揮性霊集": "空海関連（弟子真済編）",
+    "菩提心論": "空海関連（不空訳・真言宗根本論書）"
+  }
+}

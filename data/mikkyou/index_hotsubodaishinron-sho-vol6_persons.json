@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol6.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 21214,
+  "summary": {
+    "unique_terms": 5,
+    "unique_persons": 5,
+    "total_occurrences": 25,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 1,
+        "occurrences": 5
+      },
+      "buddhist_master_china": {
+        "unique": 4,
+        "occurrences": 20
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "湛然",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "天台宗中興の祖。妙楽大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "湛然",
+          "count": 13
+        }
+      ],
+      "occurrence_count": 13,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "て果位を成ず〔久々成果位〕」の文。 「身を灰にし智を滅して、湛然として常寂なるをもってす〔以灰身滅智湛然常寂〕」の文。 「定",
+          "context_position": 572,
+          "matched_form": "湛然"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "を灰にし智を滅して、湛然として常寂なるをもってす〔以灰身滅智湛然常寂〕」の文。 「定性ある者は、心を回らして大〔乗〕に向かう",
+          "context_position": 592,
+          "matched_form": "湛然"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "三途の塗炭を悪み、等持の清涼を欣い、廓〔ひろ〕き大虚に同じ。湛然として無為である。なんぞその楽なるや。身・智の灰滅を尚〔たっ",
+          "context_position": 8229,
+          "matched_form": "湛然"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "えに「久々成果位」というのである。 「身を灰にし智を滅して、湛然として常寂なるをもってす〔以灰身滅智湛然常寂〕」の文。 この",
+          "context_position": 13206,
+          "matched_form": "湛然"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "を灰にし智を滅して、湛然として常寂なるをもってす〔以灰身滅智湛然常寂〕」の文。 この四句は無余の相を明かす。第三の菩提心の釈",
+          "context_position": 13226,
+          "matched_form": "湛然"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "るいは「廓〔ひろ〕き大虚と同じ」という。これらの意である。「湛然常寂〔湛然常寂〕」とは、『大日経疏』に「『湛寂』というは、『",
+          "context_position": 13501,
+          "matched_form": "湛然"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "〔ひろ〕き大虚と同じ」という。これらの意である。「湛然常寂〔湛然常寂〕」とは、『大日経疏』に「『湛寂』というは、『寂』はこれ",
+          "context_position": 13506,
+          "matched_form": "湛然"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "の意が分明である。これについて一義にいう。「太虚空のごとし、湛然常寂〔如太虚空湛然常寂〕」の二句をともに譬とし、一義には上の",
+          "context_position": 13738,
+          "matched_form": "湛然"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "これについて一義にいう。「太虚空のごとし、湛然常寂〔如太虚空湛然常寂〕」の二句をともに譬とし、一義には上の一句は譬喩、後の一",
+          "context_position": 13747,
+          "matched_form": "湛然"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "「二乗の人、人執を破すといえども〔二乗之人雖破人執〕」から「湛然常寂」に至るまでの一段の文について、学者の了簡が辺々〔さまざ",
+          "context_position": 13834,
+          "matched_form": "湛然"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "数然発大心〕」という。彼の御釈は全く当段の「二乗の人、乃至、湛然常寂」の意である。しかるに彼の御釈はもっぱら定性を挙げて「限",
+          "context_position": 14409,
+          "matched_form": "湛然"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "という。『秘蔵宝鑰』に「身を灰にし智を滅して大虚空のごとし。湛然として久しく三昧に酔臥せり」という。これらの意をもって劫限の",
+          "context_position": 15152,
+          "matched_form": "湛然"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "の二乗を統論して、「灰身滅智をもってその涅槃に趣く。太虚空の湛然常寂なるがごとし」と釈し、次には定・不定性の不同を釈せられる",
+          "context_position": 16554,
+          "matched_form": "湛然"
+        }
+      ]
+    },
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日",
+          "count": 4
+        },
+        {
+          "form": "毘盧遮那",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "法はこれ真如と達す。乃至、自宗の意は、色・心の実相は常にこれ毘盧遮那と知る。ゆえに五蘊に即して実相を見る。二乗は智恵狭劣にして、",
+          "context_position": 9707,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "空ではない。よって実には人空・法有の分斎であると義を取る。『大日経疏』に「譬えば樹によって、すなわち樹の影が現ずることがある",
+          "context_position": 9368,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "我と説く」という。これはならびに二乗を釈す。それについて、『大日経疏』には「声聞・縁覚は清浄なることを得るが、未だ一切清浄な",
+          "context_position": 11923,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "」という。これらの意である。「湛然常寂〔湛然常寂〕」とは、『大日経疏』に「『湛寂』というは、『寂』はこれ不生の義である。いわ",
+          "context_position": 13516,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "し大乗真実の涅槃に望むるときは、真実の寂滅ではない。よって『大日経疏』に「二乗の人等は、永く諸行の輪廻を断じて涅槃の証を得る",
+          "context_position": 13644,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "法蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第三祖。賢首大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "法蔵",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "も不可計数の劫数を劫限と御釈があると意得るべきである。香象〔法蔵〕の一義によれば、無余の時分において七種を出す。『涅槃経』の",
+          "context_position": 15484,
+          "matched_form": "法蔵"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "意は分明に、不定性は無余に入らないと見える。また華厳の香象〔法蔵〕は「もし不定種性は、未だ無余に入らない前に、すなわち回心が",
+          "context_position": 16172,
+          "matched_form": "法蔵"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "仏の驚誘を蒙るがゆえに、他縁大乗の心を起こす」という。香象〔法蔵〕は「仏の教化を受けて、すなわちよく菩提心を発す」という。こ",
+          "context_position": 18228,
+          "matched_form": "法蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "澄観",
+      "aliases": [
+        "清涼大師"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第四祖。清涼山に住す。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "澄観",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "・火・風である。「五蘊」とは色・受・想・行・識である。清涼〔澄観〕の五蘊観にいう、「五蘊が和合せるを、仮に名づけて人とする。",
+          "context_position": 7820,
+          "matched_form": "澄観"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "はすなわち五蘊等の法である」という。これは声聞を釈す。清涼〔澄観〕の『華厳経疏』にいう、「黒山を縁覚に喩えることは、法空の光",
+          "context_position": 11804,
+          "matched_form": "澄観"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "経論をば、仮立の五性と意得るのである。したがって華厳の清涼〔澄観〕は「新薫は即ち五〔性〕、本有は無二」と釈す。当段の御釈は分",
+          "context_position": 14883,
+          "matched_form": "澄観"
+        }
+      ]
+    },
+    {
+      "canonical": "吉蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "三論宗の大成者。嘉祥大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "吉蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol6",
+          "context": "諸法の積聚の義である。旧訳の「五陰」については、三論の嘉祥〔吉蔵〕が陰積・陰覆・陰殺の三義を釈す。「陰積」は新訳の「蘊」の義",
+          "context_position": 8558,
+          "matched_form": "吉蔵"
+        }
+      ]
+    }
+  ]
+}
