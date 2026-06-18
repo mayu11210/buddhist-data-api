@@ -26,18 +26,19 @@
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
     "hotsubodaishinron-sho-vol5",
-    "hotsubodaishinron-sho-vol6"
+    "hotsubodaishinron-sho-vol6",
+    "hotsubodaishinron-sho-vol7"
   ],
-  "corpora_count": 22,
-  "corpora_with_data": 22,
+  "corpora_count": 23,
+  "corpora_with_data": 23,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1107,
+    "total_occurrences": 1128,
     "terms_in_multiple_corpora": 45,
-    "max_corpus_coverage": 15,
+    "max_corpus_coverage": 16,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -148,14 +149,19 @@
         "unique": 1,
         "occurrences": 1,
         "present": true
+      },
+      "hotsubodaishinron-sho-vol7": {
+        "unique": 3,
+        "occurrences": 21,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "canonical": "安楽",
-      "total_occurrence_count": 153,
-      "covered_corpora_count": 15,
+      "total_occurrence_count": 172,
+      "covered_corpora_count": 16,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -166,6 +172,7 @@
         "hotsubodaishinron-sho-vol1",
         "hotsubodaishinron-sho-vol3",
         "hotsubodaishinron-sho-vol4",
+        "hotsubodaishinron-sho-vol7",
         "jujushinron",
         "rishikyo",
         "rishushaku",
@@ -188,7 +195,8 @@
         "hotsubodaishinron-sho-vol1": 1,
         "dainichikyo-sho-vol2": 6,
         "hotsubodaishinron-sho-vol3": 28,
-        "hotsubodaishinron-sho-vol4": 60
+        "hotsubodaishinron-sho-vol4": 60,
+        "hotsubodaishinron-sho-vol7": 19
       },
       "metadata": {
         "subcategory": "cosmological_realm",
@@ -429,14 +437,15 @@
     },
     {
       "canonical": "漢",
-      "total_occurrence_count": 37,
-      "covered_corpora_count": 7,
+      "total_occurrence_count": 38,
+      "covered_corpora_count": 8,
       "covered_corpora": [
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
         "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol6",
+        "hotsubodaishinron-sho-vol7",
         "sankyo-shiki",
         "shoryoshu_miyasaka"
       ],
@@ -447,7 +456,8 @@
         "hizoki": 4,
         "hotsubodaishinron-sho-vol1": 1,
         "hotsubodaishinron-sho-vol2": 1,
-        "hotsubodaishinron-sho-vol6": 1
+        "hotsubodaishinron-sho-vol6": 1,
+        "hotsubodaishinron-sho-vol7": 1
       },
       "metadata": {
         "subcategory": "country_dynasty",
@@ -599,6 +609,31 @@
       }
     },
     {
+      "canonical": "雪山",
+      "total_occurrence_count": 16,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol7",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 10,
+        "hizo-houyaku": 1,
+        "jujushinron": 4,
+        "hotsubodaishinron-sho-vol7": 1
+      },
+      "metadata": {
+        "subcategory": "mountain_buddhist",
+        "definition": "ヒマーラヤ山脈。仏典でしばしば言及される聖山。",
+        "aliases": [
+          "ヒマーラヤ",
+          "himālaya"
+        ]
+      }
+    },
+    {
       "canonical": "青龍寺",
       "total_occurrence_count": 16,
       "covered_corpora_count": 4,
@@ -617,29 +652,6 @@
       "metadata": {
         "subcategory": "temple_china",
         "definition": "長安にあった密教の中心寺院。恵果阿闍梨の住所。"
-      }
-    },
-    {
-      "canonical": "雪山",
-      "total_occurrence_count": 15,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "jujushinron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 10,
-        "hizo-houyaku": 1,
-        "jujushinron": 4
-      },
-      "metadata": {
-        "subcategory": "mountain_buddhist",
-        "definition": "ヒマーラヤ山脈。仏典でしばしば言及される聖山。",
-        "aliases": [
-          "ヒマーラヤ",
-          "himālaya"
-        ]
       }
     },
     {

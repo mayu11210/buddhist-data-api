@@ -1,0 +1,615 @@
+{
+  "schema_version": "1.2",
+  "category": "戒名向け熟語索引",
+  "source_corpus": "hotsubodaishinron-sho-vol7.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "起点 1（密教教学用語の戒名適合 11 語）+ 起点 2（梵語の漢訳対応）+ 起点 3（補注内 2 字漢語熟語のホワイトリスト抽出）",
+  "scoring_rule": "kaimyo_score = freq(log10×12, 上限25) + doctrinal(seed_terms=30 / seed_sanskrit=20 / paren_doctrinal=10) + ichiji(KAIMYO_ICHIJI 含字数 × 8, 上限16) + aesthetic(美字構成・最大4)",
+  "review_policy": "needs_human_review=true の語は kaimyo-app 連携前に専門家校閲を要する",
+  "dictionary_sizes": {
+    "kaimyo_ichiji": 85,
+    "sanskrit_to_kaimyo_jukugo": 51,
+    "doctrinal_2char_whitelist": 151,
+    "kaimyo_noise": 140
+  },
+  "gendaigoyaku_length": 16183,
+  "summary": {
+    "unique_terms": 11,
+    "unique_jukugo": 11,
+    "total_occurrences": 63,
+    "seed_terms_count": 11,
+    "seed_sanskrit_count": 0,
+    "paren_doctrinal_count": 0,
+    "needs_review_count": 0,
+    "matched_jukugo_count": 7
+  },
+  "entries": [
+    {
+      "jukugo": "真言",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "seed_sanskrit": "mantra",
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "kaimyo_score": 65.37,
+      "freq_score": 17.37,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 27,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "仏果〕」の文。 「久遠にして成ず〔久遠而成〕」の文。 「今、真言の行人、前のごとく観じ已りて〔今真言行人如前観已〕」の文。 ",
+          "context_position": 721,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "遠而成〕」の文。 「今、真言の行人、前のごとく観じ已りて〔今真言行人如前観已〕」の文。 「復た利益・安楽の心を発す〔復発利益",
+          "context_position": 739,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": " 「凡〔夫〕より仏位に入る〔従凡入仏位〕」の文。 一、自宗〔真言宗〕の位の階級にさまざまの数え方があることを論じる項。 「ま",
+          "context_position": 893,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "大乗心を発す〔発大乗心〕」以下は因行・得果の相を弁じ、「今、真言の行人〔今真言行人〕」以下は行者の観を勧める。それについて、",
+          "context_position": 1346,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "発大乗心〕」以下は因行・得果の相を弁じ、「今、真言の行人〔今真言行人〕」以下は行者の観を勧める。それについて、この一段の文。",
+          "context_position": 1353,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "ず〔所以亦不可楽〕」の一句を加えられている。これは論の「今、真言の行人、前のごとく観じ已りて〔今真言行人如前観已〕」の意を取",
+          "context_position": 1608,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "ている。これは論の「今、真言の行人、前のごとく観じ已りて〔今真言行人如前観已〕」の意を取って「また楽うべからず〔亦不可楽〕」",
+          "context_position": 1626,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "わち弥勒の行に同じて、早く大慈三昧を証するのである。この一の真言に、ことごとく法相の法門を摂す。もしこの一の真言を誦すれば、",
+          "context_position": 2129,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "る。この一の真言に、ことごとく法相の法門を摂す。もしこの一の真言を誦すれば、すなわち弥勒の所証に入り、所説の一切の法を持する",
+          "context_position": 2153,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "〔又有衆生乃至致有次第〕」の一段は六度の菩薩を明かし、「今、真言の行人、乃至、また十地の菩薩の境界を超ゆ〔今真言行人乃至亦超",
+          "context_position": 2484,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "かし、「今、真言の行人、乃至、また十地の菩薩の境界を超ゆ〔今真言行人乃至亦超十地菩薩境界〕」の文をば、十地の菩薩を明かすと判",
+          "context_position": 2508,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "いう。小乗の菩薩とは取り難いものである。所詮、他門の人師等は真言を伝えるが、自宗の立教に十住心があるということを相承しないゆ",
+          "context_position": 2754,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "なお大海が百川を呑納して厭足の心なきがごとし」という。これは真言の菩薩の行相を釈せられるのである。それについて、法門が無量で",
+          "context_position": 5539,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "し、因果を示して誡とする」という。これらの意である。 「今、真言の行人、前のごとく観じ已りて〔今真言行人如前観已〕」の文。 ",
+          "context_position": 10689,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "れらの意である。 「今、真言の行人、前のごとく観じ已りて〔今真言行人如前観已〕」の文。 これは行者を勧めて前の説を観ぜしめる",
+          "context_position": 10707,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "の会釈があるが、「前のごとく観じ已る〔如前観已〕」の論釈は、真言の行者の無自性の観を明かすと義を取ることがよい。中に就いて、",
+          "context_position": 11597,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "過する義を明かす。意は、外道・二乗は大悲心を発さない。ゆえに真言の行者が大悲決定すれば、外道・二乗の境界を超過するのである。",
+          "context_position": 12973,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "いうのである。これすなわち即身成仏の実義である。上の論釈に「真言法の中にのみ即身成仏す。ゆえにこれ三摩地の法を説く〔真言法中",
+          "context_position": 13612,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "に「真言法の中にのみ即身成仏す。ゆえにこれ三摩地の法を説く〔真言法中即身成仏故是説三摩地法〕」という。また第三の菩提心の釈の",
+          "context_position": 13640,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "頓・漸・超機の不同、地位の階級が辺々あるが、観解に約すれば、真言の行者は皆「凡身即仏」の道理に安住するがゆえに、「従凡入仏」",
+          "context_position": 14025,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "る。一義にいう。凡身をもって一生の間に仏位を証するがゆえに、真言の行者は皆「従凡入仏位」の人である。凡位・仏位の中間に諸位が",
+          "context_position": 14098,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "法門の表示である。実証に約すれば、皆凡より仏に入る人である。真言の行者の「凡身即仏」の外には異解を生じないがゆえに。 一、自",
+          "context_position": 14201,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "者の「凡身即仏」の外には異解を生じないがゆえに。 一、自宗〔真言宗〕の位の階級にさまざまの数え方があることを論じる項。 ある",
+          "context_position": 14235,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "位の二位を建立せられる性相と見える。ただし前の料簡のように、真言の行者はいずれも「従凡入仏」の義があるべきである。その故は、",
+          "context_position": 14465,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "ことを得ない」という。これらの釈文が分明である。一義にいう。真言の行者は仏境界の三密を行ずるがゆえに、自宗の等覚・十地の境界",
+          "context_position": 15219,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "其境界〕」の御釈が分明である。したがって一処の御釈にいう、「真言行の菩薩が十地を超過すとは、その心はいかん。所修の行である、",
+          "context_position": 15352,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "〕』の経文に明らかに説けり」という。この御釈の顕相は、一往、真言の十地を超過する様に見える。よって古来の異義であるが、もし実",
+          "context_position": 15563,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "seed_sanskrit": "mahā-karuṇā",
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "kaimyo_score": 64.11,
+      "freq_score": 14.11,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 14,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "至、二乗の境界を超ゆ〔復発利益安楽乃至二乗境界〕」の文。 「大悲決定をもって〔以大悲決定〕」等の文。 「復た瑜伽を修す〔復修",
+          "context_position": 823,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "〔復発利益安楽乃至二乗境界〕」の文。 「大悲決定をもって〔以大悲決定〕」等の文。 「復た瑜伽を修す〔復修瑜伽〕」等の文。 「",
+          "context_position": 833,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "。一義にいう。前の凡夫・外道・二乗・菩薩を一々に観じ已って、大悲心を発すべしと云う意である。一義にいう。「前」とは、行願の菩",
+          "context_position": 11324,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "、なお己が身のごとし〔観十方含識猶如己身〕」等と観じ已って、大悲心を発すべしと云う意である。この二義の意ならば、「前のごとく",
+          "context_position": 11432,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "行願・三摩地を挙げられるのである。その異〔趣旨〕は、行願心の大悲が決定するがゆえに外道・二乗を超過し、また三摩地の頓成の行を",
+          "context_position": 11893,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "を救度して、最上の諸の悉地を得しめんがためのゆえに、一切如来大悲方便忿怒金剛三摩地に入る」という。彼の意による。一義にいう。",
+          "context_position": 12669,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "賢大菩提心一切衆生本有薩埵〕」という。これらの意による。 「大悲決定をもって〔以大悲決定〕」等の文。 これは行願・大悲の心が",
+          "context_position": 12895,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "有薩埵〕」という。これらの意による。 「大悲決定をもって〔以大悲決定〕」等の文。 これは行願・大悲の心が堅固なるによって、外",
+          "context_position": 12905,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "。 「大悲決定をもって〔以大悲決定〕」等の文。 これは行願・大悲の心が堅固なるによって、外道・二乗を超過する義を明かす。意は",
+          "context_position": 12922,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "によって、外道・二乗を超過する義を明かす。意は、外道・二乗は大悲心を発さない。ゆえに真言の行者が大悲決定すれば、外道・二乗の",
+          "context_position": 12961,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "かす。意は、外道・二乗は大悲心を発さない。ゆえに真言の行者が大悲決定すれば、外道・二乗の境界を超過するのである。一処の御釈に",
+          "context_position": 12979,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "〕」とは三摩地の菩提心に当たる。第三の菩提心の釈段に「諸仏は大悲・善巧智をもって、この甚深秘密の瑜伽を説く」という。またいう",
+          "context_position": 13249,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "ばらく相違が過度に極まる一辺である。意は、外道・二乗はかつて大悲を発さないがゆえに、大いに行願心に相違す。菩薩は分に大悲を発",
+          "context_position": 15851,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "つて大悲を発さないがゆえに、大いに行願心に相違す。菩薩は分に大悲を発すがゆえに、強ちに行願心に違しない。ゆえにまず外道・二乗",
+          "context_position": 15879,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大日",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "seed_sanskrit": "Mahāvairocana",
+      "kaimyo_chars": [
+        "大"
+      ],
+      "kaimyo_score": 49.45,
+      "freq_score": 11.45,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 8,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "らの意によれば、十住心の中では第六の住心であるべきである。『大日経』の三劫の次第に約せば第二劫の能超の心、大・小乗の分別によ",
+          "context_position": 1702,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "門である。この三昧はすなわちいわゆる大慈三昧である。またこれ大日如来の四行の一である。一切如来の大慈無量なるを、ことごとく弥",
+          "context_position": 2010,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "及ぶべきでない。およそ高祖が第六の住心を立てたまうことは、『大日経』の「復た次に、秘密主よ、大乗の行は無縁乗の心を発す、法無",
+          "context_position": 2851,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "きである。定性二乗と無性有情との類は大乗の機ではない。もし『大日経』『釈摩訶衍論』等の意によれば、第六の住心にも闡提・定性成",
+          "context_position": 4131,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "「大乗心を発す〔発大乗心〕」とは、前の小乗を簡る言である。『大日経』には当住心を説くとして「秘密主よ、大乗の行あり。無縁乗の",
+          "context_position": 4378,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "皆悉く具足す〔皆悉具足〕」の文。これは因行具足の義である。『大日経疏』に「毘盧遮那は本菩薩の道を行じたまいしとき、一体速疾力",
+          "context_position": 9326,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "るがごときである」という。これらの意である。「勝上」とは、『大日経』にいう「勝上大乗句」という。疏にいう、「かくのごとく七の",
+          "context_position": 13403,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "す。自宗の意は、十地の菩薩がなお仏境界を知らないこと、疏家〔大日経疏〕の「即ち十地の菩薩といえども、なおその境界に非ず〔即雖",
+          "context_position": 15284,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "即身成仏",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "seed_sanskrit": "sa-deha-prāpti-buddhatva",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 48.14,
+      "freq_score": 10.14,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "論』の「成を告げば三大を限りとす〔告成三大為限〕」ならびに『即身成仏義』の「諸経論の中に皆三劫成仏を説く〔諸経論中皆説三劫成仏〕",
+          "context_position": 6505,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "凡より仏位に入る〔従凡入仏位〕」というのである。これすなわち即身成仏の実義である。上の論釈に「真言法の中にのみ即身成仏す。ゆえに",
+          "context_position": 13595,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "れすなわち即身成仏の実義である。上の論釈に「真言法の中にのみ即身成仏す。ゆえにこれ三摩地の法を説く〔真言法中即身成仏故是説三摩地",
+          "context_position": 13620,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "法の中にのみ即身成仏す。ゆえにこれ三摩地の法を説く〔真言法中即身成仏故是説三摩地法〕」という。また第三の菩提心の釈の下に「妙道を",
+          "context_position": 13644,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "できない。二乗・凡夫が、誰か堂に昇ることを得よう」という。『即身成仏義』にいう、「法仏の三密は、等覚も見難い。十地も、なんぞ窺お",
+          "context_position": 15046,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "た。また顕家の菩薩は皆三大僧祇を経るがゆえに、第三の菩提心の即身成仏の義に相違す。ゆえにまず十地の菩薩を挙げられたのである。再論",
+          "context_position": 15946,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "三密",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "seed_sanskrit": "trīṇi guhyāni",
+      "kaimyo_chars": [
+        "密"
+      ],
+      "kaimyo_score": 46.39,
+      "freq_score": 8.39,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "たいう、「およそ瑜伽観行を修習する人は、まさにすべからく具に三密の行を修し、五相成身の義を証悟すべきである」という。またいう",
+          "context_position": 13308,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "堂に昇ることを得よう」という。『即身成仏義』にいう、「法仏の三密は、等覚も見難い。十地も、なんぞ窺おう」という。またいう、「",
+          "context_position": 15060,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "覚も見難い。十地も、なんぞ窺おう」という。またいう、「法仏の三密は甚深・微細にして、等覚・十地も見聞することができない。ゆえ",
+          "context_position": 15095,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "。これらの釈文が分明である。一義にいう。真言の行者は仏境界の三密を行ずるがゆえに、自宗の等覚・十地の境界を超過す。自宗の意は",
+          "context_position": 15229,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "遮那",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "seed_sanskrit": "Vairocana",
+      "kaimyo_chars": [],
+      "kaimyo_score": 37.22,
+      "freq_score": 7.22,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "具足〕」の文。これは因行具足の義である。『大日経疏』に「毘盧遮那は本菩薩の道を行じたまいしとき、一体速疾力三昧をもって無量の",
+          "context_position": 9335,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "云う意である。この一義は、三十巻の『教王経』の第九に「大毘盧遮那如来は、広く無尽・無余の諸の有情界の一切有情を救度して、最上",
+          "context_position": 12615,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "従凡入仏位〕」の文。 一切衆生の色・心の実相は、常にこれ毘盧遮那・平等智身の教体であるゆえに、凡体を動ぜずして仏位を証得する",
+          "context_position": 13531,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法身",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "seed_sanskrit": "dharmakāya",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 43.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "『般若心経秘鍵』には「二我〔人我・法我〕いつか断ぜん、三祇に法身を証す」という。一処の御釈には「六度を行とし、四摂に事を作し",
+          "context_position": 6266,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "無縁慈悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "seed_sanskrit": "an-ārambaṇa-karuṇā",
+      "kaimyo_chars": [
+        "無",
+        "慈",
+        "悲"
+      ],
+      "kaimyo_score": 46.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "智剣",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "seed_sanskrit": "jñāna-khaḍga",
+      "kaimyo_chars": [
+        "智"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "法界",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "宇宙の真実相。一切法の根本領域。",
+      "seed_sanskrit": "dharma-dhātu",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "玄機",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "seed_sanskrit": "—",
+      "kaimyo_chars": [
+        "玄"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

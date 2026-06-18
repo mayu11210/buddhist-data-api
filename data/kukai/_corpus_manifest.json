@@ -35,13 +35,13 @@
   "genten_present": 12,
   "with_specialty_sections": 5,
   "indexed_corpora": {
-   "terms": 22,
-   "citations": 22,
-   "kukai_works": 22,
-   "sanskrit": 22,
-   "kaimyo_jukugo": 22,
-   "persons": 22,
-   "places": 22
+   "terms": 23,
+   "citations": 23,
+   "kukai_works": 23,
+   "sanskrit": 23,
+   "kaimyo_jukugo": 23,
+   "persons": 23,
+   "places": 23
   }
  },
  "files": [
@@ -2050,6 +2050,58 @@
    "notes": "書き下しデータ化スキルで取込。段落単位 kakikudashi＋gendaigoyaku、outline／base_text_ref 付き。",
    "relations": {
     "commentary_of": "bodaishinron.json"
+   },
+   "index_status": {
+    "terms": {
+     "file": "index_hotsubodaishinron-sho-vol7_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 83,
+     "matched_term_count": 8,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_hotsubodaishinron-sho-vol7_citations.json",
+     "present": true,
+     "unique_terms": 37,
+     "total_occurrences": 60
+    },
+    "kukai_works": {
+     "file": "index_hotsubodaishinron-sho-vol7_kukai_works.json",
+     "present": true,
+     "unique_terms": 6,
+     "total_occurrences": 18
+    },
+    "sanskrit": {
+     "file": "index_hotsubodaishinron-sho-vol7_sanskrit.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0,
+     "with_diacritics_count": 0,
+     "ascii_only_count": 0
+    },
+    "kaimyo_jukugo": {
+     "file": "index_hotsubodaishinron-sho-vol7_kaimyo.json",
+     "present": true,
+     "unique_terms": 11,
+     "total_occurrences": 63,
+     "needs_review_count": 0,
+     "matched_jukugo_count": 7
+    },
+    "persons": {
+     "file": "index_hotsubodaishinron-sho-vol7_persons.json",
+     "present": true,
+     "unique_terms": 6,
+     "total_occurrences": 23,
+     "subcategory_count": 3
+    },
+    "places": {
+     "file": "index_hotsubodaishinron-sho-vol7_places.json",
+     "present": true,
+     "unique_terms": 3,
+     "total_occurrences": 21,
+     "subcategory_count": 3
+    }
    }
   }
  ],
@@ -2111,9 +2163,10 @@
    "hotsubodaishinron-sho-vol4",
    "hotsubodaishinron-sho-vol2",
    "hotsubodaishinron-sho-vol5",
-   "hotsubodaishinron-sho-vol6"
+   "hotsubodaishinron-sho-vol6",
+   "hotsubodaishinron-sho-vol7"
   ],
-  "corpora_count": 22,
+  "corpora_count": 23,
   "files": {
    "terms": {
     "file": "index_terms_all.json",

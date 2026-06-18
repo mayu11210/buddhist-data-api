@@ -1,0 +1,317 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol7.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 16183,
+  "summary": {
+    "unique_terms": 6,
+    "unique_persons": 6,
+    "total_occurrences": 23,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 3,
+        "occurrences": 19
+      },
+      "buddhist_master_china": {
+        "unique": 2,
+        "occurrences": 2
+      },
+      "buddhist_master_india": {
+        "unique": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日",
+          "count": 7
+        },
+        {
+          "form": "毘盧遮那",
+          "count": 3
+        },
+        {
+          "form": "大日如来",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 11,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "門である。この三昧はすなわちいわゆる大慈三昧である。またこれ大日如来の四行の一である。一切如来の大慈無量なるを、ことごとく弥勒と",
+          "context_position": 2010,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "皆悉具足〕」の文。これは因行具足の義である。『大日経疏』に「毘盧遮那は本菩薩の道を行じたまいしとき、一体速疾力三昧をもって無量の",
+          "context_position": 9333,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "すと云う意である。この一義は、三十巻の『教王経』の第九に「大毘盧遮那如来は、広く無尽・無余の諸の有情界の一切有情を救度して、最上",
+          "context_position": 12613,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "る〔従凡入仏位〕」の文。 一切衆生の色・心の実相は、常にこれ毘盧遮那・平等智身の教体であるゆえに、凡体を動ぜずして仏位を証得する",
+          "context_position": 13529,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "らの意によれば、十住心の中では第六の住心であるべきである。『大日経』の三劫の次第に約せば第二劫の能超の心、大・小乗の分別によ",
+          "context_position": 1702,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "及ぶべきでない。およそ高祖が第六の住心を立てたまうことは、『大日経』の「復た次に、秘密主よ、大乗の行は無縁乗の心を発す、法無",
+          "context_position": 2851,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "きである。定性二乗と無性有情との類は大乗の機ではない。もし『大日経』『釈摩訶衍論』等の意によれば、第六の住心にも闡提・定性成",
+          "context_position": 4131,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "「大乗心を発す〔発大乗心〕」とは、前の小乗を簡る言である。『大日経』には当住心を説くとして「秘密主よ、大乗の行あり。無縁乗の",
+          "context_position": 4378,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "皆悉く具足す〔皆悉具足〕」の文。これは因行具足の義である。『大日経疏』に「毘盧遮那は本菩薩の道を行じたまいしとき、一体速疾力",
+          "context_position": 9326,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "るがごときである」という。これらの意である。「勝上」とは、『大日経』にいう「勝上大乗句」という。疏にいう、「かくのごとく七の",
+          "context_position": 13403,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "す。自宗の意は、十地の菩薩がなお仏境界を知らないこと、疏家〔大日経疏〕の「即ち十地の菩薩といえども、なおその境界に非ず〔即雖",
+          "context_position": 15284,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "弥勒",
+      "aliases": [
+        "弥勒菩薩",
+        "慈氏",
+        "maitreya",
+        "Maitreya"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "未来仏。兜率天で待機。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "弥勒",
+          "count": 4
+        },
+        {
+          "form": "弥勒菩薩",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "う、「次に秘密の義とは、上のごとき無縁乗の法は、すなわちこれ弥勒菩薩の三摩地門である。この三昧はすなわちいわゆる大慈三昧である。",
+          "context_position": 1972,
+          "matched_form": "弥勒菩薩"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "三大劫を経ずして、一生に成仏することを得る。常途の説にいう、弥勒菩薩は位十地に居して、当来に成仏す。かくのごとくの説は、いわゆる",
+          "context_position": 2225,
+          "matched_form": "弥勒菩薩"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "の間では相説の極である。もし深秘に約せば、四行の菩薩の随一、弥勒の大慈三昧である。『十住心論』第六にいう、「次に秘密の義とは",
+          "context_position": 1921,
+          "matched_form": "弥勒"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "日如来の四行の一である。一切如来の大慈無量なるを、ことごとく弥勒と名づける」という。またいう、「もし衆生あって、よく通達して",
+          "context_position": 2041,
+          "matched_form": "弥勒"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "してこの法を受持・読誦すれば、行者は久しからずして、すなわち弥勒の行に同じて、早く大慈三昧を証するのである。この一の真言に、",
+          "context_position": 2101,
+          "matched_form": "弥勒"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "ごとく法相の法門を摂す。もしこの一の真言を誦すれば、すなわち弥勒の所証に入り、所説の一切の法を持することになる。すなわち三大",
+          "context_position": 2165,
+          "matched_form": "弥勒"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "の堅固菩提を薩埵と名づく」という。今の論には「法爾に応住す、普賢の大菩提心、一切衆生の本有薩埵〔法爾応住普賢大菩提心一切衆生",
+          "context_position": 12842,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "「法爾に応住す、普賢の大菩提心、一切衆生の本有薩埵〔法爾応住普賢大菩提心一切衆生本有薩埵〕」という。これらの意による。 「大",
+          "context_position": 12864,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "龍樹",
+      "aliases": [
+        "龍猛",
+        "nāgārjuna",
+        "Nāgārjuna"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "中観派の祖。空海から見て付法第三祖（龍猛）。",
+      "sanskrit_canonical": "nāgārjuna",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "龍猛",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "縁大乗住心の分斎と見える。『宝鑰』の第六の住心の下にいう、「龍猛菩薩の『菩提心論』にいう、また衆生あって大乗心を発す……これ",
+          "context_position": 1448,
+          "matched_form": "龍猛"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "じて「楽うべからず」と云う御釈である。『十住心論』にいう、「龍猛菩薩の『菩提心論』にいう、また衆生あって大乗の心を発し……次",
+          "context_position": 10906,
+          "matched_form": "龍猛"
+        }
+      ]
+    },
+    {
+      "canonical": "法蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第三祖。賢首大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "法蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "乗』は運載に名を得る」という。これらの意である。 一、香象〔法蔵〕の『起信論疏』に大乗の七義を明かす。それを見るべし。それに",
+          "context_position": 4535,
+          "matched_form": "法蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "澄観",
+      "aliases": [
+        "清涼大師"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第四祖。清涼山に住す。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "澄観",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "すべし」という。これらは皆、法相大乗の意である。華厳の清涼〔澄観〕も、権・実の教を対弁して遅速の不同を明かすとき、「その宗を",
+          "context_position": 10200,
+          "matched_form": "澄観"
+        }
+      ]
+    }
+  ]
+}

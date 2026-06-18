@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol7.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 16183,
+  "summary": {
+    "unique_terms": 3,
+    "unique_places": 3,
+    "total_occurrences": 21,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 1,
+        "occurrences": 19
+      },
+      "country_dynasty": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "mountain_buddhist": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 19
+        }
+      ],
+      "occurrence_count": 19,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "ごとく観じ已りて〔今真言行人如前観已〕」の文。 「復た利益・安楽の心を発す〔復発利益安楽〕」等の文。 「復た利益・安楽を発し",
+          "context_position": 759,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "行人如前観已〕」の文。 「復た利益・安楽の心を発す〔復発利益安楽〕」等の文。 「復た利益・安楽を発し、乃至、二乗の境界を超ゆ",
+          "context_position": 771,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "利益・安楽の心を発す〔復発利益安楽〕」等の文。 「復た利益・安楽を発し、乃至、二乗の境界を超ゆ〔復発利益安楽乃至二乗境界〕」",
+          "context_position": 786,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "。 「復た利益・安楽を発し、乃至、二乗の境界を超ゆ〔復発利益安楽乃至二乗境界〕」の文。 「大悲決定をもって〔以大悲決定〕」等",
+          "context_position": 808,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "めには大乗の菩薩を挙げて無自性の義を明かし、後の「復た利益・安楽を発す〔復発利益安楽〕」以下は、行願・三摩地に約して勝義の菩",
+          "context_position": 1189,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "げて無自性の義を明かし、後の「復た利益・安楽を発す〔復発利益安楽〕」以下は、行願・三摩地に約して勝義の菩提心を顕す。両節が分",
+          "context_position": 1199,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "って、「これすなわち無漏界なり、不思議なり、善なり、常なり、安楽なり、解脱身なり、大牟尼なるを法と名づく」という。 「久遠に",
+          "context_position": 9691,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "く観じ已る〔如前観已〕」と御釈があると見える。 「復た利益・安楽の心を発す〔復発利益安楽〕」等の文。 以下は行願・三摩地に約",
+          "context_position": 11689,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "と御釈があると見える。 「復た利益・安楽の心を発す〔復発利益安楽〕」等の文。 以下は行願・三摩地に約して勝義心を顕す。すなわ",
+          "context_position": 11701,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "以下は行願・三摩地に約して勝義心を顕す。すなわち「復た利益・安楽を発す〔復発利益安楽〕」は行願心に約し、「復た瑜伽・勝上の法",
+          "context_position": 11740,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "約して勝義心を顕す。すなわち「復た利益・安楽を発す〔復発利益安楽〕」は行願心に約し、「復た瑜伽・勝上の法を修す〔復修瑜伽勝上",
+          "context_position": 11750,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "。これすなわち勝義心所具の行願・三摩地である。 「復た利益・安楽を発し、乃至、二乗の境界を超ゆ〔復発利益安楽乃至二乗境界〕」",
+          "context_position": 12160,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "。 「復た利益・安楽を発し、乃至、二乗の境界を超ゆ〔復発利益安楽乃至二乗境界〕」の文。 これは行願心に約して勝義を明かす。「",
+          "context_position": 12182,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "し、また行願心を発して外道・二乗を超過する義である。「利益・安楽、乃至、衆生の心〔利益安楽乃至衆生心〕」の文。これは行願の菩",
+          "context_position": 12277,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "・二乗を超過する義である。「利益・安楽、乃至、衆生の心〔利益安楽乃至衆生心〕」の文。これは行願の菩提心を釈す。「我れまさに無",
+          "context_position": 12290,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "。これは行願の菩提心を釈す。「我れまさに無余の有情界を利益し安楽せん〔我当利益安楽無余有情界〕」の釈と、その意が全同である。",
+          "context_position": 12331,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "心を釈す。「我れまさに無余の有情界を利益し安楽せん〔我当利益安楽無余有情界〕」の釈と、その意が全同である。利益・安楽のことは",
+          "context_position": 12340,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "我当利益安楽無余有情界〕」の釈と、その意が全同である。利益・安楽のことは上のとおり。「無余の衆生界〔無余衆生界〕」とは、上の",
+          "context_position": 12366,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "生」とは能居の正報に約す。意は、無余の世界の一切衆生を利益し安楽する義である。一義にいう。「無余の衆生界」とは総じて衆生界を",
+          "context_position": 12494,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "漢",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。前漢・後漢。",
+      "matched_forms": [
+        {
+          "form": "漢",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "の物たるや妙なり、教の趣たるや遠し。これに遇う者は泥を抜きて漢〔天の川〕に翔け、これを失う者は天より獄に入る。済度の船筏、",
+          "context_position": 5930,
+          "matched_form": "漢"
+        }
+      ]
+    },
+    {
+      "canonical": "雪山",
+      "aliases": [
+        "ヒマーラヤ",
+        "himālaya"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "ヒマーラヤ山脈。仏典でしばしば言及される聖山。",
+      "matched_forms": [
+        {
+          "form": "雪山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol7",
+          "context": "の義はこれ至要である。華厳の善財童子は百城に友を訪ね、涅槃の雪山童子は半偈に身を投ずる。これ皆「法門無辺誓願覚」の行体である",
+          "context_position": 5443,
+          "matched_form": "雪山"
+        }
+      ]
+    }
+  ]
+}
