@@ -1,0 +1,734 @@
+{
+  "schema_version": "1.0",
+  "category": "密教教学用語（mikkyo terms）",
+  "source_corpus": "hotsubodaishinron-sho-vol10.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "辞書ベース（19 語）+ 長語優先 substring 走査 + 周辺梵語注記抽出",
+  "dictionary_size": 19,
+  "gendaigoyaku_length": 12261,
+  "summary": {
+    "unique_terms": 19,
+    "total_occurrences": 81,
+    "kaimyo_suitable_count": 11,
+    "matched_term_count": 7
+  },
+  "entries": [
+    {
+      "term": "大悲",
+      "term_kana": "",
+      "sanskrit": "mahā-karuṇā",
+      "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "occurrence_count": 54,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "うがごとし〔如無量寿観経云〕」等の文。 一、大慈は楽を与え、大悲は苦を抜くことを論じる項。 「また涅槃経に……心は仏心に同じ",
+          "context_position": 143,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "至方便為究竟〕」の文。 これまで、華厳経の引証の終わり「皆な大悲を主と為す〔皆以大悲為主〕」に至るまでの料簡を畢えた。以下、",
+          "context_position": 757,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "。 これまで、華厳経の引証の終わり「皆な大悲を主と為す〔皆以大悲為主〕」に至るまでの料簡を畢えた。以下、「無量寿観経に云うが",
+          "context_position": 767,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "観経云〕」等の文。 これは初めに無量寿観経の文をもって行願・大悲の心に証せられる。それについて、今の文は、かの経に十六相観を",
+          "context_position": 1033,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "〕」である。かの文を引証したまう。大師のあるところの御釈に「大悲心はまた行願心と名づく」とある。よって、大慈悲はすなわち行願",
+          "context_position": 1131,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "く一切を摂するのである」と。『涅槃経』に「三世の諸仏・世尊は大悲を根本と為す。もし大悲の根が無ければ、これはすなわち仏と名づ",
+          "context_position": 1833,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "」と。『涅槃経』に「三世の諸仏・世尊は大悲を根本と為す。もし大悲の根が無ければ、これはすなわち仏と名づけない」とある。よって",
+          "context_position": 1844,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "ければ、これはすなわち仏と名づけない」とある。よって、仏心は大悲を本と為すことは、諸経の説相が一徹している。 一、大慈は楽を",
+          "context_position": 1880,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "為すことは、諸経の説相が一徹している。 一、大慈は楽を与え、大悲は苦を抜くことを論じる項。 『大日経疏』の「大悲を根と為す〔",
+          "context_position": 1915,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "は楽を与え、大悲は苦を抜くことを論じる項。 『大日経疏』の「大悲を根と為す〔大悲為根〕」の下の釈などを校合すべきである。 「",
+          "context_position": 1939,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "は苦を抜くことを論じる項。 『大日経疏』の「大悲を根と為す〔大悲為根〕」の下の釈などを校合すべきである。 「また涅槃経に……",
+          "context_position": 1947,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "は大涅槃経を引いて同じく行願心を証す。上の観経は果位の仏心の大悲を明かし、今の涅槃経は因人の大悲心が仏心と同じであることを明",
+          "context_position": 2035,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "証す。上の観経は果位の仏心の大悲を明かし、今の涅槃経は因人の大悲心が仏心と同じであることを明かす。まことに因・果は不同である",
+          "context_position": 2051,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "同じであることを明かす。まことに因・果は不同であるとはいえ、大悲の行体において同じであることが明らかである。それについて、今",
+          "context_position": 2088,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "これは、依身においてはこれ人相であるとはいえ、内心においては大悲を発すので、仏心に同じである義を説く。大師の「人の面にして仏",
+          "context_position": 3077,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "た言う。「世間を憐愍する大医王〔憐愍世間大医王〕」とは行願・大悲を証す。「世間」とは所度の生界である。『起信論』に所帰の仏宝",
+          "context_position": 3426,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "は所度の生界である。『起信論』に所帰の仏宝を指して「世を救う大悲者〔救世大悲者〕」とある。この意である。それについて、世間に",
+          "context_position": 3467,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "である。『起信論』に所帰の仏宝を指して「世を救う大悲者〔救世大悲者〕」とある。この意である。それについて、世間に器・衆生・正",
+          "context_position": 3473,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "て「最無上」と名づける義を説く。この両説の文は、ともに行願・大悲の義を説くと見られる。その故は、「自ら未だ度することを得ず、",
+          "context_position": 4656,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "である。次の上の引証の経文の意も、拘尸那城の工巧の子・純陀の大悲心に帰命すと見られる。今もこの意であろう。一義に言う。十信の",
+          "context_position": 5025,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "ながら別無し」の義は、もし最初の発心および十信などに約せば、大悲心が等しい義辺である。もし初住に約せば、三乗は見性が斉しい義",
+          "context_position": 6984,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "縁覚〕」の文。 これは二乗を超過する義を釈す。菩薩は最初より大悲心を発すので、二乗の自利の心に勝出するのである。それについて",
+          "context_position": 8864,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "のみ」とある。よって断惑においては同じである。しかしながら、大悲心を起こすことは菩薩の行願であるので、大悲心を発す辺に約して",
+          "context_position": 9037,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "る。しかしながら、大悲心を起こすことは菩薩の行願であるので、大悲心を発す辺に約して「声聞および縁覚に勝出す」と説かれるのであ",
+          "context_position": 9058,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "に対すれば「最無上」と名づくと義を取る。一義に言う。初発心の大悲が仏果と等しい義をもって「最無上」と名づくと義を取る。この意",
+          "context_position": 9538,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "究竟なるか』の三句の問いに、如来が答えて『菩提心を因と為し、大悲を根と為し、方便を究竟と為す〔菩提心為因大悲為根方便為究竟〕",
+          "context_position": 9732,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "提心を因と為し、大悲を根と為し、方便を究竟と為す〔菩提心為因大悲為根方便為究竟〕』とある。かの答説の経文を引証したまうのであ",
+          "context_position": 9754,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "ずまさに法界の衆生をあまねく度すべし〔必当普度法界衆生〕」の大悲心があるとはいえ、まず一向に一切智智を志求する辺を面〔おもて",
+          "context_position": 9898,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "智を志求する辺を面〔おもて〕として勝義心を証するのである。「大悲を根と為す〔大悲為根〕」は行願心の証拠である。これは行願・大",
+          "context_position": 9947,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "面〔おもて〕として勝義心を証するのである。「大悲を根と為す〔大悲為根〕」は行願心の証拠である。これは行願・大悲の義が彼此一致",
+          "context_position": 9955,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "悲を根と為す〔大悲為根〕」は行願心の証拠である。これは行願・大悲の義が彼此一致する。「方便を究竟と為す〔方便究竟〕」は第三の",
+          "context_position": 9978,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "ねては行願を証するのである。第二の句は行願心を証す。大師が「大悲心はまた行願心と名づく」と釈したまう。この意は明らかである。",
+          "context_position": 10843,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "起である。疏に言う。「仏が金剛手に告ぐ。『菩提心を因と為し、大悲を根と為し、方便を究竟と為す』とは、なお世間の種子が四大・衆",
+          "context_position": 10983,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "る。あるところの御釈に言う。「三句の義とは『菩提心を因とし、大悲を根とし、方便を究竟とす』である。これは真言行者の用心である",
+          "context_position": 11127,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "て円満して成仏す。だから『方便究竟を為す』と曰う。成仏以後、大悲をもって衆生を済度するので『方便を究竟と為す』と曰う。向上・",
+          "context_position": 11200,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "究竟の果と為るのである。これはすなわち利物の方便に当たる。「大悲を根と為す〔大悲為根〕」の句については、「大悲を根と為る」義",
+          "context_position": 11432,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "である。これはすなわち利物の方便に当たる。「大悲を根と為す〔大悲為根〕」の句については、「大悲を根と為る」義か、また「大悲を",
+          "context_position": 11440,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "便に当たる。「大悲を根と為す〔大悲為根〕」の句については、「大悲を根と為る」義か、また「大悲を根と為す」かのこと、古来の所論",
+          "context_position": 11455,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "〔大悲為根〕」の句については、「大悲を根と為る」義か、また「大悲を根と為す」かのこと、古来の所論である。一義の意は、第二の句",
+          "context_position": 11469,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "為す」かのこと、古来の所論である。一義の意は、第二の句の中に大悲と万行との二種がある。よって大悲をもって能成と為して万行の根",
+          "context_position": 11504,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "。一義の意は、第二の句の中に大悲と万行との二種がある。よって大悲をもって能成と為して万行の根を生ずるので「大悲根と為す」と文",
+          "context_position": 11520,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "がある。よって大悲をもって能成と為して万行の根を生ずるので「大悲根と為す」と文を読む義を取る。随って疏に、譬えに約して「なお",
+          "context_position": 11543,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "ずることを得る」とあり、法・譬を合釈せられるときは「すなわち大悲の地界に執持せらるに由るがゆえに、大悲の虚空が障碍せざるがゆ",
+          "context_position": 11626,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "られるときは「すなわち大悲の地界に執持せらるに由るがゆえに、大悲の虚空が障碍せざるがゆえに、爾のとき無量の度門が任運に開発す",
+          "context_position": 11645,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "の意は、譬えに約すれば種子・根・菓の次第、法に約すれば菩提・大悲・方便の三句である。よって第二句は「大悲すなわち根」の義であ",
+          "context_position": 11752,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "、法に約すれば菩提・大悲・方便の三句である。よって第二句は「大悲すなわち根」の義である。随って経に「これらを根本と為して方便",
+          "context_position": 11772,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "本と為して方便波羅蜜を満足す」とあり、『守護経』には「大慈・大悲をもって根本と為す〔大慈大悲而為根本〕」と説く。『大日経疏』",
+          "context_position": 11827,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "」とあり、『守護経』には「大慈・大悲をもって根本と為す〔大慈大悲而為根本〕」と説く。『大日経疏』には「このように浄信心をして",
+          "context_position": 11841,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "このように浄信心をして堅牢・増長せしめんが為に、経中に次に『大悲を根と為す』と説く」とある。これらの意は明らかである。ただし",
+          "context_position": 11892,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "く」とある。これらの意は明らかである。ただし第二の句に万行と大悲とが各別であるとはいえ、万行を大悲に摂して一種として菩提心の",
+          "context_position": 11932,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "る。ただし第二の句に万行と大悲とが各別であるとはいえ、万行を大悲に摂して一種として菩提心の種子に望めば「根」と為るのである。",
+          "context_position": 11949,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "と為す」の句について向上・向下の二義を釈せられるとはいえ、「大悲を根と為す」の句についてはこのような分別が無い。よって「大悲",
+          "context_position": 12031,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "大悲を根と為す」の句についてはこのような分別が無い。よって「大悲を根と為る」義と意得るべきである。おおよそこの三句の義門は、",
+          "context_position": 12061,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "日経および金剛頂経に明かす所は、皆なこの『菩提心を因と為し、大悲を根と為し、方便を究竟と為す』の三句に過ぎず。もし広を摂して",
+          "context_position": 12151,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大日",
+      "term_kana": "",
+      "sanskrit": "Mahāvairocana",
+      "definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "日"
+      ],
+      "occurrence_count": 10,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "た。以下、「無量寿観経に云うがごとし〔如無量寿観経云〕」より大日経の引証に至るまでの一段について校合すべきである。この一段の",
+          "context_position": 814,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "すべきである。この一段の文は、初めには観経、次に涅槃経、後に大日経の三節が明らかである。委細の料簡は文に随って次第に聞くべき",
+          "context_position": 864,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "の文は同じく行願を証し、次の文は勝義・行願を並べて証し、後の大日経もこれまた行願・勝義を並べて証するのである。 「無量寿観経",
+          "context_position": 959,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "る。 一、大慈は楽を与え、大悲は苦を抜くことを論じる項。 『大日経疏』の「大悲を根と為す〔大悲為根〕」の下の釈などを校合すべ",
+          "context_position": 1932,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "品に言う。「医が善方便をもって狂子を治するがごとき故」と。『大日経疏』に言う。「諸仏・医王は明らかに如来性を見る故」と。『秘",
+          "context_position": 4030,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "説かれると意得るべきである。 一、『十住毘婆沙論』ならびに『大日経疏』、大師の御釈などは、自証を満たさなければ利他の行に堪え",
+          "context_position": 7077,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "盧遮那経に云うがごとし〔如題毘盧遮那経云〕」等の文。 これは大日経第一住心品の三句の説文を引証したまう。かの経に、金剛手の『",
+          "context_position": 9640,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "二位に通ずる。よって各々の三句を具足す。だからこの義をもって大日経の三句の説文を引証せられるのである。ただし第三の菩提心は後",
+          "context_position": 10513,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "大慈・大悲をもって根本と為す〔大慈大悲而為根本〕」と説く。『大日経疏』には「このように浄信心をして堅牢・増長せしめんが為に、",
+          "context_position": 11854,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "門は、顕・密の教理を該摂する甚深の縁起である。大師の御釈に「大日経および金剛頂経に明かす所は、皆なこの『菩提心を因と為し、大",
+          "context_position": 12120,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法界",
+      "term_kana": "",
+      "sanskrit": "dharma-dhātu",
+      "definition": "宇宙の真実相。一切法の根本領域。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "界"
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "いえ、後に灯が来ればその明かりが転た増すように、初心の見性が法界に遍ずとはいえ、後々に見るに転々と分明である。ただし所見が同",
+          "context_position": 5671,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "地に至るまで、階次は不同であるとはいえ、しかも一時にあまねく法界に遍じて無作の善根を発起す。すなわち如来と更に増減の異が無い",
+          "context_position": 6033,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "志求する心であるので、もっぱら勝義心に符合する。「必ずまさに法界の衆生をあまねく度すべし〔必当普度法界衆生〕」の大悲心がある",
+          "context_position": 9872,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "符合する。「必ずまさに法界の衆生をあまねく度すべし〔必当普度法界衆生〕」の大悲心があるとはいえ、まず一向に一切智智を志求する",
+          "context_position": 9891,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "は行願を証す。その故は、「一向に一切智智を志求し、必ずまさに法界の衆生をあまねく度すべし〔一向志求一切智智必当普度法界衆生〕",
+          "context_position": 10671,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "まさに法界の衆生をあまねく度すべし〔一向志求一切智智必当普度法界衆生〕」の心を菩提心と名づく。かの「一向に一切智智を志求す」",
+          "context_position": 10698,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "かの「一向に一切智智を志求す」は勝義心に当たり、「必ずまさに法界の衆生をあまねく度すべし」は行願心の意である。しかるに菩提心",
+          "context_position": 10745,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "遮那",
+      "term_kana": "",
+      "sanskrit": "Vairocana",
+      "definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "遮",
+        "那"
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "「この故に名を最無上と得〔是故得名最無上〕」の文。 「題毘盧遮那経に云うがごとし〔如題毘盧遮那経云〕」等の文。 発菩提心論鈔",
+          "context_position": 651,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "得名最無上〕」の文。 「題毘盧遮那経に云うがごとし〔如題毘盧遮那経云〕」等の文。 発菩提心論鈔 第十。宥快〔の述〕。 「無量",
+          "context_position": 666,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "敬礼す〔敬礼無上尊〕」の義と一具であるはずである。 「題毘盧遮那経に云うがごとし〔如題毘盧遮那経云〕」等の文。 これは大日経",
+          "context_position": 9611,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "具であるはずである。 「題毘盧遮那経に云うがごとし〔如題毘盧遮那経云〕」等の文。 これは大日経第一住心品の三句の説文を引証し",
+          "context_position": 9626,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三摩地",
+      "term_kana": "",
+      "sanskrit": "samādhi",
+      "definition": "禅定。心を一境に住して散乱を離れた状態。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "此一致する。「方便を究竟と為す〔方便究竟〕」は第三の菩提心〔三摩地〕を証す。「方便究竟」とは「醍醐の妙果、三密の源」と釈したま",
+          "context_position": 10014,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "。ただし第三の菩提心は後段の所釈であるとはいえ、勝義・行願と三摩地との中間にこの経文を引証して、前後の二段を兼ねるのである。一",
+          "context_position": 10125,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "べきでない。よって前段の引文であるとはいえ、その義勢は後段の三摩地に当たるので、「方便を究竟と為す」を第三の菩提心の証拠と意得",
+          "context_position": 10230,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三密",
+      "term_kana": "",
+      "sanskrit": "trīṇi guhyāni",
+      "definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "密"
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "第三の菩提心〔三摩地〕を証す。「方便究竟」とは「醍醐の妙果、三密の源」と釈したまうので、もっぱら第三の菩提心に当たると義を取",
+          "context_position": 10037,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "。だから向上門のときは「方便究竟と為す」と文を読んで、六度・三密の妙行をもって方便として究竟の果を成ずる義である。これはすな",
+          "context_position": 11324,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "真言",
+      "term_kana": "",
+      "sanskrit": "mantra",
+      "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "菩提心を因とし、大悲を根とし、方便を究竟とす』である。これは真言行者の用心である。凡位より六度を修行して円満して成仏す。だか",
+          "context_position": 11149,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "即身",
+      "term_kana": "",
+      "sanskrit": "sa-deha",
+      "definition": "即身成仏の略。父母所生の身のまま現生で仏となる。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "即身成仏",
+      "term_kana": "",
+      "sanskrit": "sa-deha-prāpti-buddhatva",
+      "definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "成",
+        "仏"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "大空三昧",
+      "term_kana": "",
+      "sanskrit": "mahā-śūnyatā-samādhi",
+      "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "密教",
+      "term_kana": "",
+      "sanskrit": "guhya-mantra-yāna",
+      "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "心王",
+      "term_kana": "",
+      "sanskrit": "citta-rāja",
+      "definition": "八識の根本識。心の主体・統括者。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "智剣",
+      "term_kana": "",
+      "sanskrit": "jñāna-khaḍga",
+      "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "智",
+        "剣"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "本不生",
+      "term_kana": "",
+      "sanskrit": "ādyanutpāda",
+      "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "法身",
+      "term_kana": "",
+      "sanskrit": "dharmakāya",
+      "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "身"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "無縁慈悲",
+      "term_kana": "",
+      "sanskrit": "an-ārambaṇa-karuṇā",
+      "definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "慈",
+        "悲"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "玄機",
+      "term_kana": "",
+      "sanskrit": "—",
+      "definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "玄",
+        "機"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "阿字",
+      "term_kana": "",
+      "sanskrit": "a-kāra",
+      "definition": "密教根本字。梵語五十字門の最初の字。本不生を象徴。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "阿字本不生",
+      "term_kana": "",
+      "sanskrit": "ā-di-an-utpāda",
+      "definition": "密教根本教義。阿字（a-kāra）が本来不生（不滅）であることを観じ、万物の本源を悟る。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

@@ -29,16 +29,17 @@
     "hotsubodaishinron-sho-vol6",
     "hotsubodaishinron-sho-vol7",
     "hotsubodaishinron-sho-vol8",
-    "hotsubodaishinron-sho-vol9"
+    "hotsubodaishinron-sho-vol9",
+    "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 25,
-  "corpora_with_data": 25,
+  "corpora_count": 26,
+  "corpora_with_data": 26,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 15,
-    "total_occurrences": 143,
+    "total_occurrences": 144,
     "terms_in_multiple_corpora": 9,
     "max_corpus_coverage": 11,
     "by_corpus": {
@@ -166,6 +167,11 @@
         "unique": 4,
         "occurrences": 4,
         "present": true
+      },
+      "hotsubodaishinron-sho-vol10": {
+        "unique": 1,
+        "occurrences": 1,
+        "present": true
       }
     }
   },
@@ -230,9 +236,10 @@
     },
     {
       "term": "秘蔵宝鑰",
-      "total_occurrence_count": 19,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 20,
+      "covered_corpora_count": 9,
       "covered_corpora": [
+        "hotsubodaishinron-sho-vol10",
         "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "hotsubodaishinron-sho-vol5",
@@ -250,7 +257,8 @@
         "hotsubodaishinron-sho-vol6": 3,
         "hotsubodaishinron-sho-vol7": 3,
         "hotsubodaishinron-sho-vol8": 4,
-        "hotsubodaishinron-sho-vol9": 1
+        "hotsubodaishinron-sho-vol9": 1,
+        "hotsubodaishinron-sho-vol10": 1
       }
     },
     {

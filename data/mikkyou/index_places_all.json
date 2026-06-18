@@ -29,16 +29,17 @@
     "hotsubodaishinron-sho-vol6",
     "hotsubodaishinron-sho-vol7",
     "hotsubodaishinron-sho-vol8",
-    "hotsubodaishinron-sho-vol9"
+    "hotsubodaishinron-sho-vol9",
+    "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 25,
-  "corpora_with_data": 25,
+  "corpora_count": 26,
+  "corpora_with_data": 26,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1133,
+    "total_occurrences": 1134,
     "terms_in_multiple_corpora": 45,
     "max_corpus_coverage": 17,
     "by_corpus": {
@@ -163,6 +164,11 @@
         "present": true
       },
       "hotsubodaishinron-sho-vol9": {
+        "unique": 1,
+        "occurrences": 1,
+        "present": true
+      },
+      "hotsubodaishinron-sho-vol10": {
         "unique": 1,
         "occurrences": 1,
         "present": true
@@ -451,12 +457,13 @@
     },
     {
       "canonical": "漢",
-      "total_occurrence_count": 38,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 39,
+      "covered_corpora_count": 9,
       "covered_corpora": [
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol10",
         "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol6",
         "hotsubodaishinron-sho-vol7",
@@ -471,7 +478,8 @@
         "hotsubodaishinron-sho-vol1": 1,
         "hotsubodaishinron-sho-vol2": 1,
         "hotsubodaishinron-sho-vol6": 1,
-        "hotsubodaishinron-sho-vol7": 1
+        "hotsubodaishinron-sho-vol7": 1,
+        "hotsubodaishinron-sho-vol10": 1
       },
       "metadata": {
         "subcategory": "country_dynasty",

@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol10.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 12261,
+  "summary": {
+    "unique_terms": 5,
+    "unique_persons": 5,
+    "total_occurrences": 20,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 1,
+        "occurrences": 14
+      },
+      "buddhist_master_china": {
+        "unique": 2,
+        "occurrences": 2
+      },
+      "buddhist_master_india": {
+        "unique": 2,
+        "occurrences": 4
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日",
+          "count": 10
+        },
+        {
+          "form": "毘盧遮那",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 14,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "。 「この故に名を最無上と得〔是故得名最無上〕」の文。 「題毘盧遮那経に云うがごとし〔如題毘盧遮那経云〕」等の文。 発菩提心論鈔",
+          "context_position": 649,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "是故得名最無上〕」の文。 「題毘盧遮那経に云うがごとし〔如題毘盧遮那経云〕」等の文。 発菩提心論鈔 第十。宥快〔の述〕。 「無量",
+          "context_position": 664,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "尊を敬礼す〔敬礼無上尊〕」の義と一具であるはずである。 「題毘盧遮那経に云うがごとし〔如題毘盧遮那経云〕」等の文。 これは大日経",
+          "context_position": 9609,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "と一具であるはずである。 「題毘盧遮那経に云うがごとし〔如題毘盧遮那経云〕」等の文。 これは大日経第一住心品の三句の説文を引証し",
+          "context_position": 9624,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "た。以下、「無量寿観経に云うがごとし〔如無量寿観経云〕」より大日経の引証に至るまでの一段について校合すべきである。この一段の",
+          "context_position": 814,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "すべきである。この一段の文は、初めには観経、次に涅槃経、後に大日経の三節が明らかである。委細の料簡は文に随って次第に聞くべき",
+          "context_position": 864,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "の文は同じく行願を証し、次の文は勝義・行願を並べて証し、後の大日経もこれまた行願・勝義を並べて証するのである。 「無量寿観経",
+          "context_position": 959,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "る。 一、大慈は楽を与え、大悲は苦を抜くことを論じる項。 『大日経疏』の「大悲を根と為す〔大悲為根〕」の下の釈などを校合すべ",
+          "context_position": 1932,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "品に言う。「医が善方便をもって狂子を治するがごとき故」と。『大日経疏』に言う。「諸仏・医王は明らかに如来性を見る故」と。『秘",
+          "context_position": 4030,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "説かれると意得るべきである。 一、『十住毘婆沙論』ならびに『大日経疏』、大師の御釈などは、自証を満たさなければ利他の行に堪え",
+          "context_position": 7077,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "盧遮那経に云うがごとし〔如題毘盧遮那経云〕」等の文。 これは大日経第一住心品の三句の説文を引証したまう。かの経に、金剛手の『",
+          "context_position": 9640,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "二位に通ずる。よって各々の三句を具足す。だからこの義をもって大日経の三句の説文を引証せられるのである。ただし第三の菩提心は後",
+          "context_position": 10513,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "大慈・大悲をもって根本と為す〔大慈大悲而為根本〕」と説く。『大日経疏』には「このように浄信心をして堅牢・増長せしめんが為に、",
+          "context_position": 11854,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "門は、顕・密の教理を該摂する甚深の縁起である。大師の御釈に「大日経および金剛頂経に明かす所は、皆なこの『菩提心を因と為し、大",
+          "context_position": 12120,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "迦葉",
+      "aliases": [
+        "摩訶迦葉",
+        "kāśyapa",
+        "Kāśyapa"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子の筆頭。頭陀第一。",
+      "sanskrit_canonical": "kāśyapa",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "迦葉",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "愍す〔憐愍世間〕」乃至「無上尊を敬礼す〔敬礼無上尊〕」とは、迦葉菩薩が仏徳を嘆ずる文である。「発心・畢竟〔発心畢竟〕」以下は",
+          "context_position": 3280,
+          "matched_form": "迦葉"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "する涅槃経の第三十四の文である。『涅槃経』に言う。「爾のとき迦葉菩薩は、すなわち仏前において偈をもって仏を讃ず。世間を憐愍し",
+          "context_position": 3356,
+          "matched_form": "迦葉"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "畢竟と二つながら別無し〔発心畢竟二無別〕』とは、これは並びに迦葉が初住を嘆ずる文である」と。華厳の大疏に「微滴が天池に入って",
+          "context_position": 5164,
+          "matched_form": "迦葉"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "いては強いて智・悲の増上を立てない。香象の『五教章』ならびに不空の御釈に明らかである。 「この故に我れ初発心を礼す〔是故我礼",
+          "context_position": 7607,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "善導",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "浄土教の大成者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善導",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "をもって諸々の衆生を摂するは、仏心の相を弁ずるのである」と。善導の『観経疏』に言う。「『八に、この事を見る者〔見此事者〕』よ",
+          "context_position": 1549,
+          "matched_form": "善導"
+        }
+      ]
+    },
+    {
+      "canonical": "羅睺羅",
+      "aliases": [
+        "rāhula",
+        "Rāhula"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。釈迦の実子。密行第一。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "羅睺羅",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol10",
+          "context": "いえ、心は仏心のごとし。汝、今、純陀は、真にこれ仏子である。羅睺羅のごとく等しくして異なることが有ることが無い」と。「南無」と",
+          "context_position": 2482,
+          "matched_form": "羅睺羅"
+        }
+      ]
+    }
+  ]
+}
