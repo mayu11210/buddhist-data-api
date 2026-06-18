@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "category": "空海著作・性霊集編纂物（kukai works）",
+  "source_corpus": "hotsubodaishinron-sho-vol9.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 18637,
+  "summary": {
+    "unique_terms": 4,
+    "total_occurrences": 4
+  },
+  "entries": [
+    {
+      "term": "十住心論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "かに自身の分を転じて、すなわち金剛身に同じなり」とある。また『十住心論』の秘密荘厳住心の下の「究竟じて自心の源底を覚知し、実の如く自",
+          "context_position": 4363,
+          "raw_form": "十住心論"
+        }
+      ]
+    },
+    {
+      "term": "即身成仏義",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "心の体性が平等であって別執を離れるので「身心を見ず」と言う。『即身成仏義』に「色・心は異なるとはいえ、その性はすなわち同じである。色は",
+          "context_position": 4166,
+          "raw_form": "即身成仏義"
+        }
+      ]
+    },
+    {
+      "term": "弁顕密二教論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "の「寂滅平等」等の義を第七の住心に約して意得るならば、高祖の『弁顕密二教論』に「明らかに知んぬ、中観などは諸々の戯論を息めて寂滅・絶離で",
+          "context_position": 4888,
+          "raw_form": "弁顕密二教論"
+        }
+      ]
+    },
+    {
+      "term": "秘蔵宝鑰",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "道理を明かすので、「万徳ここに具わる」の義と相違無い。随って『秘蔵宝鑰』には「初心の仏はその徳が不思議である。万徳が始めて顕れ、一心",
+          "context_position": 8212,
+          "raw_form": "秘蔵宝鑰"
+        }
+      ]
+    }
+  ],
+  "classification_table": {
+    "梵字悉曇字母并びに釈義": "空海著作",
+    "古今文字讃": "空海請来書",
+    "古今篆隷の文体": "空海請来書",
+    "続性霊集補闕鈔": "性霊集編纂物",
+    "大広智の影の讃": "idx12篇名（空海碑文）",
+    "大広智不空三蔵の影の讃": "idx12篇名（空海碑文・括弧前）",
+    "弁顕密二教論": "空海著作",
+    "吽字義": "空海著作",
+    "即身成仏義": "空海著作",
+    "声字実相義": "空海著作",
+    "般若心経秘鍵": "空海著作",
+    "秘蔵宝鑰": "空海著作",
+    "十住心論": "空海著作",
+    "秘密曼荼羅十住心論": "空海著作",
+    "三教指帰": "空海著作",
+    "聾瞽指帰": "空海著作",
+    "御請来目録": "空海著作",
+    "性霊集": "空海関連（弟子真済編）",
+    "遍照発揮性霊集": "空海関連（弟子真済編）",
+    "菩提心論": "空海関連（不空訳・真言宗根本論書）"
+  }
+}

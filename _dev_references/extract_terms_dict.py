@@ -61,7 +61,8 @@ DICT_CORPUS_LIST = [
     'hotsubodaishinron-sho-vol5.json',  # 2026-06-18 追加（発菩提心論鈔 第五巻 横断索引化・21 著作目の dict 型）
     'hotsubodaishinron-sho-vol6.json',  # 2026-06-18 追加（発菩提心論鈔 第六巻 横断索引化・22 著作目の dict 型）
     'hotsubodaishinron-sho-vol7.json',
-    'hotsubodaishinron-sho-vol8.json',  # 2026-06-18 追加（発菩提心論鈔 第八巻 横断索引化・24 著作目の dict 型）
+    'hotsubodaishinron-sho-vol8.json',
+    'hotsubodaishinron-sho-vol9.json',  # 2026-06-18 追加（発菩提心論鈔 第九巻 横断索引化・25 著作目の dict 型）
 ]
 
 # ====== 19 語辞書（extract_terms.py と完全同期）======

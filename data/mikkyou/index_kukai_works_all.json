@@ -28,16 +28,17 @@
     "hotsubodaishinron-sho-vol5",
     "hotsubodaishinron-sho-vol6",
     "hotsubodaishinron-sho-vol7",
-    "hotsubodaishinron-sho-vol8"
+    "hotsubodaishinron-sho-vol8",
+    "hotsubodaishinron-sho-vol9"
   ],
-  "corpora_count": 24,
-  "corpora_with_data": 24,
+  "corpora_count": 25,
+  "corpora_with_data": 25,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 15,
-    "total_occurrences": 139,
+    "total_occurrences": 143,
     "terms_in_multiple_corpora": 9,
     "max_corpus_coverage": 11,
     "by_corpus": {
@@ -160,6 +161,11 @@
         "unique": 4,
         "occurrences": 9,
         "present": true
+      },
+      "hotsubodaishinron-sho-vol9": {
+        "unique": 4,
+        "occurrences": 4,
+        "present": true
       }
     }
   },
@@ -197,8 +203,8 @@
     },
     {
       "term": "十住心論",
-      "total_occurrence_count": 32,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 33,
+      "covered_corpora_count": 9,
       "covered_corpora": [
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol1",
@@ -207,7 +213,8 @@
         "hotsubodaishinron-sho-vol5",
         "hotsubodaishinron-sho-vol6",
         "hotsubodaishinron-sho-vol7",
-        "hotsubodaishinron-sho-vol8"
+        "hotsubodaishinron-sho-vol8",
+        "hotsubodaishinron-sho-vol9"
       ],
       "by_corpus": {
         "hizo-houyaku": 5,
@@ -217,13 +224,14 @@
         "hotsubodaishinron-sho-vol5": 7,
         "hotsubodaishinron-sho-vol6": 3,
         "hotsubodaishinron-sho-vol7": 8,
-        "hotsubodaishinron-sho-vol8": 3
+        "hotsubodaishinron-sho-vol8": 3,
+        "hotsubodaishinron-sho-vol9": 1
       }
     },
     {
       "term": "秘蔵宝鑰",
-      "total_occurrence_count": 18,
-      "covered_corpora_count": 7,
+      "total_occurrence_count": 19,
+      "covered_corpora_count": 8,
       "covered_corpora": [
         "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
@@ -231,6 +239,7 @@
         "hotsubodaishinron-sho-vol6",
         "hotsubodaishinron-sho-vol7",
         "hotsubodaishinron-sho-vol8",
+        "hotsubodaishinron-sho-vol9",
         "nikyo-ron"
       ],
       "by_corpus": {
@@ -240,19 +249,21 @@
         "hotsubodaishinron-sho-vol5": 4,
         "hotsubodaishinron-sho-vol6": 3,
         "hotsubodaishinron-sho-vol7": 3,
-        "hotsubodaishinron-sho-vol8": 4
+        "hotsubodaishinron-sho-vol8": 4,
+        "hotsubodaishinron-sho-vol9": 1
       }
     },
     {
       "term": "即身成仏義",
-      "total_occurrence_count": 17,
-      "covered_corpora_count": 6,
+      "total_occurrence_count": 18,
+      "covered_corpora_count": 7,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hotsubodaishinron-sho-vol1",
         "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "hotsubodaishinron-sho-vol7",
+        "hotsubodaishinron-sho-vol9",
         "shoji-jisso"
       ],
       "by_corpus": {
@@ -261,19 +272,21 @@
         "hotsubodaishinron-sho-vol1": 3,
         "hotsubodaishinron-sho-vol3": 4,
         "hotsubodaishinron-sho-vol2": 1,
-        "hotsubodaishinron-sho-vol7": 2
+        "hotsubodaishinron-sho-vol7": 2,
+        "hotsubodaishinron-sho-vol9": 1
       }
     },
     {
       "term": "弁顕密二教論",
-      "total_occurrence_count": 10,
-      "covered_corpora_count": 7,
+      "total_occurrence_count": 11,
+      "covered_corpora_count": 8,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hotsubodaishinron-sho-vol1",
         "hotsubodaishinron-sho-vol3",
         "hotsubodaishinron-sho-vol7",
         "hotsubodaishinron-sho-vol8",
+        "hotsubodaishinron-sho-vol9",
         "nikyo-ron",
         "sokushin-jobutsu"
       ],
@@ -284,7 +297,8 @@
         "hotsubodaishinron-sho-vol1": 1,
         "hotsubodaishinron-sho-vol3": 2,
         "hotsubodaishinron-sho-vol7": 1,
-        "hotsubodaishinron-sho-vol8": 1
+        "hotsubodaishinron-sho-vol8": 1,
+        "hotsubodaishinron-sho-vol9": 1
       }
     },
     {

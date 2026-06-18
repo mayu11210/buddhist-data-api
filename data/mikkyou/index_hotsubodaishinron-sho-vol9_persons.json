@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "hotsubodaishinron-sho-vol9.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 18637,
+  "summary": {
+    "unique_terms": 5,
+    "unique_persons": 5,
+    "total_occurrences": 20,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 2,
+        "occurrences": 16
+      },
+      "buddhist_master_china": {
+        "unique": 2,
+        "occurrences": 2
+      },
+      "buddhist_master_india": {
+        "unique": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 9
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "法に住するを『菩薩の歓喜地に住す〔住菩薩歓喜地〕』と名づく。不動と相応するをもっての故に」とある。大疏に言う。「第二、『菩薩",
+          "context_position": 16946,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "地に住すと名づく〔名住歓喜地〕』とはこれ初住地の義である。『不動と相応するをもってす〔以不動相応〕』とは住の義を釈し成す。一",
+          "context_position": 17058,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "〕』とはこれ初住地の義である。『不動と相応するをもってす〔以不動相応〕』とは住の義を釈し成す。一たび心地を証してまた失せない",
+          "context_position": 17072,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "また失せないので、二乗・異道が動かすことができない。だから『不動』に五がある。種子が壊れないのを不動と名づく。すなわち十地の",
+          "context_position": 17128,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "ことができない。だから『不動』に五がある。種子が壊れないのを不動と名づく。すなわち十地の種姓地以上である。二に起行不退を不動",
+          "context_position": 17146,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "不動と名づく。すなわち十地の種姓地以上である。二に起行不退を不動と名づく。すなわちこれ初地以上である。『持地』に言う。『初地",
+          "context_position": 17176,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "たまたこのようである』と。三には空・有が無間〔へだてなし〕の不動、すなわち七地である。四には無功用の不動、すなわち八地以上で",
+          "context_position": 17274,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "無間〔へだてなし〕の不動、すなわち七地である。四には無功用の不動、すなわち八地以上である。五には究竟の不動、すなわち仏地であ",
+          "context_position": 17294,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "る。四には無功用の不動、すなわち八地以上である。五には究竟の不動、すなわち仏地である」と。 「譬えば大山王のごとし〔譬如大山",
+          "context_position": 17315,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日",
+          "count": 6
+        },
+        {
+          "form": "毘盧遮那",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "」と言う。もし自宗の意によれば、色・心は実相であって常にこれ毘盧遮那・平等智身であるので、身・心の体性が平等であって別執を離れる",
+          "context_position": 4119,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "る。一義に言う。上の「初め行願とは〔初行願者〕」以下、下の『大日経』の引文の終わり「方便を究竟と為す〔方便為究竟〕」に至るま",
+          "context_position": 1891,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "る〔已悟法本無生〕」とは、一切法は空であると悟る義である。『大日経疏』に「龍樹阿闍梨の中道正観は、正しく縁より起こるをもって",
+          "context_position": 2877,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "能・所ともに万徳具足の義が顕れる。よって相違無いのである。『大日経疏』に「仏の平等の心地より無尽荘厳蔵の大曼荼羅を開発し已わ",
+          "context_position": 6816,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "心若起知而勿随〕」とは通達菩提心の義で、妄の霧が忽ちに晴れて大日の光を見る意である。「妄もし息むとき妙用窮まり無し〔妄若息時",
+          "context_position": 7527,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "る。その中で五段の不同が見える。引く経は華厳・観経・涅槃経・大日経の四種の経である。華厳の引証に両節があるので、総じて五段の",
+          "context_position": 10776,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "准証〔准じての証〕であるはずである。もし深秘の意によれば、『大日経疏』に言う。「華厳の十地経の一々の名言は、阿闍梨の所伝によ",
+          "context_position": 18137,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "龍樹",
+      "aliases": [
+        "龍猛",
+        "nāgārjuna",
+        "Nāgārjuna"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "中観派の祖。空海から見て付法第三祖（龍猛）。",
+      "sanskrit_canonical": "nāgārjuna",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "龍樹",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "生〕」とは、一切法は空であると悟る義である。『大日経疏』に「龍樹阿闍梨の中道正観は、正しく縁より起こるをもっての故に無生の義",
+          "context_position": 2884,
+          "matched_form": "龍樹"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "ある」と釈す。今、自宗の意もまたそうである。疏家〔一行〕が「龍樹阿闍梨の中道正観は、正しく縁より起こるをもっての故に無生の義",
+          "context_position": 3249,
+          "matched_form": "龍樹"
+        }
+      ]
+    },
+    {
+      "canonical": "法蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第三祖。賢首大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "法蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "ある。これ表徳の謂いではない」とある。この意であろう。香象〔法蔵〕の『起信論義記』に「それ真心は寥廓〔広く空しい〕として言・",
+          "context_position": 4982,
+          "matched_form": "法蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "澄観",
+      "aliases": [
+        "清涼大師"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第四祖。清涼山に住す。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "澄観",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "〕の意によれば、「如」とは真如無相の理性である。華厳の清涼〔澄観〕には「一念も生ぜず、前後の際が断たれ、照らす体が独り立ち、",
+          "context_position": 3869,
+          "matched_form": "澄観"
+        }
+      ]
+    }
+  ]
+}

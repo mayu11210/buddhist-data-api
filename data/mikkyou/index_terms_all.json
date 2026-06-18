@@ -28,18 +28,19 @@
     "hotsubodaishinron-sho-vol5",
     "hotsubodaishinron-sho-vol6",
     "hotsubodaishinron-sho-vol7",
-    "hotsubodaishinron-sho-vol8"
+    "hotsubodaishinron-sho-vol8",
+    "hotsubodaishinron-sho-vol9"
   ],
-  "corpora_count": 24,
-  "corpora_with_data": 24,
+  "corpora_count": 25,
+  "corpora_with_data": 25,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 19,
-    "total_occurrences": 4461,
+    "total_occurrences": 4540,
     "terms_in_multiple_corpora": 17,
-    "max_corpus_coverage": 24,
+    "max_corpus_coverage": 25,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 19,
@@ -160,14 +161,19 @@
         "unique": 19,
         "occurrences": 64,
         "present": true
+      },
+      "hotsubodaishinron-sho-vol9": {
+        "unique": 19,
+        "occurrences": 79,
+        "present": true
       }
     }
   },
   "entries": [
     {
       "term": "真言",
-      "total_occurrence_count": 907,
-      "covered_corpora_count": 24,
+      "total_occurrence_count": 911,
+      "covered_corpora_count": 25,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -183,6 +189,7 @@
         "hotsubodaishinron-sho-vol6",
         "hotsubodaishinron-sho-vol7",
         "hotsubodaishinron-sho-vol8",
+        "hotsubodaishinron-sho-vol9",
         "jujushinron",
         "nikyo-ron",
         "rishikyo",
@@ -218,7 +225,8 @@
         "hotsubodaishinron-sho-vol5": 17,
         "hotsubodaishinron-sho-vol6": 7,
         "hotsubodaishinron-sho-vol7": 27,
-        "hotsubodaishinron-sho-vol8": 13
+        "hotsubodaishinron-sho-vol8": 13,
+        "hotsubodaishinron-sho-vol9": 4
       },
       "metadata": {
         "sanskrit": "mantra",
@@ -232,8 +240,8 @@
     },
     {
       "term": "大日",
-      "total_occurrence_count": 793,
-      "covered_corpora_count": 22,
+      "total_occurrence_count": 799,
+      "covered_corpora_count": 23,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -249,6 +257,7 @@
         "hotsubodaishinron-sho-vol6",
         "hotsubodaishinron-sho-vol7",
         "hotsubodaishinron-sho-vol8",
+        "hotsubodaishinron-sho-vol9",
         "jujushinron",
         "nikyo-ron",
         "rishikyo",
@@ -280,7 +289,8 @@
         "hotsubodaishinron-sho-vol5": 9,
         "hotsubodaishinron-sho-vol6": 4,
         "hotsubodaishinron-sho-vol7": 8,
-        "hotsubodaishinron-sho-vol8": 10
+        "hotsubodaishinron-sho-vol8": 10,
+        "hotsubodaishinron-sho-vol9": 6
       },
       "metadata": {
         "sanskrit": "Mahāvairocana",
@@ -346,8 +356,8 @@
     },
     {
       "term": "法界",
-      "total_occurrence_count": 411,
-      "covered_corpora_count": 20,
+      "total_occurrence_count": 415,
+      "covered_corpora_count": 21,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -361,6 +371,7 @@
         "hotsubodaishinron-sho-vol4",
         "hotsubodaishinron-sho-vol5",
         "hotsubodaishinron-sho-vol8",
+        "hotsubodaishinron-sho-vol9",
         "jujushinron",
         "nikyo-ron",
         "rishushaku",
@@ -390,7 +401,8 @@
         "hotsubodaishinron-sho-vol4": 3,
         "hotsubodaishinron-sho-vol2": 4,
         "hotsubodaishinron-sho-vol5": 2,
-        "hotsubodaishinron-sho-vol8": 3
+        "hotsubodaishinron-sho-vol8": 3,
+        "hotsubodaishinron-sho-vol9": 4
       },
       "metadata": {
         "sanskrit": "dharma-dhātu",
@@ -464,8 +476,8 @@
     },
     {
       "term": "三摩地",
-      "total_occurrence_count": 352,
-      "covered_corpora_count": 17,
+      "total_occurrence_count": 358,
+      "covered_corpora_count": 18,
       "covered_corpora": [
         "bodaishinron",
         "hizo-houyaku",
@@ -476,6 +488,7 @@
         "hotsubodaishinron-sho-vol4",
         "hotsubodaishinron-sho-vol7",
         "hotsubodaishinron-sho-vol8",
+        "hotsubodaishinron-sho-vol9",
         "jujushinron",
         "nikyo-ron",
         "rishikyo",
@@ -502,7 +515,8 @@
         "hotsubodaishinron-sho-vol4": 2,
         "hotsubodaishinron-sho-vol2": 10,
         "hotsubodaishinron-sho-vol7": 20,
-        "hotsubodaishinron-sho-vol8": 1
+        "hotsubodaishinron-sho-vol8": 1,
+        "hotsubodaishinron-sho-vol9": 6
       },
       "metadata": {
         "sanskrit": "samādhi",
@@ -512,8 +526,8 @@
     },
     {
       "term": "大悲",
-      "total_occurrence_count": 267,
-      "covered_corpora_count": 17,
+      "total_occurrence_count": 305,
+      "covered_corpora_count": 18,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
@@ -526,6 +540,7 @@
         "hotsubodaishinron-sho-vol6",
         "hotsubodaishinron-sho-vol7",
         "hotsubodaishinron-sho-vol8",
+        "hotsubodaishinron-sho-vol9",
         "jujushinron",
         "nikyo-ron",
         "rishushaku",
@@ -550,7 +565,8 @@
         "hotsubodaishinron-sho-vol2": 7,
         "hotsubodaishinron-sho-vol6": 3,
         "hotsubodaishinron-sho-vol7": 14,
-        "hotsubodaishinron-sho-vol8": 7
+        "hotsubodaishinron-sho-vol8": 7,
+        "hotsubodaishinron-sho-vol9": 38
       },
       "metadata": {
         "sanskrit": "mahā-karuṇā",
@@ -564,8 +580,8 @@
     },
     {
       "term": "遮那",
-      "total_occurrence_count": 260,
-      "covered_corpora_count": 19,
+      "total_occurrence_count": 261,
+      "covered_corpora_count": 20,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -579,6 +595,7 @@
         "hotsubodaishinron-sho-vol6",
         "hotsubodaishinron-sho-vol7",
         "hotsubodaishinron-sho-vol8",
+        "hotsubodaishinron-sho-vol9",
         "jujushinron",
         "nikyo-ron",
         "rishikyo",
@@ -606,7 +623,8 @@
         "hotsubodaishinron-sho-vol2": 25,
         "hotsubodaishinron-sho-vol6": 1,
         "hotsubodaishinron-sho-vol7": 3,
-        "hotsubodaishinron-sho-vol8": 14
+        "hotsubodaishinron-sho-vol8": 14,
+        "hotsubodaishinron-sho-vol9": 1
       },
       "metadata": {
         "sanskrit": "Vairocana",
@@ -671,8 +689,8 @@
     },
     {
       "term": "阿字",
-      "total_occurrence_count": 134,
-      "covered_corpora_count": 15,
+      "total_occurrence_count": 140,
+      "covered_corpora_count": 16,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -681,6 +699,7 @@
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol9",
         "jujushinron",
         "nikyo-ron",
         "rishikyo",
@@ -705,7 +724,8 @@
         "rishikyo": 1,
         "rishushaku": 5,
         "hotsubodaishinron-sho-vol1": 4,
-        "dainichikyo-sho-vol2": 3
+        "dainichikyo-sho-vol2": 3,
+        "hotsubodaishinron-sho-vol9": 6
       },
       "metadata": {
         "sanskrit": "a-kāra",
@@ -715,8 +735,8 @@
     },
     {
       "term": "心王",
-      "total_occurrence_count": 98,
-      "covered_corpora_count": 10,
+      "total_occurrence_count": 100,
+      "covered_corpora_count": 11,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
@@ -725,6 +745,7 @@
         "hotsubodaishinron-sho-vol1",
         "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
+        "hotsubodaishinron-sho-vol9",
         "jujushinron",
         "shoryoshu_miyasaka",
         "sokushin-jobutsu"
@@ -739,7 +760,8 @@
         "hotsubodaishinron-sho-vol1": 1,
         "dainichikyo-sho-vol2": 3,
         "hotsubodaishinron-sho-vol3": 4,
-        "hotsubodaishinron-sho-vol2": 38
+        "hotsubodaishinron-sho-vol2": 38,
+        "hotsubodaishinron-sho-vol9": 2
       },
       "metadata": {
         "sanskrit": "citta-rāja",
@@ -749,8 +771,8 @@
     },
     {
       "term": "即身成仏",
-      "total_occurrence_count": 85,
-      "covered_corpora_count": 11,
+      "total_occurrence_count": 86,
+      "covered_corpora_count": 12,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hannya-hiken",
@@ -759,6 +781,7 @@
         "hotsubodaishinron-sho-vol3",
         "hotsubodaishinron-sho-vol4",
         "hotsubodaishinron-sho-vol7",
+        "hotsubodaishinron-sho-vol9",
         "nikyo-ron",
         "shoji-jisso",
         "shoryoshu_miyasaka",
@@ -775,7 +798,8 @@
         "hotsubodaishinron-sho-vol3": 25,
         "hotsubodaishinron-sho-vol4": 1,
         "hotsubodaishinron-sho-vol2": 6,
-        "hotsubodaishinron-sho-vol7": 6
+        "hotsubodaishinron-sho-vol7": 6,
+        "hotsubodaishinron-sho-vol9": 1
       },
       "metadata": {
         "sanskrit": "sa-deha-prāpti-buddhatva",
@@ -789,14 +813,15 @@
     },
     {
       "term": "本不生",
-      "total_occurrence_count": 71,
-      "covered_corpora_count": 11,
+      "total_occurrence_count": 81,
+      "covered_corpora_count": 12,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol9",
         "jujushinron",
         "rishikyo",
         "rishushaku",
@@ -815,7 +840,8 @@
         "rishikyo": 1,
         "rishushaku": 5,
         "hotsubodaishinron-sho-vol1": 1,
-        "dainichikyo-sho-vol2": 6
+        "dainichikyo-sho-vol2": 6,
+        "hotsubodaishinron-sho-vol9": 10
       },
       "metadata": {
         "sanskrit": "ādyanutpāda",
@@ -874,6 +900,28 @@
       }
     },
     {
+      "term": "大空三昧",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol9",
+        "jujushinron",
+        "shoryoshu_miyasaka",
+        "ujiji"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "ujiji": 3,
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol9": 1
+      },
+      "metadata": {
+        "sanskrit": "mahā-śūnyatā-samādhi",
+        "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
       "term": "智剣",
       "total_occurrence_count": 6,
       "covered_corpora_count": 3,
@@ -895,26 +943,6 @@
           "智",
           "剣"
         ]
-      }
-    },
-    {
-      "term": "大空三昧",
-      "total_occurrence_count": 5,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "jujushinron",
-        "shoryoshu_miyasaka",
-        "ujiji"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "ujiji": 3,
-        "jujushinron": 1
-      },
-      "metadata": {
-        "sanskrit": "mahā-śūnyatā-samādhi",
-        "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
-        "kaimyo_suitable": false
       }
     },
     {

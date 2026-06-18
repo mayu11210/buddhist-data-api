@@ -1,0 +1,560 @@
+{
+  "schema_version": "1.2",
+  "category": "戒名向け熟語索引",
+  "source_corpus": "hotsubodaishinron-sho-vol9.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "起点 1（密教教学用語の戒名適合 11 語）+ 起点 2（梵語の漢訳対応）+ 起点 3（補注内 2 字漢語熟語のホワイトリスト抽出）",
+  "scoring_rule": "kaimyo_score = freq(log10×12, 上限25) + doctrinal(seed_terms=30 / seed_sanskrit=20 / paren_doctrinal=10) + ichiji(KAIMYO_ICHIJI 含字数 × 8, 上限16) + aesthetic(美字構成・最大4)",
+  "review_policy": "needs_human_review=true の語は kaimyo-app 連携前に専門家校閲を要する",
+  "dictionary_sizes": {
+    "kaimyo_ichiji": 85,
+    "sanskrit_to_kaimyo_jukugo": 51,
+    "doctrinal_2char_whitelist": 151,
+    "kaimyo_noise": 140
+  },
+  "gendaigoyaku_length": 18637,
+  "summary": {
+    "unique_terms": 11,
+    "unique_jukugo": 11,
+    "total_occurrences": 54,
+    "seed_terms_count": 11,
+    "seed_sanskrit_count": 0,
+    "paren_doctrinal_count": 0,
+    "needs_review_count": 0,
+    "matched_jukugo_count": 6
+  },
+  "entries": [
+    {
+      "jukugo": "大悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "seed_sanskrit": "mahā-karuṇā",
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "kaimyo_score": 69.09,
+      "freq_score": 19.09,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 38,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "〕。 発菩提心論鈔 第九。 「まさに知るべし一切法は空なり、大悲を主と為す〔当知一切法空、以大悲為主〕」の文。 「まさに知る",
+          "context_position": 77,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "さに知るべし一切法は空なり、大悲を主と為す〔当知一切法空、以大悲為主〕」の文。 「まさに知るべし一切法は空なり……自利・倶利",
+          "context_position": 93,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "五月十四日にこれを始める。 「まさに知るべし一切法は空なり、大悲を主と為す〔当知一切法空以大悲為主〕」の文。 これまでの相説",
+          "context_position": 1297,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "まさに知るべし一切法は空なり、大悲を主と為す〔当知一切法空以大悲為主〕」の文。 これまでの相説・旨陳の二段の結成の終わり、「",
+          "context_position": 1312,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "勝義・行願の二段の総釈の初めから、華厳経の引証の終わり「皆な大悲を主と為す〔皆以大悲為主〕」に至るまでの一段について校合〔つ",
+          "context_position": 1409,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "釈の初めから、華厳経の引証の終わり「皆な大悲を主と為す〔皆以大悲為主〕」に至るまでの一段について校合〔つきあわせ〕すべきであ",
+          "context_position": 1419,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "、自・他を益するのである。おおよそ法輪を転ずることは、大智・大悲の業用である。 「能く法輪を転ず〔能転法輪〕」の文。 華厳の",
+          "context_position": 9655,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "これは二利の益を明かす。勝義は大智すなわち自利である。行願は大悲すなわち利他である。だから「自他倶に利す〔自他具利〕」と言う",
+          "context_position": 10231,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "しく経文を挙げて悲・智ともに証し、後には経の旨に准じて、ただ大悲の義を証される。 「華厳経に云うがごとし……譬えば大山王のご",
+          "context_position": 10882,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "と為るを所縁の義と為す。上の二は皆な発心の縁である。三には、大悲をもって発心の因と為す。四には、凡を過ぎて聖を得るをもって発",
+          "context_position": 11474,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "以何因」の説文である。清涼の疏に「為何因」の義を釈すとして「大悲をもって発心の因と為す」とある。また言う。「第三に『大悲を以",
+          "context_position": 11628,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "て「大悲をもって発心の因と為す」とある。また言う。「第三に『大悲を以ってす〔以大悲〕』の下は『以何因』を明かす。このような心",
+          "context_position": 11656,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "心の因と為す」とある。また言う。「第三に『大悲を以ってす〔以大悲〕』の下は『以何因』を明かす。このような心を生じ竟わって、い",
+          "context_position": 11665,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "を生じ竟わって、いかなる因があって大菩提を求めるのか。謂く、大悲をもって衆生を謂う〔思う〕ので、三地の中の思惟・度生のような",
+          "context_position": 11718,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "、「以何因」の一段の意は、初地の菩薩が大菩提を求めることは、大悲をもって衆生を思うからであると見られるので、当論の行願・大悲",
+          "context_position": 11808,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "大悲をもって衆生を思うからであると見られるので、当論の行願・大悲の義に符合する。しかしながら、この中にまた智恵などの義をも説",
+          "context_position": 11838,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "る。八十経の長行に言う。「仏子・菩薩はこのような心を起こし、大悲を首と為して智恵が増上す」と。『十地経』ならびに論、六十経、",
+          "context_position": 12084,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "十経、『探玄記』などは事が繁いのでこれを略す。同疏に「第三、大悲を以ってす〔以大悲〕の下」とある。『十地経』に言う。「菩薩の",
+          "context_position": 12143,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "どは事が繁いのでこれを略す。同疏に「第三、大悲を以ってす〔以大悲〕の下」とある。『十地経』に言う。「菩薩の発心は大悲を先導と",
+          "context_position": 12152,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "てす〔以大悲〕の下」とある。『十地経』に言う。「菩薩の発心は大悲を先導と為して恵・智が増上す」と。『十地論』に言う。「経に『",
+          "context_position": 12178,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "為して恵・智が増上す」と。『十地論』に言う。「経に『この心は大悲を首と為し智恵が増上す〔是心以大悲為首智恵増上〕』と曰わば、",
+          "context_position": 12214,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "』に言う。「経に『この心は大悲を首と為し智恵が増上す〔是心以大悲為首智恵増上〕』と曰わば、論じて曰く。これは大悲を首と為す。",
+          "context_position": 12231,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "上す〔是心以大悲為首智恵増上〕』と曰わば、論じて曰く。これは大悲を首と為す。その中で悲大に九つがある。一には増上大。細やかな",
+          "context_position": 12255,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "差別の観であるからである」と。六十経の長行に言う。「この心は大悲を首と為し智恵が増上す」と。頌に言う。「悲心・智恵を首とす〔",
+          "context_position": 12372,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "と。『探玄記』の第十につぶさにこれを釈す。所詮、「悲先」とは大悲を先導と為す意である。これは総句である。「恵為主」とは智恵を",
+          "context_position": 12441,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "悲の体、次の一は悲の徳、後の一は悲の能である」と。この意は、大悲の上の体・相・用の三大とこれを分別する。また言う。「七が中で",
+          "context_position": 15099,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "ると見られる。「初地より〔従初地〕」等の文。これは十地が皆な大悲を主と為す義と見られる。八十華厳の三十四に、初地の菩薩を説く",
+          "context_position": 17485,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "す義と見られる。八十華厳の三十四に、初地の菩薩を説くとして「大悲を首と為して智恵が増長す」とある。おおよそ八十経・六十経の説",
+          "context_position": 17521,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "よそ八十経・六十経の説相を合わせて校合するに、地々〔各地〕に大悲具足の義が見える。ただし「大悲を首と為す〔大悲為首〕」の義は",
+          "context_position": 17572,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "せて校合するに、地々〔各地〕に大悲具足の義が見える。ただし「大悲を首と為す〔大悲為首〕」の義は、経文の隠・顕が不定である。し",
+          "context_position": 17587,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "地々〔各地〕に大悲具足の義が見える。ただし「大悲を首と為す〔大悲為首〕」の義は、経文の隠・顕が不定である。しかしながら、梵本",
+          "context_position": 17595,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "らびに慈悲心」と。八十経の三十六に四地の菩薩を説いて言う。「大悲を首と為すが故に大慈成就する故」と。同巻に五地の菩薩を説いて",
+          "context_position": 17746,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "し、智恵の牙がある」と。同三十七に六地の菩薩を説いて言う。「大悲を首と為して衆生を教化す」と。同巻に七地の菩薩を説いて言う。",
+          "context_position": 17818,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "において常に能く十波羅蜜を具足す。何をもっての故に。念々みな大悲を首と為すからである」と。同三十八に八地の菩薩を説いて言う。",
+          "context_position": 17890,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "と。同三十八に八地の菩薩を説いて言う。「般若波羅蜜が増上し、大悲を首と為す」と。同巻に第九地の菩薩を説いて言う。「大悲・本願",
+          "context_position": 17933,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "上し、大悲を首と為す」と。同巻に第九地の菩薩を説いて言う。「大悲・本願力を捨てずして、菩薩は第九の善恵地に入ることを得る」と",
+          "context_position": 17960,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "ことを得る」と。六十華厳の三十八に第十地を説くとして「大慈・大悲があまねく一切衆生を覆う」とある。これらの意は、地々に大悲を",
+          "context_position": 18015,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "・大悲があまねく一切衆生を覆う」とある。これらの意は、地々に大悲を具すること明らかである。それについて、華厳経の引証について",
+          "context_position": 18044,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大日",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "seed_sanskrit": "Mahāvairocana",
+      "kaimyo_chars": [
+        "大"
+      ],
+      "kaimyo_score": 48.14,
+      "freq_score": 10.14,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "る。一義に言う。上の「初め行願とは〔初行願者〕」以下、下の『大日経』の引文の終わり「方便を究竟と為す〔方便為究竟〕」に至るま",
+          "context_position": 1891,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "る〔已悟法本無生〕」とは、一切法は空であると悟る義である。『大日経疏』に「龍樹阿闍梨の中道正観は、正しく縁より起こるをもって",
+          "context_position": 2877,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "能・所ともに万徳具足の義が顕れる。よって相違無いのである。『大日経疏』に「仏の平等の心地より無尽荘厳蔵の大曼荼羅を開発し已わ",
+          "context_position": 6816,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "心若起知而勿随〕」とは通達菩提心の義で、妄の霧が忽ちに晴れて大日の光を見る意である。「妄もし息むとき妙用窮まり無し〔妄若息時",
+          "context_position": 7527,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "る。その中で五段の不同が見える。引く経は華厳・観経・涅槃経・大日経の四種の経である。華厳の引証に両節があるので、総じて五段の",
+          "context_position": 10776,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "准証〔准じての証〕であるはずである。もし深秘の意によれば、『大日経疏』に言う。「華厳の十地経の一々の名言は、阿闍梨の所伝によ",
+          "context_position": 18137,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "真言",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "seed_sanskrit": "mantra",
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "kaimyo_score": 56.39,
+      "freq_score": 8.39,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "心若起〕」以下は行者の用心を明かす。それについて、この一段は真言行者の空観を明かす。すなわち阿字不生・大空三昧の観相である。",
+          "context_position": 2375,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "常住・不退であるのは初地の位と見られる。ただし観心に約せば、真言行者は最初から法の不生を悟って退失の心があるはずがない。随っ",
+          "context_position": 4741,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "徳ここに具わり、妙用窮まり無し〔万徳斯具妙用無窮〕」は能観の真言行者に約すと見られる。しかるに、どうして所化の衆生が皆な如来",
+          "context_position": 6703,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "らかである。あるいは「万徳ここに具わる」は能化の教法を指す。真言行者が機根に契当する無量の法門を覚悟して、利・鈍の衆生に対し",
+          "context_position": 6982,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法界",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "宇宙の真実相。一切法の根本領域。",
+      "seed_sanskrit": "dharma-dhātu",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 46.39,
+      "freq_score": 8.39,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "理性である。もし自宗の意によれば、「如」とは真如すなわち六大法界の体性である。あるところの御釈に、六大の異名を出すとして「自",
+          "context_position": 3969,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "大との二種を含むのである。八十経の長行に言う。「広大なること法界のごとく、究竟なること虚空のごとく、未来際を尽くす〔広大如法",
+          "context_position": 14824,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "界のごとく、究竟なること虚空のごとく、未来際を尽くす〔広大如法界究竟如虚空尽未来際〕」と。大疏に言う。「八に『広大なること法",
+          "context_position": 14855,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "界究竟如虚空尽未来際〕」と。大疏に言う。「八に『広大なること法界のごとし』とはすなわち最妙大である。勝妙の功徳を摂受するから",
+          "context_position": 14886,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "即身成仏",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "seed_sanskrit": "sa-deha-prāpti-buddhatva",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 41.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "の体性が平等であって別執を離れるので「身心を見ず」と言う。『即身成仏義』に「色・心は異なるとはいえ、その性はすなわち同じである。",
+          "context_position": 4167,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "遮那",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "seed_sanskrit": "Vairocana",
+      "kaimyo_chars": [],
+      "kaimyo_score": 33.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "hotsubodaishinron-sho-vol9",
+          "context": "言う。もし自宗の意によれば、色・心は実相であって常にこれ毘盧遮那・平等智身であるので、身・心の体性が平等であって別執を離れる",
+          "context_position": 4121,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "無縁慈悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "seed_sanskrit": "an-ārambaṇa-karuṇā",
+      "kaimyo_chars": [
+        "無",
+        "慈",
+        "悲"
+      ],
+      "kaimyo_score": 46.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "法身",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "seed_sanskrit": "dharmakāya",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 40.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "三密",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "seed_sanskrit": "trīṇi guhyāni",
+      "kaimyo_chars": [
+        "密"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "智剣",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "seed_sanskrit": "jñāna-khaḍga",
+      "kaimyo_chars": [
+        "智"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "玄機",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "seed_sanskrit": "—",
+      "kaimyo_chars": [
+        "玄"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

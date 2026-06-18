@@ -28,16 +28,17 @@
     "hotsubodaishinron-sho-vol5",
     "hotsubodaishinron-sho-vol6",
     "hotsubodaishinron-sho-vol7",
-    "hotsubodaishinron-sho-vol8"
+    "hotsubodaishinron-sho-vol8",
+    "hotsubodaishinron-sho-vol9"
   ],
-  "corpora_count": 24,
-  "corpora_with_data": 24,
+  "corpora_count": 25,
+  "corpora_with_data": 25,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1132,
+    "total_occurrences": 1133,
     "terms_in_multiple_corpora": 45,
     "max_corpus_coverage": 17,
     "by_corpus": {
@@ -159,6 +160,11 @@
       "hotsubodaishinron-sho-vol8": {
         "unique": 3,
         "occurrences": 4,
+        "present": true
+      },
+      "hotsubodaishinron-sho-vol9": {
+        "unique": 1,
+        "occurrences": 1,
         "present": true
       }
     }
@@ -474,11 +480,12 @@
     },
     {
       "canonical": "周",
-      "total_occurrence_count": 30,
-      "covered_corpora_count": 6,
+      "total_occurrence_count": 31,
+      "covered_corpora_count": 7,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "hizo-houyaku",
+        "hotsubodaishinron-sho-vol9",
         "jujushinron",
         "nikyo-ron",
         "sankyo-shiki",
@@ -490,7 +497,8 @@
         "hizo-houyaku": 4,
         "dainichikyo-sho-vol1": 1,
         "sankyo-shiki": 6,
-        "jujushinron": 2
+        "jujushinron": 2,
+        "hotsubodaishinron-sho-vol9": 1
       },
       "metadata": {
         "subcategory": "country_dynasty",
