@@ -1864,3 +1864,19 @@ m2639・m2641 は多系統連動。除外（直接連動未満で温存）：sg2
 ### 補注 SS（発菩提心論鈔 第三巻 gabun 要否裁定・2026-06-17）
 
 vol3 全 25 motif（m2631-m2655）の text_gendai_gabun は **意図的未設定を継続**。根拠＝著者は宥快（**非空海**）の経典注釈系で、全件 引用形式:典籍曰く・非文藝（経典注釈）。第一巻（宥快）・hizoki・理趣釈・大日経疏 巻第二と同運用。将来 retrofit 可。motifs_without_gendai_gabun_intentional に hotsubodaishinron-sho-vol3_m2631-m2637／_m2638-m2655 記載済。motifs.json は本裁定では不変。
+
+### 補注 TT（発菩提心論鈔 第四巻 連動軸 retrofit・2026-06-18）
+
+vol4 Phase3 完走後の連動軸スキャン。**新規 sg/anchor なし＝既存アンカー軸の被覆拡張**（第一巻 retrofit 36・第三巻 retrofit と同型）。vol4 は『菩提心論』の注釈ゆえ既存中心成句軸と親子連動。**直接連動〔核心・術語 verbatim〕の 5 motif に限定**・連動タグ +16（タグのみ変更・total_motifs 2708 不変・famous_phrases 31 不変）：
+
+- m2660（不応作・勝義の菩提心捨劣得勝・九種住心皆所遣・核心）→ sg22 三種菩提心〔m506+m581〕・sg17 十住心〔m599〕
+- m2662（如来蔵・六大四曼三密本有の三大を如来蔵性・核心）→ sg20 六大無礙〔m534〕
+- m2671（三智＝一切智/無師智/無碍智・両部不二配・核心）→ sg26 一切智智〔m698〕
+- m2676（能施の心の広大・即身成仏・五相三密の上に速疾兼行・核心）→ sg03 即身成仏〔m533〕
+- m2677（機根契当の十住心・相説/皆陳の十住心・勝義の菩提心の釈に依る・核心）→ **多系統** sg17 十住心〔m599〕・sg22 三種菩提心〔m506+m581〕
+
+**一切衆生悉有仏性〔sg04〕は見送り**：sg04 はアンカー未確立（連動:sg04 使用 0 件・sg 単独連動の前例なし）ゆえ、本 retrofit の「新規 sg/anchor なし」規律の範囲外。m2661（一切衆生悉有仏性の核心）・m2662 の如来蔵次元は将来 sg04 アンカー確立時に再検討（温存）。巻き戻り assert（m506 典籍曰く／vol3 25件温存／vol4 motif text 不変）全 pass・recompute drift 0・NUL0・schema_history 193→194・origin: retrofit:hotsubodaishinron-sho-vol4_rendou_scan。
+
+### 補注 UU（発菩提心論鈔 第四巻 gabun 要否裁定・2026-06-18）
+
+vol4 全 22 motif（m2656-m2677）の text_gendai_gabun は **意図的未設定を継続**。根拠＝著者は宥快（**非空海**）の経典注釈系で、全件 引用形式:典籍曰く・非文藝（経典注釈）。第一巻・第三巻（宥快）・hizoki・理趣釈・大日経疏 巻第二と同運用。将来 retrofit 可。motifs_without_gendai_gabun_intentional に hotsubodaishinron-sho-vol4_m2656-m2677 記載済。motifs.json は本裁定では不変。
