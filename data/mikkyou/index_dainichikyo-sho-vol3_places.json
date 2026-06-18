@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol3.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-18",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 36428,
+  "summary": {
+    "unique_terms": 4,
+    "unique_places": 4,
+    "total_occurrences": 6,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 1,
+        "occurrences": 3
+      },
+      "country_china": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_dynasty": {
+        "unique": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol3",
+          "context": "だから『彼は諸々の未来世の無量の衆生を満足するが為に、救護し安楽するが為の故に』というのである。 経に言う。『爾のとき、薄伽",
+          "context_position": 16930,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol3",
+          "context": "う。もしこの地を満足しなければ、あまねく一切衆生の為に救護・安楽をなすことができない。 経に言う。『爾のとき、毘盧遮那世尊が",
+          "context_position": 17756,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol3",
+          "context": "おりである。また『饒益に住す』と言うのは、いわく衆生を饒益し安楽する所が多いのは、すなわちこれ如来の住処である。『諸賢者』と",
+          "context_position": 31847,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "周",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。文王・武王が建国。",
+      "matched_forms": [
+        {
+          "form": "周",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol3",
+          "context": "えども、しかも宗通の妙旨を提挙〔ていきょ・かかげる〕するに、周〔あまね〕からざる所が無い。 次に、すなわち仏に請う。『ただ",
+          "context_position": 15255,
+          "matched_form": "周"
+        }
+      ]
+    },
+    {
+      "canonical": "夏",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国伝説的な最古の王朝。禹が建国。",
+      "matched_forms": [
+        {
+          "form": "夏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol3",
+          "context": "かも泡の喩えを明かさない。今この経の譬えは、意がまた殊なる。夏のときの雨水のように、雨水の中から渧〔しずく〕の大小に随って",
+          "context_position": 10460,
+          "matched_form": "夏"
+        }
+      ]
+    },
+    {
+      "canonical": "斉",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋戦国の東方の大国。",
+      "matched_forms": [
+        {
+          "form": "斉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol3",
+          "context": "昧耶〔さんまや〕に入り、三密の供養によって修行する位がこれと斉〔ひと〕しい。 経に言う。『もし実のごとく我を知るときは、ま",
+          "context_position": 791,
+          "matched_form": "斉"
+        }
+      ]
+    }
+  ]
+}

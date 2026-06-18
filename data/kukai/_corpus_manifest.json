@@ -35,13 +35,13 @@
   "genten_present": 12,
   "with_specialty_sections": 5,
   "indexed_corpora": {
-   "terms": 26,
-   "citations": 26,
-   "kukai_works": 26,
-   "sanskrit": 26,
-   "kaimyo_jukugo": 26,
-   "persons": 26,
-   "places": 26
+   "terms": 27,
+   "citations": 27,
+   "kukai_works": 27,
+   "sanskrit": 27,
+   "kaimyo_jukugo": 27,
+   "persons": 27,
+   "places": 27
   }
  },
  "files": [
@@ -1739,7 +1739,59 @@
     "paragraphs": 79
    },
    "role_complete": true,
-   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第三』（大日経 入真言門住心品之余〜入漫荼羅具縁真言品第二の注釈）。元 doc が巨大ブロックのため科文・話題境界で 79 段に段落化（ケンシン裁定 2026-06-19）。現代語訳 butten-yasashii-yaku 全 79 段。genten（漢文原典）は後送（T1796 vol.39 巻第三）。Phase2 横断索引化／Phase3 motif 抽出は未着手。"
+   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第三』（大日経 入真言門住心品之余〜入漫荼羅具縁真言品第二の注釈）。元 doc が巨大ブロックのため科文・話題境界で 79 段に段落化（ケンシン裁定 2026-06-19）。現代語訳 butten-yasashii-yaku 全 79 段。genten（漢文原典）は後送（T1796 vol.39 巻第三）。Phase2 横断索引化／Phase3 motif 抽出は未着手。",
+   "index_status": {
+    "terms": {
+     "file": "index_dainichikyo-sho-vol3_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 160,
+     "matched_term_count": 11,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_dainichikyo-sho-vol3_citations.json",
+     "present": true,
+     "unique_terms": 148,
+     "total_occurrences": 183
+    },
+    "kukai_works": {
+     "file": "index_dainichikyo-sho-vol3_kukai_works.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0
+    },
+    "sanskrit": {
+     "file": "index_dainichikyo-sho-vol3_sanskrit.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0,
+     "with_diacritics_count": 0,
+     "ascii_only_count": 0
+    },
+    "kaimyo_jukugo": {
+     "file": "index_dainichikyo-sho-vol3_kaimyo.json",
+     "present": true,
+     "unique_terms": 11,
+     "total_occurrences": 149,
+     "needs_review_count": 0,
+     "matched_jukugo_count": 6
+    },
+    "persons": {
+     "file": "index_dainichikyo-sho-vol3_persons.json",
+     "present": true,
+     "unique_terms": 6,
+     "total_occurrences": 30,
+     "subcategory_count": 3
+    },
+    "places": {
+     "file": "index_dainichikyo-sho-vol3_places.json",
+     "present": true,
+     "unique_terms": 4,
+     "total_occurrences": 6,
+     "subcategory_count": 3
+    }
+   }
   },
   {
    "filename": "hotsubodaishinron-sho-vol3.json",
@@ -2412,6 +2464,7 @@
    "rishushaku",
    "hotsubodaishinron-sho-vol1",
    "dainichikyo-sho-vol2",
+   "dainichikyo-sho-vol3",
    "hotsubodaishinron-sho-vol3",
    "hotsubodaishinron-sho-vol4",
    "hotsubodaishinron-sho-vol2",
@@ -2422,7 +2475,7 @@
    "hotsubodaishinron-sho-vol9",
    "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 26,
+  "corpora_count": 27,
   "files": {
    "terms": {
     "file": "index_terms_all.json",

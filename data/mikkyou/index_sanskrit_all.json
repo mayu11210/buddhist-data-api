@@ -22,6 +22,7 @@
     "rishushaku",
     "hotsubodaishinron-sho-vol1",
     "dainichikyo-sho-vol2",
+    "dainichikyo-sho-vol3",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -32,8 +33,8 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 26,
-  "corpora_with_data": 26,
+  "corpora_count": 27,
+  "corpora_with_data": 27,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
@@ -124,6 +125,11 @@
         "present": true
       },
       "dainichikyo-sho-vol2": {
+        "unique": 0,
+        "occurrences": 0,
+        "present": true
+      },
+      "dainichikyo-sho-vol3": {
         "unique": 0,
         "occurrences": 0,
         "present": true

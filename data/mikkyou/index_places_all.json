@@ -22,6 +22,7 @@
     "rishushaku",
     "hotsubodaishinron-sho-vol1",
     "dainichikyo-sho-vol2",
+    "dainichikyo-sho-vol3",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -32,16 +33,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 26,
-  "corpora_with_data": 26,
+  "corpora_count": 27,
+  "corpora_with_data": 27,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1134,
+    "total_occurrences": 1140,
     "terms_in_multiple_corpora": 45,
-    "max_corpus_coverage": 17,
+    "max_corpus_coverage": 18,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -128,6 +129,11 @@
         "occurrences": 16,
         "present": true
       },
+      "dainichikyo-sho-vol3": {
+        "unique": 4,
+        "occurrences": 6,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 2,
         "occurrences": 29,
@@ -178,12 +184,13 @@
   "entries": [
     {
       "canonical": "安楽",
-      "total_occurrence_count": 173,
-      "covered_corpora_count": 17,
+      "total_occurrence_count": 176,
+      "covered_corpora_count": 18,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol3",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -213,6 +220,7 @@
         "rishushaku": 8,
         "hotsubodaishinron-sho-vol1": 1,
         "dainichikyo-sho-vol2": 6,
+        "dainichikyo-sho-vol3": 3,
         "hotsubodaishinron-sho-vol3": 28,
         "hotsubodaishinron-sho-vol4": 60,
         "hotsubodaishinron-sho-vol7": 19,
@@ -488,10 +496,11 @@
     },
     {
       "canonical": "周",
-      "total_occurrence_count": 31,
-      "covered_corpora_count": 7,
+      "total_occurrence_count": 32,
+      "covered_corpora_count": 8,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol3",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol9",
         "jujushinron",
@@ -506,11 +515,39 @@
         "dainichikyo-sho-vol1": 1,
         "sankyo-shiki": 6,
         "jujushinron": 2,
+        "dainichikyo-sho-vol3": 1,
         "hotsubodaishinron-sho-vol9": 1
       },
       "metadata": {
         "subcategory": "country_dynasty",
         "definition": "中国古代王朝。文王・武王が建国。"
+      }
+    },
+    {
+      "canonical": "夏",
+      "total_occurrence_count": 23,
+      "covered_corpora_count": 7,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol3",
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol1",
+        "jujushinron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "hizo-houyaku": 4,
+        "sankyo-shiki": 6,
+        "jujushinron": 2,
+        "hotsubodaishinron-sho-vol1": 1,
+        "dainichikyo-sho-vol2": 2,
+        "dainichikyo-sho-vol3": 1
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国伝説的な最古の王朝。禹が建国。"
       }
     },
     {
@@ -528,31 +565,6 @@
       "metadata": {
         "subcategory": "capital_china",
         "definition": "唐の都。陝西省西安。"
-      }
-    },
-    {
-      "canonical": "夏",
-      "total_occurrence_count": 22,
-      "covered_corpora_count": 6,
-      "covered_corpora": [
-        "dainichikyo-sho-vol2",
-        "hizo-houyaku",
-        "hotsubodaishinron-sho-vol1",
-        "jujushinron",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "hizo-houyaku": 4,
-        "sankyo-shiki": 6,
-        "jujushinron": 2,
-        "hotsubodaishinron-sho-vol1": 1,
-        "dainichikyo-sho-vol2": 2
-      },
-      "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "中国伝説的な最古の王朝。禹が建国。"
       }
     },
     {
@@ -1014,6 +1026,27 @@
       }
     },
     {
+      "canonical": "斉",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol3",
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 3,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 1,
+        "dainichikyo-sho-vol3": 1
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "春秋戦国の東方の大国。"
+      }
+    },
+    {
       "canonical": "阿波",
       "total_occurrence_count": 6,
       "covered_corpora_count": 4,
@@ -1170,25 +1203,6 @@
       "metadata": {
         "subcategory": "country_dynasty",
         "definition": "中国王朝。唐の前。"
-      }
-    },
-    {
-      "canonical": "斉",
-      "total_occurrence_count": 5,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 3,
-        "hizo-houyaku": 1,
-        "sankyo-shiki": 1
-      },
-      "metadata": {
-        "subcategory": "country_china",
-        "definition": "春秋戦国の東方の大国。"
       }
     },
     {
