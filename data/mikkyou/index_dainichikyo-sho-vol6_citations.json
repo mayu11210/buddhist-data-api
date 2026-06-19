@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "dainichikyo-sho-vol6.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-19",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 26667,
+  "summary": {
+    "unique_terms": 9,
+    "total_occurrences": 10
+  },
+  "entries": [
+    {
+      "term": "大智度論",
+      "aliases": [
+        "智度論"
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "ならず勝たせるので、この形に作る。私〔一行〕がいうに、これは『智度論』にいう、つねに苦行を修め、肉を割き、火を祀って、もろもろの悪",
+          "context_position": 3733,
+          "raw_form": "智度論"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "の及ぶところではない。また、伝えて人に授けることもできない。『智度論』に、これを「言葉が尽きはて、はたらかぬ処〔言語尽竟不行処〕」",
+          "context_position": 19047,
+          "raw_form": "智度論"
+        }
+      ]
+    },
+    {
+      "term": "大経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "から、清らかな虚空〔浄虚空〕のようで、つねに移り変わらない。『大経』〔大日経〕にもいう、「ただ如来だけが、もろもろの因縁を離れて",
+          "context_position": 19535,
+          "raw_form": "大経"
+        }
+      ]
+    },
+    {
+      "term": "涅槃経",
+      "aliases": [
+        "大般涅槃経"
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "境界はいっさいの如来の定〔一切如来の定〕である」というのは、『大般涅槃経』に明かすとおりである。 いっさいの心ある者は、ことごとく仏性",
+          "context_position": 15604,
+          "raw_form": "大般涅槃経"
+        }
+      ]
+    },
+    {
+      "term": "瓔珞",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "金剛の事業〕を学び、みな善巧〔ぜんぎょう〕を得ることである。『瓔珞』にも、また「奥ふかい門〔重玄門〕に入り、作すふるまい〔作の威",
+          "context_position": 24932,
+          "raw_form": "瓔珞"
+        }
+      ]
+    },
+    {
+      "term": "瞿醯経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "供養の場所の外縁などは、それに従って一つの純色の区域に作る。『瞿醯経』にいう、「ただ白色を用いる」。白色を先にし、中から外へ向かう",
+          "context_position": 9146,
+          "raw_form": "瞿醯経"
+        }
+      ]
+    },
+    {
+      "term": "秘密漫荼羅位品",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "なんだ〕は北にいる。その残りのさまざまな宝の荘厳は、だいたい『秘密漫荼羅位品』と同じである。阿闍梨はいう、もし深く密な解釈〔深密の釈〕をす",
+          "context_position": 12586,
+          "raw_form": "秘密漫荼羅位品"
+        }
+      ]
+    },
+    {
+      "term": "華厳",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "門〕といい、あるいは大いに勤め勇む者〔大勤勇〕という。さらに『華厳』に説くところでは、一つの世界のなかで、はかりしれぬ異なる名〔",
+          "context_position": 20480,
+          "raw_form": "華厳"
+        }
+      ]
+    },
+    {
+      "term": "華厳経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "、あるいはその上に依る。意味の類〔義類〕によって推しはかる。『華厳経』のなかに、さらに足行神〔そくぎょうしん〕・身衆神〔しんしゅし",
+          "context_position": 3533,
+          "raw_form": "華厳経"
+        }
+      ]
+    },
+    {
+      "term": "陀羅尼集経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "方の日天の前に、あるいは摩利支天女〔まりしてんにょ〕を置く。『陀羅尼集経』にこれを出すとおりである。北方の夜叉八大将〔やしゃはちだいし",
+          "context_position": 2953,
+          "raw_form": "陀羅尼集経"
+        }
+      ]
+    }
+  ]
+}

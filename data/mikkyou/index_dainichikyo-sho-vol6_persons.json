@@ -1,0 +1,517 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "dainichikyo-sho-vol6.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-19",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 26667,
+  "summary": {
+    "unique_terms": 10,
+    "unique_persons": 10,
+    "total_occurrences": 41,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 4,
+        "occurrences": 29
+      },
+      "buddhist_deva": {
+        "unique": 3,
+        "occurrences": 9
+      },
+      "buddhist_master_china": {
+        "unique": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 14
+        },
+        {
+          "form": "大日如来",
+          "count": 2
+        },
+        {
+          "form": "大日",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 18,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "そのとき、執金剛秘密主は、いっさいの会衆のなかで、つくづくと大日如来を観て、目をしばらくも瞬かなかった〔目は暫くも瞬かず〕」とは",
+          "context_position": 4521,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "き門の集まり〔普門海会〕にたたえられ、名は十方に聞こえ、また大日如来と同じく、さまざまな名号をもつ。だから「無量称〔むりょうしょ",
+          "context_position": 5295,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第六。 沙門一行阿闍梨が記す（善無畏が口",
+          "context_position": 1,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "〕から如来甲〔にょらいこう・よろい〕などにいたるまでは、みな毘盧遮那の三昧である。一つひとつを天女の形に作る。漫荼羅の方形・円形",
+          "context_position": 136,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "それに従って画き、漫荼羅のなかに入れてよい。 これらの尊は、毘盧遮那経〔大日経〕に真言・手印を載せず、別にほかの経に出ているなら",
+          "context_position": 2664,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "である。西方の人ならぬ境涯〔非人趣〕とは、こう心得てよい——毘盧遮那のあまねき門の身〔普門身〕のうちの、ありとあらゆる雑多な鬼神",
+          "context_position": 3903,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "この色は何を最初とするか」を答えたものである。清らかな白は、毘盧遮那の清らかな法界の色〔浄法界の色〕である。すなわちいっさいの衆",
+          "context_position": 10274,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "と想う。あるいは門から遠くて急いで出入りすべきときは、自身を毘盧遮那と作ると観じ、さわりのない身〔無罣礙身〕でこれを行う。糸を越",
+          "context_position": 11839,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "瑜伽〕についていえば、おのずと上・中・下の三種がある。上は、毘盧遮那などのもろもろの如来の身を観ずることである。中は、文殊師利な",
+          "context_position": 13115,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "阿字門〔あじもん〕に入って、ひたすら法界を念ずるようなのが、毘盧遮那の三昧である。法の蓮華の印〔法蓮華印〕において、一心不乱なの",
+          "context_position": 14473,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "うな縁に住するから、等持と名づけられるのである。これがまさに毘盧遮那の本尊である。現すところの尽きせぬ荘厳の蔵〔無尽荘厳蔵〕も、",
+          "context_position": 15356,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "満する」というのである。経の第二巻のはじめにいう「そのとき、毘盧遮那世尊は、いっさいのもろもろの仏と同じく共に集まり、おのおのい",
+          "context_position": 16626,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "智生ず〕」とは——心のありのままの相〔心の実相〕は、すなわち毘盧遮那があまねくいっさいの処にある〔遍一切処〕ことである。仏が道場",
+          "context_position": 19776,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "仏相もまた然り〕」というのは——六つの境涯〔六趣〕の衆生は、毘盧遮那と本より二つの体がない〔二体無し〕。ただ衆生が、さまざまな妄",
+          "context_position": 20298,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "し衆生が、この心の菩提の印〔心の菩提印〕を解すれば、すなわち毘盧遮那に同じである。だから「世間が供養すること、卒塔婆を敬うように",
+          "context_position": 22887,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": " 経にいう「そのとき、執金剛は、この偈を説き終え、つくづくと毘盧遮那を観た。目はしばらくも瞬かず、じっとして住した〔耿然として住",
+          "context_position": 22964,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "画き、漫荼羅のなかに入れてよい。 これらの尊は、毘盧遮那経〔大日経〕に真言・手印を載せず、別にほかの経に出ているなら、その経",
+          "context_position": 2670,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "かな虚空〔浄虚空〕のようで、つねに移り変わらない。『大経』〔大日経〕にもいう、「ただ如来だけが、もろもろの因縁を離れている」",
+          "context_position": 19540,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "夜叉",
+      "aliases": [
+        "yakṣa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "八部衆の一。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "夜叉",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "にょ〕を置く。『陀羅尼集経』にこれを出すとおりである。北方の夜叉八大将〔やしゃはちだいしょう〕の図のなかで、欠けているものは",
+          "context_position": 2976,
+          "matched_form": "夜叉"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "耳・象耳などは、みな鳩槃荼〔くばんだ〕の眷属である。その形は夜叉とは同じでない。みな身を露わにし、毛を垂らし、人ならぬ者の像",
+          "context_position": 3139,
+          "matched_form": "夜叉"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "勤め修めて、五つの神通〔五通〕を成し遂げた神仙である。また「夜叉持明〔やしゃじみょう〕」がある。これは夜叉の類のなかで福徳が",
+          "context_position": 3341,
+          "matched_form": "夜叉"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "神仙である。また「夜叉持明〔やしゃじみょう〕」がある。これは夜叉の類のなかで福徳が最もすぐれ、天の境涯〔天趣〕に摂められる者",
+          "context_position": 3362,
+          "matched_form": "夜叉"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 3
+        },
+        {
+          "form": "文殊師利",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "、毘盧遮那などのもろもろの如来の身を観ずることである。中は、文殊師利などのもろもろの菩薩の身を観ずることである。下は、因陀羅〔い",
+          "context_position": 13144,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "にして、おのおのその類に従う。降閻魔尊〔ごうえんまそん〕は、文殊の眷属であって大いなる威勢〔大威勢〕を備える。その身は六面・",
+          "context_position": 2484,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "があり、色は黒い雲〔玄雲〕のようで、きわめて忿怒の姿に作る。文殊の梵本〔梵本〕を引いて、つぶさにこれを画くべきである。およそ",
+          "context_position": 2567,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "の三昧門に入り、あるいはただ金剛部の三昧門に入る。あるいは、文殊の眷属があまねくみな集まることを一つの三昧門とする。残りの三",
+          "context_position": 13556,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "観音",
+      "aliases": [
+        "観世音",
+        "観自在",
+        "avalokiteśvara",
+        "Avalokiteśvara"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "慈悲を司る菩薩。",
+      "sanskrit_canonical": "avalokiteśvara",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "観自在",
+          "count": 3
+        },
+        {
+          "form": "観世音",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "〕は、いっさいの願いを満たすことができる。その姿は、もっぱら観世音のようで、手に蓮華を持つ。華の上に、あるいは如意宝珠を置く。",
+          "context_position": 1337,
+          "matched_form": "観世音"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "昧である。法の蓮華の印〔法蓮華印〕において、一心不乱なのが、観自在の三昧である。金剛の智慧の印〔金剛慧印〕において、一心不乱な",
+          "context_position": 14509,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "こと〔有生〕を離れ、いっさいは幻のようだと知る。だから、世に観自在者〔観自在者〕と称される」とは——上のようにすでに十地の道を",
+          "context_position": 25336,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "〕を離れ、いっさいは幻のようだと知る。だから、世に観自在者〔観自在者〕と称される」とは——上のようにすでに十地の道を説いた。も",
+          "context_position": 25341,
+          "matched_form": "観自在"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "金剛の智慧の海〔金剛慧海〕においてはなはだ深く動じない〔甚深不動〕。だから、かならず獅子のように吼えて〔師子吼〕、おまえが先",
+          "context_position": 6740,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "みだりにほかの処を越えてはならない。出入りのたびごとに、なお不動の真言を誦すべきである。もし瑜伽の阿闍梨なら、また周りをめぐ",
+          "context_position": 11723,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "らに、善巧の手だて〔善巧方便〕で、あるがままで動かない〔如々不動〕なかにおいて、十のたとえの果てしないはたらき〔十縁生の無辺",
+          "context_position": 25806,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "梵天",
+      "aliases": [
+        "brahmā",
+        "Brahmā"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "色界初禅天の主。",
+      "sanskrit_canonical": "brahmā",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "梵天",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "て水を出す。被鹿皮尊〔ひろくひそん〕は、鹿の皮で身を飾る——梵天の像のようである。その契印の漫荼羅〔契印漫荼羅〕は、前に説い",
+          "context_position": 1505,
+          "matched_form": "梵天"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "剛慧印〕において、一心不乱なのが、秘密主の三昧である。さらに梵天・帝釈〔梵釈〕のもろもろの尊も、おのおの一つの法界の門におい",
+          "context_position": 14558,
+          "matched_form": "梵天"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "称説〕、声は清らかな住みか〔浄居〕にまで及んだ。そのとき、大梵天などの八部の衆生の仲間〔八部の衆生の徒〕は、この魔を伏せる外",
+          "context_position": 18485,
+          "matched_form": "梵天"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "ろもろの菩薩の身を観ずることである。下は、因陀羅〔いんだら・帝釈〕などの類に応じた身〔隨類の身〕を観ずることである。一つひと",
+          "context_position": 13182,
+          "matched_form": "帝釈"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "〕において、一心不乱なのが、秘密主の三昧である。さらに梵天・帝釈〔梵釈〕のもろもろの尊も、おのおの一つの法界の門において自在",
+          "context_position": 14561,
+          "matched_form": "帝釈"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "と知る。そのとき、心は相に住さない。 また空にも依らず、空と不空とはつまるところ相がなく〔畢竟無相〕、しかもいっさいの相をそ",
+          "context_position": 16418,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第六。 沙門一行阿闍梨が記す（善無畏が口述し、一行が筆受した）。 入漫荼羅具縁真言品 第二之余。",
+          "context_position": 30,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "達磨",
+      "aliases": [
+        "菩提達磨",
+        "bodhidharma",
+        "Bodhidharma"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国禅宗の初祖。インドより渡来。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "達磨",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "ないところがない。だから、この卒塔婆はきわめて広い。蓮華台の達磨駄都〔だるまだと〕とは、いわゆる法身の舎利である。もし衆生が",
+          "context_position": 22829,
+          "matched_form": "達磨"
+        }
+      ]
+    }
+  ]
+}

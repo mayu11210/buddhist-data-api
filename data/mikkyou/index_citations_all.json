@@ -25,6 +25,7 @@
     "dainichikyo-sho-vol3",
     "dainichikyo-sho-vol4",
     "dainichikyo-sho-vol5",
+    "dainichikyo-sho-vol6",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -35,15 +36,15 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 29,
-  "corpora_with_data": 29,
+  "corpora_count": 30,
+  "corpora_with_data": 30,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 1162,
-    "total_occurrences": 3722,
-    "terms_in_multiple_corpora": 180,
+    "unique_terms_total": 1165,
+    "total_occurrences": 3732,
+    "terms_in_multiple_corpora": 182,
     "max_corpus_coverage": 21,
     "by_corpus": {
       "shoryoshu_miyasaka": {
@@ -144,6 +145,11 @@
       "dainichikyo-sho-vol5": {
         "unique": 11,
         "occurrences": 16,
+        "present": true
+      },
+      "dainichikyo-sho-vol6": {
+        "unique": 9,
+        "occurrences": 10,
         "present": true
       },
       "hotsubodaishinron-sho-vol3": {
@@ -311,12 +317,13 @@
     },
     {
       "term": "大智度論",
-      "total_occurrence_count": 103,
-      "covered_corpora_count": 14,
+      "total_occurrence_count": 105,
+      "covered_corpora_count": 15,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
+        "dainichikyo-sho-vol6",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol1",
         "hotsubodaishinron-sho-vol10",
@@ -340,6 +347,7 @@
         "hotsubodaishinron-sho-vol1": 1,
         "dainichikyo-sho-vol4": 1,
         "dainichikyo-sho-vol5": 1,
+        "dainichikyo-sho-vol6": 2,
         "hotsubodaishinron-sho-vol3": 1,
         "hotsubodaishinron-sho-vol5": 2,
         "hotsubodaishinron-sho-vol8": 1,
@@ -348,11 +356,12 @@
     },
     {
       "term": "涅槃経",
-      "total_occurrence_count": 97,
-      "covered_corpora_count": 14,
+      "total_occurrence_count": 98,
+      "covered_corpora_count": 15,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol6",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol10",
         "hotsubodaishinron-sho-vol2",
@@ -374,6 +383,7 @@
         "sankyo-shiki": 1,
         "bodaishinron": 2,
         "jujushinron": 11,
+        "dainichikyo-sho-vol6": 1,
         "hotsubodaishinron-sho-vol3": 1,
         "hotsubodaishinron-sho-vol4": 4,
         "hotsubodaishinron-sho-vol2": 1,
@@ -385,11 +395,12 @@
     },
     {
       "term": "華厳経",
-      "total_occurrence_count": 96,
-      "covered_corpora_count": 13,
+      "total_occurrence_count": 97,
+      "covered_corpora_count": 14,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol6",
         "hannya-hiken",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol1",
@@ -413,6 +424,7 @@
         "bodaishinron": 3,
         "jujushinron": 44,
         "hotsubodaishinron-sho-vol1": 5,
+        "dainichikyo-sho-vol6": 1,
         "hotsubodaishinron-sho-vol3": 1,
         "hotsubodaishinron-sho-vol4": 8,
         "hotsubodaishinron-sho-vol6": 1
@@ -1211,6 +1223,25 @@
       }
     },
     {
+      "term": "華厳",
+      "total_occurrence_count": 10,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol6",
+        "hotsubodaishinron-sho-vol4",
+        "shoji-jisso",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "shoji-jisso": 1,
+        "dainichikyo-sho-vol2": 4,
+        "dainichikyo-sho-vol6": 1,
+        "hotsubodaishinron-sho-vol4": 3
+      }
+    },
+    {
       "term": "金剛般若経",
       "total_occurrence_count": 10,
       "covered_corpora_count": 3,
@@ -1272,23 +1303,6 @@
         "sokushin-jobutsu": 1,
         "hannya-hiken": 3,
         "rishushaku": 1
-      }
-    },
-    {
-      "term": "華厳",
-      "total_occurrence_count": 9,
-      "covered_corpora_count": 4,
-      "covered_corpora": [
-        "dainichikyo-sho-vol2",
-        "hotsubodaishinron-sho-vol4",
-        "shoji-jisso",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "shoji-jisso": 1,
-        "dainichikyo-sho-vol2": 4,
-        "hotsubodaishinron-sho-vol4": 3
       }
     },
     {
@@ -1446,6 +1460,19 @@
       "by_corpus": {
         "shoryoshu_miyasaka": 1,
         "hotsubodaishinron-sho-vol9": 6
+      }
+    },
+    {
+      "term": "瞿醯経",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol5",
+        "dainichikyo-sho-vol6"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol5": 6,
+        "dainichikyo-sho-vol6": 1
       }
     },
     {
@@ -1690,17 +1717,6 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 6
-      }
-    },
-    {
-      "term": "瞿醯経",
-      "total_occurrence_count": 6,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "dainichikyo-sho-vol5"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol5": 6
       }
     },
     {
@@ -2746,6 +2762,19 @@
       "by_corpus": {
         "dainichikyo-sho-vol4": 2,
         "hotsubodaishinron-sho-vol7": 1
+      }
+    },
+    {
+      "term": "陀羅尼集経",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol6",
+        "hannya-hiken"
+      ],
+      "by_corpus": {
+        "hannya-hiken": 2,
+        "dainichikyo-sho-vol6": 1
       }
     },
     {
@@ -4705,17 +4734,6 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 2
-      }
-    },
-    {
-      "term": "陀羅尼集経",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "hannya-hiken"
-      ],
-      "by_corpus": {
-        "hannya-hiken": 2
       }
     },
     {
@@ -7763,6 +7781,17 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "大経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol6"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol6": 1
       }
     },
     {
@@ -11088,6 +11117,17 @@
       }
     },
     {
+      "term": "瓔珞",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol6"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol6": 1
+      }
+    },
+    {
       "term": "甘露の門",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -11514,6 +11554,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol8": 1
+      }
+    },
+    {
+      "term": "秘密漫荼羅位品",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol6"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol6": 1
       }
     },
     {

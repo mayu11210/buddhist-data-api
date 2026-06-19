@@ -35,13 +35,13 @@
   "genten_present": 15,
   "with_specialty_sections": 5,
   "indexed_corpora": {
-   "terms": 29,
-   "citations": 29,
-   "kukai_works": 29,
-   "sanskrit": 29,
-   "kaimyo_jukugo": 29,
-   "persons": 29,
-   "places": 29
+   "terms": 30,
+   "citations": 30,
+   "kukai_works": 30,
+   "sanskrit": 30,
+   "kaimyo_jukugo": 30,
+   "persons": 30,
+   "places": 30
   }
  },
  "files": [
@@ -1961,7 +1961,59 @@
     "paragraphs": 45
    },
    "role_complete": true,
-   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第六』（大日経 入漫荼羅具縁真言品第二之余の注釈・諸尊の三昧耶形の図法・執金剛の諦観と真言救世者・大衆讃嘆と金剛手の八問・彩色の義と五色界道・諸門の幖相と結界・三摩地と如来三昧印・三昧道の差別印・成菩提印と二諦・制底＝法身舎利・一生補処／八地菩薩＝観自在・初法明門の三昧道）。元 doc が巨大ブロック（10段・最大約5500字）のため科文・話題境界で 45 段に段落化（ケンシン裁定 2026-06-20・巻第三四五 同型）。現代語訳 butten-yasashii-yaku 全 45 段。genten（漢文原典）は後送（T1796 vol.39 巻第六）。Phase2 横断索引化／Phase3 motif 抽出は未着手。"
+   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第六』（大日経 入漫荼羅具縁真言品第二之余の注釈・諸尊の三昧耶形の図法・執金剛の諦観と真言救世者・大衆讃嘆と金剛手の八問・彩色の義と五色界道・諸門の幖相と結界・三摩地と如来三昧印・三昧道の差別印・成菩提印と二諦・制底＝法身舎利・一生補処／八地菩薩＝観自在・初法明門の三昧道）。元 doc が巨大ブロック（10段・最大約5500字）のため科文・話題境界で 45 段に段落化（ケンシン裁定 2026-06-20・巻第三四五 同型）。現代語訳 butten-yasashii-yaku 全 45 段。genten（漢文原典）は後送（T1796 vol.39 巻第六）。Phase2 横断索引化 完了（30著作目）。Phase3 motif 抽出は未着手。",
+   "index_status": {
+    "terms": {
+     "file": "index_dainichikyo-sho-vol6_terms.json",
+     "present": true,
+     "unique_terms": 19,
+     "total_occurrences": 101,
+     "matched_term_count": 11,
+     "kaimyo_suitable_count": 11
+    },
+    "citations": {
+     "file": "index_dainichikyo-sho-vol6_citations.json",
+     "present": true,
+     "unique_terms": 9,
+     "total_occurrences": 10
+    },
+    "kukai_works": {
+     "file": "index_dainichikyo-sho-vol6_kukai_works.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0
+    },
+    "sanskrit": {
+     "file": "index_dainichikyo-sho-vol6_sanskrit.json",
+     "present": true,
+     "unique_terms": 0,
+     "total_occurrences": 0,
+     "with_diacritics_count": 0,
+     "ascii_only_count": 0
+    },
+    "kaimyo_jukugo": {
+     "file": "index_dainichikyo-sho-vol6_kaimyo.json",
+     "present": true,
+     "unique_terms": 11,
+     "total_occurrences": 84,
+     "needs_review_count": 0,
+     "matched_jukugo_count": 7
+    },
+    "persons": {
+     "file": "index_dainichikyo-sho-vol6_persons.json",
+     "present": true,
+     "unique_terms": 10,
+     "total_occurrences": 41,
+     "subcategory_count": 3
+    },
+    "places": {
+     "file": "index_dainichikyo-sho-vol6_places.json",
+     "present": true,
+     "unique_terms": 3,
+     "total_occurrences": 5,
+     "subcategory_count": 2
+    }
+   }
   },
   {
    "filename": "hotsubodaishinron-sho-vol3.json",
@@ -2637,6 +2689,7 @@
    "dainichikyo-sho-vol3",
    "dainichikyo-sho-vol4",
    "dainichikyo-sho-vol5",
+   "dainichikyo-sho-vol6",
    "hotsubodaishinron-sho-vol3",
    "hotsubodaishinron-sho-vol4",
    "hotsubodaishinron-sho-vol2",
@@ -2647,7 +2700,7 @@
    "hotsubodaishinron-sho-vol9",
    "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 29,
+  "corpora_count": 30,
   "files": {
    "terms": {
     "file": "index_terms_all.json",

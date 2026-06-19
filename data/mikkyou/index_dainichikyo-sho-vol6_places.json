@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol6.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-19",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 26667,
+  "summary": {
+    "unique_terms": 3,
+    "unique_places": 3,
+    "total_occurrences": 5,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_dynasty": {
+        "unique": 2,
+        "occurrences": 4
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "周",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。文王・武王が建国。",
+      "matched_forms": [
+        {
+          "form": "周",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "域の道〔界道〕は、中央と第一重には五色をそなえる。まず白色で周りの区域〔周界〕を作り終え、次にその外に赤色の区域を布き、次",
+          "context_position": 8941,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "、また上のような順に依って、白・赤・黄の三色を布く。第三重の周りの区域は、ただ純白の一色だけを布く。みなきわめてひとしく調",
+          "context_position": 9043,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "、なお不動の真言を誦すべきである。もし瑜伽の阿闍梨なら、また周りをめぐらせ、糸で囲み断つ。出入りすべきときは、この糸を持ち",
+          "context_position": 11750,
+          "matched_form": "周"
+        }
+      ]
+    },
+    {
+      "canonical": "兜率",
+      "aliases": [
+        "兜率天",
+        "tuṣita"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "欲界第四天。弥勒菩薩の住所。",
+      "matched_forms": [
+        {
+          "form": "兜率天",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "は一生のあいだ繋がれた菩薩〔一生所繋の菩薩〕である。これより兜率天宮〔とそつてんぐう〕に上り生まれ、次に仏の位を継ぐ〔仏位を紹",
+          "context_position": 24015,
+          "matched_form": "兜率天"
+        }
+      ]
+    },
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "商",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol6",
+          "context": "〔物の像〕を目じるし〔幖幟〕とする。鉤・輪・刀・槊〔ほこ〕・商佉〔法螺貝〕・鈴鐸・羂索・甲冑などである。みな本来の相〔本相",
+          "context_position": 252,
+          "matched_form": "商"
+        }
+      ]
+    }
+  ]
+}
