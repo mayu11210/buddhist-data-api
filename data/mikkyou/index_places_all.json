@@ -24,6 +24,7 @@
     "dainichikyo-sho-vol2",
     "dainichikyo-sho-vol3",
     "dainichikyo-sho-vol4",
+    "dainichikyo-sho-vol5",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -34,16 +35,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 28,
-  "corpora_with_data": 28,
+  "corpora_count": 29,
+  "corpora_with_data": 29,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1145,
-    "terms_in_multiple_corpora": 45,
-    "max_corpus_coverage": 18,
+    "total_occurrences": 1163,
+    "terms_in_multiple_corpora": 46,
+    "max_corpus_coverage": 19,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -140,6 +141,11 @@
         "occurrences": 5,
         "present": true
       },
+      "dainichikyo-sho-vol5": {
+        "unique": 9,
+        "occurrences": 18,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 2,
         "occurrences": 29,
@@ -190,13 +196,14 @@
   "entries": [
     {
       "canonical": "安楽",
-      "total_occurrence_count": 176,
-      "covered_corpora_count": 18,
+      "total_occurrence_count": 177,
+      "covered_corpora_count": 19,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol5",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -227,6 +234,7 @@
         "hotsubodaishinron-sho-vol1": 1,
         "dainichikyo-sho-vol2": 6,
         "dainichikyo-sho-vol3": 3,
+        "dainichikyo-sho-vol5": 1,
         "hotsubodaishinron-sho-vol3": 28,
         "hotsubodaishinron-sho-vol4": 60,
         "hotsubodaishinron-sho-vol7": 19,
@@ -358,6 +366,58 @@
       }
     },
     {
+      "canonical": "須弥山",
+      "total_occurrence_count": 67,
+      "covered_corpora_count": 17,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol4",
+        "dainichikyo-sho-vol5",
+        "hizo-houyaku",
+        "hizoki",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol4",
+        "jujushinron",
+        "nikyo-ron",
+        "rishushaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 15,
+        "nikyo-ron": 1,
+        "ujiji": 2,
+        "sokushin-jobutsu": 1,
+        "hizo-houyaku": 5,
+        "dainichikyo-sho-vol1": 4,
+        "sankyo-shiki": 1,
+        "bodaishinron": 1,
+        "jujushinron": 20,
+        "hizoki": 2,
+        "yugikyo": 1,
+        "rishushaku": 2,
+        "dainichikyo-sho-vol2": 2,
+        "dainichikyo-sho-vol4": 1,
+        "dainichikyo-sho-vol5": 5,
+        "hotsubodaishinron-sho-vol4": 2,
+        "hotsubodaishinron-sho-vol2": 2
+      },
+      "metadata": {
+        "subcategory": "mountain_buddhist",
+        "definition": "仏教世界観の中心の山。",
+        "aliases": [
+          "須弥",
+          "sumeru",
+          "meru"
+        ]
+      }
+    },
+    {
       "canonical": "日本",
       "total_occurrence_count": 65,
       "covered_corpora_count": 5,
@@ -388,61 +448,12 @@
       }
     },
     {
-      "canonical": "須弥山",
-      "total_occurrence_count": 62,
-      "covered_corpora_count": 16,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "dainichikyo-sho-vol2",
-        "dainichikyo-sho-vol4",
-        "hizo-houyaku",
-        "hizoki",
-        "hotsubodaishinron-sho-vol2",
-        "hotsubodaishinron-sho-vol4",
-        "jujushinron",
-        "nikyo-ron",
-        "rishushaku",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 15,
-        "nikyo-ron": 1,
-        "ujiji": 2,
-        "sokushin-jobutsu": 1,
-        "hizo-houyaku": 5,
-        "dainichikyo-sho-vol1": 4,
-        "sankyo-shiki": 1,
-        "bodaishinron": 1,
-        "jujushinron": 20,
-        "hizoki": 2,
-        "yugikyo": 1,
-        "rishushaku": 2,
-        "dainichikyo-sho-vol2": 2,
-        "dainichikyo-sho-vol4": 1,
-        "hotsubodaishinron-sho-vol4": 2,
-        "hotsubodaishinron-sho-vol2": 2
-      },
-      "metadata": {
-        "subcategory": "mountain_buddhist",
-        "definition": "仏教世界観の中心の山。",
-        "aliases": [
-          "須弥",
-          "sumeru",
-          "meru"
-        ]
-      }
-    },
-    {
       "canonical": "殷",
-      "total_occurrence_count": 45,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 50,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol5",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol2",
@@ -460,6 +471,7 @@
         "hizoki": 2,
         "yugikyo": 2,
         "dainichikyo-sho-vol2": 6,
+        "dainichikyo-sho-vol5": 5,
         "hotsubodaishinron-sho-vol2": 2,
         "hotsubodaishinron-sho-vol5": 3
       },
@@ -504,12 +516,13 @@
     },
     {
       "canonical": "周",
-      "total_occurrence_count": 35,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 36,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
+        "dainichikyo-sho-vol5",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol9",
         "jujushinron",
@@ -526,6 +539,7 @@
         "jujushinron": 2,
         "dainichikyo-sho-vol3": 1,
         "dainichikyo-sho-vol4": 3,
+        "dainichikyo-sho-vol5": 1,
         "hotsubodaishinron-sho-vol9": 1
       },
       "metadata": {
@@ -535,11 +549,12 @@
     },
     {
       "canonical": "夏",
-      "total_occurrence_count": 23,
-      "covered_corpora_count": 7,
+      "total_occurrence_count": 24,
+      "covered_corpora_count": 8,
       "covered_corpora": [
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol5",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol1",
         "jujushinron",
@@ -553,7 +568,8 @@
         "jujushinron": 2,
         "hotsubodaishinron-sho-vol1": 1,
         "dainichikyo-sho-vol2": 2,
-        "dainichikyo-sho-vol3": 1
+        "dainichikyo-sho-vol3": 1,
+        "dainichikyo-sho-vol5": 1
       },
       "metadata": {
         "subcategory": "country_dynasty",
@@ -603,6 +619,37 @@
       }
     },
     {
+      "canonical": "天竺",
+      "total_occurrence_count": 20,
+      "covered_corpora_count": 7,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol5",
+        "hizoki",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "dainichikyo-sho-vol1": 1,
+        "jujushinron": 4,
+        "hizoki": 5,
+        "hotsubodaishinron-sho-vol1": 1,
+        "dainichikyo-sho-vol5": 1,
+        "hotsubodaishinron-sho-vol2": 1
+      },
+      "metadata": {
+        "subcategory": "country_india",
+        "definition": "インドの古称。",
+        "aliases": [
+          "印度",
+          "身毒"
+        ]
+      }
+    },
+    {
       "canonical": "秦",
       "total_occurrence_count": 20,
       "covered_corpora_count": 7,
@@ -630,39 +677,11 @@
       }
     },
     {
-      "canonical": "天竺",
-      "total_occurrence_count": 19,
-      "covered_corpora_count": 6,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hizoki",
-        "hotsubodaishinron-sho-vol1",
-        "hotsubodaishinron-sho-vol2",
-        "jujushinron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "dainichikyo-sho-vol1": 1,
-        "jujushinron": 4,
-        "hizoki": 5,
-        "hotsubodaishinron-sho-vol1": 1,
-        "hotsubodaishinron-sho-vol2": 1
-      },
-      "metadata": {
-        "subcategory": "country_india",
-        "definition": "インドの古称。",
-        "aliases": [
-          "印度",
-          "身毒"
-        ]
-      }
-    },
-    {
       "canonical": "雪山",
-      "total_occurrence_count": 16,
-      "covered_corpora_count": 4,
+      "total_occurrence_count": 17,
+      "covered_corpora_count": 5,
       "covered_corpora": [
+        "dainichikyo-sho-vol5",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol7",
         "jujushinron",
@@ -672,6 +691,7 @@
         "shoryoshu_miyasaka": 10,
         "hizo-houyaku": 1,
         "jujushinron": 4,
+        "dainichikyo-sho-vol5": 1,
         "hotsubodaishinron-sho-vol7": 1
       },
       "metadata": {
@@ -680,6 +700,32 @@
         "aliases": [
           "ヒマーラヤ",
           "himālaya"
+        ]
+      }
+    },
+    {
+      "canonical": "霊鷲山",
+      "total_occurrence_count": 17,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol5",
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 13,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 1,
+        "dainichikyo-sho-vol5": 2
+      },
+      "metadata": {
+        "subcategory": "mountain_buddhist",
+        "definition": "王舎城東北の山。釈迦が法華経などを説いた地。",
+        "aliases": [
+          "霊山",
+          "耆闍崛山",
+          "gṛdhrakūṭa"
         ]
       }
     },
@@ -727,30 +773,6 @@
           "唐土",
           "中華",
           "華夏"
-        ]
-      }
-    },
-    {
-      "canonical": "霊鷲山",
-      "total_occurrence_count": 15,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 13,
-        "hizo-houyaku": 1,
-        "sankyo-shiki": 1
-      },
-      "metadata": {
-        "subcategory": "mountain_buddhist",
-        "definition": "王舎城東北の山。釈迦が法華経などを説いた地。",
-        "aliases": [
-          "霊山",
-          "耆闍崛山",
-          "gṛdhrakūṭa"
         ]
       }
     },
@@ -1008,6 +1030,23 @@
       }
     },
     {
+      "canonical": "越",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol5",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6,
+        "dainichikyo-sho-vol5": 1
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "春秋の国。"
+      }
+    },
+    {
       "canonical": "伊予",
       "total_occurrence_count": 7,
       "covered_corpora_count": 1,
@@ -1161,21 +1200,6 @@
       "metadata": {
         "subcategory": "sacred_site_japan",
         "definition": "平安京の禁苑。空海の祈雨儀礼の地。"
-      }
-    },
-    {
-      "canonical": "越",
-      "total_occurrence_count": 6,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 6
-      },
-      "metadata": {
-        "subcategory": "country_china",
-        "definition": "春秋の国。"
       }
     },
     {

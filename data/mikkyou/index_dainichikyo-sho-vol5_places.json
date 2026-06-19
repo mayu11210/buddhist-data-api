@@ -1,0 +1,325 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol5.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-19",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 38245,
+  "summary": {
+    "unique_terms": 9,
+    "unique_places": 9,
+    "total_occurrences": 18,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_china": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_dynasty": {
+        "unique": 3,
+        "occurrences": 7
+      },
+      "country_india": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "mountain_buddhist": {
+        "unique": 3,
+        "occurrences": 8
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "商",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "に作る。観自在の身の色は清らかな月〔浄月〕のようで、あるいは商佉〔しょうきゃ・上等の法螺貝〕のよう、あるいは軍那華〔ぐんな",
+          "context_position": 22326,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "わす三昧〔重障を摧壊する三昧〕である。次に、執金剛の左に金剛商竭羅〔こんごうしょうがら〕を置く。訳して「金剛鎖〔こんごうさ",
+          "context_position": 25696,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "に如来の白毫の相の印〔白毫相の印〕を画く。蓮華のなかに住し、商佉〔法螺貝〕の色に作る。身に円い光があり、手に蓮華を執って半",
+          "context_position": 29117,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "う〕」という。これは那羅延天〔ならえんてん〕である。あわせて商羯羅天〔しょうがらてん〕を置く。これは摩醯首羅〔まけいしゅら",
+          "context_position": 32204,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "ではない。経の後の文に、さらに嚕捺羅〔るだら〕があり、これは商羯羅の忿怒の身〔忿怒身〕である。事に応じて名を立てる。また塞",
+          "context_position": 32296,
+          "matched_form": "商"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "めて動かさず、清らかな菩提心の妙高山王〔浄菩提心の妙高山王・須弥山〕を成す。だから「磐石に安住する」というのである。さらに、下",
+          "context_position": 27297,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "南に、因陀羅釈天主〔いんだらしゃくてんしゅ・帝釈天〕を画く。須弥山に坐し、天衆が囲む。首に宝冠を戴き、身にさまざまな瓔珞を着け",
+          "context_position": 31288,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "を、そのまま出世間の秘密の目じるしとする。ちょうど帝釈の像が須弥山〔妙高山王〕に安住するように、如来の因陀羅三昧〔いんだらざん",
+          "context_position": 33011,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "昧〔いんだらざんまい〕もまたこの処を移さず、清らかな菩提心の須弥山〔浄菩提心の妙高山王〕を開き出す。ほかの法門もみな同じである",
+          "context_position": 33066,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "地〔金剛地〕を起こし、この宝の王の宮殿〔宝王宮殿〕を観じて、須弥山の頂にあると見る。あらゆる一つひとつの荘厳は、みな後の品〔下",
+          "context_position": 38164,
+          "matched_form": "須弥山"
+        }
+      ]
+    },
+    {
+      "canonical": "霊鷲山",
+      "aliases": [
+        "霊山",
+        "耆闍崛山",
+        "gṛdhrakūṭa"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "王舎城東北の山。釈迦が法華経などを説いた地。",
+      "matched_forms": [
+        {
+          "form": "霊鷲山",
+          "count": 1
+        },
+        {
+          "form": "霊山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "かぎりない聖者の集まり〔無辺の聖衆〕を見ることがある。それは霊鷲山の会座〔霊山会〕に坐る者が、三度変じた浄土〔三変浄土〕の分身",
+          "context_position": 15747,
+          "matched_form": "霊鷲山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "の集まり〔無辺の聖衆〕を見ることがある。それは霊鷲山の会座〔霊山会〕に坐る者が、三度変じた浄土〔三変浄土〕の分身の諸仏を見る",
+          "context_position": 15754,
+          "matched_form": "霊山"
+        }
+      ]
+    },
+    {
+      "canonical": "周",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。文王・武王が建国。",
+      "matched_forms": [
+        {
+          "form": "周",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "三つに分ける〔三分〕。その最も内側に向いた一分は、行き来する周りの道〔行来の周道〕である。だから「仏子の通る道〔仏子の所行",
+          "context_position": 18565,
+          "matched_form": "周"
+        }
+      ]
+    },
+    {
+      "canonical": "夏",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国伝説的な最古の王朝。禹が建国。",
+      "matched_forms": [
+        {
+          "form": "夏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "そん〕と号する。顔に三つの目があって四本の牙〔四牙〕が出て、夏の雨どきの雲〔水雨の時の雲〕の色のようである。大笑いの形に作",
+          "context_position": 25977,
+          "matched_form": "夏"
+        }
+      ]
+    },
+    {
+      "canonical": "天竺",
+      "aliases": [
+        "印度",
+        "身毒"
+      ],
+      "subcategory": "country_india",
+      "definition": "インドの古称。",
+      "matched_forms": [
+        {
+          "form": "印度",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "それに寄せて秘密の手だてを用いて加持するためである。インド〔印度国〕の人は、僧を招いて食事をふるまうときも、世間の人どうしが",
+          "context_position": 1203,
+          "matched_form": "印度"
+        }
+      ]
+    },
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "思いのままに飲食しても、さしさわりなく心地よく過ごせる〔身機安楽〕。 いまの阿闍梨もまた同じである。弟子に楊枝〔歯木〕を授け",
+          "context_position": 1520,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "越",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋の国。",
+      "matched_forms": [
+        {
+          "form": "越",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "いとも〔阿悉底＝有・那悉底＝無〕、その両方をともに越え〔倶・越〕、虚空に同じく〔佉・虚空〕、垢なく〔無垢〕深く奥ふかい〔深",
+          "context_position": 7595,
+          "matched_form": "越"
+        }
+      ]
+    },
+    {
+      "canonical": "雪山",
+      "aliases": [
+        "ヒマーラヤ",
+        "himālaya"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "ヒマーラヤ山脈。仏典でしばしば言及される聖山。",
+      "matched_forms": [
+        {
+          "form": "雪山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol5",
+          "context": "娑多祁哩〔さたぎり〕。第五は醯摩嚩多〔けいまばた〕——これは雪山〔ヒマラヤ〕に住む者である。第六は毘灑迦〔びしゃか〕。第七は",
+          "context_position": 32673,
+          "matched_form": "雪山"
+        }
+      ]
+    }
+  ]
+}
