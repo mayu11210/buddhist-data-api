@@ -3,7 +3,7 @@
   "category": "terms",
   "category_description": "密教教学用語（19 語辞書ベース）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-18",
+  "generated_at": "2026-06-19",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -23,6 +23,7 @@
     "hotsubodaishinron-sho-vol1",
     "dainichikyo-sho-vol2",
     "dainichikyo-sho-vol3",
+    "dainichikyo-sho-vol4",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -33,16 +34,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 27,
-  "corpora_with_data": 27,
+  "corpora_count": 28,
+  "corpora_with_data": 28,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 19,
-    "total_occurrences": 4781,
+    "total_occurrences": 4912,
     "terms_in_multiple_corpora": 17,
-    "max_corpus_coverage": 27,
+    "max_corpus_coverage": 28,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 19,
@@ -134,6 +135,11 @@
         "occurrences": 160,
         "present": true
       },
+      "dainichikyo-sho-vol4": {
+        "unique": 19,
+        "occurrences": 131,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 19,
         "occurrences": 300,
@@ -184,13 +190,14 @@
   "entries": [
     {
       "term": "真言",
-      "total_occurrence_count": 971,
-      "covered_corpora_count": 27,
+      "total_occurrence_count": 1006,
+      "covered_corpora_count": 28,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -234,6 +241,7 @@
         "hotsubodaishinron-sho-vol1": 23,
         "dainichikyo-sho-vol2": 10,
         "dainichikyo-sho-vol3": 59,
+        "dainichikyo-sho-vol4": 35,
         "hotsubodaishinron-sho-vol3": 58,
         "hotsubodaishinron-sho-vol4": 29,
         "hotsubodaishinron-sho-vol2": 22,
@@ -256,13 +264,14 @@
     },
     {
       "term": "大日",
-      "total_occurrence_count": 810,
-      "covered_corpora_count": 25,
+      "total_occurrence_count": 818,
+      "covered_corpora_count": 26,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -302,6 +311,7 @@
         "hotsubodaishinron-sho-vol1": 30,
         "dainichikyo-sho-vol2": 2,
         "dainichikyo-sho-vol3": 1,
+        "dainichikyo-sho-vol4": 8,
         "hotsubodaishinron-sho-vol3": 17,
         "hotsubodaishinron-sho-vol4": 7,
         "hotsubodaishinron-sho-vol2": 30,
@@ -324,13 +334,14 @@
     },
     {
       "term": "法界",
-      "total_occurrence_count": 457,
-      "covered_corpora_count": 23,
+      "total_occurrence_count": 477,
+      "covered_corpora_count": 24,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -368,6 +379,7 @@
         "hotsubodaishinron-sho-vol1": 10,
         "dainichikyo-sho-vol2": 7,
         "dainichikyo-sho-vol3": 35,
+        "dainichikyo-sho-vol4": 20,
         "hotsubodaishinron-sho-vol3": 10,
         "hotsubodaishinron-sho-vol4": 3,
         "hotsubodaishinron-sho-vol2": 4,
@@ -388,13 +400,14 @@
     },
     {
       "term": "密教",
-      "total_occurrence_count": 443,
-      "covered_corpora_count": 20,
+      "total_occurrence_count": 444,
+      "covered_corpora_count": 21,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -428,6 +441,7 @@
         "hotsubodaishinron-sho-vol1": 19,
         "dainichikyo-sho-vol2": 1,
         "dainichikyo-sho-vol3": 1,
+        "dainichikyo-sho-vol4": 1,
         "hotsubodaishinron-sho-vol3": 6,
         "hotsubodaishinron-sho-vol4": 1,
         "hotsubodaishinron-sho-vol2": 2,
@@ -438,6 +452,66 @@
         "sanskrit": "guhya-mantra-yāna",
         "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
         "kaimyo_suitable": false
+      }
+    },
+    {
+      "term": "大悲",
+      "total_occurrence_count": 404,
+      "covered_corpora_count": 21,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
+        "hizo-houyaku",
+        "hizoki",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol10",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol3",
+        "hotsubodaishinron-sho-vol4",
+        "hotsubodaishinron-sho-vol6",
+        "hotsubodaishinron-sho-vol7",
+        "hotsubodaishinron-sho-vol8",
+        "hotsubodaishinron-sho-vol9",
+        "jujushinron",
+        "nikyo-ron",
+        "rishushaku",
+        "shoryoshu_miyasaka",
+        "ujiji",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 26,
+        "nikyo-ron": 2,
+        "ujiji": 2,
+        "hizo-houyaku": 9,
+        "dainichikyo-sho-vol1": 38,
+        "jujushinron": 26,
+        "hizoki": 14,
+        "yugikyo": 9,
+        "rishushaku": 11,
+        "hotsubodaishinron-sho-vol1": 11,
+        "dainichikyo-sho-vol2": 6,
+        "dainichikyo-sho-vol3": 23,
+        "dainichikyo-sho-vol4": 22,
+        "hotsubodaishinron-sho-vol3": 47,
+        "hotsubodaishinron-sho-vol4": 35,
+        "hotsubodaishinron-sho-vol2": 7,
+        "hotsubodaishinron-sho-vol6": 3,
+        "hotsubodaishinron-sho-vol7": 14,
+        "hotsubodaishinron-sho-vol8": 7,
+        "hotsubodaishinron-sho-vol9": 38,
+        "hotsubodaishinron-sho-vol10": 54
+      },
+      "metadata": {
+        "sanskrit": "mahā-karuṇā",
+        "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "大",
+          "悲"
+        ]
       }
     },
     {
@@ -501,70 +575,13 @@
       }
     },
     {
-      "term": "大悲",
-      "total_occurrence_count": 382,
-      "covered_corpora_count": 20,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "dainichikyo-sho-vol2",
-        "dainichikyo-sho-vol3",
-        "hizo-houyaku",
-        "hizoki",
-        "hotsubodaishinron-sho-vol1",
-        "hotsubodaishinron-sho-vol10",
-        "hotsubodaishinron-sho-vol2",
-        "hotsubodaishinron-sho-vol3",
-        "hotsubodaishinron-sho-vol4",
-        "hotsubodaishinron-sho-vol6",
-        "hotsubodaishinron-sho-vol7",
-        "hotsubodaishinron-sho-vol8",
-        "hotsubodaishinron-sho-vol9",
-        "jujushinron",
-        "nikyo-ron",
-        "rishushaku",
-        "shoryoshu_miyasaka",
-        "ujiji",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 26,
-        "nikyo-ron": 2,
-        "ujiji": 2,
-        "hizo-houyaku": 9,
-        "dainichikyo-sho-vol1": 38,
-        "jujushinron": 26,
-        "hizoki": 14,
-        "yugikyo": 9,
-        "rishushaku": 11,
-        "hotsubodaishinron-sho-vol1": 11,
-        "dainichikyo-sho-vol2": 6,
-        "dainichikyo-sho-vol3": 23,
-        "hotsubodaishinron-sho-vol3": 47,
-        "hotsubodaishinron-sho-vol4": 35,
-        "hotsubodaishinron-sho-vol2": 7,
-        "hotsubodaishinron-sho-vol6": 3,
-        "hotsubodaishinron-sho-vol7": 14,
-        "hotsubodaishinron-sho-vol8": 7,
-        "hotsubodaishinron-sho-vol9": 38,
-        "hotsubodaishinron-sho-vol10": 54
-      },
-      "metadata": {
-        "sanskrit": "mahā-karuṇā",
-        "definition": "仏の大いなる慈悲。一切衆生を救う心。",
-        "kaimyo_suitable": true,
-        "kaimyo_chars": [
-          "大",
-          "悲"
-        ]
-      }
-    },
-    {
       "term": "三摩地",
-      "total_occurrence_count": 363,
-      "covered_corpora_count": 20,
+      "total_occurrence_count": 364,
+      "covered_corpora_count": 21,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
@@ -598,6 +615,7 @@
         "rishushaku": 105,
         "hotsubodaishinron-sho-vol1": 12,
         "dainichikyo-sho-vol3": 2,
+        "dainichikyo-sho-vol4": 1,
         "hotsubodaishinron-sho-vol3": 104,
         "hotsubodaishinron-sho-vol4": 2,
         "hotsubodaishinron-sho-vol2": 10,
@@ -614,13 +632,14 @@
     },
     {
       "term": "遮那",
-      "total_occurrence_count": 283,
-      "covered_corpora_count": 22,
+      "total_occurrence_count": 293,
+      "covered_corpora_count": 23,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
@@ -655,6 +674,7 @@
         "hotsubodaishinron-sho-vol1": 11,
         "dainichikyo-sho-vol2": 2,
         "dainichikyo-sho-vol3": 18,
+        "dainichikyo-sho-vol4": 10,
         "hotsubodaishinron-sho-vol3": 3,
         "hotsubodaishinron-sho-vol4": 4,
         "hotsubodaishinron-sho-vol2": 25,
@@ -676,12 +696,13 @@
     },
     {
       "term": "三密",
-      "total_occurrence_count": 204,
-      "covered_corpora_count": 19,
+      "total_occurrence_count": 207,
+      "covered_corpora_count": 20,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
@@ -713,6 +734,7 @@
         "rishushaku": 5,
         "hotsubodaishinron-sho-vol1": 6,
         "dainichikyo-sho-vol3": 13,
+        "dainichikyo-sho-vol4": 3,
         "hotsubodaishinron-sho-vol3": 16,
         "hotsubodaishinron-sho-vol4": 5,
         "hotsubodaishinron-sho-vol2": 1,
@@ -731,13 +753,14 @@
     },
     {
       "term": "阿字",
-      "total_occurrence_count": 141,
-      "covered_corpora_count": 17,
+      "total_occurrence_count": 166,
+      "covered_corpora_count": 18,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -769,6 +792,7 @@
         "hotsubodaishinron-sho-vol1": 4,
         "dainichikyo-sho-vol2": 3,
         "dainichikyo-sho-vol3": 1,
+        "dainichikyo-sho-vol4": 25,
         "hotsubodaishinron-sho-vol9": 6
       },
       "metadata": {
@@ -779,12 +803,13 @@
     },
     {
       "term": "心王",
-      "total_occurrence_count": 104,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 105,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
@@ -805,6 +830,7 @@
         "hotsubodaishinron-sho-vol1": 1,
         "dainichikyo-sho-vol2": 3,
         "dainichikyo-sho-vol3": 4,
+        "dainichikyo-sho-vol4": 1,
         "hotsubodaishinron-sho-vol3": 4,
         "hotsubodaishinron-sho-vol2": 38,
         "hotsubodaishinron-sho-vol9": 2
@@ -812,6 +838,48 @@
       "metadata": {
         "sanskrit": "citta-rāja",
         "definition": "八識の根本識。心の主体・統括者。",
+        "kaimyo_suitable": false
+      }
+    },
+    {
+      "term": "本不生",
+      "total_occurrence_count": 87,
+      "covered_corpora_count": 14,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
+        "hizo-houyaku",
+        "hizoki",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol9",
+        "jujushinron",
+        "rishikyo",
+        "rishushaku",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 12,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 5,
+        "hizo-houyaku": 6,
+        "dainichikyo-sho-vol1": 14,
+        "jujushinron": 11,
+        "hizoki": 9,
+        "rishikyo": 1,
+        "rishushaku": 5,
+        "hotsubodaishinron-sho-vol1": 1,
+        "dainichikyo-sho-vol2": 6,
+        "dainichikyo-sho-vol3": 3,
+        "dainichikyo-sho-vol4": 3,
+        "hotsubodaishinron-sho-vol9": 10
+      },
+      "metadata": {
+        "sanskrit": "ādyanutpāda",
+        "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
         "kaimyo_suitable": false
       }
     },
@@ -855,46 +923,6 @@
           "成",
           "仏"
         ]
-      }
-    },
-    {
-      "term": "本不生",
-      "total_occurrence_count": 84,
-      "covered_corpora_count": 13,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "dainichikyo-sho-vol2",
-        "dainichikyo-sho-vol3",
-        "hizo-houyaku",
-        "hizoki",
-        "hotsubodaishinron-sho-vol1",
-        "hotsubodaishinron-sho-vol9",
-        "jujushinron",
-        "rishikyo",
-        "rishushaku",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 12,
-        "shoji-jisso": 1,
-        "sokushin-jobutsu": 5,
-        "hizo-houyaku": 6,
-        "dainichikyo-sho-vol1": 14,
-        "jujushinron": 11,
-        "hizoki": 9,
-        "rishikyo": 1,
-        "rishushaku": 5,
-        "hotsubodaishinron-sho-vol1": 1,
-        "dainichikyo-sho-vol2": 6,
-        "dainichikyo-sho-vol3": 3,
-        "hotsubodaishinron-sho-vol9": 10
-      },
-      "metadata": {
-        "sanskrit": "ādyanutpāda",
-        "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
-        "kaimyo_suitable": false
       }
     },
     {
@@ -949,9 +977,10 @@
     },
     {
       "term": "大空三昧",
-      "total_occurrence_count": 6,
-      "covered_corpora_count": 4,
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 5,
       "covered_corpora": [
+        "dainichikyo-sho-vol4",
         "hotsubodaishinron-sho-vol9",
         "jujushinron",
         "shoryoshu_miyasaka",
@@ -961,6 +990,7 @@
         "shoryoshu_miyasaka": 1,
         "ujiji": 3,
         "jujushinron": 1,
+        "dainichikyo-sho-vol4": 2,
         "hotsubodaishinron-sho-vol9": 1
       },
       "metadata": {

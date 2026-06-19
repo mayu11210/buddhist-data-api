@@ -61,7 +61,8 @@ DICT_CORPUS_LIST = [
     'rishushaku.json',  # 2026-06-15 追加（理趣釈 横断索引化・14 著作目の dict 型）
     'hotsubodaishinron-sho-vol1.json',  # 2026-06-15 追加（発菩提心論鈔 第一巻 横断索引化・15 著作目の dict 型）
     'dainichikyo-sho-vol2.json',
-    'dainichikyo-sho-vol3.json',  # 2026-06-19 追加（大日経疏 巻第三 横断索引化・27 著作目の dict 型）
+    'dainichikyo-sho-vol3.json',
+    'dainichikyo-sho-vol4.json',  # 2026-06-19 追加（大日経疏 巻第四 横断索引化・28 著作目の dict 型）
     'hotsubodaishinron-sho-vol3.json',  # 2026-06-17 追加（発菩提心論鈔 第三巻 横断索引化・18 著作目の dict 型）
     'hotsubodaishinron-sho-vol4.json',  # 2026-06-18 追加（発菩提心論鈔 第四巻 横断索引化・19 著作目の dict 型）
     'hotsubodaishinron-sho-vol2.json',  # 2026-06-18 追加（発菩提心論鈔 第二巻 横断索引化・20 著作目の dict 型）

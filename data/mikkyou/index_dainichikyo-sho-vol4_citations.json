@@ -1,0 +1,2201 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "dainichikyo-sho-vol4.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-19",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 31939,
+  "summary": {
+    "unique_terms": 154,
+    "total_occurrences": 184
+  },
+  "entries": [
+    {
+      "term": "莎訶",
+      "aliases": [],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "字門を真言の種子とする。譬類に過ぎているからである。末の句に『莎訶』というは、これ警覚の義である。一切如来がもと菩薩の道を行じた",
+          "context_position": 19912,
+          "raw_form": "莎訶"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、本誓に違わざるが故に、我が道場を具足して厳浄せしめんが故に『莎訶』という。以下の諸真言に『莎訶』というは、その義はおおむね同じ",
+          "context_position": 20156,
+          "raw_form": "莎訶"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "場を具足して厳浄せしめんが故に『莎訶』という。以下の諸真言に『莎訶』というは、その義はおおむね同じである。おおよそ五宝のとき、こ",
+          "context_position": 20171,
+          "raw_form": "莎訶"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "一戒・一見である。所以に同じく共に加持するのである。末の句に『莎訶』というは、僧が羯磨し竟わって認可・印成の句を加えるように、も",
+          "context_position": 23928,
+          "raw_form": "莎訶"
+        }
+      ]
+    },
+    {
+      "term": "供養法",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "きは、先ず三昧耶と法界と金剛自性をもって自身を加持せよ。皆な『供養法』の中に説く所のとおりである。囉〔ら〕字門を用いて、自らの心地",
+          "context_position": 12254,
+          "raw_form": "供養法"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "五穀・五薬を加持し、その中に安置せよ。去垢・辟除などは、皆な『供養法』の中に説くとおりである。もし深秘釈ならば、すなわちこれ菩提心",
+          "context_position": 16812,
+          "raw_form": "供養法"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "行を修するときは、先ずまさに五字をもって身を持すべきである。『供養法』の中に説くとおりである。すなわち自心を観じて八葉の蓮華をなせ",
+          "context_position": 22658,
+          "raw_form": "供養法"
+        }
+      ]
+    },
+    {
+      "term": "底",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "これ第一義諦である。第一義諦は、いわゆる浄菩提心である。次に『底』字がある。正体は、これ多字門である。三昧の声を帯びるが故に、",
+          "context_position": 17996,
+          "raw_form": "底"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "る。正体は、これ多字門である。三昧の声を帯びるが故に、転じて『底』とする。『底』はこれ心の義である。またこれ如如の義である。自",
+          "context_position": 18032,
+          "raw_form": "底"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "れ多字門である。三昧の声を帯びるが故に、転じて『底』とする。『底』はこれ心の義である。またこれ如如の義である。自らの心の実のご",
+          "context_position": 18039,
+          "raw_form": "底"
+        }
+      ]
+    },
+    {
+      "term": "空室",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "々の外道の邪見・不信があれば、この処において作すべきでない。『空室』とは、世人の造った居室を後時にこれを捨てて去ったのをいう。諸",
+          "context_position": 569,
+          "raw_form": "空室"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ようとするが故に、須らく摂受する。これを『天祠』と名づける。『空室』とは、この人は塵俗にあるとはいえ、しかも性が虚寂を好み、世の",
+          "context_position": 1305,
+          "raw_form": "空室"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ら、教化するに堪える。あるいは無色の天道を志求するのも、また『空室』と名づける。『仙人得道処』とは、ただ心を発して五通・持明仙の",
+          "context_position": 1444,
+          "raw_form": "空室"
+        }
+      ]
+    },
+    {
+      "term": "等",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "べからずば、また捨棄して、更に余処を求めるべきである。だから『等』というのである。『虫蟻』とは、吃㗚弭〔きりみ〕という。この語",
+          "context_position": 3358,
+          "raw_form": "等"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "〕・素者〔そしゃ・等〕――釈して『浄地波羅蜜』という。〔義を『等』の字に合す〕。摩囉〔まら・天魔〕・塞年〔そくねん・去声、軍衆",
+          "context_position": 10880,
+          "raw_form": "等"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "摩訶般若』の中に法を歴て広く明かすとおりである。これをもって『等』という。今、偈を訳することは、五字を句とする。具に存すべきで",
+          "context_position": 11290,
+          "raw_form": "等"
+        }
+      ]
+    },
+    {
+      "term": "仙人得道処",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "う。諸々の憤雑〔ふんざつ〕が無いが故に、作法するに堪える。 『仙人得道処』とは、これ世間に五通を求める者が、久しく棲止して成就を得た処",
+          "context_position": 630,
+          "raw_form": "仙人得道処"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "。あるいは無色の天道を志求するのも、また『空室』と名づける。『仙人得道処』とは、ただ心を発して五通・持明仙の道を求め、あるいは長寿にし",
+          "context_position": 1454,
+          "raw_form": "仙人得道処"
+        }
+      ]
+    },
+    {
+      "term": "伽",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "あり、無分別であり、無辺際にして虚空に等同である。 また次に『伽』字門は、これ行の義である。阿字門はこれ行の義である。『那』は",
+          "context_position": 18639,
+          "raw_form": "伽"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "である。『那』はこれ大空であり、法において自在なる義である。『伽』字が阿字門に入るが故に、一切法は本初より以来、都て所行が無い",
+          "context_position": 18694,
+          "raw_form": "伽"
+        }
+      ]
+    },
+    {
+      "term": "供養次第",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "性に住し、しかる後に地神を警発すべきである。厳身の方便は皆な『供養次第』の中に説くとおりである。警発し已わらば、不動尊の真言を用いて",
+          "context_position": 16181,
+          "raw_form": "供養次第"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "を東にして坐し、本受持の真言を誦じ、本尊の三昧に住せよ。皆な『供養次第』の中に説くとおりである。また次第に白檀位の諸尊の真言を持し、",
+          "context_position": 24315,
+          "raw_form": "供養次第"
+        }
+      ]
+    },
+    {
+      "term": "善き境界に遇う",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ある。入漫荼羅・灌頂は息災と相応する。だから『食前』という。『善き境界に遇う』とは、いわく作法のとき、あるいは地上、あるいは空中に色・声な",
+          "context_position": 6596,
+          "raw_form": "善き境界に遇う"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、菩提心の日を開発しようとする故に、食前の時を取るのである。『善き境界に遇う』とは、この心は無相・無境界である。これ有為・無為でない。仏の",
+          "context_position": 9296,
+          "raw_form": "善き境界に遇う"
+        }
+      ]
+    },
+    {
+      "term": "天祠",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "がその心を蕩滌することを経たのを、また『河潬』と名づける。 『天祠』とは、三乗を求めず、天の楽を志願するのをいう。授受して、三悪",
+          "context_position": 1226,
+          "raw_form": "天祠"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "見の天の中に生ぜしめようとするが故に、須らく摂受する。これを『天祠』と名づける。『空室』とは、この人は塵俗にあるとはいえ、しかも",
+          "context_position": 1295,
+          "raw_form": "天祠"
+        }
+      ]
+    },
+    {
+      "term": "定日",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "すなわち功は唐捐〔とうえん・むだ〕ならずして障礙を生じない。『定日』とは、日を本尊の身に喩え、月を修習・瑜伽行に喩える。行者の定",
+          "context_position": 7713,
+          "raw_form": "定日"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "すなわち熟す。このような変通を皆な善く知るべきである。だから『定日』という。『時分』とは、行者の一々の地の中について自ら十心があ",
+          "context_position": 7960,
+          "raw_form": "定日"
+        }
+      ]
+    },
+    {
+      "term": "宿直",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "はすなわち凶である。某時は中平である。各々に皆な像類がある。『宿直』というは、いわく二十七宿である。周天を分けて十二房とする。な",
+          "context_position": 6112,
+          "raw_form": "宿直"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "って住すべきか。これを『時の中の微細の相を解す』と名づける。『宿直』とは、これ行人の瑜伽の月の渉る所の縁境である。一切の縁境の中",
+          "context_position": 8141,
+          "raw_form": "宿直"
+        }
+      ]
+    },
+    {
+      "term": "我れ明日はまさに請法をなすべし",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ように十方諸仏を敬礼すべきである。 そうして請い白して言う。『我れ明日はまさに請法をなすべし』。このように安置し了わり、更にまた浄く塗って、極めて平正なら",
+          "context_position": 16943,
+          "raw_form": "我れ明日はまさに請法をなすべし"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "うに十方の諸仏を敬礼すべきである。 そうして請い白して言う。『我れ明日はまさに請法をなすべし』。この第三日より以去、漸くまさに漫荼羅の大小・方位を准定すべ",
+          "context_position": 20252,
+          "raw_form": "我れ明日はまさに請法をなすべし"
+        }
+      ]
+    },
+    {
+      "term": "摩",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "義である。阿字門に入るが故に、すなわちこれ諸法は無行である。『摩』は、これ我の義である。『夷』は、すなわち乗の義である。何故に",
+          "context_position": 16525,
+          "raw_form": "摩"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "不可得である。いわゆる諸仏の大空であるが故に、次に『娑』字と『摩』字門を明かす。定・慧が均等であるので三昧の声を具えている。だ",
+          "context_position": 18186,
+          "raw_form": "摩"
+        }
+      ]
+    },
+    {
+      "term": "時分",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "。これをもってこれを准約して、日を定めることを得るのである。『時分』とは、西方の暦法は、昼夜に各々三十の時がある。一々の時に別に",
+          "context_position": 5997,
+          "raw_form": "時分"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "のような変通を皆な善く知るべきである。だから『定日』という。『時分』とは、行者の一々の地の中について自ら十心がある。この一々の心",
+          "context_position": 7968,
+          "raw_form": "時分"
+        }
+      ]
+    },
+    {
+      "term": "本性は浄なり",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "随って応現する。だから『等隨』というのである。第五の句義に、『本性は浄なり』というは、還って阿字の浄菩提心門を転釈するに及んで香水の義で",
+          "context_position": 19112,
+          "raw_form": "本性は浄なり"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ちこれ心界である。『心界』とは、すなわちこの本性は浄である。『本性は浄なり』とは、すなわちこれあまねく一切に至りて虚空に等同である。虚空",
+          "context_position": 19552,
+          "raw_form": "本性は浄なり"
+        }
+      ]
+    },
+    {
+      "term": "毛髪",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "が故に、もっとも宜しく洗い除いて余気を尽くさしむべきである。『毛髪』とは、いわく、六十心などの善種の八心と共体にして生ずる。およ",
+          "context_position": 4228,
+          "raw_form": "毛髪"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "て紛乱し、條緒〔じょうしょ・すじみち〕すべきこと難い。だから『毛髪』と名づける。覚察すれば、すなわち宜しく除剪すべきである。『糠",
+          "context_position": 4314,
+          "raw_form": "毛髪"
+        }
+      ]
+    },
+    {
+      "term": "河潬",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "去ったのを須う。もし牧牛が現にあれば、また作すに適中しない。『河潬』とは、正しく訳せば『常に攅流〔さんる〕する処』というべきであ",
+          "context_position": 374,
+          "raw_form": "河潬"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ちこれ先世にかつて法水がその心を蕩滌することを経たのを、また『河潬』と名づける。 『天祠』とは、三乗を求めず、天の楽を志願するの",
+          "context_position": 1215,
+          "raw_form": "河潬"
+        }
+      ]
+    },
+    {
+      "term": "法華経",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "相に住す』というのである。また次に、阿闍梨は、この中において『法華経』の三車の譬喩を広く説くべきである。彼の長者の諸子は、幼少・無",
+          "context_position": 14919,
+          "raw_form": "法華経"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "。また次に、世尊が『もし我が在世、あるいは滅度の後に、諸々の『法華経』の一句一偈を聞くことがあれば、我れ皆な為に無上菩提の記を授く",
+          "context_position": 30163,
+          "raw_form": "法華経"
+        }
+      ]
+    },
+    {
+      "term": "無等",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "法として倫匹〔りんぴつ・たぐい〕をなすべきことが無い。だから『無等』という。何故にこのようであるかといえば、具に上のような字門所",
+          "context_position": 18528,
+          "raw_form": "無等"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "彼らと同等なり』とは、すなわちこれ仏母である。如来を名づけて『無等』とする。しかして般若波羅蜜は無等と等しいが故に、『彼らと同等",
+          "context_position": 20816,
+          "raw_form": "無等"
+        }
+      ]
+    },
+    {
+      "term": "牛欄",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "所であって、もっとも清潔とする。だから壇を立てるべきである。『牛欄』とは、西方〔インド〕の聚落の牧牛は共に一処にあり、村を去るこ",
+          "context_position": 245,
+          "raw_form": "牛欄"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ねて五情の嗜欲において能く自ら制止し、放逸に至らない。だから『牛欄』と名づける。『攅流』とは、三乗の中において、その心が猶豫して",
+          "context_position": 982,
+          "raw_form": "牛欄"
+        }
+      ]
+    },
+    {
+      "term": "等隨",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "このようである。だから『虚空に等しい』という。第四の句義に、『等隨』というは、金剛地は虚空に等しいが故に、すなわち能く等しく一切",
+          "context_position": 18872,
+          "raw_form": "等隨"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "も無い。しかも能くその心量に随い、縁に随って応現する。だから『等隨』というのである。第五の句義に、『本性は浄なり』というは、還っ",
+          "context_position": 19093,
+          "raw_form": "等隨"
+        }
+      ]
+    },
+    {
+      "term": "良き日晨",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "吉日において地神を警発する。余の法事も例して知るべきである。『良き日晨』とは、いわく作法するに、まさに白分の月〔満ちていく半月〕を用",
+          "context_position": 5551,
+          "raw_form": "良き日晨"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "の門は、皆これ法界の幖幟〔ひょうじ・しるし〕である。いわゆる『良き日晨』とは、意は菩提心の嘉会の晨にある。深行の阿闍梨は、瑜伽の中に",
+          "context_position": 7329,
+          "raw_form": "良き日晨"
+        }
+      ]
+    },
+    {
+      "term": "阿",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "心地である。この故に、余の字は皆この字門を成さんが為である。『阿』字はこれ一切法本不生の義である。次に『波羅』字というは、『波",
+          "context_position": 17857,
+          "raw_form": "阿"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "行者は、仏室に住して上のように諸々の聖尊を観じ竟わり、まさに『阿』を転じて『嚩〔ばく〕』とすべきである。金剛薩埵をもって自身を",
+          "context_position": 23444,
+          "raw_form": "阿"
+        }
+      ]
+    },
+    {
+      "term": "あるいは十、あるいは八・七、あるいは五・二・一・四",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "すべくば、諸余の過失があるとはいえ皆な観る所が無い。偈の中に『あるいは十、あるいは八・七、あるいは五・二・一・四』というのは、これ一期の道場に阿闍梨が灌頂をなす限数である。こ",
+          "context_position": 27404,
+          "raw_form": "あるいは十、あるいは八・七、あるいは五・二・一・四"
+        }
+      ]
+    },
+    {
+      "term": "このような諸過を離れる",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "うにすべきである。まさに『究竟浄』と名づけるのである。 経に『このような諸過を離れる』というのは、この例は衆多である。 意を得た者は、自ら常に事に",
+          "context_position": 5044,
+          "raw_form": "このような諸過を離れる"
+        }
+      ]
+    },
+    {
+      "term": "これを略して名数を造立す",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "して普門に進趣せしむ。この故に、説いて漫荼羅とする。いう所の『これを略して名数を造立す』とは、阿字の五転をもって如来の無辺の内徳を統べ、字輪の百明を",
+          "context_position": 31109,
+          "raw_form": "これを略して名数を造立す"
+        }
+      ]
+    },
+    {
+      "term": "しかも実には時も方も無く、乃至、実相に住す",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "これを例すれば、諸余の法門も皆な意に領すべきである。だから、『しかも実には時も方も無く、乃至、実相に住す』というのである。また次に、阿闍梨は、この中において『法華経』",
+          "context_position": 14871,
+          "raw_form": "しかも実には時も方も無く、乃至、実相に住す"
+        }
+      ]
+    },
+    {
+      "term": "しかる後に、地を治め、その次第のごとく、まさに衆徳を具うべし",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "また一切如来に帰命すべきこと、例解して知るべきである。 経に『しかる後に、地を治め、その次第のごとく、まさに衆徳を具うべし』というのは、いわく、おおよそ漫荼羅を造ろうとするなら、先ず須",
+          "context_position": 12975,
+          "raw_form": "しかる後に、地を治め、その次第のごとく、まさに衆徳を具うべし"
+        }
+      ]
+    },
+    {
+      "term": "それ法は常に無性にして衆縁より生ず",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "実相の義は甚深にして見難いので、この故に誡めて善く聴かせる。『それ法は常に無性にして衆縁より生ず』というのは、すなわち、この八心の相は諸々の戯論を越えている。",
+          "context_position": 13896,
+          "raw_form": "それ法は常に無性にして衆縁より生ず"
+        }
+      ]
+    },
+    {
+      "term": "まさに衆徳を具うべし",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "支分を具すべきである。だから常に衆徳を具すべきである。だから『まさに衆徳を具うべし』という。またおおよそ地を択び治めようとするときは、まさに自ら",
+          "context_position": 13142,
+          "raw_form": "まさに衆徳を具うべし"
+        }
+      ]
+    },
+    {
+      "term": "また次に余日において応度の人を摂受すべし",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、地を持して以後、漸次にこれを修めても、また咎が無い。 経に『また次に余日において応度の人を摂受すべし』というより以下、『香水を授与して飮ましめ、彼の心は清浄なるが",
+          "context_position": 25640,
+          "raw_form": "また次に余日において応度の人を摂受すべし"
+        }
+      ]
+    },
+    {
+      "term": "また秘密主よ",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "味の中において最も第一である。 これを漫荼羅の義とする。経に『また秘密主よ』というより以下は、広く漫荼羅の義を演べ、疑妨を釈除する。また",
+          "context_position": 28961,
+          "raw_form": "また秘密主よ"
+        }
+      ]
+    },
+    {
+      "term": "もし弟子に信心があれば",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "いうのである。これに因んで、弟子の応度の相を広く弁ずる。偈に『もし弟子に信心があれば』とは、いわく阿闍梨が、彼の現在の根性、あるいは久遠の因縁を観",
+          "context_position": 25789,
+          "raw_form": "もし弟子に信心があれば"
+        }
+      ]
+    },
+    {
+      "term": "三宝を恭敬す",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "すなわちこれ如来の種姓の中に生ずる。最も勝れた族とする。偈に『三宝を恭敬す』というのは、いわく仏・法・衆〔僧〕の信において淳厚・謙下の心",
+          "context_position": 26018,
+          "raw_form": "三宝を恭敬す"
+        }
+      ]
+    },
+    {
+      "term": "三月の持誦",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "者も無い。 彼の一切諸法は、ただ実相に住す、というのである。『三月の持誦』というようなものは、すなわちこの性浄・円明の中の三転の方便で",
+          "context_position": 14718,
+          "raw_form": "三月の持誦"
+        }
+      ]
+    },
+    {
+      "term": "三迷",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "を明かす。定・慧が均等であるので三昧の声を具えている。だから『三迷』というのである。この中、ただ字門に約して解釈する。諸々の大乗",
+          "context_position": 18221,
+          "raw_form": "三迷"
+        }
+      ]
+    },
+    {
+      "term": "不動",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "をなす。これはこれ如来の涅槃の智である。この故に、義をもって『不動』という。その本名ではない。本名はまさに『皷音如来』というべき",
+          "context_position": 21994,
+          "raw_form": "不動"
+        }
+      ]
+    },
+    {
+      "term": "九執",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "観察してこの事を曉知するのを、『善く宿直を観ず』と名づける。『九執』とは、梵音に釳㗚何〔きりか〕という。これ執持の義である。阿闍",
+          "context_position": 8471,
+          "raw_form": "九執"
+        }
+      ]
+    },
+    {
+      "term": "五穀・五薬",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "立し、能く五種の善萌を起こし、五種の過患を滅除する。だから、『五穀・五薬』という。おおよそ五宝を内れるときは、前のように十方諸仏を敬礼",
+          "context_position": 16886,
+          "raw_form": "五穀・五薬"
+        }
+      ]
+    },
+    {
+      "term": "仁勝者",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "名づけて『勝者』とする。だから、偈に具にその義を翻し、これを『仁勝者』と謂う。この二仏もまた真金の色になすべきである。 稍々目を閉",
+          "context_position": 22272,
+          "raw_form": "仁勝者"
+        }
+      ]
+    },
+    {
+      "term": "仁者",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "だから『無量寿』と名づける。梵音の『爾儞〔にに〕』を名づけて『仁者』とする。また四魔を降伏するが故に、名づけて『勝者』とする。だ",
+          "context_position": 22221,
+          "raw_form": "仁者"
+        }
+      ]
+    },
+    {
+      "term": "仏室",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "と無二無別ならしむ。しかして、二明王の中間に在るのを名づけて『仏室』とする。漫荼羅を書き竟わって阿闍梨が座位を移し、壇門の外に出",
+          "context_position": 22953,
+          "raw_form": "仏室"
+        }
+      ]
+    },
+    {
+      "term": "仏法は諸相を離れている。乃至、法然の道に順わず",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "とする為の故に、頭面をもって世尊の足を礼し、偈を説いて言う。『仏法は諸相を離れている。乃至、法然の道に順わず』というのは、いわく我れは親しく仏に従って聞いた。諸法の実相は",
+          "context_position": 13414,
+          "raw_form": "仏法は諸相を離れている。乃至、法然の道に順わず"
+        }
+      ]
+    },
+    {
+      "term": "他",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "釈するに、無量の義を具す。しかも、その宗極を要するに、正しく『他』字の中にある。梵音の『怛多〔たた〕』は、これ『如』の義である",
+          "context_position": 11982,
+          "raw_form": "他"
+        }
+      ]
+    },
+    {
+      "term": "余日",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "地を受持し已わり、次の明夜にまさに弟子の法をなすべし、だから『余日』というのである。これに因んで、弟子の応度の相を広く弁ずる。偈",
+          "context_position": 25754,
+          "raw_form": "余日"
+        }
+      ]
+    },
+    {
+      "term": "初の第一は我が身なり",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "瑜伽を修する所である。 これはこれ白檀漫荼羅の位である。経に『初の第一は我が身なり』というのは、すなわち毘盧遮那の位である。五仏を一檀に置くべき",
+          "context_position": 20692,
+          "raw_form": "初の第一は我が身なり"
+        }
+      ]
+    },
+    {
+      "term": "制底",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ければ、またその中において漫荼羅を造るべきである。また次に、『制底』とは、これ建立・高勝の義である。いわく、この人は常に能く白法",
+          "context_position": 709,
+          "raw_form": "制底"
+        }
+      ]
+    },
+    {
+      "term": "刺骨",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "し、大悲の條葉・華菓を生じない。だから、もって譬えとする。 『刺骨』とは、昔、衆生において種々の不饒益の行をなし、種々の雑砕の律",
+          "context_position": 4490,
+          "raw_form": "刺骨"
+        }
+      ]
+    },
+    {
+      "term": "努",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ごとく如如である。この故に、法界と衆生界とは畢竟じて等しい。『努』とは大空三昧である。如来はこの大空三昧に住し、無行・無到にし",
+          "context_position": 19025,
+          "raw_form": "努"
+        }
+      ]
+    },
+    {
+      "term": "勇健にして行願を堅くす",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "の重禁を犯さない。正法を慳恡しないが故に、伝授するに堪える。『勇健にして行願を堅くす』とは、また分かって二句とする。勇健とは、すなわちこれ阿闍梨の",
+          "context_position": 26874,
+          "raw_form": "勇健にして行願を堅くす"
+        }
+      ]
+    },
+    {
+      "term": "勝者",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "を名づけて『仁者』とする。また四魔を降伏するが故に、名づけて『勝者』とする。だから、偈に具にその義を翻し、これを『仁勝者』と謂う",
+          "context_position": 22246,
+          "raw_form": "勝者"
+        }
+      ]
+    },
+    {
+      "term": "善く宿直を観ず",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "。もし阿闍梨が、能く深く根縁を観察してこの事を曉知するのを、『善く宿直を観ず』と名づける。『九執』とは、梵音に釳㗚何〔きりか〕という。これ",
+          "context_position": 8456,
+          "raw_form": "善く宿直を観ず"
+        }
+      ]
+    },
+    {
+      "term": "善く法の相を聴け",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "とを。爾時、薄伽梵――以下は、世尊が偈をもって答える。初めに『善く法の相を聴け』というのは、諸法の実相の義は甚深にして見難いので、この故に誡",
+          "context_position": 13847,
+          "raw_form": "善く法の相を聴け"
+        }
+      ]
+    },
+    {
+      "term": "嚩〔ばく〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "住して上のように諸々の聖尊を観じ竟わり、まさに『阿』を転じて『嚩〔ばく〕』とすべきである。金剛薩埵をもって自身を加持し、塗香・華などを",
+          "context_position": 23451,
+          "raw_form": "嚩〔ばく〕"
+        }
+      ]
+    },
+    {
+      "term": "執曜不相応",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "がすなわち能くこれを執る。もし下地の人に授与すれば、すなわち『執曜不相応』と名づける。九執の中について、日を本浄の菩提心に喩える。すな",
+          "context_position": 8611,
+          "raw_form": "執曜不相応"
+        }
+      ]
+    },
+    {
+      "term": "堅",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "る。彼の精醇なるものは、また変易しないによって、また名づけて『堅』とする。浄妙の味のみが共に相い和合し、余物の雑ざることができ",
+          "context_position": 28761,
+          "raw_form": "堅"
+        }
+      ]
+    },
+    {
+      "term": "堪忍にして懈倦〔けげん〕なし",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "にして、もって自ら荘厳する者に、すなわち為に説くべきである。『堪忍にして懈倦〔けげん〕なし』とは、これはこれ堪能する所があって退屈する所が無い義である。",
+          "context_position": 26234,
+          "raw_form": "堪忍にして懈倦〔けげん〕なし"
+        }
+      ]
+    },
+    {
+      "term": "塔",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "さに知るべし、先世に福を樹て、内に善根がある。だから名づけて『塔』とする。また火は能く荒穢を焚き滅す。いわく、この人の身・口・",
+          "context_position": 804,
+          "raw_form": "塔"
+        }
+      ]
+    },
+    {
+      "term": "塗香・華などをもって供養す",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "るに、皆な阿字門をもってこれを持し、金剛と成さしめよ。 経に『塗香・華などをもって供養す』というのは、ただ警発するだけではない。またまさに種々の香・華",
+          "context_position": 12639,
+          "raw_form": "塗香・華などをもって供養す"
+        }
+      ]
+    },
+    {
+      "term": "多",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "の中にある。梵音の『怛多〔たた〕』は、これ『如』の義である。『多』字の長引の中に、すなわち阿の声を帯びている。一切法が本不生で",
+          "context_position": 12016,
+          "raw_form": "多"
+        }
+      ]
+    },
+    {
+      "term": "大方等陀羅尼経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "い。けだし如来の密意である。阿闍梨も所由を釈さなかった。また『大方等陀羅尼経』に、十人已上に過ぎることを得ずと云うのに同じ。これを過ぎて已",
+          "context_position": 27603,
+          "raw_form": "大方等陀羅尼経"
+        }
+      ]
+    },
+    {
+      "term": "大智度",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "じ、もし来て求める者には、心に鄙恡〔ひりん〕が無いのをいう。『大智度』の檀波羅蜜の中に広く説くとおりである。まさに知るべし、この人",
+          "context_position": 26804,
+          "raw_form": "大智度"
+        }
+      ]
+    },
+    {
+      "term": "大智度論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "種の大風において、その心が安忍して傾動する所が無いのをいう。『大智度論』の尸羅波羅蜜の中に広く説くとおりである。まさに知るべし、この",
+          "context_position": 26664,
+          "raw_form": "大智度論"
+        }
+      ]
+    },
+    {
+      "term": "天廟",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "〕・蕩滌〔とうじょう・洗い清める〕を経て、諸々の穢悪が無い。『天廟』とは、これ世天に宗事〔崇拝〕する者の齋祈の室であって、また多",
+          "context_position": 493,
+          "raw_form": "天廟"
+        }
+      ]
+    },
+    {
+      "term": "夷",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、すなわちこれ諸法は無行である。『摩』は、これ我の義である。『夷』は、すなわち乗の義である。何故に諸法が無行であるかとならば、",
+          "context_position": 16539,
+          "raw_form": "夷"
+        }
+      ]
+    },
+    {
+      "term": "如",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "に、正しく『他』字の中にある。梵音の『怛多〔たた〕』は、これ『如』の義である。『多』字の長引の中に、すなわち阿の声を帯びている",
+          "context_position": 12007,
+          "raw_form": "如"
+        }
+      ]
+    },
+    {
+      "term": "娑",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "空相もまた不可得である。いわゆる諸仏の大空であるが故に、次に『娑』字と『摩』字門を明かす。定・慧が均等であるので三昧の声を具え",
+          "context_position": 18181,
+          "raw_form": "娑"
+        }
+      ]
+    },
+    {
+      "term": "寂業師子",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "度の衆生の四種の魔軍が、これに由って退散した。この故に号して『寂業師子』とする。能く自在の神通をもって世間を救う者である。我れも今ま",
+          "context_position": 11840,
+          "raw_form": "寂業師子"
+        }
+      ]
+    },
+    {
+      "term": "尸羅は浄にして缺けるなし",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "し人の志性がこのようであれば、すなわち法を伝えるべきである。『尸羅は浄にして缺けるなし』とは、いわく、在家と出家の律儀において、乃至、本性の受の諸々",
+          "context_position": 26416,
+          "raw_form": "尸羅は浄にして缺けるなし"
+        }
+      ]
+    },
+    {
+      "term": "常に攅流〔さんる〕する処",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "現にあれば、また作すに適中しない。『河潬』とは、正しく訳せば『常に攅流〔さんる〕する処』というべきである。雨水、あるいは多くの水があって、この処にお",
+          "context_position": 387,
+          "raw_form": "常に攅流〔さんる〕する処"
+        }
+      ]
+    },
+    {
+      "term": "彼らと同等なり",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "けて『無等』とする。しかして般若波羅蜜は無等と等しいが故に、『彼らと同等なり』というのである。『第四は蓮華手、第五は金剛部主、第六は不動尊",
+          "context_position": 20844,
+          "raw_form": "彼らと同等なり"
+        }
+      ]
+    },
+    {
+      "term": "彼らを度せんが為の故に、随順し方便して説く",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "悟解し、能く進趣しようか。だから偈の次に、設教の意を明かし、『彼らを度せんが為の故に、随順し方便して説く』という。仏の意に言う。我が甚深の法相は、直に宜説すべきでない",
+          "context_position": 14314,
+          "raw_form": "彼らを度せんが為の故に、随順し方便して説く"
+        }
+      ]
+    },
+    {
+      "term": "心界",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ちこれ衆生界である。『衆生界』とは、すなわちこれ心界である。『心界』とは、すなわちこの本性は浄である。『本性は浄なり』とは、すな",
+          "context_position": 19531,
+          "raw_form": "心界"
+        }
+      ]
+    },
+    {
+      "term": "忍辱にして慳恡〔けんりん・物おしみ〕せず",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、またまさに敬順して違わないべきが故に、法を伝えるに堪える。『忍辱にして慳恡〔けんりん・物おしみ〕せず』とは、この中を分かって二句とする。忍辱とは、内外・違順の境界",
+          "context_position": 26580,
+          "raw_form": "忍辱にして慳恡〔けんりん・物おしみ〕せず"
+        }
+      ]
+    },
+    {
+      "term": "怛囉",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ばすなわち、名づけて大乗とする。『瞿摸』の義は前の釈に同じ。『怛囉』は、これ如如・離塵垢の義、すなわちこれ心の実相である。もし行",
+          "context_position": 16646,
+          "raw_form": "怛囉"
+        }
+      ]
+    },
+    {
+      "term": "怛多〔たた〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "しかも、その宗極を要するに、正しく『他』字の中にある。梵音の『怛多〔たた〕』は、これ『如』の義である。『多』字の長引の中に、すなわち阿の",
+          "context_position": 11995,
+          "raw_form": "怛多〔たた〕"
+        }
+      ]
+    },
+    {
+      "term": "慳恡せず",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ない。衆生を利しない行をなさないが故に、法を伝えるに堪える。『慳恡せず』とは、あらゆる財・法において、まさに他に惠むことを念じ、もし",
+          "context_position": 26742,
+          "raw_form": "慳恡せず"
+        }
+      ]
+    },
+    {
+      "term": "我れもまた魔を降伏す",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "・若延〔にゃえん・降〕・吃㗚埵〔きりた・二合、伏〕――釈して『我れもまた魔を降伏す』という。漫荼藍隷〔まんだらんれい・漫荼羅〕・履佉〔りきゃ・引",
+          "context_position": 11085,
+          "raw_form": "我れもまた魔を降伏す"
+        }
+      ]
+    },
+    {
+      "term": "我れ漫荼羅を画く",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "履佉〔りきゃ・引、画〕・藐痕〔みゃくこん・密・我〕――釈して『我れ漫荼羅を画く』という。偈の意は、先ず地神に告げて言う。汝、天女は、親しくこ",
+          "context_position": 11149,
+          "raw_form": "我れ漫荼羅を画く"
+        }
+      ]
+    },
+    {
+      "term": "摩訶般若",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "修し、諸地を浄治し、諸度を浄満した。および余の種々の功徳は、『摩訶般若』の中に法を歴て広く明かすとおりである。これをもって『等』とい",
+          "context_position": 11259,
+          "raw_form": "摩訶般若"
+        }
+      ]
+    },
+    {
+      "term": "攅流",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "て能く自ら制止し、放逸に至らない。だから『牛欄』と名づける。『攅流』とは、三乗の中において、その心が猶豫して、定んでどの道に趣く",
+          "context_position": 992,
+          "raw_form": "攅流"
+        }
+      ]
+    },
+    {
+      "term": "数がこれに過ぎる",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "に発生し、菩提の種子を立つべきである。だから、あるいはまた、『数がこれに過ぎる』というのである。経に言う。『そのとき、金剛手秘密主は、また仏",
+          "context_position": 27959,
+          "raw_form": "数がこれに過ぎる"
+        }
+      ]
+    },
+    {
+      "term": "於",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "賜〔ほたし・親、於〕――釈して『汝、天親・護者よ』という。〔『於』の字は下の句に入る〕。薩麼〔さま・一切〕・勃駄曩〔ぼだのう・",
+          "context_position": 10682,
+          "raw_form": "於"
+        }
+      ]
+    },
+    {
+      "term": "日を定める",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "である。この日に至って常に念誦すれば、功を加えるべきである。『日を定める』とは、西方の暦法にて小月を通計すれば、何の日に当たるべきかで",
+          "context_position": 5682,
+          "raw_form": "日を定める"
+        }
+      ]
+    },
+    {
+      "term": "旦坦囉〔たんたら〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "の弟子において極めて大悲・憐愍の心を生ずべきである。『瞿醯』『旦坦囉〔たんたら〕』のように、地を受持し竟わり、また蘇多羅を結び、弟子の名号を受",
+          "context_position": 24733,
+          "raw_form": "旦坦囉〔たんたら〕"
+        }
+      ]
+    },
+    {
+      "term": "時の中の微細の相を解す",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "すべきか。何の時にまさに中道の寂心に順って住すべきか。これを『時の中の微細の相を解す』と名づける。『宿直』とは、これ行人の瑜伽の月の渉る所の縁境で",
+          "context_position": 8122,
+          "raw_form": "時の中の微細の相を解す"
+        }
+      ]
+    },
+    {
+      "term": "智度",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "のごとく法を演説する。この中の発菩提心の義は、入法界品および『智度』の摩訶薩の論議の中に広く説くとおりである。無余記とは、仏が現",
+          "context_position": 29957,
+          "raw_form": "智度"
+        }
+      ]
+    },
+    {
+      "term": "朽木",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、過去の生死の宿対の残障である。だから名づけて『骨』とする。『朽木』とは、不欲・懈怠の類をいう。芸を樹て匠成するに堪えない。また",
+          "context_position": 4568,
+          "raw_form": "朽木"
+        }
+      ]
+    },
+    {
+      "term": "東方の宝幢仏",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "方便である。どうしてただ九旬〔九十日〕の解をなすべきか。また『東方の宝幢仏』というようなものは、すなわちこれ初発の浄菩提の義である。どう",
+          "context_position": 14782,
+          "raw_form": "東方の宝幢仏"
+        }
+      ]
+    },
+    {
+      "term": "株杭〔しゅこう・切り株〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "懈怠の類をいう。芸を樹て匠成するに堪えない。また梵文に兼ねて『株杭〔しゅこう・切り株〕』の義がある。久遠よりこのかた、諸々の煩悩において偏習する所が",
+          "context_position": 4608,
+          "raw_form": "株杭〔しゅこう・切り株〕"
+        }
+      ]
+    },
+    {
+      "term": "極めて無比の味、過上無き味",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ことができない所である。だから聚集の義がある。この故に仏は、『極めて無比の味、過上無き味』を説いて漫荼羅とすという。三種の秘密方便をもって衆生・仏性の",
+          "context_position": 28819,
+          "raw_form": "極めて無比の味、過上無き味"
+        }
+      ]
+    },
+    {
+      "term": "楽欲と無明に覆われる",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "に種々の境界を執す。いわゆる、時と方の諸々の相貌などである。『楽欲と無明に覆われる』とは、常に愛水のために潤され、無明に覆われるのである。もし我",
+          "context_position": 14206,
+          "raw_form": "楽欲と無明に覆われる"
+        }
+      ]
+    },
+    {
+      "term": "次に名数を限略するが、自ら広を礙えざることを明かす",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "く為に開示するとはいえ、益する所が無い。だから、第三の句に、『次に名数を限略するが、自ら広を礙えざることを明かす』。これをもって経に言う。『彼の阿闍梨は、またまさに大悲心をも",
+          "context_position": 31404,
+          "raw_form": "次に名数を限略するが、自ら広を礙えざることを明かす"
+        }
+      ]
+    },
+    {
+      "term": "次第法",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "持し、塗香・華などを奉り、法のごとくに供養すべきである。皆な『次第法』の中に広く説くとおりである。まさに香・華・供養の具を分別すべ",
+          "context_position": 23508,
+          "raw_form": "次第法"
+        }
+      ]
+    },
+    {
+      "term": "殊勝の行の修行",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "也〔なや・修行〕・尾世鎩数〔びせいしゃしゅ・殊勝〕――釈して『殊勝の行の修行』という。部弭〔ぶみ・浄地〕・播囉密多〔はらみた・到彼岸〕・素",
+          "context_position": 10814,
+          "raw_form": "殊勝の行の修行"
+        }
+      ]
+    },
+    {
+      "term": "毒虫",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ゅういん・みみず〕などがある。義をもって准じ知るべきである。『毒虫』とは、いわく蛇・蝎〔さそり〕・蜈蚣〔むかで〕・蚰蜒〔げじげじ",
+          "context_position": 3477,
+          "raw_form": "毒虫"
+        }
+      ]
+    },
+    {
+      "term": "汝、天親・護者よ",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "屣〔さきしゃ・二合、護〕・捕多賜〔ほたし・親、於〕――釈して『汝、天親・護者よ』という。〔『於』の字は下の句に入る〕。薩麼〔さま・一切〕・勃",
+          "context_position": 10667,
+          "raw_form": "汝、天親・護者よ"
+        }
+      ]
+    },
+    {
+      "term": "沙",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ねく随類の身を現ず。だから漫荼羅を画作するに堪える。また次に『沙』はこれ漏の義、『麼』はこれ我の義・意の義である。これら諸々の",
+          "context_position": 18945,
+          "raw_form": "沙"
+        }
+      ]
+    },
+    {
+      "term": "法は分別および一切の妄想を離れている",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "を求覓〔ぐみゃく・もとめ〕しようとするのか。だから、次の句に『法は分別および一切の妄想を離れている』などという。もし諸法が本より無相であること、このようであると",
+          "context_position": 13992,
+          "raw_form": "法は分別および一切の妄想を離れている"
+        }
+      ]
+    },
+    {
+      "term": "法界",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "くこのような大誓を説くが故に、名づけて真言とする。また次に、『法界』とは、すなわちこれ衆生界である。『衆生界』とは、すなわちこれ",
+          "context_position": 19491,
+          "raw_form": "法界"
+        }
+      ]
+    },
+    {
+      "term": "法界を浄除す",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "に、能く一切衆生の心を浄む。だから、次に第六の句義を明かし、『法界を浄除す』という。なお香水を地に灑ぐことが穢を除く為の故であるように、",
+          "context_position": 19313,
+          "raw_form": "法界を浄除す"
+        }
+      ]
+    },
+    {
+      "term": "法華",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "けば、あるいはまさにその誹謗を増し、彼の善根を断つ。だから、『法華』に『無智は疑悔し、永失をなす』と云う。十方世界の諸々の衆生に",
+          "context_position": 30739,
+          "raw_form": "法華"
+        }
+      ]
+    },
+    {
+      "term": "波",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "阿』字はこれ一切法本不生の義である。次に『波羅』字というは、『波』はこれ第一義諦である。『羅』を名づけて塵とする。一切の字は皆",
+          "context_position": 17888,
+          "raw_form": "波"
+        }
+      ]
+    },
+    {
+      "term": "波羅",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "成さんが為である。『阿』字はこれ一切法本不生の義である。次に『波羅』字というは、『波』はこれ第一義諦である。『羅』を名づけて塵と",
+          "context_position": 17878,
+          "raw_form": "波羅"
+        }
+      ]
+    },
+    {
+      "term": "浄地波羅蜜",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "・播囉密多〔はらみた・到彼岸〕・素者〔そしゃ・等〕――釈して『浄地波羅蜜』という。〔義を『等』の字に合す〕。摩囉〔まら・天魔〕・塞年〔",
+          "context_position": 10866,
+          "raw_form": "浄地波羅蜜"
+        }
+      ]
+    },
+    {
+      "term": "深慧をもって厳身す",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "のように、深く一切衆生を敬い、仏・法・僧宝を信ずと名づける。『深慧をもって厳身す』とは、このような等虚空・無辺の仏法は、劣慧の者の心器の能く堪",
+          "context_position": 26147,
+          "raw_form": "深慧をもって厳身す"
+        }
+      ]
+    },
+    {
+      "term": "火神",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "あれば、その四傍において、すなわち漫荼羅を造作すべきである。『火神』とは、これ浄行の梵志〔ばらもん〕の火祠の所であって、もっとも",
+          "context_position": 191,
+          "raw_form": "火神"
+        }
+      ]
+    },
+    {
+      "term": "火祠",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "慧性があって、好んで浄業を行じ、過があれば能く改める。だから『火祠』と名づける。牛はこれ行の義、欄はこれ閑防の義である。いわく、",
+          "context_position": 898,
+          "raw_form": "火祠"
+        }
+      ]
+    },
+    {
+      "term": "灰炭",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、ただ名相の皮を得て実相の米を失う。だからもって譬えとする。『灰炭』とは、小法を楽い、二乗の心を起こすのをいう。もし善根がこれが",
+          "context_position": 4408,
+          "raw_form": "灰炭"
+        }
+      ]
+    },
+    {
+      "term": "無智は疑悔し、永失をなす",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "いはまさにその誹謗を増し、彼の善根を断つ。だから、『法華』に『無智は疑悔し、永失をなす』と云う。十方世界の諸々の衆生に、声聞を志求する者があることは",
+          "context_position": 30744,
+          "raw_form": "無智は疑悔し、永失をなす"
+        }
+      ]
+    },
+    {
+      "term": "無辺の衆生界を哀愍するは、これ大悲胎蔵生漫荼羅の広義なり",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、阿闍梨に勤囑して平等の悲願を興さしむ。初の文の中について、『無辺の衆生界を哀愍するは、これ大悲胎蔵生漫荼羅の広義なり』とは、もし行人が、自ら中胎蔵を見るとき、すなわち一切衆生にこ",
+          "context_position": 29083,
+          "raw_form": "無辺の衆生界を哀愍するは、これ大悲胎蔵生漫荼羅の広義なり"
+        }
+      ]
+    },
+    {
+      "term": "無量寿",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "は無尽であるが故に、諸仏の大悲・方便もまた終尽が無い。だから『無量寿』と名づける。梵音の『爾儞〔にに〕』を名づけて『仁者』とする。",
+          "context_position": 22194,
+          "raw_form": "無量寿"
+        }
+      ]
+    },
+    {
+      "term": "無量門の進趣",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "。いずくんぞ略制して名数を造立しないことを得ようか。いう所の『無量門の進趣』とは、すなわちこれ、兼ねて漫荼羅の名義を釈するのである。 そ",
+          "context_position": 30967,
+          "raw_form": "無量門の進趣"
+        }
+      ]
+    },
+    {
+      "term": "爾儞〔にに〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "悲・方便もまた終尽が無い。だから『無量寿』と名づける。梵音の『爾儞〔にに〕』を名づけて『仁者』とする。また四魔を降伏するが故に、名づけて",
+          "context_position": 22208,
+          "raw_form": "爾儞〔にに〕"
+        }
+      ]
+    },
+    {
+      "term": "発生",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "滋長せしむ。乃至、法界に弥満し、仏の樹王を成す。だからもって『発生』と称す。それ雷雨の解をなすに、甲〔殻〕の坼〔さ〕けた者に随っ",
+          "context_position": 28565,
+          "raw_form": "発生"
+        }
+      ]
+    },
+    {
+      "term": "発生諸仏漫荼羅",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "して言う。それ漫荼羅はこれ発生の義である。今すなわち名づけて『発生諸仏漫荼羅』とする。菩提心の種子を一切智の心地の中に下し、潤すに大悲の水",
+          "context_position": 28430,
+          "raw_form": "発生諸仏漫荼羅"
+        }
+      ]
+    },
+    {
+      "term": "皷音如来",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "に、義をもって『不動』という。その本名ではない。本名はまさに『皷音如来』というべきである。天皷が都て形相が無く、また住処も無いが、し",
+          "context_position": 22017,
+          "raw_form": "皷音如来"
+        }
+      ]
+    },
+    {
+      "term": "瞿",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、もって清浄とするが為の故である。秘密についてこれを釈せば、『瞿』はこれ行の義である。阿字門に入るが故に、すなわちこれ諸法は無",
+          "context_position": 16487,
+          "raw_form": "瞿"
+        }
+      ]
+    },
+    {
+      "term": "瞿摸",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "乗および乗者も無い。それならばすなわち、名づけて大乗とする。『瞿摸』の義は前の釈に同じ。『怛囉』は、これ如如・離塵垢の義、すなわ",
+          "context_position": 16632,
+          "raw_form": "瞿摸"
+        }
+      ]
+    },
+    {
+      "term": "瞿醯",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "さに所度の弟子において極めて大悲・憐愍の心を生ずべきである。『瞿醯』『旦坦囉〔たんたら〕』のように、地を受持し竟わり、また蘇多羅",
+          "context_position": 24729,
+          "raw_form": "瞿醯"
+        }
+      ]
+    },
+    {
+      "term": "瞿醯〔ぐけい〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ずまさに方便を加え、必ず成就することを得しむべきである。余は『瞿醯〔ぐけい〕』の中に説くとおりである。 行者は、仏室に住して上のように諸々",
+          "context_position": 23392,
+          "raw_form": "瞿醯〔ぐけい〕"
+        }
+      ]
+    },
+    {
+      "term": "碎瓦・破器",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "甚だ多く、互いに相い受けない。だから沙礫に譬えるのである。 『碎瓦・破器』とは、五逆を造り、四重禁を犯し、方等経を謗るような等である。",
+          "context_position": 3926,
+          "raw_form": "碎瓦・破器"
+        }
+      ]
+    },
+    {
+      "term": "礫石",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "なすべきである。そうすれば、宿業の余気は能く障礙を生じない。『礫石』とは、正法を信ぜず、我分を堅執し、因果を撥無〔はつむ・否定〕",
+          "context_position": 3789,
+          "raw_form": "礫石"
+        }
+      ]
+    },
+    {
+      "term": "種姓の清浄なるに生ず",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "わち摂受するに堪える。余は師徳の中に説くとおりである。 偈に『種姓の清浄なるに生ず』というのは、いわく、婆羅門などの四種の大姓の家において生ずる",
+          "context_position": 25916,
+          "raw_form": "種姓の清浄なるに生ず"
+        }
+      ]
+    },
+    {
+      "term": "究竟じて虚空のごとし",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "虚空のようであって尽くすべからず。だから我れは最正覚を成ず。『究竟じて虚空のごとし』という。しかも一切の愚童・凡夫は、実のごとく知らないが故に、",
+          "context_position": 14129,
+          "raw_form": "究竟じて虚空のごとし"
+        }
+      ]
+    },
+    {
+      "term": "究竟浄",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "中・下の微垢を皆な択んで余りが無いようにすべきである。まさに『究竟浄』と名づけるのである。 経に『このような諸過を離れる』というの",
+          "context_position": 5026,
+          "raw_form": "究竟浄"
+        }
+      ]
+    },
+    {
+      "term": "第三は彼らと同等なり",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、すなわちこれ諸仏・菩薩である。またまた分かって二位とする。『第三は彼らと同等なり』とは、すなわちこれ仏母である。如来を名づけて『無等』とする。",
+          "context_position": 20782,
+          "raw_form": "第三は彼らと同等なり"
+        }
+      ]
+    },
+    {
+      "term": "第二は諸々の救世なり",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "は、すなわち毘盧遮那の位である。五仏を一檀に置くべきである。『第二は諸々の救世なり』とは、すなわちこれ諸仏・菩薩である。またまた分かって二位とす",
+          "context_position": 20738,
+          "raw_form": "第二は諸々の救世なり"
+        }
+      ]
+    },
+    {
+      "term": "第四は蓮華手、第五は金剛部主、第六は不動尊なり",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "羅蜜は無等と等しいが故に、『彼らと同等なり』というのである。『第四は蓮華手、第五は金剛部主、第六は不動尊なり』という。すなわち、降三世は知るべきである。これすなわち成弁諸",
+          "context_position": 20861,
+          "raw_form": "第四は蓮華手、第五は金剛部主、第六は不動尊なり"
+        }
+      ]
+    },
+    {
+      "term": "糠糟",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "髪』と名づける。覚察すれば、すなわち宜しく除剪すべきである。『糠糟』とは、無明・妄想のようなものである。戯論に取著するが故に、た",
+          "context_position": 4346,
+          "raw_form": "糠糟"
+        }
+      ]
+    },
+    {
+      "term": "羅",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "である。次に『波羅』字というは、『波』はこれ第一義諦である。『羅』を名づけて塵とする。一切の字は皆な阿字門に入るが故に、すなわ",
+          "context_position": 17902,
+          "raw_form": "羅"
+        }
+      ]
+    },
+    {
+      "term": "自然成就の真言",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "この地を金剛に同じからしむ。説く所の阿利沙〔ありしゃ〕の偈を『自然成就の真言』と名づける。もし作法するときは、まさに梵本を誦すべきである。",
+          "context_position": 10537,
+          "raw_form": "自然成就の真言"
+        }
+      ]
+    },
+    {
+      "term": "虚実に等しい",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、具に上のような字門所説の義を含むが故である。第三の句義に、『虚実に等しい』という。いわく、この心地は、畢竟じて浄であり、無分別であり、",
+          "context_position": 18581,
+          "raw_form": "虚実に等しい"
+        }
+      ]
+    },
+    {
+      "term": "虚空に等しい",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "子の心地およびこの道場の地も、またまたこのようである。だから『虚空に等しい』という。第四の句義に、『等隨』というは、金剛地は虚空に等しい",
+          "context_position": 18853,
+          "raw_form": "虚空に等しい"
+        }
+      ]
+    },
+    {
+      "term": "虫・蟻・蜣蜋・毒螫の類",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ずば、すなわちこの地を棄捨して、別の余の機に就くべきである。『虫・蟻・蜣蜋・毒螫の類』とは、種々の現行の煩悩に喩える。螻蟻〔ろうぎ〕を癡に喩え、蜣",
+          "context_position": 4788,
+          "raw_form": "虫・蟻・蜣蜋・毒螫の類"
+        }
+      ]
+    },
+    {
+      "term": "虫蟻",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "て、更に余処を求めるべきである。だから『等』というのである。『虫蟻』とは、吃㗚弭〔きりみ〕という。この語は通じて含む。皆これ微細",
+          "context_position": 3369,
+          "raw_form": "虫蟻"
+        }
+      ]
+    },
+    {
+      "term": "蜣蜋",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "は通じて含む。皆これ微細の小虫である。皆択び去るべきである。『蜣蜋』とは、これその大なるものである。更に蚯蚓〔きゅういん・みみず",
+          "context_position": 3421,
+          "raw_form": "蜣蜋"
+        }
+      ]
+    },
+    {
+      "term": "衆生界",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "言とする。また次に、『法界』とは、すなわちこれ衆生界である。『衆生界』とは、すなわちこれ心界である。『心界』とは、すなわちこの本性",
+          "context_position": 19511,
+          "raw_form": "衆生界"
+        }
+      ]
+    },
+    {
+      "term": "行願を堅くす",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、正しく菩提薩埵・大人の所行に順う。だから伝授すべきである。『行願を堅くす』とは、これはこれ要心の願である。梵語の求願の義とは同じくない",
+          "context_position": 27021,
+          "raw_form": "行願を堅くす"
+        }
+      ]
+    },
+    {
+      "term": "諸仏・導師において",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "哆以難〔たいなん・引、度。 ――すなわち導師の義〕――釈して『諸仏・導師において』という。浙唎耶〔せつりや・二合、行〕・娜也〔なや・修行〕・尾",
+          "context_position": 10753,
+          "raw_form": "諸仏・導師において"
+        }
+      ]
+    },
+    {
+      "term": "諸執",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "が同じくない。為す所の法事も、また宜しく相い順ずべきである。『諸執』とは、執に九種がある。すなわちこれ、日・月・火・水・木・金・",
+          "context_position": 6334,
+          "raw_form": "諸執"
+        }
+      ]
+    },
+    {
+      "term": "那",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "に『伽』字門は、これ行の義である。阿字門はこれ行の義である。『那』はこれ大空であり、法において自在なる義である。『伽』字が阿字",
+          "context_position": 18668,
+          "raw_form": "那"
+        }
+      ]
+    },
+    {
+      "term": "釈の師子・救世",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "うけいな・悉孕の反、師子〕・哆以那〔たいな・救世〕――釈して『釈の師子・救世』という。怛他〔たた・引、如我〕・痕〔こん〕・魔羅〔まら・魔〕",
+          "context_position": 11016,
+          "raw_form": "釈の師子・救世"
+        }
+      ]
+    },
+    {
+      "term": "釈迦師子",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "は大会の中に現われて証明をなした。これに由って、世尊を号して『釈迦師子』とし、能く独歩・無畏にして世間を救護するように、我れも今また",
+          "context_position": 11435,
+          "raw_form": "釈迦師子"
+        }
+      ]
+    },
+    {
+      "term": "阿鉢囉底三迷",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "る。字義はすでに前に説くとおりである。もし句義を云えば、この『阿鉢囉底三迷』は、これ無等・無対の義である。いわく、この心地の漫荼羅王は一",
+          "context_position": 18443,
+          "raw_form": "阿鉢囉底三迷"
+        }
+      ]
+    },
+    {
+      "term": "限るに十人をもってす",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "でないが故に、密意を廻転して覆うに有相の方便をもってする。今『限るに十人をもってす』と言うのは、すなわちこれ世諦の漫荼羅であるだけである。しかも",
+          "context_position": 31821,
+          "raw_form": "限るに十人をもってす"
+        }
+      ]
+    },
+    {
+      "term": "食前",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "の事を作すべきである。入漫荼羅・灌頂は息災と相応する。だから『食前』という。『善き境界に遇う』とは、いわく作法のとき、あるいは地",
+          "context_position": 6588,
+          "raw_form": "食前"
+        }
+      ]
+    },
+    {
+      "term": "食前の時",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "その性類にもまた善・悪がある。梵暦の中に説くとおりである。 『食前の時』とは、昼夜に各々三時がある。食前には息災を作すべきである。暮",
+          "context_position": 6504,
+          "raw_form": "食前の時"
+        }
+      ]
+    },
+    {
+      "term": "香水を授与して飮ましめ、彼の心は清浄なるが故に",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "『また次に余日において応度の人を摂受すべし』というより以下、『香水を授与して飮ましめ、彼の心は清浄なるが故に』に至るまでは、弟子を摂受し、建立し、護持する支分を明かす。地",
+          "context_position": 25670,
+          "raw_form": "香水を授与して飮ましめ、彼の心は清浄なるが故に"
+        }
+      ]
+    },
+    {
+      "term": "骨",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "う。これはこれ、過去の生死の宿対の残障である。だから名づけて『骨』とする。『朽木』とは、不欲・懈怠の類をいう。芸を樹て匠成する",
+          "context_position": 4561,
+          "raw_form": "骨"
+        }
+      ]
+    },
+    {
+      "term": "髑髏",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "と方便の手をもって、為にこのような諸障を択び去るべきである。『髑髏』とは、菩提心を破壊するような障りである。昔時、かつて人の法を",
+          "context_position": 4063,
+          "raw_form": "髑髏"
+        }
+      ]
+    },
+    {
+      "term": "魔軍衆を破するがごとし",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "〔やた・如〕・毫釳難〔ごうきりなん・奴痕の反、破〕――釈して『魔軍衆を破するがごとし』という。 赦吃也〔しゃきや・二合、釈迦〕・僧係娜〔そうけいな",
+          "context_position": 10947,
+          "raw_form": "魔軍衆を破するがごとし"
+        }
+      ]
+    },
+    {
+      "term": "麼",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "だから漫荼羅を画作するに堪える。また次に『沙』はこれ漏の義、『麼』はこれ我の義・意の義である。これら諸々の衆生界は本不生である",
+          "context_position": 18955,
+          "raw_form": "麼"
+        }
+      ]
+    }
+  ]
+}

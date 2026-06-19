@@ -3,7 +3,7 @@
   "category": "citations",
   "category_description": "典故書名（『〜』形式・他者著作）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-18",
+  "generated_at": "2026-06-19",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -23,6 +23,7 @@
     "hotsubodaishinron-sho-vol1",
     "dainichikyo-sho-vol2",
     "dainichikyo-sho-vol3",
+    "dainichikyo-sho-vol4",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -33,16 +34,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 27,
-  "corpora_with_data": 27,
+  "corpora_count": 28,
+  "corpora_with_data": 28,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 1015,
-    "total_occurrences": 3522,
-    "terms_in_multiple_corpora": 170,
-    "max_corpus_coverage": 19,
+    "unique_terms_total": 1158,
+    "total_occurrences": 3706,
+    "terms_in_multiple_corpora": 178,
+    "max_corpus_coverage": 20,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 237,
@@ -132,6 +133,11 @@
       "dainichikyo-sho-vol3": {
         "unique": 148,
         "occurrences": 183,
+        "present": true
+      },
+      "dainichikyo-sho-vol4": {
+        "unique": 154,
+        "occurrences": 184,
         "present": true
       },
       "hotsubodaishinron-sho-vol3": {
@@ -231,11 +237,12 @@
     },
     {
       "term": "法華経",
-      "total_occurrence_count": 144,
-      "covered_corpora_count": 19,
+      "total_occurrence_count": 146,
+      "covered_corpora_count": 20,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol4",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -267,6 +274,7 @@
         "jujushinron": 16,
         "hizoki": 1,
         "hotsubodaishinron-sho-vol1": 1,
+        "dainichikyo-sho-vol4": 2,
         "hotsubodaishinron-sho-vol3": 1,
         "hotsubodaishinron-sho-vol4": 1,
         "hotsubodaishinron-sho-vol2": 2,
@@ -295,10 +303,11 @@
     },
     {
       "term": "大智度論",
-      "total_occurrence_count": 101,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 102,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol4",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol1",
         "hotsubodaishinron-sho-vol10",
@@ -320,6 +329,7 @@
         "dainichikyo-sho-vol1": 25,
         "jujushinron": 18,
         "hotsubodaishinron-sho-vol1": 1,
+        "dainichikyo-sho-vol4": 1,
         "hotsubodaishinron-sho-vol3": 1,
         "hotsubodaishinron-sho-vol5": 2,
         "hotsubodaishinron-sho-vol8": 1,
@@ -784,25 +794,13 @@
       }
     },
     {
-      "term": "老子",
-      "total_occurrence_count": 27,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 25,
-        "hizo-houyaku": 2
-      }
-    },
-    {
       "term": "法華",
-      "total_occurrence_count": 26,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 27,
+      "covered_corpora_count": 9,
       "covered_corpora": [
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
         "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol3",
         "hotsubodaishinron-sho-vol4",
@@ -814,11 +812,25 @@
         "shoryoshu_miyasaka": 1,
         "dainichikyo-sho-vol2": 1,
         "dainichikyo-sho-vol3": 2,
+        "dainichikyo-sho-vol4": 1,
         "hotsubodaishinron-sho-vol3": 9,
         "hotsubodaishinron-sho-vol4": 1,
         "hotsubodaishinron-sho-vol2": 2,
         "hotsubodaishinron-sho-vol6": 9,
         "hotsubodaishinron-sho-vol7": 1
+      }
+    },
+    {
+      "term": "老子",
+      "total_occurrence_count": 27,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "hizo-houyaku",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 25,
+        "hizo-houyaku": 2
       }
     },
     {
@@ -2286,6 +2298,17 @@
       }
     },
     {
+      "term": "莎訶",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 4
+      }
+    },
+    {
       "term": "説苑",
       "total_occurrence_count": 4,
       "covered_corpora_count": 1,
@@ -2387,6 +2410,19 @@
       }
     },
     {
+      "term": "供養次第",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol3": 1,
+        "dainichikyo-sho-vol4": 2
+      }
+    },
+    {
       "term": "倶舎頌疏",
       "total_occurrence_count": 3,
       "covered_corpora_count": 2,
@@ -2452,6 +2488,19 @@
       }
     },
     {
+      "term": "摩訶般若",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol3": 2,
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "文句",
       "total_occurrence_count": 3,
       "covered_corpora_count": 2,
@@ -2488,6 +2537,19 @@
       "by_corpus": {
         "hotsubodaishinron-sho-vol1": 1,
         "hotsubodaishinron-sho-vol10": 2
+      }
+    },
+    {
+      "term": "無等",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol3": 1,
+        "dainichikyo-sho-vol4": 2
       }
     },
     {
@@ -2621,6 +2683,19 @@
       }
     },
     {
+      "term": "阿",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4",
+        "hotsubodaishinron-sho-vol7"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2,
+        "hotsubodaishinron-sho-vol7": 1
+      }
+    },
+    {
       "term": "雑花経",
       "total_occurrence_count": 3,
       "covered_corpora_count": 2,
@@ -2680,6 +2755,17 @@
       }
     },
     {
+      "term": "供養法",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 3
+      }
+    },
+    {
       "term": "信解",
       "total_occurrence_count": 3,
       "covered_corpora_count": 1,
@@ -2732,6 +2818,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol6": 3
+      }
+    },
+    {
+      "term": "底",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 3
       }
     },
     {
@@ -2823,6 +2920,28 @@
       }
     },
     {
+      "term": "空室",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 3
+      }
+    },
+    {
+      "term": "等",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 3
+      }
+    },
+    {
       "term": "表製集",
       "total_occurrence_count": 3,
       "covered_corpora_count": 1,
@@ -2911,6 +3030,19 @@
       }
     },
     {
+      "term": "不動",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4",
+        "hotsubodaishinron-sho-vol9"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1,
+        "hotsubodaishinron-sho-vol9": 1
+      }
+    },
+    {
       "term": "中観論",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
@@ -2963,6 +3095,19 @@
       }
     },
     {
+      "term": "他",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4",
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1,
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "俱舎論",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
@@ -3012,6 +3157,19 @@
       "by_corpus": {
         "shoryoshu_miyasaka": 1,
         "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "多",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol3": 1,
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -3194,6 +3352,19 @@
       "by_corpus": {
         "nikyo-ron": 1,
         "hotsubodaishinron-sho-vol1": 1
+      }
+    },
+    {
+      "term": "波羅",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4",
+        "hotsubodaishinron-sho-vol8"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1,
+        "hotsubodaishinron-sho-vol8": 1
       }
     },
     {
@@ -3604,6 +3775,28 @@
       }
     },
     {
+      "term": "仙人得道処",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
+      }
+    },
+    {
+      "term": "伽",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
+      }
+    },
+    {
       "term": "住処",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -3689,6 +3882,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol3": 2
+      }
+    },
+    {
+      "term": "善き境界に遇う",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
       }
     },
     {
@@ -3802,6 +4006,17 @@
       }
     },
     {
+      "term": "天祠",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
+      }
+    },
+    {
       "term": "如来功徳荘厳経",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -3824,6 +4039,28 @@
       }
     },
     {
+      "term": "定日",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
+      }
+    },
+    {
+      "term": "宿直",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
+      }
+    },
+    {
       "term": "密迹金剛経",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -3835,6 +4072,28 @@
       }
     },
     {
+      "term": "我れ明日はまさに請法をなすべし",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
+      }
+    },
+    {
+      "term": "摩",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
+      }
+    },
+    {
       "term": "摩訶僧祇律",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -3843,17 +4102,6 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 2
-      }
-    },
-    {
-      "term": "摩訶般若",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "dainichikyo-sho-vol3"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol3": 2
       }
     },
     {
@@ -3898,6 +4146,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 2
+      }
+    },
+    {
+      "term": "時分",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
       }
     },
     {
@@ -3956,6 +4215,17 @@
       }
     },
     {
+      "term": "本性は浄なり",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
+      }
+    },
+    {
       "term": "本性清浄",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -4000,6 +4270,17 @@
       }
     },
     {
+      "term": "毛髪",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
+      }
+    },
+    {
       "term": "池",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -4008,6 +4289,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol3": 2
+      }
+    },
+    {
+      "term": "河潬",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
       }
     },
     {
@@ -4055,6 +4347,17 @@
       }
     },
     {
+      "term": "牛欄",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
+      }
+    },
+    {
       "term": "盂蘭盆経",
       "total_occurrence_count": 2,
       "covered_corpora_count": 1,
@@ -4074,6 +4377,17 @@
       ],
       "by_corpus": {
         "hannya-hiken": 2
+      }
+    },
+    {
+      "term": "等隨",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
       }
     },
     {
@@ -4107,6 +4421,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 2
+      }
+    },
+    {
+      "term": "良き日晨",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 2
       }
     },
     {
@@ -4429,6 +4754,17 @@
       }
     },
     {
+      "term": "あるいは十、あるいは八・七、あるいは五・二・一・四",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "および余の諸々の方所の僧坊と阿練若〔あれんにゃ〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4470,6 +4806,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol3": 1
+      }
+    },
+    {
+      "term": "このような諸過を離れる",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -4539,6 +4886,39 @@
       }
     },
     {
+      "term": "これを略して名数を造立す",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "しかも実には時も方も無く、乃至、実相に住す",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "しかる後に、地を治め、その次第のごとく、まさに衆徳を具うべし",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "すでに受職位の境界を得た〔已得受職位の境界〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4605,6 +4985,17 @@
       }
     },
     {
+      "term": "それ法は常に無性にして衆縁より生ず",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "ただ五蘊があるだけで我はない〔唯蘊無我〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4660,6 +5051,39 @@
       }
     },
     {
+      "term": "まさに衆徳を具うべし",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "また次に余日において応度の人を摂受すべし",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "また秘密主よ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "もし人・天に生じて勝妙の楽を受く〔若生人天受勝妙楽〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4679,6 +5103,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol3": 1
+      }
+    },
+    {
+      "term": "もし弟子に信心があれば",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -4935,6 +5370,28 @@
       }
     },
     {
+      "term": "三宝を恭敬す",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "三月の持誦",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "三略",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -4979,14 +5436,14 @@
       }
     },
     {
-      "term": "不動",
+      "term": "三迷",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
-        "hotsubodaishinron-sho-vol9"
+        "dainichikyo-sho-vol4"
       ],
       "by_corpus": {
-        "hotsubodaishinron-sho-vol9": 1
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -5111,6 +5568,17 @@
       }
     },
     {
+      "term": "九執",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "九辨",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -5163,6 +5631,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol3": 1
+      }
+    },
+    {
+      "term": "五穀・五薬",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -5232,6 +5711,17 @@
       }
     },
     {
+      "term": "仁勝者",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "仁王疏",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -5251,6 +5741,17 @@
       ],
       "by_corpus": {
         "ujiji": 1
+      }
+    },
+    {
+      "term": "仁者",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -5295,6 +5796,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol9": 1
+      }
+    },
+    {
+      "term": "仏室",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -5353,6 +5865,17 @@
       }
     },
     {
+      "term": "仏法は諸相を離れている。乃至、法然の道に順わず",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "仏説譬喩経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -5372,17 +5895,6 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
-      }
-    },
-    {
-      "term": "他",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "jujushinron"
-      ],
-      "by_corpus": {
-        "jujushinron": 1
       }
     },
     {
@@ -5485,14 +5997,14 @@
       }
     },
     {
-      "term": "供養次第",
+      "term": "余日",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
-        "dainichikyo-sho-vol3"
+        "dainichikyo-sho-vol4"
       ],
       "by_corpus": {
-        "dainichikyo-sho-vol3": 1
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -5771,6 +6283,17 @@
       }
     },
     {
+      "term": "初の第一は我が身なり",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "初めて法の光に出あう道〔初法明道〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -5779,6 +6302,39 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "制底",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "刺骨",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "努",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -5801,6 +6357,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol3": 1
+      }
+    },
+    {
+      "term": "勇健にして行願を堅くす",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -5845,6 +6412,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol5": 1
+      }
+    },
+    {
+      "term": "勝者",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -6332,6 +6910,17 @@
       }
     },
     {
+      "term": "善く宿直を観ず",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "善く弟子を観ず",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -6340,6 +6929,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol3": 1
+      }
+    },
+    {
+      "term": "善く法の相を聴け",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -6428,6 +7028,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol9": 1
+      }
+    },
+    {
+      "term": "嚩〔ばく〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -6563,6 +7174,61 @@
       }
     },
     {
+      "term": "執曜不相応",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "堅",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "堪忍にして懈倦〔けげん〕なし",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "塔",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "塗香・華などをもって供養す",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "塵垢を離れること〔離塵垢〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -6593,17 +7259,6 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
-      }
-    },
-    {
-      "term": "多",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "dainichikyo-sho-vol3"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol3": 1
       }
     },
     {
@@ -6816,6 +7471,17 @@
       }
     },
     {
+      "term": "大方等陀羅尼経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "大日経〔大日経王〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -6846,6 +7512,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol8": 1
+      }
+    },
+    {
+      "term": "大智度",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -7091,6 +7768,17 @@
       }
     },
     {
+      "term": "天廟",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "太平御覧",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -7132,6 +7820,28 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol5": 1
+      }
+    },
+    {
+      "term": "夷",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "如",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -7319,6 +8029,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol10": 1
+      }
+    },
+    {
+      "term": "娑",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -7553,6 +8274,17 @@
       }
     },
     {
+      "term": "寂業師子",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "対法論",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -7619,6 +8351,17 @@
       }
     },
     {
+      "term": "尸羅は浄にして缺けるなし",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "屈膝",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -7682,6 +8425,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
+      "term": "常に攅流〔さんる〕する処",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -7817,6 +8571,28 @@
       }
     },
     {
+      "term": "彼らと同等なり",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "彼らを度せんが為の故に、随順し方便して説く",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "往く",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -7916,6 +8692,17 @@
       }
     },
     {
+      "term": "心界",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "心経疏",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -7935,6 +8722,39 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol3": 1
+      }
+    },
+    {
+      "term": "忍辱にして慳恡〔けんりん・物おしみ〕せず",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "怛囉",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "怛多〔たた〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -8048,6 +8868,17 @@
       }
     },
     {
+      "term": "慳恡せず",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "憐愍",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -8136,6 +8967,17 @@
       }
     },
     {
+      "term": "我れもまた魔を降伏す",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "我れ深く汝らを敬って、あえて驕慢せず",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -8144,6 +8986,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol4": 1
+      }
+    },
+    {
+      "term": "我れ漫荼羅を画く",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -8345,6 +9198,17 @@
       }
     },
     {
+      "term": "攅流",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "教王経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -8375,6 +9239,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol7": 1
+      }
+    },
+    {
+      "term": "数がこれに過ぎる",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -8521,6 +9396,17 @@
       }
     },
     {
+      "term": "於",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "施設足論",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -8532,6 +9418,28 @@
       }
     },
     {
+      "term": "日を定める",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "旦坦囉〔たんたら〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "春秋繁露",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -8540,6 +9448,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "時の中の微細の相を解す",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -8617,6 +9536,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol1": 1
+      }
+    },
+    {
+      "term": "智度",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -8840,6 +9770,28 @@
       }
     },
     {
+      "term": "朽木",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "東方の宝幢仏",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "果実を味わう心〔受用果の心〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -8859,6 +9811,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol10": 1
+      }
+    },
+    {
+      "term": "株杭〔しゅこう・切り株〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -8906,6 +9869,17 @@
       }
     },
     {
+      "term": "極めて無比の味、過上無き味",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "極無自性心",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -8939,6 +9913,17 @@
       }
     },
     {
+      "term": "楽欲と無明に覆われる",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "欠いて",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -8947,6 +9932,28 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
+      "term": "次に名数を限略するが、自ら広を礙えざることを明かす",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "次第法",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -8991,6 +9998,28 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol5": 1
+      }
+    },
+    {
+      "term": "殊勝の行の修行",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "毒虫",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -9049,6 +10078,17 @@
       }
     },
     {
+      "term": "汝、天親・護者よ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "汝は、頗〔すこ〕ぶる幻の所作の伎楽を見聞するか否か",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -9071,6 +10111,17 @@
       }
     },
     {
+      "term": "沙",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "法から生まれること〔法生〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -9079,6 +10130,39 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "法は分別および一切の妄想を離れている",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "法界",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "法界を浄除す",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -9203,14 +10287,14 @@
       }
     },
     {
-      "term": "波羅",
+      "term": "波",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
-        "hotsubodaishinron-sho-vol8"
+        "dainichikyo-sho-vol4"
       ],
       "by_corpus": {
-        "hotsubodaishinron-sho-vol8": 1
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -9255,6 +10339,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol1": 1
+      }
+    },
+    {
+      "term": "浄地波羅蜜",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -9310,6 +10405,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol3": 1
+      }
+    },
+    {
+      "term": "深慧をもって厳身す",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -9478,6 +10584,39 @@
       }
     },
     {
+      "term": "火神",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "火祠",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "灰炭",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "無余の衆生界",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -9533,6 +10672,17 @@
       }
     },
     {
+      "term": "無智は疑悔し、永失をなす",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "無畏処",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -9574,17 +10724,6 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol9": 1
-      }
-    },
-    {
-      "term": "無等",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "dainichikyo-sho-vol3"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol3": 1
       }
     },
     {
@@ -9643,6 +10782,17 @@
       }
     },
     {
+      "term": "無辺の衆生界を哀愍するは、これ大悲胎蔵生漫荼羅の広義なり",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "無量乗",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -9651,6 +10801,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "無量寿",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -9676,6 +10837,17 @@
       }
     },
     {
+      "term": "無量門の進趣",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "煩",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -9695,6 +10867,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol5": 1
+      }
+    },
+    {
+      "term": "爾儞〔にに〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -9995,6 +11178,28 @@
       }
     },
     {
+      "term": "発生",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "発生諸仏漫荼羅",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "発菩提心論",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -10025,6 +11230,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "皷音如来",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -10094,6 +11310,50 @@
       }
     },
     {
+      "term": "瞿",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "瞿摸",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "瞿醯",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "瞿醯〔ぐけい〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "石",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -10113,6 +11373,28 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "碎瓦・破器",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "礫石",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -10193,6 +11475,17 @@
       }
     },
     {
+      "term": "種姓の清浄なるに生ず",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "種子心〔しゅじしん〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -10234,6 +11527,28 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol9": 1
+      }
+    },
+    {
+      "term": "究竟じて虚空のごとし",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "究竟浄",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -10292,6 +11607,39 @@
       }
     },
     {
+      "term": "第三は彼らと同等なり",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "第二は諸々の救世なり",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "第四は蓮華手、第五は金剛部主、第六は不動尊なり",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "答賓戯",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -10311,6 +11659,17 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      }
+    },
+    {
+      "term": "糠糟",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -10366,6 +11725,17 @@
       ],
       "by_corpus": {
         "hizo-houyaku": 1
+      }
+    },
+    {
+      "term": "羅",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -10531,6 +11901,17 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "自然成就の真言",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -11018,6 +12399,28 @@
       }
     },
     {
+      "term": "虚実に等しい",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "虚空に等しい",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "虚空のごとし",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -11051,6 +12454,28 @@
       }
     },
     {
+      "term": "虫・蟻・蜣蜋・毒螫の類",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "虫蟻",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "蜜多",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -11059,6 +12484,28 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol8": 1
+      }
+    },
+    {
+      "term": "蜣蜋",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "衆生界",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -11081,6 +12528,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      }
+    },
+    {
+      "term": "行願を堅くす",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -11312,6 +12770,28 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol2": 1
+      }
+    },
+    {
+      "term": "諸仏・導師において",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "諸執",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -11656,6 +13136,28 @@
       }
     },
     {
+      "term": "那",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "釈の師子・救世",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "釈名",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -11697,6 +13199,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol3": 1
+      }
+    },
+    {
+      "term": "釈迦師子",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -11898,17 +13411,6 @@
       }
     },
     {
-      "term": "阿",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "hotsubodaishinron-sho-vol7"
-      ],
-      "by_corpus": {
-        "hotsubodaishinron-sho-vol7": 1
-      }
-    },
-    {
       "term": "阿毘曇",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -11953,6 +13455,17 @@
       }
     },
     {
+      "term": "阿鉢囉底三迷",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "陀",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -11961,6 +13474,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol10": 1
+      }
+    },
+    {
+      "term": "限るに十人をもってす",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -12096,6 +13620,28 @@
       }
     },
     {
+      "term": "食前",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "食前の時",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
       "term": "饒益に住す",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -12104,6 +13650,39 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol3": 1
+      }
+    },
+    {
+      "term": "香水を授与して飮ましめ、彼の心は清浄なるが故に",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "骨",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "髑髏",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {
@@ -12148,6 +13727,28 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol2": 1
+      }
+    },
+    {
+      "term": "魔軍衆を破するがごとし",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "麼",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1
       }
     },
     {

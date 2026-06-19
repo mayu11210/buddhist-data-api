@@ -3,7 +3,7 @@
   "category": "places",
   "category_description": "地名（寺院・山・国・王朝・聖地・宇宙論界）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-18",
+  "generated_at": "2026-06-19",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -23,6 +23,7 @@
     "hotsubodaishinron-sho-vol1",
     "dainichikyo-sho-vol2",
     "dainichikyo-sho-vol3",
+    "dainichikyo-sho-vol4",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -33,14 +34,14 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 27,
-  "corpora_with_data": 27,
+  "corpora_count": 28,
+  "corpora_with_data": 28,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1140,
+    "total_occurrences": 1145,
     "terms_in_multiple_corpora": 45,
     "max_corpus_coverage": 18,
     "by_corpus": {
@@ -132,6 +133,11 @@
       "dainichikyo-sho-vol3": {
         "unique": 4,
         "occurrences": 6,
+        "present": true
+      },
+      "dainichikyo-sho-vol4": {
+        "unique": 3,
+        "occurrences": 5,
         "present": true
       },
       "hotsubodaishinron-sho-vol3": {
@@ -383,12 +389,13 @@
     },
     {
       "canonical": "須弥山",
-      "total_occurrence_count": 61,
-      "covered_corpora_count": 15,
+      "total_occurrence_count": 62,
+      "covered_corpora_count": 16,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol4",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol2",
@@ -416,6 +423,7 @@
         "yugikyo": 1,
         "rishushaku": 2,
         "dainichikyo-sho-vol2": 2,
+        "dainichikyo-sho-vol4": 1,
         "hotsubodaishinron-sho-vol4": 2,
         "hotsubodaishinron-sho-vol2": 2
       },
@@ -496,11 +504,12 @@
     },
     {
       "canonical": "周",
-      "total_occurrence_count": 32,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 35,
+      "covered_corpora_count": 9,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol9",
         "jujushinron",
@@ -516,6 +525,7 @@
         "sankyo-shiki": 6,
         "jujushinron": 2,
         "dainichikyo-sho-vol3": 1,
+        "dainichikyo-sho-vol4": 3,
         "hotsubodaishinron-sho-vol9": 1
       },
       "metadata": {
@@ -551,6 +561,31 @@
       }
     },
     {
+      "canonical": "陳",
+      "total_occurrence_count": 23,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4",
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol8",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 13,
+        "hizo-houyaku": 4,
+        "jujushinron": 2,
+        "dainichikyo-sho-vol4": 1,
+        "hotsubodaishinron-sho-vol2": 1,
+        "hotsubodaishinron-sho-vol8": 2
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "南朝の王朝。"
+      }
+    },
+    {
       "canonical": "長安",
       "total_occurrence_count": 23,
       "covered_corpora_count": 2,
@@ -565,29 +600,6 @@
       "metadata": {
         "subcategory": "capital_china",
         "definition": "唐の都。陝西省西安。"
-      }
-    },
-    {
-      "canonical": "陳",
-      "total_occurrence_count": 22,
-      "covered_corpora_count": 5,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "hotsubodaishinron-sho-vol2",
-        "hotsubodaishinron-sho-vol8",
-        "jujushinron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 13,
-        "hizo-houyaku": 4,
-        "jujushinron": 2,
-        "hotsubodaishinron-sho-vol2": 1,
-        "hotsubodaishinron-sho-vol8": 2
-      },
-      "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "南朝の王朝。"
       }
     },
     {

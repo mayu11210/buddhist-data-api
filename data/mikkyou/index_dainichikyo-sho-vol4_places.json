@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol4.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-19",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 31939,
+  "summary": {
+    "unique_terms": 3,
+    "unique_places": 3,
+    "total_occurrences": 5,
+    "by_subcategory": {
+      "country_dynasty": {
+        "unique": 2,
+        "occurrences": 4
+      },
+      "mountain_buddhist": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "周",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。文王・武王が建国。",
+      "matched_forms": [
+        {
+          "form": "周",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "もの、後夜の分は本誓願を念じ加持力を起こすようなものである。周れば、すなわちまた始まり、巡転して窮まりが無い。日の体はこれ",
+          "context_position": 9204,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ことを得ずと云うのに同じ。これを過ぎて已外は、阿闍梨の心量が周からない所があることを恐れる。まさに後の縁を待って、別に為に",
+          "context_position": 27652,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "因縁があると知るが故に、その起こす所の大悲漫荼羅もまた法界に周〔あまね〕い。しばらく十世界微塵数の諸々の執金剛菩薩衆などの",
+          "context_position": 29180,
+          "matched_form": "周"
+        }
+      ]
+    },
+    {
+      "canonical": "陳",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "南朝の王朝。",
+      "matched_forms": [
+        {
+          "form": "陳",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "の中にまたすでにこの衆徳を含む。次の偈は、警発する所以の意を陳べ、誠実の言を説く。世尊は、昔、菩提の漫荼羅に在して天魔の軍",
+          "context_position": 11364,
+          "matched_form": "陳"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、普眼をもってこれを観るに、この法を受けるに堪えた者は、なお須弥と大海の塵渧〔じんたい〕のようである。すでに彼の意を将護し、",
+          "context_position": 30894,
+          "matched_form": "須弥"
+        }
+      ]
+    }
+  ]
+}

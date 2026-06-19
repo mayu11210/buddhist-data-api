@@ -1,0 +1,361 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "dainichikyo-sho-vol4.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-19",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 31939,
+  "summary": {
+    "unique_terms": 5,
+    "unique_persons": 5,
+    "total_occurrences": 32,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 2,
+        "occurrences": 25
+      },
+      "buddhist_master_china": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "buddhist_master_india": {
+        "unique": 2,
+        "occurrences": 5
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 10
+        },
+        {
+          "form": "大日",
+          "count": 6
+        },
+        {
+          "form": "大日如来",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 18,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "いて須らく畢えるべきである。最初の日において、阿闍梨はまさに大日如来の自性に住し、しかる後に地神を警発すべきである。厳身の方便は",
+          "context_position": 16145,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "の中に座を敷き、座の上に白蓮華台を置け。阿字門をもって転じ、大日如来の身を作せ。閻浮檀紫磨金色のように、菩薩の像のようにして、首",
+          "context_position": 21016,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第四。 沙門一行阿闍梨〔いちぎょう〕記す",
+          "context_position": 1,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "がある。もし仏の秘蔵の中にも、また彼ら諸天の真言行法、乃至、毘盧遮那の大我の身があると聞けば、すなわち信受して正法に入る。あるい",
+          "context_position": 1702,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "仙などの種々の真言があって、能く不思議の神通を獲得し、乃至、毘盧遮那のように住寿長遠ならしめると聞けば、彼はすなわち踊躍し、志求",
+          "context_position": 1927,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "る。九執の中について、日を本浄の菩提心に喩える。すなわちこれ毘盧遮那の自体である。月を菩提の行に喩え、白月の十五日に衆行が円満す",
+          "context_position": 8652,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "地神を警発しようとするなら、先ず心を運んで思惟すべきである。毘盧遮那の無尽荘厳の身は法界に周遍し、十方三世の一切如来もまたまたこ",
+          "context_position": 9711,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "ある。我れはいまだ如来と一切同じことを得ないとはいえ、しかし毘盧遮那の三密に加持されるが故に、また能く仏身を現作し、あまねく一切",
+          "context_position": 11538,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "莎訶〔そわか〕。初めの句は、あまねく諸仏に帰命するのである。毘盧遮那の三身が一切処に遍ずるように、十方三世の一切如来もまたまたこ",
+          "context_position": 17498,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "の位である。経に『初の第一は我が身なり』というのは、すなわち毘盧遮那の位である。五仏を一檀に置くべきである。『第二は諸々の救世な",
+          "context_position": 20714,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "観ずべきである。 これをもって自らを加持するが故に、すなわち毘盧遮那の身と成る。この方便をもって毘盧遮那の身を観じ、我が身と無二",
+          "context_position": 22892,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "加持するが故に、すなわち毘盧遮那の身と成る。この方便をもって毘盧遮那の身を観じ、我が身と無二無別ならしむ。しかして、二明王の中間",
+          "context_position": 22910,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "神はこれ女天である。女はこれ三摩地の義である。すなわち、これ大日世尊の一切衆生を護持する三昧である。実相の世尊が、昔、菩提の",
+          "context_position": 11682,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "塗り作るべきである。十二指量に剤〔はか〕る。最初に、中胎蔵に大日世尊の位を置き、次に東方の大勤勇の処において一切如来の位を置",
+          "context_position": 20468,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "を置き、次に東北の維の虚空眼の処において仏母の位を置き、次に大日の右辺において蓮華手の位を置き、次に大日の左辺において金剛手",
+          "context_position": 20561,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "仏母の位を置き、次に大日の右辺において蓮華手の位を置き、次に大日の左辺において金剛手の位を置き、次に西南の隅において聖者不動",
+          "context_position": 20581,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "の真言を持し、ならびに彼の印を結べ。阿闍梨が言う。先ず部主・大日の真言一百八遍を持せ。所余の八位に彼の真言の大小を観じてこれ",
+          "context_position": 24374,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "て一志に集在す。乃至、十世界微塵数の差別智印が輪円・輻湊し、大日心王を翼輔し、一切衆生をして普門に進趣せしむ。この故に、説い",
+          "context_position": 31065,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 6
+        },
+        {
+          "form": "不動明王",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "漫荼羅の位を観じ、奉請・結護などを一々に周備し竟われ。まさに不動明王、あるいは降三世尊を誦じ、密印と相応し、一百八遍を満たして、",
+          "context_position": 23154,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "便は皆な『供養次第』の中に説くとおりである。警発し已わらば、不動尊の真言を用いてこれを加護し、しかる後に地を掘り、法のごとく",
+          "context_position": 16207,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "大日の左辺において金剛手の位を置き、次に西南の隅において聖者不動の位を置き、西北の維に降三世の位を置け。正面はこれ通門の処で",
+          "context_position": 20611,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "なり』というのである。『第四は蓮華手、第五は金剛部主、第六は不動尊なり』という。すなわち、降三世は知るべきである。これすなわ",
+          "context_position": 20880,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "り生ずるが故に、差降〔高下〕があるのである。次に北方において不動仏を観ぜよ。離熱・清涼にして寂定に住する相をなす。これはこれ",
+          "context_position": 21941,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "なす。これはこれ如来の涅槃の智である。この故に、義をもって『不動』という。その本名ではない。本名はまさに『皷音如来』というべ",
+          "context_position": 21995,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "阿闍梨が言う。第三日より以去、毎日三時の念誦のときには、皆な不動の真言一百八遍を誦して地を加持せよ。ただこれだけでなく、一切",
+          "context_position": 23231,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦",
+          "count": 3
+        },
+        {
+          "form": "釈迦牟尼",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "願うべきである。次にまさに偈を説いて地神を警発すべきである。釈迦牟尼仏のように、初め道場に坐すとき、魔王に謂って言う。『汝は、先",
+          "context_position": 9969,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "『魔軍衆を破するがごとし』という。 赦吃也〔しゃきや・二合、釈迦〕・僧係娜〔そうけいな・悉孕の反、師子〕・哆以那〔たいな・救",
+          "context_position": 10977,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "大会の中に現われて証明をなした。これに由って、世尊を号して『釈迦師子』とし、能く独歩・無畏にして世間を救護するように、我れも",
+          "context_position": 11436,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "持せよ。もし更に能く誦すれば、兼ねて第二院の四菩薩、第三院の釈迦などの上首の諸尊を持せよ。乃至、都て諸位を誦ずることもまた得",
+          "context_position": 24437,
+          "matched_form": "釈迦"
+        }
+      ]
+    },
+    {
+      "canonical": "金剛智",
+      "aliases": [
+        "vajrabodhi",
+        "Vajrabodhi"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第五祖。金剛界の伝持。",
+      "sanskrit_canonical": "vajrabodhi",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "金剛智",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "。閻浮金は、またこれ自然・性浄にして色もまた最深なるは、仏の金剛智体の最も深妙なることを明かす。通身に種々の光を放つことは、す",
+          "context_position": 21386,
+          "matched_form": "金剛智"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "、妙覚の醍醐を成し、醇浄・融妙にしてまた増すべからず。一切の金剛智印は同じく共に集会し、真常・不変の甘露味の中において最も第一",
+          "context_position": 28909,
+          "matched_form": "金剛智"
+        }
+      ]
+    },
+    {
+      "canonical": "迦葉",
+      "aliases": [
+        "摩訶迦葉",
+        "kāśyapa",
+        "Kāśyapa"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子の筆頭。頭陀第一。",
+      "sanskrit_canonical": "kāśyapa",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "迦葉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol4",
+          "context": "いは世間の五通仙の法を宗習する者がある。仏の秘蔵の中に、具に迦葉・瞿曇〔くどん〕・大仙などの種々の真言があって、能く不思議の",
+          "context_position": 1885,
+          "matched_form": "迦葉"
+        }
+      ]
+    }
+  ]
+}
