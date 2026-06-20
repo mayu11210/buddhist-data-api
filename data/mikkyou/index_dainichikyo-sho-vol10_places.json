@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol10.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-20",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 38707,
+  "summary": {
+    "unique_terms": 4,
+    "unique_places": 4,
+    "total_occurrences": 4,
+    "by_subcategory": {
+      "country_china": {
+        "unique": 2,
+        "occurrences": 2
+      },
+      "country_dynasty": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "province_japan": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "楚",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋戦国の南方の大国。",
+      "matched_forms": [
+        {
+          "form": "楚",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "のである。次に毘舍遮の真言である〔訳すればこれは極めて苦しみ楚る〔極苦楚〕義。この輩は多くは餓鬼である〕。比〔第一義。定〕",
+          "context_position": 29562,
+          "matched_form": "楚"
+        }
+      ]
+    },
+    {
+      "canonical": "越",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋の国。",
+      "matched_forms": [
+        {
+          "form": "越",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "る〕抜難陀庾〔抜字の声の勢いに鄔波の音がある〕。鄔は越える〔越〕である。みずから諸法の生死の流転を越えて、最も勝れた志に住",
+          "context_position": 17927,
+          "matched_form": "越"
+        }
+      ]
+    },
+    {
+      "canonical": "阿波",
+      "aliases": [],
+      "subcategory": "province_japan",
+      "definition": "徳島県の旧国。",
+      "matched_forms": [
+        {
+          "form": "阿波",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "る。この真言を説く時、三昧に入ることは前に説くとおりである。阿波〔入〕囉誓帝〔無能勝〕闍演帝〔勝の別名、すなわち戦って勝つ義",
+          "context_position": 14311,
+          "matched_form": "阿波"
+        }
+      ]
+    },
+    {
+      "canonical": "陳",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "南朝の王朝。",
+      "matched_forms": [
+        {
+          "form": "陳",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "において清浄法界の法門を通達するので、それぞれみずからこれを陳べ説きたいと願うのである。そのゆえは、このような大曼荼羅王は",
+          "context_position": 2025,
+          "matched_form": "陳"
+        }
+      ]
+    }
+  ]
+}

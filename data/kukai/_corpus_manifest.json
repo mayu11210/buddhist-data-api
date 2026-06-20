@@ -35,13 +35,13 @@
   "genten_present": 19,
   "with_specialty_sections": 5,
   "indexed_corpora": {
-   "terms": 33,
-   "citations": 33,
-   "kukai_works": 33,
-   "sanskrit": 33,
-   "kaimyo_jukugo": 33,
-   "persons": 33,
-   "places": 33
+   "terms": 34,
+   "citations": 34,
+   "kukai_works": 34,
+   "sanskrit": 34,
+   "kaimyo_jukugo": 34,
+   "persons": 34,
+   "places": 34
   }
  },
  "files": [
@@ -2239,31 +2239,31 @@
    "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第十』（大日経 息障品第三之余＝本尊の彩色と劣慧不信の障り、普通真言蔵品第四＝諸尊の真言の字義と一百字輪の種子・毘盧遮那真言の心〔阿字＝一切真言の生処〕、世間成就品第五＝字句声の三観と世間成就・月輪観と持誦の果・出入の息・一花供養と成就の相）。元 doc が巨大ブロック（11段・最大20,943字）のため科文・話題境界で 79 段に段落化（ケンシン裁定 2026-06-20・巻第三〜九 同型・品題と尾題は文書中の構造段落として保持・割注の全角括弧は kakikudashi に温存）。genten 後送（T1796 vol.39 巻第十・CBETA は JS）。",
    "index_status": {
     "terms": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol10_terms.json"
     },
     "citations": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol10_citations.json"
     },
     "kukai_works": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol10_kukai_works.json"
     },
     "sanskrit": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol10_sanskrit.json"
     },
     "kaimyo_jukugo": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol10_kaimyo.json"
     },
     "persons": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol10_persons.json"
     },
     "places": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol10_places.json"
     }
    }

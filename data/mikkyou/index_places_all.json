@@ -29,6 +29,7 @@
     "dainichikyo-sho-vol7",
     "dainichikyo-sho-vol8",
     "dainichikyo-sho-vol9",
+    "dainichikyo-sho-vol10",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -39,14 +40,14 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 33,
-  "corpora_with_data": 33,
+  "corpora_count": 34,
+  "corpora_with_data": 34,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1207,
+    "total_occurrences": 1211,
     "terms_in_multiple_corpora": 47,
     "max_corpus_coverage": 21,
     "by_corpus": {
@@ -167,6 +168,11 @@
       },
       "dainichikyo-sho-vol9": {
         "unique": 2,
+        "occurrences": 4,
+        "present": true
+      },
+      "dainichikyo-sho-vol10": {
+        "unique": 4,
         "occurrences": 4,
         "present": true
       },
@@ -680,9 +686,10 @@
     },
     {
       "canonical": "陳",
-      "total_occurrence_count": 23,
-      "covered_corpora_count": 6,
+      "total_occurrence_count": 24,
+      "covered_corpora_count": 7,
       "covered_corpora": [
+        "dainichikyo-sho-vol10",
         "dainichikyo-sho-vol4",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol2",
@@ -695,6 +702,7 @@
         "hizo-houyaku": 4,
         "jujushinron": 2,
         "dainichikyo-sho-vol4": 1,
+        "dainichikyo-sho-vol10": 1,
         "hotsubodaishinron-sho-vol2": 1,
         "hotsubodaishinron-sho-vol8": 2
       },
@@ -826,6 +834,27 @@
       }
     },
     {
+      "canonical": "楚",
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol10",
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 6,
+        "dainichikyo-sho-vol10": 1
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "春秋戦国の南方の大国。"
+      }
+    },
+    {
       "canonical": "震旦",
       "total_occurrence_count": 15,
       "covered_corpora_count": 3,
@@ -849,25 +878,6 @@
           "中華",
           "華夏"
         ]
-      }
-    },
-    {
-      "canonical": "楚",
-      "total_occurrence_count": 14,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "hizo-houyaku",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "hizo-houyaku": 1,
-        "sankyo-shiki": 6
-      },
-      "metadata": {
-        "subcategory": "country_china",
-        "definition": "春秋戦国の南方の大国。"
       }
     },
     {
@@ -1044,6 +1054,25 @@
       }
     },
     {
+      "canonical": "越",
+      "total_occurrence_count": 8,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol10",
+        "dainichikyo-sho-vol5",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6,
+        "dainichikyo-sho-vol5": 1,
+        "dainichikyo-sho-vol10": 1
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "春秋の国。"
+      }
+    },
+    {
       "canonical": "平城",
       "total_occurrence_count": 8,
       "covered_corpora_count": 1,
@@ -1059,6 +1088,29 @@
         "aliases": [
           "平城京"
         ]
+      }
+    },
+    {
+      "canonical": "阿波",
+      "total_occurrence_count": 7,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol10",
+        "jujushinron",
+        "rishushaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "sankyo-shiki": 1,
+        "jujushinron": 3,
+        "rishushaku": 1,
+        "dainichikyo-sho-vol10": 1
+      },
+      "metadata": {
+        "subcategory": "province_japan",
+        "definition": "徳島県の旧国。"
       }
     },
     {
@@ -1079,23 +1131,6 @@
         "aliases": [
           "崑崙山"
         ]
-      }
-    },
-    {
-      "canonical": "越",
-      "total_occurrence_count": 7,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "dainichikyo-sho-vol5",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 6,
-        "dainichikyo-sho-vol5": 1
-      },
-      "metadata": {
-        "subcategory": "country_china",
-        "definition": "春秋の国。"
       }
     },
     {
@@ -1147,27 +1182,6 @@
       "metadata": {
         "subcategory": "country_china",
         "definition": "春秋戦国の東方の大国。"
-      }
-    },
-    {
-      "canonical": "阿波",
-      "total_occurrence_count": 6,
-      "covered_corpora_count": 4,
-      "covered_corpora": [
-        "jujushinron",
-        "rishushaku",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "sankyo-shiki": 1,
-        "jujushinron": 3,
-        "rishushaku": 1
-      },
-      "metadata": {
-        "subcategory": "province_japan",
-        "definition": "徳島県の旧国。"
       }
     },
     {

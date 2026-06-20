@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "dainichikyo-sho-vol10.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-20",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 38707,
+  "summary": {
+    "unique_terms": 3,
+    "total_occurrences": 3
+  },
+  "entries": [
+    {
+      "term": "十輪",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "、すなわちよくさまざまな三乗の行の門を説いて衆生を利益する。『十輪』に広く説くとおりである。次に文殊は仏加持神力三昧に入る。この",
+          "context_position": 8835,
+          "raw_form": "十輪"
+        }
+      ]
+    },
+    {
+      "term": "央掘経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "である。金剛智より生じるのは、すなわち諸仏の法身の生である。『央掘経』に「この不生の身を生じる」というごとくである。すなわちその義",
+          "context_position": 11554,
+          "raw_form": "央掘経"
+        }
+      ]
+    },
+    {
+      "term": "法華",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ずから証る真実の境界である。声聞などの及べるところではない。『法華』の方便品のなかに説くとおりである。荘厳とは、すなわち如来がみ",
+          "context_position": 2799,
+          "raw_form": "法華"
+        }
+      ]
+    }
+  ]
+}

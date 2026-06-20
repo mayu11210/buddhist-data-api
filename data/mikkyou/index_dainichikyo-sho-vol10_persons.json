@@ -1,0 +1,979 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "dainichikyo-sho-vol10.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-20",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 38707,
+  "summary": {
+    "unique_terms": 20,
+    "unique_persons": 20,
+    "total_occurrences": 82,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 10,
+        "occurrences": 49
+      },
+      "buddhist_deva": {
+        "unique": 5,
+        "occurrences": 14
+      },
+      "buddhist_master_china": {
+        "unique": 4,
+        "occurrences": 7
+      },
+      "buddhist_master_india": {
+        "unique": 1,
+        "occurrences": 12
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦",
+          "count": 12
+        }
+      ],
+      "occurrence_count": 12,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "たがいに連なっている〕。通じて三部の使者にこれを用いる。次に釈迦如来が宝処三昧に入る。宝の波〔宝処〕より出るから、名づけて宝",
+          "context_position": 12301,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "一切の宝の洲〔宝洲〕となるのである。わたし〔阿闍梨〕がいう、釈迦は大悲の力が全体こまやかにつまっていることはちょうど金剛のよ",
+          "context_position": 12937,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "り〔功徳聚〕であるから、三昧は女の形につくるのである。これは釈迦の眷属である。また宝処三昧に入って、この真言を説くだけである",
+          "context_position": 13124,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "なわち十八の仏不共法の別名である。この本尊の形像は、ひとえに釈迦の大人相を具足するのに同じである。ただ頂の肉髻だけは、菩薩の",
+          "context_position": 13473,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "る。すなわち、仏不共法の頂に入る。次に無能勝の真言は、これは釈迦の眷属である。また宝処三昧に入って、上のように真言を説く。こ",
+          "context_position": 13823,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "属である。また宝処三昧に入って、上のように真言を説く。これは釈迦の化身である。その無量の自在の神力を隠して、この忿怒明王の形",
+          "context_position": 13857,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "つように、深く持本三昧に入って真言を説くのである。またこれは釈迦の方便の化身であるだけである。鉢㗚〔二合〕體毘曳〔地神の名。",
+          "context_position": 14568,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "この天は迦婁羅鳥に乗って空中を行く。わたし〔阿闍梨〕がいう、釈迦は五部の仏のなかで迦婁羅座に乗る。すなわち虚空を進み行く義で",
+          "context_position": 15007,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "わく七姉妹など〕。これは無我の義である。次に釈提桓因である。釈迦羅〔二合〕也〔すなわち字の名〕。釈迦というのは、百福徳の義で",
+          "context_position": 16786,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "る。次に釈提桓因である。釈迦羅〔二合〕也〔すなわち字の名〕。釈迦というのは、百福徳の義である。因のなかでかつて再び福を修した",
+          "context_position": 16804,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "に住す。それで世間を護り持つから、それで名とする。右の上は、釈迦の眷属をことごとく了えた。みな宝処三昧に住して、仏の化身で大",
+          "context_position": 17986,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "義あり〕髯〔光網菩薩。すなわち文殊の眷属。また前に同じ〕娑〔釈迦。婆は三有。傍らに二点あり。すなわち三有を除き遣る義〕吽〔訶",
+          "context_position": 25875,
+          "matched_form": "釈迦"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 9
+        },
+        {
+          "form": "不動明王",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 11,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "せない。正しからぬ道に堕ち在らせないようにする者は、すなわち不動明王がこれである。世間の調えがたい衆生を降伏するためには、すなわ",
+          "context_position": 20011,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "動明で諸々の事を護るのである。もし理で説けば、この降伏三世と不動明王は、すなわち大いなる菩提心である。よく一切衆生を守護するに、",
+          "context_position": 37933,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "この「無尽」を、あるいは「無害」というべきであり、あるいは「不動」というべきであり、あるいは「不壊」というべきである。下の義",
+          "context_position": 2363,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "これは真言の体。阿字は本不生。長声の第二の字は金剛三昧。また不動の点を加えるのは降伏の義〕薩埵係多〔有情を利益する〕驃庾竭多",
+          "context_position": 4865,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "つの障りを除いて大空を得る〕娑字は真言の種子の体である。娑は不動の義である。不動・住・動の法は、すなわち生滅がある。およそ物",
+          "context_position": 6094,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "大空を得る〕娑字は真言の種子の体である。娑は不動の義である。不動・住・動の法は、すなわち生滅がある。およそ物に生滅があれば、",
+          "context_position": 6102,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "よそ物に生滅があれば、すなわち動く相がある。それゆえ、経に「不動の法はみな不安の相である」という。傍らに二点を加えるのは、涅",
+          "context_position": 6153,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "怖れさせる。金剛三昧である。点はすなわち大空である。この大空不動の行で大いに一切の魔の障りを怖れさせる。鑁字の麼は我の義、阿",
+          "context_position": 19682,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "させる。極めて内外の二つの障りを怖れさせる義である。右、聖者不動主の真言を畢える。次に降三世明王の真言である。これは毘盧遮那",
+          "context_position": 19838,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "を除き遣るから、除き遣る義がある。これでよく三世を降す〕悍〔不動主。訶は行。呵の声、またこれは行の点。すなわち大空、この位に",
+          "context_position": 25005,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "るのである。「護をなす〔作護〕」とは、いわく降伏三世明および不動明で諸々の事を護るのである。もし理で説けば、この降伏三世と不",
+          "context_position": 37902,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 9
+        },
+        {
+          "form": "大日如来",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 11,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "菩薩と金剛が、この法を円かに成就しようとするために、それぞれ大日如来を稽首し終わって、自心において清浄法界の法門を通達するので、",
+          "context_position": 1980,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "して、すなわちかの菩薩に同じくなれる。この諸々の菩薩は、みな大日如来の内に証る徳である。広くこの知見の門を開こうとするために、一",
+          "context_position": 2171,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十沙門一行阿闍梨〔善無畏三蔵の口述を一",
+          "context_position": 1,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "では金剛手を上首とし、菩薩のなかでは普賢などを上首として、仏毘盧遮那において頭を地につけ礼し〔稽首し〕、大悲胎蔵生の大漫荼羅王に",
+          "context_position": 1859,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "て、仏の化身で大悲蔵を成就しようとするために真言を説く。時に毘盧遮那仏は、みずからの教えの迹の不定の悉地〔教迹不定悉地〕の一切菩",
+          "context_position": 18040,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "聖者不動主の真言を畢える。次に降三世明王の真言である。これは毘盧遮那如来の法幢高峰観加持三昧に住すること、初めの序品のなかに説く",
+          "context_position": 19866,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "けて降三世とする。さらに、三世を名づけて三界とする。いわく、毘盧遮那如来は、始めに有頂より下の地に至るまで、上より下に向かって、",
+          "context_position": 20205,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "し諸魔を伏すから、一切の天・人は号して大勤勇とする。すなわち毘盧遮那。佉は空の義、五の点は大空。大空で一切の空を浄める〕髯〔水自",
+          "context_position": 25451,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "大いなる極みにおいては摩訶迦羅に属す。いわゆる大黒神である。毘盧遮那は降伏三世の法門でかれを除こうとするために、化して大黒神とな",
+          "context_position": 28877,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "、人、定〕莎訶〔上に同じ〕。諸々の真言の別の相を了える。次に毘盧遮那真言の心を説く、とは――上のような諸々の真言などは、一々のな",
+          "context_position": 30192,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "言の生じる処である。いわく、一切の法門および菩薩などは、みな毘盧遮那のおのが体のおのが証る心〔自体自証の心〕より、衆生を利益しよ",
+          "context_position": 30395,
+          "matched_form": "毘盧遮那"
+        }
+      ]
+    },
+    {
+      "canonical": "観音",
+      "aliases": [
+        "観世音",
+        "観自在",
+        "avalokiteśvara",
+        "Avalokiteśvara"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "慈悲を司る菩薩。",
+      "sanskrit_canonical": "avalokiteśvara",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "観音",
+          "count": 6
+        },
+        {
+          "form": "観自在",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "けて普とはしないのである。この普き眼〔普眼〕で衆生を観るから観自在者と名づける。この三昧に入り終わって、その心よりさまざまな光",
+          "context_position": 5406,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "大いなる勢いを得るから、得大勢と名づける。次に多羅尊も、また観自在の眷属である。入る三昧もまた前の説に同じ。迦盧拏〔これは悲の",
+          "context_position": 6420,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "わち除き遣る。これはすなわち蓋い障りを除く〔除蓋障〕義〕娑〔観自在。娑は諸々の漏。傍らに二点があるのは、すなわち訶。諸々の漏を",
+          "context_position": 25122,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ある。それゆえ等観と名づける。得大勢も、またこの三昧に入って観音に同じである。これはかれの眷属であることによる。髯髯〔これは",
+          "context_position": 5963,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〕陀婆〔二合〕費〔生。いわく、悲者より生じる。悲者はすなわち観音。この菩薩はかの尊の眼のなかより生じる。ちょうど諸法の実相を",
+          "context_position": 6491,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "である。大本〔広本〕のなかに一百の多羅尊があるごときは、みな観音の眼より生じる。みな阿弥陀の姉妹三昧である。次に毘倶胝は、三",
+          "context_position": 6965,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "。そのさまは、よくこれを伏せられる者がないようであった。時に観音の額の皺のなかに、この菩薩を現じた。西方では額の上の皺の文を",
+          "context_position": 7482,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "生じる。つねにここに住して、よく諸仏を生じるのである。これは観音の母である。すなわち蓮華部の主である。吽〔恐怖の義〕佉陀〔こ",
+          "context_position": 8143,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "らに二点があるのは三有を除き遣る〕参〔得大勢。娑は諸々の漏。観音の種子に同じ。しかも上に点あり。いわく、この諸々の漏はすなわ",
+          "context_position": 25674,
+          "matched_form": "観音"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 6
+        },
+        {
+          "form": "文殊師利",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 8,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "点があるのは、すなわち諸々の縛を除く。これは金剛の種子〕瞞〔文殊師利。本体はすなわち空。上にまた点がある。これも空である。いわゆ",
+          "context_position": 25219,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "相。なお相があるから我がある。相を離れるから無我である。また文殊師利の定である〕係〔喜、行〕履〔相。文殊の使者の財慧。すなわちよ",
+          "context_position": 26558,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "を説いて衆生を利益する。『十輪』に広く説くとおりである。次に文殊は仏加持神力三昧に入る。この加持三昧は、上の経の初めに説くと",
+          "context_position": 8853,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "じる。また常の義あり。また作の義あり〕髯〔光網菩薩。すなわち文殊の眷属。また前に同じ〕娑〔釈迦。婆は三有。傍らに二点あり。す",
+          "context_position": 25860,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "縛は地神の種子の字〕枳〔作の三昧〕履〔相を離れる三昧〕相履〔文殊の使者の計設尼。髪を結ぶことが端厳で妙なるにちなんで名を得た",
+          "context_position": 26395,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "れは鄔波計設尼である。弭〔空、定〕履〔相は前のごとし。これは文殊の使者、質多と名づける。麼は空。これは我。下の羅は相。なお相",
+          "context_position": 26501,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "から無我である。また文殊師利の定である〕係〔喜、行〕履〔相。文殊の使者の財慧。すなわちよく一切の願を満たす。みな喜ばせる。さ",
+          "context_position": 26578,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ある。経のなかに種子の字が欠けている。まだ得られない〕。右、文殊の五使である。一つの使いごとにそれぞれ一つの奉教がある。同じ",
+          "context_position": 26676,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "夜叉",
+      "aliases": [
+        "yakṣa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "八部衆の一。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "夜叉",
+          "count": 6
+        }
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ず、死に合う時に至ってはじめて壊れるのである。おおよそこれは夜叉の大自在である。世人の説くところの大いなる極みにおいては摩訶",
+          "context_position": 28828,
+          "matched_form": "夜叉"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "とを聴す」。かれがいう、「人が死のうとする時、諸々の大いなる夜叉はその命の尽きるのを知って、争い来って食おうとします。わたし",
+          "context_position": 29183,
+          "matched_form": "夜叉"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ある。よく世間を噉い、よく諸々の業の垢などの悪を食う。これは夜叉の義である。薬〔乗〕吃叉〔言語断える。定〕尾〔施。乗〕儞夜〔",
+          "context_position": 29445,
+          "matched_form": "夜叉"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〕尾〔施。乗〕儞夜〔乗〕達〔法界〕履〔無垢。定〕。句の義に、夜叉の明の心を持つ〔持夜叉明心〕という。これはかの方言を用いて呪",
+          "context_position": 29497,
+          "matched_form": "夜叉"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〕達〔法界〕履〔無垢。定〕。句の義に、夜叉の明の心を持つ〔持夜叉明心〕という。これはかの方言を用いて呪をなすのである。次に毘",
+          "context_position": 29508,
+          "matched_form": "夜叉"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "れはかの方言に随ってこれをなす。次に部多の真言である。これは夜叉の類である。喁〔去、空〕縊〔定〕喁縊〔極〕瞢〔我〕散〔堅〕寧",
+          "context_position": 29644,
+          "matched_form": "夜叉"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "四そのとき、執金剛のなかでは金剛手を上首とし、菩薩のなかでは普賢などを上首として、仏毘盧遮那において頭を地につけ礼し〔稽首し",
+          "context_position": 1847,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "めに、それぞれまさにみずからの真言句を説くべきである」。時に普賢菩薩は、すなわち仏の荘厳境界三昧に住して、無礙力の真言を説く",
+          "context_position": 2663,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "法門によって受持し、読誦し、あるいは観じ照らす者は、すなわち普賢の門に同じである。久しからずして、よく仏の境界・荘厳三昧自在",
+          "context_position": 3565,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "随って、みな法身の理に向かい、すなわちかの仏に同じくなるから不空というのである。上のように諸々の菩薩の真言を説いたのは、それ",
+          "context_position": 18238,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〔帰命。この法に住するによって、わたしは帰命する〕阿穆伽喃〔不空なる者。帰命するところ、わたしが帰命するものとする〕。真言に",
+          "context_position": 18709,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "弥勒",
+      "aliases": [
+        "弥勒菩薩",
+        "慈氏",
+        "maitreya",
+        "Maitreya"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "未来仏。兜率天で待機。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "弥勒菩薩",
+          "count": 1
+        },
+        {
+          "form": "弥勒",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "らずして、よく仏の境界・荘厳三昧自在の力を得るのである。時に弥勒菩薩は、普遍大慈発生三昧に住して、みずからの心を説く、とは――「",
+          "context_position": 3609,
+          "matched_form": "弥勒菩薩"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "てよく通達し、この法を受持し読誦すれば、行者は久しからずして弥勒の行に同じくなるのである。そのとき、虚空蔵菩薩は清浄境界の三",
+          "context_position": 4179,
+          "matched_form": "弥勒"
+        }
+      ]
+    },
+    {
+      "canonical": "梵天",
+      "aliases": [
+        "brahmā",
+        "Brahmā"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "色界初禅天の主。",
+      "sanskrit_canonical": "brahmā",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "梵天",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "自在を得るから、水主と名づける。初めの阿字を種子とする。次に梵天の真言である。かの大悲胎蔵を成じようとするために、また上のよ",
+          "context_position": 17168,
+          "matched_form": "梵天"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "闍〔一切生〕麼多曵〔主〕。すなわち衆生の主である。一切衆生は梵天による。それゆえ、一切衆生の主と名づける。よく一切の有情を生",
+          "context_position": 17245,
+          "matched_form": "梵天"
+        }
+      ]
+    },
+    {
+      "canonical": "緊那羅",
+      "aliases": [
+        "kiṃnara",
+        "kinnara"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "八部衆。歌神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "緊那羅",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "し〕健闥縛〔字のごとし〕阿修羅〔字のごとし〕掲露羅〔楽の主〕緊那羅〔楽の声〕摩呼羅伽〔字のごとし〕儞〔等。諸部を摂す〕訶㗚駄夜",
+          "context_position": 22115,
+          "matched_form": "緊那羅"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "囉〔垢〕藍〔相。いわく、生死〕蘖〔縛〕囉〔垢〕藍〔相〕。次に緊那羅の真言である。訶〔喜〕佉〔行〕散〔堅。いわゆる我執〕難〔空。",
+          "context_position": 29888,
+          "matched_form": "緊那羅"
+        }
+      ]
+    },
+    {
+      "canonical": "羅刹",
+      "aliases": [
+        "rākṣasa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "悪鬼神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "羅刹",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "無常を知らせ、験に如来の堅固の法を得るのである。次に影哩底は羅刹の主である。またこれは仏の化身である。囉〔垢〕吃刹娑〔食。娑",
+          "context_position": 15705,
+          "matched_form": "羅刹"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "、体は空に同じ。極めて空にさせる。それゆえ字を重ねる〕。次に羅刹の真言である。すなわちかの方言を用いて真言とする。吃嚂〔心〕",
+          "context_position": 28318,
+          "matched_form": "羅刹"
+        }
+      ]
+    },
+    {
+      "canonical": "虚空蔵",
+      "aliases": [
+        "虚空蔵菩薩",
+        "ākāśagarbha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧と福徳を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "虚空蔵菩薩",
+          "count": 1
+        },
+        {
+          "form": "虚空蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "行者は久しからずして弥勒の行に同じくなるのである。そのとき、虚空蔵菩薩は清浄境界の三昧に入り、みずからの心を説く、とは――いわくこ",
+          "context_position": 4199,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "達する。すなわち大空の秘めた蔵〔大空の秘蔵〕である。またこの虚空蔵は、すなわち大悲胎蔵をよく長く養って菩提を成就する心である。",
+          "context_position": 4314,
+          "matched_form": "虚空蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "達磨",
+      "aliases": [
+        "菩提達磨",
+        "bodhidharma",
+        "Bodhidharma"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国禅宗の初祖。インドより渡来。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "達磨",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "さきに念じたところを憶え念じさせる〕鉢羅嚩囉〔証するところ〕達磨〔法。すなわち諸仏の証するところの法〕羅陀〔獲る。証る。得る",
+          "context_position": 24314,
+          "matched_form": "達磨"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "天の真言である。摩拏囉〔意が悦ぶ。さまざまな楽を受けるから〕達磨三婆縛〔法生。これは仏の化したところの生。世間の天にかかわる",
+          "context_position": 28149,
+          "matched_form": "達磨"
+        }
+      ]
+    },
+    {
+      "canonical": "金剛智",
+      "aliases": [
+        "vajrabodhi",
+        "Vajrabodhi"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第五祖。金剛界の伝持。",
+      "sanskrit_canonical": "vajrabodhi",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "金剛智",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "する〕嗢婆吠〔これは金剛生。金剛界より生じる。すなわち諸仏の金剛智より生じる〕薩嚩多囉鉢囉底訶底〔これは諸々のよく害うものなし",
+          "context_position": 10594,
+          "matched_form": "金剛智"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "た。まさに大空の生を得るべきである。すなわち諸仏の生である。金剛智より生じるのは、すなわち諸仏の法身の生である。『央掘経』に「",
+          "context_position": 11528,
+          "matched_form": "金剛智"
+        }
+      ]
+    },
+    {
+      "canonical": "阿修羅",
+      "aliases": [
+        "asura"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "六道の一・阿修羅道の住人。八部衆。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "阿修羅",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "提婆〔天〕那伽〔龍〕夜乞也〔字のごとし〕健闥縛〔字のごとし〕阿修羅〔字のごとし〕掲露羅〔楽の主〕緊那羅〔楽の声〕摩呼羅伽〔字の",
+          "context_position": 22097,
+          "matched_form": "阿修羅"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "去、空〕縊〔定〕喁縊〔極〕瞢〔我〕散〔堅〕寧〔空、定〕。次に阿修羅の真言である。それぞれ種子の字とする。随ってそれを取るのであ",
+          "context_position": 29684,
+          "matched_form": "阿修羅"
+        }
+      ]
+    },
+    {
+      "canonical": "勢至",
+      "aliases": [
+        "勢至菩薩",
+        "mahāsthāmaprāpta"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "阿弥陀三尊の右脇侍。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "勢至",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "のは、いわくこの乗は清浄で大空に同じ〕参〔宝掌菩薩の種子。大勢至に同じ。宝処を定とする。宝を手とするから、宝はかれより生じる",
+          "context_position": 25800,
+          "matched_form": "勢至"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十沙門一行阿闍梨〔善無畏三蔵の口述を一行が筆受した〕の記である。息障品 第三之余秘密",
+          "context_position": 25,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "地蔵",
+      "aliases": [
+        "地蔵菩薩",
+        "kṣitigarbha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "六道衆生を救済する菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "地蔵菩薩",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "を成じられるのである。この菩薩は蓮華部を明かすのである。次に地蔵菩薩の真言である。時に菩薩は不可壊金剛行三昧に入る。金剛とは、す",
+          "context_position": 8512,
+          "matched_form": "地蔵菩薩"
+        }
+      ]
+    },
+    {
+      "canonical": "阿弥陀",
+      "aliases": [
+        "阿弥陀如来",
+        "amitābha",
+        "Amitābha",
+        "amitāyus"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "西方極楽浄土の教主。",
+      "sanskrit_canonical": "amitābha",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "阿弥陀",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "かに一百の多羅尊があるごときは、みな観音の眼より生じる。みな阿弥陀の姉妹三昧である。次に毘倶胝は、三昧に入ること前のようである",
+          "context_position": 6977,
+          "matched_form": "阿弥陀"
+        }
+      ]
+    }
+  ]
+}

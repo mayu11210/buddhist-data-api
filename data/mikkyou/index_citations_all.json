@@ -29,6 +29,7 @@
     "dainichikyo-sho-vol7",
     "dainichikyo-sho-vol8",
     "dainichikyo-sho-vol9",
+    "dainichikyo-sho-vol10",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -39,14 +40,14 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 33,
-  "corpora_with_data": 33,
+  "corpora_count": 34,
+  "corpora_with_data": 34,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 1192,
-    "total_occurrences": 3820,
+    "unique_terms_total": 1194,
+    "total_occurrences": 3823,
     "terms_in_multiple_corpora": 189,
     "max_corpus_coverage": 21,
     "by_corpus": {
@@ -168,6 +169,11 @@
       "dainichikyo-sho-vol9": {
         "unique": 5,
         "occurrences": 5,
+        "present": true
+      },
+      "dainichikyo-sho-vol10": {
+        "unique": 3,
+        "occurrences": 3,
         "present": true
       },
       "hotsubodaishinron-sho-vol3": {
@@ -811,9 +817,10 @@
     },
     {
       "term": "法華",
-      "total_occurrence_count": 29,
-      "covered_corpora_count": 11,
+      "total_occurrence_count": 30,
+      "covered_corpora_count": 12,
       "covered_corpora": [
+        "dainichikyo-sho-vol10",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
@@ -833,6 +840,7 @@
         "dainichikyo-sho-vol4": 1,
         "dainichikyo-sho-vol7": 1,
         "dainichikyo-sho-vol9": 1,
+        "dainichikyo-sho-vol10": 1,
         "hotsubodaishinron-sho-vol3": 9,
         "hotsubodaishinron-sho-vol4": 1,
         "hotsubodaishinron-sho-vol2": 2,
@@ -6840,6 +6848,17 @@
       }
     },
     {
+      "term": "十輪",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol10"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol10": 1
+      }
+    },
+    {
       "term": "千手儀軌",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -8157,6 +8176,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol5": 1
+      }
+    },
+    {
+      "term": "央掘経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol10"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol10": 1
       }
     },
     {

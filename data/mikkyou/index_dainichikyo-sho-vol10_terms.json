@@ -1,0 +1,1774 @@
+{
+  "schema_version": "1.0",
+  "category": "密教教学用語（mikkyo terms）",
+  "source_corpus": "dainichikyo-sho-vol10.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-20",
+  "extraction_strategy": "辞書ベース（19 語）+ 長語優先 substring 走査 + 周辺梵語注記抽出",
+  "dictionary_size": 19,
+  "gendaigoyaku_length": 38707,
+  "summary": {
+    "unique_terms": 19,
+    "total_occurrences": 254,
+    "kaimyo_suitable_count": 11,
+    "matched_term_count": 9
+  },
+  "entries": [
+    {
+      "term": "真言",
+      "term_kana": "",
+      "sanskrit": "mantra",
+      "definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "occurrence_count": 136,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ある。これがすなわち障りをなす由来を説くのである。このように真言の画および持誦などは、一々みな深い意があり、ことごとく如来の",
+          "context_position": 585,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "は諸法の相空を知らないので、一切諸法の相を説く。つねにまさに真言に住し、業をなし、よく疑いがあってはならない」とは――この意",
+          "context_position": 1507,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ない者は、一切の障りの法もそのすきを得られないのである。普通真言蔵品 第四そのとき、執金剛のなかでは金剛手を上首とし、菩薩の",
+          "context_position": 1811,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "おいて通達するところの法界清浄門のように、それぞれ広く語句の真言を説きたいと願って、仏に請う、とは――これは諸々の菩薩と金剛",
+          "context_position": 1923,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "々の善男子よ、通達するところの法界のように、衆生界を浄め除く真言句を説け」とは――時に仏がかれらの請いに随うのである。この「",
+          "context_position": 2304,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "無尽蔵に同じくさせようとするために、それぞれまさにみずからの真言句を説くべきである」。時に普賢菩薩は、すなわち仏の荘厳境界三",
+          "context_position": 2648,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "。時に普賢菩薩は、すなわち仏の荘厳境界三昧に住して、無礙力の真言を説く、とは――諸々の菩薩のなかでかれを上首として、この仏の",
+          "context_position": 2690,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "を得た。その自心の面門よりさまざまな光を発し、光のなかにこの真言を説くのである。三曼多〔等〕奴竭多〔進の義。去なり。往なり〕",
+          "context_position": 2989,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "、証のなかの大空である。大空とは作の境界である。しかも、この真言は訶字を体とする。訶とは喜である。いわゆる菩薩が修すべきを修",
+          "context_position": 3487,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "門である。そのみずから進み達するところのように、三昧に入って真言を説くから、「みずからの心を説く」というのである。「説」の義",
+          "context_position": 3748,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "。いわく、よく衆生の諸々の根性と行を了知する〕。しかも、この真言は阿字を体とする。すなわち本不生の義である。「生」とは、生老",
+          "context_position": 3898,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "。この徳が生じるのは、すなわちさまざまな衣を被ること〕。この真言は、阿〔長〕字を体とする。阿〔長〕は本不生の体である。今この",
+          "context_position": 4480,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "は前の説に准ぜよ。そのとき、除一切蓋障菩薩は悲力三昧に入り、真言を説く、とは――すなわち法性の悲が、自在の力でよく一切衆生の",
+          "context_position": 4723,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "なわち如来の大悲である。阿〔引、降伏の義。摂め伏す義。これは真言の体。阿字は本不生。長声の第二の字は金剛三昧。また不動の点を",
+          "context_position": 4838,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "纜〔中の囉字は塵なき義、一点を加えるは大空に入り証す〕。この真言の意はいわく、体は如々において、この自在の力で一切の塵垢の障",
+          "context_position": 4995,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "を発し生じ、多くの垢を除き去るのである。もし衆生があってこの真言の門に入れば、久しからずしてかの菩薩の徳に同じくなる。およそ",
+          "context_position": 5221,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "終わって、その心よりさまざまな光を出し、光のなかにこの法門の真言を現じるのである。薩嚩怛他竭多〔すなわち一切如来、いわく十方",
+          "context_position": 5453,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "るのは大空の義。いわく、二つの障りを除いて大空を得る〕娑字は真言の種子の体である。娑は不動の義である。不動・住・動の法は、す",
+          "context_position": 6081,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "この普眼三昧より生じる〕多隷多唎尼〔多隷は度の義。しかもこの真言は、初めの多字を体とする。両つの多字のなかの初めの字である〕",
+          "context_position": 6584,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "害う」とは、すなわち一切の障りを破ることである。しかも、この真言は多囉字を体とする。諸字はみなこれを釈すためである。多は如々",
+          "context_position": 7280,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "る。すなわち摩利儞というのは、処の義、住の義〕。しかも、この真言は初めの怛字を体とする。すなわち如々である。如々はすなわち諸",
+          "context_position": 8002,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〕佉陀〔これは噉い食う義、いわく諸々の障りを噉う。しかもこの真言は佉字を体とする。佉字は空。傍らの角の点は行。陀は授け与える",
+          "context_position": 8200,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "るのである。この菩薩は蓮華部を明かすのである。次に地蔵菩薩の真言である。時に菩薩は不可壊金剛行三昧に入る。金剛とは、すなわち",
+          "context_position": 8517,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "これに依って進み行くのは、金剛の行である。訶訶訶〔上の訶字は真言の体。訶は行の義、また笑の義。阿字門に入れば、すなわち喜を離",
+          "context_position": 8607,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "は摧き破る義、摩羅は魔の眷属である。いわゆる四魔である。この真言は摩字を体とする。すなわち大空の義である。この大空を証して、",
+          "context_position": 8968,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "念じる、憶え念じる〕鉢羅底若〔さきに立てたところの願〕。この真言の意はいわく、童子で解脱の道に住する者を醯として、もとより立",
+          "context_position": 9109,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "えるから、自在の力でかえって生死において衆生を救い度す。この真言の意もまたそうである。この童子は久しくすでに法身成仏したから",
+          "context_position": 9240,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "穴を尽くして法界に入れ、金剛界に帰せさせる〕吽〔引〕、これは真言の体である。畏れなき〔無怖畏〕義である。訶は行である。上の一",
+          "context_position": 9720,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "る。この勝るものなき生を、また甘露生と名づける。次に金剛鎖の真言である。畔陀畔陀也であって、この嚩字は、いわく下に娜字がある",
+          "context_position": 10238,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "い。金剛の縁とは、すなわち隙間なき真如〕。次に忿怒月壓金剛の真言である。纐唎〔二合〕。上の纐唎字を心とする。纈唎は摂め召す義",
+          "context_position": 10736,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ち一切の魔の障りを呵り叱って、滅し没せさせる〕。次に金剛針の真言である。薩縛達摩〔一切法。上の薩字を種子とする〕抳鞞陀儞〔こ",
+          "context_position": 11006,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "る。いわゆる無明を穿ち徹し、実相の際に至る。次に一切持金剛の真言である。時に十の仏刹の塵の数の金剛が、同じく金剛無勝三昧に入",
+          "context_position": 11175,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "い。またみずからの心において不思議の光を出し、光のなかにこの真言を現じる。まさに知るべきである、他の眷属もそれに准じてあると",
+          "context_position": 11256,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "うごとくである。すなわちその義である。次に諸々の奉教者がこの真言を説くのである。これはいわく、もっぱら本尊のかたわらにいて、",
+          "context_position": 11604,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ものである。また上の諸々の金剛に同じく大金剛無勝三昧に入って真言を説く。これは一切の諸部の奉教である。同じくこの真言を用いる",
+          "context_position": 11683,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "に入って真言を説く。これは一切の諸部の奉教である。同じくこの真言を用いるのである。醯醯〔上の醯字は種子。また呼び召す義〕。こ",
+          "context_position": 11709,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "り終わって、その面の前よりさまざまな光を出す。光のなかにこの真言を現じ、さらにはあまねく一切の仏刹にゆきわたる。他の真言もま",
+          "context_position": 12436,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "この真言を現じ、さらにはあまねく一切の仏刹にゆきわたる。他の真言もまさに知るべきである。みなこのように説くのである。薩縛訖隷",
+          "context_position": 12464,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "から無等と名づける。すなわち権を施す〔施権〕意である〕。この真言の初めの薩字を体とする。娑は漏の義である。またこれは堅の義で",
+          "context_position": 12763,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "在を得てよく一切の堅く牢いものを破ることでなかろう。次に毫相真言とは、これは如来の無量の功徳が成就したところで荘厳する。これ",
+          "context_position": 13056,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "のである。これは釈迦の眷属である。また宝処三昧に入って、この真言を説くだけである。皤囉提〔願を与える〔与願〕。よく一切衆生の",
+          "context_position": 13146,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "菩薩の髻の形につくるのを異とする。また宝処三昧に住して、この真言を説く。鑁鑁鑁〔上の第一字を種子とする。これは縛の義。阿字門",
+          "context_position": 13532,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "諸仏の解脱である。すなわち、仏不共法の頂に入る。次に無能勝の真言は、これは釈迦の眷属である。また宝処三昧に入って、上のように",
+          "context_position": 13816,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "は、これは釈迦の眷属である。また宝処三昧に入って、上のように真言を説く。これは釈迦の化身である。その無量の自在の神力を隠して",
+          "context_position": 13848,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "義である。次に無能勝明妃である。女の形につくるのである。この真言を説く時、三昧に入ることは前に説くとおりである。阿波〔入〕囉",
+          "context_position": 14285,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "昧の力によるのである。第三字を種子とするのである。次に地神の真言である。地はよく万物を持つ。一切の万物はこれによって生じ長じ",
+          "context_position": 14466,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "と。なお如来の心はよく万物を持つように、深く持本三昧に入って真言を説くのである。またこれは釈迦の方便の化身であるだけである。",
+          "context_position": 14553,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "るだけである。鉢㗚〔二合〕體毘曳〔地神の名。すなわちかの名で真言とする。もし人が誦し持ち修め習えば、久しからずしてまた如来の",
+          "context_position": 14608,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "人が誦し持ち修め習えば、久しからずしてまた如来の心地を得る。真言の第三の字を種子の字とする。これは言説を離れる義。なかに伊の",
+          "context_position": 14646,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〕。翳は三昧である。またこれは物を指す声である。すなわちかの真言の体を指すのである。この言を離れる心地三昧によるから、繋ぎを",
+          "context_position": 14805,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "れは仏の化身である。三昧は前に同じ。毘瑟紐費〔すなわち本名で真言とする〕。第一字を種子とする。毘は空の義、瑟紐は運の義・生の",
+          "context_position": 14923,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "化身である〔また伊名那と名づける〕。嚕駄囉也〔すなわち本名で真言とする〕。嚕字を心とする。駄は授け与える義である。なおみずか",
+          "context_position": 15099,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "からこの三昧を得て、さらにそれで人に施すのである。次に風神の真言、またこれは仏の化身である。三昧は前のようである。皤〔平〕也",
+          "context_position": 15255,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ある。三昧は前のようである。皤〔平〕也吠〔平、すなわち本名で真言とする〕。皤字を体とする。これは縛の義である。阿字門に入れば",
+          "context_position": 15298,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〔速疾無比〕である。字門の体は種子の字である〕。次に焔魔王の真言である。またこれは仏の化身である。毘縛薩縛多也〔またもとの名",
+          "context_position": 15980,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ある。またこれは仏の化身である。毘縛薩縛多也〔またもとの名で真言とする。初めの字を体とする。さらにこれを問え。いわゆる縛なき",
+          "context_position": 16013,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "て進み行く者は、すなわち去って正覚に乗るのである。次に死王の真言である。これは閻羅明王である。また大悲発生漫荼羅を成就するた",
+          "context_position": 16224,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "た大悲発生漫荼羅を成就するために、通達するところに随ってこの真言を説く。没㗚底〔二合〕吠〔これはすなわち死の義。死は殺の義、",
+          "context_position": 16272,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "切衆生を殺すのではない。初めの没字を種子とする。次に黒夜神の真言である。これはすなわち閻羅の侍后である。迦羅〔引〕囉〔すべて",
+          "context_position": 16500,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の長き夜の諸々の障りの垢の怖れ畏れを除こうとするために、この真言を説く。次に閻羅王の七母である。七人の姉妹がある。この七母の",
+          "context_position": 16635,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ある。この七母の名は、他の経に准ずべきである。みなもとの名で真言とする。今、総じて説けば左のとおりである。摩怛哩〔二合〕弊〔",
+          "context_position": 16689,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "舎摩他〔止〕である。つねに深い言葉で諸天を利益するから、心を真言とする。またこれは仏の化生である。次に嚩嚕拏龍王の真言である",
+          "context_position": 17047,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "、心を真言とする。またこれは仏の化生である。次に嚩嚕拏龍王の真言である。これは大海のなかの龍である。諸々の龍王はこの真言に同",
+          "context_position": 17074,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "王の真言である。これは大海のなかの龍である。諸々の龍王はこの真言に同じである。阿半〔脯其の反。水〕鉢多〔主〕也〔助声〕。水中",
+          "context_position": 17102,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "得るから、水主と名づける。初めの阿字を種子とする。次に梵天の真言である。かの大悲胎蔵を成じようとするために、また上のように説",
+          "context_position": 17171,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "というのは生主である。またこれは仏の化身である。次に日天子の真言である。阿〔本不生〕地〔与〕多耶〔日〕。初めの阿字を種子とす",
+          "context_position": 17389,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ある。世人は日を、つねに衆生を利益する者とする。次に月天子の真言である。戦〔不死〕達羅〔すなわち月の名。初めの字を体とする〕",
+          "context_position": 17515,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "露の味は、浄月三昧に過ぎることがないのである。次に諸々の龍の真言である。前は龍王であって、これは一切の諸々の龍、これは通じて",
+          "context_position": 17663,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "義である。無我である。次に難陀・跋難陀という門を守る二龍王の真言である。難徒〔初めの難字を体とする。これは観の義。観にそくし",
+          "context_position": 17833,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "な宝処三昧に住して、仏の化身で大悲蔵を成就しようとするために真言を説く。時に毘盧遮那仏は、みずからの教えの迹の不定の悉地〔教",
+          "context_position": 18032,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "仏に同じくなるから不空というのである。上のように諸々の菩薩の真言を説いたのは、それぞれ同類の行者を引き摂すと思う。もし修行が",
+          "context_position": 18259,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "れば、すなわちわたしに同じくなれる。今、法仏はみずから明妃の真言を説く。もし修行があれば、すなわち虚空眼より法身を生じること",
+          "context_position": 18322,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〔不空なる者。帰命するところ、わたしが帰命するものとする〕。真言に「あまねき諸仏に帰命する〔帰命普遍諸仏〕」とは――一切の名",
+          "context_position": 18738,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "なす者を息めるために、火生名三昧を証し、この大いに障りを摧く真言を説く。これに威の勢いがあって、よく一切の真言を修める者のさ",
+          "context_position": 18911,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "いに障りを摧く真言を説く。これに威の勢いがあって、よく一切の真言を修める者のさまざまな障りや難を除く。さらには仏が道の樹にあ",
+          "context_position": 18934,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "まざまな障りや難を除く。さらには仏が道の樹にあった時も、この真言によって一切の魔軍は散り壊れないことがなかった。まして世間の",
+          "context_position": 18973,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "極めて内外の二つの障りを怖れさせる義である。右、聖者不動主の真言を畢える。次に降三世明王の真言である。これは毘盧遮那如来の法",
+          "context_position": 19842,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "せる義である。右、聖者不動主の真言を畢える。次に降三世明王の真言である。これは毘盧遮那如来の法幢高峰観加持三昧に住すること、",
+          "context_position": 19857,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "せ、障りを尽くさせて、法身の仏にひとしくなる〕。しかも、この真言は、この帝隷字を体とする。上に多の声がある。すなわち如々の義",
+          "context_position": 20818,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ば、定と慧がともに足りるから、よく三世を降伏する。次に声聞の真言である。醯都〔因〕鉢囉〔二合〕底也〔二合、縁〕毘掲多〔離〕羯",
+          "context_position": 20968,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "法仏が大悲の願力で有情を利すために、三昧のなかで声聞・縁覚の真言を現じるのである。もし衆生があって、この法で道に入るべき者に",
+          "context_position": 21325,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "べき者には、この門より大悲蔵に入れさせるのである。次に縁覚の真言である。縛〔言語の道断える義。すなわち上に説くところのとおり",
+          "context_position": 21383,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "で他を利するのである〕。上の説のように、声聞・縁覚は句の法で真言とする。今は一字でするのは、これは宗の極みの要である。すなわ",
+          "context_position": 21512,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の修行の住処であるから一字を用いるのである。次に諸仏菩薩心の真言である。薩嚩勃駄〔一切の仏〕菩提薩埵〔菩薩〕訶㗚〔二合〕娜耶",
+          "context_position": 21581,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "る。すなわち本不生の義である。次に普く世間の天など諸々の心の真言である。嚕迦嚕迦〔世間。すなわち闇く冥い義。いわゆる無明。こ",
+          "context_position": 21908,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "たぐいなき義である〕。最初の路字を種子とする。次に一切諸仏の真言である。薩嚩他〔一切〕毘末底〔慧なし〔無慧〕。慧がないから、",
+          "context_position": 22339,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の義がある。訶はすなわち行。いわゆる如来の行〕。次に守護者の真言である。これはすなわち越えられない〔不可越〕。正しくは難持〔",
+          "context_position": 22696,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "い。教え勅すを瞻て受けるべき義〕。次に相い対する門を守る者の真言の真言である。醯〔呼び召す〕摩訶鉢㗚〔二合、極〕戦荼〔大いに",
+          "context_position": 23279,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "え勅すを瞻て受けるべき義〕。次に相い対する門を守る者の真言の真言である。醯〔呼び召す〕摩訶鉢㗚〔二合、極〕戦荼〔大いにいきど",
+          "context_position": 23282,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "なわち大いにいきどおる義である。次に大きな界を結ぶ〔結大界〕真言である。仏の説くところのごときは、さらに無量の持明〔陀羅尼〕",
+          "context_position": 23603,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ときは、さらに無量の持明〔陀羅尼〕がある。おそらくは、さらに真言を持つ者などがあって結び護らないために、よく法事を破り、持誦",
+          "context_position": 23648,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "なかで勝れたるとする。すなわち敗れ壊せない〕薄伽伐底〔これは真言の主。世尊の徳をたたえる〕毘倶隷〔除く。よく垢を除く。初めに",
+          "context_position": 24403,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "用い、すなわちこれを通じて用いられるだけである。およそ諸々の真言のなかに随って、初・中・後のなかの字を取り用いて種子とする。",
+          "context_position": 28056,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "られるのである〔観察して宗の要の字を取るべし〕。次に浄居天の真言である。摩拏囉〔意が悦ぶ。さまざまな楽を受けるから〕達磨三婆",
+          "context_position": 28121,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "空に同じ。極めて空にさせる。それゆえ字を重ねる〕。次に羅刹の真言である。すなわちかの方言を用いて真言とする。吃嚂〔心〕計履〔",
+          "context_position": 28321,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "字を重ねる〕。次に羅刹の真言である。すなわちかの方言を用いて真言とする。吃嚂〔心〕計履〔三字とあわせてはじめて種子。なかに二",
+          "context_position": 28339,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "醫字は三昧。重ねて説くのは、重ねて浄めること〕。次に荼吉尼の真言である。これは、世間にこの諸々の術をなす者がいる。また自在に",
+          "context_position": 28431,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "たしはどうしてこれを得ましょう」。仏がいう、「あなたのために真言の法および印を説く。六月まだ死なないうちに、すなわちよくこれ",
+          "context_position": 29243,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "うことを聴す」。このようにやや引いて道に入れさせるから、この真言がある。訶唎〔二合、訶は定、行。唎は垢〕訶〔行〕。かの邪なる",
+          "context_position": 29363,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "は垢〕訶〔行〕。かの邪なる術の垢を除くのである。次に薬叉女の真言である。よく世間を噉い、よく諸々の業の垢などの悪を食う。これ",
+          "context_position": 29412,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "という。これはかの方言を用いて呪をなすのである。次に毘舍遮の真言である〔訳すればこれは極めて苦しみ楚る〔極苦楚〕義。この輩は",
+          "context_position": 29543,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "一義。滅〕。またこれはかの方言に随ってこれをなす。次に部多の真言である。これは夜叉の類である。喁〔去、空〕縊〔定〕喁縊〔極〕",
+          "context_position": 29635,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "縊〔定〕喁縊〔極〕瞢〔我〕散〔堅〕寧〔空、定〕。次に阿修羅の真言である。それぞれ種子の字とする。随ってそれを取るのである。囉",
+          "context_position": 29688,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "藍〔相。いわく、生死〕蘖〔縛〕囉〔垢〕藍〔相〕。次に緊那羅の真言である。訶〔喜〕佉〔行〕散〔堅。いわゆる我執〕難〔空。また空",
+          "context_position": 29892,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ずから得終わって、またよく人に与えるのである。次に諸々の人の真言である。それぞれこれは種子の字である。壹〔定〕車〔去、影像。",
+          "context_position": 30064,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "これは空〕麼〔空〕曵迷〔乗、人、定〕莎訶〔上に同じ〕。諸々の真言の別の相を了える。次に毘盧遮那真言の心を説く、とは――上のよ",
+          "context_position": 30179,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〕莎訶〔上に同じ〕。諸々の真言の別の相を了える。次に毘盧遮那真言の心を説く、とは――上のような諸々の真言などは、一々のなかに",
+          "context_position": 30196,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "了える。次に毘盧遮那真言の心を説く、とは――上のような諸々の真言などは、一々のなかに随って、すなわち根本真言・心真言・随心真",
+          "context_position": 30216,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "上のような諸々の真言などは、一々のなかに随って、すなわち根本真言・心真言・随心真言があるので、このようなものは無量無辺で数を",
+          "context_position": 30238,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "な諸々の真言などは、一々のなかに随って、すなわち根本真言・心真言・随心真言があるので、このようなものは無量無辺で数を知るべか",
+          "context_position": 30242,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "言などは、一々のなかに随って、すなわち根本真言・心真言・随心真言があるので、このようなものは無量無辺で数を知るべからず。今、",
+          "context_position": 30247,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "このようなものは無量無辺で数を知るべからず。今、総じて諸々の真言の心を説けば、すなわちこの阿字がこれである。これは諸法本不生",
+          "context_position": 30285,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "すなわち他の字がない。すなわち諸字の母である。すなわち一切の真言の生じる処である。いわく、一切の法門および菩薩などは、みな毘",
+          "context_position": 30364,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "生〔即体不生〕であること、阿字の法体に同じである。この字は、真言のなかで最も上妙とする。それゆえ、真言の行者はつねにまさにこ",
+          "context_position": 30490,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "同じである。この字は、真言のなかで最も上妙とする。それゆえ、真言の行者はつねにまさにこのように受持すべきである。それゆえ、一",
+          "context_position": 30509,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "者はつねにまさにこのように受持すべきである。それゆえ、一切の真言は阿字に住す。なおここに住するから、これを誦せばすなわち生じ",
+          "context_position": 30543,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "こに住するから、これを誦せばすなわち生じるのである。右、普通真言蔵品を了える。このなかの真言は、一切の処に通じて用いよ。下の",
+          "context_position": 30585,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "すなわち生じるのである。右、普通真言蔵品を了える。このなかの真言は、一切の処に通じて用いよ。下の諸法のなかは、それぞれ別の行",
+          "context_position": 30599,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "げてこれに答えるから、間をおかずみずから説く〔無間自説〕。「真言の教えの法のとおりにすれば、かの果を成就する」とは――いわく",
+          "context_position": 30743,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の教えの法のとおりにすれば、かの果を成就する」とは――いわく真言の行人が法の教えのとおり、正しい教えに依って法の行を修すれば",
+          "context_position": 30775,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "字にそれぞれ字の義がある。この字より実相の門に入る。すなわち真言の字である。またこの諸字を合わせて句を成す。すなわち句の義で",
+          "context_position": 31013,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "である。この句はまさに実相の体をあらわす〔詮ず〕。それゆえ、真言を持つ行者は、かならず字々と相応し、句々と相応させよ。あるい",
+          "context_position": 31074,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "応し、句々と相応させよ。あるいは心の種子の字に住し、あるいは真言を想って輪の像に成し、あるいは鬘の形のようにし、あるいは珠を",
+          "context_position": 31121,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "い。このように現の前にすること、明らかに了らせ終わって、この真言の輪を想え。明るく白いことは清らかな乳のようである。次第に流",
+          "context_position": 31220,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "本尊とし、おのが処においてなす」とは――またまさに字々句々に真言の声を観じ想うべきである。前のように次第に相続し、輪のように",
+          "context_position": 32018,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "らおのが身は本尊に同じと観じ、内も外も明らかに了らせる。字の真言の観は、すなわち真言の身である。声の真言の観は、すなわち真言",
+          "context_position": 32316,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "じと観じ、内も外も明らかに了らせる。字の真言の観は、すなわち真言の身である。声の真言の観は、すなわち真言の主である。句の義の",
+          "context_position": 32326,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "らかに了らせる。字の真言の観は、すなわち真言の身である。声の真言の観は、すなわち真言の主である。句の義の観は、すなわち真言の",
+          "context_position": 32336,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "真言の観は、すなわち真言の身である。声の真言の観は、すなわち真言の主である。句の義の観は、すなわち真言の体である。すなわち真",
+          "context_position": 32346,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の真言の観は、すなわち真言の主である。句の義の観は、すなわち真言の体である。すなわち真言の心である。「句」とは、義の趣の帰り",
+          "context_position": 32365,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "言の主である。句の義の観は、すなわち真言の体である。すなわち真言の心である。「句」とは、義の趣の帰り趣くところの処である。す",
+          "context_position": 32377,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "じ、念に従って至り、問いに従って答える。そののちに、世を出る真言を修め学ぶ行に入る。このようでなければ、いたずらにその功を空",
+          "context_position": 32725,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "これにいう、「もし法を見る者は、すなわち果を成じる。そもそも真言の果とは、すなわち一切種の慧を具える。わたしは昨日、偈頌をつ",
+          "context_position": 33783,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "。このように念々にめぐりめぐって窮まりがない。すなわちこれが真言の行人の出入の息である。このように出入の息は、身心に流れそそ",
+          "context_position": 34831,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "。すなわち六根清浄を究め尽くし、種智を成じるのである。「よく真言に住する者は、次に一月念誦すべし」とは――いわく一月のなかに",
+          "context_position": 35543,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "かには、両字の深い義を釈すという。「このように両月において、真言はまさに無畏なるべし」とは――すなわち悉地に及ぶ義である。今",
+          "context_position": 36797,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法界",
+      "term_kana": "",
+      "sanskrit": "dharma-dhātu",
+      "definition": "宇宙の真実相。一切法の根本領域。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "界"
+      ],
+      "occurrence_count": 40,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "な画と色などは、もし法に依って疑わなければ、すなわちよく深く法界の不思議の境に入る。これはただ信じる者だけが入れる。もし心の",
+          "context_position": 770,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "し〔稽首し〕、大悲胎蔵生の大漫荼羅王において通達するところの法界清浄門のように、それぞれ広く語句の真言を説きたいと願って、仏",
+          "context_position": 1904,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "るために、それぞれ大日如来を稽首し終わって、自心において清浄法界の法門を通達するので、それぞれみずからこれを陳べ説きたいと願",
+          "context_position": 2001,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "きたいと願うのである。そのゆえは、このような大曼荼羅王は清浄法界の体である。この一々の菩薩は、それぞれ一つの門より自在を得て",
+          "context_position": 2058,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "無尽法爾の加持〕で告げる。「諸々の善男子よ、通達するところの法界のように、衆生界を浄め除く真言句を説け」とは――時に仏がかれ",
+          "context_position": 2289,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "。「善男子よ、今これを説け。あなたがみずから通達するところの法界の門のように、一切衆生界の虚妄の句を浄め除き、ことごとくかの",
+          "context_position": 2581,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "のように、一切衆生界の虚妄の句を浄め除き、ことごとくかの真の法界の無尽蔵に同じくさせようとするために、それぞれまさにみずから",
+          "context_position": 2615,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ある。いわく、仏は善逝にして正覚を成じる。しかも、この平等の法界は行もなく到もない〔無行無到〕。どうして来去があろう。次に釈",
+          "context_position": 3286,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の心を説く、とは――「普」はいわく平等である。「遍」は一切の法界に満ちることである。法界においてかなって大慈を生じ、よくあま",
+          "context_position": 3662,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "」はいわく平等である。「遍」は一切の法界に満ちることである。法界においてかなって大慈を生じ、よくあまねく一切衆生に正法の楽を",
+          "context_position": 3674,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "のもとの性が清浄である〔本性清浄〕ことを知り、このような清浄法界の境に了り達する。すなわち大空の秘めた蔵〔大空の秘蔵〕である",
+          "context_position": 4277,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ち諸仏第一の威猛にして、世間を残ない害い、その巣穴を尽くして法界に入れ、金剛界に帰せさせる〕吽〔引〕、これは真言の体である。",
+          "context_position": 9696,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ぶからである。あまねく一切の処でかれを結ぶとは、すなわちかの法界の体に結ぶのである。一点はあまねく一切の処の義、すでに法界の",
+          "context_position": 10449,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の法界の体に結ぶのである。一点はあまねく一切の処の義、すでに法界の金剛の体を了り達して、かれを結んで壊させないのが結護の義で",
+          "context_position": 10478,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "陵。初めの字を体とする。初めの第一の地陵字を種子とする。陀は法界の義である。羅は塵障や諸々の垢の義である。もし阿字門に入れば",
+          "context_position": 13952,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "垢の義である。もし阿字門に入れば、すなわち塵障なし。すなわち法界である。まさに知るべきである、法界に同じだから、さらにどの処",
+          "context_position": 13998,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "すなわち塵障なし。すなわち法界である。まさに知るべきである、法界に同じだから、さらにどの処に塵があろう。これはすなわち大空の",
+          "context_position": 14015,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "て、飽き足ることがない。提鉢底曵〔提字に駄の声あり。すなわち法界。伊を加えるのは三昧。いわゆる法界三昧である。鉢底を住と名づ",
+          "context_position": 15821,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "提字に駄の声あり。すなわち法界。伊を加えるのは三昧。いわゆる法界三昧である。鉢底を住と名づける。この法界三昧に住するのを名づ",
+          "context_position": 15838,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "るのは三昧。いわゆる法界三昧である。鉢底を住と名づける。この法界三昧に住するのを名づけて妙住とする。一切の垢障はすなわち法界",
+          "context_position": 15858,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "法界三昧に住するのを名づけて妙住とする。一切の垢障はすなわち法界であると観じて法界に入るのは、すなわちよく腹に噉い入れる義で",
+          "context_position": 15888,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "を名づけて妙住とする。一切の垢障はすなわち法界であると観じて法界に入るのは、すなわちよく腹に噉い入れる義である。最後の曵字は",
+          "context_position": 15897,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "除き棄てるのを名づけて除き棄てるとするようなもの〕逹摩駄都〔法界。いわく、一切の慧なきを除いて、みな法界に住させる〕涅闍多〔",
+          "context_position": 22455,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "うなもの〕逹摩駄都〔法界。いわく、一切の慧なきを除いて、みな法界に住させる〕涅闍多〔生。この涅字はすなわち大空三昧。これより",
+          "context_position": 22475,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "生。この涅字はすなわち大空三昧。これより生じるのは、すなわち法界生〕参参訶〔この三字はみな種子。薩は堅の義、なおこの堅固を除",
+          "context_position": 22517,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "沙〔これはその名。すなわち越え視られない〔不可視越〕義。達は法界。囉の声があるのは無垢。奢はすなわち奢摩他〕摩訶嚕瑟拏〔大い",
+          "context_position": 23060,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "に、よく法事を破り、持誦の人を損なうから、結界の法を設ける。法界によるから、さらには諸々の持明もまた破り壊せない。比丘が結界",
+          "context_position": 23698,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "よく壊せない〕駄迦駄迦〔光の威。光の威によって界を成す。駄は法界。迦は作。いわく、法界の体は諸々の作を離れている。作を離れて",
+          "context_position": 24027,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〔光の威。光の威によって界を成す。駄は法界。迦は作。いわく、法界の体は諸々の作を離れている。作を離れている、すなわち法界〕遮",
+          "context_position": 24038,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "く、法界の体は諸々の作を離れている。作を離れている、すなわち法界〕遮囉遮囉〔遮は滅の義。いわく、生滅し遷り移る。囉は垢の障り",
+          "context_position": 24066,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "に同じだから点を加える〕嚂〔一切の仏・菩薩はみなこのなかより法界に来る。囉は垢。上に点があるのは、垢を離れて大空に同じ。これ",
+          "context_position": 25360,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "来る。囉は垢。上に点があるのは、垢を離れて大空に同じ。これは法界の義〕欠〔大いに勤め勇む〔大勤勇〕種子。仏の道場に坐し諸魔を",
+          "context_position": 25393,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "実の法の味で一切の願を満たす〕。次に除一切悪趣である。特瞢〔法界、縛〕娑難〔上のごとし。結びの句は破り摧く義。人が手に物を執",
+          "context_position": 26890,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "いう。この慧に安んじ住すること、なお金剛山のごとし。定〕地〔法界〕室唎〔止め定める、無垢〕唅〔行、空〕没藍〔縛、垢、空〕。こ",
+          "context_position": 27776,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "る。薬〔乗〕吃叉〔言語断える。定〕尾〔施。乗〕儞夜〔乗〕達〔法界〕履〔無垢。定〕。句の義に、夜叉の明の心を持つ〔持夜叉明心〕",
+          "context_position": 29481,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "取るのである。囉〔垢〕吒〔戦〕囉吒〔重ねて言う〕唎瞢〔二合、法界〕躭〔如々。なお空のごとし〕没囉〔二合〕波囉〔言語の道断える",
+          "context_position": 29742,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "心である。一々の字はすなわち実相の門に入ることによって、みな法界の体を得る。いうところの「字」とは、梵語では阿刹藍という。阿",
+          "context_position": 31834,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "塗香・花などを奉るべし」とは――いわくよく一つの花であまねく法界にゆきわたる。さらには願力の因縁でよく衆生の苦悩を除く。あま",
+          "context_position": 36611,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "了らないことがないように、この法性の山もまたそうである。下は法界を観じるに、円かに照らして礙りがない。「牛の欄」とは――牛は",
+          "context_position": 37279,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "わゆる三業の尽きることなき荘厳の蔵より奮い起こし示し現して、法界の衆生を成就するのである。仏法はおのずからなる〔法爾〕。まず",
+          "context_position": 38096,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "阿字",
+      "term_kana": "",
+      "sanskrit": "a-kāra",
+      "definition": "密教根本字。梵語五十字門の最初の字。本不生を象徴。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 33,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "く、よく衆生の諸々の根性と行を了知する〕。しかも、この真言は阿字を体とする。すなわち本不生の義である。「生」とは、生老病死の",
+          "context_position": 3901,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の法である。それは体がつねにみずから生じない〔不生〕。これが阿字の義である。諸法の自性は不生だと知るから、それゆえ諸々の一切",
+          "context_position": 3968,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の大悲である。阿〔引、降伏の義。摂め伏す義。これは真言の体。阿字は本不生。長声の第二の字は金剛三昧。また不動の点を加えるのは",
+          "context_position": 4843,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "うのである。またおよそ諸字を次第にたがいに釈する時、もしまず阿字があれば、次の字でみなこれを転じて釈す。上の字門のなかに准ぜ",
+          "context_position": 5331,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "またそうである。まったく大悲を体とする〕囉囉囉〔囉は塵の義、阿字門に入ればすなわち塵なし。三重なのは、いわく凡夫と二乗の塵障",
+          "context_position": 5636,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〔これは生の義。二重なのは、上は煩悩の障り、次は所知障の主。阿字門に入れば、この二つの生は体をあげてみな不生。上に点があるの",
+          "context_position": 6021,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "字のなかの初めの字である〕。多は如々の義である。傍らの一点は阿字である。いわゆる如々の行である。囉字は塵である。六塵はすなわ",
+          "context_position": 6633,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "である。訶訶訶〔上の訶字は真言の体。訶は行の義、また笑の義。阿字門に入れば、すなわち喜を離れる。喜とはすなわち生滅の法。三つ",
+          "context_position": 8624,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の薩字を体とする。娑は漏の義である。またこれは堅の義である。阿字門に入れば、すなわち漏なく堅なし〔無漏無堅〕である。もし堅く",
+          "context_position": 12798,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "堅く牢いものがあれば、すなわち生滅し壊れ破れる法である。もし阿字に同じくさせれば、この堅は本来不生である。すなわち諸法のなか",
+          "context_position": 12858,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の真言を説く。鑁鑁鑁〔上の第一字を種子とする。これは縛の義。阿字門に入れば、すなわち縛なき義。また縛は言語の道断える〔言語道",
+          "context_position": 13561,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "する。陀は法界の義である。羅は塵障や諸々の垢の義である。もし阿字門に入れば、すなわち塵障なし。すなわち法界である。まさに知る",
+          "context_position": 13977,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "わち本名で真言とする〕。皤字を体とする。これは縛の義である。阿字門に入れば、これは縛なき〔無縛〕義である。すなわち解脱である",
+          "context_position": 15323,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ば、これは縛なき〔無縛〕義である。すなわち解脱である。傍らに阿字の点がある。すなわち行である。第三の吠字は、言説なき義である",
+          "context_position": 15359,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "である。もし堅く住すれば、すなわち生・住・異・滅の相がある。阿字に入れば本来堅なし。すなわち成も壊もないからである。残りの字",
+          "context_position": 15559,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "がある。也字は乗である。この如々の乗に乗って進み行く。傍らに阿字の点がある。すなわち行である。如々に乗って進み行く者は、すな",
+          "context_position": 16172,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〔助声〕。水中において自在を得るから、水主と名づける。初めの阿字を種子とする。次に梵天の真言である。かの大悲胎蔵を成じようと",
+          "context_position": 17157,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "に日天子の真言である。阿〔本不生〕地〔与〕多耶〔日〕。初めの阿字を種子とする。すなわち本不生の義である。みずからこの理に通達",
+          "context_position": 17414,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "義はみなこれを成就するのである。初めに戦荼とは、戦は死の義、阿字門に入れば、すなわちもとより生死なき義である。荼は戦の義、こ",
+          "context_position": 19245,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "あるから、すなわち諸々の四魔と戦うのである。次の摩は我の義、阿字門に入れば、すなわち無我である。またこれは空である。訶は喜の",
+          "context_position": 19322,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "った泡〔聚沫〕のようだと了知するから、破り敗りやすい。傍らに阿字の点があるのは、すなわち行である。吒は戦の義、よく敵の障りを",
+          "context_position": 19509,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "動の行で大いに一切の魔の障りを怖れさせる。鑁字の麼は我の義、阿字門に入れば、すなわち無我である。またこの大空無我三昧で衆の魔",
+          "context_position": 19713,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "。上に空あり。すなわち如々が得られずして大空に同じ〕吽〔行。阿字に入ればすなわち行も行なし。また空〕微〔第一義に入る。第一義",
+          "context_position": 26204,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〔垢〕娑難〔上のごとし。この字の義によるから畏れがある。もし阿字門に入れば、よく一切の畏れを除く。総じての句は味。無上真実の",
+          "context_position": 26830,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "知るべからず。今、総じて諸々の真言の心を説けば、すなわちこの阿字がこれである。これは諸法本不生の義である。もし阿の声を離れれ",
+          "context_position": 30300,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の事を現じる。よくまことにそく体不生〔即体不生〕であること、阿字の法体に同じである。この字は、真言のなかで最も上妙とする。そ",
+          "context_position": 30473,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ねにまさにこのように受持すべきである。それゆえ、一切の真言は阿字に住す。なおここに住するから、これを誦せばすなわち生じるので",
+          "context_position": 30546,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "を浄め除き終わって、まず持誦の法をなせ」とは――いうところの阿字とは、一切の種子はみな阿字より生じるからである。もし種子の相",
+          "context_position": 35129,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "誦の法をなせ」とは――いうところの阿字とは、一切の種子はみな阿字より生じるからである。もし種子の相を観じる時は、すなわち阿を",
+          "context_position": 35142,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "。もし並べて観じれば、すなわち二つの相がある。それゆえ、ただ阿字を観じて一切の種子とせよ。一切法は阿字門を出ないからである。",
+          "context_position": 35208,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "がある。それゆえ、ただ阿字を観じて一切の種子とせよ。一切法は阿字門を出ないからである。それゆえ、これをまず種子の別の想を観じ",
+          "context_position": 35227,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の別の想を観じるという。次にこのなかに至って、一々にあまねく阿字門に入るべきである。もし阿字門に入る時は、すなわち本不生の理",
+          "context_position": 35282,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "このなかに至って、一々にあまねく阿字門に入るべきである。もし阿字門に入る時は、すなわち本不生の理の体を見るのである。このよう",
+          "context_position": 35296,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大悲",
+      "term_kana": "",
+      "sanskrit": "mahā-karuṇā",
+      "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "occurrence_count": 16,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "を上首として、仏毘盧遮那において頭を地につけ礼し〔稽首し〕、大悲胎蔵生の大漫荼羅王において通達するところの法界清浄門のように",
+          "context_position": 1881,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "空の秘めた蔵〔大空の秘蔵〕である。またこの虚空蔵は、すなわち大悲胎蔵をよく長く養って菩提を成就する心である。阿〔長〕迦奢〔こ",
+          "context_position": 4323,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "よくこの蓋障のなかに住し、またよくこれを除く。すなわち如来の大悲である。阿〔引、降伏の義。摂め伏す義。これは真言の体。阿字は",
+          "context_position": 4814,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ち平等の観。すなわち普眼の観〕迦嚧尼〔悲〕麼也〔体。いわゆる大悲を体とする。ちょうど金の人〔金人〕がそれ自体まったく金である",
+          "context_position": 5554,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "名づけて金人とするように、この菩薩もまたそうである。まったく大悲を体とする〕囉囉囉〔囉は塵の義、阿字門に入ればすなわち塵なし",
+          "context_position": 5618,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "れ畏れも除かれ、みな大いに歓喜して、この言葉をなした。「この大悲者が、よくこのような大いなる力の威猛を現じたことは、はなはだ",
+          "context_position": 7808,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "仏している。いわゆる普見如来である。あるいは普現如来という。大悲加持の力で童子の身を示すのである。次に金剛手は大金剛無勝三昧",
+          "context_position": 9400,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "宝の洲〔宝洲〕となるのである。わたし〔阿闍梨〕がいう、釈迦は大悲の力が全体こまやかにつまっていることはちょうど金剛のようであ",
+          "context_position": 12940,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "るのである。次に死王の真言である。これは閻羅明王である。また大悲発生漫荼羅を成就するために、通達するところに随ってこの真言を",
+          "context_position": 16243,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "名づける。初めの阿字を種子とする。次に梵天の真言である。かの大悲胎蔵を成じようとするために、また上のように説くのである。捕囉",
+          "context_position": 17179,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "迦の眷属をことごとく了えた。みな宝処三昧に住して、仏の化身で大悲蔵を成就しようとするために真言を説く。時に毘盧遮那仏は、みず",
+          "context_position": 18017,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ころのとおりである。ただし、声聞の行を異とする。これは法仏が大悲の願力で有情を利すために、三昧のなかで声聞・縁覚の真言を現じ",
+          "context_position": 21298,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "る。もし衆生があって、この法で道に入るべき者には、この門より大悲蔵に入れさせるのである。次に縁覚の真言である。縛〔言語の道断",
+          "context_position": 21364,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "〕閻〔乗。これは去来の義。去来を離れるのは大空に同じ。これは大悲纒菩薩の種子の字。大悲によってみずからその心を纒う。それゆえ",
+          "context_position": 27112,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "義。去来を離れるのは大空に同じ。これは大悲纒菩薩の種子の字。大悲によってみずからその心を纒う。それゆえ名を得る〕縊〔除一切執",
+          "context_position": 27123,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "たそうである。よく妄想・分別の過ちを防ぎ、諸々の心地を浄め、大悲の水でこれを平等の地にそそげば、生じるところの功徳はおのずか",
+          "context_position": 37431,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "本不生",
+      "term_kana": "",
+      "sanskrit": "ādyanutpāda",
+      "definition": "一切法の本来不生不滅。阿字本不生の核となる教義。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 10,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "と行を了知する〕。しかも、この真言は阿字を体とする。すなわち本不生の義である。「生」とは、生老病死の一切の流転の法である。それ",
+          "context_position": 3913,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "衣を被ること〕。この真言は、阿〔長〕字を体とする。阿〔長〕は本不生の体である。今この阿〔長〕は第二の声、すなわち空の義である。",
+          "context_position": 4500,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の体である。今この阿〔長〕は第二の声、すなわち空の義である。本不生であるから虚空に同じである。すなわち、一切法はみな虚空にひと",
+          "context_position": 4533,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "である。阿〔引、降伏の義。摂め伏す義。これは真言の体。阿字は本不生。長声の第二の字は金剛三昧。また不動の点を加えるのは降伏の義",
+          "context_position": 4846,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ある。またこれは仏の化身である。次に日天子の真言である。阿〔本不生〕地〔与〕多耶〔日〕。初めの阿字を種子とする。すなわち本不生",
+          "context_position": 17397,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "本不生〕地〔与〕多耶〔日〕。初めの阿字を種子とする。すなわち本不生の義である。みずからこの理に通達して、人に授け与える。すなわ",
+          "context_position": 17427,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "三乗の人の行。この字の行は、すなわちこの三つの行が本来不生。本不生によるから、すなわちこの三昧の行を越える。これを仏の行とする",
+          "context_position": 20449,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "なる。正しくは、この阿の声を種子の体とするのである。すなわち本不生の義である。次に普く世間の天など諸々の心の真言である。嚕迦嚕",
+          "context_position": 21884,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "の真言の心を説けば、すなわちこの阿字がこれである。これは諸法本不生の義である。もし阿の声を離れれば、すなわち他の字がない。すな",
+          "context_position": 30314,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "まねく阿字門に入るべきである。もし阿字門に入る時は、すなわち本不生の理の体を見るのである。このように見終われば、すなわち三業に",
+          "context_position": 35309,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "遮那",
+      "term_kana": "",
+      "sanskrit": "Vairocana",
+      "definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "遮",
+        "那"
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十沙門一行阿闍梨〔善無畏三蔵の口述を一",
+          "context_position": 3,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "金剛手を上首とし、菩薩のなかでは普賢などを上首として、仏毘盧遮那において頭を地につけ礼し〔稽首し〕、大悲胎蔵生の大漫荼羅王に",
+          "context_position": 1861,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "仏の化身で大悲蔵を成就しようとするために真言を説く。時に毘盧遮那仏は、みずからの教えの迹の不定の悉地〔教迹不定悉地〕の一切菩",
+          "context_position": 18042,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "不動主の真言を畢える。次に降三世明王の真言である。これは毘盧遮那如来の法幢高峰観加持三昧に住すること、初めの序品のなかに説く",
+          "context_position": 19868,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "降三世とする。さらに、三世を名づけて三界とする。いわく、毘盧遮那如来は、始めに有頂より下の地に至るまで、上より下に向かって、",
+          "context_position": 20207,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "魔を伏すから、一切の天・人は号して大勤勇とする。すなわち毘盧遮那。佉は空の義、五の点は大空。大空で一切の空を浄める〕髯〔水自",
+          "context_position": 25453,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "なる極みにおいては摩訶迦羅に属す。いわゆる大黒神である。毘盧遮那は降伏三世の法門でかれを除こうとするために、化して大黒神とな",
+          "context_position": 28879,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "、定〕莎訶〔上に同じ〕。諸々の真言の別の相を了える。次に毘盧遮那真言の心を説く、とは――上のような諸々の真言などは、一々のな",
+          "context_position": 30194,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "生じる処である。いわく、一切の法門および菩薩などは、みな毘盧遮那のおのが体のおのが証る心〔自体自証の心〕より、衆生を利益しよ",
+          "context_position": 30397,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "法身",
+      "term_kana": "",
+      "sanskrit": "dharmakāya",
+      "definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "法",
+        "身"
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "して、もとより立てたところの願を憶え念じさせる。一切の諸仏は法身を成仏し、身口意の秘密の体に入る。一切の有心〔心あるもの〕は",
+          "context_position": 9163,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "い度す。この真言の意もまたそうである。この童子は久しくすでに法身成仏したから、それを請う。本願を憶えることで衆生を度す。けだ",
+          "context_position": 9264,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "すなわち諸仏の生である。金剛智より生じるのは、すなわち諸仏の法身の生である。『央掘経』に「この不生の身を生じる」というごとく",
+          "context_position": 11546,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "られない〔唐捐ならざる〕義である。かれの力の能に随って、みな法身の理に向かい、すなわちかの仏に同じくなるから不空というのであ",
+          "context_position": 18214,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ずから明妃の真言を説く。もし修行があれば、すなわち虚空眼より法身を生じること、わたしのようで異ならない。伽伽娜〔初めの字を心",
+          "context_position": 18346,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "ねく一切衆生の心に入り、これを目覚めさせ、障りを尽くさせて、法身の仏にひとしくなる〕。しかも、この真言は、この帝隷字を体とす",
+          "context_position": 20799,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大日",
+      "term_kana": "",
+      "sanskrit": "Mahāvairocana",
+      "definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "大",
+        "日"
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "菩薩と金剛が、この法を円かに成就しようとするために、それぞれ大日如来を稽首し終わって、自心において清浄法界の法門を通達するの",
+          "context_position": 1980,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "して、すなわちかの菩薩に同じくなれる。この諸々の菩薩は、みな大日如来の内に証る徳である。広くこの知見の門を開こうとするために",
+          "context_position": 2171,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "大空三昧",
+      "term_kana": "",
+      "sanskrit": "mahā-śūnyatā-samādhi",
+      "definition": "大空（一切法空）を観ずる三昧。密教の高次禅定。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "摩他、いわく三昧である。拏は空の義である。第五字は、すなわち大空三昧である。薩は堅の義、頗は沫〔あわ〕の義である。世間は聚まった",
+          "context_position": 19447,
+          "sanskrit_in_context": []
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol10",
+          "context": "を除いて、みな法界に住させる〕涅闍多〔生。この涅字はすなわち大空三昧。これより生じるのは、すなわち法界生〕参参訶〔この三字はみな",
+          "context_position": 22498,
+          "sanskrit_in_context": []
+        }
+      ]
+    },
+    {
+      "term": "三密",
+      "term_kana": "",
+      "sanskrit": "trīṇi guhyāni",
+      "definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "密"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "三摩地",
+      "term_kana": "",
+      "sanskrit": "samādhi",
+      "definition": "禅定。心を一境に住して散乱を離れた状態。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "即身",
+      "term_kana": "",
+      "sanskrit": "sa-deha",
+      "definition": "即身成仏の略。父母所生の身のまま現生で仏となる。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "即身成仏",
+      "term_kana": "",
+      "sanskrit": "sa-deha-prāpti-buddhatva",
+      "definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "成",
+        "仏"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "密教",
+      "term_kana": "",
+      "sanskrit": "guhya-mantra-yāna",
+      "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "心王",
+      "term_kana": "",
+      "sanskrit": "citta-rāja",
+      "definition": "八識の根本識。心の主体・統括者。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "智剣",
+      "term_kana": "",
+      "sanskrit": "jñāna-khaḍga",
+      "definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "智",
+        "剣"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "無縁慈悲",
+      "term_kana": "",
+      "sanskrit": "an-ārambaṇa-karuṇā",
+      "definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "慈",
+        "悲"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "玄機",
+      "term_kana": "",
+      "sanskrit": "—",
+      "definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "kaimyo_suitable": true,
+      "kaimyo_chars": [
+        "玄",
+        "機"
+      ],
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "term": "阿字本不生",
+      "term_kana": "",
+      "sanskrit": "ā-di-an-utpāda",
+      "definition": "密教根本教義。阿字（a-kāra）が本来不生（不滅）であることを観じ、万物の本源を悟る。",
+      "kaimyo_suitable": false,
+      "kaimyo_chars": [],
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}
