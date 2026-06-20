@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol7.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-20",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 49463,
+  "summary": {
+    "unique_terms": 5,
+    "unique_places": 5,
+    "total_occurrences": 14,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "country_dynasty": {
+        "unique": 2,
+        "occurrences": 7
+      },
+      "country_india": {
+        "unique": 1,
+        "occurrences": 4
+      },
+      "mountain_buddhist": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "秦",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国王朝。始皇帝による天下統一。",
+      "matched_forms": [
+        {
+          "form": "秦",
+          "count": 6
+        }
+      ],
+      "occurrence_count": 6,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "り生じない相〔不生の相〕だと知るべきである〔阿提〔あだい〕は秦の言葉で初という。阿耨波陀〔あのくはだ〕は秦の言葉で不生とい",
+          "context_position": 36301,
+          "matched_form": "秦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "阿提〔あだい〕は秦の言葉で初という。阿耨波陀〔あのくはだ〕は秦の言葉で不生という〕。もし囉字を聞くときは、すなわち意味に従",
+          "context_position": 36323,
+          "matched_form": "秦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "は垢を離れた相〔離垢の相〕だと知るべきである〔羅字〔らじ〕は秦の言葉で垢という〕」。 「もし波字を聞くときは、ただちにいっ",
+          "context_position": 36393,
+          "matched_form": "秦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "は第一義のなかに入ると知るべきである〔波羅末陀〔はらまだ〕は秦の言葉で第一義という〕。もし遮字を聞くときは、ただちにいっさ",
+          "context_position": 36458,
+          "matched_form": "秦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "は行にあらず〔非行〕だと知るべきである〔遮利夜〔しゃりや〕は秦の言葉で行という〕。もし那字を聞くときは、すなわちいっさいの",
+          "context_position": 36522,
+          "matched_form": "秦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "らず去らず〔不得不失不来不去〕だと知るべきである〔那〔な〕は秦の言葉で不という〕」。あの論の四念処品〔しねんじょほん〕のな",
+          "context_position": 36591,
+          "matched_form": "秦"
+        }
+      ]
+    },
+    {
+      "canonical": "天竺",
+      "aliases": [
+        "印度",
+        "身毒"
+      ],
+      "subcategory": "country_india",
+      "definition": "インドの古称。",
+      "matched_forms": [
+        {
+          "form": "天竺",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "ゆきわたるべきである。ただ、如来が世に出るあと〔出世の迹〕は天竺〔インド〕に始まるので、法を伝える者〔伝法の者〕は、ひとまず",
+          "context_position": 14114,
+          "matched_form": "天竺"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "名づける。翻して九執〔くしつ〕とする。まさに一広に相会する。天竺の暦には正著時〔しょうじゃくじ〕と名づける。これが執り持つ意",
+          "context_position": 22651,
+          "matched_form": "天竺"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "んげ〕・鉢吒羅華〔はたらげ〕・娑羅樹華〔さらじゅげ〕は、みな天竺〔インド〕にあるもので、こちら〔中国〕では、つぶさに識ること",
+          "context_position": 45043,
+          "matched_form": "天竺"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "い餅〔薄餠〕である。そもそも百薬餅〔ひゃくやくべい〕は、これ天竺の餅の法で、糖蜜のもろもろの味で麺に和え、酥油〔そゆ〕でこれ",
+          "context_position": 47158,
+          "matched_form": "天竺"
+        }
+      ]
+    },
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "から、なお思いはかれぬ退き失い〔不思議の退失〕がある。第一の安楽の処〔第一安楽の処〕とは名づけない。いま、もろもろの法が生じ",
+          "context_position": 24689,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "はかれぬ退き失い〔不思議の退失〕がある。第一の安楽の処〔第一安楽の処〕とは名づけない。いま、もろもろの法が生じない〔諸法不生",
+          "context_position": 24696,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "梁",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "南朝の王朝。",
+      "matched_forms": [
+        {
+          "form": "梁",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "毛織物〕が生じることがある。地を持つこと〔持地〕と築きと基と梁と掾〔たるき〕と泥と草と人の働き〔人功〕などが和合するから舎",
+          "context_position": 19352,
+          "matched_form": "梁"
+        }
+      ]
+    },
+    {
+      "canonical": "霊鷲山",
+      "aliases": [
+        "霊山",
+        "耆闍崛山",
+        "gṛdhrakūṭa"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "王舎城東北の山。釈迦が法華経などを説いた地。",
+      "matched_forms": [
+        {
+          "form": "霊鷲山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol7",
+          "context": "秘めた処〔寂深の秘処〕である。だから、寿量品にいう、「つねに霊鷲山〔りょうじゅせん〕およびほかのもろもろの住む処〔諸住処〕にあ",
+          "context_position": 43722,
+          "matched_form": "霊鷲山"
+        }
+      ]
+    }
+  ]
+}

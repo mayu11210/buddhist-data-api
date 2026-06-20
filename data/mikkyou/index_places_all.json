@@ -3,7 +3,7 @@
   "category": "places",
   "category_description": "地名（寺院・山・国・王朝・聖地・宇宙論界）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-19",
+  "generated_at": "2026-06-20",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -26,6 +26,7 @@
     "dainichikyo-sho-vol4",
     "dainichikyo-sho-vol5",
     "dainichikyo-sho-vol6",
+    "dainichikyo-sho-vol7",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -36,16 +37,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 30,
-  "corpora_with_data": 30,
+  "corpora_count": 31,
+  "corpora_with_data": 31,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1168,
+    "total_occurrences": 1182,
     "terms_in_multiple_corpora": 46,
-    "max_corpus_coverage": 19,
+    "max_corpus_coverage": 20,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -152,6 +153,11 @@
         "occurrences": 5,
         "present": true
       },
+      "dainichikyo-sho-vol7": {
+        "unique": 5,
+        "occurrences": 14,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 2,
         "occurrences": 29,
@@ -202,14 +208,15 @@
   "entries": [
     {
       "canonical": "安楽",
-      "total_occurrence_count": 177,
-      "covered_corpora_count": 19,
+      "total_occurrence_count": 179,
+      "covered_corpora_count": 20,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol5",
+        "dainichikyo-sho-vol7",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -241,6 +248,7 @@
         "dainichikyo-sho-vol2": 6,
         "dainichikyo-sho-vol3": 3,
         "dainichikyo-sho-vol5": 1,
+        "dainichikyo-sho-vol7": 2,
         "hotsubodaishinron-sho-vol3": 28,
         "hotsubodaishinron-sho-vol4": 60,
         "hotsubodaishinron-sho-vol7": 19,
@@ -558,6 +566,35 @@
       }
     },
     {
+      "canonical": "秦",
+      "total_occurrence_count": 26,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol7",
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol4",
+        "jujushinron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 10,
+        "hizo-houyaku": 2,
+        "sankyo-shiki": 3,
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol1": 1,
+        "dainichikyo-sho-vol7": 6,
+        "hotsubodaishinron-sho-vol4": 2,
+        "hotsubodaishinron-sho-vol2": 1
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国王朝。始皇帝による天下統一。"
+      }
+    },
+    {
       "canonical": "夏",
       "total_occurrence_count": 24,
       "covered_corpora_count": 8,
@@ -584,6 +621,39 @@
       "metadata": {
         "subcategory": "country_dynasty",
         "definition": "中国伝説的な最古の王朝。禹が建国。"
+      }
+    },
+    {
+      "canonical": "天竺",
+      "total_occurrence_count": 24,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol5",
+        "dainichikyo-sho-vol7",
+        "hizoki",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol2",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "dainichikyo-sho-vol1": 1,
+        "jujushinron": 4,
+        "hizoki": 5,
+        "hotsubodaishinron-sho-vol1": 1,
+        "dainichikyo-sho-vol5": 1,
+        "dainichikyo-sho-vol7": 4,
+        "hotsubodaishinron-sho-vol2": 1
+      },
+      "metadata": {
+        "subcategory": "country_india",
+        "definition": "インドの古称。",
+        "aliases": [
+          "印度",
+          "身毒"
+        ]
       }
     },
     {
@@ -629,61 +699,31 @@
       }
     },
     {
-      "canonical": "天竺",
-      "total_occurrence_count": 20,
-      "covered_corpora_count": 7,
+      "canonical": "霊鷲山",
+      "total_occurrence_count": 18,
+      "covered_corpora_count": 5,
       "covered_corpora": [
-        "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol5",
-        "hizoki",
-        "hotsubodaishinron-sho-vol1",
-        "hotsubodaishinron-sho-vol2",
-        "jujushinron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "dainichikyo-sho-vol1": 1,
-        "jujushinron": 4,
-        "hizoki": 5,
-        "hotsubodaishinron-sho-vol1": 1,
-        "dainichikyo-sho-vol5": 1,
-        "hotsubodaishinron-sho-vol2": 1
-      },
-      "metadata": {
-        "subcategory": "country_india",
-        "definition": "インドの古称。",
-        "aliases": [
-          "印度",
-          "身毒"
-        ]
-      }
-    },
-    {
-      "canonical": "秦",
-      "total_occurrence_count": 20,
-      "covered_corpora_count": 7,
-      "covered_corpora": [
+        "dainichikyo-sho-vol7",
         "hizo-houyaku",
-        "hotsubodaishinron-sho-vol1",
-        "hotsubodaishinron-sho-vol2",
-        "hotsubodaishinron-sho-vol4",
-        "jujushinron",
         "sankyo-shiki",
         "shoryoshu_miyasaka"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 10,
-        "hizo-houyaku": 2,
-        "sankyo-shiki": 3,
-        "jujushinron": 1,
-        "hotsubodaishinron-sho-vol1": 1,
-        "hotsubodaishinron-sho-vol4": 2,
-        "hotsubodaishinron-sho-vol2": 1
+        "shoryoshu_miyasaka": 13,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 1,
+        "dainichikyo-sho-vol5": 2,
+        "dainichikyo-sho-vol7": 1
       },
       "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "中国王朝。始皇帝による天下統一。"
+        "subcategory": "mountain_buddhist",
+        "definition": "王舎城東北の山。釈迦が法華経などを説いた地。",
+        "aliases": [
+          "霊山",
+          "耆闍崛山",
+          "gṛdhrakūṭa"
+        ]
       }
     },
     {
@@ -710,32 +750,6 @@
         "aliases": [
           "ヒマーラヤ",
           "himālaya"
-        ]
-      }
-    },
-    {
-      "canonical": "霊鷲山",
-      "total_occurrence_count": 17,
-      "covered_corpora_count": 4,
-      "covered_corpora": [
-        "dainichikyo-sho-vol5",
-        "hizo-houyaku",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 13,
-        "hizo-houyaku": 1,
-        "sankyo-shiki": 1,
-        "dainichikyo-sho-vol5": 2
-      },
-      "metadata": {
-        "subcategory": "mountain_buddhist",
-        "definition": "王舎城東北の山。釈迦が法華経などを説いた地。",
-        "aliases": [
-          "霊山",
-          "耆闍崛山",
-          "gṛdhrakūṭa"
         ]
       }
     },
@@ -873,6 +887,27 @@
       }
     },
     {
+      "canonical": "梁",
+      "total_occurrence_count": 11,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol7",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol8",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8,
+        "dainichikyo-sho-vol7": 1,
+        "hotsubodaishinron-sho-vol2": 1,
+        "hotsubodaishinron-sho-vol8": 1
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "南朝の王朝。"
+      }
+    },
+    {
       "canonical": "大興善寺",
       "total_occurrence_count": 10,
       "covered_corpora_count": 4,
@@ -913,25 +948,6 @@
         "aliases": [
           "教王護国寺"
         ]
-      }
-    },
-    {
-      "canonical": "梁",
-      "total_occurrence_count": 10,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "hotsubodaishinron-sho-vol2",
-        "hotsubodaishinron-sho-vol8",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 8,
-        "hotsubodaishinron-sho-vol2": 1,
-        "hotsubodaishinron-sho-vol8": 1
-      },
-      "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "南朝の王朝。"
       }
     },
     {
