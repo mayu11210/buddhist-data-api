@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol8.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-20",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 39347,
+  "summary": {
+    "unique_terms": 5,
+    "unique_places": 5,
+    "total_occurrences": 21,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 2,
+        "occurrences": 6
+      },
+      "country_dynasty": {
+        "unique": 2,
+        "occurrences": 12
+      },
+      "sacred_site_indian": {
+        "unique": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "周",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。文王・武王が建国。",
+      "matched_forms": [
+        {
+          "form": "周",
+          "count": 8
+        }
+      ],
+      "occurrence_count": 8,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "た如来の大いなる区域の真言と印〔如来大界の真言印〕で、重ねて周りの区域〔周界〕を結び、四つの大いなる護り〔四大護〕でおのお",
+          "context_position": 5747,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "うに作法すべきである。もし一めぐり行きめぐり〔行遶一匝し〕、周りの区域を結ぼうとすれば、また、みな成就する。もし結界し終え",
+          "context_position": 6031,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "。もしいっさいのときにさわりがないようにしようとすれば、その周りの区域および供物などに、みなまず大いなる護りを用いて、これ",
+          "context_position": 6173,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "—その灌頂と護摩の壇の処には、まさに漫荼羅の外で、さらに線で周りの区域〔周域〕をなし、内の区域〔内界〕と相通じさせるべきで",
+          "context_position": 11589,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "〔肘量〕を取り、縦横一肘にせよ。その深さはこれを半分にせよ。周りをめぐって縁を置け。広さは四指の節、高さも同じにせよ。およ",
+          "context_position": 12259,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "、法のとおりに炉をなすべきである。炉の四面には、みな、まさに周りをめぐって布くに生の茅でして、みな右にめぐらせる〔右に旋ら",
+          "context_position": 14583,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "ある。残りは『護摩品』のなかに説くとおりである。また、まさに周りをめぐって、広く厚くし、地を露わにさせてはならない。あまね",
+          "context_position": 14683,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "この字を観ずべきである。 閻浮金〔えんぶごん〕のようである。周りをめぐる光の鬘〔光鬘〕は火から出て、つぶさに三色をそなえる",
+          "context_position": 18002,
+          "matched_form": "周"
+        }
+      ]
+    },
+    {
+      "canonical": "兜率",
+      "aliases": [
+        "兜率天",
+        "tuṣita"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "欲界第四天。弥勒菩薩の住所。",
+      "matched_forms": [
+        {
+          "form": "兜率天",
+          "count": 2
+        },
+        {
+          "form": "兜率",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "たく慶ばし〕〔三偈〕。曳𢢺蘗藍〔彼の慶のごとし〕覩史多泥嚩〔兜率天に昇る〕微莽曩〔宮〕蘗喇娑〔二合〕那賜〔またかくのごとし〕儞",
+          "context_position": 33460,
+          "matched_form": "兜率天"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "いて便である。だから互いに用いる〔互する〕だけである。 もし兜率天に補処の菩薩〔補処の菩薩〕があれば、すなわち世間の仏の種〔仏",
+          "context_position": 37294,
+          "matched_form": "兜率天"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "人〕である。だから第三のよきめでたさ〔第三の善慶〕という。「兜率陀天の宮の蔵〔兜率陀天宮の蔵〕にいますときのめでたさ、および",
+          "context_position": 36807,
+          "matched_form": "兜率"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "第三のよきめでたさ〔第三の善慶〕という。「兜率陀天の宮の蔵〔兜率陀天宮の蔵〕にいますときのめでたさ、および天より降りてもろも",
+          "context_position": 36816,
+          "matched_form": "兜率"
+        }
+      ]
+    },
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "商",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "金・銀・白瑠璃などを用いて垸〔わん〕とすべきである。さらに、商佉〔法螺貝〕・熟銅・石・木、あるいは樹の葉・新しい瓦〔新瓦〕",
+          "context_position": 1586,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "れ、金の鎞〔こんのへい・金の篦〕・明らかな鏡〔明鏡〕・輪宝・商佉〔法螺貝〕の類である。ならびに四つの宝の瓶を持ち、供養し、",
+          "context_position": 29269,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "じ〕で明らかな鏡〔明鏡〕を加持し、法輪と法螺の真言で輪および商佉を加持せよ。さらに弟子の前に当たり、金の鎞で、その目を瑩き",
+          "context_position": 30901,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "むべし」。次に法輪を持ち、かれの二つの足の間に置き、ならびに商佉をその右手のなかに授け、ために偈を説け。おのおのあの真言を",
+          "context_position": 31070,
+          "matched_form": "商"
+        }
+      ]
+    },
+    {
+      "canonical": "迦毘羅",
+      "aliases": [
+        "迦毘羅城",
+        "kapilavastu"
+      ],
+      "subcategory": "sacred_site_indian",
+      "definition": "釈迦族の都。釈迦生誕地。",
+      "matched_forms": [
+        {
+          "form": "迦毘羅",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "曳𢢺蘗嚂〔彼の慶のごとし〕補囉嚩梨〔宮城・勝〕迦秕羅〔古くは迦毘羅という〕訶嚩曳遮〔名〕儞吠〔天〕麼訶〔大〕怛麼毘〔徳〕囉避瑟",
+          "context_position": 33642,
+          "matched_form": "迦毘羅"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "成す。だから、あの慶に同じ〔彼の慶に同じ〕というのである。「迦毘羅のすぐれた宮城〔迦毘羅勝宮城〕にいますめでたいとき〔慶時〕に",
+          "context_position": 37420,
+          "matched_form": "迦毘羅"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "同じ〔彼の慶に同じ〕というのである。「迦毘羅のすぐれた宮城〔迦毘羅勝宮城〕にいますめでたいとき〔慶時〕に、もろもろの大いなる威",
+          "context_position": 37431,
+          "matched_form": "迦毘羅"
+        }
+      ]
+    },
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "い〔疑悔〕を離れる。疑いと悔いを離れるから、すぐに内の寂かな安楽〔内寂の安楽〕を得て住する。そののち、法の水〔法水〕でこれを",
+          "context_position": 23328,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "離れる。疑いと悔いを離れるから、すぐに内の寂かな安楽〔内寂の安楽〕を得て住する。そののち、法の水〔法水〕でこれをそそげば、す",
+          "context_position": 23334,
+          "matched_form": "安楽"
+        }
+      ]
+    }
+  ]
+}

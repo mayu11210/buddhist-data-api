@@ -1,0 +1,751 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "dainichikyo-sho-vol8.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-20",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 39347,
+  "summary": {
+    "unique_terms": 18,
+    "unique_persons": 18,
+    "total_occurrences": 53,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 6,
+        "occurrences": 34
+      },
+      "buddhist_deva": {
+        "unique": 4,
+        "occurrences": 6
+      },
+      "buddhist_master_china": {
+        "unique": 4,
+        "occurrences": 8
+      },
+      "buddhist_master_india": {
+        "unique": 4,
+        "occurrences": 5
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 6
+        },
+        {
+          "form": "大日",
+          "count": 5
+        },
+        {
+          "form": "大日如来",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 12,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "。また、まず不動を用い、垢を去りさわりを除き〔去垢除障し〕、大日如来の真言でこれを持て。阿闍梨はみずから執り、用いてその上に覆え",
+          "context_position": 29112,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第八。 沙門一行阿闍梨が記す（善無畏が口",
+          "context_position": 1,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "・四菩薩は、おのおの本来の座〔本座〕に従って華台の内に置く。毘盧遮那に奉るものを華台の前に置く。前に説いたように、おもだったもろ",
+          "context_position": 1719,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "観じ、はじめてあまねき門の持し誦む〔普門の持誦〕をなせ。まず毘盧遮那の心の月〔心月〕のなかで真言をあきらかに現し〔炳現し〕、その",
+          "context_position": 7933,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "三たび転じてこれを加えよ。もし大日の漫荼羅をなせば、すなわち毘盧遮那の真言を用いよ。蓮華手と金剛子も、また、まさに准じて説くべき",
+          "context_position": 9304,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "なわちこれが、いっさいの僧に施すことである。経の「そのとき、毘盧遮那世尊は、さらに執金剛秘密主に告げる」より以下は、灌頂の法〔潅",
+          "context_position": 25466,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "る。さらに、四つの宝より成る瓶〔四宝所成の瓶〕とは、すなわち毘盧遮那の四つの徳の宝〔四徳の宝〕である。中胎の四角に置け。上に説い",
+          "context_position": 27833,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "ならない。中胎蔵には、まさに五瓶を置くべきである。最も中央の大日の瓶〔大日の瓶〕を華台に置く。残りを外の華のしべ〔華蘂〕のな",
+          "context_position": 1037,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "中胎蔵には、まさに五瓶を置くべきである。最も中央の大日の瓶〔大日の瓶〕を華台に置く。残りを外の華のしべ〔華蘂〕のなかに置く。",
+          "context_position": 1042,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "でこれを持ち、兼ねて心の華台のなかに阿字などを置き、すなわち大日の体〔大日の体〕に同じくさせよ。仏に入る三昧耶の印〔入仏三昧",
+          "context_position": 8925,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "ち、兼ねて心の華台のなかに阿字などを置き、すなわち大日の体〔大日の体〕に同じくさせよ。仏に入る三昧耶の印〔入仏三昧耶の印〕で",
+          "context_position": 8930,
+          "matched_form": "大日"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "言の王〔本部の真言王〕を用い、三たび転じてこれを加えよ。もし大日の漫荼羅をなせば、すなわち毘盧遮那の真言を用いよ。蓮華手と金",
+          "context_position": 9289,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 7
+        },
+        {
+          "form": "不動明王",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "の宝〔四徳の宝〕である。中胎の四角に置け。上に説いたように、不動明王で加持をなし終え、さらに四菩薩の真言で、おのおの一瓶を持て。",
+          "context_position": 27872,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "、さらに弟子のために、法のとおりに身を護れ〔護身せよ〕。まず不動明王で、用いてもろもろのさわり〔諸障〕を除け。次に三種の三昧耶〔",
+          "context_position": 28550,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "び、その身を護れ。そのもろもろの供養の物は、また無動の真言〔不動真言〕で垢を去り〔去垢し〕僻除し〔へきじょし・払い除け〕、清",
+          "context_position": 4002,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "、次にさらに心を運び、さまざまな宝の乗りもの〔宝乗〕をなし、不動の真言と印で加持し、これで聖なる衆を迎え奉り〔奉迎し〕、およ",
+          "context_position": 5087,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "あるのとは同じくない。大衆が集まり終えたら、まさに無動の明〔不動明〕を用いて、さわりをなす者〔障者〕を遣り除く〔遣除す〕べき",
+          "context_position": 5385,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "る。阿闍梨はいう、およそ漫荼羅を造るには、初めより、すなわち不動尊を用いよ。あるいは降三世尊で、この地を護り持て〔護持せよ〕",
+          "context_position": 5853,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "らかな白い氈〔白氈〕、あるいはほかの絹布〔繒帛〕を取り、まず不動の真言で作法どおりに清め〔作浄し〕、さらに本の部の真言の王〔",
+          "context_position": 9231,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "〕を備え、上に華の鬘および白い絹〔白繒〕を懸けよ。また、まず不動を用い、垢を去りさわりを除き〔去垢除障し〕、大日如来の真言で",
+          "context_position": 29088,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "他〔最初〕鉢囉社難〔もろもろの衆生〕〔一偈〕。釼粃也〔二合・不動〕契多〔宣べ説く〕悉怛履〔三合〕路計〔三世〕捺囉〔人〕泥嚩布",
+          "context_position": 33142,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "虚空蔵",
+      "aliases": [
+        "虚空蔵菩薩",
+        "ākāśagarbha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧と福徳を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "虚空蔵",
+          "count": 7
+        }
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "びにあまねくいっさいの衆生を済う。このように心を運び終えて、虚空蔵転明妃〔こくうぞうてんみょうひ〕で加持すべきである。おのずか",
+          "context_position": 397,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "のなかの手だてのように、さまざまな荘厳を観じ作し〔観作し〕、虚空蔵でこれを持て。次に、一つひとつの漫荼羅のもろもろの尊の位の上",
+          "context_position": 4559,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "に、まさに心の供養の法〔心の供養法〕をなすべきである。持つに虚空蔵の明〔虚空蔵の明〕でし、および金剛の阿利沙〔こんごうのありさ",
+          "context_position": 6493,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "の供養の法〔心の供養法〕をなすべきである。持つに虚空蔵の明〔虚空蔵の明〕でし、および金剛の阿利沙〔こんごうのありさ〕の吟じ諷ず",
+          "context_position": 6499,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "伽のなかでさまざまな受け用いる具〔受用の具〕を観じ作し、また虚空蔵転明〔こくうぞうてんみょう〕で加持し、用いて散じ施す〔散施す",
+          "context_position": 7208,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "り以後、未来の際を尽くすまで、つねに如意珠の身〔如意珠身〕と虚空蔵の身〔虚空蔵身〕をなし、よく自他のいっさいの願い〔一切希願〕",
+          "context_position": 24340,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "の際を尽くすまで、つねに如意珠の身〔如意珠身〕と虚空蔵の身〔虚空蔵身〕をなし、よく自他のいっさいの願い〔一切希願〕を満たす。だ",
+          "context_position": 24346,
+          "matched_form": "虚空蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "達磨",
+      "aliases": [
+        "菩提達磨",
+        "bodhidharma",
+        "Bodhidharma"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国禅宗の初祖。インドより渡来。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "達磨",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "南麼三曼多勃陀喃 阿摩訶扇底〔丁以の反〕蘗多扇底羯囉鉢囉睒摩達磨涅若多阿婆嚩薩嚩婆嚩達摩三曼多鉢囉鉢多 莎訶」。この真言は、",
+          "context_position": 17660,
+          "matched_form": "達磨"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "り至らせる。だから、寂かをなす〔作寂〕という。次に、鉢囉睒摩達磨涅若多〔はらせんまだつまねいにゃた〕とは——鉢囉〔はら〕は最",
+          "context_position": 18947,
+          "matched_form": "達磨"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "いはかることができない。だから、最もすぐれた〔最勝〕という。達磨〔だつま〕は法である。涅若多〔ねいにゃた〕は生である。何によ",
+          "context_position": 19168,
+          "matched_form": "達磨"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "想は生じず〔不生〕、大いなる空の生〔大空の生〕である。次に、達磨三曼多鉢羅鉢多〔だつまさんまんだはらはた〕というのは、また前",
+          "context_position": 19583,
+          "matched_form": "達磨"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "せ。四葉のなかに、四つの伴侶の菩薩〔四件侶の菩薩〕を置け。 帝釈の方は総持自在菩薩〔そうじじざいぼさつ〕といい、燄摩の方は念",
+          "context_position": 26025,
+          "matched_form": "帝釈"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "〔下〕覩若蘗覩〔衆生において〕係多也〔利益〕塞印捺頼〔三合・帝釈とともに〕素頼〔天〕鉢履勿㗚怛寫〔二合・囲み遶る者〕怛他蘗多",
+          "context_position": 33531,
+          "matched_form": "帝釈"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "よび天より降りてもろもろの群がる生けるもの〔群生〕を利益し、帝釈・天の神の衆〔天神衆〕が、あの寂かをなすよきめでたさ〔作寂の",
+          "context_position": 36867,
+          "matched_form": "帝釈"
+        }
+      ]
+    },
+    {
+      "canonical": "弥勒",
+      "aliases": [
+        "弥勒菩薩",
+        "慈氏",
+        "maitreya",
+        "Maitreya"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "未来仏。兜率天で待機。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "慈氏",
+          "count": 2
+        },
+        {
+          "form": "弥勒",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "て。普賢は尽きせぬ願いと行の宝〔無尽願行の宝〕、慈氏〔じし・弥勒〕は尽きせぬ衆生を饒益する宝〔無尽饒益衆生の宝〕、除蓋障は尽",
+          "context_position": 27934,
+          "matched_form": "弥勒"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "おの一瓶を持て。普賢は尽きせぬ願いと行の宝〔無尽願行の宝〕、慈氏〔じし・弥勒〕は尽きせぬ衆生を饒益する宝〔無尽饒益衆生の宝〕",
+          "context_position": 27928,
+          "matched_form": "慈氏"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "は、あまねき法界の清らかな菩提心〔遍法界の浄菩提心〕である。慈氏は、この清らかな心の胎蔵〔浄心の胎蔵〕のなかで、根・牙・茎・",
+          "context_position": 28053,
+          "matched_form": "慈氏"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "で加持をなし終え、さらに四菩薩の真言で、おのおの一瓶を持て。普賢は尽きせぬ願いと行の宝〔無尽願行の宝〕、慈氏〔じし・弥勒〕は",
+          "context_position": 27906,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "尽きせぬ大悲の手だての宝〔無尽大悲方便の宝〕である。さらに、普賢は、あまねき法界の清らかな菩提心〔遍法界の浄菩提心〕である。",
+          "context_position": 28021,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "り往かせる〔来往せしむ〕べきである。上の文には、密かに語って釈迦の眷属の院〔釈迦眷属の院〕を第二とする。大壇の外に、中胎蔵と",
+          "context_position": 11757,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "せしむ〕べきである。上の文には、密かに語って釈迦の眷属の院〔釈迦眷属の院〕を第二とする。大壇の外に、中胎蔵と相当てさせよ。阿",
+          "context_position": 11765,
+          "matched_form": "釈迦"
+        }
+      ]
+    },
+    {
+      "canonical": "金剛智",
+      "aliases": [
+        "vajrabodhi",
+        "Vajrabodhi"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第五祖。金剛界の伝持。",
+      "sanskrit_canonical": "vajrabodhi",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "金剛智",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "ろの法は本より生じない〔本不生〕から、すなわち金剛の智の体〔金剛智体〕に同じである。俄〔が〕は行の意味〔行の義〕である。もろも",
+          "context_position": 15556,
+          "matched_form": "金剛智"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "り生じない意味〔諸法本不生の義〕、すなわち金剛の智の火の体〔金剛智火の体〕である。三昧の点〔三昧の点〕を加えるのは、これ本より",
+          "context_position": 17756,
+          "matched_form": "金剛智"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第八。 沙門一行阿闍梨が記す（善無畏が口述し、一行が筆受した）。 入漫荼羅具縁真言品 第二之余。",
+          "context_position": 30,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "夜叉",
+      "aliases": [
+        "yakṣa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "八部衆の一。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "夜叉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "つ〕といい、那伽の方は利益心菩薩〔りやくしんぼさつ〕といい、夜叉の方は悲者菩薩〔ひしゃぼさつ〕という。その四隅の葉には、四つ",
+          "context_position": 26096,
+          "matched_form": "夜叉"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "主および門で、およそ四瓶である。第二院の四大菩薩は、すなわち文殊などで、おのおの一瓶を置け。外院の四門・四角および門外のもの",
+          "context_position": 1154,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "法蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第三祖。賢首大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "法蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "〕とは同じくない。僧伽は兼ねて和合の意味がある。正法の蔵〔正法蔵〕が世に出興することによって、すなわち修行し果に向かう人〔修",
+          "context_position": 36741,
+          "matched_form": "法蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "羅刹",
+      "aliases": [
+        "rākṣasa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "悪鬼神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "羅刹",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "の四つの位〔四位〕を置け。 しかも『瞿醯』にいう、みなこれは羅刹・毘舍遮・部多〔ぶた〕の、もろもろの血肉を食らう者〔血肉を食",
+          "context_position": 6921,
+          "matched_form": "羅刹"
+        }
+      ]
+    },
+    {
+      "canonical": "舎利弗",
+      "aliases": [
+        "舎利子",
+        "śāriputra",
+        "Śāriputra"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。智慧第一。",
+      "sanskrit_canonical": "śāriputra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "舎利弗",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "という。さらに、有部〔うぶ〕の『毘尼』のなかに説く、大迦葉・舎利弗・目乾連・須菩提の四大弟子は、ちょうど賢い瓶〔賢瓶〕のようで",
+          "context_position": 25046,
+          "matched_form": "舎利弗"
+        }
+      ]
+    },
+    {
+      "canonical": "迦葉",
+      "aliases": [
+        "摩訶迦葉",
+        "kāśyapa",
+        "Kāśyapa"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子の筆頭。頭陀第一。",
+      "sanskrit_canonical": "kāśyapa",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "迦葉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "隨生〕という。さらに、有部〔うぶ〕の『毘尼』のなかに説く、大迦葉・舎利弗・目乾連・須菩提の四大弟子は、ちょうど賢い瓶〔賢瓶〕",
+          "context_position": 25043,
+          "matched_form": "迦葉"
+        }
+      ]
+    },
+    {
+      "canonical": "阿修羅",
+      "aliases": [
+        "asura"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "六道の一・阿修羅道の住人。八部衆。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "阿修羅",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "天の衆〔諸天衆〕である。もろもろの天と区別しようとするために阿修羅とする。『立世』などの論には、これを天にあらず〔非天〕という",
+          "context_position": 36456,
+          "matched_form": "阿修羅"
+        }
+      ]
+    },
+    {
+      "canonical": "須菩提",
+      "aliases": [
+        "subhūti",
+        "Subhūti"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。解空第一。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "須菩提",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol8",
+          "context": "有部〔うぶ〕の『毘尼』のなかに説く、大迦葉・舎利弗・目乾連・須菩提の四大弟子は、ちょうど賢い瓶〔賢瓶〕のようである。もし人が、",
+          "context_position": 25054,
+          "matched_form": "須菩提"
+        }
+      ]
+    }
+  ]
+}

@@ -27,6 +27,7 @@
     "dainichikyo-sho-vol5",
     "dainichikyo-sho-vol6",
     "dainichikyo-sho-vol7",
+    "dainichikyo-sho-vol8",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -37,16 +38,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 31,
-  "corpora_with_data": 31,
+  "corpora_count": 32,
+  "corpora_with_data": 32,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1182,
-    "terms_in_multiple_corpora": 46,
-    "max_corpus_coverage": 20,
+    "total_occurrences": 1203,
+    "terms_in_multiple_corpora": 47,
+    "max_corpus_coverage": 21,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -158,6 +159,11 @@
         "occurrences": 14,
         "present": true
       },
+      "dainichikyo-sho-vol8": {
+        "unique": 5,
+        "occurrences": 21,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 2,
         "occurrences": 29,
@@ -208,8 +214,8 @@
   "entries": [
     {
       "canonical": "安楽",
-      "total_occurrence_count": 179,
-      "covered_corpora_count": 20,
+      "total_occurrence_count": 181,
+      "covered_corpora_count": 21,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -217,6 +223,7 @@
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -249,6 +256,7 @@
         "dainichikyo-sho-vol3": 3,
         "dainichikyo-sho-vol5": 1,
         "dainichikyo-sho-vol7": 2,
+        "dainichikyo-sho-vol8": 2,
         "hotsubodaishinron-sho-vol3": 28,
         "hotsubodaishinron-sho-vol4": 60,
         "hotsubodaishinron-sho-vol7": 19,
@@ -463,12 +471,13 @@
     },
     {
       "canonical": "殷",
-      "total_occurrence_count": 51,
-      "covered_corpora_count": 11,
+      "total_occurrence_count": 55,
+      "covered_corpora_count": 12,
       "covered_corpora": [
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
+        "dainichikyo-sho-vol8",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol2",
@@ -488,6 +497,7 @@
         "dainichikyo-sho-vol2": 6,
         "dainichikyo-sho-vol5": 5,
         "dainichikyo-sho-vol6": 1,
+        "dainichikyo-sho-vol8": 4,
         "hotsubodaishinron-sho-vol2": 2,
         "hotsubodaishinron-sho-vol5": 3
       },
@@ -501,14 +511,15 @@
     },
     {
       "canonical": "周",
-      "total_occurrence_count": 39,
-      "covered_corpora_count": 11,
+      "total_occurrence_count": 47,
+      "covered_corpora_count": 12,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
+        "dainichikyo-sho-vol8",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol9",
         "jujushinron",
@@ -527,6 +538,7 @@
         "dainichikyo-sho-vol4": 3,
         "dainichikyo-sho-vol5": 1,
         "dainichikyo-sho-vol6": 3,
+        "dainichikyo-sho-vol8": 8,
         "hotsubodaishinron-sho-vol9": 1
       },
       "metadata": {
@@ -727,6 +739,35 @@
       }
     },
     {
+      "canonical": "兜率",
+      "total_occurrence_count": 17,
+      "covered_corpora_count": 6,
+      "covered_corpora": [
+        "dainichikyo-sho-vol6",
+        "dainichikyo-sho-vol8",
+        "jujushinron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6,
+        "sankyo-shiki": 1,
+        "jujushinron": 4,
+        "yugikyo": 1,
+        "dainichikyo-sho-vol6": 1,
+        "dainichikyo-sho-vol8": 4
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "欲界第四天。弥勒菩薩の住所。",
+        "aliases": [
+          "兜率天",
+          "tuṣita"
+        ]
+      }
+    },
+    {
       "canonical": "雪山",
       "total_occurrence_count": 17,
       "covered_corpora_count": 5,
@@ -817,33 +858,6 @@
       "metadata": {
         "subcategory": "country_china",
         "definition": "春秋戦国の南方の大国。"
-      }
-    },
-    {
-      "canonical": "兜率",
-      "total_occurrence_count": 13,
-      "covered_corpora_count": 5,
-      "covered_corpora": [
-        "dainichikyo-sho-vol6",
-        "jujushinron",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 6,
-        "sankyo-shiki": 1,
-        "jujushinron": 4,
-        "yugikyo": 1,
-        "dainichikyo-sho-vol6": 1
-      },
-      "metadata": {
-        "subcategory": "cosmological_realm",
-        "definition": "欲界第四天。弥勒菩薩の住所。",
-        "aliases": [
-          "兜率天",
-          "tuṣita"
-        ]
       }
     },
     {
@@ -1378,6 +1392,27 @@
       }
     },
     {
+      "canonical": "迦毘羅",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol8",
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1,
+        "dainichikyo-sho-vol8": 3
+      },
+      "metadata": {
+        "subcategory": "sacred_site_indian",
+        "definition": "釈迦族の都。釈迦生誕地。",
+        "aliases": [
+          "迦毘羅城",
+          "kapilavastu"
+        ]
+      }
+    },
+    {
       "canonical": "元興寺",
       "total_occurrence_count": 4,
       "covered_corpora_count": 1,
@@ -1766,25 +1801,6 @@
       "metadata": {
         "subcategory": "country_china",
         "definition": "三国時代の蜀。または春秋蜀。"
-      }
-    },
-    {
-      "canonical": "迦毘羅",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "jujushinron"
-      ],
-      "by_corpus": {
-        "jujushinron": 1
-      },
-      "metadata": {
-        "subcategory": "sacred_site_indian",
-        "definition": "釈迦族の都。釈迦生誕地。",
-        "aliases": [
-          "迦毘羅城",
-          "kapilavastu"
-        ]
       }
     }
   ]

@@ -27,6 +27,7 @@
     "dainichikyo-sho-vol5",
     "dainichikyo-sho-vol6",
     "dainichikyo-sho-vol7",
+    "dainichikyo-sho-vol8",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -37,8 +38,8 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 31,
-  "corpora_with_data": 31,
+  "corpora_count": 32,
+  "corpora_with_data": 32,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
@@ -154,6 +155,11 @@
         "present": true
       },
       "dainichikyo-sho-vol7": {
+        "unique": 0,
+        "occurrences": 0,
+        "present": true
+      },
+      "dainichikyo-sho-vol8": {
         "unique": 0,
         "occurrences": 0,
         "present": true

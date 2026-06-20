@@ -27,6 +27,7 @@
     "dainichikyo-sho-vol5",
     "dainichikyo-sho-vol6",
     "dainichikyo-sho-vol7",
+    "dainichikyo-sho-vol8",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -37,16 +38,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 31,
-  "corpora_with_data": 31,
+  "corpora_count": 32,
+  "corpora_with_data": 32,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 19,
-    "total_occurrences": 5385,
+    "total_occurrences": 5543,
     "terms_in_multiple_corpora": 17,
-    "max_corpus_coverage": 31,
+    "max_corpus_coverage": 32,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 19,
@@ -158,6 +159,11 @@
         "occurrences": 255,
         "present": true
       },
+      "dainichikyo-sho-vol8": {
+        "unique": 19,
+        "occurrences": 158,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 19,
         "occurrences": 300,
@@ -208,8 +214,8 @@
   "entries": [
     {
       "term": "真言",
-      "total_occurrence_count": 1180,
-      "covered_corpora_count": 31,
+      "total_occurrence_count": 1272,
+      "covered_corpora_count": 32,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -219,6 +225,7 @@
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
         "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -266,6 +273,7 @@
         "dainichikyo-sho-vol5": 31,
         "dainichikyo-sho-vol6": 30,
         "dainichikyo-sho-vol7": 113,
+        "dainichikyo-sho-vol8": 92,
         "hotsubodaishinron-sho-vol3": 58,
         "hotsubodaishinron-sho-vol4": 29,
         "hotsubodaishinron-sho-vol2": 22,
@@ -288,8 +296,8 @@
     },
     {
       "term": "大日",
-      "total_occurrence_count": 837,
-      "covered_corpora_count": 28,
+      "total_occurrence_count": 843,
+      "covered_corpora_count": 29,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -298,6 +306,7 @@
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
+        "dainichikyo-sho-vol8",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -340,6 +349,7 @@
         "dainichikyo-sho-vol4": 8,
         "dainichikyo-sho-vol5": 15,
         "dainichikyo-sho-vol6": 4,
+        "dainichikyo-sho-vol8": 6,
         "hotsubodaishinron-sho-vol3": 17,
         "hotsubodaishinron-sho-vol4": 7,
         "hotsubodaishinron-sho-vol2": 30,
@@ -362,8 +372,8 @@
     },
     {
       "term": "法界",
-      "total_occurrence_count": 582,
-      "covered_corpora_count": 27,
+      "total_occurrence_count": 607,
+      "covered_corpora_count": 28,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -373,6 +383,7 @@
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
         "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -414,6 +425,7 @@
         "dainichikyo-sho-vol5": 28,
         "dainichikyo-sho-vol6": 26,
         "dainichikyo-sho-vol7": 51,
+        "dainichikyo-sho-vol8": 25,
         "hotsubodaishinron-sho-vol3": 10,
         "hotsubodaishinron-sho-vol4": 3,
         "hotsubodaishinron-sho-vol2": 4,
@@ -429,6 +441,74 @@
         "kaimyo_chars": [
           "法",
           "界"
+        ]
+      }
+    },
+    {
+      "term": "大悲",
+      "total_occurrence_count": 453,
+      "covered_corpora_count": 25,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol4",
+        "dainichikyo-sho-vol5",
+        "dainichikyo-sho-vol6",
+        "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8",
+        "hizo-houyaku",
+        "hizoki",
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol10",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol3",
+        "hotsubodaishinron-sho-vol4",
+        "hotsubodaishinron-sho-vol6",
+        "hotsubodaishinron-sho-vol7",
+        "hotsubodaishinron-sho-vol8",
+        "hotsubodaishinron-sho-vol9",
+        "jujushinron",
+        "nikyo-ron",
+        "rishushaku",
+        "shoryoshu_miyasaka",
+        "ujiji",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 26,
+        "nikyo-ron": 2,
+        "ujiji": 2,
+        "hizo-houyaku": 9,
+        "dainichikyo-sho-vol1": 38,
+        "jujushinron": 26,
+        "hizoki": 14,
+        "yugikyo": 9,
+        "rishushaku": 11,
+        "hotsubodaishinron-sho-vol1": 11,
+        "dainichikyo-sho-vol2": 6,
+        "dainichikyo-sho-vol3": 23,
+        "dainichikyo-sho-vol4": 22,
+        "dainichikyo-sho-vol5": 24,
+        "dainichikyo-sho-vol6": 3,
+        "dainichikyo-sho-vol7": 12,
+        "dainichikyo-sho-vol8": 10,
+        "hotsubodaishinron-sho-vol3": 47,
+        "hotsubodaishinron-sho-vol4": 35,
+        "hotsubodaishinron-sho-vol2": 7,
+        "hotsubodaishinron-sho-vol6": 3,
+        "hotsubodaishinron-sho-vol7": 14,
+        "hotsubodaishinron-sho-vol8": 7,
+        "hotsubodaishinron-sho-vol9": 38,
+        "hotsubodaishinron-sho-vol10": 54
+      },
+      "metadata": {
+        "sanskrit": "mahā-karuṇā",
+        "definition": "仏の大いなる慈悲。一切衆生を救う心。",
+        "kaimyo_suitable": true,
+        "kaimyo_chars": [
+          "大",
+          "悲"
         ]
       }
     },
@@ -488,72 +568,6 @@
         "sanskrit": "guhya-mantra-yāna",
         "definition": "空海の宗派自称。秘密真言乗。大日如来の内証を直接伝える教え。",
         "kaimyo_suitable": false
-      }
-    },
-    {
-      "term": "大悲",
-      "total_occurrence_count": 443,
-      "covered_corpora_count": 24,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "dainichikyo-sho-vol2",
-        "dainichikyo-sho-vol3",
-        "dainichikyo-sho-vol4",
-        "dainichikyo-sho-vol5",
-        "dainichikyo-sho-vol6",
-        "dainichikyo-sho-vol7",
-        "hizo-houyaku",
-        "hizoki",
-        "hotsubodaishinron-sho-vol1",
-        "hotsubodaishinron-sho-vol10",
-        "hotsubodaishinron-sho-vol2",
-        "hotsubodaishinron-sho-vol3",
-        "hotsubodaishinron-sho-vol4",
-        "hotsubodaishinron-sho-vol6",
-        "hotsubodaishinron-sho-vol7",
-        "hotsubodaishinron-sho-vol8",
-        "hotsubodaishinron-sho-vol9",
-        "jujushinron",
-        "nikyo-ron",
-        "rishushaku",
-        "shoryoshu_miyasaka",
-        "ujiji",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 26,
-        "nikyo-ron": 2,
-        "ujiji": 2,
-        "hizo-houyaku": 9,
-        "dainichikyo-sho-vol1": 38,
-        "jujushinron": 26,
-        "hizoki": 14,
-        "yugikyo": 9,
-        "rishushaku": 11,
-        "hotsubodaishinron-sho-vol1": 11,
-        "dainichikyo-sho-vol2": 6,
-        "dainichikyo-sho-vol3": 23,
-        "dainichikyo-sho-vol4": 22,
-        "dainichikyo-sho-vol5": 24,
-        "dainichikyo-sho-vol6": 3,
-        "dainichikyo-sho-vol7": 12,
-        "hotsubodaishinron-sho-vol3": 47,
-        "hotsubodaishinron-sho-vol4": 35,
-        "hotsubodaishinron-sho-vol2": 7,
-        "hotsubodaishinron-sho-vol6": 3,
-        "hotsubodaishinron-sho-vol7": 14,
-        "hotsubodaishinron-sho-vol8": 7,
-        "hotsubodaishinron-sho-vol9": 38,
-        "hotsubodaishinron-sho-vol10": 54
-      },
-      "metadata": {
-        "sanskrit": "mahā-karuṇā",
-        "definition": "仏の大いなる慈悲。一切衆生を救う心。",
-        "kaimyo_suitable": true,
-        "kaimyo_chars": [
-          "大",
-          "悲"
-        ]
       }
     },
     {
@@ -684,8 +698,8 @@
     },
     {
       "term": "遮那",
-      "total_occurrence_count": 327,
-      "covered_corpora_count": 26,
+      "total_occurrence_count": 333,
+      "covered_corpora_count": 27,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -695,6 +709,7 @@
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
         "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
@@ -733,6 +748,7 @@
         "dainichikyo-sho-vol5": 13,
         "dainichikyo-sho-vol6": 14,
         "dainichikyo-sho-vol7": 7,
+        "dainichikyo-sho-vol8": 6,
         "hotsubodaishinron-sho-vol3": 3,
         "hotsubodaishinron-sho-vol4": 4,
         "hotsubodaishinron-sho-vol2": 25,
@@ -754,8 +770,8 @@
     },
     {
       "term": "阿字",
-      "total_occurrence_count": 215,
-      "covered_corpora_count": 21,
+      "total_occurrence_count": 224,
+      "covered_corpora_count": 22,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -765,6 +781,7 @@
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
         "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -800,6 +817,7 @@
         "dainichikyo-sho-vol5": 3,
         "dainichikyo-sho-vol6": 7,
         "dainichikyo-sho-vol7": 39,
+        "dainichikyo-sho-vol8": 9,
         "hotsubodaishinron-sho-vol9": 6
       },
       "metadata": {
@@ -871,8 +889,8 @@
     },
     {
       "term": "本不生",
-      "total_occurrence_count": 114,
-      "covered_corpora_count": 17,
+      "total_occurrence_count": 119,
+      "covered_corpora_count": 18,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
@@ -881,6 +899,7 @@
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
         "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
@@ -909,6 +928,7 @@
         "dainichikyo-sho-vol5": 1,
         "dainichikyo-sho-vol6": 4,
         "dainichikyo-sho-vol7": 22,
+        "dainichikyo-sho-vol8": 5,
         "hotsubodaishinron-sho-vol9": 10
       },
       "metadata": {
@@ -919,13 +939,14 @@
     },
     {
       "term": "心王",
-      "total_occurrence_count": 105,
-      "covered_corpora_count": 13,
+      "total_occurrence_count": 110,
+      "covered_corpora_count": 14,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
+        "dainichikyo-sho-vol8",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol1",
@@ -947,6 +968,7 @@
         "dainichikyo-sho-vol2": 3,
         "dainichikyo-sho-vol3": 4,
         "dainichikyo-sho-vol4": 1,
+        "dainichikyo-sho-vol8": 5,
         "hotsubodaishinron-sho-vol3": 4,
         "hotsubodaishinron-sho-vol2": 38,
         "hotsubodaishinron-sho-vol9": 2

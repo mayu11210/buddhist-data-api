@@ -27,6 +27,7 @@
     "dainichikyo-sho-vol5",
     "dainichikyo-sho-vol6",
     "dainichikyo-sho-vol7",
+    "dainichikyo-sho-vol8",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -37,15 +38,15 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 31,
-  "corpora_with_data": 31,
+  "corpora_count": 32,
+  "corpora_with_data": 32,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 1182,
-    "total_occurrences": 3787,
-    "terms_in_multiple_corpora": 187,
+    "unique_terms_total": 1190,
+    "total_occurrences": 3815,
+    "terms_in_multiple_corpora": 189,
     "max_corpus_coverage": 21,
     "by_corpus": {
       "shoryoshu_miyasaka": {
@@ -156,6 +157,11 @@
       "dainichikyo-sho-vol7": {
         "unique": 33,
         "occurrences": 55,
+        "present": true
+      },
+      "dainichikyo-sho-vol8": {
+        "unique": 14,
+        "occurrences": 28,
         "present": true
       },
       "hotsubodaishinron-sho-vol3": {
@@ -1041,6 +1047,29 @@
       }
     },
     {
+      "term": "華厳",
+      "total_occurrence_count": 15,
+      "covered_corpora_count": 7,
+      "covered_corpora": [
+        "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol6",
+        "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8",
+        "hotsubodaishinron-sho-vol4",
+        "shoji-jisso",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "shoji-jisso": 1,
+        "dainichikyo-sho-vol2": 4,
+        "dainichikyo-sho-vol6": 1,
+        "dainichikyo-sho-vol7": 1,
+        "dainichikyo-sho-vol8": 4,
+        "hotsubodaishinron-sho-vol4": 3
+      }
+    },
+    {
       "term": "金光明経",
       "total_occurrence_count": 15,
       "covered_corpora_count": 3,
@@ -1088,6 +1117,21 @@
       ],
       "by_corpus": {
         "jujushinron": 15
+      }
+    },
+    {
+      "term": "瞿醯",
+      "total_occurrence_count": 14,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4",
+        "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1,
+        "dainichikyo-sho-vol7": 3,
+        "dainichikyo-sho-vol8": 10
       }
     },
     {
@@ -1177,27 +1221,6 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 12
-      }
-    },
-    {
-      "term": "華厳",
-      "total_occurrence_count": 11,
-      "covered_corpora_count": 6,
-      "covered_corpora": [
-        "dainichikyo-sho-vol2",
-        "dainichikyo-sho-vol6",
-        "dainichikyo-sho-vol7",
-        "hotsubodaishinron-sho-vol4",
-        "shoji-jisso",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "shoji-jisso": 1,
-        "dainichikyo-sho-vol2": 4,
-        "dainichikyo-sho-vol6": 1,
-        "dainichikyo-sho-vol7": 1,
-        "hotsubodaishinron-sho-vol4": 3
       }
     },
     {
@@ -1338,6 +1361,23 @@
         "sokushin-jobutsu": 1,
         "hannya-hiken": 3,
         "rishushaku": 1
+      }
+    },
+    {
+      "term": "蘇悉地",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol3",
+        "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8",
+        "rishushaku"
+      ],
+      "by_corpus": {
+        "rishushaku": 1,
+        "dainichikyo-sho-vol3": 2,
+        "dainichikyo-sho-vol7": 3,
+        "dainichikyo-sho-vol8": 3
       }
     },
     {
@@ -1658,21 +1698,6 @@
         "hotsubodaishinron-sho-vol2": 1,
         "hotsubodaishinron-sho-vol5": 1,
         "hotsubodaishinron-sho-vol6": 4
-      }
-    },
-    {
-      "term": "蘇悉地",
-      "total_occurrence_count": 6,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "dainichikyo-sho-vol3",
-        "dainichikyo-sho-vol7",
-        "rishushaku"
-      ],
-      "by_corpus": {
-        "rishushaku": 1,
-        "dainichikyo-sho-vol3": 2,
-        "dainichikyo-sho-vol7": 3
       }
     },
     {
@@ -2301,19 +2326,6 @@
       }
     },
     {
-      "term": "瞿醯",
-      "total_occurrence_count": 4,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "dainichikyo-sho-vol4",
-        "dainichikyo-sho-vol7"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol4": 1,
-        "dainichikyo-sho-vol7": 3
-      }
-    },
-    {
       "term": "解深密経",
       "total_occurrence_count": 4,
       "covered_corpora_count": 2,
@@ -2511,6 +2523,21 @@
         "jujushinron": 1,
         "hotsubodaishinron-sho-vol2": 1,
         "hotsubodaishinron-sho-vol6": 1
+      }
+    },
+    {
+      "term": "瞿醯〔ぐけい〕",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol4",
+        "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1,
+        "dainichikyo-sho-vol7": 1,
+        "dainichikyo-sho-vol8": 1
       }
     },
     {
@@ -3504,6 +3531,32 @@
       }
     },
     {
+      "term": "毘尼",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol7": 1,
+        "dainichikyo-sho-vol8": 1
+      }
+    },
+    {
+      "term": "毘尼〔律〕",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol7": 1,
+        "dainichikyo-sho-vol8": 1
+      }
+    },
+    {
       "term": "法界次第",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
@@ -3579,19 +3632,6 @@
       "by_corpus": {
         "hotsubodaishinron-sho-vol6": 1,
         "hotsubodaishinron-sho-vol7": 1
-      }
-    },
-    {
-      "term": "瞿醯〔ぐけい〕",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "dainichikyo-sho-vol4",
-        "dainichikyo-sho-vol7"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol4": 1,
-        "dainichikyo-sho-vol7": 1
       }
     },
     {
@@ -5677,6 +5717,17 @@
       }
     },
     {
+      "term": "世出世護摩品",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol8"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol8": 1
+      }
+    },
+    {
       "term": "世尊が一切の支分より皆ことごとく如来の身を出現す",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -7247,6 +7298,17 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol4": 1
+      }
+    },
+    {
+      "term": "嚩馹囉阿避庾経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol8"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol8": 1
       }
     },
     {
@@ -9054,6 +9116,17 @@
       }
     },
     {
+      "term": "悉地供養",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol8"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol8": 1
+      }
+    },
+    {
       "term": "悉地宮",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -10000,6 +10073,17 @@
       }
     },
     {
+      "term": "本生経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol8"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol8": 1
+      }
+    },
+    {
       "term": "本草綱目",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -10286,29 +10370,7 @@
       }
     },
     {
-      "term": "毘尼",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "dainichikyo-sho-vol7"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol7": 1
-      }
-    },
-    {
       "term": "毘尼〔びに・律〕",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "dainichikyo-sho-vol7"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol7": 1
-      }
-    },
-    {
-      "term": "毘尼〔律〕",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
@@ -11892,6 +11954,17 @@
       }
     },
     {
+      "term": "立世",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol8"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol8": 1
+      }
+    },
+    {
       "term": "端身",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -13157,6 +13230,17 @@
       }
     },
     {
+      "term": "護摩品",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol8"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol8": 1
+      }
+    },
+    {
       "term": "貞元新疏",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -13297,6 +13381,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol5": 1
+      }
+    },
+    {
+      "term": "転字輪漫荼羅行品",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol8"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol8": 1
       }
     },
     {
@@ -13572,6 +13667,17 @@
       ],
       "by_corpus": {
         "hotsubodaishinron-sho-vol1": 1
+      }
+    },
+    {
+      "term": "金剛起経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol8"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol8": 1
       }
     },
     {
