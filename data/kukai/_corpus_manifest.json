@@ -22,16 +22,16 @@
   "specialty_sections": "その著作固有の専門サブセクション名のリスト（吽字義 ji_gi 等。倉庫原則「データを限定しない」で温存）"
  },
  "summary": {
-  "total_files": 43,
+  "total_files": 44,
   "role_breakdown": {
-   "primary_corpus": 29,
+   "primary_corpus": 30,
    "auxiliary_meta": 1,
    "specialty_meta": 1,
    "excerpt_stub": 5
   },
-  "role_complete_files": 31,
-  "kakikudashi_present": 30,
-  "gendaigoyaku_present": 30,
+  "role_complete_files": 32,
+  "kakikudashi_present": 31,
+  "gendaigoyaku_present": 31,
   "genten_present": 18,
   "with_specialty_sections": 5,
   "indexed_corpora": {
@@ -2161,6 +2161,58 @@
      "unique_terms": 5,
      "total_occurrences": 21,
      "subcategory_count": 3
+    }
+   }
+  },
+  {
+   "filename": "dainichikyo-sho-vol9.json",
+   "title": "大日経疏巻第九",
+   "taisho_ref": "T1796 / vol.39（巻第九）",
+   "role": "primary_corpus",
+   "type": "dict_paragraphs",
+   "data_status": {
+    "kaimyo_excerpt": false,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": false,
+    "genten_unavailable_reason": "漢文原典は後送（T1796 vol.39 巻第九・CBETA は JS レンダリングのため Chrome 経由で取得予定）。",
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "kakikudashi": 29137,
+    "gendaigoyaku": 34712,
+    "paragraphs": 63
+   },
+   "role_complete": true,
+   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第九』（大日経 入漫荼羅具縁真言品第二之余の末尾＝慶賀偈の結びと十一偈・金籌/明鏡/法輪法螺/三昧耶の四偈・四波羅夷戒・無作の功徳と福徳聚・大力大護の明妃・法界加持と三三昧耶・供養と荘厳の真言、および息障品第三＝障は自心より生ず・不動明王・風水の障りを止める作法・摩醯首羅の降伏・教令使と金剛の家法）。元 doc が巨大ブロック（12段・最大7,691字）のため科文・話題境界で 63 段に段落化（ケンシン裁定 2026-06-20・巻第三〜八 同型・品題（息障品第三）は文書途中の構造段落として保持・割注の全角括弧は kakikudashi に温存）。genten 後送（T1796 vol.39 巻第九・CBETA は JS）。",
+   "index_status": {
+    "terms": {
+     "present": false,
+     "file": "index_dainichikyo-sho-vol9_terms.json"
+    },
+    "citations": {
+     "present": false,
+     "file": "index_dainichikyo-sho-vol9_citations.json"
+    },
+    "kukai_works": {
+     "present": false,
+     "file": "index_dainichikyo-sho-vol9_kukai_works.json"
+    },
+    "sanskrit": {
+     "present": false,
+     "file": "index_dainichikyo-sho-vol9_sanskrit.json"
+    },
+    "kaimyo_jukugo": {
+     "present": false,
+     "file": "index_dainichikyo-sho-vol9_kaimyo.json"
+    },
+    "persons": {
+     "present": false,
+     "file": "index_dainichikyo-sho-vol9_persons.json"
+    },
+    "places": {
+     "present": false,
+     "file": "index_dainichikyo-sho-vol9_places.json"
     }
    }
   },
