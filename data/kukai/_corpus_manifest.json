@@ -35,13 +35,13 @@
   "genten_present": 18,
   "with_specialty_sections": 5,
   "indexed_corpora": {
-   "terms": 32,
-   "citations": 32,
-   "kukai_works": 32,
-   "sanskrit": 32,
-   "kaimyo_jukugo": 32,
-   "persons": 32,
-   "places": 32
+   "terms": 33,
+   "citations": 33,
+   "kukai_works": 33,
+   "sanskrit": 33,
+   "kaimyo_jukugo": 33,
+   "persons": 33,
+   "places": 33
   }
  },
  "files": [
@@ -2187,31 +2187,31 @@
    "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第九』（大日経 入漫荼羅具縁真言品第二之余の末尾＝慶賀偈の結びと十一偈・金籌/明鏡/法輪法螺/三昧耶の四偈・四波羅夷戒・無作の功徳と福徳聚・大力大護の明妃・法界加持と三三昧耶・供養と荘厳の真言、および息障品第三＝障は自心より生ず・不動明王・風水の障りを止める作法・摩醯首羅の降伏・教令使と金剛の家法）。元 doc が巨大ブロック（12段・最大7,691字）のため科文・話題境界で 63 段に段落化（ケンシン裁定 2026-06-20・巻第三〜八 同型・品題（息障品第三）は文書途中の構造段落として保持・割注の全角括弧は kakikudashi に温存）。genten 後送（T1796 vol.39 巻第九・CBETA は JS）。",
    "index_status": {
     "terms": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol9_terms.json"
     },
     "citations": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol9_citations.json"
     },
     "kukai_works": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol9_kukai_works.json"
     },
     "sanskrit": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol9_sanskrit.json"
     },
     "kaimyo_jukugo": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol9_kaimyo.json"
     },
     "persons": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol9_persons.json"
     },
     "places": {
-     "present": false,
+     "present": true,
      "file": "index_dainichikyo-sho-vol9_places.json"
     }
    }

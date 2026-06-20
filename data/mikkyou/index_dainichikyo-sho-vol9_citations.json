@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "dainichikyo-sho-vol9.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-20",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 34712,
+  "summary": {
+    "unique_terms": 5,
+    "total_occurrences": 5
+  },
+  "entries": [
+    {
+      "term": "これは諸仏の主である",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "でしょうか。わたしの解せないところです』と。仏はいいました、『これは諸仏の主である』と。わたしはこの念をなしました、『諸仏は一切の尊である。どう",
+          "context_position": 32933,
+          "raw_form": "これは諸仏の主である"
+        }
+      ]
+    },
+    {
+      "term": "本行経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "道に至ることがしだいに近づき、無量の青雀の瑞があったことは、『本行経』のなかに広く明かすとおりである。この鳥を正しくは操沙と名づけ",
+          "context_position": 288,
+          "raw_form": "本行経"
+        }
+      ]
+    },
+    {
+      "term": "法華",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "るだけである。籌と薬の功は、今はじめて創り出すものではない。『法華』に盲人の譬えがある。このなかでまさに広くこれを説くべきである",
+          "context_position": 3004,
+          "raw_form": "法華"
+        }
+      ]
+    },
+    {
+      "term": "瞿醯",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "とくである。うわべを飾った言葉〔矯飾の辞〕によるのではない。『瞿醯』にいう、阿闍梨は上に説いたように護摩をなし終わって、浄水を用",
+          "context_position": 10715,
+          "raw_form": "瞿醯"
+        }
+      ]
+    },
+    {
+      "term": "華厳",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "今ひとしくなれた。世尊が十の義のゆえに正法輪を転じたことは、『華厳』などに広く説くとおりである。梵語で鉢囉嚩娜覩嚩囉というのは、",
+          "context_position": 1247,
+          "raw_form": "華厳"
+        }
+      ]
+    }
+  ]
+}

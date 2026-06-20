@@ -28,6 +28,7 @@
     "dainichikyo-sho-vol6",
     "dainichikyo-sho-vol7",
     "dainichikyo-sho-vol8",
+    "dainichikyo-sho-vol9",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -38,14 +39,14 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 32,
-  "corpora_with_data": 32,
+  "corpora_count": 33,
+  "corpora_with_data": 33,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1203,
+    "total_occurrences": 1207,
     "terms_in_multiple_corpora": 47,
     "max_corpus_coverage": 21,
     "by_corpus": {
@@ -162,6 +163,11 @@
       "dainichikyo-sho-vol8": {
         "unique": 5,
         "occurrences": 21,
+        "present": true
+      },
+      "dainichikyo-sho-vol9": {
+        "unique": 2,
+        "occurrences": 4,
         "present": true
       },
       "hotsubodaishinron-sho-vol3": {
@@ -389,14 +395,15 @@
     },
     {
       "canonical": "須弥山",
-      "total_occurrence_count": 67,
-      "covered_corpora_count": 17,
+      "total_occurrence_count": 69,
+      "covered_corpora_count": 18,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
+        "dainichikyo-sho-vol9",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol2",
@@ -426,6 +433,7 @@
         "dainichikyo-sho-vol2": 2,
         "dainichikyo-sho-vol4": 1,
         "dainichikyo-sho-vol5": 5,
+        "dainichikyo-sho-vol9": 2,
         "hotsubodaishinron-sho-vol4": 2,
         "hotsubodaishinron-sho-vol2": 2
       },
@@ -471,13 +479,14 @@
     },
     {
       "canonical": "殷",
-      "total_occurrence_count": 55,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 57,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
         "dainichikyo-sho-vol8",
+        "dainichikyo-sho-vol9",
         "hizo-houyaku",
         "hizoki",
         "hotsubodaishinron-sho-vol2",
@@ -498,6 +507,7 @@
         "dainichikyo-sho-vol5": 5,
         "dainichikyo-sho-vol6": 1,
         "dainichikyo-sho-vol8": 4,
+        "dainichikyo-sho-vol9": 2,
         "hotsubodaishinron-sho-vol2": 2,
         "hotsubodaishinron-sho-vol5": 3
       },

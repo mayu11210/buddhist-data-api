@@ -1,0 +1,672 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "dainichikyo-sho-vol9.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-20",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 34712,
+  "summary": {
+    "unique_terms": 13,
+    "unique_persons": 13,
+    "total_occurrences": 57,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 5,
+        "occurrences": 42
+      },
+      "buddhist_deva": {
+        "unique": 2,
+        "occurrences": 4
+      },
+      "buddhist_master_china": {
+        "unique": 3,
+        "occurrences": 6
+      },
+      "buddhist_master_india": {
+        "unique": 3,
+        "occurrences": 5
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動明王",
+          "count": 11
+        },
+        {
+          "form": "不動",
+          "count": 11
+        }
+      ],
+      "occurrence_count": 22,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "れはまさにこの印を結ぶべきである」とは――これはさきに説いた不動明王である。これは如来の法身であって、大願のゆえに、無相のなかで",
+          "context_position": 29609,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "方便によって一切の障りを除くのである。すなわち、さきに説いた不動明王である。この不動明王の本漫荼羅は、三角の漫荼羅である。そのな",
+          "context_position": 31199,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "りを除くのである。すなわち、さきに説いた不動明王である。この不動明王の本漫荼羅は、三角の漫荼羅である。そのなかに黒色であるのが、",
+          "context_position": 31209,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "のなかに黒色であるのが、これである。持誦する者は、おのが身が不動明王の像となると想え。またこのなかの作法において二つの意がある。",
+          "context_position": 31261,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "などの法である。よく行人のために一切の障りの事をなす。今この不動明王は、すなわち一切智智の大いなる菩提心である。まさに知るべきで",
+          "context_position": 31625,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "かれがほどこす呪術がどうしてなしうるところがあろう」と。時に不動明王は、仏の教えの命を受けてかれを召す。このようなことをなすのを",
+          "context_position": 31992,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "か」と。やがて逃げ帰る。このように七たびくり返す。そのとき、不動明王は申しあげていう、「世尊よ、この有情はなぜ三世諸仏の三昧耶の",
+          "context_position": 32211,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "と。仏がいう、「すなわちまさにその命を断つべきである」。時に不動明王は、すなわちかれを持し、左の足でその頂の半月のなかを踏み、右",
+          "context_position": 32305,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "ともに仏のところに詣でて、大漫荼羅のなかで法の利を得た。時に不動明王は、仏に申しあげていう、「この大自在天はさらにどうすべきでし",
+          "context_position": 32720,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "」。仏がいう、「あなたはまさにこれを起こすべきである」。時に不動明王は、すなわち法界生の真言を説く。そのとき、大自在なる者は、す",
+          "context_position": 32786,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "とは――いわく金剛手が仏に申しあげていう、「この大いなる力の不動明王〔すなわち尊主である〕がこのような威猛の事をなせるのは、よく",
+          "context_position": 33764,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "よってあまねく魔軍を伏することができた、と。もしこれより堅固不動にして、心の明道〔初法明道〕を見るに至る時、それはすなわち初",
+          "context_position": 1034,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "じることによって、すなわちよく一切の過ちを離れる。意につねに不動なる大いなる有情〔大有情〕を思惟して、よく一切の障りをなす者",
+          "context_position": 29541,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "者がつねによく憶え念じれば、よく一切の障りを離れる。いわゆる不動とは、すなわち真に浄らかな菩提の心である。この義を表すために",
+          "context_position": 29695,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "る。まさにこの阿字を身分のうちにあまねからせる。この字は金剛不動の色となる。いわく、真金色であると想うべきである。このように",
+          "context_position": 30177,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "おおうのである。また時々に器の上にこの字をなせ。この阿は金剛不動の義である。一点を加えるのは、あまねく一切の処〔遍一切処〕と",
+          "context_position": 30402,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "のは、あまねく一切の処〔遍一切処〕ということである。この金剛不動をあまねく一切の処にゆきわたらせるべきである。すなわち、ひろ",
+          "context_position": 30446,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "の障りを息めることをさらに説くべきである。真言で大いなる悪・不動・大いなる力〔大悪不動大力〕を念ずべきである。本漫荼羅のなか",
+          "context_position": 31038,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "らに説くべきである。真言で大いなる悪・不動・大いなる力〔大悪不動大力〕を念ずべきである。本漫荼羅のなかに住す。持誦する者は漫",
+          "context_position": 31049,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "ると想え。またこのなかの作法において二つの意がある。一つは、不動尊が円のなかにいてその上を踏むと想うのである。二つは、自身が",
+          "context_position": 31299,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "円のなかにいてその上を踏むと想うのである。二つは、自身がこの不動尊であると想う。すなわち、本真言と印でこれを加持し、その上を",
+          "context_position": 31333,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "べきである。もし降伏をなそうと願うなら、すなわち自身をまさに不動尊となし、火の輪のなかに住すなどである。仏がいう、「このとお",
+          "context_position": 34623,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 13
+        },
+        {
+          "form": "大日如来",
+          "count": 1
+        },
+        {
+          "form": "大日",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 15,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "終わって、ただちにあまねく仏刹が六種に震動した」とは、いわく大日如来がこのあまねく法界にひびく声を発する時、一切の諸仏菩薩の二つ",
+          "context_position": 16606,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第九沙門一行阿闍梨〔善無畏三蔵の口述を一",
+          "context_position": 1,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "かな法の水でその身を浄め、はっきりと心王の大道を識り、まさに毘盧遮那の坐したまう道場の処に詣でる。それゆえ、かの慶びにひとしくな",
+          "context_position": 581,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "て除蓋障三昧と語言陀羅尼を得て、自在の神通を起こす時も、また毘盧遮那のように法輪を転じることができる。それゆえ、かの慶びにひとし",
+          "context_position": 1581,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "金剛智印があってめぐり、たすけ、ともにこれを護持する。まして毘盧遮那の究竟の心王が成仏する時のすべての威勢はなおさらである。それ",
+          "context_position": 5128,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "昧耶を犯す。かれ〔本教〕に広く説くとおりである。「そのとき、毘盧遮那はさらに一切の衆会を観て、執金剛秘密主などに告げる」より以下",
+          "context_position": 11706,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "蔵三昧に入り、この一々の種子を観じるに、みなこれ蓮華台の上の毘盧遮那である。あまねき門の眷属、尽きることなき荘厳、また大悲漫荼羅",
+          "context_position": 18054,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "を憶え持ってください、それによってわたしのこの身を、すなわち毘盧遮那の法界の自性に同じくさせてください」――これは目覚めさせる義",
+          "context_position": 20850,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "くのは、大悲胎蔵漫荼羅を建立するためである。第二の三昧耶は、毘盧遮那の阿闍梨の事業をなすためである。第三の三昧耶は、執金剛の弟子",
+          "context_position": 22001,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "言は、句の初めの多字を体とする。心の実相のごときは、すなわち毘盧遮那の大いなる智の明かりであって、あまねく世間を照らし、ゆきわた",
+          "context_position": 26030,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "ずから知るのを、これを仏頂の真言と名づける。阿闍梨がみずから毘盧遮那となる時は、髻を解いてさらにこれを結べ。あるいは出家人は、右",
+          "context_position": 27194,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "れを釈すべきである。息障品 第三そのとき、金剛手はかさねて仏毘盧遮那に申しあげて問う。「世尊よ、どのようにすれば、漫荼羅を描く時",
+          "context_position": 28728,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "するのでしょうか。その果はどのようなものでしょうか」。これは毘盧遮那如来に加持されるから、金剛手が仏の神力を受けて、大衆の疑いを",
+          "context_position": 28841,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "および未来の衆生のために、さらにこの問いを発するのである。大毘盧遮那世尊がいう、「善いかな、善いかな、大いなる衆生〔大衆生〕よ。",
+          "context_position": 28908,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "らひらかないものがない。未だかつてないことを得て、微妙の偈で大日世尊をたたえる。ところで、経に「諸仏の前において」というのは",
+          "context_position": 17023,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "金剛智",
+      "aliases": [
+        "vajrabodhi",
+        "Vajrabodhi"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第五祖。金剛界の伝持。",
+      "sanskrit_canonical": "vajrabodhi",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "金剛智",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "は、初法明道のなかで成仏し、法輪を転じる時、すでに無量無辺の金剛智印があってめぐり、たすけ、ともにこれを護持する。まして毘盧遮",
+          "context_position": 5098,
+          "matched_form": "金剛智"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "するから、一切の金剛に帰命する。すなわち、無量の門より如来の金剛智を持つ者にみな憶え持って護念させるのである。次の句に伐折囉咀",
+          "context_position": 21114,
+          "matched_form": "金剛智"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "これは平等の義である。衆生がみずから覚り知らないから、無量の金剛智の門よりさまざまな金剛の事業をなす。かならずこのような大いな",
+          "context_position": 21301,
+          "matched_form": "金剛智"
+        }
+      ]
+    },
+    {
+      "canonical": "夜叉",
+      "aliases": [
+        "yakṣa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "八部衆の一。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "夜叉",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "かれを仏のところに来至させる。かれはさらにいう、「お前たちは夜叉の類である。しかしわたしは諸天の主である。どうしてお前の命を",
+          "context_position": 32145,
+          "matched_form": "夜叉"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "。わたしは初めに召されて、至り終わって仏に問いました。『この夜叉はいったいどんな類でしょうか。わたしの解せないところです』と",
+          "context_position": 32892,
+          "matched_form": "夜叉"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "植え、三宝に供養し、長く人天の福の報いを受けよう。無上菩提は普賢・文殊や諸々の大人たちの行ずる処である。今わたしがどうしてこ",
+          "context_position": 6860,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "ら、名づけて金剛手とする。このような法界を見るから、名づけて普賢とする。それゆえ、この上首の聖尊や一切の金剛菩薩衆は、みなと",
+          "context_position": 10480,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "法蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第三祖。賢首大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "法蔵",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "処〔他勝処〕に堕ちる。それゆえ波羅夷を犯す。人があって三乗の法蔵を愛し重んじ、心に捨てないとはいえ、しかしこの念をなす――「",
+          "context_position": 6729,
+          "matched_form": "法蔵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "この秘密蔵のなかでは、初めの戒であるから、十方三世の一切の正法蔵のなかで、みな無作の功徳を生じる。第二の戒によるから、十方三",
+          "context_position": 8966,
+          "matched_form": "法蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "羅刹",
+      "aliases": [
+        "rākṣasa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "悪鬼神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "羅刹",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "る。それゆえ、すべての障りをなす者、諸々の毘那夜迦や悪い形の羅刹などは、おのずから退き散る。またこの「住」の字は、もし梵音に",
+          "context_position": 17453,
+          "matched_form": "羅刹"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "の実の義で心を護り住す。それゆえ、三種の重い障りと諸々の悪い羅刹などは、みなことごとく駆け散って、その善根を傷つけられない。",
+          "context_position": 17570,
+          "matched_form": "羅刹"
+        }
+      ]
+    },
+    {
+      "canonical": "虚空蔵",
+      "aliases": [
+        "虚空蔵菩薩",
+        "ākāśagarbha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧と福徳を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "虚空蔵",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "することを名づけて般若仏母とする。まさに明妃の義である。この虚空蔵のなかで、真の因の種子を含み養う。すなわち大護の義である。さ",
+          "context_position": 15082,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "るごとくである。また訶字の門は、菩提心の宝である。佉字の門の虚空蔵と和合するから、巧色摩尼を成しとげることができて、よく一切の",
+          "context_position": 15254,
+          "matched_form": "虚空蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦牟尼",
+          "count": 1
+        },
+        {
+          "form": "釈尊",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "を明かし、僧をたたえる偈を総じて結ぶものである。次の二句は、釈迦牟尼の本行のなかの七偈を結び成し、総じて結ぶものである。要をもっ",
+          "context_position": 1994,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "あった、その慶びに、あなたは今ひとしくなれた。このとき菩薩〔釈尊〕は、すでに苦行の極み〔源底〕に到り、それに義利のないことを",
+          "context_position": 176,
+          "matched_form": "釈尊"
+        }
+      ]
+    },
+    {
+      "canonical": "阿難",
+      "aliases": [
+        "阿難陀",
+        "ānanda",
+        "Ānanda"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。多聞第一。",
+      "sanskrit_canonical": "ānanda",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "阿難",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "のなかで説く。〈初め、如来頂相の真言〉南麼三漫多勃陀喃伽伽那阿難多薩発囉儜毘輸駄逹摩涅闍多莎訶。右の句の義のなかで、伽伽那阿",
+          "context_position": 26857,
+          "matched_form": "阿難"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "難多薩発囉儜毘輸駄逹摩涅闍多莎訶。右の句の義のなかで、伽伽那阿難多とは虚空の無量である。薩発囉儜とは普遍である。毘輸駄とは清",
+          "context_position": 26888,
+          "matched_form": "阿難"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第九沙門一行阿闍梨〔善無畏三蔵の口述を一行が筆受した〕の記である。入漫荼羅具縁真言品 ",
+          "context_position": 25,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "三宝に供養し、長く人天の福の報いを受けよう。無上菩提は普賢・文殊や諸々の大人たちの行ずる処である。今わたしがどうしてこれを得",
+          "context_position": 6863,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "舎利弗",
+      "aliases": [
+        "舎利子",
+        "śāriputra",
+        "Śāriputra"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。智慧第一。",
+      "sanskrit_canonical": "śāriputra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "舎利弗",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol9",
+          "context": "って、仏事をなしほどこすのである。ちょうど声聞経のなかで、「舎利弗が遊行する処では、その方面においてわたし〔仏〕にすることがな",
+          "context_position": 10041,
+          "matched_form": "舎利弗"
+        }
+      ]
+    }
+  ]
+}
