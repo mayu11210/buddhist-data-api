@@ -32,7 +32,7 @@
   "role_complete_files": 32,
   "kakikudashi_present": 31,
   "gendaigoyaku_present": 31,
-  "genten_present": 18,
+  "genten_present": 19,
   "with_specialty_sections": 5,
   "indexed_corpora": {
    "terms": 33,
@@ -2174,17 +2174,17 @@
     "kaimyo_excerpt": false,
     "kakikudashi": true,
     "gendaigoyaku": true,
-    "genten": false,
-    "genten_unavailable_reason": "漢文原典は後送（T1796 vol.39 巻第九・CBETA は JS レンダリングのため Chrome 経由で取得予定）。",
+    "genten": true,
     "specialty_sections": []
    },
    "char_counts": {
     "kakikudashi": 29137,
     "gendaigoyaku": 34712,
-    "paragraphs": 63
+    "paragraphs": 63,
+    "genten": 17699
    },
    "role_complete": true,
-   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第九』（大日経 入漫荼羅具縁真言品第二之余の末尾＝慶賀偈の結びと十一偈・金籌/明鏡/法輪法螺/三昧耶の四偈・四波羅夷戒・無作の功徳と福徳聚・大力大護の明妃・法界加持と三三昧耶・供養と荘厳の真言、および息障品第三＝障は自心より生ず・不動明王・風水の障りを止める作法・摩醯首羅の降伏・教令使と金剛の家法）。元 doc が巨大ブロック（12段・最大7,691字）のため科文・話題境界で 63 段に段落化（ケンシン裁定 2026-06-20・巻第三〜八 同型・品題（息障品第三）は文書途中の構造段落として保持・割注の全角括弧は kakikudashi に温存）。genten 後送（T1796 vol.39 巻第九・CBETA は JS）。",
+   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第九』（大日経 入漫荼羅具縁真言品第二之余の末尾＝慶賀偈の結びと十一偈・金籌/明鏡/法輪法螺/三昧耶の四偈・四波羅夷戒・無作の功徳と福徳聚・大力大護の明妃・法界加持と三三昧耶・供養と荘厳の真言、および息障品第三＝障は自心より生ず・不動明王・風水の障りを止める作法・摩醯首羅の降伏・教令使と金剛の家法）。元 doc が巨大ブロック（12段・最大7,691字）のため科文・話題境界で 63 段に段落化（ケンシン裁定 2026-06-20・巻第三〜八 同型・品題（息障品第三）は文書途中の構造段落として保持・割注の全角括弧は kakikudashi に温存）。genten 後送（T1796 vol.39 巻第九・CBETA は JS）。 genten 後送完了（2026-06-20・CBETA 線上閱讀 T1796_009 取得・校勘 anchor 除去・夾註半角括弧→〔 〕・組字式 [嗨-每+(臼/工)] の native 括弧温存・全 20 チャンク per-chunk 多項式ハッシュ exact 一致・全体 UTF-16 len 17,873・cp 17,834・hash 717184684 exact 一致・首題ヘッダ付与で genten 充填 codepoint 改行除去 17,699字）。",
    "index_status": {
     "terms": {
      "present": true,
