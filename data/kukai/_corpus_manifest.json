@@ -32,7 +32,7 @@
   "role_complete_files": 33,
   "kakikudashi_present": 32,
   "gendaigoyaku_present": 32,
-  "genten_present": 19,
+  "genten_present": 20,
   "with_specialty_sections": 5,
   "indexed_corpora": {
    "terms": 34,
@@ -2226,17 +2226,17 @@
     "kaimyo_excerpt": false,
     "kakikudashi": true,
     "gendaigoyaku": true,
-    "genten": false,
-    "genten_unavailable_reason": "漢文原典は後送（T1796 vol.39 巻第十・CBETA は JS レンダリングのため Chrome 経由で取得予定）。",
+    "genten": true,
     "specialty_sections": []
    },
    "char_counts": {
     "kakikudashi": 35491,
     "gendaigoyaku": 38707,
-    "paragraphs": 79
+    "paragraphs": 79,
+    "genten": 21442
    },
    "role_complete": true,
-   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第十』（大日経 息障品第三之余＝本尊の彩色と劣慧不信の障り、普通真言蔵品第四＝諸尊の真言の字義と一百字輪の種子・毘盧遮那真言の心〔阿字＝一切真言の生処〕、世間成就品第五＝字句声の三観と世間成就・月輪観と持誦の果・出入の息・一花供養と成就の相）。元 doc が巨大ブロック（11段・最大20,943字）のため科文・話題境界で 79 段に段落化（ケンシン裁定 2026-06-20・巻第三〜九 同型・品題と尾題は文書中の構造段落として保持・割注の全角括弧は kakikudashi に温存）。genten 後送（T1796 vol.39 巻第十・CBETA は JS）。",
+   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第十』（大日経 息障品第三之余＝本尊の彩色と劣慧不信の障り、普通真言蔵品第四＝諸尊の真言の字義と一百字輪の種子・毘盧遮那真言の心〔阿字＝一切真言の生処〕、世間成就品第五＝字句声の三観と世間成就・月輪観と持誦の果・出入の息・一花供養と成就の相）。元 doc が巨大ブロック（11段・最大20,943字）のため科文・話題境界で 79 段に段落化（ケンシン裁定 2026-06-20・巻第三〜九 同型・品題と尾題は文書中の構造段落として保持・割注の全角括弧は kakikudashi に温存）。genten 後送（T1796 vol.39 巻第十・CBETA は JS）。 genten 後送完了（2026-06-20・CBETA 線上閱讀 T1796_010 取得・校勘 anchor 除去・夾註半角括弧→〔 〕・組字式 [口*憐] の native 括弧温存・全 25 チャンク per-chunk 多項式ハッシュ exact 一致・全体 UTF-16 len 21,851・hash 787801297 exact 一致・首題ヘッダ付与で genten 充填）。",
    "index_status": {
     "terms": {
      "present": true,
