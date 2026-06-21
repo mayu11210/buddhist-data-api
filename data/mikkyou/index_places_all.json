@@ -3,7 +3,7 @@
   "category": "places",
   "category_description": "地名（寺院・山・国・王朝・聖地・宇宙論界）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-20",
+  "generated_at": "2026-06-21",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -30,6 +30,7 @@
     "dainichikyo-sho-vol8",
     "dainichikyo-sho-vol9",
     "dainichikyo-sho-vol10",
+    "dainichikyo-sho-vol11",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -40,16 +41,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 34,
-  "corpora_with_data": 34,
+  "corpora_count": 35,
+  "corpora_with_data": 35,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1211,
+    "total_occurrences": 1228,
     "terms_in_multiple_corpora": 47,
-    "max_corpus_coverage": 21,
+    "max_corpus_coverage": 22,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -176,6 +177,11 @@
         "occurrences": 4,
         "present": true
       },
+      "dainichikyo-sho-vol11": {
+        "unique": 6,
+        "occurrences": 17,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 2,
         "occurrences": 29,
@@ -226,11 +232,12 @@
   "entries": [
     {
       "canonical": "安楽",
-      "total_occurrence_count": 181,
-      "covered_corpora_count": 21,
+      "total_occurrence_count": 189,
+      "covered_corpora_count": 22,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol11",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol5",
@@ -269,6 +276,7 @@
         "dainichikyo-sho-vol5": 1,
         "dainichikyo-sho-vol7": 2,
         "dainichikyo-sho-vol8": 2,
+        "dainichikyo-sho-vol11": 8,
         "hotsubodaishinron-sho-vol3": 28,
         "hotsubodaishinron-sho-vol4": 60,
         "hotsubodaishinron-sho-vol7": 19,
@@ -284,11 +292,12 @@
     },
     {
       "canonical": "欲界",
-      "total_occurrence_count": 105,
-      "covered_corpora_count": 13,
+      "total_occurrence_count": 107,
+      "covered_corpora_count": 14,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol11",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol5",
@@ -313,6 +322,7 @@
         "yugikyo": 1,
         "rishikyo": 1,
         "rishushaku": 4,
+        "dainichikyo-sho-vol11": 2,
         "hotsubodaishinron-sho-vol2": 2,
         "hotsubodaishinron-sho-vol5": 5
       },
@@ -485,9 +495,10 @@
     },
     {
       "canonical": "殷",
-      "total_occurrence_count": 57,
-      "covered_corpora_count": 13,
+      "total_occurrence_count": 60,
+      "covered_corpora_count": 14,
       "covered_corpora": [
+        "dainichikyo-sho-vol11",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
@@ -514,6 +525,7 @@
         "dainichikyo-sho-vol6": 1,
         "dainichikyo-sho-vol8": 4,
         "dainichikyo-sho-vol9": 2,
+        "dainichikyo-sho-vol11": 3,
         "hotsubodaishinron-sho-vol2": 2,
         "hotsubodaishinron-sho-vol5": 3
       },
@@ -527,10 +539,11 @@
     },
     {
       "canonical": "周",
-      "total_occurrence_count": 47,
-      "covered_corpora_count": 12,
+      "total_occurrence_count": 48,
+      "covered_corpora_count": 13,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol11",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
@@ -555,6 +568,7 @@
         "dainichikyo-sho-vol5": 1,
         "dainichikyo-sho-vol6": 3,
         "dainichikyo-sho-vol8": 8,
+        "dainichikyo-sho-vol11": 1,
         "hotsubodaishinron-sho-vol9": 1
       },
       "metadata": {
@@ -623,6 +637,35 @@
       }
     },
     {
+      "canonical": "陳",
+      "total_occurrence_count": 26,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol10",
+        "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol4",
+        "hizo-houyaku",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol8",
+        "jujushinron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 13,
+        "hizo-houyaku": 4,
+        "jujushinron": 2,
+        "dainichikyo-sho-vol4": 1,
+        "dainichikyo-sho-vol10": 1,
+        "dainichikyo-sho-vol11": 2,
+        "hotsubodaishinron-sho-vol2": 1,
+        "hotsubodaishinron-sho-vol8": 2
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "南朝の王朝。"
+      }
+    },
+    {
       "canonical": "夏",
       "total_occurrence_count": 24,
       "covered_corpora_count": 8,
@@ -682,33 +725,6 @@
           "印度",
           "身毒"
         ]
-      }
-    },
-    {
-      "canonical": "陳",
-      "total_occurrence_count": 24,
-      "covered_corpora_count": 7,
-      "covered_corpora": [
-        "dainichikyo-sho-vol10",
-        "dainichikyo-sho-vol4",
-        "hizo-houyaku",
-        "hotsubodaishinron-sho-vol2",
-        "hotsubodaishinron-sho-vol8",
-        "jujushinron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 13,
-        "hizo-houyaku": 4,
-        "jujushinron": 2,
-        "dainichikyo-sho-vol4": 1,
-        "dainichikyo-sho-vol10": 1,
-        "hotsubodaishinron-sho-vol2": 1,
-        "hotsubodaishinron-sho-vol8": 2
-      },
-      "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "南朝の王朝。"
       }
     },
     {
@@ -813,6 +829,29 @@
       }
     },
     {
+      "canonical": "楚",
+      "total_occurrence_count": 16,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "dainichikyo-sho-vol10",
+        "dainichikyo-sho-vol11",
+        "hizo-houyaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "hizo-houyaku": 1,
+        "sankyo-shiki": 6,
+        "dainichikyo-sho-vol10": 1,
+        "dainichikyo-sho-vol11": 1
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "春秋戦国の南方の大国。"
+      }
+    },
+    {
       "canonical": "青龍寺",
       "total_occurrence_count": 16,
       "covered_corpora_count": 4,
@@ -831,27 +870,6 @@
       "metadata": {
         "subcategory": "temple_china",
         "definition": "長安にあった密教の中心寺院。恵果阿闍梨の住所。"
-      }
-    },
-    {
-      "canonical": "楚",
-      "total_occurrence_count": 15,
-      "covered_corpora_count": 4,
-      "covered_corpora": [
-        "dainichikyo-sho-vol10",
-        "hizo-houyaku",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "hizo-houyaku": 1,
-        "sankyo-shiki": 6,
-        "dainichikyo-sho-vol10": 1
-      },
-      "metadata": {
-        "subcategory": "country_china",
-        "definition": "春秋戦国の南方の大国。"
       }
     },
     {

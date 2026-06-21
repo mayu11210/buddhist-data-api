@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "dainichikyo-sho-vol11.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-21",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 40664,
+  "summary": {
+    "unique_terms": 3,
+    "total_occurrences": 3
+  },
+  "entries": [
+    {
+      "term": "中論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "である。因々がすでに空である。どうして果があろう。それゆえ、『中論』『智度』のなかで広く破る。まさに知るべきである、この因は智で",
+          "context_position": 28961,
+          "raw_form": "中論"
+        }
+      ]
+    },
+    {
+      "term": "智度",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "因々がすでに空である。どうして果があろう。それゆえ、『中論』『智度』のなかで広く破る。まさに知るべきである、この因は智で観察する",
+          "context_position": 28965,
+          "raw_form": "智度"
+        }
+      ]
+    },
+    {
+      "term": "華厳",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "ゆきわたり、さまざまな利益をなす。事に従ってみな成じること、『華厳』の回向のなかに広くその相を説くようである。香・華のように、一",
+          "context_position": 18856,
+          "raw_form": "華厳"
+        }
+      ]
+    }
+  ]
+}

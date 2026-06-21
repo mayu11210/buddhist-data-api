@@ -3,7 +3,7 @@
   "category": "citations",
   "category_description": "典故書名（『〜』形式・他者著作）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-20",
+  "generated_at": "2026-06-21",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -30,6 +30,7 @@
     "dainichikyo-sho-vol8",
     "dainichikyo-sho-vol9",
     "dainichikyo-sho-vol10",
+    "dainichikyo-sho-vol11",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -40,14 +41,14 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 34,
-  "corpora_with_data": 34,
+  "corpora_count": 35,
+  "corpora_with_data": 35,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 1194,
-    "total_occurrences": 3823,
+    "total_occurrences": 3826,
     "terms_in_multiple_corpora": 189,
     "max_corpus_coverage": 21,
     "by_corpus": {
@@ -172,6 +173,11 @@
         "present": true
       },
       "dainichikyo-sho-vol10": {
+        "unique": 3,
+        "occurrences": 3,
+        "present": true
+      },
+      "dainichikyo-sho-vol11": {
         "unique": 3,
         "occurrences": 3,
         "present": true
@@ -630,10 +636,11 @@
     },
     {
       "term": "中論",
-      "total_occurrence_count": 48,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 49,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol11",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol7",
         "hizo-houyaku",
@@ -652,7 +659,8 @@
         "jujushinron": 13,
         "hotsubodaishinron-sho-vol1": 1,
         "dainichikyo-sho-vol3": 1,
-        "dainichikyo-sho-vol7": 13
+        "dainichikyo-sho-vol7": 13,
+        "dainichikyo-sho-vol11": 1
       }
     },
     {
@@ -1000,6 +1008,33 @@
       }
     },
     {
+      "term": "華厳",
+      "total_occurrence_count": 17,
+      "covered_corpora_count": 9,
+      "covered_corpora": [
+        "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol6",
+        "dainichikyo-sho-vol7",
+        "dainichikyo-sho-vol8",
+        "dainichikyo-sho-vol9",
+        "hotsubodaishinron-sho-vol4",
+        "shoji-jisso",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "shoji-jisso": 1,
+        "dainichikyo-sho-vol2": 4,
+        "dainichikyo-sho-vol6": 1,
+        "dainichikyo-sho-vol7": 1,
+        "dainichikyo-sho-vol8": 4,
+        "dainichikyo-sho-vol9": 1,
+        "dainichikyo-sho-vol11": 1,
+        "hotsubodaishinron-sho-vol4": 3
+      }
+    },
+    {
       "term": "大般若経",
       "total_occurrence_count": 17,
       "covered_corpora_count": 6,
@@ -1039,31 +1074,6 @@
         "hotsubodaishinron-sho-vol2": 1,
         "hotsubodaishinron-sho-vol5": 1,
         "hotsubodaishinron-sho-vol10": 1
-      }
-    },
-    {
-      "term": "華厳",
-      "total_occurrence_count": 16,
-      "covered_corpora_count": 8,
-      "covered_corpora": [
-        "dainichikyo-sho-vol2",
-        "dainichikyo-sho-vol6",
-        "dainichikyo-sho-vol7",
-        "dainichikyo-sho-vol8",
-        "dainichikyo-sho-vol9",
-        "hotsubodaishinron-sho-vol4",
-        "shoji-jisso",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "shoji-jisso": 1,
-        "dainichikyo-sho-vol2": 4,
-        "dainichikyo-sho-vol6": 1,
-        "dainichikyo-sho-vol7": 1,
-        "dainichikyo-sho-vol8": 4,
-        "dainichikyo-sho-vol9": 1,
-        "hotsubodaishinron-sho-vol4": 3
       }
     },
     {
@@ -2130,6 +2140,21 @@
       }
     },
     {
+      "term": "智度",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol4",
+        "dainichikyo-sho-vol7"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol4": 1,
+        "dainichikyo-sho-vol7": 2,
+        "dainichikyo-sho-vol11": 1
+      }
+    },
+    {
       "term": "演義抄",
       "total_occurrence_count": 4,
       "covered_corpora_count": 3,
@@ -2707,19 +2732,6 @@
       "by_corpus": {
         "jujushinron": 2,
         "hotsubodaishinron-sho-vol4": 1
-      }
-    },
-    {
-      "term": "智度",
-      "total_occurrence_count": 3,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "dainichikyo-sho-vol4",
-        "dainichikyo-sho-vol7"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol4": 1,
-        "dainichikyo-sho-vol7": 2
       }
     },
     {

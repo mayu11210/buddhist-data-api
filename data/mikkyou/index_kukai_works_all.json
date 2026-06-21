@@ -3,7 +3,7 @@
   "category": "kukai_works",
   "category_description": "空海著作・性霊集編纂物（自著言及）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-20",
+  "generated_at": "2026-06-21",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -30,6 +30,7 @@
     "dainichikyo-sho-vol8",
     "dainichikyo-sho-vol9",
     "dainichikyo-sho-vol10",
+    "dainichikyo-sho-vol11",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -40,8 +41,8 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 34,
-  "corpora_with_data": 34,
+  "corpora_count": 35,
+  "corpora_with_data": 35,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
@@ -172,6 +173,11 @@
         "present": true
       },
       "dainichikyo-sho-vol10": {
+        "unique": 0,
+        "occurrences": 0,
+        "present": true
+      },
+      "dainichikyo-sho-vol11": {
         "unique": 0,
         "occurrences": 0,
         "present": true

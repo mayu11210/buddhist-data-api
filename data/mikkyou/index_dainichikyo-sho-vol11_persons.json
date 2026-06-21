@@ -1,0 +1,438 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "dainichikyo-sho-vol11.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-21",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 40664,
+  "summary": {
+    "unique_terms": 10,
+    "unique_persons": 10,
+    "total_occurrences": 29,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 6,
+        "occurrences": 23
+      },
+      "buddhist_deva": {
+        "unique": 3,
+        "occurrences": 5
+      },
+      "buddhist_master_china": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 7
+        },
+        {
+          "form": "大日如来",
+          "count": 3
+        },
+        {
+          "form": "盧遮那",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 11,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "この無為・無作の本体の果より、しかも有為を諸々の眷属とする。大日如来のように、この自証の徳において加持の力によって。しかも、無為",
+          "context_position": 25768,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "を説かない。ただ、成じようとするところの物をそのなかに置け。大日如来を方隅に置くのである〔さらに問い得るべし〕。幢は竹を茎とし、",
+          "context_position": 27414,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "金で仏頂を作って、この法を加えよ。もし成じられれば、すなわち大日如来の身に同じである。あるいは別の物を用いるべきではない。ただ、",
+          "context_position": 40308,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十一沙門一行阿闍梨〔善無畏三蔵の口述を",
+          "context_position": 1,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "きることがない。すなわち法の徳をたたえる意である。そのとき、毘盧遮那世尊は、この伽陀〔偈〕を説き終わって、金剛手など一切の大衆を",
+          "context_position": 2663,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "を成じ、如来の安楽の行に住すべきである。時に諸々の執金剛は、毘盧遮那世尊のために礼をなし、「このように法主の教え勅したまうところ",
+          "context_position": 3216,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "従う、とは――一切の秘めた蔵は、みなこれより生じる。すなわち毘盧遮那仏の心である。この幖表の音声がたがいに声を出すとは――上に一",
+          "context_position": 13319,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "を伏すべきである。いわく、上煩悩および随〔煩悩〕である。時に毘盧遮那世尊は、さらに一切の大会を観じ、執金剛秘密主に告げていう、「",
+          "context_position": 33887,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "なかに字を置け。この阿字を見終わって、すなわちこの字を転じ、毘盧遮那本尊の形とせよ。すなわち自身が現に本尊の像に同じである。その",
+          "context_position": 35722,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "に現に証して成仏することはなおさらである。さらに、そのとき、毘盧遮那世尊は、さらに降伏四魔金剛戯三昧に住し、四魔を降伏し、六趣を",
+          "context_position": 36715,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "このような計都・朅伽〔剣〕・傘蓋・履屣・真陀摩尼・安膳那薬・盧遮那などで、三洛叉を持して成就をなせ。また悉地を得る、とは――次",
+          "context_position": 27210,
+          "matched_form": "盧遮那"
+        }
+      ]
+    },
+    {
+      "canonical": "虚空蔵",
+      "aliases": [
+        "虚空蔵菩薩",
+        "ākāśagarbha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧と福徳を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "虚空蔵",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "じるから言う、まさに理に加えられるべきである、と。「虚空等力虚空蔵明妃」の真言と相接して次ぐ。「そのとき、虚空等力虚空蔵転明妃",
+          "context_position": 21165,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "空等力虚空蔵明妃」の真言と相接して次ぐ。「そのとき、虚空等力虚空蔵転明妃を説いていう」とは――虚空は破り壊せない。一切によく勝",
+          "context_position": 21192,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "施すのに自在にこれを取り、貧しく乏しくならないように、如来の虚空蔵もまたこのようである。一切の衆生を利し楽しませる事、みなその",
+          "context_position": 21309,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "宝を出し、自在に受け用いるに、しかも窮まり竭きる相がないのを虚空蔵と名づける。転順明とは――転順は能く生じる〔能生〕義である。",
+          "context_position": 21381,
+          "matched_form": "虚空蔵"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "〕底〔生〕薩泮〔二合〕囉醯門〔普遍〕伽伽那剣〔虚空〕。これは虚空蔵・虚空等力の義である。一切法は空のなかにひとしく、しかもこの",
+          "context_position": 21727,
+          "matched_form": "虚空蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "ことによって、すなわちよく事に従って成就する。これがすなわち普賢の行願である。この相はどうか。いわく、このような大悲の願を生",
+          "context_position": 19935,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "よ〔秘めた説は前のように知るべし〕。この法をなす時、さらには普賢菩薩・文殊師利・執金剛など、あるいは他の聖なる天が現の前にあ",
+          "context_position": 32198,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "住す。仏がこの真言を説く時、金剛手秘密主などの諸々の執金剛、普賢などの諸々の菩薩および一切の大衆は、未だかつてない眼の開きひ",
+          "context_position": 37180,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "阿修羅",
+      "aliases": [
+        "asura"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "六道の一・阿修羅道の住人。八部衆。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "阿修羅",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "たたえられる。ただ如来だけではない。また十方の諸々の天・人・阿修羅・沙門・婆羅門の衆および凡聖の大衆に、つねにたたえられ、伝え",
+          "context_position": 4603,
+          "matched_form": "阿修羅"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "まざまな園の菓や乗り物・人・畜などを示し現すようである。また阿修羅にみずから真言がある。よくその身を化して帝釈に同じくし、三十",
+          "context_position": 9750,
+          "matched_form": "阿修羅"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "く破り壊すのである。「不動堅固を得る」とは――いわく天・人・阿修羅などが壊せないところである。およそ一切の増益の事、もしなそう",
+          "context_position": 39759,
+          "matched_form": "阿修羅"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊師利",
+          "count": 1
+        },
+        {
+          "form": "文殊",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "説は前のように知るべし〕。この法をなす時、さらには普賢菩薩・文殊師利・執金剛など、あるいは他の聖なる天が現の前にあらわれ、頂を摩",
+          "context_position": 32203,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "同じである。刀は作すにもまた法がある。もし成じれば、すなわち文殊童子に同じである。鵞とは――作法でもし成じれば、すなわちこれ",
+          "context_position": 40490,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "せないようであるものも、この字門で、よく破り壊すのである。「不動堅固を得る」とは――いわく天・人・阿修羅などが壊せないところ",
+          "context_position": 39740,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十一沙門一行阿闍梨〔善無畏三蔵の口述を一行が筆受した〕の記である。悉地出現品 第六その",
+          "context_position": 26,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "うである。また阿修羅にみずから真言がある。よくその身を化して帝釈に同じくし、三十三天の善法堂の上に坐して、一切の天にみな疑い",
+          "context_position": 9773,
+          "matched_form": "帝釈"
+        }
+      ]
+    },
+    {
+      "canonical": "梵天",
+      "aliases": [
+        "brahmā",
+        "Brahmā"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "色界初禅天の主。",
+      "sanskrit_canonical": "brahmā",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "梵天",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "鵞とは――作法でもし成じれば、すなわちこれに乗ることで自身が梵天の身となる。外の財を成就するなかで〔地はいわく伏蔵である〕、",
+          "context_position": 40531,
+          "matched_form": "梵天"
+        }
+      ]
+    },
+    {
+      "canonical": "観音",
+      "aliases": [
+        "観世音",
+        "観自在",
+        "avalokiteśvara",
+        "Avalokiteśvara"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "慈悲を司る菩薩。",
+      "sanskrit_canonical": "avalokiteśvara",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "観音",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol11",
+          "context": "蓮華などを作って、このなかで持誦せよ。もし成じれば、すなわち観音に同じである。刀は作すにもまた法がある。もし成じれば、すなわ",
+          "context_position": 40457,
+          "matched_form": "観音"
+        }
+      ]
+    }
+  ]
+}
