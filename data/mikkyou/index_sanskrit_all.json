@@ -3,7 +3,7 @@
   "category": "sanskrit",
   "category_description": "梵語 IAST",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-21",
+  "generated_at": "2026-06-22",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -31,6 +31,7 @@
     "dainichikyo-sho-vol9",
     "dainichikyo-sho-vol10",
     "dainichikyo-sho-vol11",
+    "dainichikyo-sho-vol12",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -41,15 +42,15 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 35,
-  "corpora_with_data": 35,
+  "corpora_count": 36,
+  "corpora_with_data": 36,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 1751,
-    "total_occurrences": 2685,
-    "terms_in_multiple_corpora": 142,
+    "total_occurrences": 2688,
+    "terms_in_multiple_corpora": 145,
     "max_corpus_coverage": 4,
     "by_corpus": {
       "shoryoshu_miyasaka": {
@@ -180,6 +181,11 @@
       "dainichikyo-sho-vol11": {
         "unique": 0,
         "occurrences": 0,
+        "present": true
+      },
+      "dainichikyo-sho-vol12": {
+        "unique": 3,
+        "occurrences": 3,
         "present": true
       },
       "hotsubodaishinron-sho-vol3": {
@@ -2081,6 +2087,22 @@
       }
     },
     {
+      "canonical": "maṇḍa",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol12"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 2,
+        "dainichikyo-sho-vol12": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
       "canonical": "nāma-rūpa",
       "total_occurrence_count": 3,
       "covered_corpora_count": 2,
@@ -3085,6 +3107,22 @@
       }
     },
     {
+      "canonical": "haṃ",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol12",
+        "rishikyo"
+      ],
+      "by_corpus": {
+        "rishikyo": 1,
+        "dainichikyo-sho-vol12": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
       "canonical": "hetva",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
@@ -3543,6 +3581,22 @@
       "by_corpus": {
         "ujiji": 1,
         "dainichikyo-sho-vol1": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
+      "canonical": "śāntika",
+      "total_occurrence_count": 2,
+      "covered_corpora_count": 2,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol12"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol1": 1,
+        "dainichikyo-sho-vol12": 1
       },
       "metadata": {
         "has_diacritics": true
@@ -4756,20 +4810,6 @@
       },
       "metadata": {
         "has_diacritics": false
-      }
-    },
-    {
-      "canonical": "maṇḍa",
-      "total_occurrence_count": 2,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol1": 2
-      },
-      "metadata": {
-        "has_diacritics": true
       }
     },
     {
@@ -12082,20 +12122,6 @@
     },
     {
       "canonical": "haḥ",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "rishikyo"
-      ],
-      "by_corpus": {
-        "rishikyo": 1
-      },
-      "metadata": {
-        "has_diacritics": true
-      }
-    },
-    {
-      "canonical": "haṃ",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [
@@ -24780,20 +24806,6 @@
     },
     {
       "canonical": "śānta-supratiṣṭhita",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol1": 1
-      },
-      "metadata": {
-        "has_diacritics": true
-      }
-    },
-    {
-      "canonical": "śāntika",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
       "covered_corpora": [

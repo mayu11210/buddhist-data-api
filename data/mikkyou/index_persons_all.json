@@ -3,7 +3,7 @@
   "category": "persons",
   "category_description": "人名（仏教祖師・諸尊・諸子百家・天皇・貴族）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-21",
+  "generated_at": "2026-06-22",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -31,6 +31,7 @@
     "dainichikyo-sho-vol9",
     "dainichikyo-sho-vol10",
     "dainichikyo-sho-vol11",
+    "dainichikyo-sho-vol12",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -41,16 +42,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 35,
-  "corpora_with_data": 35,
+  "corpora_count": 36,
+  "corpora_with_data": 36,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 92,
-    "total_occurrences": 4131,
+    "total_occurrences": 4161,
     "terms_in_multiple_corpora": 64,
-    "max_corpus_coverage": 34,
+    "max_corpus_coverage": 35,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 81,
@@ -182,6 +183,11 @@
         "occurrences": 29,
         "present": true
       },
+      "dainichikyo-sho-vol12": {
+        "unique": 7,
+        "occurrences": 30,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 14,
         "occurrences": 65,
@@ -232,13 +238,14 @@
   "entries": [
     {
       "canonical": "大日如来",
-      "total_occurrence_count": 1225,
-      "covered_corpora_count": 34,
+      "total_occurrence_count": 1235,
+      "covered_corpora_count": 35,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol10",
         "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol12",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
@@ -296,6 +303,7 @@
         "dainichikyo-sho-vol9": 15,
         "dainichikyo-sho-vol10": 11,
         "dainichikyo-sho-vol11": 11,
+        "dainichikyo-sho-vol12": 10,
         "hotsubodaishinron-sho-vol3": 20,
         "hotsubodaishinron-sho-vol4": 10,
         "hotsubodaishinron-sho-vol2": 55,
@@ -369,11 +377,12 @@
     },
     {
       "canonical": "釈迦",
-      "total_occurrence_count": 245,
-      "covered_corpora_count": 24,
+      "total_occurrence_count": 249,
+      "covered_corpora_count": 25,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol10",
+        "dainichikyo-sho-vol12",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
@@ -421,6 +430,7 @@
         "dainichikyo-sho-vol8": 2,
         "dainichikyo-sho-vol9": 2,
         "dainichikyo-sho-vol10": 12,
+        "dainichikyo-sho-vol12": 4,
         "hotsubodaishinron-sho-vol2": 4
       },
       "metadata": {
@@ -656,12 +666,13 @@
     },
     {
       "canonical": "不動",
-      "total_occurrence_count": 121,
-      "covered_corpora_count": 22,
+      "total_occurrence_count": 128,
+      "covered_corpora_count": 23,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol10",
         "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol12",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
@@ -703,6 +714,7 @@
         "dainichikyo-sho-vol9": 22,
         "dainichikyo-sho-vol10": 11,
         "dainichikyo-sho-vol11": 1,
+        "dainichikyo-sho-vol12": 7,
         "hotsubodaishinron-sho-vol2": 1,
         "hotsubodaishinron-sho-vol9": 9
       },
@@ -718,12 +730,13 @@
     },
     {
       "canonical": "文殊",
-      "total_occurrence_count": 113,
-      "covered_corpora_count": 22,
+      "total_occurrence_count": 116,
+      "covered_corpora_count": 23,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol10",
         "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol12",
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
         "dainichikyo-sho-vol7",
@@ -764,6 +777,7 @@
         "dainichikyo-sho-vol9": 1,
         "dainichikyo-sho-vol10": 8,
         "dainichikyo-sho-vol11": 2,
+        "dainichikyo-sho-vol12": 3,
         "hotsubodaishinron-sho-vol3": 8,
         "hotsubodaishinron-sho-vol2": 1,
         "hotsubodaishinron-sho-vol5": 1
@@ -959,12 +973,13 @@
     },
     {
       "canonical": "阿修羅",
-      "total_occurrence_count": 58,
-      "covered_corpora_count": 15,
+      "total_occurrence_count": 61,
+      "covered_corpora_count": 16,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol10",
         "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol12",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol7",
@@ -993,7 +1008,8 @@
         "dainichikyo-sho-vol7": 1,
         "dainichikyo-sho-vol8": 1,
         "dainichikyo-sho-vol10": 2,
-        "dainichikyo-sho-vol11": 3
+        "dainichikyo-sho-vol11": 3,
+        "dainichikyo-sho-vol12": 3
       },
       "metadata": {
         "subcategory": "buddhist_deva",
@@ -1113,40 +1129,14 @@
       }
     },
     {
-      "canonical": "恵果",
-      "total_occurrence_count": 43,
-      "covered_corpora_count": 5,
-      "covered_corpora": [
-        "hotsubodaishinron-sho-vol2",
-        "hotsubodaishinron-sho-vol4",
-        "jujushinron",
-        "nikyo-ron",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 38,
-        "nikyo-ron": 1,
-        "jujushinron": 1,
-        "hotsubodaishinron-sho-vol4": 2,
-        "hotsubodaishinron-sho-vol2": 1
-      },
-      "metadata": {
-        "subcategory": "buddhist_master_china",
-        "definition": "密教付法第七祖。空海の師。青龍寺の大徳。",
-        "aliases": [
-          "恵果阿闍梨",
-          "恵果和尚"
-        ]
-      }
-    },
-    {
       "canonical": "金剛智",
-      "total_occurrence_count": 42,
-      "covered_corpora_count": 16,
+      "total_occurrence_count": 44,
+      "covered_corpora_count": 17,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol10",
+        "dainichikyo-sho-vol12",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol7",
@@ -1177,6 +1167,7 @@
         "dainichikyo-sho-vol8": 2,
         "dainichikyo-sho-vol9": 3,
         "dainichikyo-sho-vol10": 2,
+        "dainichikyo-sho-vol12": 2,
         "hotsubodaishinron-sho-vol2": 4
       },
       "metadata": {
@@ -1187,6 +1178,33 @@
           "Vajrabodhi"
         ],
         "sanskrit_canonical": "vajrabodhi"
+      }
+    },
+    {
+      "canonical": "恵果",
+      "total_occurrence_count": 43,
+      "covered_corpora_count": 5,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol4",
+        "jujushinron",
+        "nikyo-ron",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 38,
+        "nikyo-ron": 1,
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol4": 2,
+        "hotsubodaishinron-sho-vol2": 1
+      },
+      "metadata": {
+        "subcategory": "buddhist_master_china",
+        "definition": "密教付法第七祖。空海の師。青龍寺の大徳。",
+        "aliases": [
+          "恵果阿闍梨",
+          "恵果和尚"
+        ]
       }
     },
     {
@@ -1258,12 +1276,13 @@
     },
     {
       "canonical": "善無畏",
-      "total_occurrence_count": 34,
-      "covered_corpora_count": 17,
+      "total_occurrence_count": 35,
+      "covered_corpora_count": 18,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol10",
         "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol12",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol6",
         "dainichikyo-sho-vol7",
@@ -1295,6 +1314,7 @@
         "dainichikyo-sho-vol9": 1,
         "dainichikyo-sho-vol10": 1,
         "dainichikyo-sho-vol11": 1,
+        "dainichikyo-sho-vol12": 1,
         "hotsubodaishinron-sho-vol3": 1,
         "hotsubodaishinron-sho-vol2": 1
       },

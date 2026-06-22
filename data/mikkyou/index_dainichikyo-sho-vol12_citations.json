@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "dainichikyo-sho-vol12.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-22",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 35660,
+  "summary": {
+    "unique_terms": 4,
+    "total_occurrences": 6
+  },
+  "entries": [
+    {
+      "term": "法華経",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "それを心の中に当てると、心を浄らかにすることができる。これが『法華経』にいう意根の浄〔意根浄・心のはたらきの清浄〕である。歩きなが",
+          "context_position": 6955,
+          "raw_form": "法華経"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "け用いて仏事を成し遂げ、あまねく衆生に施す。これがすなわち、『法華経』の大長者〔だいちょうじゃ〕の義である。菩薩・救世者から、さら",
+          "context_position": 21367,
+          "raw_form": "法華経"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "ず自ら徳をたたえるのである。この法は信じがたいゆえに、まさに『法華経』を説こうとして、やはり自ら〔徳を〕たたえたのと同じである。し",
+          "context_position": 26714,
+          "raw_form": "法華経"
+        }
+      ]
+    },
+    {
+      "term": "大日経疏",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "できないようなものである。ましてや如来の境はなおさらである（『大日経疏』の深い秘密の箇所〔深密〕を引くべきである。「本寂」とは、知る",
+          "context_position": 27647,
+          "raw_form": "大日経疏"
+        }
+      ]
+    },
+    {
+      "term": "央掘魔羅経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "い。自ら気づきさとることによって、これを得るのである。これは『央掘魔羅経』の不盗戒〔ふっとうかい・盗まずの戒〕の義を引くにあたる〔さと",
+          "context_position": 12867,
+          "raw_form": "央掘魔羅経"
+        }
+      ]
+    },
+    {
+      "term": "広",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "上首である。「善男子よ、よく聴け。〈転字輪漫荼羅行品〉の中で『広』と名づけるのは、真言門を修行する菩薩が仏事をなして、よく彼〔",
+          "context_position": 24584,
+          "raw_form": "広"
+        }
+      ]
+    }
+  ]
+}

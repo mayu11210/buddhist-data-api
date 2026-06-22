@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "dainichikyo-sho-vol12.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-22",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 35660,
+  "summary": {
+    "unique_terms": 3,
+    "unique_canonicals": 3,
+    "total_occurrences": 3,
+    "with_diacritics_count": 3,
+    "ascii_only_count": 0,
+    "multi_form_canonicals": 0
+  },
+  "entries": [
+    {
+      "canonical": "haṃ",
+      "representative_form": "haṃ",
+      "aliases": [
+        {
+          "form": "haṃ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "を吹き動かす標〔風吹動の幖幟〕に作る。その中に含字〔かん字・haṃ〕を置く。まず外に作るのを想い、それをめぐらして自身に作る。",
+          "context_position": 3876,
+          "sanskrit_form": "haṃ"
+        }
+      ]
+    },
+    {
+      "canonical": "maṇḍa",
+      "representative_form": "maṇḍa",
+      "aliases": [
+        {
+          "form": "maṇḍa",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "すぎない。しかし西方〔インド〕では、この座を「満荼〔まんだ・maṇḍa〕」と名づける。「満荼」とは、堅固の意味、不動の意味、さらに",
+          "context_position": 27998,
+          "sanskrit_form": "maṇḍa"
+        }
+      ]
+    },
+    {
+      "canonical": "śāntika",
+      "representative_form": "śāntika",
+      "aliases": [
+        {
+          "form": "śāntika",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "あるので「等」というのである。いっさいの扇底迦〔せんていか・śāntika／息災法〕は白色と相応し、この中で行う。さきの阿字は金剛曼荼",
+          "context_position": 1996,
+          "sanskrit_form": "śāntika"
+        }
+      ]
+    }
+  ]
+}

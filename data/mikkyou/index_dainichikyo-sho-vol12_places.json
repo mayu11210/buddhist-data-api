@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol12.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-22",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 35660,
+  "summary": {
+    "unique_terms": 3,
+    "unique_places": 3,
+    "total_occurrences": 4,
+    "by_subcategory": {
+      "country_dynasty": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "mountain_buddhist": {
+        "unique": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "とをいう〔一境に住す〕。この法を行うには、まず八つの峯をもつ須弥山王〔八峯の須弥山王〕を心に思い描く。八峯とは、四方をぐるりと",
+          "context_position": 288,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "住す〕。この法を行うには、まず八つの峯をもつ須弥山王〔八峯の須弥山王〕を心に思い描く。八峯とは、四方をぐるりと囲んで八つの峯を",
+          "context_position": 296,
+          "matched_form": "須弥山"
+        }
+      ]
+    },
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "商",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "色が白いことは車渠〔しゃこ・白い宝石〕のようである（あるいは商佉〔しょうきゃ〕という。これは宝の貝〔宝貝〕である。その色は",
+          "context_position": 34708,
+          "matched_form": "商"
+        }
+      ]
+    },
+    {
+      "canonical": "雪山",
+      "aliases": [
+        "ヒマーラヤ",
+        "himālaya"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "ヒマーラヤ山脈。仏典でしばしば言及される聖山。",
+      "matched_forms": [
+        {
+          "form": "雪山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "ねて説く。その観法は、この字を思い描いて、まっ白な色に作る。雪山や牛乳のように鮮やかで清く白い〔鮮明皎潔〕ようすである。まず",
+          "context_position": 905,
+          "matched_form": "雪山"
+        }
+      ]
+    }
+  ]
+}

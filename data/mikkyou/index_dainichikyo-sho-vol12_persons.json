@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "dainichikyo-sho-vol12.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-22",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 35660,
+  "summary": {
+    "unique_terms": 7,
+    "unique_persons": 7,
+    "total_occurrences": 30,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 3,
+        "occurrences": 20
+      },
+      "buddhist_deva": {
+        "unique": 1,
+        "occurrences": 3
+      },
+      "buddhist_master_china": {
+        "unique": 2,
+        "occurrences": 3
+      },
+      "buddhist_master_india": {
+        "unique": 1,
+        "occurrences": 4
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 7
+        },
+        {
+          "form": "大日如来",
+          "count": 2
+        },
+        {
+          "form": "大日",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 10,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "その身にゆきわたらせる（みな上に説いたとおりである）。そして大日如来が、大悲胎蔵生三昧〔大悲をはぐくむ胎蔵から生じる三昧〕に入る",
+          "context_position": 32910,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "広大な法界の印〔広大法界の印〕である（その時、自身がそのまま大日如来だと想うべきである）。このように想い終えて、まず白色を下せ。",
+          "context_position": 34267,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十二 沙門一行阿闍梨〔善無畏三蔵の口述",
+          "context_position": 1,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "。そうでなければ、もろもろの徳がそなわらないのである。「時に毘盧遮那は、諸仏と我の始め初めの不生〔始初不生〕と金剛の執る力〔金剛",
+          "context_position": 24224,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "いて、現世の楽〔現法楽〕を受ける）、衆生を利しようとする者（毘盧遮那のように、常にいっさいの衆生のために大いなる仏事をなし、種々",
+          "context_position": 29958,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "ない。 ただ常にこの阿字門を勤め修めるべきである。「その時、毘盧遮那仏が、この大悲胎蔵生漫荼羅王〔大悲をはぐくむ胎蔵から生じる曼",
+          "context_position": 30246,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "加持して金剛手とするのである。もし師が、阿字によって己の身を毘盧遮那仏に同じくすれば、自らなすべき作務〔作務する所〕がなくなる。",
+          "context_position": 32123,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "ないので、まだ記していない（さらにこれを問え）。経に「さらに毘盧遮那によって我を加持し、彼を印し、広く法界を思いめぐらして〔尋念",
+          "context_position": 34139,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "〔尋念〕、彩色を下す」というのは——彩色を下すとき、阿闍梨は毘盧遮那如来、あるいはその印を思い描くべきだ、ということである。この",
+          "context_position": 34200,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "きないようなものである。ましてや如来の境はなおさらである（『大日経疏』の深い秘密の箇所〔深密〕を引くべきである。「本寂」とは",
+          "context_position": 27648,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動明王",
+          "count": 5
+        },
+        {
+          "form": "不動",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "われば、そこから諸々の善い功徳が生じる。この字門のはたらきは不動明王と相応する。その不動明王の真言句は、上中下の三品〔三品の悉地",
+          "context_position": 2303,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "い功徳が生じる。この字門のはたらきは不動明王と相応する。その不動明王の真言句は、上中下の三品〔三品の悉地〕すべてを成し遂げること",
+          "context_position": 2315,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "焔のようすである。その中に囉字を観じる。成し終えたら、転じて不動明王とする。静かに鎮まった像〔寂然の像〕に作る。怒りでもなく笑い",
+          "context_position": 2547,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "怒りでもなく笑いでもなく、その姿は静かである。またいう、まず不動明王を思い描き、その心の上に三角を作り、中に囉字を置く。字ができ",
+          "context_position": 2603,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "心の上に三角を作り、中に囉字を置く。字ができたら、めぐらして不動明王とする。障りを除くゆえに罪が滅し、静かに鎮まるゆえに息災とな",
+          "context_position": 2645,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "め、心を一つの対象に住まわせて、動かないようにさせる。これは不動尊〔明王〕のことではなく、心が定まって住するという意味〔定住",
+          "context_position": 524,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "まんだ・maṇḍa〕」と名づける。「満荼」とは、堅固の意味、不動の意味、さらに等しく比べるものなき意味〔更無等比の義〕、あま",
+          "context_position": 28024,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦",
+          "count": 3
+        },
+        {
+          "form": "釈尊",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "く地をとっても、さしつかえない。前の漫荼羅の中では、第二院に釈迦を置き、第三院に文殊師利という。これは文〔記述〕を入れちがえ",
+          "context_position": 33763,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "の中に、自ら確かな文〔誠文〕がある。文殊は第二の重にいまし、釈迦は第三の重にいますのである。阿字を思い描いて外院を定め、次に",
+          "context_position": 33908,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "のように身の各部〔身分〕にゆきわたらせよ。 次に第三院には、釈迦を思い描き、あるいは婆字〔ば字〕を作すべきである（重い声の婆",
+          "context_position": 34024,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "のである。 この浄らかさを得た者は、諸仏・牟尼尊〔むにそん・釈尊〕と同じく、あまねくいっさいの衆生を利益し、あらゆる否定〔百",
+          "context_position": 5644,
+          "matched_form": "釈尊"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 2
+        },
+        {
+          "form": "文殊師利",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "つかえない。前の漫荼羅の中では、第二院に釈迦を置き、第三院に文殊師利という。これは文〔記述〕を入れちがえている〔文を互にす〕ので",
+          "context_position": 33773,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "わち第三の重である。今この中に、自ら確かな文〔誠文〕がある。文殊は第二の重にいまし、釈迦は第三の重にいますのである。阿字を思",
+          "context_position": 33896,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "め、次に嚩字を思い描いて中台を作る。次に第二院を作るときは、文殊を思い描き、あるいは瞞字〔まん字〕を思い描け。また前のように",
+          "context_position": 33966,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "阿修羅",
+      "aliases": [
+        "asura"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "六道の一・阿修羅道の住人。八部衆。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "阿修羅",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "眼・天耳、その身を隠すこと〔身を没隠す〕である。「開」とは、阿修羅の宮〔阿修羅宮〕などを開くことをいう。下に「念」というのは、",
+          "context_position": 4083,
+          "matched_form": "阿修羅"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "の身を隠すこと〔身を没隠す〕である。「開」とは、阿修羅の宮〔阿修羅宮〕などを開くことをいう。下に「念」というのは、ただ心を用い",
+          "context_position": 4089,
+          "matched_form": "阿修羅"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "処にゆきわたる。「あるいは開き、あるいは壊す」とは、「開」は阿修羅の宮および一切のかたく塞がったもの〔質礙の物〕を開くこと、「",
+          "context_position": 6744,
+          "matched_form": "阿修羅"
+        }
+      ]
+    },
+    {
+      "canonical": "金剛智",
+      "aliases": [
+        "vajrabodhi",
+        "Vajrabodhi"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第五祖。金剛界の伝持。",
+      "sanskrit_canonical": "vajrabodhi",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "金剛智",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "はそのまま金剛の体である。十方のいっさいの仏が、同じく如来の金剛智の印〔金剛智印〕をその手の中に授ける。だから持金剛〔金剛を持",
+          "context_position": 8270,
+          "matched_form": "金剛智"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "剛の体である。十方のいっさいの仏が、同じく如来の金剛智の印〔金剛智印〕をその手の中に授ける。だから持金剛〔金剛を持つ者〕と名づ",
+          "context_position": 8276,
+          "matched_form": "金剛智"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol12",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十二 沙門一行阿闍梨〔善無畏三蔵の口述を一行が筆受した〕の記である。 悉地出現品 第六の",
+          "context_position": 27,
+          "matched_form": "善無畏"
+        }
+      ]
+    }
+  ]
+}

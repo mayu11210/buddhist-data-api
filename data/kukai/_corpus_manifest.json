@@ -35,13 +35,13 @@
   "genten_present": 20,
   "with_specialty_sections": 5,
   "indexed_corpora": {
-   "terms": 35,
-   "citations": 35,
-   "kukai_works": 35,
-   "sanskrit": 35,
-   "kaimyo_jukugo": 35,
-   "persons": 35,
-   "places": 35
+   "terms": 36,
+   "citations": 36,
+   "kukai_works": 36,
+   "sanskrit": 36,
+   "kaimyo_jukugo": 36,
+   "persons": 36,
+   "places": 36
   }
  },
  "files": [
@@ -2340,7 +2340,37 @@
     "paragraphs": 63
    },
    "role_complete": true,
-   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第十二』（大日経 悉地出現品第六之余〜成就悉地品第七〜転字輪漫荼羅行品第八の注釈＝五字〔阿縛囉訶佉〕の成就曼荼羅と五字の義・成就悉地品の心処＝大悲胎蔵漫荼羅と自心本浄・八葉の四智と阿字円明観・菴字門と六根浄・覧字門と真実智・転字輪漫荼羅行品の甘露生三昧と虚空蔵明妃・阿字輪の功徳・大悲胎蔵生漫荼羅の敷置と方位画線彩色）。元 doc が巨大ブロック（14 ブロック・最大8,591字）のため科文・話題境界で 63 段に段落化（巻第三〜十一 同型・半角空白952除去・割注の全角括弧60対は kakikudashi に温存・品題3つ〔悉地出現品第六之余／成就悉地品第七／転字輪漫荼羅行品第八〕は構造段落として保持・尾題なし=巻第十三へ続く）。genten 後送（T1796 vol.39 巻第十二・CBETA は JS）。"
+   "notes": "書き下しデータ化スキルで取込。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第十二』（大日経 悉地出現品第六之余〜成就悉地品第七〜転字輪漫荼羅行品第八の注釈＝五字〔阿縛囉訶佉〕の成就曼荼羅と五字の義・成就悉地品の心処＝大悲胎蔵漫荼羅と自心本浄・八葉の四智と阿字円明観・菴字門と六根浄・覧字門と真実智・転字輪漫荼羅行品の甘露生三昧と虚空蔵明妃・阿字輪の功徳・大悲胎蔵生漫荼羅の敷置と方位画線彩色）。元 doc が巨大ブロック（14 ブロック・最大8,591字）のため科文・話題境界で 63 段に段落化（巻第三〜十一 同型・半角空白952除去・割注の全角括弧60対は kakikudashi に温存・品題3つ〔悉地出現品第六之余／成就悉地品第七／転字輪漫荼羅行品第八〕は構造段落として保持・尾題なし=巻第十三へ続く）。genten 後送（T1796 vol.39 巻第十二・CBETA は JS）。",
+   "index_status": {
+    "terms": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol12_terms.json"
+    },
+    "citations": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol12_citations.json"
+    },
+    "kukai_works": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol12_kukai_works.json"
+    },
+    "sanskrit": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol12_sanskrit.json"
+    },
+    "kaimyo_jukugo": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol12_kaimyo.json"
+    },
+    "persons": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol12_persons.json"
+    },
+    "places": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol12_places.json"
+    }
+   }
   },
   {
    "filename": "hotsubodaishinron-sho-vol3.json",
