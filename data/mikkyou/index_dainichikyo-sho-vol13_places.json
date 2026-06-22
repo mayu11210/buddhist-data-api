@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol13.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-22",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 40347,
+  "summary": {
+    "unique_terms": 2,
+    "unique_places": 2,
+    "total_occurrences": 7,
+    "by_subcategory": {
+      "country_dynasty": {
+        "unique": 1,
+        "occurrences": 5
+      },
+      "country_japan": {
+        "unique": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "商",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "得て、法をすみやかに成じられなくさせるだけである。次に、吉祥商佉の印〔吉祥商佉印・めでたい法螺貝の印〕を作せ。まず空中合掌",
+          "context_position": 15404,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "やかに成じられなくさせるだけである。次に、吉祥商佉の印〔吉祥商佉印・めでたい法螺貝の印〕を作せ。まず空中合掌（前のとおり）",
+          "context_position": 15411,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "とおり）を作し、空の指を屈し、二つの風の指でこれを押さえて、商佉〔しょうきゃ・法螺貝〕の形のようにせよ。印を作し終えて、口",
+          "context_position": 15468,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "せて伏するのは、戦って勝つ義〔戦勝の義〕である）」。次は金剛商佉羅〔こんごうしょうきゃら〕である。これは金剛の連なる鎖〔金",
+          "context_position": 35761,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "ち、前の観音の印である）。無量音声の仏頂〔無量音声仏頂〕は、商伽〔しょうきゃ・法螺〕の印を作せ。前に説いたとおり（すなわち",
+          "context_position": 38875,
+          "matched_form": "商"
+        }
+      ]
+    },
+    {
+      "canonical": "日本",
+      "aliases": [
+        "日域",
+        "本朝",
+        "我朝",
+        "皇朝",
+        "神国"
+      ],
+      "subcategory": "country_japan",
+      "definition": "日本国。",
+      "matched_forms": [
+        {
+          "form": "日本",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "伏せる者がないゆえに名とする。身を無憂花〔むうげ〕（この地〔日本〕の深紫の蜀葵〔たちあおい〕の花の色のよう）の色に作れ。着る",
+          "context_position": 4793,
+          "matched_form": "日本"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "うぐけ〕のようである。西方〔インド〕にこの花が出る。この地〔日本〕の粟〔あわ〕の穀の色のようで、花房も穀の穂のようで、たいそ",
+          "context_position": 6296,
+          "matched_form": "日本"
+        }
+      ]
+    }
+  ]
+}

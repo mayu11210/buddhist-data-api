@@ -1,0 +1,831 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "dainichikyo-sho-vol13.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-22",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 40347,
+  "summary": {
+    "unique_terms": 17,
+    "unique_persons": 17,
+    "total_occurrences": 67,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 9,
+        "occurrences": 46
+      },
+      "buddhist_deva": {
+        "unique": 2,
+        "occurrences": 5
+      },
+      "buddhist_master_china": {
+        "unique": 4,
+        "occurrences": 8
+      },
+      "buddhist_master_india": {
+        "unique": 2,
+        "occurrences": 8
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 10
+        },
+        {
+          "form": "文殊師利",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 11,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "には施願金剛童子〔せがんこんごうどうじ〕の形を作れ（すなわち文殊師利の別名である）。左手には青蓮華を執り、上に金剛を置け。いっさ",
+          "context_position": 5798,
+          "matched_form": "文殊師利"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "描くのである。「嚩字に施願の吉祥金剛を並べよ」とは——これは文殊である。次に種子は麼字、すなわち空点〔くうてん〕である。これ",
+          "context_position": 2938,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "を描き、華の上に金剛杵を置く。もし字を作るなら、鑁字である。文殊の右の辺〔北の辺〕に網光菩薩〔もうこうぼさつ〕を置け。いっさ",
+          "context_position": 5987,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "る（すなわち、行者がこのような印を作すのである）。 次は聖者文殊の印である。まず三補吒を作し、二つの火の指を反して二つの水の",
+          "context_position": 28801,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "。むかしの所願である。今むかしの所願を念じるのである。尊者〔文殊〕のむかしの所願は、ことごとくいっさいの衆生を渡して、私と異",
+          "context_position": 29130,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "雞〔くまりけい〕（童子を女声に作して呼ぶのである。またこれは文殊の三昧である）、若那〔じゃな〕（上。願いを与える〔与願〕）、",
+          "context_position": 29837,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "憶じる）、補囉底然〔ほらちねん〕（本願である。この意は、尊者文殊の処で得た勝れた願〔勝願〕と、もとから願ったところの妙なる願",
+          "context_position": 29912,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "、五菩薩〔光網・無垢光・継室尼・鄔波継室尼・地慧幢〕は、みな文殊の使者である。右手を拳に作し（またこれは大指を外に置くもの）",
+          "context_position": 30441,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "作〕。いっさいの取り与えなどはみなこれである。すなわち、尊者文殊が招き召すところの事を、みなこれをなすべきである）、阿然矩忙",
+          "context_position": 30636,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "きである）、阿然矩忙囉寫〔あねんくもうらしゃ〕（これは聖者〔文殊〕の身を指す）」。次はもろもろの奉教者〔ぶきょうじゃ〕である",
+          "context_position": 30688,
+          "matched_form": "文殊"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "）」。次はもろもろの奉教者〔ぶきょうじゃ〕である（またこれは文殊の奉教者である。使者と少し異なる）。 まず内に向けて組み交わ",
+          "context_position": 30726,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 10
+        }
+      ],
+      "occurrence_count": 10,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十三 沙門一行阿闍梨〔善無畏三蔵の口述",
+          "context_position": 1,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "胝・鉢囉底哩荼〕は、いっさいに通用する身印である。「その時、毘盧遮那仏が三昧から起って、無量勝三昧〔むりょうしょうざんまい〕に住",
+          "context_position": 935,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "を作るのである。この阿闍梨は、如来の加持および阿字によって、毘盧遮那如来なのである。 如来は自ら〔図画などの〕事をなす〔成事〕べ",
+          "context_position": 2837,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "らかに起って中台に入り、ゆっくりと種々の彩色〔衆綵〕を配り、毘盧遮那の像を作るのである。その像の本の形は、白蓮華の座の上に坐し、",
+          "context_position": 3157,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "変わらない。吽字を作るのである。次に羅刹の方〔西南方〕には、毘盧遮那の下に不動尊を描け。石の上に坐し、手に刀と羂索〔けんさく・な",
+          "context_position": 4176,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "。「その三つの部分の位〔三分の位〕を捨て、三礼をなして、仏・毘盧遮那を思いめぐらし〔尋念〕、前のように色を調えよ」とは——釈迦を",
+          "context_position": 5674,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "前のように色を調えよ」とは——釈迦を置き終えて、次に第二院で毘盧遮那を礼すべきである。前の色を調える中の方便のようにして図に描く",
+          "context_position": 5720,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "」とは——かの弟子の心の中に白蓮華が開いて円満するのを想い、毘盧遮那如来がその上に坐すと想って、その後にこれを潅げ、ということで",
+          "context_position": 9777,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "潅げ、ということである。経に「仁者〔にんじゃ〕」というのは、毘盧遮那如来である。もしこの法によって潅頂する者は、十方の諸仏が法の",
+          "context_position": 9832,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "けで、何のはたらきもないのである。 密印品 第九 そのとき、毘盧遮那仏がもろもろの大いなる会衆を観察する、とは——仏はすでに略し",
+          "context_position": 9937,
+          "matched_form": "毘盧遮那"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦",
+          "count": 6
+        },
+        {
+          "form": "釈迦牟尼",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "い描くことである。すなわち、生死を渡す〔度する〕意味であり、釈迦牟尼である。この仏は大菩提の座に坐す。いっさいの仏がこの字を用い",
+          "context_position": 391,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "である。次に外に出て、第三院に向かって、牟尼王〔むにおう〕・釈迦の種姓〔種族〕を描け。袈裟の衣を着て、三十二相をそなえる。こ",
+          "context_position": 5290,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "盧遮那を思いめぐらし〔尋念〕、前のように色を調えよ」とは——釈迦を置き終えて、次に第二院で毘盧遮那を礼すべきである。前の色を",
+          "context_position": 5705,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "伸べ、物を招くようす〔招く像〕にせよ（瑜伽〔金剛頂系〕の中の釈迦の印のようである。これである）。もしこの印を作せば、よくいっ",
+          "context_position": 17441,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "）」。次は施無畏菩薩の印である。施無畏の手を作せ。瑜伽の中（釈迦の印のよう）で臂を伸べ、上に向け、掌を外に向けさせる。 これ",
+          "context_position": 31306,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "があろうか）」。次に、前の仏の鉢の印のようにせよ。 すなわち釈迦仏の鉢の印である。真言にいう。「薩嚩吉隷鑠〔さばきれいしゃく",
+          "context_position": 37597,
+          "matched_form": "釈迦"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "掘るのである）」。次に、前の毫相の印のようにせよ。すなわち、釈迦の毫相の印である。次に、右手の五指で集め、これを捻って頂上に",
+          "context_position": 37852,
+          "matched_form": "釈迦"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "る。彼に同じくして、このような開悟を得る）」。次は如意摩尼の普賢の印〔如意摩尼普賢印〕である。 普賢と名づけるわけは、この菩",
+          "context_position": 25477,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "、このような開悟を得る）」。次は如意摩尼の普賢の印〔如意摩尼普賢印〕である。 普賢と名づけるわけは、この菩薩の持つ三業がみな",
+          "context_position": 25486,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "得る）」。次は如意摩尼の普賢の印〔如意摩尼普賢印〕である。 普賢と名づけるわけは、この菩薩の持つ三業がみなあまねく賢く善いゆ",
+          "context_position": 25495,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "いうようなものである。もろもろの菩薩が仏を供養し、仏が転じて普賢を供養する。普賢の身は三世の仏に等しいゆえに、これは大の中の",
+          "context_position": 25775,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "ある。もろもろの菩薩が仏を供養し、仏が転じて普賢を供養する。普賢の身は三世の仏に等しいゆえに、これは大の中の大、供養の中の供",
+          "context_position": 25783,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "観音",
+      "aliases": [
+        "観世音",
+        "観自在",
+        "avalokiteśvara",
+        "Avalokiteśvara"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "慈悲を司る菩薩。",
+      "sanskrit_canonical": "avalokiteśvara",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "観音",
+          "count": 4
+        },
+        {
+          "form": "観自在",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "如意宝珠〕の印である。あるいは字を置く（伽字である）。北方の観自在および弥勒には、賢劫〔げんごう〕の一生補処の菩薩を眷属として",
+          "context_position": 3925,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "うなのは、いっさいの如来の法身の塔を持つゆえである。ちょうど観音が仏身を持つようなものである。真言の帰命は前のとおり。「阿誓",
+          "context_position": 25955,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "さらには菩薩の垢を除くゆえに清浄の位に入るのである）」。次は観音の印である。 初めは開剖合掌〔かいぼうがっしょう〕を作し、空",
+          "context_position": 26894,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "性清浄の法から生じるのである）」。 次は行慧菩薩の印である。観音の蓮華の印に同じである。これである（空・地の指を相い捻り、六",
+          "context_position": 34803,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "発生の仏頂〔発生仏頂〕である。蓮華の印を作せ（すなわち、前の観音の印である）。無量音声の仏頂〔無量音声仏頂〕は、商伽〔しょう",
+          "context_position": 38849,
+          "matched_form": "観音"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "によって、第一義諦で如来に等しい。「阿遮梨〔あしゃり〕」（「不動」である。阿字によるゆえに第一義諦に同じ。大いなる一義とは、",
+          "context_position": 1861,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "転ずることもできない）。「伽伽儞〔ががに〕」（「空」である。不動によるゆえに虚空に等同で、本性が浄らかで広大、その限りをはか",
+          "context_position": 1965,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "字を作るのである。次に羅刹の方〔西南方〕には、毘盧遮那の下に不動尊を描け。石の上に坐し、手に刀と羂索〔けんさく・なわ〕を執ら",
+          "context_position": 4183,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "の右手も同じようにして、刀として刀の鞘の中に入れよ。すなわち不動尊の印である。その鞘の手を仰げ、刀の手を覆す。降三世の印は五",
+          "context_position": 38095,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "地蔵",
+      "aliases": [
+        "地蔵菩薩",
+        "kṣitigarbha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "六道衆生を救済する菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "地蔵菩薩",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "け。あるいはただ字を作るなら、噁字〔あく字〕である。北方には地蔵菩薩を作れ。色は鉢孕瞿花〔はつようぐけ〕のようである。西方〔イン",
+          "context_position": 6248,
+          "matched_form": "地蔵菩薩"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "や〕（すなわち、この障りを打ち撃って四方に散らせる）」。次は地蔵菩薩の印である。内に向けて組み交わし、合掌を作して拳に作り、地・",
+          "context_position": 28529,
+          "matched_form": "地蔵菩薩"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "もろの真言は、みな自ら本尊の徳行を説くのである。これは総じて地蔵菩薩の徳を持つ）、蘇多奴〔そたぬ〕（妙なる身〔妙身〕である。身が",
+          "context_position": 28692,
+          "matched_form": "地蔵菩薩"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "生の種々の勝れた願を、如意珠のように満たすのである）」。次は地蔵菩薩の旗の印〔旗印〕である。まず指を内に向けて組み交わして拳に作",
+          "context_position": 33271,
+          "matched_form": "地蔵菩薩"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈",
+          "count": 3
+        },
+        {
+          "form": "帝釈天",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "するのである。 さらに、「金剛」とは天帝釈〔てんたいしゃく・帝釈天〕の別名である。しかしこの大護の勢力はかの帝釈の相にもまさる",
+          "context_position": 5018,
+          "matched_form": "帝釈天"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "虹の外の輪に青蓮の色があるようである。西方〔インド〕では虹を帝釈宮〔たいしゃくぐう〕と名づける。その光もまた同じである。その",
+          "context_position": 489,
+          "matched_form": "帝釈"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "いように、それゆえ名とするのである。 さらに、「金剛」とは天帝釈〔てんたいしゃく・帝釈天〕の別名である。しかしこの大護の勢力",
+          "context_position": 5007,
+          "matched_form": "帝釈"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "たいしゃく・帝釈天〕の別名である。しかしこの大護の勢力はかの帝釈の相にもまさるゆえに名とするのである。その身は黒色の忿怒の形",
+          "context_position": 5042,
+          "matched_form": "帝釈"
+        }
+      ]
+    },
+    {
+      "canonical": "弥勒",
+      "aliases": [
+        "弥勒菩薩",
+        "慈氏",
+        "maitreya",
+        "Maitreya"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "未来仏。兜率天で待機。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "弥勒",
+          "count": 3
+        },
+        {
+          "form": "慈氏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "印である。あるいは字を置く（伽字である）。北方の観自在および弥勒には、賢劫〔げんごう〕の一生補処の菩薩を眷属として、娑字を置",
+          "context_position": 3931,
+          "matched_form": "弥勒"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "供養の中の供養である。だから重ねていう）」。次は慈氏〔じし・弥勒〕の印である。三補吒を作し、二つの風の指を屈して指の頭を火の",
+          "context_position": 25839,
+          "matched_form": "弥勒"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "生の性を知るのである。阿字は、阿闍梨〔善無畏〕がいう、これは弥勒の種子である）」。次は虚空蔵の印である。 虚心合掌にして、二",
+          "context_position": 26230,
+          "matched_form": "弥勒"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "大の中の大、供養の中の供養である。だから重ねていう）」。次は慈氏〔じし・弥勒〕の印である。三補吒を作し、二つの風の指を屈して",
+          "context_position": 25833,
+          "matched_form": "慈氏"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十三 沙門一行阿闍梨〔善無畏三蔵の口述を一行が筆受した〕の記である。 転字輪漫荼羅行品 ",
+          "context_position": 27,
+          "matched_form": "善無畏"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "中に三つの義があることによって、法身が現れるのである。三蔵〔善無畏〕がいう、西方〔インド〕ではとりわけ印の法〔印法〕を秘する。",
+          "context_position": 15162,
+          "matched_form": "善無畏"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "すなわち、いっさいの衆生の性を知るのである。阿字は、阿闍梨〔善無畏〕がいう、これは弥勒の種子である）」。次は虚空蔵の印である。",
+          "context_position": 26219,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "達磨",
+      "aliases": [
+        "菩提達磨",
+        "bodhidharma",
+        "Bodhidharma"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国禅宗の初祖。インドより渡来。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "達磨",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "で集めて相い捻る。これである。真言の帰命は前のとおり。「薩嚩達磨三曼多〔さばだらまさんまんだ〕（いっさいの法は平等である）、",
+          "context_position": 25314,
+          "matched_form": "達磨"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "至る〔平等至〕）、吠囉闍〔べいらじゃ〕（無垢、無塵である）、達磨涅闍多〔だらまねいじゃた〕（法生である。すなわち、この無垢は",
+          "context_position": 25676,
+          "matched_form": "達磨"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "（その風の指を環に屈し、甲を相い向かわせる。これである）。「達磨〔だらま〕（法である）、三婆嚩〔さんばば〕（生である。すなわ",
+          "context_position": 34694,
+          "matched_form": "達磨"
+        }
+      ]
+    },
+    {
+      "canonical": "虚空蔵",
+      "aliases": [
+        "虚空蔵菩薩",
+        "ākāśagarbha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧と福徳を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "虚空蔵菩薩",
+          "count": 1
+        },
+        {
+          "form": "虚空蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "るなら、ただ蓮華を置く。もし字を置くなら、伊字を作る。西方の虚空蔵菩薩も、もろもろの瓔珞でその身を荘厳する。身は白色で白い衣を着る",
+          "context_position": 6400,
+          "matched_form": "虚空蔵菩薩"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "は、阿闍梨〔善無畏〕がいう、これは弥勒の種子である）」。次は虚空蔵の印である。 虚心合掌にして、二つの空の指を並べ屈して掌の中",
+          "context_position": 26243,
+          "matched_form": "虚空蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "殊勝の無上の願〔無上願〕を起こすべきである。「空しからぬ手〔不空の手〕を作して、菩提を円満させる」というのは——かの弟子に無",
+          "context_position": 8146,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "勢至",
+      "aliases": [
+        "勢至菩薩",
+        "mahāsthāmaprāpta"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "阿弥陀三尊の右脇侍。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "勢至",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "〕を生じ成すのである。だから三つの囉字があるのである。次は大勢至〔だいせいし〕の印である。三補吒合掌を作し、十指を屈して支え",
+          "context_position": 27328,
+          "matched_form": "勢至"
+        }
+      ]
+    },
+    {
+      "canonical": "羅刹",
+      "aliases": [
+        "rākṣasa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "悪鬼神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "羅刹",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "釈したとおりで、字と印は変わらない。吽字を作るのである。次に羅刹の方〔西南方〕には、毘盧遮那の下に不動尊を描け。石の上に坐し",
+          "context_position": 4164,
+          "matched_form": "羅刹"
+        }
+      ]
+    },
+    {
+      "canonical": "金剛智",
+      "aliases": [
+        "vajrabodhi",
+        "Vajrabodhi"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第五祖。金剛界の伝持。",
+      "sanskrit_canonical": "vajrabodhi",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "金剛智",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "金剛の針〔金剛針〕である。何でこれを穿つのか。金剛の智の針〔金剛智針〕でするのである）、嚩囉提〔ばらだい〕（願いを与える〔与願",
+          "context_position": 36633,
+          "matched_form": "金剛智"
+        }
+      ]
+    },
+    {
+      "canonical": "阿難",
+      "aliases": [
+        "阿難陀",
+        "ānanda",
+        "Ānanda"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子。多聞第一。",
+      "sanskrit_canonical": "ānanda",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "阿難陀",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "させる。これである。真言にいう。「迦伽那〔かがな〕（虚空）、阿難陀〔あなんだ〕（無量である）、娯折囉〔ごしゃら〕（行である。無",
+          "context_position": 34443,
+          "matched_form": "阿難陀"
+        }
+      ]
+    }
+  ]
+}

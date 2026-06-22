@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "dainichikyo-sho-vol13.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-22",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 40347,
+  "summary": {
+    "unique_terms": 2,
+    "unique_canonicals": 2,
+    "total_occurrences": 2,
+    "with_diacritics_count": 2,
+    "ascii_only_count": 0,
+    "multi_form_canonicals": 0
+  },
+  "entries": [
+    {
+      "canonical": "dhātu",
+      "representative_form": "dhātu",
+      "aliases": [
+        {
+          "form": "dhātu",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "界」は大いなる界を結ぶ界〔結大界の界〕であって、駄都〔だと・dhātu〕ではない。界の道〔界道〕の真ん中を行くゆえに「越えない〔不",
+          "context_position": 11807,
+          "sanskrit_form": "dhātu"
+        }
+      ]
+    },
+    {
+      "canonical": "kāla",
+      "representative_form": "kāla",
+      "aliases": [
+        {
+          "form": "kāla",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "の時です」とは——この両語には意味がある。初めは迦羅〔から・kāla〕の時を説く。すなわち、今この四衆〔出家在家の四種の弟子〕に",
+          "context_position": 10466,
+          "sanskrit_form": "kāla"
+        }
+      ]
+    }
+  ]
+}

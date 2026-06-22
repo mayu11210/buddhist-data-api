@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "dainichikyo-sho-vol13.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-22",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 40347,
+  "summary": {
+    "unique_terms": 1,
+    "total_occurrences": 1
+  },
+  "entries": [
+    {
+      "term": "大般若経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol13",
+          "context": "かの如来のまことの像〔本真の像〕を図に描こうとするには、まず『大般若経』を読誦し、恭しく敬い供養すべきである。それが礼をなす意味であ",
+          "context_position": 2503,
+          "raw_form": "大般若経"
+        }
+      ]
+    }
+  ]
+}

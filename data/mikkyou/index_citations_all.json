@@ -32,6 +32,7 @@
     "dainichikyo-sho-vol10",
     "dainichikyo-sho-vol11",
     "dainichikyo-sho-vol12",
+    "dainichikyo-sho-vol13",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -42,14 +43,14 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 36,
-  "corpora_with_data": 36,
+  "corpora_count": 37,
+  "corpora_with_data": 37,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 1196,
-    "total_occurrences": 3832,
+    "total_occurrences": 3833,
     "terms_in_multiple_corpora": 189,
     "max_corpus_coverage": 22,
     "by_corpus": {
@@ -186,6 +187,11 @@
       "dainichikyo-sho-vol12": {
         "unique": 4,
         "occurrences": 6,
+        "present": true
+      },
+      "dainichikyo-sho-vol13": {
+        "unique": 1,
+        "occurrences": 1,
         "present": true
       },
       "hotsubodaishinron-sho-vol3": {
@@ -1018,6 +1024,29 @@
       }
     },
     {
+      "term": "大般若経",
+      "total_occurrence_count": 18,
+      "covered_corpora_count": 7,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol13",
+        "hannya-hiken",
+        "hotsubodaishinron-sho-vol2",
+        "jujushinron",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "sokushin-jobutsu": 1,
+        "hannya-hiken": 4,
+        "dainichikyo-sho-vol1": 2,
+        "jujushinron": 2,
+        "dainichikyo-sho-vol13": 1,
+        "hotsubodaishinron-sho-vol2": 1
+      }
+    },
+    {
       "term": "華厳",
       "total_occurrence_count": 17,
       "covered_corpora_count": 9,
@@ -1042,27 +1071,6 @@
         "dainichikyo-sho-vol9": 1,
         "dainichikyo-sho-vol11": 1,
         "hotsubodaishinron-sho-vol4": 3
-      }
-    },
-    {
-      "term": "大般若経",
-      "total_occurrence_count": 17,
-      "covered_corpora_count": 6,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "hannya-hiken",
-        "hotsubodaishinron-sho-vol2",
-        "jujushinron",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "sokushin-jobutsu": 1,
-        "hannya-hiken": 4,
-        "dainichikyo-sho-vol1": 2,
-        "jujushinron": 2,
-        "hotsubodaishinron-sho-vol2": 1
       }
     },
     {
