@@ -1,0 +1,503 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "dainichikyo-sho-vol14.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-23",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 35910,
+  "summary": {
+    "unique_terms": 9,
+    "unique_persons": 9,
+    "total_occurrences": 44,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 3,
+        "occurrences": 36
+      },
+      "buddhist_deva": {
+        "unique": 4,
+        "occurrences": 6
+      },
+      "buddhist_master_china": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "buddhist_master_india": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 19
+        },
+        {
+          "form": "大日如来",
+          "count": 7
+        }
+      ],
+      "occurrence_count": 26,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "まり曼荼羅と同じ意味である。さきに「壇法〔だんぽう〕の中心は大日如来である」といったのは、つまりこのなかの阿字にあたる。「北辺〔",
+          "context_position": 5998,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "とができる。「常住の明〔じょうじゅうのみょう〕」とは、つまり大日如来そのもの〔体〕である。かの毘盧遮那と同じく、法輪を転じるので",
+          "context_position": 12052,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "えれば、持誦者はそのまま持明〔じみょう〕の身となる。ちょうど大日如来の神力加持のように、ひとしくて違いがない。この輪を、また因縁",
+          "context_position": 14441,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "、三処〔さんしょ〕から流れ出て、天魔を降す」とは——つまり、大日如来が道場に坐したとき、平等に法界を観じて、この十二句の真言王を",
+          "context_position": 29660,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "の衆生を利益するためである。いまもろもろの仏の神力に乗じて、大日如来に問うのである。このなかで、何事を問うのか。その意は、さきに",
+          "context_position": 31724,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "問うのである）。「一切智成〔いっさいちじょう〕」とは、つまり大日如来・薄伽梵〔ばがぼん・世尊〕の意味で、六義〔ろくぎ〕のなかに説",
+          "context_position": 31841,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "から「主」と名づける。いま、もろもろの仏が金剛手をして、この大日如来に、真言行の句と秘密の事を問わせるのである。「殊勝説、自教則",
+          "context_position": 32149,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十四 沙門一行阿闍梨〔善無畏三蔵の口述",
+          "context_position": 1,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "ま菩提心である。もしこの字を観じ、それと相応すれば、そのまま毘盧遮那〔びるしゃな〕の法身〔ほっしん〕そのものに同じくなる。つまり",
+          "context_position": 5537,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "じてゆくことを知る持誦者は、つねに世間に明らかなること、世尊毘盧遮那のようである」とは——「輪転〔りんでん〕」とは、世間の輪がも",
+          "context_position": 11723,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "うのみょう〕」とは、つまり大日如来そのもの〔体〕である。かの毘盧遮那と同じく、法輪を転じるのである。このなかの「常明」とは、つま",
+          "context_position": 12069,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "だから師は口で伝え授け、経には説かれていないのである。ただ「毘盧遮那の輪転のように」というだけである。 次に、行者はもろもろの字",
+          "context_position": 13597,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "る。「不動」とは、いわゆる阿字、菩提心のことである。ちょうど毘盧遮那が菩提心の本性に住しながら、さまざまに普門〔ふもん〕の利益を",
+          "context_position": 14647,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "あって、むなしくないのである。もしこのようであれば、そのまま毘盧遮那と同じく、仏のはたらきをなし、つねに世間を照らすのである。 ",
+          "context_position": 15102,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "うに釈すべきである）。次に秘密漫荼羅品を明かす。「そのとき、毘盧遮那世尊が、さらにまた、いっさいの法界如来眼界〔にょらいげんかい",
+          "context_position": 15888,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "の法界において自身を表す。化して雲のようにゆきわたり満ちる。毘盧遮那は心自在〔しんじざい〕にして、もろもろの毛孔のなかから仏を生",
+          "context_position": 21475,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "てんでん〕する」とは——このなかの「法界生の身」とは、つまり毘盧遮那の法身である。法界の真実から生じるから「法界生」と名づける。",
+          "context_position": 21544,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "尊たちが、すでにさまざまな仏事をなして、本来の位からふたたび毘盧遮那如来の身に入る」——出るときの位と同じ順序で違いがないから、",
+          "context_position": 22509,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "法〔にょほう〕とは名づけないのである。 「そのとき金剛手が、毘盧遮那如来の身・語・意の地に昇り、法界平等観〔ほっかいびょうどうか",
+          "context_position": 25992,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "ていった。「よいかな、よいかな、善男子よ。仏子よ、汝はすでに毘盧遮那の身・語・意の地に越え入った。あまねくいっさいの真言道に平等",
+          "context_position": 28499,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "きないのである。「越」とは超え入ること〔超入〕の意味である。毘盧遮那が阿迦尼吒天〔あかにった天・色究竟天〕において道場に坐し、こ",
+          "context_position": 29212,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "た、このような身・口・意平等の法の地に超え入ることができて、毘盧遮那とひとしいから、それがすなわち、いっさいの如来がそのまことの",
+          "context_position": 29316,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "つのは、つまり照らし明かす〔照明〕ためである。なぜか——この毘盧遮那世尊・応正等覚〔おうしょうとうがく〕が、菩提座に坐したとき、",
+          "context_position": 29563,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "ま阿闍梨が曼荼羅をつくろうとするときも、また「自身はまったく毘盧遮那と同じである」と思うべきである。そうすれば自在の力を得て、ま",
+          "context_position": 30126,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "まり法界の体性〔たいしょう・本性〕である。 「汝、善男子よ、毘盧遮那の身・語・意の平等を証した。いっさいの仏が、このように知る」",
+          "context_position": 31400,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "〔ろくぎ〕のなかに説くとおりである。前にもすでに解いた。 「毘盧遮那」とは——太陽が世に出て、よく暗冥を除き、よくいっさいの衆生",
+          "context_position": 31895,
+          "matched_form": "毘盧遮那"
+        }
+      ]
+    },
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 9
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "刹囉輪〔あくしゃらりん〕という。「噁刹囉〔あくしゃら〕」とは不動の意味である。「不動」とは、いわゆる阿字、菩提心のことである",
+          "context_position": 14610,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "ん〕という。「噁刹囉〔あくしゃら〕」とは不動の意味である。「不動」とは、いわゆる阿字、菩提心のことである。ちょうど毘盧遮那が",
+          "context_position": 14620,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "〔すいじゃく・あらわれ〕が尽きることなくとも、まことには常住不動であって、生じ滅する相もないこと、ちょうど車輪がふたたびめぐ",
+          "context_position": 14745,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "しかもいっさいの字を生み、めぐり転じてかぎりがない。だから「不動輪」と名づけるのである。もし行者が、このような不動輪を会得し",
+          "context_position": 14921,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "。だから「不動輪」と名づけるのである。もし行者が、このような不動輪を会得して、もろもろの明〔みょう・真言〕を布けば、その体は",
+          "context_position": 14946,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "もろの営み〔事業〕をなすに堪えるのである。このように、阿字は不動の意味であり、金剛の体である。およそ物事を堅固で不動にしよう",
+          "context_position": 15598,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "、阿字は不動の意味であり、金剛の体である。およそ物事を堅固で不動にしようと思うなら、あるいは自分、あるいは他人の道心を不動に",
+          "context_position": 15624,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "で不動にしようと思うなら、あるいは自分、あるいは他人の道心を不動にする場合などは、みな阿字を用いてこれを加える。ほかのいっさ",
+          "context_position": 15653,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "のばし〔頻申〕勢いよく動く〔奮動〕。つまり、その身はもともと不動でありながら、いまはその常のすみかを離れて動くようなものであ",
+          "context_position": 16578,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "梵天",
+      "aliases": [
+        "brahmā",
+        "Brahmā"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "色界初禅天の主。",
+      "sanskrit_canonical": "brahmā",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "梵天",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "さらに問え）。次に、左手で蓮華を執るような形をつくれ。これが梵天后の印である（つまり、掌をのばし、空指と風指〔親指と人さし指",
+          "context_position": 354,
+          "matched_form": "梵天"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "に当てる。ただし図のなかではまっすぐにのばして描いてある）。梵天は無欲であるのに、どうして人などと同じように后があるといえる",
+          "context_position": 442,
+          "matched_form": "梵天"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "とおりにする。違うのは、ただ片手だけでつくる点である。これが梵天の印である。月天の印は、まったく梵王の印と同じで違いはない。",
+          "context_position": 1597,
+          "matched_form": "梵天"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十四 沙門一行阿闍梨〔善無畏三蔵の口述を一行が筆受した〕の記である。 密印品 第九の余〔",
+          "context_position": 27,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "夜叉",
+      "aliases": [
+        "yakṣa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "八部衆の一。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "夜叉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "親指〕の頭と少しだけ触れ合わないようにせよ。これがいっさいの夜叉〔やしゃ〕の印である（両手を合わせてつくってもよい）。「薬乞",
+          "context_position": 2775,
+          "matched_form": "夜叉"
+        }
+      ]
+    },
+    {
+      "canonical": "羅刹",
+      "aliases": [
+        "rākṣasa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "悪鬼神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "羅刹",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "指と人さし指〕をのばして並べ立てよ。これが涅哩底〔ねいりち・羅刹を司る尊〕の刀印である。次に、左手をただのばして開け。前の転",
+          "context_position": 1037,
+          "matched_form": "羅刹"
+        }
+      ]
+    },
+    {
+      "canonical": "観音",
+      "aliases": [
+        "観世音",
+        "観自在",
+        "avalokiteśvara",
+        "Avalokiteśvara"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "慈悲を司る菩薩。",
+      "sanskrit_canonical": "avalokiteśvara",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "観音",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "っすぐ立てて開くのである。左手を半蓮華の印につくれ。ひとえに観音の印をつくる作法のとおりにする。違うのは、ただ片手だけでつく",
+          "context_position": 1556,
+          "matched_form": "観音"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "うべんりん〕であって、それゆえ中〔中央〕には置かない。これが釈迦仏の輪である（羯磨部〔かつまぶ〕はあまねくいっさいの輪に入る",
+          "context_position": 6857,
+          "matched_form": "釈迦"
+        }
+      ]
+    },
+    {
+      "canonical": "阿修羅",
+      "aliases": [
+        "asura"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "六道の一・阿修羅道の住人。八部衆。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "阿修羅",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "残りはみな開いてのばし、掌を覆せて左手の上に臨ませる。これが阿修羅〔あしゅら〕の印である。その真言にいう「伽囉邏演〔がららえん",
+          "context_position": 2297,
+          "matched_form": "阿修羅"
+        }
+      ]
+    }
+  ]
+}

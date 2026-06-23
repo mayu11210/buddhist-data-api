@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol14.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-23",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 35910,
+  "summary": {
+    "unique_terms": 3,
+    "unique_places": 3,
+    "total_occurrences": 4,
+    "by_subcategory": {
+      "country_china": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_dynasty": {
+        "unique": 1,
+        "occurrences": 2
+      },
+      "mountain_buddhist": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "商",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "〕で互いに押さえ合わせる。小指の甲を押さえるのである。これが商羯羅〔しょうから〕の印である（これは骨樔天〔こつそうてん〕で",
+          "context_position": 1409,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "うにし、三指を並べ合わせよ。これが烏忙那〔うもうな〕の印で、商羯羅の后にあたる。二つの印はよく似ている。前のは頭指〔人さし",
+          "context_position": 1481,
+          "matched_form": "商"
+        }
+      ]
+    },
+    {
+      "canonical": "越",
+      "aliases": [],
+      "subcategory": "country_china",
+      "definition": "春秋の国。",
+      "matched_forms": [
+        {
+          "form": "越",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "まだ究め尽くして如来とひとしくなることはできないのである。「越」とは超え入ること〔超入〕の意味である。毘盧遮那が阿迦尼吒天",
+          "context_position": 29191,
+          "matched_form": "越"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol14",
+          "context": "な言葉をいう。「わたしが汝を助けて、妙高山〔みょうこうせん・須弥山〕の上に登らせよう」と。まさに知るべきである——この人は必ず",
+          "context_position": 35065,
+          "matched_form": "須弥山"
+        }
+      ]
+    }
+  ]
+}

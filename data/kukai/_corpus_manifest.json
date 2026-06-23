@@ -35,13 +35,13 @@
   "genten_present": 23,
   "with_specialty_sections": 5,
   "indexed_corpora": {
-   "terms": 37,
-   "citations": 37,
-   "kukai_works": 37,
-   "sanskrit": 37,
-   "kaimyo_jukugo": 37,
-   "persons": 37,
-   "places": 37
+   "terms": 38,
+   "citations": 38,
+   "kukai_works": 38,
+   "sanskrit": 38,
+   "kaimyo_jukugo": 38,
+   "persons": 38,
+   "places": 38
   }
  },
  "files": [
@@ -2444,7 +2444,37 @@
     "genten": 16357
    },
    "role_complete": true,
-   "notes": "書き下しデータ化スキルで取込（Phase1）。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第十四』（大日経 密印品第九之余〜秘密漫荼羅品第十一の注釈＝諸天眷属の印の後半・乾闥婆夜叉荼吉尼等の印と真言字義・印品を結ぶ越三昧耶罪の誡め／字輪品の遍一切処法門と阿字五転〔菩提心・行・成菩提・涅槃・方便〕・身への四重布字と諸字の色・噁刹囉＝不動輪・句輪と種子字観／秘密漫荼羅品の法界蔵と平等厳蔵・法界増身と能生諸仏偈・四院分位と五輪布置・大真言王〔暗欠暗噁の十二字真言王〕と四魔降伏・自覚無師智と自然成仏の偈頌）。元 doc が巨大ブロック（15 ブロック・最大8,157字）のため科文・話題境界で 57 段に段落化（巻第三〜十三 同型・割注の全角括弧60対は kakikudashi に温存・品題3つ〔密印品第九之余／字輪品第十／秘密漫荼羅品第十一〕は構造段落として保持・尾題なし=秘密漫荼羅品の途中で巻末・巻第十五へ続く）。段落結合が原文（空白除去後27,532字）を完全再現 assert pass。genten 後送（CBETA T1796_014・Phase2 横断索引化と Phase3 motif 抽出も後続セッション）。 漢文原典（genten）は CBETA 線上閱讀 T1796_014 から後送（夾註〔〕化80組・校勘アンカー除去・gaiji 2字 Unicode 保持・悉曇 IAST 7組 半角括弧温存）。全文 SHA-256 03af7e863f05de0240aa6aead9056f49860d5ac42622cdf86872374ce95e5a7d をブラウザ・Python 両側で照合しバイト一致を確認。"
+   "notes": "書き下しデータ化スキルで取込（Phase1）。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第十四』（大日経 密印品第九之余〜秘密漫荼羅品第十一の注釈＝諸天眷属の印の後半・乾闥婆夜叉荼吉尼等の印と真言字義・印品を結ぶ越三昧耶罪の誡め／字輪品の遍一切処法門と阿字五転〔菩提心・行・成菩提・涅槃・方便〕・身への四重布字と諸字の色・噁刹囉＝不動輪・句輪と種子字観／秘密漫荼羅品の法界蔵と平等厳蔵・法界増身と能生諸仏偈・四院分位と五輪布置・大真言王〔暗欠暗噁の十二字真言王〕と四魔降伏・自覚無師智と自然成仏の偈頌）。元 doc が巨大ブロック（15 ブロック・最大8,157字）のため科文・話題境界で 57 段に段落化（巻第三〜十三 同型・割注の全角括弧60対は kakikudashi に温存・品題3つ〔密印品第九之余／字輪品第十／秘密漫荼羅品第十一〕は構造段落として保持・尾題なし=秘密漫荼羅品の途中で巻末・巻第十五へ続く）。段落結合が原文（空白除去後27,532字）を完全再現 assert pass。genten 後送（CBETA T1796_014・Phase2 横断索引化と Phase3 motif 抽出も後続セッション）。 漢文原典（genten）は CBETA 線上閱讀 T1796_014 から後送（夾註〔〕化80組・校勘アンカー除去・gaiji 2字 Unicode 保持・悉曇 IAST 7組 半角括弧温存）。全文 SHA-256 03af7e863f05de0240aa6aead9056f49860d5ac42622cdf86872374ce95e5a7d をブラウザ・Python 両側で照合しバイト一致を確認。",
+   "index_status": {
+    "terms": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol14_terms.json"
+    },
+    "citations": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol14_citations.json"
+    },
+    "kukai_works": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol14_kukai_works.json"
+    },
+    "sanskrit": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol14_sanskrit.json"
+    },
+    "kaimyo_jukugo": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol14_kaimyo.json"
+    },
+    "persons": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol14_persons.json"
+    },
+    "places": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol14_places.json"
+    }
+   }
   },
   {
    "filename": "hotsubodaishinron-sho-vol3.json",
@@ -3128,6 +3158,7 @@
    "dainichikyo-sho-vol11",
    "dainichikyo-sho-vol12",
    "dainichikyo-sho-vol13",
+   "dainichikyo-sho-vol14",
    "hotsubodaishinron-sho-vol3",
    "hotsubodaishinron-sho-vol4",
    "hotsubodaishinron-sho-vol2",
@@ -3138,7 +3169,7 @@
    "hotsubodaishinron-sho-vol9",
    "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 37,
+  "corpora_count": 38,
   "files": {
    "terms": {
     "file": "index_terms_all.json",

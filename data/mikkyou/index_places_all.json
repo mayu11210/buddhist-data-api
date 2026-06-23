@@ -3,7 +3,7 @@
   "category": "places",
   "category_description": "地名（寺院・山・国・王朝・聖地・宇宙論界）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-22",
+  "generated_at": "2026-06-23",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -33,6 +33,7 @@
     "dainichikyo-sho-vol11",
     "dainichikyo-sho-vol12",
     "dainichikyo-sho-vol13",
+    "dainichikyo-sho-vol14",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -43,14 +44,14 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 37,
-  "corpora_with_data": 37,
+  "corpora_count": 38,
+  "corpora_with_data": 38,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1239,
+    "total_occurrences": 1243,
     "terms_in_multiple_corpora": 47,
     "max_corpus_coverage": 22,
     "by_corpus": {
@@ -192,6 +193,11 @@
       "dainichikyo-sho-vol13": {
         "unique": 2,
         "occurrences": 7,
+        "present": true
+      },
+      "dainichikyo-sho-vol14": {
+        "unique": 3,
+        "occurrences": 4,
         "present": true
       },
       "hotsubodaishinron-sho-vol3": {
@@ -423,12 +429,13 @@
     },
     {
       "canonical": "須弥山",
-      "total_occurrence_count": 71,
-      "covered_corpora_count": 19,
+      "total_occurrence_count": 72,
+      "covered_corpora_count": 20,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol12",
+        "dainichikyo-sho-vol14",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
@@ -464,6 +471,7 @@
         "dainichikyo-sho-vol5": 5,
         "dainichikyo-sho-vol9": 2,
         "dainichikyo-sho-vol12": 2,
+        "dainichikyo-sho-vol14": 1,
         "hotsubodaishinron-sho-vol4": 2,
         "hotsubodaishinron-sho-vol2": 2
       },
@@ -474,6 +482,56 @@
           "須弥",
           "sumeru",
           "meru"
+        ]
+      }
+    },
+    {
+      "canonical": "殷",
+      "total_occurrence_count": 68,
+      "covered_corpora_count": 17,
+      "covered_corpora": [
+        "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol12",
+        "dainichikyo-sho-vol13",
+        "dainichikyo-sho-vol14",
+        "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol5",
+        "dainichikyo-sho-vol6",
+        "dainichikyo-sho-vol8",
+        "dainichikyo-sho-vol9",
+        "hizo-houyaku",
+        "hizoki",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol5",
+        "jujushinron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 16,
+        "hizo-houyaku": 4,
+        "sankyo-shiki": 5,
+        "jujushinron": 5,
+        "hizoki": 2,
+        "yugikyo": 2,
+        "dainichikyo-sho-vol2": 6,
+        "dainichikyo-sho-vol5": 5,
+        "dainichikyo-sho-vol6": 1,
+        "dainichikyo-sho-vol8": 4,
+        "dainichikyo-sho-vol9": 2,
+        "dainichikyo-sho-vol11": 3,
+        "dainichikyo-sho-vol12": 1,
+        "dainichikyo-sho-vol13": 5,
+        "dainichikyo-sho-vol14": 2,
+        "hotsubodaishinron-sho-vol2": 2,
+        "hotsubodaishinron-sho-vol5": 3
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国古代王朝。湯王が建国。",
+        "aliases": [
+          "商"
         ]
       }
     },
@@ -506,54 +564,6 @@
           "我朝",
           "皇朝",
           "神国"
-        ]
-      }
-    },
-    {
-      "canonical": "殷",
-      "total_occurrence_count": 66,
-      "covered_corpora_count": 16,
-      "covered_corpora": [
-        "dainichikyo-sho-vol11",
-        "dainichikyo-sho-vol12",
-        "dainichikyo-sho-vol13",
-        "dainichikyo-sho-vol2",
-        "dainichikyo-sho-vol5",
-        "dainichikyo-sho-vol6",
-        "dainichikyo-sho-vol8",
-        "dainichikyo-sho-vol9",
-        "hizo-houyaku",
-        "hizoki",
-        "hotsubodaishinron-sho-vol2",
-        "hotsubodaishinron-sho-vol5",
-        "jujushinron",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 16,
-        "hizo-houyaku": 4,
-        "sankyo-shiki": 5,
-        "jujushinron": 5,
-        "hizoki": 2,
-        "yugikyo": 2,
-        "dainichikyo-sho-vol2": 6,
-        "dainichikyo-sho-vol5": 5,
-        "dainichikyo-sho-vol6": 1,
-        "dainichikyo-sho-vol8": 4,
-        "dainichikyo-sho-vol9": 2,
-        "dainichikyo-sho-vol11": 3,
-        "dainichikyo-sho-vol12": 1,
-        "dainichikyo-sho-vol13": 5,
-        "hotsubodaishinron-sho-vol2": 2,
-        "hotsubodaishinron-sho-vol5": 3
-      },
-      "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "中国古代王朝。湯王が建国。",
-        "aliases": [
-          "商"
         ]
       }
     },
@@ -1059,6 +1069,27 @@
       }
     },
     {
+      "canonical": "越",
+      "total_occurrence_count": 9,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol10",
+        "dainichikyo-sho-vol14",
+        "dainichikyo-sho-vol5",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 6,
+        "dainichikyo-sho-vol5": 1,
+        "dainichikyo-sho-vol10": 1,
+        "dainichikyo-sho-vol14": 1
+      },
+      "metadata": {
+        "subcategory": "country_china",
+        "definition": "春秋の国。"
+      }
+    },
+    {
       "canonical": "平安",
       "total_occurrence_count": 9,
       "covered_corpora_count": 2,
@@ -1091,25 +1122,6 @@
       "metadata": {
         "subcategory": "temple_japan",
         "definition": "高雄山。空海の主要拠点の一つ。"
-      }
-    },
-    {
-      "canonical": "越",
-      "total_occurrence_count": 8,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "dainichikyo-sho-vol10",
-        "dainichikyo-sho-vol5",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 6,
-        "dainichikyo-sho-vol5": 1,
-        "dainichikyo-sho-vol10": 1
-      },
-      "metadata": {
-        "subcategory": "country_china",
-        "definition": "春秋の国。"
       }
     },
     {
