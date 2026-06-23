@@ -22,16 +22,16 @@
   "specialty_sections": "その著作固有の専門サブセクション名のリスト（吽字義 ji_gi 等。倉庫原則「データを限定しない」で温存）"
  },
  "summary": {
-  "total_files": 48,
+  "total_files": 49,
   "role_breakdown": {
-   "primary_corpus": 34,
+   "primary_corpus": 35,
    "auxiliary_meta": 1,
    "specialty_meta": 1,
    "excerpt_stub": 5
   },
-  "role_complete_files": 36,
-  "kakikudashi_present": 35,
-  "gendaigoyaku_present": 35,
+  "role_complete_files": 37,
+  "kakikudashi_present": 36,
+  "gendaigoyaku_present": 36,
   "genten_present": 22,
   "with_specialty_sections": 5,
   "indexed_corpora": {
@@ -2423,6 +2423,28 @@
      "file": "index_dainichikyo-sho-vol13_places.json"
     }
    }
+  },
+  {
+   "filename": "dainichikyo-sho-vol14.json",
+   "title": "大日経疏巻第十四",
+   "taisho_ref": "T1796 / vol.39（巻第十四）",
+   "role": "primary_corpus",
+   "type": "dict_paragraphs",
+   "data_status": {
+    "kaimyo_excerpt": false,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": false,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "kakikudashi": 27532,
+    "gendaigoyaku": 35854,
+    "paragraphs": 57
+   },
+   "role_complete": true,
+   "genten_unavailable_reason": "Phase1（書き下し取込）段階。漢文原典は後送（CBETA 線上閱讀 T1796_014 から取得予定・巻第十三と同手順）。",
+   "notes": "書き下しデータ化スキルで取込（Phase1）。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第十四』（大日経 密印品第九之余〜秘密漫荼羅品第十一の注釈＝諸天眷属の印の後半・乾闥婆夜叉荼吉尼等の印と真言字義・印品を結ぶ越三昧耶罪の誡め／字輪品の遍一切処法門と阿字五転〔菩提心・行・成菩提・涅槃・方便〕・身への四重布字と諸字の色・噁刹囉＝不動輪・句輪と種子字観／秘密漫荼羅品の法界蔵と平等厳蔵・法界増身と能生諸仏偈・四院分位と五輪布置・大真言王〔暗欠暗噁の十二字真言王〕と四魔降伏・自覚無師智と自然成仏の偈頌）。元 doc が巨大ブロック（15 ブロック・最大8,157字）のため科文・話題境界で 57 段に段落化（巻第三〜十三 同型・割注の全角括弧60対は kakikudashi に温存・品題3つ〔密印品第九之余／字輪品第十／秘密漫荼羅品第十一〕は構造段落として保持・尾題なし=秘密漫荼羅品の途中で巻末・巻第十五へ続く）。段落結合が原文（空白除去後27,532字）を完全再現 assert pass。genten 後送（CBETA T1796_014・Phase2 横断索引化と Phase3 motif 抽出も後続セッション）。"
   },
   {
    "filename": "hotsubodaishinron-sho-vol3.json",
