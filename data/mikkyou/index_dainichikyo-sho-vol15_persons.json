@@ -1,0 +1,531 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "dainichikyo-sho-vol15.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-23",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 45271,
+  "summary": {
+    "unique_terms": 12,
+    "unique_persons": 12,
+    "total_occurrences": 35,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 5,
+        "occurrences": 23
+      },
+      "buddhist_deva": {
+        "unique": 2,
+        "occurrences": 5
+      },
+      "buddhist_master_china": {
+        "unique": 3,
+        "occurrences": 4
+      },
+      "buddhist_master_india": {
+        "unique": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "不動",
+      "aliases": [
+        "不動明王",
+        "acala",
+        "acalanātha"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "五大明王の主尊。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "不動",
+          "count": 6
+        },
+        {
+          "form": "不動明王",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "法〔結護〕が必要なのである。 だから、経の次の文に「不動尊〔不動明王〕をもって、これを守護する」とある。これがそのまま不動明王で",
+          "context_position": 11097,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "〔不動明王〕をもって、これを守護する」とある。これがそのまま不動明王である。不動の真言の心〔不動真言の心〕を取って、弟子を護るべ",
+          "context_position": 11126,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "弟倶に〕がこれに住することである。そうしたうえで、この二尊〔不動明王と三世明王〕をもって護るのである。もし弟子がよくこのことを成",
+          "context_position": 11588,
+          "matched_form": "不動明王"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "り護る作法〔結護〕が必要なのである。 だから、経の次の文に「不動尊〔不動明王〕をもって、これを守護する」とある。これがそのま",
+          "context_position": 11093,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "って、これを守護する」とある。これがそのまま不動明王である。不動の真言の心〔不動真言の心〕を取って、弟子を護るべきである。つ",
+          "context_position": 11134,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "する」とある。これがそのまま不動明王である。不動の真言の心〔不動真言の心〕を取って、弟子を護るべきである。つまり不動である。",
+          "context_position": 11142,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "言の心〔不動真言の心〕を取って、弟子を護るべきである。つまり不動である。これがそのまま訶字門〔カ／因〕である。訶字〔カ〕は「",
+          "context_position": 11168,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "究めつくさせ、奪い取られぬ〔移奪すべからず〕ようにする。もし不動を用いて護らないなら、三世明王〔降三世〕を用いることもできる",
+          "context_position": 11402,
+          "matched_form": "不動"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "住することはできない。愚かさを離れること〔離癡〕が、そのまま不動である。観じる対象があったり〔所観有り〕、得ようとする対象が",
+          "context_position": 11715,
+          "matched_form": "不動"
+        }
+      ]
+    },
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "毘盧遮那",
+          "count": 5
+        },
+        {
+          "form": "大日如来",
+          "count": 1
+        },
+        {
+          "form": "大日",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "もろの事である。内の所作とは、たとえば師みずから、自分の身は大日如来そのものであると観ずるなど、さまざまな瑜伽の修法のことである",
+          "context_position": 937,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十五 沙門一行阿闍梨〔善無畏三蔵の口述",
+          "context_position": 1,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "十分に備わっていないからである。これに答えて、一切智者である毘盧遮那世尊、すなわちもろもろの悩みを離れた者は、金剛蔵の問うた秘要",
+          "context_position": 3302,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "る。 次に、色と形の類について答える。大略すると三部がある。毘盧遮那は仏部であり、これは如来の法界の身であって白色である。次に観",
+          "context_position": 21549,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "る。白と黄である。「諸部のもとで諸仏の説く真言」というのは、毘盧遮那の説いたものを指す。順を追って理解すべきである。金剛手は雑類",
+          "context_position": 21854,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "たとおり、自分の身を四つに分けて四重曼荼羅の位を作す。それも毘盧遮那が現す方位のとおりにし、一つひとつ違うところがないようにする",
+          "context_position": 26537,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "きには、まずかの明王の三昧に住すべきである。「王」とは、ただ大日のことにほかならない。これはつまり、心の中に十二字のうちの最",
+          "context_position": 4685,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "観音",
+      "aliases": [
+        "観世音",
+        "観自在",
+        "avalokiteśvara",
+        "Avalokiteśvara"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "慈悲を司る菩薩。",
+      "sanskrit_canonical": "avalokiteśvara",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "観自在",
+          "count": 2
+        },
+        {
+          "form": "観音",
+          "count": 2
+        },
+        {
+          "form": "観世音",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "那は仏部であり、これは如来の法界の身であって白色である。次に観世音はすなわち阿弥陀仏であり、その身は黄色である。次に金剛蔵はす",
+          "context_position": 21582,
+          "matched_form": "観世音"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "。順を追って理解すべきである。金剛手は雑類〔さまざまな色〕、観自在の諸真言は白である。「事に随って分かつ」というのは、ただこう",
+          "context_position": 21897,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "つ」とは、色の類に応じてその目的を分けるという意味である。「観自在の諸真言」というのは、ここでは蓮華部を挙げて、それによって仏",
+          "context_position": 22478,
+          "matched_form": "観自在"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "いなら、ほかに金剛拳印〔こんごうけんいん〕、あるいは蓮華印・観音印がある。ただしいずれも右手で結びなさい。ただし地上に住む天",
+          "context_position": 18769,
+          "matched_form": "観音"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "分かつ」というのも、目的に応じて使い分けるという意味である。観音は純白である。ただし、その部のうちでも、行法の目的に応じて色",
+          "context_position": 22129,
+          "matched_form": "観音"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈",
+          "count": 4
+        }
+      ],
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "住む者〔地居〕などは、それぞれの位に応じて座を表す。たとえば帝釈〔たいしゃく〕の像なら、須弥山王〔しゅみせんおう〕を描いて坐",
+          "context_position": 15726,
+          "matched_form": "帝釈"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "る。この身を捨てないまま、すべての悉地を成就する。真言の幻も帝釈網〔インドラの網〕のようなものである。それでいて虚空のかなた",
+          "context_position": 37929,
+          "matched_form": "帝釈"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "あるからこそ、このようでいられるのである。この幻術師の真言を帝釈網と名づける。あの網のように、あらゆる事柄を映し出し、さまざ",
+          "context_position": 38050,
+          "matched_form": "帝釈"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "るが、実際には一つ一つに確かな実体があるわけではない。だから帝釈網と名づける。これはつまり、あの幻術師の世間の真言を借りてた",
+          "context_position": 38125,
+          "matched_form": "帝釈"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十五 沙門一行阿闍梨〔善無畏三蔵の口述を一行が筆受した〕の記である。 秘密漫荼羅品 第十",
+          "context_position": 27,
+          "matched_form": "善無畏"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "っかり保って忘れないこと〔憶持〕である。 さらに次に、三蔵〔善無畏三蔵〕が説くには、西方には蓮華に多くの種類がある。一つは鉢頭",
+          "context_position": 15948,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦牟尼",
+          "count": 1
+        },
+        {
+          "form": "釈迦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "わち阿弥陀仏であり、その身は黄色である。次に金剛蔵はすなわち釈迦牟尼であり、その身は黄色である〔つまり雑色である〕。「仏の説く諸",
+          "context_position": 21618,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "に近い。この花はきわめて香りがよい。昔、琉璃王〔るりおう〕が釈迦族の女〔釈女〕を殺したとき、大迦葉〔だいかしょう〕が阿耨達池",
+          "context_position": 16415,
+          "matched_form": "釈迦"
+        }
+      ]
+    },
+    {
+      "canonical": "文殊",
+      "aliases": [
+        "文殊師利",
+        "mañjuśrī",
+        "Mañjuśrī"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "智慧を司る菩薩。",
+      "sanskrit_canonical": "mañjuśrī",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "文殊",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "〔この花は牛の糞を養分とする種から生じ、たいそう香りがよい。文殊菩薩が手に執っているのがこれである。経に「目は青蓮のようだ」",
+          "context_position": 16200,
+          "matched_form": "文殊"
+        }
+      ]
+    },
+    {
+      "canonical": "梵天",
+      "aliases": [
+        "brahmā",
+        "Brahmā"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "色界初禅天の主。",
+      "sanskrit_canonical": "brahmā",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "梵天",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "ら生じた葉のことである。もし浄居〔じょうご〕の諸天から初禅の梵天〔ぼんてん〕らに至るまで、世間で梵〔ぼん〕などと名づけられる",
+          "context_position": 15614,
+          "matched_form": "梵天"
+        }
+      ]
+    },
+    {
+      "canonical": "法蔵",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "華厳宗第三祖。賢首大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "法蔵",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "れ目の前に右手をさしのべて、その頂をなで、法をもって潅頂し、法蔵を託してくださるのである。第二の師は、ただ世間的な成就の益、",
+          "context_position": 6385,
+          "matched_form": "法蔵"
+        }
+      ]
+    },
+    {
+      "canonical": "湛然",
+      "aliases": [],
+      "subcategory": "buddhist_master_china",
+      "definition": "天台宗中興の祖。妙楽大師。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "湛然",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "ま法性〔ものの本来のすがた〕と等しい。深く澄んで清浄であり〔湛然清浄〕、いっさいの思いはかれない、本性からおのずと起こる功徳",
+          "context_position": 31815,
+          "matched_form": "湛然"
+        }
+      ]
+    },
+    {
+      "canonical": "迦葉",
+      "aliases": [
+        "摩訶迦葉",
+        "kāśyapa",
+        "Kāśyapa"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "釈迦十大弟子の筆頭。頭陀第一。",
+      "sanskrit_canonical": "kāśyapa",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "迦葉",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "。昔、琉璃王〔るりおう〕が釈迦族の女〔釈女〕を殺したとき、大迦葉〔だいかしょう〕が阿耨達池〔あのくだっち〕でこの花を取り、八",
+          "context_position": 16432,
+          "matched_form": "迦葉"
+        }
+      ]
+    },
+    {
+      "canonical": "阿弥陀",
+      "aliases": [
+        "阿弥陀如来",
+        "amitābha",
+        "Amitābha",
+        "amitāyus"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "西方極楽浄土の教主。",
+      "sanskrit_canonical": "amitābha",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "阿弥陀",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "これは如来の法界の身であって白色である。次に観世音はすなわち阿弥陀仏であり、その身は黄色である。次に金剛蔵はすなわち釈迦牟尼で",
+          "context_position": 21590,
+          "matched_form": "阿弥陀"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "dainichikyo-sho-vol15.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-23",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 45271,
+  "summary": {
+    "unique_terms": 5,
+    "total_occurrences": 5
+  },
+  "entries": [
+    {
+      "term": "宝炬陀羅尼経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "きである。ただし、百の心で成仏すること〔百心成仏〕は、これは『宝炬陀羅尼経』が証する説である。きわめて深く、微細である。この経は、まだ東",
+          "context_position": 35958,
+          "raw_form": "宝炬陀羅尼経"
+        }
+      ]
+    },
+    {
+      "term": "法華経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "は一尺余り〔約三十センチ余〕もあって、とりわけ美しい。これが『法華経』に引かれているものである。これこそ曼荼羅の八つの華〔八華〕な",
+          "context_position": 16607,
+          "raw_form": "法華経"
+        }
+      ]
+    },
+    {
+      "term": "般若経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "た香・花・灯などの真言であって、それぞれの類に従えばよい。 『般若経』が説くには、もし一輪の花であまねく一切の諸仏を供養しようと思",
+          "context_position": 18551,
+          "raw_form": "般若経"
+        }
+      ]
+    },
+    {
+      "term": "華厳経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "しだいに勝れていくことは、なぞらえて知るべきである。ちょうど『華厳経』の真金のたとえ〔真金の喩〕のように、なぞらえて知るがよい。こ",
+          "context_position": 35834,
+          "raw_form": "華厳経"
+        }
+      ]
+    },
+    {
+      "term": "金剛経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "菩薩の名を得るのである〔四相とは、我・人・衆生・受者をいう。『金剛経』のなかで分別しているとおりである〕。 とらわれのない観を修め",
+          "context_position": 31200,
+          "raw_form": "金剛経"
+        }
+      ]
+    }
+  ]
+}

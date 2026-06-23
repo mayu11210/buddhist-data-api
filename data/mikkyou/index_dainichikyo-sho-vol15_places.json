@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol15.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-23",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 45271,
+  "summary": {
+    "unique_terms": 3,
+    "unique_places": 3,
+    "total_occurrences": 10,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 2,
+        "occurrences": 3
+      },
+      "mountain_buddhist": {
+        "unique": 1,
+        "occurrences": 7
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 6
+        },
+        {
+          "form": "須弥",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "れの位に応じて座を表す。たとえば帝釈〔たいしゃく〕の像なら、須弥山王〔しゅみせんおう〕を描いて坐らせ、山の神は山の上に、水の神",
+          "context_position": 15740,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "のもろもろのもとより静まったすがたの法のなかに安らかに住し、須弥山〔弥盧〕に等しい心を見諦と名づける、というのは、こういうこと",
+          "context_position": 32724,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "のなかにある疑いや怪しみ〔疑怪〕が永遠に取り除かれ、ちょうど須弥山の王〔須弥山王〕のように、ゆらぐことがない。須弥盧〔須弥山〕",
+          "context_position": 33051,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "疑いや怪しみ〔疑怪〕が永遠に取り除かれ、ちょうど須弥山の王〔須弥山王〕のように、ゆらぐことがない。須弥盧〔須弥山〕とは、すなわ",
+          "context_position": 33057,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "ど須弥山の王〔須弥山王〕のように、ゆらぐことがない。須弥盧〔須弥山〕とは、すなわちゆるぎないという意味である。あのもろもろの道",
+          "context_position": 33080,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "より静まり定まった本性がない〔本寂無性〕ことを知るがゆえに、須弥山のように動じない。これを見諦と名づける。先に述べたように、ま",
+          "context_position": 33158,
+          "matched_form": "須弥山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "、ちょうど須弥山の王〔須弥山王〕のように、ゆらぐことがない。須弥盧〔須弥山〕とは、すなわちゆるぎないという意味である。あのも",
+          "context_position": 33076,
+          "matched_form": "須弥"
+        }
+      ]
+    },
+    {
+      "canonical": "欲界",
+      "aliases": [],
+      "subcategory": "cosmological_realm",
+      "definition": "三界の最下。欲望が支配する世界。",
+      "matched_forms": [
+        {
+          "form": "欲界",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "坐る。その色は純粋な赤で、世に坐の王〔坐王〕と称される。もし欲界の天や、地上に住む者〔地居〕などは、それぞれの位に応じて座を",
+          "context_position": 15687,
+          "matched_form": "欲界"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "。これより下位の諸天は、地面の一部〔分地〕を座とする。つまり欲界の天などは、草に坐ったり、枯れ葉〔乾葉〕などに坐ったりする。",
+          "context_position": 15861,
+          "matched_form": "欲界"
+        }
+      ]
+    },
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol15",
+          "context": "、さまざまな不安〔種々の不安穏〕を離れるので、安らかな本性〔安楽性〕を得る。だから「無畏」というのである。清浄を得たそのとき",
+          "context_position": 8969,
+          "matched_form": "安楽"
+        }
+      ]
+    }
+  ]
+}

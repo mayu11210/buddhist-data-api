@@ -34,6 +34,7 @@
     "dainichikyo-sho-vol12",
     "dainichikyo-sho-vol13",
     "dainichikyo-sho-vol14",
+    "dainichikyo-sho-vol15",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -44,16 +45,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 38,
-  "corpora_with_data": 38,
+  "corpora_count": 39,
+  "corpora_with_data": 39,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1243,
+    "total_occurrences": 1253,
     "terms_in_multiple_corpora": 47,
-    "max_corpus_coverage": 22,
+    "max_corpus_coverage": 23,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -200,6 +201,11 @@
         "occurrences": 4,
         "present": true
       },
+      "dainichikyo-sho-vol15": {
+        "unique": 3,
+        "occurrences": 10,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 2,
         "occurrences": 29,
@@ -250,12 +256,13 @@
   "entries": [
     {
       "canonical": "安楽",
-      "total_occurrence_count": 189,
-      "covered_corpora_count": 22,
+      "total_occurrence_count": 190,
+      "covered_corpora_count": 23,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol15",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol5",
@@ -295,6 +302,7 @@
         "dainichikyo-sho-vol7": 2,
         "dainichikyo-sho-vol8": 2,
         "dainichikyo-sho-vol11": 8,
+        "dainichikyo-sho-vol15": 1,
         "hotsubodaishinron-sho-vol3": 28,
         "hotsubodaishinron-sho-vol4": 60,
         "hotsubodaishinron-sho-vol7": 19,
@@ -310,12 +318,13 @@
     },
     {
       "canonical": "欲界",
-      "total_occurrence_count": 107,
-      "covered_corpora_count": 14,
+      "total_occurrence_count": 109,
+      "covered_corpora_count": 15,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol15",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol2",
         "hotsubodaishinron-sho-vol5",
@@ -341,6 +350,7 @@
         "rishikyo": 1,
         "rishushaku": 4,
         "dainichikyo-sho-vol11": 2,
+        "dainichikyo-sho-vol15": 2,
         "hotsubodaishinron-sho-vol2": 2,
         "hotsubodaishinron-sho-vol5": 5
       },
@@ -389,53 +399,15 @@
       }
     },
     {
-      "canonical": "無色界",
-      "total_occurrence_count": 78,
-      "covered_corpora_count": 13,
-      "covered_corpora": [
-        "bodaishinron",
-        "dainichikyo-sho-vol1",
-        "hizo-houyaku",
-        "hizoki",
-        "hotsubodaishinron-sho-vol5",
-        "jujushinron",
-        "nikyo-ron",
-        "rishushaku",
-        "shoji-jisso",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu",
-        "ujiji",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 8,
-        "nikyo-ron": 1,
-        "ujiji": 2,
-        "shoji-jisso": 1,
-        "sokushin-jobutsu": 2,
-        "hizo-houyaku": 5,
-        "dainichikyo-sho-vol1": 4,
-        "bodaishinron": 2,
-        "jujushinron": 43,
-        "hizoki": 1,
-        "yugikyo": 1,
-        "rishushaku": 1,
-        "hotsubodaishinron-sho-vol5": 7
-      },
-      "metadata": {
-        "subcategory": "cosmological_realm",
-        "definition": "三界の最上。色身のない世界。"
-      }
-    },
-    {
       "canonical": "須弥山",
-      "total_occurrence_count": 72,
-      "covered_corpora_count": 20,
+      "total_occurrence_count": 79,
+      "covered_corpora_count": 21,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol12",
         "dainichikyo-sho-vol14",
+        "dainichikyo-sho-vol15",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
@@ -472,6 +444,7 @@
         "dainichikyo-sho-vol9": 2,
         "dainichikyo-sho-vol12": 2,
         "dainichikyo-sho-vol14": 1,
+        "dainichikyo-sho-vol15": 7,
         "hotsubodaishinron-sho-vol4": 2,
         "hotsubodaishinron-sho-vol2": 2
       },
@@ -483,6 +456,45 @@
           "sumeru",
           "meru"
         ]
+      }
+    },
+    {
+      "canonical": "無色界",
+      "total_occurrence_count": 78,
+      "covered_corpora_count": 13,
+      "covered_corpora": [
+        "bodaishinron",
+        "dainichikyo-sho-vol1",
+        "hizo-houyaku",
+        "hizoki",
+        "hotsubodaishinron-sho-vol5",
+        "jujushinron",
+        "nikyo-ron",
+        "rishushaku",
+        "shoji-jisso",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu",
+        "ujiji",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8,
+        "nikyo-ron": 1,
+        "ujiji": 2,
+        "shoji-jisso": 1,
+        "sokushin-jobutsu": 2,
+        "hizo-houyaku": 5,
+        "dainichikyo-sho-vol1": 4,
+        "bodaishinron": 2,
+        "jujushinron": 43,
+        "hizoki": 1,
+        "yugikyo": 1,
+        "rishushaku": 1,
+        "hotsubodaishinron-sho-vol5": 7
+      },
+      "metadata": {
+        "subcategory": "cosmological_realm",
+        "definition": "三界の最上。色身のない世界。"
       }
     },
     {
