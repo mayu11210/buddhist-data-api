@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "dainichikyo-sho-vol16.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-24",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 43111,
+  "summary": {
+    "unique_terms": 1,
+    "unique_canonicals": 1,
+    "total_occurrences": 1,
+    "with_diacritics_count": 0,
+    "ascii_only_count": 1,
+    "multi_form_canonicals": 0
+  },
+  "entries": [
+    {
+      "canonical": "citta",
+      "representative_form": "citta",
+      "aliases": [
+        {
+          "form": "citta",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol16",
+          "context": "の心の無自性へと転じ向ける」というが、その心を質多〔しった・citta・心〕という。質多とは、ちょうどさまざまな色糸〔衆綵〕を寄せ",
+          "context_position": 1901,
+          "sanskrit_form": "citta"
+        }
+      ]
+    }
+  ]
+}

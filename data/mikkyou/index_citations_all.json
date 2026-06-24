@@ -3,7 +3,7 @@
   "category": "citations",
   "category_description": "典故書名（『〜』形式・他者著作）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-23",
+  "generated_at": "2026-06-24",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -35,6 +35,7 @@
     "dainichikyo-sho-vol13",
     "dainichikyo-sho-vol14",
     "dainichikyo-sho-vol15",
+    "dainichikyo-sho-vol16",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -45,16 +46,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 39,
-  "corpora_with_data": 39,
+  "corpora_count": 40,
+  "corpora_with_data": 40,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 1197,
-    "total_occurrences": 3838,
+    "total_occurrences": 3840,
     "terms_in_multiple_corpora": 190,
-    "max_corpus_coverage": 23,
+    "max_corpus_coverage": 24,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 237,
@@ -206,6 +207,11 @@
         "occurrences": 5,
         "present": true
       },
+      "dainichikyo-sho-vol16": {
+        "unique": 2,
+        "occurrences": 2,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 51,
         "occurrences": 106,
@@ -303,13 +309,14 @@
     },
     {
       "term": "法華経",
-      "total_occurrence_count": 151,
-      "covered_corpora_count": 23,
+      "total_occurrence_count": 152,
+      "covered_corpora_count": 24,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol12",
         "dainichikyo-sho-vol15",
+        "dainichikyo-sho-vol16",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
         "hannya-hiken",
@@ -347,6 +354,7 @@
         "dainichikyo-sho-vol5": 1,
         "dainichikyo-sho-vol12": 3,
         "dainichikyo-sho-vol15": 1,
+        "dainichikyo-sho-vol16": 1,
         "hotsubodaishinron-sho-vol3": 1,
         "hotsubodaishinron-sho-vol4": 1,
         "hotsubodaishinron-sho-vol2": 2,
@@ -575,11 +583,12 @@
     },
     {
       "term": "金剛頂経",
-      "total_occurrence_count": 63,
-      "covered_corpora_count": 17,
+      "total_occurrence_count": 64,
+      "covered_corpora_count": 18,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol16",
         "hannya-hiken",
         "hizo-houyaku",
         "hizoki",
@@ -609,6 +618,7 @@
         "jujushinron": 6,
         "hizoki": 2,
         "hotsubodaishinron-sho-vol1": 11,
+        "dainichikyo-sho-vol16": 1,
         "hotsubodaishinron-sho-vol3": 7,
         "hotsubodaishinron-sho-vol4": 1,
         "hotsubodaishinron-sho-vol2": 6,

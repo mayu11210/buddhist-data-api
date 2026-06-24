@@ -3,7 +3,7 @@
   "category": "sanskrit",
   "category_description": "梵語 IAST",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-23",
+  "generated_at": "2026-06-24",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -35,6 +35,7 @@
     "dainichikyo-sho-vol13",
     "dainichikyo-sho-vol14",
     "dainichikyo-sho-vol15",
+    "dainichikyo-sho-vol16",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -45,14 +46,14 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 39,
-  "corpora_with_data": 39,
+  "corpora_count": 40,
+  "corpora_with_data": 40,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 1751,
-    "total_occurrences": 2690,
+    "total_occurrences": 2691,
     "terms_in_multiple_corpora": 147,
     "max_corpus_coverage": 4,
     "by_corpus": {
@@ -204,6 +205,11 @@
       "dainichikyo-sho-vol15": {
         "unique": 0,
         "occurrences": 0,
+        "present": true
+      },
+      "dainichikyo-sho-vol16": {
+        "unique": 1,
+        "occurrences": 1,
         "present": true
       },
       "hotsubodaishinron-sho-vol3": {
@@ -793,6 +799,24 @@
       }
     },
     {
+      "canonical": "citta",
+      "total_occurrence_count": 6,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol16",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "dainichikyo-sho-vol1": 4,
+        "dainichikyo-sho-vol16": 1
+      },
+      "metadata": {
+        "has_diacritics": false
+      }
+    },
+    {
       "canonical": "bhagavān",
       "total_occurrence_count": 6,
       "covered_corpora_count": 2,
@@ -1120,22 +1144,6 @@
       },
       "metadata": {
         "has_diacritics": true
-      }
-    },
-    {
-      "canonical": "citta",
-      "total_occurrence_count": 5,
-      "covered_corpora_count": 2,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "dainichikyo-sho-vol1": 4
-      },
-      "metadata": {
-        "has_diacritics": false
       }
     },
     {

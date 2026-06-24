@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol16.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-24",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 43111,
+  "summary": {
+    "unique_terms": 2,
+    "unique_places": 2,
+    "total_occurrences": 10,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 1,
+        "occurrences": 1
+      },
+      "country_dynasty": {
+        "unique": 1,
+        "occurrences": 9
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "商",
+          "count": 9
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol16",
+          "context": "部〔三部の一つ〕である。四角い曼荼羅〔方壇〕を作り、その内に商佉〔しょうか・法螺貝〕を描く。商佉の上に蓮華があり、蓮華の上",
+          "context_position": 6506,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol16",
+          "context": "荼羅〔方壇〕を作り、その内に商佉〔しょうか・法螺貝〕を描く。商佉の上に蓮華があり、蓮華の上に金剛〔金剛杵〕があり、その金剛",
+          "context_position": 6522,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol16",
+          "context": "、みな種子の字〔本尊を表す梵字一字〕を安置するとよい。つまり商佉の上にも、金剛の上にも、花の上にも、それぞれ種子の字を置く",
+          "context_position": 6665,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol16",
+          "context": "〔むりょうおんぶっちょう〕は、珂貝〔かばい・白い貝。すなわち商佉〔しょうか・法螺貝〕〕を印とする。色の類い〔顕色〕は、よく",
+          "context_position": 12880,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol16",
+          "context": "の中に電があり、また水の形がある。ともに壇の門の辺りにいる。商羯羅〔しょうから〕には、三戟〔さんげき・三叉の戟〕の印。商羯",
+          "context_position": 15739,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol16",
+          "context": "。商羯羅〔しょうから〕には、三戟〔さんげき・三叉の戟〕の印。商羯羅の后には、鉢致〔はっち〕の印。月天〔がってん〕には、白い",
+          "context_position": 15768,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol16",
+          "context": "。風壇の中にいる。虚空慧〔こくうえ〕菩薩の印は、風の壇の中に商佉〔法螺貝〕を置く〔すなわち半月の壇である〕。清浄慧〔しょう",
+          "context_position": 19167,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol16",
+          "context": "風壇の中に置く。次に、行慧〔ぎょうえ〕菩薩の印は、風輪の中に商佉を置く。商佉の中に青蓮華を挿む。安慧〔あんえ〕菩薩の印は、",
+          "context_position": 19245,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol16",
+          "context": "く。次に、行慧〔ぎょうえ〕菩薩の印は、風輪の中に商佉を置く。商佉の中に青蓮華を挿む。安慧〔あんえ〕菩薩の印は、風輪の中に花",
+          "context_position": 19251,
+          "matched_form": "商"
+        }
+      ]
+    },
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol16",
+          "context": "ゆえに、また真言の門〔真言門〕を修するもろもろの菩薩を利益し安楽にしようとするゆえに、これを説き述べられる。だから、ねんごろ",
+          "context_position": 3605,
+          "matched_form": "安楽"
+        }
+      ]
+    }
+  ]
+}

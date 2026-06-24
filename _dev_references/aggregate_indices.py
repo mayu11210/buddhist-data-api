@@ -70,6 +70,7 @@ ALL_CORPORA = [
     'dainichikyo-sho-vol13',  # 2026-06-23 追加（大日経疏 巻第十三 横断索引化・37 著作目）
     'dainichikyo-sho-vol14',  # 2026-06-23 追加（大日経疏 巻第十四 横断索引化・38 著作目）
     'dainichikyo-sho-vol15',  # 2026-06-23 追加（大日経疏 巻第十五 横断索引化・39 著作目）
+    'dainichikyo-sho-vol16',  # 2026-06-24 追加（大日経疏 巻第十六 横断索引化・40 著作目）
     'hotsubodaishinron-sho-vol3',  # 2026-06-17 追加（発菩提心論鈔 第三巻 横断索引化・性霊集含め 18 著作目）
     'hotsubodaishinron-sho-vol4',  # 2026-06-18 追加（発菩提心論鈔 第四巻 横断索引化・性霊集含め 19 著作目）
     'hotsubodaishinron-sho-vol2',  # 2026-06-18 追加（発菩提心論鈔 第二巻 横断索引化・性霊集含め 20 著作目）

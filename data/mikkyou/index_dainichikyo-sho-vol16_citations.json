@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "dainichikyo-sho-vol16.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-24",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 43111,
+  "summary": {
+    "unique_terms": 2,
+    "total_occurrences": 2
+  },
+  "entries": [
+    {
+      "term": "法華経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol16",
+          "context": "同じであり、等しく同じくしたがう」というのである。これはまた『法華経』にいう、あらゆるもの〔皆衆〕が実相とそむき背かない、というの",
+          "context_position": 25345,
+          "raw_form": "法華経"
+        }
+      ]
+    },
+    {
+      "term": "金剛頂経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol16",
+          "context": "でだけ問い合い、そうしてはじめて知りうるものである。たとえば『金剛頂経』の分別積品に説かれているとおりである。そこでは、仏が三昧〔さ",
+          "context_position": 20018,
+          "raw_form": "金剛頂経"
+        }
+      ]
+    }
+  ]
+}
