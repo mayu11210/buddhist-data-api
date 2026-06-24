@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "dainichikyo-sho-vol17.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-24",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 46077,
+  "summary": {
+    "unique_terms": 9,
+    "total_occurrences": 11
+  },
+  "entries": [
+    {
+      "term": "涅槃経",
+      "aliases": [],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "のつくされていない経〔不了義経〕の説くところとは同じでない。『涅槃経』や『鴦掘魔羅経』などに説かれているとおりであって、それらを引",
+          "context_position": 34120,
+          "raw_form": "涅槃経"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "性質のものだから、一切の菩薩がこれを行うべきである。すなわち『涅槃経』にいう「本来の性そのままに能く持つ戒〔性自能持戒〕」であり、",
+          "context_position": 34817,
+          "raw_form": "涅槃経"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "この本性の戒〔本性戒〕は、おのずと自然に行うべきものだから、『涅槃経』では「本来の性そのままに能く持つ戒〔性自能持戒〕」というので",
+          "context_position": 39252,
+          "raw_form": "涅槃経"
+        }
+      ]
+    },
+    {
+      "term": "仏性論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "えない〔この処無し〕のと同じである。この石女の子のたとえは、『仏性論』の意をたずねて、くわしく説くべきところである。 また外道は、",
+          "context_position": 41769,
+          "raw_form": "仏性論"
+        }
+      ]
+    },
+    {
+      "term": "大方便経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "〔こきゃく・商人〕を救うために蛇を害した因縁は、『宝蔵経』や『大方便経』などに説かれている。  さらに次に、菩薩は不与取の戒〔ふよし",
+          "context_position": 45505,
+          "raw_form": "大方便経"
+        }
+      ]
+    },
+    {
+      "term": "宝蔵経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "、師子が賈客〔こきゃく・商人〕を救うために蛇を害した因縁は、『宝蔵経』や『大方便経』などに説かれている。  さらに次に、菩薩は不与",
+          "context_position": 45499,
+          "raw_form": "宝蔵経"
+        }
+      ]
+    },
+    {
+      "term": "文殊経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "なものである。ちょうど『首楞厳経〔しゅりょうごんぎょう〕』や『文殊経』に説かれる射術を習う〔習射〕たとえのとおりである。もし真理〔",
+          "context_position": 14651,
+          "raw_form": "文殊経"
+        }
+      ]
+    },
+    {
+      "term": "金光明経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "ある。 「妙音〔みょうおん〕」とは、ある天〔神〕の名である。『金光明経』では「大弁天女〔だいべんてんにょ・弁才天〕」という。「大弁」",
+          "context_position": 27351,
+          "raw_form": "金光明経"
+        }
+      ]
+    },
+    {
+      "term": "金剛頂経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "ども、それはまだこの国〔中国〕には伝わっていない。とはいえ、『金剛頂経』のなかにそれ自体の授戒の法があり、大本のそれと異なるところが",
+          "context_position": 35661,
+          "raw_form": "金剛頂経"
+        }
+      ]
+    },
+    {
+      "term": "首楞厳経〔しゅりょうごんぎょう〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "もある。的の中心〔中斉〕を射あてるようなものである。ちょうど『首楞厳経〔しゅりょうごんぎょう〕』や『文殊経』に説かれる射術を習う〔習射〕たとえのとおりである",
+          "context_position": 14632,
+          "raw_form": "首楞厳経〔しゅりょうごんぎょう〕"
+        }
+      ]
+    },
+    {
+      "term": "鴦掘魔羅経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "いない経〔不了義経〕の説くところとは同じでない。『涅槃経』や『鴦掘魔羅経』などに説かれているとおりであって、それらを引いて広く説くべき",
+          "context_position": 34126,
+          "raw_form": "鴦掘魔羅経"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.3",
+  "category": "地名索引",
+  "source_corpus": "dainichikyo-sho-vol17.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-24",
+  "extraction_strategy": "人手キュレートシード辞書（寺院・山・国・王朝・西域・インド・都城・日本国・神仙・宇宙論界・聖地）。長表記優先・1 文字王朝/国名は文脈ホワイトリスト + 動詞活用語尾除外。",
+  "subcategory_taxonomy": [
+    "capital_china",
+    "capital_japan",
+    "cosmological_realm",
+    "country_china",
+    "country_dynasty",
+    "country_india",
+    "country_japan",
+    "country_western_region",
+    "mountain_buddhist",
+    "mountain_china",
+    "mountain_japan",
+    "mythological",
+    "province_japan",
+    "river_china",
+    "sacred_site_indian",
+    "sacred_site_japan",
+    "temple_china",
+    "temple_japan"
+  ],
+  "seed_dictionary_size": 91,
+  "gendaigoyaku_length": 46077,
+  "summary": {
+    "unique_terms": 5,
+    "unique_places": 5,
+    "total_occurrences": 11,
+    "by_subcategory": {
+      "cosmological_realm": {
+        "unique": 1,
+        "occurrences": 3
+      },
+      "country_dynasty": {
+        "unique": 2,
+        "occurrences": 5
+      },
+      "mountain_buddhist": {
+        "unique": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "安楽",
+      "aliases": [
+        "安楽国"
+      ],
+      "subcategory": "cosmological_realm",
+      "definition": "極楽浄土の異称。",
+      "matched_forms": [
+        {
+          "form": "安楽",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "から「蘇羅多」と名づける。またこの「蘇羅多」には、ともに住む安楽〔共住安楽〕という意味もある。すなわち、すぐれた道理〔妙理〕",
+          "context_position": 25422,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "多」と名づける。またこの「蘇羅多」には、ともに住む安楽〔共住安楽〕という意味もある。すなわち、すぐれた道理〔妙理〕とともに住",
+          "context_position": 25427,
+          "matched_form": "安楽"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "すなわち、すぐれた道理〔妙理〕とともに住し、いま現にこの世で安楽〔現法の楽〕を受けることをいう。さらに、すぐれた仕事〔妙事業",
+          "context_position": 25469,
+          "matched_form": "安楽"
+        }
+      ]
+    },
+    {
+      "canonical": "殷",
+      "aliases": [
+        "商"
+      ],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。湯王が建国。",
+      "matched_forms": [
+        {
+          "form": "商",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "のことである。たとえば、蟒〔もう・大蛇〕の身となって五百人の商人を護るために、大いなる慈悲でもって蛇の命を害し、その蛇は〔",
+          "context_position": 45363,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "蛇の命を害し、その蛇は〔害そうとした〕罪を免れて天に生まれ、商人たちもことごとく災いを免れた、という話がある。これは「金槍",
+          "context_position": 45412,
+          "matched_form": "商"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "えん〕」にくわしく説かれている。また、師子が賈客〔こきゃく・商人〕を救うために蛇を害した因縁は、『宝蔵経』や『大方便経』な",
+          "context_position": 45481,
+          "matched_form": "商"
+        }
+      ]
+    },
+    {
+      "canonical": "周",
+      "aliases": [],
+      "subcategory": "country_dynasty",
+      "definition": "中国古代王朝。文王・武王が建国。",
+      "matched_forms": [
+        {
+          "form": "周",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "四つの辺に、さらに四つの三角があってこれを取り囲む。それゆえ周〔めぐる〕という。〔図・第一印（大威徳生印）の三角漫荼羅（図",
+          "context_position": 2045,
+          "matched_form": "周"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "0_01）。三角形に作り、四辺にまた四つの三角がこれを囲む（周と称する）〕その中央に大日如来〔毘盧遮那〕世尊を観じ、そのな",
+          "context_position": 2115,
+          "matched_form": "周"
+        }
+      ]
+    },
+    {
+      "canonical": "雪山",
+      "aliases": [
+        "ヒマーラヤ",
+        "himālaya"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "ヒマーラヤ山脈。仏典でしばしば言及される聖山。",
+      "matched_forms": [
+        {
+          "form": "雪山",
+          "count": 2
+        }
+      ],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "〔自身捨者〕というのは（もし法を求めて身命を惜しまないこと、雪山大士〔せっせんだいじ・雪山童子〕のようであること）、これらを",
+          "context_position": 6320,
+          "matched_form": "雪山"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "し法を求めて身命を惜しまないこと、雪山大士〔せっせんだいじ・雪山童子〕のようであること）、これらをいう。たとえ漫荼羅に入った",
+          "context_position": 6333,
+          "matched_form": "雪山"
+        }
+      ]
+    },
+    {
+      "canonical": "須弥山",
+      "aliases": [
+        "須弥",
+        "sumeru",
+        "meru"
+      ],
+      "subcategory": "mountain_buddhist",
+      "definition": "仏教世界観の中心の山。",
+      "matched_forms": [
+        {
+          "form": "須弥山",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "正しい定〔寂止正定〕にあって、たとえ妙高山〔みょうこうせん・須弥山の王〕が崩れ落ち震え動いても、なおその心を揺り動かすことはで",
+          "context_position": 13962,
+          "matched_form": "須弥山"
+        }
+      ]
+    }
+  ]
+}

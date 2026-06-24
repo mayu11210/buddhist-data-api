@@ -1,0 +1,1126 @@
+{
+  "schema_version": "1.2",
+  "category": "戒名向け熟語索引",
+  "source_corpus": "dainichikyo-sho-vol17.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-24",
+  "extraction_strategy": "起点 1（密教教学用語の戒名適合 11 語）+ 起点 2（梵語の漢訳対応）+ 起点 3（補注内 2 字漢語熟語のホワイトリスト抽出）",
+  "scoring_rule": "kaimyo_score = freq(log10×12, 上限25) + doctrinal(seed_terms=30 / seed_sanskrit=20 / paren_doctrinal=10) + ichiji(KAIMYO_ICHIJI 含字数 × 8, 上限16) + aesthetic(美字構成・最大4)",
+  "review_policy": "needs_human_review=true の語は kaimyo-app 連携前に専門家校閲を要する",
+  "dictionary_sizes": {
+    "kaimyo_ichiji": 85,
+    "sanskrit_to_kaimyo_jukugo": 51,
+    "doctrinal_2char_whitelist": 151,
+    "kaimyo_noise": 140
+  },
+  "gendaigoyaku_length": 46077,
+  "summary": {
+    "unique_terms": 16,
+    "unique_jukugo": 16,
+    "total_occurrences": 132,
+    "seed_terms_count": 11,
+    "seed_sanskrit_count": 0,
+    "paren_doctrinal_count": 5,
+    "needs_review_count": 5,
+    "matched_jukugo_count": 11
+  },
+  "entries": [
+    {
+      "jukugo": "真言",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "真言陀羅尼。仏の真実言語。密教修行の中心。",
+      "seed_sanskrit": "mantra",
+      "kaimyo_chars": [
+        "真",
+        "言"
+      ],
+      "kaimyo_score": 70.57,
+      "freq_score": 22.57,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 75,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "に、いったいどんな方便をそなえた相〔方便具足の相〕があれば、真言行者を速やかに成就させることができるのだろうか、と。そのとき",
+          "context_position": 324,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "本尊たちの漫荼羅の座位〔座位〕を敷きならべるとき、この八印と真言とが、本尊の加持〔所加持〕の力によって働き、それゆえ諸尊たち",
+          "context_position": 680,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "が作すことなど、なおさら許されないのである。 ただちに本来の真言の趣〔本真言趣〕をもって、しるし〔幖幟・はたじるし〕とする。",
+          "context_position": 1039,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "ど、なおさら許されないのである。 ただちに本来の真言の趣〔本真言趣〕をもって、しるし〔幖幟・はたじるし〕とする。「趣」という",
+          "context_position": 1045,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "・人・天の六道〕などのいう趣と同じ意味であり、これがすなわち真言の趣〔真言趣〕である。あわせて漫荼羅も本尊と相応させる〔漫荼",
+          "context_position": 1128,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "六道〕などのいう趣と同じ意味であり、これがすなわち真言の趣〔真言趣〕である。あわせて漫荼羅も本尊と相応させる〔漫荼羅を兼ねる",
+          "context_position": 1133,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "のとおりに住せよ」というのはこうである。もし行者がこの八印と真言と漫荼羅とによれば、たがいに相応し、それぞれの位に配し住する",
+          "context_position": 1425,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "がこのなかにおられると想い、威光の印〔威光の印〕をなす。その真言はこうである。〔図・第一印の真言（悉曇）。音写「藍・𡀩」（r",
+          "context_position": 2348,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "の印〔威光の印〕をなす。その真言はこうである。〔図・第一印の真言（悉曇）。音写「藍・𡀩」（raṃ・raḥ）〕第二印は、前のと",
+          "context_position": 2364,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "。そのなかに大日如来がおられる。以下もみなこれにならう。その真言はこうである。〔図・第二印（金剛不壊印）の真言（悉曇）。音写",
+          "context_position": 2751,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "にならう。その真言はこうである。〔図・第二印（金剛不壊印）の真言（悉曇）。音写「鑁・縛」（vaṃ・vaḥ）〕第三印は、前のと",
+          "context_position": 2774,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "が異なるだけである。そのなかにも、また大日如来を観じる。その真言はこうである。〔図・第三印（如来蔵印・蓮華蔵印）の真言（悉曇",
+          "context_position": 3034,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "。その真言はこうである。〔図・第三印（如来蔵印・蓮華蔵印）の真言（悉曇）。音写「三・索」（saṃ・saḥ）〕第四印は、前の第",
+          "context_position": 3061,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "めに傾け〔側め〕、点でこれを囲み、残りは前のとおりに観じる。真言はこうである。〔図・第四印（仏音荘厳印・万徳荘厳印）の真言（",
+          "context_position": 3378,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "。真言はこうである。〔図・第四印（仏音荘厳印・万徳荘厳印）の真言（悉曇）。音写「憾・郝」（haṃ・haḥ）〕第五印は、前のと",
+          "context_position": 3407,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "つの金剛〔四金剛〕でこれを囲む。残りは前のとおりである。その真言はこうである。〔図・第五印（仏支分生印）の真言（悉曇）。音写",
+          "context_position": 3674,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "りである。その真言はこうである。〔図・第五印（仏支分生印）の真言（悉曇）。音写「暗・惡」（aṃ・aḥ）〕第六印は、前のとおり",
+          "context_position": 3697,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "に入りまじらせる〔相間錯す〕のである〔さらにたずねよ〕。その真言はこうである。勃駄陀羅尼〔ぼだだらに・仏の陀羅尼〕は、仏のす",
+          "context_position": 4083,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "てを摂め持つもの〔仏の惣持〕である。〔図・第六印（法性印）の真言（悉曇・種子字、嚩字。勃馱陀羅尼）〕この初めの字を種子〔しゅ",
+          "context_position": 4146,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "法〕を含む。その両辺にそれぞれ一つの点を置き、これではさむ。真言はこうである。〔図・第七印（虚空印）の真言（悉曇・種子字、阿",
+          "context_position": 4800,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "き、これではさむ。真言はこうである。〔図・第七印（虚空印）の真言（悉曇・種子字、阿＝ā）〕これが種子〔種子字〕である。この一",
+          "context_position": 4821,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "めて青色に作る。多くの白い点〔衆多の白点〕でこれを取り囲む。真言はこうである。摩訶瑜伽〔まかゆが〕というのは、つまり諸仏の瑜",
+          "context_position": 5244,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "まり諸仏の瑜伽〔ゆが〕である。〔図・第八印（如来迅疾持印）の真言（悉曇・種子字、佉＝khi）〕これが種子〔種子字〕である。瑜",
+          "context_position": 5300,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "khi）〕これが種子〔種子字〕である。瑜祇儞〔ゆぎに〕、この真言の主〔真言主〕は大瑜伽〔だいゆが〕に住している。まだ瑜伽を得",
+          "context_position": 5342,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "これが種子〔種子字〕である。瑜祇儞〔ゆぎに〕、この真言の主〔真言主〕は大瑜伽〔だいゆが〕に住している。まだ瑜伽を得ていない者",
+          "context_position": 5347,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "・三業〕を浄めるためである。 持明禁戒品〔じみょうごんかい・真言行者の戒を説く章〕第十五 そのとき金剛手〔こんごうしゅ・執金",
+          "context_position": 6967,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "〕第十五 そのとき金剛手〔こんごうしゅ・執金剛・秘密主〕は、真言の行を修める菩薩たちのために、必ず持明禁戒の法が説かれなけれ",
+          "context_position": 7007,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "つきの願戒〔がんかい・誓願に伴う戒〕である。すなわち、行者が真言を持誦するとき、心のうちで一か月、あるいは一年と期間を定め、",
+          "context_position": 7531,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "と〕でさえ、生涯ひとたび〔一形〕と区切る。ならば、いまのこの真言の戒〔明〕にも限りや区切り〔限剤〕があるのか無いのか、と問う",
+          "context_position": 8071,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "とで、この法をはっきりと了解しております〔了知〕。いまこそ、真言の行を修める者たちが、来たるべき世〔未来世〕において速やかに",
+          "context_position": 8888,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "て、二つと無い道〔無二の道〕であることを証明するのである。「真言の戒は智慧を発し、制戒は正光に住す」とは、この戒を持つことに",
+          "context_position": 10403,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "智慧を発し、制戒は正光に住す」とは、この戒を持つことによって真言の行が起こり、悉地〔じっち・成就〕を得るのである。すなわち、",
+          "context_position": 10438,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "住すべきである。すなわち三平等〔さんびょうどう・身は印・語は真言・心は本尊の三つが等しいこと〕によって、福と智が増し育ち、悉",
+          "context_position": 10665,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "が増し育ち、悉地を成就することができるのである。 「みずから真言を等しく起こし〔等起〕、疑いのとまどい〔疑慮〕の無い者は、ま",
+          "context_position": 10720,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "、こういうことである。「自らの真実〔自真実〕」とは、みずから真言と手印を保ち、本尊を心に思い描くことをいう。ひたすら念ずる〔",
+          "context_position": 10810,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "に三平等という方便がある。身はすなわち印であり、語はすなわち真言であり、心はすなわち本尊である。この三つをもって、その真実究",
+          "context_position": 10989,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "の信〕によって入ることができる。もし疑いのとまどいがあれば、真言の行はついに成就できない。だから重ねていましめを加え、疑いを",
+          "context_position": 11157,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "だから仏は答えてこう言われる。「落叉〔らくしゃ〕の見に至り、真言の数を誦じ、つねに時月に応ずれば、禁もまた竟わる〔終わる〕」",
+          "context_position": 12983,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "応ずれば、禁もまた竟わる〔終わる〕」と。もし浅く略した解釈で真言の戒を持つ場合には、その持戒の範囲を区切り、誦する回数を区切",
+          "context_position": 13027,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "見〔けん・真実を見ること〕」である。真実を見たそのとき、この真言の行はついに完了する〔終竟〕。そうでなければ、途中でやめてよ",
+          "context_position": 13225,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "ず三つの等しき方便〔三等の方便〕を作すべきである。すなわち、真言と身印と、本尊を観ずることである。本尊を見るとき、その心も相",
+          "context_position": 13375,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "そこに安らい住し、揺れ乱れる〔動乱〕ことが無い。また、持する真言が本尊の心のなかから流れ注ぎ〔流注〕、それがわが口に入ってく",
+          "context_position": 13440,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "のみを摂って、ほかのものを食べてはならない。あわせて、持する真言が臍〔へそ〕から出て鼻から入る、と観じ、呼吸を調えるのと同じ",
+          "context_position": 15274,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "、と観じ、呼吸を調えるのと同じようにする。そのとき、ただこの真言をもって呼吸とする、と観ずるのである。その色もまた黄である。",
+          "context_position": 15321,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "って呼吸とする、と観ずるのである。その色もまた黄である。もし真言の句を観ずるときは、一句ごとに一息とする。もし種子の字〔種子",
+          "context_position": 15355,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "〔ばじ／バ・水・無縛〕となると観ずる。白色である。また、白い真言をもって出入りの息とする。問う——本尊の字を観ずるのか、それ",
+          "context_position": 15761,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "ほかはいっさい食べない。ここでいう「水を摂る」とは、ただこの真言の水、すなわち入る息である白い乳の字〔嚩字〕を食とすることで",
+          "context_position": 15871,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "。いっさい食べない。すなわち、いっさいの食を断つ。ただ二つの真言をもって出入りの息とし、それを食とするのである。 次に第六の",
+          "context_position": 17059,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "、つづいてふたたび大日如来〔毘盧遮那〕に、もろもろの漫荼羅の真言の心〔しんごん・最も核心となる教え〕について問うた、というと",
+          "context_position": 17737,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "ますところなく満たそうとして、あらためて「いったい何が一切の真言の心であるのか」と問うのである。ここでいう真言の心とは、サン",
+          "context_position": 17956,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "たい何が一切の真言の心であるのか」と問うのである。ここでいう真言の心とは、サンスクリットの「汗栗駄〔かりだ・フリダヤ／心臓・",
+          "context_position": 17979,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "駄〔かりだ・フリダヤ／心臓・心の核〕」のことであり、すなわち真言の中心にある心をさす。これまでの段はすべて偈〔げ・うた〕の形",
+          "context_position": 18027,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "って保つことで、阿闍梨という名を得るのか。また、どのような心真言〔しんしんごん・心の真言〕を誦え保つことで、阿闍梨の名を得る",
+          "context_position": 18149,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "いう名を得るのか。また、どのような心真言〔しんしんごん・心の真言〕を誦え保つことで、阿闍梨の名を得るのか」と問う。なお「尾扶",
+          "context_position": 18161,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "手はよく一切衆生の善根〔ぜんごん・善の根本〕を打ち立て、その真言行〔しんごんぎょう・真言の修行〕を満たすことができる者であり",
+          "context_position": 18424,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "ぜんごん・善の根本〕を打ち立て、その真言行〔しんごんぎょう・真言の修行〕を満たすことができる者であり、そうであればこそ、この",
+          "context_position": 18436,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "秘有の相〕、最も奥深く秘められたすがた〔最秘の相〕である。「真言智〔しんごんち〕」とは、智のなかの智であり、これより上のもの",
+          "context_position": 18684,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "している。おまえは一心に、よくよく聴くがよい〔諦聴〕」と。心真言から生じる智、これこそ最も大いなるものである。そのいわゆる「",
+          "context_position": 18789,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "ま常住にして不生のさとり〔常住不生〕を得るのである。 この心真言は、すなわち無量義処〔むりょうぎしょ・はかりしれない意味を生",
+          "context_position": 19300,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "仏は問う、「秘密主〔ひみつしゅ・金剛手〕よ、いったい何が一切真言の心であるのか。なぜ阿字が一切真言の心なのか」と。仏はみずか",
+          "context_position": 19641,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "剛手〕よ、いったい何が一切真言の心であるのか。なぜ阿字が一切真言の心なのか」と。仏はみずから問いを立てて、みずから答えるので",
+          "context_position": 19658,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "一切がこのようである〔一切かくの如し〕」というのは、すべての真言が阿字に同じだという意味である。これらがもろもろの真言なので",
+          "context_position": 20139,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "べての真言が阿字に同じだという意味である。これらがもろもろの真言なのである。 また「身体の各部位に安らかに置く〔支分に安住す",
+          "context_position": 20166,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "言葉による説き示し〔言説〕と、道理のさとり〔理証〕とである。真言も理も、ともにあまねくゆきわたる。だからこそ重ねて「一切」と",
+          "context_position": 23895,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "べての部位の主〔あるじ〕である。阿字もまた同じで、これが一切真言の主なのである。 「このように一切を行えば、そのまま私自身と",
+          "context_position": 24689,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "ある。これは一切智をそなえる。すなわち「持誦者〔じじゅしゃ・真言を誦え持つ者〕」である。真言は私〔大日如来〕から生じるから、",
+          "context_position": 28295,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "。すなわち「持誦者〔じじゅしゃ・真言を誦え持つ者〕」である。真言は私〔大日如来〕から生じるから、私こそが持誦者であり、また真",
+          "context_position": 28309,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "言は私〔大日如来〕から生じるから、私こそが持誦者であり、また真言をたもつ者〔持真言者〕である。真言が私から生じるからこそ、私",
+          "context_position": 28340,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "から生じるから、私こそが持誦者であり、また真言をたもつ者〔持真言者〕である。真言が私から生じるからこそ、私がこれをたもつ。真",
+          "context_position": 28349,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "私こそが持誦者であり、また真言をたもつ者〔持真言者〕である。真言が私から生じるからこそ、私がこれをたもつ。真言の字が私から生",
+          "context_position": 28357,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "言者〕である。真言が私から生じるからこそ、私がこれをたもつ。真言の字が私から生じ、私がこれをたもつから、「大吉祥をそなえる者",
+          "context_position": 28380,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "がこれをたもつから、「大吉祥をそなえる者」もまた、すなわち「真言王〔しんごんおう〕」というのは、私のことである。すなわち「執",
+          "context_position": 28422,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "説く者〔一切遍皆説〕であり、吉祥をたもつ者〔持吉祥〕であり、真言王であり、金剛をたもつ者〔持金剛〕である――それらはみな私な",
+          "context_position": 28765,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "。 仏は次に、さらに広く菩薩の十善戒のすがた〔戒相〕を説き、真言を行ずる菩薩〔真言行菩薩〕に疑惑が残らないようにしようとされ",
+          "context_position": 42361,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "に広く菩薩の十善戒のすがた〔戒相〕を説き、真言を行ずる菩薩〔真言行菩薩〕に疑惑が残らないようにしようとされる。そこで、大慈・",
+          "context_position": 42370,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大日",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "大日如来。密教の本尊。遮那と同義。法身そのもの。",
+      "seed_sanskrit": "Mahāvairocana",
+      "kaimyo_chars": [
+        "大"
+      ],
+      "kaimyo_score": 53.35,
+      "freq_score": 15.35,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 18,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "畏三蔵の口述を一行が筆受した〕 秘密八印品 第十四 そのとき大日如来〔毘盧遮那〕世尊は、集まった大衆〔大衆会〕をよく見わたし",
+          "context_position": 68,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "る。もしこれをなさなければ、まだ完全〔円〕ではない。この経〔大日経〕は、すべて前後があい補い合って、ともに一つのことを説き、",
+          "context_position": 1588,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "の指は元のまま〔旧の如く〕にする。すなわちこれである。これが大日如来〔毘盧遮那〕の大威徳生の印〔大威徳生印〕である。このなか",
+          "context_position": 1922,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "、四辺にまた四つの三角がこれを囲む（周と称する）〕その中央に大日如来〔毘盧遮那〕世尊を観じ、そのなかに安置すべきである。 そ",
+          "context_position": 2127,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "白い、ということである。これもまた華台の上にある。そのなかに大日如来がおられる。以下もみなこれにならう。その真言はこうである",
+          "context_position": 2727,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "〔四蓮〕でこれを囲むのが異なるだけである。そのなかにも、また大日如来を観じる。その真言はこうである。〔図・第三印（如来蔵印・",
+          "context_position": 3023,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "んじざいぼさつ〕である。まさに知るべきである。この八印はみな大日如来〔毘盧遮那〕の印である。たとえば東方の印であれば、それは",
+          "context_position": 5772,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "とえば東方の印であれば、それは宝幢仏の印であると同時に、また大日如来の印でもある。ほかもこれにならう〔次のとおりに四印を用い",
+          "context_position": 5819,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "因縁が説かれていない。そこで次に、ふたたび偈〔うた〕をもって大日如来〔毘盧遮那〕に問うのである。だからこれを諷誦〔ふじゅ・う",
+          "context_position": 7087,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "頌〔ごじゅ・五つのうた〕がある。これが問いである。 そのとき大日如来〔毘盧遮那〕は、かの諸仏の持明戒についての問いが発せられ",
+          "context_position": 9291,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "そのとき、執金剛〔しつこんごう・金剛手〕が、つづいてふたたび大日如来〔毘盧遮那〕に、もろもろの漫荼羅の真言の心〔しんごん・最",
+          "context_position": 17716,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "なわち毘首羯磨〔びしゅかつま・造物神〕も、これにあたる。私〔大日如来〕もまた、あらゆる心の一つひとつ〔心心〕を生み出す主であ",
+          "context_position": 26706,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "〕に至らせる者を「閻摩羅〔えんまら〕」と名づける。しかし私〔大日如来〕は、人々を率いて善きところに至らせ、その煩悩を殺し滅ぼ",
+          "context_position": 27090,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "「持誦者〔じじゅしゃ・真言を誦え持つ者〕」である。真言は私〔大日如来〕から生じるから、私こそが持誦者であり、また真言をたもつ",
+          "context_position": 28314,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "や、如来の百八の名号〔一百八号〕など、そのどれもが、この私〔大日如来〕でないものはない。なぜなら、この阿字の本体〔法体〕は、",
+          "context_position": 28871,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "るなら、それはそのまま「あまねく一切処にゆきわたる毘盧遮那〔大日如来〕」と同じである。だからこそ仏は、経のなかでこのように証",
+          "context_position": 28973,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "華部〔れんげぶ〕のとどまるところ〔所住の処〕である。 「私〔大日如来〕の心は一切に住し、あまねく自在である。私はみな、さまざ",
+          "context_position": 29263,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "とがない」のはどうしてか、ということなのである。 そのとき、大日如来〔毘盧遮那・びるしゃな〕世尊は、あらゆるところに遍くおら",
+          "context_position": 32651,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法界",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "宇宙の真実相。一切法の根本領域。",
+      "seed_sanskrit": "dharma-dhātu",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 52.45,
+      "freq_score": 14.45,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 15,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "、なお思いはかれないことである。ましてや如来の思いはかれない法界の感応〔如来不思議法界の感応〕はなおさらである。これは阿闍梨",
+          "context_position": 863,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "とである。ましてや如来の思いはかれない法界の感応〔如来不思議法界の感応〕はなおさらである。これは阿闍梨〔密教の師〕が行ずべき",
+          "context_position": 874,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "〔身分〕に配そうとするからである。すなわちそれは、一切如来の法界の法〔ほっかいのほう・真実の世界のあり方〕であって、あらゆる",
+          "context_position": 29914,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "ろに遍くおられたまま、仏眼〔ぶつげん・仏の眼〕をもって一切の法界〔ほっかい〕を観じ、執金剛秘密主〔金剛手〕に告げて言われた。",
+          "context_position": 32707,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "告げて言われた。「よく聴くがよい、金剛手よ」と。  ここで「法界を仏眼で観じて、金剛秘密主に告げ、よく聴け、と言われた」とい",
+          "context_position": 32761,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "大会〔だいえ・集まった大衆〕を観られたのは、すなわちあまねく法界を観られたことにほかならない。この中で「もろもろの法界」とい",
+          "context_position": 32894,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "まねく法界を観られたことにほかならない。この中で「もろもろの法界」というのは、仏界・法界・衆生界を観ずることをいう。この三つ",
+          "context_position": 32921,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "にほかならない。この中で「もろもろの法界」というのは、仏界・法界・衆生界を観ずることをいう。この三つの法界を観ぜられるから、",
+          "context_position": 32933,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "というのは、仏界・法界・衆生界を観ずることをいう。この三つの法界を観ぜられるから、まとめて「もろもろの法界」と名づけるのであ",
+          "context_position": 32954,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "をいう。この三つの法界を観ぜられるから、まとめて「もろもろの法界」と名づけるのである。「法界を観ずる」とは、すなわち一切如来",
+          "context_position": 32975,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "られるから、まとめて「もろもろの法界」と名づけるのである。「法界を観ずる」とは、すなわち一切如来の境地〔境界〕を観ずることで",
+          "context_position": 32989,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "一切の衆生が救われる〔応度〕べき因縁であって、それもみなこの法界なのである。仏は、こうしてあまねく観じおえられ、この深い行の",
+          "context_position": 33066,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "そのまま、あるがままの真実の道〔如々の道〕であり、ただ一つの法界〔独一法界〕であるから、「一」と言うのである。  この一道の",
+          "context_position": 40239,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "あるがままの真実の道〔如々の道〕であり、ただ一つの法界〔独一法界〕であるから、「一」と言うのである。  この一道のなかに、な",
+          "context_position": 40244,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "一切は我〔自分〕と等しく同じである。こうして一切が平等である法界に入り、そのうえでこの戒を修めるからこそ、〔声聞・外道などの",
+          "context_position": 42286,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "遮那",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "毘盧遮那の略。大日如来。光明遍照。",
+      "seed_sanskrit": "Vairocana",
+      "kaimyo_chars": [],
+      "kaimyo_score": 42.5,
+      "freq_score": 12.5,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 10,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十七 沙門一行〔いちぎょう〕阿闍梨記す",
+          "context_position": 3,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "一行が筆受した〕 秘密八印品 第十四 そのとき大日如来〔毘盧遮那〕世尊は、集まった大衆〔大衆会〕をよく見わたし、金剛手〔執金",
+          "context_position": 75,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "〔旧の如く〕にする。すなわちこれである。これが大日如来〔毘盧遮那〕の大威徳生の印〔大威徳生印〕である。このなかから如来の大い",
+          "context_position": 1929,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "つの三角がこれを囲む（周と称する）〕その中央に大日如来〔毘盧遮那〕世尊を観じ、そのなかに安置すべきである。 その三角の漫荼羅",
+          "context_position": 2134,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "〕である。まさに知るべきである。この八印はみな大日如来〔毘盧遮那〕の印である。たとえば東方の印であれば、それは宝幢仏の印であ",
+          "context_position": 5779,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "いない。そこで次に、ふたたび偈〔うた〕をもって大日如来〔毘盧遮那〕に問うのである。だからこれを諷誦〔ふじゅ・うたいかける〕と",
+          "context_position": 7094,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "つのうた〕がある。これが問いである。 そのとき大日如来〔毘盧遮那〕は、かの諸仏の持明戒についての問いが発せられたのを聞いて、",
+          "context_position": 9298,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "剛〔しつこんごう・金剛手〕が、つづいてふたたび大日如来〔毘盧遮那〕に、もろもろの漫荼羅の真言の心〔しんごん・最も核心となる教",
+          "context_position": 17723,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "相応するなら、それはそのまま「あまねく一切処にゆきわたる毘盧遮那〔大日如来〕」と同じである。だからこそ仏は、経のなかでこのよ",
+          "context_position": 28970,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "どうしてか、ということなのである。 そのとき、大日如来〔毘盧遮那・びるしゃな〕世尊は、あらゆるところに遍くおられたまま、仏眼",
+          "context_position": 32658,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "大悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の大いなる慈悲。一切衆生を救う心。",
+      "seed_sanskrit": "mahā-karuṇā",
+      "kaimyo_chars": [
+        "大",
+        "悲"
+      ],
+      "kaimyo_score": 60.84,
+      "freq_score": 10.84,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 4.0,
+      "needs_human_review": false,
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "天はよく一切の人々のおおいかくす闇〔函暗〕を除く。すなわち、大悲の日〔太陽〕である。よく知るがよい、それはそのまま風天〔ふう",
+          "context_position": 26283,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "〔ばろだ〕」は水の龍〔水龍〕である。水をつかさどるがゆえに、大悲の水をそなえ、よく一切にあまねくそそぐのである。また帝釈〔た",
+          "context_position": 26433,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "みな経の文である。つまり、菩薩はこの学処にとどまるからこそ、大悲を捨てず、悪意を離れることができる。悪意とはとりもなおさず疑",
+          "context_position": 32451,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "行菩薩〕に疑惑が残らないようにしようとされる。そこで、大慈・大悲のまなざし〔眼〕でもって衆生界を観察し、金剛手に告げて言われ",
+          "context_position": 42402,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "して、迷いを出る〔出離〕すべがなくなるだろう」と観ずるなら、大悲の心でもってよくよく思いはかるべきである。「もしこの人を害せ",
+          "context_position": 44633,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "きる。むしろ自分が悪道に堕ちてでも、その人を護ろう」と思い、大悲の心でもって害を加える。これこそが方便なのである。これは、あ",
+          "context_position": 44743,
+          "matched_in": "corpus_full"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "れを離れさせる。残りのことは、さきに説いたとおりである。 〔大悲心から〕別のしかたで相手を制止する〔異の方を掣す〕。すなわち",
+          "context_position": 45269,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "如来",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "如"
+      ],
+      "kaimyo_score": 23.73,
+      "freq_score": 5.73,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "じる。その真言はこうである。〔図・第三印（如来蔵印・蓮華蔵印）の真言（悉曇）。音写「三・索」（saṃ・",
+          "context_position": 3049,
+          "matched_in": "paren_doctrinal"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "り諸仏の瑜伽〔ゆが〕である。〔図・第八印（如来迅疾持印）の真言（悉曇・種子字、佉＝khi）〕これ",
+          "context_position": 5291,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "三密",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "身密（kāya-guhya）・口密（vāk-guhya）・意密（mano-guhya）。仏の三業を行者が修して即身成仏に至る道。",
+      "seed_sanskrit": "trīṇi guhyāni",
+      "kaimyo_chars": [
+        "密"
+      ],
+      "kaimyo_score": 41.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "私もまた一切の法をそなえる。「秘密をたもつ〔持秘密〕」とは、三密〔さんみつ・身口意の三つの秘密のはたらき〕のことである。「一",
+          "context_position": 27729,
+          "matched_in": "corpus_full"
+        }
+      ]
+    },
+    {
+      "jukugo": "法性",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "法",
+        "性"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "持つもの〔仏の惣持〕である。〔図・第六印（法性印）の真言（悉曇・種子字、嚩字。勃馱陀羅尼）",
+          "context_position": 4140,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "蓮華",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "蓮",
+        "華"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "じる。その真言はこうである。〔図・第三印（如来蔵印・蓮華蔵印）の真言（悉曇）。音写「三・索」（saṃ・",
+          "context_position": 3049,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "金剛",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "金",
+        "剛"
+      ],
+      "kaimyo_score": 31.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "らう。その真言はこうである。〔図・第二印（金剛不壊印）の真言（悉曇）。音写「鑁・縛」（vaṃ・",
+          "context_position": 2766,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "心王",
+      "source_tag": "paren_doctrinal",
+      "sanskrit_origins": [],
+      "seed_definition": "",
+      "seed_sanskrit": "",
+      "kaimyo_chars": [
+        "心"
+      ],
+      "kaimyo_score": 21.61,
+      "freq_score": 3.61,
+      "doctrinal_score": 10.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "は、すなわち如来の正しき因〔正因〕である（すなわち、心の王〔心王〕である）。「法」とは、いわゆる心法〔しんぼう〕、",
+          "context_position": 11576,
+          "matched_in": "paren_doctrinal"
+        }
+      ]
+    },
+    {
+      "jukugo": "無縁慈悲",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "対象を限定せず、すべての衆生に注がれる無条件の大悲。",
+      "seed_sanskrit": "an-ārambaṇa-karuṇā",
+      "kaimyo_chars": [
+        "無",
+        "慈",
+        "悲"
+      ],
+      "kaimyo_score": 46.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 16.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "法身",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "仏の真実身。大日如来は六大法身。形相を超えた法そのもの。",
+      "seed_sanskrit": "dharmakāya",
+      "kaimyo_chars": [
+        "法"
+      ],
+      "kaimyo_score": 40.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 2.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "即身成仏",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "空海『即身成仏義』中心教義。父母所生の身のまま、現生で仏となる密教の道。",
+      "seed_sanskrit": "sa-deha-prāpti-buddhatva",
+      "kaimyo_chars": [
+        "仏"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "智剣",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "煩悩を断ずる智慧の剣。文殊菩薩・不動明王の象徴。",
+      "seed_sanskrit": "jñāna-khaḍga",
+      "kaimyo_chars": [
+        "智"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    },
+    {
+      "jukugo": "玄機",
+      "source_tag": "seed_terms",
+      "sanskrit_origins": [],
+      "seed_definition": "玄妙なる機関・機微。密教の深秘の働き。漢語起源（『荘子』『老子』由来）。",
+      "seed_sanskrit": "—",
+      "kaimyo_chars": [
+        "玄"
+      ],
+      "kaimyo_score": 38.0,
+      "freq_score": 0.0,
+      "doctrinal_score": 30.0,
+      "ichiji_score": 8.0,
+      "aesthetic_score": 0.0,
+      "needs_human_review": false,
+      "occurrence_count": 0,
+      "occurrences": []
+    }
+  ]
+}

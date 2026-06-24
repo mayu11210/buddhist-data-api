@@ -36,6 +36,7 @@
     "dainichikyo-sho-vol14",
     "dainichikyo-sho-vol15",
     "dainichikyo-sho-vol16",
+    "dainichikyo-sho-vol17",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -46,16 +47,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 40,
-  "corpora_with_data": 40,
+  "corpora_count": 41,
+  "corpora_with_data": 41,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1263,
+    "total_occurrences": 1274,
     "terms_in_multiple_corpora": 47,
-    "max_corpus_coverage": 24,
+    "max_corpus_coverage": 25,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -212,6 +213,11 @@
         "occurrences": 10,
         "present": true
       },
+      "dainichikyo-sho-vol17": {
+        "unique": 5,
+        "occurrences": 11,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 2,
         "occurrences": 29,
@@ -262,14 +268,15 @@
   "entries": [
     {
       "canonical": "安楽",
-      "total_occurrence_count": 191,
-      "covered_corpora_count": 24,
+      "total_occurrence_count": 194,
+      "covered_corpora_count": 25,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol11",
         "dainichikyo-sho-vol15",
         "dainichikyo-sho-vol16",
+        "dainichikyo-sho-vol17",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol5",
@@ -311,6 +318,7 @@
         "dainichikyo-sho-vol11": 8,
         "dainichikyo-sho-vol15": 1,
         "dainichikyo-sho-vol16": 1,
+        "dainichikyo-sho-vol17": 3,
         "hotsubodaishinron-sho-vol3": 28,
         "hotsubodaishinron-sho-vol4": 60,
         "hotsubodaishinron-sho-vol7": 19,
@@ -408,14 +416,15 @@
     },
     {
       "canonical": "須弥山",
-      "total_occurrence_count": 79,
-      "covered_corpora_count": 21,
+      "total_occurrence_count": 80,
+      "covered_corpora_count": 22,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol12",
         "dainichikyo-sho-vol14",
         "dainichikyo-sho-vol15",
+        "dainichikyo-sho-vol17",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
@@ -453,6 +462,7 @@
         "dainichikyo-sho-vol12": 2,
         "dainichikyo-sho-vol14": 1,
         "dainichikyo-sho-vol15": 7,
+        "dainichikyo-sho-vol17": 1,
         "hotsubodaishinron-sho-vol4": 2,
         "hotsubodaishinron-sho-vol2": 2
       },
@@ -463,6 +473,60 @@
           "須弥",
           "sumeru",
           "meru"
+        ]
+      }
+    },
+    {
+      "canonical": "殷",
+      "total_occurrence_count": 80,
+      "covered_corpora_count": 19,
+      "covered_corpora": [
+        "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol12",
+        "dainichikyo-sho-vol13",
+        "dainichikyo-sho-vol14",
+        "dainichikyo-sho-vol16",
+        "dainichikyo-sho-vol17",
+        "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol5",
+        "dainichikyo-sho-vol6",
+        "dainichikyo-sho-vol8",
+        "dainichikyo-sho-vol9",
+        "hizo-houyaku",
+        "hizoki",
+        "hotsubodaishinron-sho-vol2",
+        "hotsubodaishinron-sho-vol5",
+        "jujushinron",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 16,
+        "hizo-houyaku": 4,
+        "sankyo-shiki": 5,
+        "jujushinron": 5,
+        "hizoki": 2,
+        "yugikyo": 2,
+        "dainichikyo-sho-vol2": 6,
+        "dainichikyo-sho-vol5": 5,
+        "dainichikyo-sho-vol6": 1,
+        "dainichikyo-sho-vol8": 4,
+        "dainichikyo-sho-vol9": 2,
+        "dainichikyo-sho-vol11": 3,
+        "dainichikyo-sho-vol12": 1,
+        "dainichikyo-sho-vol13": 5,
+        "dainichikyo-sho-vol14": 2,
+        "dainichikyo-sho-vol16": 9,
+        "dainichikyo-sho-vol17": 3,
+        "hotsubodaishinron-sho-vol2": 2,
+        "hotsubodaishinron-sho-vol5": 3
+      },
+      "metadata": {
+        "subcategory": "country_dynasty",
+        "definition": "中国古代王朝。湯王が建国。",
+        "aliases": [
+          "商"
         ]
       }
     },
@@ -506,58 +570,6 @@
       }
     },
     {
-      "canonical": "殷",
-      "total_occurrence_count": 77,
-      "covered_corpora_count": 18,
-      "covered_corpora": [
-        "dainichikyo-sho-vol11",
-        "dainichikyo-sho-vol12",
-        "dainichikyo-sho-vol13",
-        "dainichikyo-sho-vol14",
-        "dainichikyo-sho-vol16",
-        "dainichikyo-sho-vol2",
-        "dainichikyo-sho-vol5",
-        "dainichikyo-sho-vol6",
-        "dainichikyo-sho-vol8",
-        "dainichikyo-sho-vol9",
-        "hizo-houyaku",
-        "hizoki",
-        "hotsubodaishinron-sho-vol2",
-        "hotsubodaishinron-sho-vol5",
-        "jujushinron",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 16,
-        "hizo-houyaku": 4,
-        "sankyo-shiki": 5,
-        "jujushinron": 5,
-        "hizoki": 2,
-        "yugikyo": 2,
-        "dainichikyo-sho-vol2": 6,
-        "dainichikyo-sho-vol5": 5,
-        "dainichikyo-sho-vol6": 1,
-        "dainichikyo-sho-vol8": 4,
-        "dainichikyo-sho-vol9": 2,
-        "dainichikyo-sho-vol11": 3,
-        "dainichikyo-sho-vol12": 1,
-        "dainichikyo-sho-vol13": 5,
-        "dainichikyo-sho-vol14": 2,
-        "dainichikyo-sho-vol16": 9,
-        "hotsubodaishinron-sho-vol2": 2,
-        "hotsubodaishinron-sho-vol5": 3
-      },
-      "metadata": {
-        "subcategory": "country_dynasty",
-        "definition": "中国古代王朝。湯王が建国。",
-        "aliases": [
-          "商"
-        ]
-      }
-    },
-    {
       "canonical": "日本",
       "total_occurrence_count": 67,
       "covered_corpora_count": 6,
@@ -591,11 +603,12 @@
     },
     {
       "canonical": "周",
-      "total_occurrence_count": 48,
-      "covered_corpora_count": 13,
+      "total_occurrence_count": 50,
+      "covered_corpora_count": 14,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol17",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
@@ -621,6 +634,7 @@
         "dainichikyo-sho-vol6": 3,
         "dainichikyo-sho-vol8": 8,
         "dainichikyo-sho-vol11": 1,
+        "dainichikyo-sho-vol17": 2,
         "hotsubodaishinron-sho-vol9": 1
       },
       "metadata": {
@@ -798,10 +812,11 @@
     },
     {
       "canonical": "雪山",
-      "total_occurrence_count": 18,
-      "covered_corpora_count": 6,
+      "total_occurrence_count": 20,
+      "covered_corpora_count": 7,
       "covered_corpora": [
         "dainichikyo-sho-vol12",
+        "dainichikyo-sho-vol17",
         "dainichikyo-sho-vol5",
         "hizo-houyaku",
         "hotsubodaishinron-sho-vol7",
@@ -814,6 +829,7 @@
         "jujushinron": 4,
         "dainichikyo-sho-vol5": 1,
         "dainichikyo-sho-vol12": 1,
+        "dainichikyo-sho-vol17": 2,
         "hotsubodaishinron-sho-vol7": 1
       },
       "metadata": {

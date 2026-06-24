@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "dainichikyo-sho-vol17.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-24",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 46077,
+  "summary": {
+    "unique_terms": 9,
+    "unique_canonicals": 9,
+    "total_occurrences": 9,
+    "with_diacritics_count": 8,
+    "ascii_only_count": 1,
+    "multi_form_canonicals": 0
+  },
+  "entries": [
+    {
+      "canonical": "haḥ",
+      "representative_form": "haḥ",
+      "aliases": [
+        {
+          "form": "haḥ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "荘厳印・万徳荘厳印）の真言（悉曇）。音写「憾・郝」（haṃ・haḥ）〕第五印は、前のとおり三補吒〔虚心合掌〕にして、しかしやや",
+          "context_position": 3426,
+          "sanskrit_form": "haḥ"
+        }
+      ]
+    },
+    {
+      "canonical": "haṃ",
+      "representative_form": "haṃ",
+      "aliases": [
+        {
+          "form": "haṃ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "印（仏音荘厳印・万徳荘厳印）の真言（悉曇）。音写「憾・郝」（haṃ・haḥ）〕第五印は、前のとおり三補吒〔虚心合掌〕にして、し",
+          "context_position": 3422,
+          "sanskrit_form": "haṃ"
+        }
+      ]
+    },
+    {
+      "canonical": "khi",
+      "representative_form": "khi",
+      "aliases": [
+        {
+          "form": "khi",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "ある。〔図・第八印（如来迅疾持印）の真言（悉曇・種子字、佉＝khi）〕これが種子〔種子字〕である。瑜祇儞〔ゆぎに〕、この真言の",
+          "context_position": 5312,
+          "sanskrit_form": "khi"
+        }
+      ]
+    },
+    {
+      "canonical": "raḥ",
+      "representative_form": "raḥ",
+      "aliases": [
+        {
+          "form": "raḥ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "である。〔図・第一印の真言（悉曇）。音写「藍・𡀩」（raṃ・raḥ）〕第二印は、前のとおりに印を作り、二本の風指〔人さし指〕を",
+          "context_position": 2383,
+          "sanskrit_form": "raḥ"
+        }
+      ]
+    },
+    {
+      "canonical": "raṃ",
+      "representative_form": "raṃ",
+      "aliases": [
+        {
+          "form": "raṃ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "言はこうである。〔図・第一印の真言（悉曇）。音写「藍・𡀩」（raṃ・raḥ）〕第二印は、前のとおりに印を作り、二本の風指〔人さ",
+          "context_position": 2379,
+          "sanskrit_form": "raṃ"
+        }
+      ]
+    },
+    {
+      "canonical": "saḥ",
+      "representative_form": "saḥ",
+      "aliases": [
+        {
+          "form": "saḥ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "如来蔵印・蓮華蔵印）の真言（悉曇）。音写「三・索」（saṃ・saḥ）〕第四印は、前の第三印のようにし、その二本の地指〔小指〕を",
+          "context_position": 3080,
+          "sanskrit_form": "saḥ"
+        }
+      ]
+    },
+    {
+      "canonical": "saṃ",
+      "representative_form": "saṃ",
+      "aliases": [
+        {
+          "form": "saṃ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "第三印（如来蔵印・蓮華蔵印）の真言（悉曇）。音写「三・索」（saṃ・saḥ）〕第四印は、前の第三印のようにし、その二本の地指〔",
+          "context_position": 3076,
+          "sanskrit_form": "saṃ"
+        }
+      ]
+    },
+    {
+      "canonical": "vaḥ",
+      "representative_form": "vaḥ",
+      "aliases": [
+        {
+          "form": "vaḥ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "第二印（金剛不壊印）の真言（悉曇）。音写「鑁・縛」（vaṃ・vaḥ）〕第三印は、前のとおりに作る。すなわち三補吒〔虚心合掌〕に",
+          "context_position": 2793,
+          "sanskrit_form": "vaḥ"
+        }
+      ]
+    },
+    {
+      "canonical": "vaṃ",
+      "representative_form": "vaṃ",
+      "aliases": [
+        {
+          "form": "vaṃ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol17",
+          "context": "。〔図・第二印（金剛不壊印）の真言（悉曇）。音写「鑁・縛」（vaṃ・vaḥ）〕第三印は、前のとおりに作る。すなわち三補吒〔虚心",
+          "context_position": 2789,
+          "sanskrit_form": "vaṃ"
+        }
+      ]
+    }
+  ]
+}
