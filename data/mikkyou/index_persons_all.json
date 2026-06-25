@@ -38,6 +38,7 @@
     "dainichikyo-sho-vol16",
     "dainichikyo-sho-vol17",
     "dainichikyo-sho-vol18",
+    "dainichikyo-sho-vol19",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -48,16 +49,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 42,
-  "corpora_with_data": 42,
+  "corpora_count": 43,
+  "corpora_with_data": 43,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 92,
-    "total_occurrences": 4494,
+    "total_occurrences": 4537,
     "terms_in_multiple_corpora": 64,
-    "max_corpus_coverage": 41,
+    "max_corpus_coverage": 42,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 81,
@@ -224,6 +225,11 @@
         "occurrences": 42,
         "present": true
       },
+      "dainichikyo-sho-vol19": {
+        "unique": 7,
+        "occurrences": 43,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 14,
         "occurrences": 65,
@@ -274,8 +280,8 @@
   "entries": [
     {
       "canonical": "大日如来",
-      "total_occurrence_count": 1351,
-      "covered_corpora_count": 41,
+      "total_occurrence_count": 1363,
+      "covered_corpora_count": 42,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -288,6 +294,7 @@
         "dainichikyo-sho-vol16",
         "dainichikyo-sho-vol17",
         "dainichikyo-sho-vol18",
+        "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
@@ -352,6 +359,7 @@
         "dainichikyo-sho-vol16": 32,
         "dainichikyo-sho-vol17": 28,
         "dainichikyo-sho-vol18": 13,
+        "dainichikyo-sho-vol19": 12,
         "hotsubodaishinron-sho-vol3": 20,
         "hotsubodaishinron-sho-vol4": 10,
         "hotsubodaishinron-sho-vol2": 55,
@@ -581,8 +589,8 @@
     },
     {
       "canonical": "観音",
-      "total_occurrence_count": 178,
-      "covered_corpora_count": 21,
+      "total_occurrence_count": 180,
+      "covered_corpora_count": 22,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol10",
@@ -592,6 +600,7 @@
         "dainichikyo-sho-vol15",
         "dainichikyo-sho-vol16",
         "dainichikyo-sho-vol17",
+        "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
         "dainichikyo-sho-vol7",
@@ -626,6 +635,7 @@
         "dainichikyo-sho-vol15": 5,
         "dainichikyo-sho-vol16": 15,
         "dainichikyo-sho-vol17": 3,
+        "dainichikyo-sho-vol19": 2,
         "hotsubodaishinron-sho-vol3": 5,
         "hotsubodaishinron-sho-vol2": 2
       },
@@ -643,14 +653,15 @@
     },
     {
       "canonical": "不空",
-      "total_occurrence_count": 167,
-      "covered_corpora_count": 23,
+      "total_occurrence_count": 173,
+      "covered_corpora_count": 24,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol10",
         "dainichikyo-sho-vol13",
         "dainichikyo-sho-vol18",
+        "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol6",
         "hannya-hiken",
         "hizo-houyaku",
@@ -690,6 +701,7 @@
         "dainichikyo-sho-vol10": 2,
         "dainichikyo-sho-vol13": 1,
         "dainichikyo-sho-vol18": 5,
+        "dainichikyo-sho-vol19": 6,
         "hotsubodaishinron-sho-vol3": 5,
         "hotsubodaishinron-sho-vol2": 6,
         "hotsubodaishinron-sho-vol8": 1,
@@ -919,8 +931,8 @@
     },
     {
       "canonical": "帝釈天",
-      "total_occurrence_count": 111,
-      "covered_corpora_count": 23,
+      "total_occurrence_count": 112,
+      "covered_corpora_count": 24,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol11",
@@ -928,6 +940,7 @@
         "dainichikyo-sho-vol15",
         "dainichikyo-sho-vol17",
         "dainichikyo-sho-vol18",
+        "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
@@ -969,7 +982,8 @@
         "dainichikyo-sho-vol13": 4,
         "dainichikyo-sho-vol15": 4,
         "dainichikyo-sho-vol17": 3,
-        "dainichikyo-sho-vol18": 3
+        "dainichikyo-sho-vol18": 3,
+        "dainichikyo-sho-vol19": 1
       },
       "metadata": {
         "subcategory": "buddhist_deva",
@@ -1041,6 +1055,62 @@
       }
     },
     {
+      "canonical": "梵天",
+      "total_occurrence_count": 84,
+      "covered_corpora_count": 19,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol10",
+        "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol14",
+        "dainichikyo-sho-vol15",
+        "dainichikyo-sho-vol16",
+        "dainichikyo-sho-vol17",
+        "dainichikyo-sho-vol18",
+        "dainichikyo-sho-vol19",
+        "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol6",
+        "dainichikyo-sho-vol7",
+        "hizo-houyaku",
+        "jujushinron",
+        "rishushaku",
+        "sankyo-shiki",
+        "shoryoshu_miyasaka",
+        "ujiji",
+        "yugikyo"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 8,
+        "ujiji": 1,
+        "hizo-houyaku": 8,
+        "dainichikyo-sho-vol1": 4,
+        "sankyo-shiki": 1,
+        "jujushinron": 14,
+        "yugikyo": 4,
+        "rishushaku": 3,
+        "dainichikyo-sho-vol2": 3,
+        "dainichikyo-sho-vol6": 3,
+        "dainichikyo-sho-vol7": 3,
+        "dainichikyo-sho-vol10": 2,
+        "dainichikyo-sho-vol11": 1,
+        "dainichikyo-sho-vol14": 3,
+        "dainichikyo-sho-vol15": 1,
+        "dainichikyo-sho-vol16": 1,
+        "dainichikyo-sho-vol17": 3,
+        "dainichikyo-sho-vol18": 1,
+        "dainichikyo-sho-vol19": 20
+      },
+      "metadata": {
+        "subcategory": "buddhist_deva",
+        "definition": "色界初禅天の主。",
+        "aliases": [
+          "brahmā",
+          "Brahmā"
+        ],
+        "sanskrit_canonical": "brahmā"
+      }
+    },
+    {
       "canonical": "虚空蔵",
       "total_occurrence_count": 65,
       "covered_corpora_count": 16,
@@ -1087,60 +1157,6 @@
           "虚空蔵菩薩",
           "ākāśagarbha"
         ]
-      }
-    },
-    {
-      "canonical": "梵天",
-      "total_occurrence_count": 64,
-      "covered_corpora_count": 18,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "dainichikyo-sho-vol10",
-        "dainichikyo-sho-vol11",
-        "dainichikyo-sho-vol14",
-        "dainichikyo-sho-vol15",
-        "dainichikyo-sho-vol16",
-        "dainichikyo-sho-vol17",
-        "dainichikyo-sho-vol18",
-        "dainichikyo-sho-vol2",
-        "dainichikyo-sho-vol6",
-        "dainichikyo-sho-vol7",
-        "hizo-houyaku",
-        "jujushinron",
-        "rishushaku",
-        "sankyo-shiki",
-        "shoryoshu_miyasaka",
-        "ujiji",
-        "yugikyo"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 8,
-        "ujiji": 1,
-        "hizo-houyaku": 8,
-        "dainichikyo-sho-vol1": 4,
-        "sankyo-shiki": 1,
-        "jujushinron": 14,
-        "yugikyo": 4,
-        "rishushaku": 3,
-        "dainichikyo-sho-vol2": 3,
-        "dainichikyo-sho-vol6": 3,
-        "dainichikyo-sho-vol7": 3,
-        "dainichikyo-sho-vol10": 2,
-        "dainichikyo-sho-vol11": 1,
-        "dainichikyo-sho-vol14": 3,
-        "dainichikyo-sho-vol15": 1,
-        "dainichikyo-sho-vol16": 1,
-        "dainichikyo-sho-vol17": 3,
-        "dainichikyo-sho-vol18": 1
-      },
-      "metadata": {
-        "subcategory": "buddhist_deva",
-        "definition": "色界初禅天の主。",
-        "aliases": [
-          "brahmā",
-          "Brahmā"
-        ],
-        "sanskrit_canonical": "brahmā"
       }
     },
     {
@@ -1322,8 +1338,8 @@
     },
     {
       "canonical": "善無畏",
-      "total_occurrence_count": 44,
-      "covered_corpora_count": 24,
+      "total_occurrence_count": 45,
+      "covered_corpora_count": 25,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol10",
@@ -1335,6 +1351,7 @@
         "dainichikyo-sho-vol16",
         "dainichikyo-sho-vol17",
         "dainichikyo-sho-vol18",
+        "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol6",
         "dainichikyo-sho-vol7",
@@ -1373,6 +1390,7 @@
         "dainichikyo-sho-vol16": 1,
         "dainichikyo-sho-vol17": 1,
         "dainichikyo-sho-vol18": 1,
+        "dainichikyo-sho-vol19": 1,
         "hotsubodaishinron-sho-vol3": 1,
         "hotsubodaishinron-sho-vol2": 1
       },
@@ -1527,12 +1545,13 @@
     },
     {
       "canonical": "達磨",
-      "total_occurrence_count": 31,
-      "covered_corpora_count": 9,
+      "total_occurrence_count": 32,
+      "covered_corpora_count": 10,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol10",
         "dainichikyo-sho-vol13",
+        "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol6",
         "dainichikyo-sho-vol8",
         "hizoki",
@@ -1549,7 +1568,8 @@
         "dainichikyo-sho-vol6": 1,
         "dainichikyo-sho-vol8": 4,
         "dainichikyo-sho-vol10": 2,
-        "dainichikyo-sho-vol13": 3
+        "dainichikyo-sho-vol13": 3,
+        "dainichikyo-sho-vol19": 1
       },
       "metadata": {
         "subcategory": "buddhist_master_china",

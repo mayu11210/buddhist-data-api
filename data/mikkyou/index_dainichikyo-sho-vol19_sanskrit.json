@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "dainichikyo-sho-vol19.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-25",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 52471,
+  "summary": {
+    "unique_terms": 4,
+    "unique_canonicals": 4,
+    "total_occurrences": 4,
+    "with_diacritics_count": 0,
+    "ascii_only_count": 4,
+    "multi_form_canonicals": 0
+  },
+  "entries": [
+    {
+      "canonical": "cbeta",
+      "representative_form": "CBETA",
+      "aliases": [
+        {
+          "form": "CBETA",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol19",
+          "context": "昧耶行品 第二十五〔genten 補入＝doc に品題なし・CBETA T1796_019 の head に依る〕 そのとき、執金",
+          "context_position": 37873,
+          "sanskrit_form": "CBETA"
+        }
+      ]
+    },
+    {
+      "canonical": "doc",
+      "representative_form": "doc",
+      "aliases": [
+        {
+          "form": "doc",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol19",
+          "context": "のである。 次に三三昧耶行品 第二十五〔genten 補入＝doc に品題なし・CBETA T1796_019 の head ",
+          "context_position": 37863,
+          "sanskrit_form": "doc"
+        }
+      ]
+    },
+    {
+      "canonical": "genten",
+      "representative_form": "genten",
+      "aliases": [
+        {
+          "form": "genten",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol19",
+          "context": "とば〔一切智の句〕なのである。 次に三三昧耶行品 第二十五〔genten 補入＝doc に品題なし・CBETA T1796_019 ",
+          "context_position": 37853,
+          "sanskrit_form": "genten"
+        }
+      ]
+    },
+    {
+      "canonical": "head",
+      "representative_form": "head",
+      "aliases": [
+        {
+          "form": "head",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": false,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol19",
+          "context": "入＝doc に品題なし・CBETA T1796_019 の head に依る〕 そのとき、執金剛秘密主〔金剛手・金剛薩埵〕が仏に",
+          "context_position": 37891,
+          "sanskrit_form": "head"
+        }
+      ]
+    }
+  ]
+}

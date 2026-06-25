@@ -38,6 +38,7 @@
     "dainichikyo-sho-vol16",
     "dainichikyo-sho-vol17",
     "dainichikyo-sho-vol18",
+    "dainichikyo-sho-vol19",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -48,14 +49,14 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 42,
-  "corpora_with_data": 42,
+  "corpora_count": 43,
+  "corpora_with_data": 43,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 1757,
-    "total_occurrences": 2706,
+    "unique_terms_total": 1761,
+    "total_occurrences": 2710,
     "terms_in_multiple_corpora": 151,
     "max_corpus_coverage": 4,
     "by_corpus": {
@@ -222,6 +223,11 @@
       "dainichikyo-sho-vol18": {
         "unique": 2,
         "occurrences": 6,
+        "present": true
+      },
+      "dainichikyo-sho-vol19": {
+        "unique": 4,
+        "occurrences": 4,
         "present": true
       },
       "hotsubodaishinron-sho-vol3": {
@@ -10227,6 +10233,20 @@
       }
     },
     {
+      "canonical": "cbeta",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol19"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol19": 1
+      },
+      "metadata": {
+        "has_diacritics": false
+      }
+    },
+    {
       "canonical": "cetanā",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -11263,6 +11283,20 @@
       }
     },
     {
+      "canonical": "doc",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol19"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol19": 1
+      },
+      "metadata": {
+        "has_diacritics": false
+      }
+    },
+    {
       "canonical": "draṣṭavya-saṃdarśya",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -11837,6 +11871,20 @@
       }
     },
     {
+      "canonical": "genten",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol19"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol19": 1
+      },
+      "metadata": {
+        "has_diacritics": false
+      }
+    },
+    {
       "canonical": "geya",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -12251,6 +12299,20 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      },
+      "metadata": {
+        "has_diacritics": false
+      }
+    },
+    {
+      "canonical": "head",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol19"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol19": 1
       },
       "metadata": {
         "has_diacritics": false

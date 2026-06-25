@@ -38,6 +38,7 @@
     "dainichikyo-sho-vol16",
     "dainichikyo-sho-vol17",
     "dainichikyo-sho-vol18",
+    "dainichikyo-sho-vol19",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -48,16 +49,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 42,
-  "corpora_with_data": 42,
+  "corpora_count": 43,
+  "corpora_with_data": 43,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 1209,
-    "total_occurrences": 3864,
+    "unique_terms_total": 1211,
+    "total_occurrences": 3870,
     "terms_in_multiple_corpora": 191,
-    "max_corpus_coverage": 25,
+    "max_corpus_coverage": 26,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 237,
@@ -224,6 +225,11 @@
         "occurrences": 13,
         "present": true
       },
+      "dainichikyo-sho-vol19": {
+        "unique": 6,
+        "occurrences": 6,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 51,
         "occurrences": 106,
@@ -321,8 +327,8 @@
     },
     {
       "term": "法華経",
-      "total_occurrence_count": 153,
-      "covered_corpora_count": 25,
+      "total_occurrence_count": 154,
+      "covered_corpora_count": 26,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -330,6 +336,7 @@
         "dainichikyo-sho-vol15",
         "dainichikyo-sho-vol16",
         "dainichikyo-sho-vol18",
+        "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
         "hannya-hiken",
@@ -369,6 +376,7 @@
         "dainichikyo-sho-vol15": 1,
         "dainichikyo-sho-vol16": 1,
         "dainichikyo-sho-vol18": 1,
+        "dainichikyo-sho-vol19": 1,
         "hotsubodaishinron-sho-vol3": 1,
         "hotsubodaishinron-sho-vol4": 1,
         "hotsubodaishinron-sho-vol2": 2,
@@ -700,11 +708,12 @@
     },
     {
       "term": "中論",
-      "total_occurrence_count": 49,
-      "covered_corpora_count": 10,
+      "total_occurrence_count": 50,
+      "covered_corpora_count": 11,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol11",
+        "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol7",
         "hizo-houyaku",
@@ -724,7 +733,8 @@
         "hotsubodaishinron-sho-vol1": 1,
         "dainichikyo-sho-vol3": 1,
         "dainichikyo-sho-vol7": 13,
-        "dainichikyo-sho-vol11": 1
+        "dainichikyo-sho-vol11": 1,
+        "dainichikyo-sho-vol19": 1
       }
     },
     {
@@ -1044,6 +1054,31 @@
       }
     },
     {
+      "term": "大般若経",
+      "total_occurrence_count": 19,
+      "covered_corpora_count": 8,
+      "covered_corpora": [
+        "dainichikyo-sho-vol1",
+        "dainichikyo-sho-vol13",
+        "dainichikyo-sho-vol19",
+        "hannya-hiken",
+        "hotsubodaishinron-sho-vol2",
+        "jujushinron",
+        "shoryoshu_miyasaka",
+        "sokushin-jobutsu"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 7,
+        "sokushin-jobutsu": 1,
+        "hannya-hiken": 4,
+        "dainichikyo-sho-vol1": 2,
+        "jujushinron": 2,
+        "dainichikyo-sho-vol13": 1,
+        "dainichikyo-sho-vol19": 1,
+        "hotsubodaishinron-sho-vol2": 1
+      }
+    },
+    {
       "term": "付法伝",
       "total_occurrence_count": 19,
       "covered_corpora_count": 3,
@@ -1069,29 +1104,6 @@
       "by_corpus": {
         "shoryoshu_miyasaka": 18,
         "sankyo-shiki": 1
-      }
-    },
-    {
-      "term": "大般若経",
-      "total_occurrence_count": 18,
-      "covered_corpora_count": 7,
-      "covered_corpora": [
-        "dainichikyo-sho-vol1",
-        "dainichikyo-sho-vol13",
-        "hannya-hiken",
-        "hotsubodaishinron-sho-vol2",
-        "jujushinron",
-        "shoryoshu_miyasaka",
-        "sokushin-jobutsu"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 7,
-        "sokushin-jobutsu": 1,
-        "hannya-hiken": 4,
-        "dainichikyo-sho-vol1": 2,
-        "jujushinron": 2,
-        "dainichikyo-sho-vol13": 1,
-        "hotsubodaishinron-sho-vol2": 1
       }
     },
     {
@@ -1309,26 +1321,12 @@
       }
     },
     {
-      "term": "十地経",
-      "total_occurrence_count": 12,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "hotsubodaishinron-sho-vol1",
-        "hotsubodaishinron-sho-vol9",
-        "jujushinron"
-      ],
-      "by_corpus": {
-        "jujushinron": 1,
-        "hotsubodaishinron-sho-vol1": 1,
-        "hotsubodaishinron-sho-vol9": 10
-      }
-    },
-    {
       "term": "般若経",
-      "total_occurrence_count": 11,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 12,
+      "covered_corpora_count": 9,
       "covered_corpora": [
         "dainichikyo-sho-vol15",
+        "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol5",
         "hannya-hiken",
         "hizo-houyaku",
@@ -1345,7 +1343,23 @@
         "jujushinron": 2,
         "dainichikyo-sho-vol5": 1,
         "dainichikyo-sho-vol15": 1,
+        "dainichikyo-sho-vol19": 1,
         "hotsubodaishinron-sho-vol4": 1
+      }
+    },
+    {
+      "term": "十地経",
+      "total_occurrence_count": 12,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "hotsubodaishinron-sho-vol1",
+        "hotsubodaishinron-sho-vol9",
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 1,
+        "hotsubodaishinron-sho-vol1": 1,
+        "hotsubodaishinron-sho-vol9": 10
       }
     },
     {
@@ -10170,6 +10184,17 @@
       }
     },
     {
+      "term": "月灯三昧経〔がっとうざんまいきょう〕",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol19"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol19": 1
+      }
+    },
+    {
       "term": "有何相",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -12840,6 +12865,17 @@
       ],
       "by_corpus": {
         "sokushin-jobutsu": 1
+      }
+    },
+    {
+      "term": "菩薩蔵経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol19"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol19": 1
       }
     },
     {

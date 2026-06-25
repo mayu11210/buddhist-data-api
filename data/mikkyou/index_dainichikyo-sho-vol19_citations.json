@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "dainichikyo-sho-vol19.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-25",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 52471,
+  "summary": {
+    "unique_terms": 6,
+    "total_occurrences": 6
+  },
+  "entries": [
+    {
+      "term": "中論",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol19",
+          "context": "他から生じるのでもなく、自他ともからでもなく、無因でもない。『中論』などに説くとおりである。ところで難問があって言う。いまここで",
+          "context_position": 7256,
+          "raw_form": "中論"
+        }
+      ]
+    },
+    {
+      "term": "大般若経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol19",
+          "context": "りと示すことはできない。法相家〔法相宗〕が十六種の空を説き、『大般若経』が十八種の空などを説くのは、皆この道理を明かすためである。も",
+          "context_position": 19636,
+          "raw_form": "大般若経"
+        }
+      ]
+    },
+    {
+      "term": "月灯三昧経〔がっとうざんまいきょう〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol19",
+          "context": "が白いと見るようなものである。染め着く心を生じるというのは、『月灯三昧経〔がっとうざんまいきょう〕』に説くとおりである。女人が好んで自ら身を飾り、鏡に映して自ら",
+          "context_position": 11587,
+          "raw_form": "月灯三昧経〔がっとうざんまいきょう〕"
+        }
+      ]
+    },
+    {
+      "term": "法華経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol19",
+          "context": "に広く流布する経のように〔誰にでも〕というのではない。これは『法華経』の偈の中でも、人を広く選び分けることを説いている。それを引い",
+          "context_position": 2617,
+          "raw_form": "法華経"
+        }
+      ]
+    },
+    {
+      "term": "般若経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol19",
+          "context": "に施すところの物などがあれば、それは道と相応しないのである。『般若経』に説くとおりだ）。「あるいは、いっさいの法は界が得られない〔",
+          "context_position": 24191,
+          "raw_form": "般若経"
+        }
+      ]
+    },
+    {
+      "term": "菩薩蔵経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol19",
+          "context": "せ、一切の法を知り、知らないことが何ひとつなくなるのである。『菩薩蔵経』のなかに、十力がきわめて広大であると説かれているとおりである",
+          "context_position": 47088,
+          "raw_form": "菩薩蔵経"
+        }
+      ]
+    }
+  ]
+}
