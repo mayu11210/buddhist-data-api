@@ -1,0 +1,530 @@
+{
+  "schema_version": "1.3",
+  "category": "人名索引",
+  "source_corpus": "dainichikyo-sho-vol18.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-25",
+  "extraction_strategy": "人手キュレートシード辞書（仏教祖師・諸尊・諸天・諸子百家・神話人物・天皇・貴族）。長表記優先・1 文字人名は前後非漢字境界条件で誤検知抑止。",
+  "subcategory_taxonomy": [
+    "buddhist_buddha_bodhisattva",
+    "buddhist_deva",
+    "buddhist_master_china",
+    "buddhist_master_india",
+    "buddhist_master_japan",
+    "chinese_classical",
+    "chinese_legend",
+    "japanese_aristocrat",
+    "japanese_emperor"
+  ],
+  "seed_dictionary_size": 95,
+  "gendaigoyaku_length": 49244,
+  "summary": {
+    "unique_terms": 10,
+    "unique_persons": 10,
+    "total_occurrences": 42,
+    "by_subcategory": {
+      "buddhist_buddha_bodhisattva": {
+        "unique": 2,
+        "occurrences": 22
+      },
+      "buddhist_deva": {
+        "unique": 4,
+        "occurrences": 8
+      },
+      "buddhist_master_china": {
+        "unique": 2,
+        "occurrences": 6
+      },
+      "buddhist_master_india": {
+        "unique": 1,
+        "occurrences": 5
+      },
+      "buddhist_master_japan": {
+        "unique": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  "entries": [
+    {
+      "canonical": "大日如来",
+      "aliases": [
+        "大日",
+        "毘盧遮那",
+        "盧遮那",
+        "mahāvairocana",
+        "Mahāvairocana",
+        "vairocana",
+        "Vairocana"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "密教の本尊。法身仏。",
+      "sanskrit_canonical": "vairocana",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "大日如来",
+          "count": 6
+        },
+        {
+          "form": "毘盧遮那",
+          "count": 6
+        },
+        {
+          "form": "大日",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 13,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "自ら証知す〕ばかりなのである。 百字生品 第十九 そのとき、大日如来〔毘盧遮那・びるしゃな〕世尊は、集まったもろもろの大衆〔大集",
+          "context_position": 35776,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "法に自在な牟尼〔一切法自在牟尼〕である」というのは、これこそ大日如来〔毘盧遮那〕の別の名なのである。この真言の、智慧と方便の光〔",
+          "context_position": 39786,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "かなわれ〔清浄我〕を得る。ここでいう「清浄我」とは、すなわち大日如来〔毘盧遮那〕にほかならない。 さて、この字輪〔じりん・梵字を",
+          "context_position": 40485,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "がもたらす果〔果報〕を説く。 百字果相応品 第二十 そのとき大日如来〔毘盧遮那・遮那〕は、金剛手秘密主〔執金剛・金剛薩埵〕に告げ",
+          "context_position": 41118,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "る。仏が仏のはたらきをなす、というのは、すなわちこの釈迦は、大日如来〔毘盧遮那〕の字の輪から出て、しかもそれと二つもなく別もなく",
+          "context_position": 43590,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "心を学ぶことによる、ということである〕。この百門は、ただ私〔大日如来〕がみずから説くだけではない。いっさいの仏もまた、同じくこれ",
+          "context_position": 49115,
+          "matched_form": "大日如来"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "大毘盧遮那成仏神変加持経疏 巻第十八 沙門一行〔いちぎょう〕阿闍梨記す",
+          "context_position": 1,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "〕ばかりなのである。 百字生品 第十九 そのとき、大日如来〔毘盧遮那・びるしゃな〕世尊は、集まったもろもろの大衆〔大集会〕をご覧",
+          "context_position": 35781,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "牟尼〔一切法自在牟尼〕である」というのは、これこそ大日如来〔毘盧遮那〕の別の名なのである。この真言の、智慧と方便の光〔慧方便の光",
+          "context_position": 39791,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "清浄我〕を得る。ここでいう「清浄我」とは、すなわち大日如来〔毘盧遮那〕にほかならない。 さて、この字輪〔じりん・梵字を円く配する",
+          "context_position": 40490,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "果〔果報〕を説く。 百字果相応品 第二十 そのとき大日如来〔毘盧遮那・遮那〕は、金剛手秘密主〔執金剛・金剛薩埵〕に告げてこう言わ",
+          "context_position": 41123,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "のはたらきをなす、というのは、すなわちこの釈迦は、大日如来〔毘盧遮那〕の字の輪から出て、しかもそれと二つもなく別もなく〔無二無別",
+          "context_position": 43595,
+          "matched_form": "毘盧遮那"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "〔慧方便の光〕は、よく一切の無智の闇を破る。それはちょうど、大日〔太陽〕が昇るとき、もろもろの暗がり〔衆冥〕がおのずと消えて",
+          "context_position": 39849,
+          "matched_form": "大日"
+        }
+      ]
+    },
+    {
+      "canonical": "普賢",
+      "aliases": [
+        "samantabhadra",
+        "Samantabhadra"
+      ],
+      "subcategory": "buddhist_buddha_bodhisattva",
+      "definition": "行を司る菩薩。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "普賢",
+          "count": 9
+        }
+      ],
+      "occurrence_count": 9,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "理の世界においてさとりを成就すること〔法界成菩提〕について、普賢菩薩〔ふげんぼさつ・仏の行願をつかさどる菩薩〕の行願〔修行と",
+          "context_position": 45193,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "、ねんごろにすすめ起こし〔慇懃に勧発し〕、さとりを成就させ、普賢菩薩の行願を満ち足らせる〔普賢は、すなわち如来の功徳である〕",
+          "context_position": 45762,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "に勧発し〕、さとりを成就させ、普賢菩薩の行願を満ち足らせる〔普賢は、すなわち如来の功徳である〕。あらためていえば、さとりはす",
+          "context_position": 45777,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "るさとりの行〔大菩提行〕にほかならない。 〔疏の釈である〕「普賢菩薩の行願を出生する」というのは、加持〔仏の力を加えること〕",
+          "context_position": 45888,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "もしこのように行いを発する〔発行する〕ならば、それがすなわち普賢の行〔普賢行〕である。このように願いを起こす〔起願する〕なら",
+          "context_position": 45981,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "うに行いを発する〔発行する〕ならば、それがすなわち普賢の行〔普賢行〕である。このように願いを起こす〔起願する〕ならば、それが",
+          "context_position": 45986,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "る。このように願いを起こす〔起願する〕ならば、それがすなわち普賢の願〔普賢願〕である。菩薩は、このことのために、これによって",
+          "context_position": 46022,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "うに願いを起こす〔起願する〕ならば、それがすなわち普賢の願〔普賢願〕である。菩薩は、このことのために、これによってはじめて発",
+          "context_position": 46027,
+          "matched_form": "普賢"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "さいの功徳が生じるのである。胎とは、つまりこれを根本として、普賢の行や如来の行によって、如来の性の海の胎蔵〔如来性海の胎蔵〕",
+          "context_position": 46746,
+          "matched_form": "普賢"
+        }
+      ]
+    },
+    {
+      "canonical": "不空",
+      "aliases": [
+        "不空三蔵",
+        "大弁正三蔵",
+        "amoghavajra",
+        "Amoghavajra"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "密教付法第六祖。唐代の訳経僧。恵果の師。",
+      "sanskrit_canonical": "amoghavajra",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "不空",
+          "count": 5
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "知るがよい。これこそが、むなしく終わることのない教えの真言〔不空教の真言・ふくうきょう〕である。「不空」とは、一切の衆生が見",
+          "context_position": 36719,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "ことのない教えの真言〔不空教の真言・ふくうきょう〕である。「不空」とは、一切の衆生が見るにせよ聞くにせよ触れるにせよ知るにせ",
+          "context_position": 36738,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "な必ずこの上ない悟り〔無上菩提〕を得ると定まる、それゆえに「不空」と名づけるのである。さらに言えば、衆生のよき願い〔善願〕に",
+          "context_position": 36830,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "げて、一切の願いを満ち足らせるようなものである。だからこそ「不空」と名づけるのである。 「一切真言自在」とは、ちょうど如来が",
+          "context_position": 36983,
+          "matched_form": "不空"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "の境〕を示す。釈迦牟尼とは、すなわちこの空しからざる見の身〔不空見の身・見る者を必ず利益する身〕である。あまねく世間に入って",
+          "context_position": 43482,
+          "matched_form": "不空"
+        }
+      ]
+    },
+    {
+      "canonical": "釈迦",
+      "aliases": [
+        "釈尊",
+        "釈迦牟尼",
+        "能仁",
+        "śākyamuni",
+        "Śākyamuni"
+      ],
+      "subcategory": "buddhist_master_india",
+      "definition": "仏教の開祖。Śākyamuni。釈迦族の聖者。",
+      "sanskrit_canonical": "śākyamuni",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "釈迦牟尼",
+          "count": 4
+        },
+        {
+          "form": "釈迦",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "応じてそのすがたを表し示させる門である。それはちょうど、いま釈迦牟尼世尊が、ほかと異なるすぐれたありさま〔殊異〕で、虚空のすみず",
+          "context_position": 42175,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "類法界門〕を表し示し、歓喜を起こさせること、それもまた、いま釈迦牟尼世尊が尽きることのない虚空界〔無尽虚空界〕に流れわたり、もろ",
+          "context_position": 42721,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "〕をもって、あまねくいっさいの智慧の境地〔智慧の境〕を示す。釈迦牟尼とは、すなわちこの空しからざる見の身〔不空見の身・見る者を必",
+          "context_position": 43459,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "たらきをなす。だから、ここに示されているのは、すなわち牟尼〔釈迦牟尼〕の身である。仏が仏のはたらきをなす、というのは、すなわちこ",
+          "context_position": 43551,
+          "matched_form": "釈迦牟尼"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "の身である。仏が仏のはたらきをなす、というのは、すなわちこの釈迦は、大日如来〔毘盧遮那〕の字の輪から出て、しかもそれと二つも",
+          "context_position": 43586,
+          "matched_form": "釈迦"
+        }
+      ]
+    },
+    {
+      "canonical": "夜叉",
+      "aliases": [
+        "yakṣa"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "八部衆の一。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "夜叉",
+          "count": 3
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "絶〕しまった。そのとき、女の親族たちは思った。「これはきっと夜叉〔やしゃ・鬼神〕だ。姿かたちが人と違う。わが娘を見るやいなや",
+          "context_position": 4162,
+          "matched_form": "夜叉"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "、ある女人がそれを見て気を失った。〔さきに女の親族がこの者を夜叉ではないかと疑った話と同じく、〕その女を守るために、また菩提",
+          "context_position": 4891,
+          "matched_form": "夜叉"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "幼子が五百人を超えると、城中の者は口々に告げ合った。「きっと夜叉〔やしゃ〕の国にでも入り込まれたのだ。もろもろの幼子は、よく",
+          "context_position": 21096,
+          "matched_form": "夜叉"
+        }
+      ]
+    },
+    {
+      "canonical": "帝釈天",
+      "aliases": [
+        "帝釈",
+        "śakra",
+        "indra"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "忉利天の主。仏法守護神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "帝釈",
+          "count": 2
+        },
+        {
+          "form": "帝釈天",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "意〕を知って、それ以上は言わなかった。  帝釈〔たいしゃく・帝釈天〕はこれを知り、こう思った。「この王の行いは、まさに菩薩道だ",
+          "context_position": 16440,
+          "matched_form": "帝釈天"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "王の正しい思い〔正意〕を知って、それ以上は言わなかった。  帝釈〔たいしゃく・帝釈天〕はこれを知り、こう思った。「この王の行",
+          "context_position": 16431,
+          "matched_form": "帝釈"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "ずか五つの城しかないからである。これは小国であった。長手王は帝釈の言葉を聞いて、こう思った。「わたしの聞くところでは、女の思",
+          "context_position": 16615,
+          "matched_form": "帝釈"
+        }
+      ]
+    },
+    {
+      "canonical": "善無畏",
+      "aliases": [
+        "śubhakarasiṃha",
+        "Śubhakarasiṃha"
+      ],
+      "subcategory": "buddhist_master_china",
+      "definition": "中国密教の主要伝来者。胎蔵界の伝持。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "善無畏",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "仏神変加持経疏 巻第十八 沙門一行〔いちぎょう〕阿闍梨記す〔善無畏三蔵の口述を一行が筆受した〕 受方便学処品 第十八之余〔巻第",
+          "context_position": 36,
+          "matched_form": "善無畏"
+        }
+      ]
+    },
+    {
+      "canonical": "梵天",
+      "aliases": [
+        "brahmā",
+        "Brahmā"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "色界初禅天の主。",
+      "sanskrit_canonical": "brahmā",
+      "sanskrit_canonical_in_index": false,
+      "matched_forms": [
+        {
+          "form": "梵天",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "典の趣旨を一つひとつたずね究めてみたが、行きつくところはただ梵天〔ぼんてん〕に生まれることばかりであった。そこで父に申し上げ",
+          "context_position": 27084,
+          "matched_form": "梵天"
+        }
+      ]
+    },
+    {
+      "canonical": "空海",
+      "aliases": [
+        "弘法大師",
+        "遍照金剛",
+        "大遍照金剛"
+      ],
+      "subcategory": "buddhist_master_japan",
+      "definition": "真言宗開祖。性霊集の主たる撰者。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "空海",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "」というのは、つまり人の及びえない所だ、ということである。〔空海が〕私見を述べる。これはどういうことかといえば、その横の広が",
+          "context_position": 43136,
+          "matched_form": "空海"
+        }
+      ]
+    },
+    {
+      "canonical": "緊那羅",
+      "aliases": [
+        "kiṃnara",
+        "kinnara"
+      ],
+      "subcategory": "buddhist_deva",
+      "definition": "八部衆。歌神。",
+      "sanskrit_canonical": null,
+      "sanskrit_canonical_in_index": null,
+      "matched_forms": [
+        {
+          "form": "緊那羅",
+          "count": 1
+        }
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "解せよ。  経に説かれているとおりである。──盗賊の一群が、緊那羅〔きんなら・天の楽神〕の女を捕らえて菩薩に施した。菩薩はこれ",
+          "context_position": 4768,
+          "matched_form": "緊那羅"
+        }
+      ]
+    }
+  ]
+}

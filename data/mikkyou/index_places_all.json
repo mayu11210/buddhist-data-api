@@ -3,7 +3,7 @@
   "category": "places",
   "category_description": "地名（寺院・山・国・王朝・聖地・宇宙論界）",
   "aggregate_type": "cross_corpus",
-  "generated_at": "2026-06-24",
+  "generated_at": "2026-06-25",
   "source_corpora": [
     "shoryoshu_miyasaka",
     "nikyo-ron",
@@ -37,6 +37,7 @@
     "dainichikyo-sho-vol15",
     "dainichikyo-sho-vol16",
     "dainichikyo-sho-vol17",
+    "dainichikyo-sho-vol18",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -47,16 +48,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 41,
-  "corpora_with_data": 41,
+  "corpora_count": 42,
+  "corpora_with_data": 42,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1274,
+    "total_occurrences": 1275,
     "terms_in_multiple_corpora": 47,
-    "max_corpus_coverage": 25,
+    "max_corpus_coverage": 26,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 70,
@@ -218,6 +219,11 @@
         "occurrences": 11,
         "present": true
       },
+      "dainichikyo-sho-vol18": {
+        "unique": 1,
+        "occurrences": 1,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 2,
         "occurrences": 29,
@@ -268,8 +274,8 @@
   "entries": [
     {
       "canonical": "安楽",
-      "total_occurrence_count": 194,
-      "covered_corpora_count": 25,
+      "total_occurrence_count": 195,
+      "covered_corpora_count": 26,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -277,6 +283,7 @@
         "dainichikyo-sho-vol15",
         "dainichikyo-sho-vol16",
         "dainichikyo-sho-vol17",
+        "dainichikyo-sho-vol18",
         "dainichikyo-sho-vol2",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol5",
@@ -319,6 +326,7 @@
         "dainichikyo-sho-vol15": 1,
         "dainichikyo-sho-vol16": 1,
         "dainichikyo-sho-vol17": 3,
+        "dainichikyo-sho-vol18": 1,
         "hotsubodaishinron-sho-vol3": 28,
         "hotsubodaishinron-sho-vol4": 60,
         "hotsubodaishinron-sho-vol7": 19,

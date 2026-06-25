@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "dainichikyo-sho-vol18.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-25",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 49244,
+  "summary": {
+    "unique_terms": 2,
+    "unique_canonicals": 2,
+    "total_occurrences": 6,
+    "with_diacritics_count": 2,
+    "ascii_only_count": 0,
+    "multi_form_canonicals": 0
+  },
+  "entries": [
+    {
+      "canonical": "kaṃ",
+      "representative_form": "kaṃ",
+      "aliases": [
+        {
+          "form": "kaṃ",
+          "count": 4
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "十五字から始め、次に〔悉曇 kā〕など二十五字、次に〔悉曇 kaṃ〕など二十五字、次に〔悉曇 kaṃ〕など二十五字である〔迦字",
+          "context_position": 40689,
+          "sanskrit_form": "kaṃ"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "など二十五字、次に〔悉曇 kaṃ〕など二十五字、次に〔悉曇 kaṃ〕など二十五字である〔迦字を ka・kā・kaṃ・kaḥ と",
+          "context_position": 40706,
+          "sanskrit_form": "kaṃ"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "次に〔悉曇 kaṃ〕など二十五字である〔迦字を ka・kā・kaṃ・kaḥ と四つに転じ、二十五字×四＝百字とする〕。このうち",
+          "context_position": 40730,
+          "sanskrit_form": "kaṃ"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "字を第一の輪とし、〔悉曇 kā〕などを第二の輪とし、〔悉曇 kaṃ〕などを第三の輪とし、〔悉曇 kaḥ〕などを第四の輪とするこ",
+          "context_position": 40961,
+          "sanskrit_form": "kaṃ"
+        }
+      ]
+    },
+    {
+      "canonical": "kaḥ",
+      "representative_form": "kaḥ",
+      "aliases": [
+        {
+          "form": "kaḥ",
+          "count": 2
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "曇 kaṃ〕など二十五字である〔迦字を ka・kā・kaṃ・kaḥ と四つに転じ、二十五字×四＝百字とする〕。このうち、俄〔ぎ",
+          "context_position": 40734,
+          "sanskrit_form": "kaḥ"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "を第二の輪とし、〔悉曇 kaṃ〕などを第三の輪とし、〔悉曇 kaḥ〕などを第四の輪とすることもできる〔なおよく問え〕。意味はま",
+          "context_position": 40979,
+          "sanskrit_form": "kaḥ"
+        }
+      ]
+    }
+  ]
+}

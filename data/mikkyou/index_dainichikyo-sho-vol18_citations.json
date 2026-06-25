@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "dainichikyo-sho-vol18.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-25",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 49244,
+  "summary": {
+    "unique_terms": 11,
+    "total_occurrences": 13
+  },
+  "entries": [
+    {
+      "term": "智度論〔ちどろん〕",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "さわしくない時〔非時〕などに交われば、それを邪行と名づける。『智度論〔ちどろん〕』の尸波羅蜜〔しはらみつ・持戒の完成〕のところに、くわしく説か",
+          "context_position": 3085,
+          "raw_form": "智度論〔ちどろん〕"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "を料理にして差し出した、うんぬん。『賢愚経〔けんぐきょう〕』『智度論〔ちどろん〕』に説かれているとおりである。  そしてついには、毎日のように",
+          "context_position": 21003,
+          "raw_form": "智度論〔ちどろん〕"
+        }
+      ]
+    },
+    {
+      "term": "華厳経",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "転から出させるから、「流転を離れる」と名づけるのである。  『華厳経』に善見女人〔ぜんけんにょにん〕を説くもの、それがまさにこれで",
+          "context_position": 13443,
+          "raw_form": "華厳経"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "とば〔語言〕をもってそのすがた〔相〕をかざることをいう。また『華厳経』を調べてみると、心から私のたえなる音〔妙音〕が生じる、とある",
+          "context_position": 44301,
+          "raw_form": "華厳経"
+        }
+      ]
+    },
+    {
+      "term": "僧伽吒経〔そうぎゃたきょう〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "あって、二乗や世間の人と共通するものではないのである。 また『僧伽吒経〔そうぎゃたきょう〕』に説かれている。──ある一人の男がいた。その妻はあでやかで美",
+          "context_position": 7540,
+          "raw_form": "僧伽吒経〔そうぎゃたきょう〕"
+        }
+      ]
+    },
+    {
+      "term": "大智度論",
+      "aliases": [
+        "智度論"
+      ],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "も捕らえられて、悲しんで泣き叫ぶありさまであった、うんぬん。『智度論』に説かれているとおりである。  〔弟王は〕まだ梵行者に報いて",
+          "context_position": 22177,
+          "raw_form": "智度論"
+        }
+      ]
+    },
+    {
+      "term": "宝雲経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "ち四摂の法をもって仏道に引き入れるのである。四摂については、『宝雲経』や菩薩蔵などの中に、つぶさに説かれているとおりである。  も",
+          "context_position": 33117,
+          "raw_form": "宝雲経"
+        }
+      ]
+    },
+    {
+      "term": "本生〔ほんじょう〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "。まして他のことについては、いうまでもない。このようなことは『本生〔ほんじょう〕』などの経の中に、くわしく説かれているはずである。 第十は、よ",
+          "context_position": 22899,
+          "raw_form": "本生〔ほんじょう〕"
+        }
+      ]
+    },
+    {
+      "term": "本生経〔ほんじょうきょう〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "く交わり、二度と怨敵の憂いがなくなった。  このようなことは『本生経〔ほんじょうきょう〕』にくわしく説かれているはずである。これがすなわち不貪の因縁で",
+          "context_position": 18432,
+          "raw_form": "本生経〔ほんじょうきょう〕"
+        }
+      ]
+    },
+    {
+      "term": "法華経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "言音〕をもって、よくいっさいの仏のはたらきを生じる。たとえば『法華経』の六根浄の品〔六根浄品〕にあるように、なおも一つのたえなる音",
+          "context_position": 44861,
+          "raw_form": "法華経"
+        }
+      ]
+    },
+    {
+      "term": "涅槃経〔ねはんぎょう〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "のちにその〔誤った〕よりどころ〔権〕を奪うようなものである。『涅槃経〔ねはんぎょう〕』などに説かれているとおりである。 また、菩薩蔵の本生〔ほんじ",
+          "context_position": 25997,
+          "raw_form": "涅槃経〔ねはんぎょう〕"
+        }
+      ]
+    },
+    {
+      "term": "賢愚経〔けんぐきょう〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "のに行き会った。そこでそれを料理にして差し出した、うんぬん。『賢愚経〔けんぐきょう〕』『智度論〔ちどろん〕』に説かれているとおりである。  そして",
+          "context_position": 20990,
+          "raw_form": "賢愚経〔けんぐきょう〕"
+        }
+      ]
+    },
+    {
+      "term": "長阿含〔じょうあごん〕",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol18",
+          "context": "心〕で、二度と執着を起こさない、これが持戒のすがたである。 『長阿含〔じょうあごん〕』の中に説かれているとおりである。──過去、倶流孫仏〔くるそん",
+          "context_position": 16021,
+          "raw_form": "長阿含〔じょうあごん〕"
+        }
+      ]
+    }
+  ]
+}
