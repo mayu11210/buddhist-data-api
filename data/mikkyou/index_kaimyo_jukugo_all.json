@@ -39,6 +39,7 @@
     "dainichikyo-sho-vol17",
     "dainichikyo-sho-vol18",
     "dainichikyo-sho-vol19",
+    "dainichikyo-sho-vol20",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -49,16 +50,16 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 43,
-  "corpora_with_data": 43,
+  "corpora_count": 44,
+  "corpora_with_data": 44,
   "missing_corpora": [],
   "term_key": "jukugo",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 116,
-    "total_occurrences": 8855,
+    "total_occurrences": 8981,
     "terms_in_multiple_corpora": 78,
-    "max_corpus_coverage": 43,
+    "max_corpus_coverage": 44,
     "by_corpus": {
       "shoryoshu_miyasaka": {
         "unique": 111,
@@ -230,6 +231,11 @@
         "occurrences": 183,
         "present": true
       },
+      "dainichikyo-sho-vol20": {
+        "unique": 11,
+        "occurrences": 126,
+        "present": true
+      },
       "hotsubodaishinron-sho-vol3": {
         "unique": 11,
         "occurrences": 183,
@@ -280,8 +286,8 @@
   "entries": [
     {
       "jukugo": "真言",
-      "total_occurrence_count": 2206,
-      "covered_corpora_count": 43,
+      "total_occurrence_count": 2264,
+      "covered_corpora_count": 44,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -296,6 +302,7 @@
         "dainichikyo-sho-vol18",
         "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol20",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
@@ -362,6 +369,7 @@
         "dainichikyo-sho-vol17": 75,
         "dainichikyo-sho-vol18": 61,
         "dainichikyo-sho-vol19": 132,
+        "dainichikyo-sho-vol20": 58,
         "hotsubodaishinron-sho-vol3": 58,
         "hotsubodaishinron-sho-vol4": 29,
         "hotsubodaishinron-sho-vol2": 22,
@@ -384,8 +392,8 @@
     },
     {
       "jukugo": "法界",
-      "total_occurrence_count": 953,
-      "covered_corpora_count": 39,
+      "total_occurrence_count": 960,
+      "covered_corpora_count": 40,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -400,6 +408,7 @@
         "dainichikyo-sho-vol18",
         "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol20",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
@@ -460,6 +469,7 @@
         "dainichikyo-sho-vol17": 15,
         "dainichikyo-sho-vol18": 10,
         "dainichikyo-sho-vol19": 8,
+        "dainichikyo-sho-vol20": 7,
         "hotsubodaishinron-sho-vol3": 10,
         "hotsubodaishinron-sho-vol4": 3,
         "hotsubodaishinron-sho-vol2": 4,
@@ -479,8 +489,8 @@
     },
     {
       "jukugo": "大日",
-      "total_occurrence_count": 902,
-      "covered_corpora_count": 39,
+      "total_occurrence_count": 918,
+      "covered_corpora_count": 40,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -494,6 +504,7 @@
         "dainichikyo-sho-vol18",
         "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol20",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
@@ -553,6 +564,7 @@
         "dainichikyo-sho-vol17": 18,
         "dainichikyo-sho-vol18": 7,
         "dainichikyo-sho-vol19": 4,
+        "dainichikyo-sho-vol20": 16,
         "hotsubodaishinron-sho-vol3": 17,
         "hotsubodaishinron-sho-vol4": 7,
         "hotsubodaishinron-sho-vol2": 30,
@@ -574,8 +586,8 @@
     },
     {
       "jukugo": "大悲",
-      "total_occurrence_count": 567,
-      "covered_corpora_count": 36,
+      "total_occurrence_count": 591,
+      "covered_corpora_count": 37,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol10",
@@ -589,6 +601,7 @@
         "dainichikyo-sho-vol18",
         "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol20",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
@@ -643,6 +656,7 @@
         "dainichikyo-sho-vol17": 7,
         "dainichikyo-sho-vol18": 6,
         "dainichikyo-sho-vol19": 18,
+        "dainichikyo-sho-vol20": 24,
         "hotsubodaishinron-sho-vol3": 47,
         "hotsubodaishinron-sho-vol4": 35,
         "hotsubodaishinron-sho-vol2": 7,
@@ -664,8 +678,8 @@
     },
     {
       "jukugo": "法身",
-      "total_occurrence_count": 465,
-      "covered_corpora_count": 32,
+      "total_occurrence_count": 474,
+      "covered_corpora_count": 33,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol10",
@@ -676,6 +690,7 @@
         "dainichikyo-sho-vol16",
         "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol20",
         "dainichikyo-sho-vol5",
         "dainichikyo-sho-vol6",
         "dainichikyo-sho-vol7",
@@ -727,6 +742,7 @@
         "dainichikyo-sho-vol14": 10,
         "dainichikyo-sho-vol16": 8,
         "dainichikyo-sho-vol19": 1,
+        "dainichikyo-sho-vol20": 9,
         "hotsubodaishinron-sho-vol3": 7,
         "hotsubodaishinron-sho-vol4": 5,
         "hotsubodaishinron-sho-vol2": 7,
@@ -745,8 +761,8 @@
     },
     {
       "jukugo": "遮那",
-      "total_occurrence_count": 450,
-      "covered_corpora_count": 38,
+      "total_occurrence_count": 462,
+      "covered_corpora_count": 39,
       "covered_corpora": [
         "bodaishinron",
         "dainichikyo-sho-vol1",
@@ -761,6 +777,7 @@
         "dainichikyo-sho-vol18",
         "dainichikyo-sho-vol19",
         "dainichikyo-sho-vol2",
+        "dainichikyo-sho-vol20",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
@@ -818,6 +835,7 @@
         "dainichikyo-sho-vol17": 10,
         "dainichikyo-sho-vol18": 7,
         "dainichikyo-sho-vol19": 8,
+        "dainichikyo-sho-vol20": 12,
         "hotsubodaishinron-sho-vol3": 3,
         "hotsubodaishinron-sho-vol4": 4,
         "hotsubodaishinron-sho-vol2": 25,

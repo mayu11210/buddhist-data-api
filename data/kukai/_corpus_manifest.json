@@ -22,26 +22,26 @@
   "specialty_sections": "その著作固有の専門サブセクション名のリスト（吽字義 ji_gi 等。倉庫原則「データを限定しない」で温存）"
  },
  "summary": {
-  "total_files": 54,
+  "total_files": 55,
   "role_breakdown": {
-   "primary_corpus": 40,
+   "primary_corpus": 41,
    "auxiliary_meta": 1,
    "specialty_meta": 1,
    "excerpt_stub": 5
   },
-  "role_complete_files": 42,
-  "kakikudashi_present": 41,
-  "gendaigoyaku_present": 41,
-  "genten_present": 28,
+  "role_complete_files": 43,
+  "kakikudashi_present": 42,
+  "gendaigoyaku_present": 42,
+  "genten_present": 29,
   "with_specialty_sections": 5,
   "indexed_corpora": {
-   "terms": 43,
-   "citations": 43,
-   "kukai_works": 43,
-   "sanskrit": 43,
-   "kaimyo_jukugo": 43,
-   "persons": 43,
-   "places": 43
+   "terms": 44,
+   "citations": 44,
+   "kukai_works": 44,
+   "sanskrit": 44,
+   "kaimyo_jukugo": 44,
+   "persons": 44,
+   "places": 44
   }
  },
  "files": [
@@ -2737,6 +2737,58 @@
    }
   },
   {
+   "filename": "dainichikyo-sho-vol20.json",
+   "title": "大日経疏巻第二十",
+   "taisho_ref": "T1796 / vol.39（巻第二十）",
+   "role": "primary_corpus",
+   "type": "dict_paragraphs",
+   "data_status": {
+    "kaimyo_excerpt": false,
+    "kakikudashi": true,
+    "gendaigoyaku": true,
+    "genten": true,
+    "specialty_sections": []
+   },
+   "char_counts": {
+    "kakikudashi": 31914,
+    "gendaigoyaku": 40480,
+    "paragraphs": 90,
+    "genten": 17465
+   },
+   "role_complete": true,
+   "notes": "書き下しデータ化スキルで取込（Phase1）。善無畏口述・一行筆受『大毘盧遮那成仏神変加持経疏 巻第二十』。**T1796 全20巻の最終巻**。本巻は5品を収める＝(1)世出世護摩法品第二十七之余〔巻第十九 護摩法品の残り。外道（梵行）の事火＝邪護摩（縛羊/触穢/熟食/拝日月/息災増益除障攝召等の火神名）と、仏が成正覚の後に説く真慧の火十二種、火天の三摩地形、内護摩＝煩悩を薪・智慧を火として焚き浄菩提心を得る義、火爐の作法と三落叉的次第〕、(2)本尊三昧品第二十八〔諸尊の三種形＝字・印・形貌、各々有相無相/浄非浄の二、有相より無相へ引入、本尊と行者の感応（方諸・円鏡の喩）、本尊形を観じて自身を本尊身とす〕、(3)無相三昧品第二十九〔無相三昧の観法、想は身か心意かを尋ね身は業生にして草木瓦石に等しと観じ、語は空谷響・心は三世不可得と観じ、身口意の戯論を離れて真言実相を証し仏と住を同じくす〕、(4)世出世持誦品第三十〔秘密念誦の法、心念誦と出入息念誦を第一とし四種念誦、世間（有縁・字句）と出世間（意念誦・離文字）の持誦、三落叉＝三十万遍の数義と身語意の三相・三垢を除く見義、三句法門との相応、師に依らざる者の五無間の誡め〕、(5)囑累品第三十一〔経の付属（十世界微塵数の金剛菩薩）と不放逸の誡め、弟子の相を択ぶ義（観囑品）、大悲胎蔵漫荼羅の三句（菩提心因・大悲根・方便究竟）と中台八葉の配釈、諸尊の種子字と五転（金剛手嚩/蓮花尊娑/文殊麼）、一切の本尊は皆大日如来に帰す、百字輪の出入、北方阿閦は経の誤＝鼓音仏が正とする疏者の指摘で巻末〕。元 doc は6大ブロック（護摩法品之余 最大9,699字）。科文・話題境界で本文82段に段落化し、首題・撰号・品題（5品ぶん）の構造7段を加え、さらに囑累品の埋込画像 image1.png（悉曇種子字＝金剛手・蓮花尊・文殊の五転）を本文転記し1段（k080）を補入＝全90段（k001-k090）。**埋込画像の本文転記＝種字を割注〔悉曇 X〕化・読みは CBETA T1796_020 sd-gif の IAST に統一（ケンシン裁定・vol18 precedent）**。位置は囑累品『中台の如きは一切の本尊も亦たかくの如く説くべし』と『余の一切尊の種子の字も皆亦た…』の間。重複ブロックは検知されず（各本文ブロック内60字連続重複なし）。段落結合が原 doc 本文を完全再現する assert pass（image 補入除く）。割注の全角括弧は kakikudashi に温存・半角括弧は kk/gd とも不使用。現代語訳は butten-yasashii-yaku（品ごと分割サブエージェント・全段で書き下しスライス＝訳の1:1整合 assert）。genten 投入完了（CBETA 線上閱讀 T1796_020 を Chrome 経由取得・夾註33を〔〕化・lb 行番号872/noteAnchor64/note-link/校異除去・悉曇 IAST 半角括弧温存（22箇所＝va/sa/ma/ka系の五転 IAST）・gaiji 𦿔（U+26FD4）Unicode 温存・全文 UTF-16長17,473＋FNV-1a 2431520954 でブラウザ正本とバイト同一性照合・1400字×13チャンク per-chunk hash 一致・codepoint 17,472＝astral 𦿔 1字差・巻末に嘉保二年二月廿日 金剛峯寺奥院の写本奥書を含む・2026-06-25）。Phase2 横断索引化（44著作目）・Phase3 motif 抽出は後続（1巻あたり push 3回に集約）。",
+   "index_status": {
+    "terms": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol20_terms.json"
+    },
+    "citations": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol20_citations.json"
+    },
+    "kukai_works": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol20_kukai_works.json"
+    },
+    "sanskrit": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol20_sanskrit.json"
+    },
+    "kaimyo_jukugo": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol20_kaimyo.json"
+    },
+    "persons": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol20_persons.json"
+    },
+    "places": {
+     "present": true,
+     "file": "index_dainichikyo-sho-vol20_places.json"
+    }
+   }
+  },
+  {
    "filename": "hotsubodaishinron-sho-vol3.json",
    "title": "発菩提心論鈔 第三巻",
    "taisho_ref": "（注釈書・書き下し取込）",
@@ -3386,7 +3438,7 @@
   }
  },
  "aggregate_indices": {
-  "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。 2026-06-10 秘蔵記横断索引化で hizoki を 12 著作目として追加し 12 著作に拡張。 2026-06-12 瑜祇経横断索引化で yugikyo を 13 著作目として追加し 13 著作に拡張。 2026-06-15 理趣経横断索引化で rishikyo を 14 著作目として追加し 14 著作に拡張。 2026-06-15 理趣釈横断索引化で rishushaku を 15 著作目として追加し 15 著作に拡張。 2026-06-15 発菩提心論鈔横断索引化で hotsubodaishinron-sho-vol1 を 16 著作目として追加し 16 著作に拡張。 2026-06-17 大日経疏 巻第二横断索引化で dainichikyo-sho-vol2 を 17 著作目として追加し 17 著作に拡張。 2026-06-17 発菩提心論鈔 第三巻横断索引化で hotsubodaishinron-sho-vol3 を 18 著作目として追加し 18 著作に拡張。 2026-06-23 大日経疏 巻第十三横断索引化で dainichikyo-sho-vol13 を 37 著作目として追加し 37 著作に拡張（この更新で manifest 側 source_corpora/corpora_count の累積ドリフト〔vol9〜12 が未反映で 32 のままだった〕を生成済み集約ファイルの実体＝37 著作に同期し是正）。 2026-06-24 大日経疏 巻第十六横断索引化で dainichikyo-sho-vol16 を 40 著作目として追加し 40 著作に拡張。",
+  "description": "G2-E（2026-05-04）：性霊集 + dict 型 9 著作 = 10 著作横断の集約 index。per-corpus index がエンティティ別 occurrences の正本で、本ブロックの集約ファイル（data/mikkyou/index_<category>_all.json）は「各語が何著作・何回出現するか」のサマリで横断検索を高速化する。2026-05-04 候補 D で bodaishinron を 9 著作目として追加し 10 著作に拡張。 2026-05-31 十住心論マージで jujushinron を 11 著作目として追加し 11 著作に拡張。 2026-06-10 秘蔵記横断索引化で hizoki を 12 著作目として追加し 12 著作に拡張。 2026-06-12 瑜祇経横断索引化で yugikyo を 13 著作目として追加し 13 著作に拡張。 2026-06-15 理趣経横断索引化で rishikyo を 14 著作目として追加し 14 著作に拡張。 2026-06-15 理趣釈横断索引化で rishushaku を 15 著作目として追加し 15 著作に拡張。 2026-06-15 発菩提心論鈔横断索引化で hotsubodaishinron-sho-vol1 を 16 著作目として追加し 16 著作に拡張。 2026-06-17 大日経疏 巻第二横断索引化で dainichikyo-sho-vol2 を 17 著作目として追加し 17 著作に拡張。 2026-06-17 発菩提心論鈔 第三巻横断索引化で hotsubodaishinron-sho-vol3 を 18 著作目として追加し 18 著作に拡張。 2026-06-23 大日経疏 巻第十三横断索引化で dainichikyo-sho-vol13 を 37 著作目として追加し 37 著作に拡張（この更新で manifest 側 source_corpora/corpora_count の累積ドリフト〔vol9〜12 が未反映で 32 のままだった〕を生成済み集約ファイルの実体＝37 著作に同期し是正）。 2026-06-24 大日経疏 巻第十六横断索引化で dainichikyo-sho-vol16 を 40 著作目として追加し 40 著作に拡張。 2026-06-25 大日経疏 巻第二十横断索引化で dainichikyo-sho-vol20 を 44 著作目として追加し 44 著作に拡張。",
   "storage_dir": "data/mikkyou/",
   "naming_pattern": "index_<category>_all.json",
   "source_corpora": [
@@ -3432,9 +3484,10 @@
    "dainichikyo-sho-vol16",
    "dainichikyo-sho-vol17",
    "dainichikyo-sho-vol18",
-   "dainichikyo-sho-vol19"
+   "dainichikyo-sho-vol19",
+   "dainichikyo-sho-vol20"
   ],
-  "corpora_count": 43,
+  "corpora_count": 44,
   "files": {
    "terms": {
     "file": "index_terms_all.json",

@@ -39,6 +39,7 @@
     "dainichikyo-sho-vol17",
     "dainichikyo-sho-vol18",
     "dainichikyo-sho-vol19",
+    "dainichikyo-sho-vol20",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -49,14 +50,14 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 43,
-  "corpora_with_data": 43,
+  "corpora_count": 44,
+  "corpora_with_data": 44,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
     "unique_terms_total": 74,
-    "total_occurrences": 1277,
+    "total_occurrences": 1279,
     "terms_in_multiple_corpora": 47,
     "max_corpus_coverage": 26,
     "by_corpus": {
@@ -227,6 +228,11 @@
       },
       "dainichikyo-sho-vol19": {
         "unique": 2,
+        "occurrences": 2,
+        "present": true
+      },
+      "dainichikyo-sho-vol20": {
+        "unique": 1,
         "occurrences": 2,
         "present": true
       },
@@ -621,12 +627,13 @@
     },
     {
       "canonical": "周",
-      "total_occurrence_count": 50,
-      "covered_corpora_count": 14,
+      "total_occurrence_count": 52,
+      "covered_corpora_count": 15,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol11",
         "dainichikyo-sho-vol17",
+        "dainichikyo-sho-vol20",
         "dainichikyo-sho-vol3",
         "dainichikyo-sho-vol4",
         "dainichikyo-sho-vol5",
@@ -653,6 +660,7 @@
         "dainichikyo-sho-vol8": 8,
         "dainichikyo-sho-vol11": 1,
         "dainichikyo-sho-vol17": 2,
+        "dainichikyo-sho-vol20": 2,
         "hotsubodaishinron-sho-vol9": 1
       },
       "metadata": {

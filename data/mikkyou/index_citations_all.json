@@ -39,6 +39,7 @@
     "dainichikyo-sho-vol17",
     "dainichikyo-sho-vol18",
     "dainichikyo-sho-vol19",
+    "dainichikyo-sho-vol20",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -49,14 +50,14 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 43,
-  "corpora_with_data": 43,
+  "corpora_count": 44,
+  "corpora_with_data": 44,
   "missing_corpora": [],
   "term_key": "term",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 1211,
-    "total_occurrences": 3870,
+    "unique_terms_total": 1213,
+    "total_occurrences": 3875,
     "terms_in_multiple_corpora": 191,
     "max_corpus_coverage": 26,
     "by_corpus": {
@@ -228,6 +229,11 @@
       "dainichikyo-sho-vol19": {
         "unique": 6,
         "occurrences": 6,
+        "present": true
+      },
+      "dainichikyo-sho-vol20": {
+        "unique": 4,
+        "occurrences": 5,
         "present": true
       },
       "hotsubodaishinron-sho-vol3": {
@@ -1043,24 +1049,14 @@
       }
     },
     {
-      "term": "起世経",
-      "total_occurrence_count": 20,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "jujushinron"
-      ],
-      "by_corpus": {
-        "jujushinron": 20
-      }
-    },
-    {
       "term": "大般若経",
-      "total_occurrence_count": 19,
-      "covered_corpora_count": 8,
+      "total_occurrence_count": 21,
+      "covered_corpora_count": 9,
       "covered_corpora": [
         "dainichikyo-sho-vol1",
         "dainichikyo-sho-vol13",
         "dainichikyo-sho-vol19",
+        "dainichikyo-sho-vol20",
         "hannya-hiken",
         "hotsubodaishinron-sho-vol2",
         "jujushinron",
@@ -1075,7 +1071,19 @@
         "jujushinron": 2,
         "dainichikyo-sho-vol13": 1,
         "dainichikyo-sho-vol19": 1,
+        "dainichikyo-sho-vol20": 2,
         "hotsubodaishinron-sho-vol2": 1
+      }
+    },
+    {
+      "term": "起世経",
+      "total_occurrence_count": 20,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "jujushinron"
+      ],
+      "by_corpus": {
+        "jujushinron": 20
       }
     },
     {
@@ -2198,6 +2206,23 @@
       }
     },
     {
+      "term": "金剛頂",
+      "total_occurrence_count": 4,
+      "covered_corpora_count": 4,
+      "covered_corpora": [
+        "dainichikyo-sho-vol20",
+        "dainichikyo-sho-vol3",
+        "hotsubodaishinron-sho-vol3",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "dainichikyo-sho-vol3": 1,
+        "dainichikyo-sho-vol20": 1,
+        "hotsubodaishinron-sho-vol3": 1
+      }
+    },
+    {
       "term": "円覚経",
       "total_occurrence_count": 4,
       "covered_corpora_count": 3,
@@ -2701,21 +2726,6 @@
         "hotsubodaishinron-sho-vol1": 1,
         "dainichikyo-sho-vol5": 1,
         "hotsubodaishinron-sho-vol2": 1
-      }
-    },
-    {
-      "term": "金剛頂",
-      "total_occurrence_count": 3,
-      "covered_corpora_count": 3,
-      "covered_corpora": [
-        "dainichikyo-sho-vol3",
-        "hotsubodaishinron-sho-vol3",
-        "shoryoshu_miyasaka"
-      ],
-      "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "dainichikyo-sho-vol3": 1,
-        "hotsubodaishinron-sho-vol3": 1
       }
     },
     {
@@ -9755,6 +9765,17 @@
       }
     },
     {
+      "term": "摩訶毘盧遮那成菩提加持神変経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol20"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol20": 1
+      }
+    },
+    {
       "term": "摩訶般若波羅蜜多経",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -10082,6 +10103,17 @@
       ],
       "by_corpus": {
         "jujushinron": 1
+      }
+    },
+    {
+      "term": "普賢観経",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol20"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol20": 1
       }
     },
     {

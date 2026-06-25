@@ -39,6 +39,7 @@
     "dainichikyo-sho-vol17",
     "dainichikyo-sho-vol18",
     "dainichikyo-sho-vol19",
+    "dainichikyo-sho-vol20",
     "hotsubodaishinron-sho-vol3",
     "hotsubodaishinron-sho-vol4",
     "hotsubodaishinron-sho-vol2",
@@ -49,15 +50,15 @@
     "hotsubodaishinron-sho-vol9",
     "hotsubodaishinron-sho-vol10"
   ],
-  "corpora_count": 43,
-  "corpora_with_data": 43,
+  "corpora_count": 44,
+  "corpora_with_data": 44,
   "missing_corpora": [],
   "term_key": "canonical",
   "note": "詳細 occurrences は per-corpus index（index_<corpus>_<cat>.json）に格納。本ファイルはサマリ集約で「全著作横断のどの語が何著作で何回出現するか」を高速参照する。",
   "summary": {
-    "unique_terms_total": 1761,
-    "total_occurrences": 2710,
-    "terms_in_multiple_corpora": 151,
+    "unique_terms_total": 1766,
+    "total_occurrences": 2719,
+    "terms_in_multiple_corpora": 153,
     "max_corpus_coverage": 4,
     "by_corpus": {
       "shoryoshu_miyasaka": {
@@ -228,6 +229,11 @@
       "dainichikyo-sho-vol19": {
         "unique": 4,
         "occurrences": 4,
+        "present": true
+      },
+      "dainichikyo-sho-vol20": {
+        "unique": 9,
+        "occurrences": 9,
         "present": true
       },
       "hotsubodaishinron-sho-vol3": {
@@ -1887,6 +1893,42 @@
         "rishikyo": 1,
         "dainichikyo-sho-vol12": 1,
         "dainichikyo-sho-vol17": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
+      "canonical": "saṃ",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol17",
+        "dainichikyo-sho-vol20",
+        "hotsubodaishinron-sho-vol3"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol17": 1,
+        "dainichikyo-sho-vol20": 1,
+        "hotsubodaishinron-sho-vol3": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
+      "canonical": "vaṃ",
+      "total_occurrence_count": 3,
+      "covered_corpora_count": 3,
+      "covered_corpora": [
+        "dainichikyo-sho-vol17",
+        "dainichikyo-sho-vol20",
+        "shoryoshu_miyasaka"
+      ],
+      "by_corpus": {
+        "shoryoshu_miyasaka": 1,
+        "dainichikyo-sho-vol17": 1,
+        "dainichikyo-sho-vol20": 1
       },
       "metadata": {
         "has_diacritics": true
@@ -3553,16 +3595,16 @@
       }
     },
     {
-      "canonical": "saṃ",
+      "canonical": "saḥ",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
       "covered_corpora": [
         "dainichikyo-sho-vol17",
-        "hotsubodaishinron-sho-vol3"
+        "dainichikyo-sho-vol20"
       ],
       "by_corpus": {
         "dainichikyo-sho-vol17": 1,
-        "hotsubodaishinron-sho-vol3": 1
+        "dainichikyo-sho-vol20": 1
       },
       "metadata": {
         "has_diacritics": true
@@ -3601,16 +3643,16 @@
       }
     },
     {
-      "canonical": "vaṃ",
+      "canonical": "vaḥ",
       "total_occurrence_count": 2,
       "covered_corpora_count": 2,
       "covered_corpora": [
         "dainichikyo-sho-vol17",
-        "shoryoshu_miyasaka"
+        "dainichikyo-sho-vol20"
       ],
       "by_corpus": {
-        "shoryoshu_miyasaka": 1,
-        "dainichikyo-sho-vol17": 1
+        "dainichikyo-sho-vol17": 1,
+        "dainichikyo-sho-vol20": 1
       },
       "metadata": {
         "has_diacritics": true
@@ -15161,6 +15203,34 @@
       }
     },
     {
+      "canonical": "maḥ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol20"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol20": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
+      "canonical": "maṃ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol20"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol20": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
       "canonical": "maṇi",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -15421,6 +15491,20 @@
       ],
       "by_corpus": {
         "shoryoshu_miyasaka": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
+      "canonical": "māḥ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol20"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol20": 1
       },
       "metadata": {
         "has_diacritics": true
@@ -19515,20 +19599,6 @@
       }
     },
     {
-      "canonical": "saḥ",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "dainichikyo-sho-vol17"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol17": 1
-      },
-      "metadata": {
-        "has_diacritics": true
-      }
-    },
-    {
       "canonical": "saṃ-",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -20713,6 +20783,20 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
+      "canonical": "sāḥ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol20"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol20": 1
       },
       "metadata": {
         "has_diacritics": true
@@ -22455,20 +22539,6 @@
       }
     },
     {
-      "canonical": "vaḥ",
-      "total_occurrence_count": 1,
-      "covered_corpora_count": 1,
-      "covered_corpora": [
-        "dainichikyo-sho-vol17"
-      ],
-      "by_corpus": {
-        "dainichikyo-sho-vol17": 1
-      },
-      "metadata": {
-        "has_diacritics": true
-      }
-    },
-    {
       "canonical": "veda",
       "total_occurrence_count": 1,
       "covered_corpora_count": 1,
@@ -23541,6 +23611,20 @@
       ],
       "by_corpus": {
         "dainichikyo-sho-vol1": 1
+      },
+      "metadata": {
+        "has_diacritics": true
+      }
+    },
+    {
+      "canonical": "vāḥ",
+      "total_occurrence_count": 1,
+      "covered_corpora_count": 1,
+      "covered_corpora": [
+        "dainichikyo-sho-vol20"
+      ],
+      "by_corpus": {
+        "dainichikyo-sho-vol20": 1
       },
       "metadata": {
         "has_diacritics": true

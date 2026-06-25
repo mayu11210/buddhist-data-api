@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "category": "典故書名（citations・他者著作）",
+  "source_corpus": "dainichikyo-sho-vol20.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-25",
+  "extraction_pattern": "『([^『』]+?)』",
+  "canonicalization_dict_size": 22,
+  "exclude_dict_size": 1,
+  "kukai_works_dict_size": 20,
+  "gendaigoyaku_length": 40569,
+  "summary": {
+    "unique_terms": 4,
+    "total_occurrences": 5
+  },
+  "entries": [
+    {
+      "term": "大般若経",
+      "aliases": [],
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "〔出世間〕を取ることを勧めるのである。私〔注釈者〕に言えば、『大般若経』などの中にくわしく観心を洗滌〔あらい清める〕する事を説いてい",
+          "context_position": 16551,
+          "raw_form": "大般若経"
+        },
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "四大〔地水火風〕が、もし心を離れれば木石に同じだからである。『大般若経』に身念処〔身を観じる念処〕を観じる中に説くとおりである。目の",
+          "context_position": 17968,
+          "raw_form": "大般若経"
+        }
+      ]
+    },
+    {
+      "term": "摩訶毘盧遮那成菩提加持神変経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "たちは、仏の説を聞き終えて頂戴し受持した。こうしてすでに広く『摩訶毘盧遮那成菩提加持神変経』を説き終えた。先に三句〔菩提心・大悲・方便〕を問うたというの",
+          "context_position": 32507,
+          "raw_form": "摩訶毘盧遮那成菩提加持神変経"
+        }
+      ]
+    },
+    {
+      "term": "普賢観経",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "りの果〕に至ることはできない。だから最初に名を得たのである。『普賢観経』の次第のように、ついには毘盧遮那の遍一切処〔あらゆるところに",
+          "context_position": 33255,
+          "raw_form": "普賢観経"
+        }
+      ]
+    },
+    {
+      "term": "金剛頂",
+      "aliases": [],
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "、法身には自在の神変の加持がある。これは疑うに足りない。瑜伽『金剛頂』のなかで数百のたとえを引くとおりである。大本に広くその意が説",
+          "context_position": 38622,
+          "raw_form": "金剛頂"
+        }
+      ]
+    }
+  ]
+}

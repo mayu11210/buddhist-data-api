@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.1",
+  "category": "梵語 IAST 索引",
+  "source_corpus": "dainichikyo-sho-vol20.json",
+  "corpus_type": "dict",
+  "extraction_field": "gendaigoyaku",
+  "generated_at": "2026-06-25",
+  "extraction_strategy": "正規表現 IAST 抽出 + EXCLUDE_TOKENS 除外 + 小文字 canonical 集約",
+  "exclude_tokens_count": 14,
+  "alias_map_size": 0,
+  "gendaigoyaku_length": 40569,
+  "summary": {
+    "unique_terms": 9,
+    "unique_canonicals": 9,
+    "total_occurrences": 9,
+    "with_diacritics_count": 9,
+    "ascii_only_count": 0,
+    "multi_form_canonicals": 0
+  },
+  "entries": [
+    {
+      "canonical": "maḥ",
+      "representative_form": "maḥ",
+      "aliases": [
+        {
+          "form": "maḥ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "える。〔ma〕は菩提心、〔mā〕は行、〔maṃ〕は成菩提、〔maḥ〕は涅槃、〔māḥ〕は方便である。 ほかの一切の尊の種子の字",
+          "context_position": 35974,
+          "sanskrit_form": "maḥ"
+        }
+      ]
+    },
+    {
+      "canonical": "maṃ",
+      "representative_form": "maṃ",
+      "aliases": [
+        {
+          "form": "maṃ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "これもまた五義をそなえる。〔ma〕は菩提心、〔mā〕は行、〔maṃ〕は成菩提、〔maḥ〕は涅槃、〔māḥ〕は方便である。 ほか",
+          "context_position": 35964,
+          "sanskrit_form": "maṃ"
+        }
+      ]
+    },
+    {
+      "canonical": "māḥ",
+      "representative_form": "māḥ",
+      "aliases": [
+        {
+          "form": "māḥ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "提心、〔mā〕は行、〔maṃ〕は成菩提、〔maḥ〕は涅槃、〔māḥ〕は方便である。 ほかの一切の尊の種子の字も、みなまたこのと",
+          "context_position": 35983,
+          "sanskrit_form": "māḥ"
+        }
+      ]
+    },
+    {
+      "canonical": "saḥ",
+      "representative_form": "saḥ",
+      "aliases": [
+        {
+          "form": "saḥ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "る。娑〔sa〕は菩提心、〔sā〕は行、〔saṃ〕は成菩提、〔saḥ〕は涅槃、〔sāḥ〕は方便である。文殊〔もんじゅ〕は麼字〔m",
+          "context_position": 35893,
+          "sanskrit_form": "saḥ"
+        }
+      ]
+    },
+    {
+      "canonical": "saṃ",
+      "representative_form": "saṃ",
+      "aliases": [
+        {
+          "form": "saṃ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "も同じく五事をそなえる。娑〔sa〕は菩提心、〔sā〕は行、〔saṃ〕は成菩提、〔saḥ〕は涅槃、〔sāḥ〕は方便である。文殊〔",
+          "context_position": 35883,
+          "sanskrit_form": "saṃ"
+        }
+      ]
+    },
+    {
+      "canonical": "sāḥ",
+      "representative_form": "sāḥ",
+      "aliases": [
+        {
+          "form": "sāḥ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "提心、〔sā〕は行、〔saṃ〕は成菩提、〔saḥ〕は涅槃、〔sāḥ〕は方便である。文殊〔もんじゅ〕は麼字〔ma〕を種子とし、こ",
+          "context_position": 35902,
+          "sanskrit_form": "sāḥ"
+        }
+      ]
+    },
+    {
+      "canonical": "vaḥ",
+      "representative_form": "vaḥ",
+      "aliases": [
+        {
+          "form": "vaḥ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "は行〔修行〕、〔vaṃ〕は三菩提〔成菩提・正しいさとり〕、〔vaḥ〕は涅槃、〔vāḥ〕は方便である。方便を最後に置くというのは",
+          "context_position": 35788,
+          "sanskrit_form": "vaḥ"
+        }
+      ]
+    },
+    {
+      "canonical": "vaṃ",
+      "representative_form": "vaṃ",
+      "aliases": [
+        {
+          "form": "vaṃ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "ている。すなわち嚩〔va〕は菩提心、〔vā〕は行〔修行〕、〔vaṃ〕は三菩提〔成菩提・正しいさとり〕、〔vaḥ〕は涅槃、〔vā",
+          "context_position": 35766,
+          "sanskrit_form": "vaṃ"
+        }
+      ]
+    },
+    {
+      "canonical": "vāḥ",
+      "representative_form": "vāḥ",
+      "aliases": [
+        {
+          "form": "vāḥ",
+          "count": 1
+        }
+      ],
+      "alias_count": 1,
+      "has_diacritics": true,
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "corpus_id": "dainichikyo-sho-vol20",
+          "context": "aṃ〕は三菩提〔成菩提・正しいさとり〕、〔vaḥ〕は涅槃、〔vāḥ〕は方便である。方便を最後に置くというのは、まさにこの意味に",
+          "context_position": 35797,
+          "sanskrit_form": "vāḥ"
+        }
+      ]
+    }
+  ]
+}
