@@ -22,7 +22,7 @@
   "specialty_sections": "その著作固有の専門サブセクション名のリスト（吽字義 ji_gi 等。倉庫原則「データを限定しない」で温存）"
  },
  "summary": {
-  "total_files": 55,
+  "total_files": 56,
   "role_breakdown": {
    "primary_corpus": 41,
    "auxiliary_meta": 1,
@@ -3403,6 +3403,30 @@
      "subcategory_count": 1
     }
    }
+  },
+  {
+   "filename": "daichidoron.json",
+   "title": "大智度論（空海引用集）",
+   "taisho_ref": "T1509（大智度論・空海引用集）",
+   "role": "primary_corpus",
+   "type": "dict_paragraphs",
+   "data_status": {
+    "kaimyo_excerpt": false,
+    "kakikudashi": false,
+    "gendaigoyaku": false,
+    "genten": false,
+    "genten_unavailable_reason": "大正新脩大藏經 No.1509『大智度論』（CBETA T25n1509）。各段落の genten は、空海の引用に対応する『大智度論』本文（巻番号は空海の引用または学的同定による。T1509 原典との逐一校合は残課題）。",
+    "specialty_sections": [
+     "collection_type"
+    ]
+   },
+   "char_counts": {
+    "kakikudashi": 0,
+    "gendaigoyaku": 0,
+    "paragraphs": 4
+   },
+   "role_complete": false,
+   "notes": "弘法大師空海の真撰著作からの『大智度論』引用アンソロジー。各段落 genten（漢文・引用＋前後文脈、CBETA T25n1509 由来・計1375字）＋gendaigoyaku（現代語訳・計3024字）、kakikudashi 層なし（char_counts は top-level 集計のため0）。第1ラウンドは二教論・吽字義の逐語引用4件（巻5/9/27/38）。"
   }
  ],
  "index_definitions": {
