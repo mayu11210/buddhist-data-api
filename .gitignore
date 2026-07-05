@@ -24,6 +24,9 @@ node_modules/
 !/commit_push.bat
 !/commit_push_minimal.bat
 !/fix_index_force.bat
+# push4_sync_setsuwa.bat：setsuwa.json の kaimyo-app 同期ヘルパー（2026-07-05 追加・
+# GUARD＝HEAD コミット済＋count 40。push3_sync_kaimyo.bat は untracked 運用のまま）
+!/push4_sync_setsuwa.bat
 
 # コミットメッセージ（毎回書き換える一時ファイル）
 /commit_message*.txt

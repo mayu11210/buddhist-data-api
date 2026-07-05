@@ -90,6 +90,9 @@ rem ASCII-only block; do NOT add Japanese comments here (cmd.exe Shift-JIS).
 git add commit_push.bat
 git add commit_push_minimal.bat
 git add fix_index_force.bat
+rem 2026-07-05 added: stage setsuwa.json sync helper bat (push4).
+rem push3_sync_kaimyo.bat stays untracked (gitignore /*.bat policy).
+git add push4_sync_setsuwa.bat
 rem 2026-05-04 REMOVED: previously had `git add -u` to stage tracked-file
 rem deletions for archive moves. It caused a phantom deletion incident on
 rem 2026-05-03 (G2-A run) where Windows<->sandbox sync timing made existing
