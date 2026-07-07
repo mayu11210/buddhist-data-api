@@ -1,7 +1,7 @@
 # 経典説話ライブラリ タグ軸すり合わせ v1
 
 **作成**：2026-07-07
-**対象**：`data/indices/setsuwa.json`（40話・自然語タグ99種）
+**対象**：`data/indices/setsuwa.json`（41話・自然語タグ99種／schema 1.1）
 **関連**：`_dev_references/setsuwa_catalog_v1.md`（16軸暫定索引・v1 前身）／`data/indices/motifs.json`（文体モチーフ多軸索引・schema 0.2）／kaimyo-app `lib/setsuwa-picker.ts`
 **方針裁定**：ケンシン 2026-07-07 「B：16軸を統制化＋crosswalk」採用
 
@@ -141,3 +141,22 @@ setsuwa.json の各タグの所属軸。picker のキーワード辞書はこの
 - (c) 説話の追加拡充（忍耐・慈悲系の異伝、大智度論 k218-222 との相互参照）。拡充時は新タグを本20軸のいずれかへ割当し、被覆 100% を維持すること。20軸に収まらない新テーマが出た場合のみ軸を追加し、本ファイルを v2 に更新する。
 - (d) 新著作の取込（Phase 1〜）。
 - motifs 側 `人生像` 軸の本格運用が始まれば、A02/A04/A07/A09/A11/A13/A16 との接続を双方向に強化できる。
+
+---
+
+## 8. 大智度論との相互参照（v1.1・2026-07-07）
+
+残タスク (c) の一環として、setsuwa.json に `corpus_refs`（任意フィールド・schema 1.1）を導入した。setsuwa（現代語再話・genten なし・別系統資産）から、対応する漢訳原典 corpus（`daichidoron.json`）の段落・motif へ**片方向の参照**を持たせる（corpus 側は不変＝validate_corpus.py 非干渉）。フィールド構造は `{corpus, para, motif, note}`。
+
+大智度論 巻第四の本生譚（k218-222・m4230-m4234）との対応：
+
+| setsuwa | 説話 | ↔ 大智度論 | motif | 波羅蜜 |
+|---|---|---|---|---|
+| s009 | 尸毘王と鳩 | k218 | m4230 | 檀波羅蜜満（慈悲捨身） |
+| s011 | 忍辱仙人 | k221 | m4233 | 羼提波羅蜜（忍辱） |
+| s041 | 須陀須摩王の実語（新規） | k219 | m4231 | 尸羅波羅蜜満（持戒・実語） |
+
+- **新規追加**：s041 須陀須摩王（実語・約束を守る信義）。タグ＝誠実／正直／信念（既存99タグ内・新タグなし＝被覆99/99 維持・軸追加なし）。canon=tale。picker 回帰＝文書化5テーマは不変、s041 は「信義／約束／実語」系テーマで top pick 化を確認。
+- **見送り**：大智度論 k220 毒龍・k222 薩陀波崙は剝皮・売身など描写が凄惨で、葬送法話の穏やかなトーンに不適のため v1.1 では追加せず（相互参照も未付与）。将来テーマ次第で再検討。
+- corpus 側（daichidoron.json）への逆参照は付与しない（corpus 検証への非干渉・別系統原則）。逆引きは本表で代替。
+- kaimyo-app：`lib/warehouse.ts` に `SetsuwaCorpusRef` 型と `Setsuwa.corpus_refs?` を追加（picker は未使用・将来の出典明示用）。setsuwa.json 同期時に count guard を 40→41 に更新（push4_sync_setsuwa.bat）。
