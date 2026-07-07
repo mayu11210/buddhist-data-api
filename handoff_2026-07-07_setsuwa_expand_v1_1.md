@@ -60,6 +60,20 @@ v1.1 では追加せず・相互参照も未付与。将来テーマ次第で再
 - source.doc 2件（vol19/vol20_build）M 表示・kaimyo-app stale index.lock（bat 自動削除）も既知。
 - corpus_refs は setsuwa 側のみ（別系統資産・逆参照は spec §8 の表で代替）。
 
+## 検証追記（2026-07-07・後続セッション）
+
+未了だった **kaimyo-app ホスト側 tsc を確認済み＝型エラーなし（TSC_EXIT=0・診断0行）**。
+picker の SETSUWA_AXES エクスポート／warehouse.ts の SetsuwaCorpusRef 型・Setsuwa.corpus_refs?
+は committed HEAD 上でクリーンにパス（両 .ts が --listFiles でコンパイル対象入りも確認）。
+
+- kaimyo-app HEAD = **aee5a0c** 照合済（a3a1d11 は取りこぼし→再コミット是正の痕跡）
+- 手法：sandbox worktree の truncate phantom を回避するため、健全な git object から
+  `git archive HEAD` を /tmp（sandbox ローカル fs）へ展開し、full ロードされる node_modules を
+  symlink して `node_modules/.bin/tsc --noEmit -p tsconfig.json` を実行。これで EOF 誤検出を排除。
+- phantom 再現値（記録用）：sandbox worktree は picker=13408／warehouse=9700／setsuwa=46966 バイトに
+  truncate 表示、HEAD blob は 17935／10281／49280 で健全。git status の M 表示（.bat 群含む多数）も
+  同 truncate 由来の偽差分＝committed 内容に変更なし。
+
 ## 次にやること
 
 - (c) 追加拡充の余地：忍耐・慈悲系の穏やかな異伝（非大智度論）を厳選追加（被覆100%維持・
