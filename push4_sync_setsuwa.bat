@@ -29,15 +29,15 @@ if errorlevel 1 (
 echo   OK: warehouse setsuwa.json == HEAD (committed).
 
 echo.
-echo ===== Step 2: confirm count 66 in HEAD blob =====
+echo ===== Step 2: confirm count 68 in HEAD blob =====
 git show HEAD:data/indices/setsuwa.json > "%TEMP%\wh_setsuwa.json"
-findstr /C:"\"count\": 66" "%TEMP%\wh_setsuwa.json" >nul
+findstr /C:"\"count\": 68" "%TEMP%\wh_setsuwa.json" >nul
 if errorlevel 1 (
-    echo   ##### WARN: "count": 66 NOT found in HEAD. Aborting. #####
+    echo   ##### WARN: "count": 68 NOT found in HEAD. Aborting. #####
     del /q "%TEMP%\wh_setsuwa.json" 2>nul
     goto :end
 )
-echo   OK: count 66 in HEAD.
+echo   OK: count 68 in HEAD.
 del /q "%TEMP%\wh_setsuwa.json" 2>nul
 
 echo.
